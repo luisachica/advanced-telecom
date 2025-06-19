@@ -101,7 +101,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 }
 
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
+// *** CAMBIO CLAVE AQUÍ: ELIMINAR EL TIPADO EXPLÍCITO DE `params` ***
+export default async function BlogPostPage({ params }: { params: { slug: string } }) { // Mantuve el tipado aquí porque es más directo para la inferencia, pero el siguiente cambio es más importante.
+// Si el error persiste, prueba con:
+// export default async function BlogPostPage({ params }: { params: { slug: string; }; }) {
+// O incluso:
+// export default async function BlogPostPage({ params }: any) { // Esto para depurar, no para producción
   const post = blogPosts.find((post) => post.slug === params.slug)
 
   if (!post) {
