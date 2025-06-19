@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 14% 22%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 14% 22%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 14% 22%;
+
+    /* Nueva paleta de colores */
+    --primary: 191 100% 42%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 190 70% 95%;
+    --secondary-foreground: 222 14% 22%;
+
+    --accent: 191 100% 42%;
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 8% 56%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 191 100% 42%;
+
+    /* Colores específicos de texto */
+    --text-primary: 191 100% 42%;
+    --text-secondary: 206 75% 20%;
+
+    /* Colores adicionales */
+    --accent-green: 157 45% 68%;
+    --accent-blue: 206 75% 20%;
+    --accent-light: 190 70% 95%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222 14% 22%;
+    --foreground: 210 40% 98%;
+    --card: 222 14% 22%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 14% 22%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 191 100% 42%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 190 70% 10%;
+    --secondary-foreground: 0 0% 98%;
+
+    --accent: 191 100% 42%;
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 191 100% 42%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Clases personalizadas para la nueva paleta */
+.bg-primary-blue {
+  background-color: #0a3b5c;
+}
+
+.text-primary-blue {
+  color: #0a3b5c;
+}
+
+.bg-primary-turquoise {
+  background-color: #00b3d7;
+}
+
+.text-primary-turquoise {
+  color: #00b3d7;
+}
+
+.bg-accent-green {
+  background-color: #8ed1b7;
+}
+
+.text-accent-green {
+  color: #8ed1b7;
+}
+
+.bg-light-blue {
+  background-color: #e8f7fa;
+}
+
+.text-gray-blue {
+  color: #5a7184;
+}
+
+/* Quitar capitalización por defecto */
+button,
+.button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: none;
+}
