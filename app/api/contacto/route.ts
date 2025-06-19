@@ -25,7 +25,7 @@ export async function POST(request: Request) {
       from: "Contacto Limpiezas en Madrid <onboarding@resend.dev>",
       to: "lfchica94@gmail.com", // 👈 Reemplaza esto por tu email real
       subject: `Nuevo mensaje de contacto de ${nombre}`,
-      reply_to: email,
+      replyTo: email,
       html: `
   <h2>Nuevo mensaje desde el formulario</h2>
   <p><strong>Nombre:</strong> ${nombre}</p>
