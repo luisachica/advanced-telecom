@@ -9,15 +9,8 @@ import { MainNavigation } from "@/components/main-navigation"
 import { Footer } from "@/components/footer"
 import { BlogSidebar } from "@/components/blog/blog-sidebar"
 
-// Define la interfaz para los props del componente de página
-// Esto ayuda a TypeScript a entender la estructura esperada de los 'params'
-interface BlogPageProps {
-  params: {
-    slug: string;
-  };
-  // Si tu componente recibiera searchParams, también los definirías aquí:
-  // searchParams?: { [key: string]: string | string[] | undefined };
-}
+// Removed the explicit BlogPageProps interface here,
+// as the error suggested conflict with Next.js's internal PageProps.
 
 // Datos de ejemplo para los artículos del blog
 // Estos datos serán reemplazados por la conexión a WordPress Headless
@@ -94,8 +87,8 @@ const validateImagePath = (path: string | undefined | null): string => {
 }
 
 // Función para generar metadatos dinámicos basados en el slug
-// Ahora usa la interfaz BlogPageProps para tipar los parámetros
-export async function generateMetadata({ params }: BlogPageProps): Promise<Metadata> {
+// Se mantiene el tipado inline que funcionó previamente
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const post = blogPosts.find((post) => post.slug === params.slug)
 
   if (!post) {
@@ -112,10 +105,14 @@ export async function generateMetadata({ params }: BlogPageProps): Promise<Metad
   }
 }
 
-// El componente de página principal, ahora también usa la interfaz BlogPageProps
-// y es asíncrono como lo requiere Next.js 15 para Server Components
-export default async function BlogPostPage({ params }: BlogPageProps) {
-  const post = blogPosts.find((post) => post.slug === params.slug)
+// El componente de página principal, ahora asíncrono y sin tipado explícito de los props
+// para permitir que Next.js 15 infiera los tipos de PageProps correctamente.
+export default async function BlogPostPage({
+  params,
+}: {
+  params: { slug: string };
+}) {
+  const post = blogPosts.find((post) => post.slug === params.slug);
 
   if (!post) {
     return (
