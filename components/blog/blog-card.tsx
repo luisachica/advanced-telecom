@@ -2,6 +2,9 @@ import Image from "next/image"
 import Link from "next/link"
 import { Calendar, User } from "lucide-react"
 
+// 1. Importa el tipo de dato centralizado
+import type { PostFrontmatter } from "@/lib/posts"
+
 // Función para validar rutas de imágenes
 const validateImagePath = (path: string | undefined | null): string => {
   if (!path || path.trim() === "") {
@@ -10,21 +13,9 @@ const validateImagePath = (path: string | undefined | null): string => {
   return path
 }
 
-interface BlogPost {
-  id: number
-  title: string
-  slug: string
-  excerpt: string
-  content: string
-  featuredImage: string
-  date: string
-  author: string
-  category: string
-  tags: string[]
-}
-
+// 2. Define las props usando el tipo importado
 interface BlogCardProps {
-  post: BlogPost
+  post: PostFrontmatter
 }
 
 export function BlogCard({ post }: BlogCardProps) {
@@ -39,7 +30,7 @@ export function BlogCard({ post }: BlogCardProps) {
       <Link href={`/blog/${post.slug}`} className="block">
         <div className="relative h-48 overflow-hidden">
           <Image
-            src={validateImagePath(post.featuredImage) || "/placeholder.svg"}
+            src={validateImagePath(post.featuredImage)}
             alt={post.title}
             width={400}
             height={300}

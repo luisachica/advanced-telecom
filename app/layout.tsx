@@ -7,43 +7,53 @@ import type { Metadata } from "next"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Empresa de Limpiezas en Madrid | Servicios Profesionales de Limpieza",
+  title: "Empresa de limpiezas en Madrid | Servicios profesionales de limpieza",
   description:
     "Servicios profesionales de limpieza para empresas, oficinas y comunidades en toda la Comunidad de Madrid. Presupuesto sin compromiso en menos de 24 horas.",
   keywords:
     "limpieza madrid, servicio limpieza, limpieza oficinas, limpieza comunidades, limpieza fin de obra",
   authors: [{ name: "Limpiezas en Madrid" }],
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     nocache: true,
     googleBot: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
       noimageindex: true,
     },
   },
   alternates: {
-    canonical: "https://www.limpiezasenmadrid.com",
+    canonical: "https://www.limpiezasenmadrid.es",
   },
   openGraph: {
     type: "website",
     locale: "es_ES",
-    url: "https://www.limpiezasenmadrid.com",
-    title: "Empresa de Limpiezas en Madrid | Servicios Profesionales de Limpieza",
+    url: "https://www.limpiezasenmadrid.es",
+    title: "Empresa de limpiezas en Madrid | Servicios profesionales de limpieza",
     description:
       "Servicios profesionales de limpieza para empresas, oficinas y comunidades en toda la Comunidad de Madrid.",
     siteName: "Limpiezas en Madrid",
     images: [
       {
-        url: "/cleaning-logo.png",
+        url: "/Logo-limpiezas-en-madrid.png",
         width: 800,
         height: 600,
         alt: "Limpiezas en Madrid Logo",
       },
     ],
   },
+  // ✅ AQUÍ VA LA PROPIEDAD 'icons', DENTRO DEL OBJETO
+  icons: {
+    icon: '/favicon-limpiezas-en-madrid.png',
+  },
+
+   
+  verification: {
+    google: "tiWL_UNHnP1IAJwvnFHE-yW7Wgt4XHmWaHXGmqkCMRA",
+  },
 }
+
 
 export default function RootLayout({
   children,
@@ -52,10 +62,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" suppressHydrationWarning>
-      <head>
-        <meta name="robots" content="noindex, nofollow" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           {children}

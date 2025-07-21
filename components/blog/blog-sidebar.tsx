@@ -1,7 +1,10 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Search, Tag } from "lucide-react"
+
 import { Input } from "@/components/ui/input"
+// 1. Importa el tipo de dato centralizado
+import type { PostFrontmatter } from "@/lib/posts"
 
 // Función para validar rutas de imágenes
 const validateImagePath = (path: string | undefined | null): string => {
@@ -11,25 +14,13 @@ const validateImagePath = (path: string | undefined | null): string => {
   return path
 }
 
-interface BlogPost {
-  id: number
-  title: string
-  slug: string
-  excerpt: string
-  content: string
-  featuredImage: string
-  date: string
-  author: string
-  category: string
-  tags: string[]
-}
-
+// 2. Define las props que el componente espera, usando el tipo importado
 interface BlogSidebarProps {
-  posts: BlogPost[]
-  currentPostId?: number
+  posts: PostFrontmatter[]
+  currentPostSlug?: string // Se usa el slug en lugar del id
 }
 
-export function BlogSidebar({ posts, currentPostId }: BlogSidebarProps) {
+export function BlogSidebar({ posts, currentPostSlug }: BlogSidebarProps) {
   // Obtener categorías únicas
   const categories = Array.from(new Set(posts.map((post) => post.category)))
 
@@ -37,8 +28,10 @@ export function BlogSidebar({ posts, currentPostId }: BlogSidebarProps) {
   const allTags = posts.flatMap((post) => post.tags)
   const uniqueTags = Array.from(new Set(allTags))
 
-  // Filtrar posts populares (excluyendo el post actual si se proporciona)
-  const popularPosts = posts.filter((post) => !currentPostId || post.id !== currentPostId).slice(0, 4)
+  // 3. Filtra los posts populares usando el slug
+  const popularPosts = posts
+    .filter((post) => !currentPostSlug || post.slug !== currentPostSlug)
+    .slice(0, 4)
 
   return (
     <div className="space-y-8">
@@ -80,10 +73,10 @@ export function BlogSidebar({ posts, currentPostId }: BlogSidebarProps) {
         <h3 className="text-xl font-bold text-[#0a3b5c] mb-4">Artículos populares</h3>
         <div className="space-y-4">
           {popularPosts.map((post) => (
-            <Link key={post.id} href={`/blog/${post.slug}`} className="flex gap-3 group">
+            <Link key={post.slug} href={`/blog/${post.slug}`} className="flex gap-3 group">
               <div className="flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden">
                 <Image
-                  src={validateImagePath(post.featuredImage) || "/placeholder.svg"}
+                  src={validateImagePath(post.featuredImage)}
                   alt={post.title}
                   width={80}
                   height={80}

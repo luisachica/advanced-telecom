@@ -7,7 +7,7 @@ export default function WhatsappFloating() {
       rel="noopener noreferrer"
       className="fixed bottom-4 right-6 z-50"
     >
-      <img src="/whatsapp.png" alt="WhatsApp" className="w-20 h-20" />
+      <img src="/whatsapp.png" alt="WhatsApp" className="w-12 h-12" />
     </a>
   );
 }
