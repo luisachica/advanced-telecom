@@ -61,6 +61,8 @@ export const metadata: Metadata = {
   },
 };
 
+
+
 // Datos estructurados para Google (Schema.org)
 const localBusinessSchema = {
   "@context": "https://schema.org",
