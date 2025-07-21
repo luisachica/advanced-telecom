@@ -26,7 +26,7 @@ const serviceImages = {
   limpiezaComunidades: "/images/limpieza-comunidades.jpg",
   limpiezaOficinas: "/cheerful-office-cleaner.png", // Actualizado a la nueva imagen
   limpiezaEmpresas: "/images/limpieza-empresas.webp",
-  limpiezaCristales: "/images/limpieza-cristales.png",
+  limpiezaCristales: "/images/Limpieza-cristales.PNG",
   limpiezaGarajes: "/images/limpieza-garajes.webp",
 }
 
