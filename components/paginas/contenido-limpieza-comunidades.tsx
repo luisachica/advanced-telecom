@@ -3,6 +3,7 @@
 import type React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import WhatsappFloating from "../WhatsappFloating";
 import { Check, Star, Phone, ArrowRight, Clock, Shield, Sparkles, Users, ChevronDown, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { PhoneBanner } from "@/components/phone-banner";
@@ -264,7 +265,9 @@ export default function ContenidoLimpiezaComunidades({ data: serviceData }: { da
             </div>
           </div>
         </section>
+        <WhatsappFloating />
       </main>
+    
 
       <Footer />
     </div>

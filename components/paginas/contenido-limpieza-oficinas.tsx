@@ -4,7 +4,7 @@ import type React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Check, Star, Phone, ArrowRight, Clock, Shield, Sparkles, Users, ChevronDown, Briefcase } from "lucide-react";
-
+import WhatsappFloating from "../WhatsappFloating";
 import { Button } from "@/components/ui/button";
 import { PhoneBanner } from "@/components/phone-banner";
 import { MainNavigation } from "@/components/main-navigation";
@@ -273,6 +273,8 @@ export default function ContenidoLimpiezaOficinas({ data: serviceData }: { data:
             </div>
           </div>
         </section>
+        {/* WhatsApp Floating Button */}
+        <WhatsappFloating />
       </main>
       <Footer />
     </div>

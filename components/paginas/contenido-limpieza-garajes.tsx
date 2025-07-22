@@ -4,7 +4,7 @@ import type React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Check, Star, Phone, ArrowRight, Clock, Shield, Sparkles, Car, ChevronDown } from "lucide-react";
-
+import WhatsappFloating from "../WhatsappFloating";
 import { Button } from "@/components/ui/button";
 import { PhoneBanner } from "@/components/phone-banner";
 import { MainNavigation } from "@/components/main-navigation";
@@ -253,6 +253,7 @@ export default function ContenidoLimpiezaGarajes({ data: serviceData }: { data: 
             </div>
           </div>
         </section>
+        <WhatsappFloating />
       </main>
       <Footer />
     </div>

@@ -11,7 +11,7 @@ import { MainNavigation } from "@/components/main-navigation";
 import { Footer } from "@/components/footer";
 import { ContactForm } from "@/components/contact/contact-form";
 import { ServiciosRelacionados } from "@/components/ServiciosRelacionados";
-
+import WhatsappFloating from "../WhatsappFloating";
 // --- Mapeador de Íconos ---
 const iconMap = { Sparkles, Users, Clock, Shield, Building, Check, Star, Phone, ArrowRight, ChevronDown };
 const Icon = ({ name, ...props }: { name: keyof typeof iconMap; [key: string]: any }) => {
@@ -253,6 +253,8 @@ export default function ContenidoLimpiezaEmpresas({ data: serviceData }: { data:
             </div>
           </div>
         </section>
+        {/* WhatsApp Floating Button */}
+        <WhatsappFloating />
       </main>
       <Footer />
     </div>
