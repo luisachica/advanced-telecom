@@ -31,6 +31,7 @@ interface MainNavigationProps {
     iconName: string
     description: string
     link?: string
+    slug?: string
   }[]
 }
 
@@ -67,7 +68,10 @@ export function MainNavigation({ services = [] }: MainNavigationProps) {
   // Servicios de ejemplo para mostrar cuando no se proporcionan servicios
   const defaultServices =
     services.length > 0
-      ? services
+      ? services.map(service => ({
+          ...service,
+          link: service.link || service.slug || "#"
+        }))
       : [
           {
             title: "Antenas TDT",
@@ -162,7 +166,7 @@ export function MainNavigation({ services = [] }: MainNavigationProps) {
                   {defaultServices.map((service, index) => (
                     <Link
                       key={index}
-                      href={service.link || "#"}
+                      href={service.link || service.slug || "#"}
                       className="flex items-center gap-3 p-3 rounded-lg hover:bg-brand-green/10 transition-all duration-200"
                     >
                       <div className="bg-brand-green/10 p-2 rounded-lg text-brand-green">

@@ -19,6 +19,7 @@ interface MobileMenuProps {
     iconName: string
     description: string
     link?: string // Añadir propiedad opcional para el enlace
+    slug?: string // Añadir propiedad opcional para el slug
   }[]
   isOpen: boolean
   onClose: () => void
@@ -94,7 +95,7 @@ export function MobileMenu({ services = [], isOpen, onClose }: MobileMenuProps) 
                   {services.map((service, index) => (
                     <Link
                       key={index}
-                      href={service.link || "#"}
+                      href={service.link || service.slug || "#"}
                       className="flex items-center gap-3 p-3 rounded-lg hover:bg-brand-green/10 transition-all duration-200"
                       onClick={onClose}
                     >
