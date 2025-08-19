@@ -22,7 +22,7 @@ export async function POST(request: Request) {
 }
 
     const response = await resend.emails.send({
-      from: "Contacto Limpiezas en Madrid <onboarding@resend.dev>",
+      from: "Contacto Advanced Telecom Madrid <onboarding@resend.dev>",
       to: "lfchica94@gmail.com", // 👈 Reemplaza esto por tu email real
       subject: `Nuevo mensaje de contacto de ${nombre}`,
       replyTo: email,

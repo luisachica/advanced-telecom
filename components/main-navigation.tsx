@@ -13,12 +13,8 @@ import {
   ChevronDown, 
   Phone, 
   Menu, 
-  Info,
-  Building2,
-  Building,
-  Heart,
-  Glasses,
-  Car
+  Info
+
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { MobileMenu } from "@/components/mobile-menu"
@@ -73,43 +69,41 @@ export function MainNavigation({ services = [] }: MainNavigationProps) {
     services.length > 0
       ? services
       : [
-        {
-            title: "Fin de obra",
-            iconName: "Building2",
-            description: "Limpieza profesional para dejar tu obra impecable y libre de residuos.",
-            link: "/servicios/limpieza-fin-obra",
-          },
-
           {
-            title: "Limpieza de comunidades",
-            iconName: "Building",
-            description: "Limpieza profesional para mantener tu comunidad impecable y bien cuidada.",
-            link: "/servicios/limpieza-comunidades",
-          },
-
-          {
-            title: "Limpieza de oficinas",
-            iconName: "Briefcase",
-            description: "Servicios especializados para mantener tu espacio de trabajo limpio y organizado.",
-            link: "/servicios/limpieza-oficinas",
-          },
-           {
-            title: "Limpieza de empresas",
-            iconName: "Heart",
-            description: "Limpieza profesional de empresas.",
-            link: "/servicios/limpieza-empresas",
+            title: "Antenas TDT",
+            iconName: "Tv",
+            description: "Instalación y reparación de antenas TDT para una recepción óptima de señal.",
+            link: "/servicios/antenas-tdt",
           },
           {
-            title: "Limpieza de cristales",
-            iconName: "Glasses",
-            description: "Limpieza profesional de cristales para una imagen clara, luminosa y cuidada.",
-            link: "/servicios/limpieza-cristales",
+            title: "Antenas Parabólicas",
+            iconName: "Satellite",
+            description: "Instalación y orientación de antenas parabólicas para recepción de canales internacionales.",
+            link: "/servicios/antenas-parabolicas",
           },
           {
-            title: "Limpieza de garajes",
-            iconName: "Car",
-            description: "Limpieza profesional de garajes para un entorno limpio, seguro y bien mantenido.",
-            link: "/servicios/limpieza-garajes",
+            title: "Porteros Automáticos",
+            iconName: "DoorOpen",
+            description: "Instalación y reparación de porteros automáticos y videoporteros para mayor seguridad.",
+            link: "/servicios/porteros-automaticos",
+          },
+          {
+            title: "Cámaras de Seguridad",
+            iconName: "Shield",
+            description: "Sistemas de videovigilancia para proteger tu hogar o negocio.",
+            link: "/servicios/camaras-seguridad",
+          },
+          {
+            title: "Solución Interferencias 5G",
+            iconName: "Wifi",
+            description: "Eliminación de interferencias en la señal de televisión causadas por redes 4G/5G.",
+            link: "/servicios/solucion-interferencias-5g",
+          },
+          {
+            title: "Reparaciones Urgentes",
+            iconName: "Wrench",
+            description: "Servicio técnico urgente para solucionar problemas de telecomunicaciones.",
+            link: "/servicios/reparaciones-urgentes",
           },
         ]
 
@@ -119,31 +113,31 @@ export function MainNavigation({ services = [] }: MainNavigationProps) {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src={validateImageSrc("/Logo-limpiezas-en-madrid-.png") || "/placeholder.svg"}
-            alt="Limpiezas en Madrid Logo"
+            src={validateImageSrc("/logo-advanced-telecom-horizontal.png") || "/placeholder.svg"}
+            alt="Advanced Telecom Logo"
             width={300}
-            height={120}
-            className="h-20 w-auto"
+            height={80}
+            className="h-16 w-auto max-w-[300px] object-contain"
             priority
           />
         </Link>
 
         {/* Menú de navegación para escritorio */}
         <nav className="hidden lg:flex items-center">
-          <div className="flex items-center space-x-1">
+          <div className="flex items-center space-x-2 xl:space-x-4">
             <Link
               href="/"
-              className="flex items-center gap-2 px-4 py-2 rounded-lg text-[#0a3b5c] font-medium hover:bg-[#e8f7fa] hover:text-[#00b3d7] transition-all duration-200 border-b-2 border-transparent hover:border-[#00b3d7]"
+              className="flex items-center gap-1 px-3 py-2 rounded-lg text-brand-black font-medium hover:bg-brand-green/10 hover:text-brand-green transition-all duration-200 border-b-2 border-transparent hover:border-brand-green text-sm xl:text-base xl:px-4 xl:gap-2"
             >
-              <Home className="h-5 w-5" />
+              <Home className="h-4 w-4 xl:h-5 xl:w-5" />
               <span>Inicio</span>
             </Link>
 
             <Link
               href="/quienes-somos"
-              className="flex items-center gap-2 px-4 py-2 rounded-lg text-[#0a3b5c] font-medium hover:bg-[#e8f7fa] hover:text-[#00b3d7] transition-all duration-200 border-b-2 border-transparent hover:border-[#00b3d7]"
+              className="flex items-center gap-1 px-3 py-2 rounded-lg text-brand-black font-medium hover:bg-brand-green/10 hover:text-brand-green transition-all duration-200 border-b-2 border-transparent hover:border-brand-green text-sm xl:text-base xl:px-4 xl:gap-2"
             >
-              <Info className="h-5 w-5" />
+              <Info className="h-4 w-4 xl:h-5 xl:w-5" />
               <span>Quiénes Somos</span>
             </Link>
 
@@ -151,32 +145,32 @@ export function MainNavigation({ services = [] }: MainNavigationProps) {
               <button
                 ref={servicesButtonRef}
                 onClick={toggleServicesMenu}
-                className="flex items-center gap-2 px-4 py-2 rounded-lg text-[#0a3b5c] font-medium hover:bg-[#e8f7fa] hover:text-[#00b3d7] transition-all duration-200 border-b-2 border-transparent hover:border-[#00b3d7]"
+                className="flex items-center gap-1 px-3 py-2 rounded-lg text-brand-black font-medium hover:bg-brand-green/10 hover:text-brand-green transition-all duration-200 border-b-2 border-transparent hover:border-brand-green text-sm xl:text-base xl:px-4 xl:gap-2"
               >
-                <Briefcase className="h-5 w-5" />
-                <span>Servicios de limpieza</span>
+                <Briefcase className="h-4 w-4 xl:h-5 xl:w-5" />
+                <span>Servicios</span>
                 <ChevronDown
-                  className={`h-4 w-4 transition-transform duration-200 ${servicesMenuOpen ? "rotate-180" : ""}`}
+                  className={`h-3 w-3 xl:h-4 xl:w-4 transition-transform duration-200 ${servicesMenuOpen ? "rotate-180" : ""}`}
                 />
               </button>
 
               {servicesMenuOpen && (
                 <div
                   ref={servicesMenuRef}
-                  className="absolute left-0 mt-1 grid grid-cols-2 gap-2 bg-white shadow-xl rounded-xl p-6 min-w-[500px] border-t-2 border-[#00b3d7] transition-all duration-200 z-50"
+                  className="absolute left-0 mt-1 grid grid-cols-2 gap-2 bg-white shadow-xl rounded-xl p-6 min-w-[500px] border-t-2 border-brand-green transition-all duration-200 z-50"
                 >
                   {defaultServices.map((service, index) => (
                     <Link
                       key={index}
                       href={service.link || "#"}
-                      className="flex items-center gap-3 p-3 rounded-lg hover:bg-[#e8f7fa] transition-all duration-200"
+                      className="flex items-center gap-3 p-3 rounded-lg hover:bg-brand-green/10 transition-all duration-200"
                     >
-                      <div className="bg-[#e8f7fa] p-2 rounded-lg text-[#00b3d7]">
-  <ServiceIcon name={service.iconName as any} />
-</div>
+                      <div className="bg-brand-green/10 p-2 rounded-lg text-brand-green">
+                        <ServiceIcon name={service.iconName} />
+                      </div>
                       <div>
-                        <p className="font-medium text-[#0a3b5c]">{service.title}</p>
-                        <p className="text-xs text-[#5a7184] line-clamp-1">{service.description}</p>
+                        <p className="font-medium text-brand-black">{service.title}</p>
+                        <p className="text-xs text-brand-black-light line-clamp-1">{service.description}</p>
                       </div>
                     </Link>
                   ))}
@@ -186,33 +180,32 @@ export function MainNavigation({ services = [] }: MainNavigationProps) {
 
             <Link
               href="/blog"
-              className="flex items-center gap-2 px-4 py-2 rounded-lg text-[#0a3b5c] font-medium hover:bg-[#e8f7fa] hover:text-[#00b3d7] transition-all duration-200 border-b-2 border-transparent hover:border-[#00b3d7]"
+              className="flex items-center gap-1 px-3 py-2 rounded-lg text-brand-black font-medium hover:bg-brand-green/10 hover:text-brand-green transition-all duration-200 border-b-2 border-transparent hover:border-brand-green text-sm xl:text-base xl:px-4 xl:gap-2"
             >
-              <FileText className="h-5 w-5" />
+              <FileText className="h-4 w-4 xl:h-5 xl:w-5" />
               <span>Blog</span>
             </Link>
-
             <Link
               href="/contacto"
-              className="flex items-center gap-2 px-4 py-2 rounded-lg text-[#0a3b5c] font-medium hover:bg-[#e8f7fa] hover:text-[#00b3d7] transition-all duration-200 border-b-2 border-transparent hover:border-[#00b3d7]"
+              className="flex items-center gap-1 px-3 py-2 rounded-lg text-brand-black font-medium hover:bg-brand-green/10 hover:text-brand-green transition-all duration-200 border-b-2 border-transparent hover:border-brand-green text-sm xl:text-base xl:px-4 xl:gap-2"
             >
-              <MessageCircle className="h-5 w-5" />
+              <Phone className="h-4 w-4 xl:h-5 xl:w-5" />
               <span>Contacto</span>
             </Link>
           </div>
         </nav>
 
         <div className="flex items-center gap-4">
-          <a href="https://wa.me/34608305354?text=Hola%2C%20quiero%20más%20información" className="hidden md:block">
-            <Button className="flex bg-[#00b3d7] hover:bg-[#0095b3] text-white rounded-full px-6 py-2 shadow-md shadow-[#00b3d7]/20 transition-all duration-200 hover:translate-y-[-2px] normal-case">
-              <Phone className="h-4 w-4 mr-2" />
-              Solicitar un presupuesto
+          <a href="https://wa.me/34668838415?text=Hola%2C%20quiero%20más%20información%20sobre%20servicios%20de%20telecomunicaciones" className="hidden lg:block">
+            <Button className="flex items-center gap-1 bg-gray-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-gray-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 text-sm xl:text-base xl:px-6 xl:gap-2 border-2 border-gray-600 hover:border-gray-700">
+              <Phone className="h-4 w-4 xl:h-5 xl:w-5" />
+              Presupuesto Gratis
             </Button>
           </a>
 
           {/* Botón de menú móvil */}
           <button
-            className="lg:hidden text-[#0a3b5c] bg-[#e8f7fa] p-2 rounded-lg hover:bg-[#d0f0f7] transition-colors"
+            className="lg:hidden text-brand-black bg-brand-green/10 p-2 rounded-lg hover:bg-brand-green/20 transition-colors"
             onClick={() => setMobileMenuOpen(true)}
           >
             <Menu className="h-6 w-6" />

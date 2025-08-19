@@ -5,70 +5,70 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222 14% 22%;
+    --foreground: 0 0% 13%; /* Negro suave para texto */
     --card: 0 0% 100%;
-    --card-foreground: 222 14% 22%;
+    --card-foreground: 0 0% 13%;
     --popover: 0 0% 100%;
-    --popover-foreground: 222 14% 22%;
+    --popover-foreground: 0 0% 13%;
 
-    /* Nueva paleta de colores */
-    --primary: 191 100% 42%;
+    /* Nueva paleta de colores - Verde, Naranja, Negro */
+    --primary: 142 76% 36%; /* Verde principal */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 190 70% 95%;
-    --secondary-foreground: 222 14% 22%;
+    --secondary: 0 0% 96%; /* Gris claro para botones secundarios */
+    --secondary-foreground: 0 0% 13%;
 
-    --accent: 191 100% 42%;
+    --accent: 142 76% 36%; /* Verde para acentos */
     --accent-foreground: 0 0% 100%;
 
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 8% 56%;
+    --muted: 0 0% 96%; /* Gris muy claro */
+    --muted-foreground: 0 0% 45%; /* Gris medio */
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 191 100% 42%;
+    --border: 0 0% 91%; /* Bordes grises claros */
+    --input: 0 0% 91%;
+    --ring: 142 76% 36%; /* Verde para focus */
 
-    /* Colores específicos de texto */
-    --text-primary: 191 100% 42%;
-    --text-secondary: 206 75% 20%;
-
-    /* Colores adicionales */
-    --accent-green: 157 45% 68%;
-    --accent-blue: 206 75% 20%;
-    --accent-light: 190 70% 95%;
+    /* Colores personalizados del tema */
+    --brand-green: 142 76% 36%; /* #22c55e - Verde principal */
+    --brand-green-light: 142 69% 58%; /* Verde más claro */
+    --brand-green-dark: 142 84% 25%; /* Verde más oscuro */
+    
+    --brand-black: 210 22% 22%; /* #1a202c - Negro azulado oscuro más visible */
+    --brand-black-light: 0 0% 25%; /* Negro más claro */
+    --brand-gray: 0 0% 96%; /* Gris muy claro para fondos */
 
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 222 14% 22%;
-    --foreground: 210 40% 98%;
-    --card: 222 14% 22%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222 14% 22%;
-    --popover-foreground: 210 40% 98%;
+    --background: 0 0% 13%; /* Negro para fondo oscuro */
+    --foreground: 0 0% 98%; /* Blanco para texto */
+    --card: 0 0% 18%; /* Negro más claro para tarjetas */
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 18%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 191 100% 42%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 142 69% 58%; /* Verde más claro en modo oscuro */
+    --primary-foreground: 0 0% 13%;
 
-    --secondary: 190 70% 10%;
+    --secondary: 0 0% 18%; /* Gris oscuro para fondos secundarios */
     --secondary-foreground: 0 0% 98%;
 
-    --accent: 191 100% 42%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 142 69% 58%; /* Verde más claro en modo oscuro */
+    --accent-foreground: 0 0% 13%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 0 0% 18%; /* Gris oscuro */
+    --muted-foreground: 0 0% 65%; /* Gris medio claro */
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 191 100% 42%;
+    --border: 0 0% 25%; /* Bordes grises oscuros */
+    --input: 0 0% 25%;
+    --ring: 142 69% 58%; /* Verde claro para focus */
   }
 }
 
@@ -85,37 +85,62 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Clases personalizadas para la nueva paleta */
-.bg-primary-blue {
-  background-color: #0a3b5c;
+/* Clases personalizadas para la nueva paleta - Verde, Naranja, Negro */
+
+/* Colores principales */
+.bg-brand-green {
+  background-color: hsl(var(--brand-green));
 }
 
-.text-primary-blue {
-  color: #0a3b5c;
+.text-brand-green {
+  color: hsl(var(--brand-green));
 }
 
-.bg-primary-turquoise {
-  background-color: #00b3d7;
+.bg-brand-black {
+  background-color: hsl(var(--brand-black));
 }
 
-.text-primary-turquoise {
-  color: #00b3d7;
+.text-brand-black {
+  color: hsl(var(--brand-black));
 }
 
-.bg-accent-green {
-  background-color: #8ed1b7;
+/* Variaciones de verde */
+.bg-brand-green-light {
+  background-color: hsl(var(--brand-green-light));
 }
 
-.text-accent-green {
-  color: #8ed1b7;
+.text-brand-green-light {
+  color: hsl(var(--brand-green-light));
 }
 
-.bg-light-blue {
-  background-color: #e8f7fa;
+.bg-brand-green-dark {
+  background-color: hsl(var(--brand-green-dark));
 }
 
-.text-gray-blue {
-  color: #5a7184;
+.text-brand-green-dark {
+  color: hsl(var(--brand-green-dark));
+}
+
+/* Variaciones de negro/gris */
+.bg-brand-black-light {
+  background-color: hsl(var(--brand-black-light));
+}
+
+.text-brand-black-light {
+  color: hsl(var(--brand-black-light));
+}
+
+.bg-brand-gray {
+  background-color: hsl(var(--brand-gray));
+}
+
+.text-brand-gray {
+  color: hsl(var(--brand-gray));
+}
+
+/* Gradientes */
+.bg-gradient-green-black {
+  background: linear-gradient(135deg, hsl(var(--brand-green)) 0%, hsl(var(--brand-black)) 100%);
 }
 
 /* Quitar capitalización por defecto */

@@ -2,10 +2,10 @@ export function SchemaMarkup() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "Limpiezas en Madrid",
-    image: "https://www.limpiezasenmadrid.com/cleaning-logo.png",
-    url: "https://www.limpiezasenmadrid.com",
-    telephone: "611174552",
+    name: "Advanced Telecom Madrid",
+    image: "https://advancedtelecom.es/telecom-logo.png",
+    url: "https://advancedtelecom.es",
+    telephone: "+34668838415",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Calle Principal 123",
@@ -25,21 +25,21 @@ export function SchemaMarkup() {
       closes: "18:00",
     },
     sameAs: [
-      "https://www.facebook.com/limpiezasenmadrid",
-      "https://www.instagram.com/limpiezasenmadrid",
-      "https://twitter.com/limpiezasmadrid",
+      "https://www.facebook.com/advancedtelecom",
+      "https://www.instagram.com/advancedtelecom",
+      "https://twitter.com/advancedtelecom",
     ],
     priceRange: "€€",
-    servesCuisine: "Servicios de limpieza",
+    servesCuisine: "Servicios de telecomunicaciones",
   }
 
   const servicesSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    serviceType: "Servicios de limpieza",
+    serviceType: "Servicios de telecomunicaciones",
     provider: {
       "@type": "LocalBusiness",
-      name: "Limpiezas en Madrid",
+      name: "Advanced Telecom Madrid",
     },
     areaServed: {
       "@type": "City",
@@ -47,34 +47,34 @@ export function SchemaMarkup() {
     },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Servicios de limpieza",
+      name: "Servicios de telecomunicaciones",
       itemListElement: [
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Limpieza de hogar",
+            name: "Instalación de antenas parabólicas",
           },
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Limpieza de oficinas",
+            name: "Instalación de cámaras de seguridad",
           },
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Limpieza de comunidades",
+            name: "Instalación de porteros automáticos",
           },
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Limpieza fin de obra",
+            name: "Reparaciones urgentes de telecomunicaciones",
           },
         },
       ],

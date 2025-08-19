@@ -20,7 +20,7 @@ export function ContactInfo({
   link,
   bgColor,
   iconColor,
-  textColor = "text-[#0a3b5c]",
+  textColor = "text-brand-black",
 }: ContactInfoProps) {
   return (
     <div className={`${bgColor} rounded-xl p-7 shadow-lg transition-transform hover:-translate-y-1`}>
@@ -33,7 +33,7 @@ export function ContactInfo({
           </p>
           <Link
             href={link}
-            className={`font-medium text-base break-all hover:underline ${textColor === "text-white" ? "text-white" : "text-[#00b3d7]"}`}
+            className={`font-medium text-base break-all hover:underline ${textColor === "text-white" ? "text-white" : "text-green-600"}`}
           >
             {contact}
           </Link>

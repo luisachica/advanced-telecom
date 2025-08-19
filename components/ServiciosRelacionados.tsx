@@ -18,7 +18,7 @@ export function ServiciosRelacionados({ actualSlug }: { actualSlug: string }) {
 
   return (
     <section className="py-16">
-      <h3 className="text-2xl font-bold text-[#0a3b5c] mb-8">Servicios relacionados</h3>
+      <h3 className="text-2xl font-bold text-brand-black mb-8">Servicios relacionados</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {relacionados.map((serv: Servicio) => (
           <ServiceCard

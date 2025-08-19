@@ -2,11 +2,14 @@ import type React from "react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Servicios de Limpieza Profesional en Madrid | Limpiezas en Madrid",
+  title: "Servicios de Telecomunicaciones | Advanced Telecom Madrid",
   description:
-    "Descubre nuestros servicios profesionales de limpieza para hogares, oficinas, comunidades y más en toda la Comunidad de Madrid.",
+    "Servicios profesionales de telecomunicaciones: antenas TDT, porteros automáticos, cámaras de seguridad y más en Madrid. Presupuesto sin compromiso.",
   keywords:
-    "servicios limpieza madrid, limpieza profesional, limpieza hogar, limpieza oficinas, limpieza comunidades, limpieza fin de obra",
+    "servicios telecomunicaciones madrid, antenas TDT, porteros automaticos, camaras seguridad, reparaciones urgentes, instalaciones telecomunicaciones",
+  alternates: {
+    canonical: "https://www.advancedtelecom.es/servicios",
+  },
 }
 
 export default function ServicesLayout({

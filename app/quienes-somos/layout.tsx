@@ -2,11 +2,11 @@ import type React from "react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Quiénes Somos | Empresa de Limpieza en Madrid",
+  title: "Quiénes Somos | Advanced Telecom Madrid",
   description:
-    "Conozca nuestra empresa de limpieza en Madrid con más de 10 años de experiencia. Servicios profesionales para hogares, oficinas y comunidades.",
+    "Conozca Advanced Telecom, empresa de telecomunicaciones en Madrid con más de 25 años de experiencia. Servicios especializados en antenas y porteros automáticos.",
   keywords:
-    "empresa limpieza madrid, quienes somos, servicios limpieza, experiencia limpieza, limpieza profesional madrid",
+    "empresa telecomunicaciones madrid, quienes somos, servicios telecomunicaciones, experiencia telecomunicaciones, antenas madrid, porteros automaticos madrid",
 }
 
 export default function QuienesSomosLayout({

@@ -7,12 +7,12 @@ import type { Metadata } from "next"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Empresa de limpiezas en Madrid | Servicios profesionales de limpieza",
+  title: "Advanced Telecom Madrid | Servicios de telecomunicaciones",
   description:
-    "Servicios profesionales de limpieza para empresas, oficinas y comunidades en toda la Comunidad de Madrid. Presupuesto sin compromiso en menos de 24 horas.",
+    "Servicios profesionales de telecomunicaciones en Madrid. Instalación de antenas, porteros automáticos y sistemas de seguridad. Presupuesto sin compromiso.",
   keywords:
-    "limpieza madrid, servicio limpieza, limpieza oficinas, limpieza comunidades, limpieza fin de obra",
-  authors: [{ name: "Limpiezas en Madrid" }],
+    "telecomunicaciones madrid, antenas TDT, antenas parabólicas, porteros automáticos, cámaras seguridad, interferencias 4G",
+  authors: [{ name: "Advanced Telecom" }],
   robots: {
     index: true,
     follow: true,
@@ -24,28 +24,28 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.limpiezasenmadrid.es",
+    canonical: "https://www.advancedtelecom.es",
   },
   openGraph: {
     type: "website",
     locale: "es_ES",
-    url: "https://www.limpiezasenmadrid.es",
-    title: "Empresa de limpiezas en Madrid | Servicios profesionales de limpieza",
+    url: "https://www.advancedtelecom.es",
+    title: "Advanced Telecom Madrid | Servicios de telecomunicaciones",
     description:
-      "Servicios profesionales de limpieza para empresas, oficinas y comunidades en toda la Comunidad de Madrid.",
-    siteName: "Limpiezas en Madrid",
+      "Servicios profesionales de telecomunicaciones en Madrid. Instalación de antenas, porteros automáticos y sistemas de seguridad.",
+    siteName: "Advanced Telecom",
     images: [
       {
-        url: "/Logo-limpiezas-en-madrid.png",
+        url: "/logo-advanced-telecom.jpg",
         width: 800,
         height: 600,
-        alt: "Limpiezas en Madrid Logo",
+        alt: "Advanced Telecom Logo",
       },
     ],
   },
   // ✅ AQUÍ VA LA PROPIEDAD 'icons', DENTRO DEL OBJETO
   icons: {
-    icon: '/favicon-limpiezas-en-madrid.png',
+    icon: '/favicon-advanced-telecom.png',
   },
 
    

@@ -2,11 +2,11 @@ import type React from "react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Contacto | Solicita Presupuesto | Limpiezas en Madrid",
+  title: "Contacto | Presupuesto | Advanced Telecom Madrid",
   description:
-    "Contacta con nuestro equipo de limpieza profesional en Madrid. Solicita un presupuesto sin compromiso para servicios de limpieza para hogares, oficinas y comunidades.",
+    "Contacta con nuestro equipo de telecomunicaciones en Madrid. Solicita presupuesto sin compromiso para antenas, cámaras de seguridad y porteros automáticos.",
   keywords:
-    "contacto limpieza madrid, presupuesto limpieza, teléfono empresa limpieza, email limpieza, dirección empresa limpieza",
+    "contacto telecomunicaciones madrid, presupuesto antenas, teléfono empresa telecomunicaciones, email telecomunicaciones, dirección empresa telecomunicaciones",
 }
 
 export default function ContactLayout({

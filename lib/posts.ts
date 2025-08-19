@@ -18,11 +18,11 @@ export function slugify(text: string): string {
 export type PostFrontmatter = {
   title: string;
   date: string;
-  excerpt: string;
+  description: string;
   author: string;
   category: string;
   tags: string[];
-  featuredImage: string;
+  image: string;
   slug: string;
 };
 

@@ -30,31 +30,31 @@ export function BlogCard({ post }: BlogCardProps) {
       <Link href={`/blog/${post.slug}`} className="block">
         <div className="relative h-48 overflow-hidden">
           <Image
-            src={validateImagePath(post.featuredImage)}
+            src={validateImagePath(post.image)}
             alt={post.title}
             width={400}
             height={300}
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
-          <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-medium text-[#00b3d7]">
+          <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-medium text-brand-green">
             {post.category}
           </div>
         </div>
       </Link>
       <div className="p-6">
         <Link href={`/blog/${post.slug}`} className="block">
-          <h3 className="text-xl font-bold text-[#0a3b5c] mb-2 group-hover:text-[#00b3d7] transition-colors">
+          <h3 className="text-xl font-bold text-brand-black mb-2 group-hover:text-brand-green transition-colors">
             {post.title}
           </h3>
         </Link>
-        <p className="text-[#5a7184] mb-4 line-clamp-3">{post.excerpt}</p>
-        <div className="flex flex-wrap items-center justify-between text-sm text-[#5a7184]">
+        <p className="text-brand-black-light mb-4 line-clamp-3">{post.excerpt}</p>
+        <div className="flex flex-wrap items-center justify-between text-sm text-brand-black-light">
           <div className="flex items-center gap-2">
-            <Calendar className="h-4 w-4 text-[#00b3d7]" />
+            <Calendar className="h-4 w-4 text-brand-green" />
             <span>{formattedDate}</span>
           </div>
           <div className="flex items-center gap-2">
-            <User className="h-4 w-4 text-[#00b3d7]" />
+            <User className="h-4 w-4 text-brand-green" />
             <span>{post.author}</span>
           </div>
         </div>

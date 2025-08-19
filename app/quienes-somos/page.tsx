@@ -9,54 +9,53 @@ import StructuredData from '@/components/StructuredData';
 const pageData = {
   slug: "quienes-somos",
   hero: {
-    title: "Conozca nuestra empresa",
-    subtitle: "Descubra por qué somos la empresa de limpieza preferida en Madrid, con más de 10 años de experiencia brindando servicios de calidad."
+    title: "Conozca Advanced Telecom",
+    subtitle: "Descubra por qué somos la empresa de telecomunicaciones preferida en Madrid, con más de 25 años de experiencia brindando servicios técnicos especializados."
   },
   mainContent: {
-    title: "Los mejores en servicios de limpieza",
-    quote: "Nuestro servicio de limpieza no teme a la competencia de Madrid, ya que somos simplemente los mejores!",
+    title: "Líderes en servicios de telecomunicaciones",
+    quote: "Advanced Telecom se posiciona como referente en Madrid por nuestra excelencia técnica y compromiso con la innovación tecnológica.",
     paragraphs: [
-      "Estamos listos para limpiar su casa, oficina, casa o almacén con una precisión asombrosa y aguda. Dejaremos sus instalaciones relucientes y con un aroma agradable y fresco.",
-      "De hecho, nuestra relación calidad / precio es tan constante, que nos permitió obtener fácilmente el estado del servicio de limpieza de casas favorito de la ciudad de Madrid. Durante años, nuestro equipo ha brindado un nivel incomparable de servicios de limpieza del hogar.",
-      "También es importante agregar, según su solicitud, y si la escala de una limpieza es lo suficientemente grande, incluso podemos organizar un viaje a Madrid.",
-      "Tenemos más de 10 años trabajando en este rubro, tenemos clientes tanto particulares como empresas, por eso tratamos de satisfacer al cliente en todo lo que nos pide y mantener la confianza."
+      "Somos especialistas en instalación y mantenimiento de sistemas de telecomunicaciones. Nuestro equipo técnico altamente cualificado garantiza soluciones precisas y duraderas para antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia.",
+      "Nuestra trayectoria de más de 25 años nos ha consolidado como la empresa de confianza en Madrid para servicios de telecomunicaciones. Trabajamos con las mejores marcas del sector como Televes, Johansson y Fermax, asegurando la máxima calidad en cada instalación.",
+      "Ofrecemos cobertura en Toledo y Madrid Sur, adaptándonos a las necesidades específicas de cada cliente, desde viviendas particulares hasta grandes comunidades de propietarios y empresas.",
+      "Con más de 25 años de experiencia en el sector, atendemos tanto a clientes particulares como empresariales, manteniendo siempre nuestro compromiso con la excelencia técnica y la satisfacción del cliente."
     ],
     images: [
-      { src: "/equipo-limpieza-optimizada.webp", alt: "Equipo de limpieza profesional" },
-      { src: "/images/limpieza-empresas.webp", alt: "Limpieza de empresas" },
-      { src: "/limpieza-oficinas-en-madrid.webp", alt: "Limpieza de oficinas" },
+      { src: "/images/telecom/empresa-advanced-telecom.jpg", alt: "Equipo técnico especializado" },
+      { src: "/images/telecom/antena-profesional.jpg", alt: "Instalaciones profesionales" },
+      { src: "/images/telecom/video-portero-02.jpg", alt: "Sistemas de comunicación" },
     ]
   },
   differentiators: {
-    title: "Cosas que nos diferencian de otras Empresas de Limpieza en Madrid",
-    subtitle: "Descubra por qué somos la opción preferida para servicios de limpieza en toda la Comunidad de Madrid.",
+    title: "Qué nos diferencia de otras empresas de telecomunicaciones en Madrid",
+    subtitle: "Descubra por qué Advanced Telecom es la opción preferida para servicios técnicos especializados en Toledo y Madrid Sur.",
     items: [
-      { iconName: "Clock", title: "01. Gran experiencia", text: "¡Con más de 10 años de experiencia, todos nuestros profesionales de limpieza están listos para mantener la suciedad fuera de su propiedad!" },
-      { iconName: "Shield", title: "02. Respetuoso del medio ambiente", text: "Todas nuestras herramientas y soluciones de limpieza que utilizamos están certificadas, son ecológicas y seguras de usar." },
-      { iconName: "Sparkles", title: "03. Gama de servicios", text: "Cualquier cosa que necesites limpiar, desde un apartamento o una casa hasta una oficina o incluso una nave industrial, ¡¡estamos a la altura!!" },
-      { iconName: "Users", title: "04. Precios competitivos", text: "Simplemente compare nuestros precios sorprendentemente bajos y las tasas alucinantes que tienen otras empresas de limpieza con sede en Madrid." }
+      { iconName: "Clock", title: "01. Experiencia consolidada", text: "Con más de 25 años de experiencia, nuestros técnicos especializados dominan las últimas tecnologías en telecomunicaciones y sistemas de comunicación." },
+      { iconName: "Shield", title: "02. Certificaciones oficiales", text: "Trabajamos exclusivamente con equipos certificados de marcas líderes como Televes, Johansson y Fermax, garantizando la máxima calidad y durabilidad." },
+      { iconName: "Sparkles", title: "03. Servicios integrales", text: "Desde antenas TDT y parabólicas hasta porteros automáticos y cámaras de seguridad, cubrimos todas sus necesidades de telecomunicaciones." },
+      { iconName: "Users", title: "04. Precios transparentes", text: "Ofrecemos presupuestos claros y competitivos, sin sorpresas. Compare nuestra relación calidad-precio con otras empresas del sector." }
     ]
   },
   gallery: {
-    title: "Servicios de limpieza en Madrid",
-    subtitle: "Algunos ejemplos de nuestros servicios de limpieza profesional en diferentes espacios.",
+    title: "Servicios de telecomunicaciones en Madrid",
+    subtitle: "Ejemplos de nuestras instalaciones y servicios técnicos especializados en diferentes entornos.",
     images: [
-      { src: "/limpieza-oficinas-en-madrid.webp", alt: "Limpieza de oficinas en Madrid" },
-      { src: "/images/fin-obra.jpg", alt: "Limpieza de obra" },
-      { src: "/images/limpieza-oficinas-general.webp", alt: "Limpieza de oficinas" },
-      { src: "/images/limpieza-comunidades.jpg", alt: "Limpieza de comunidades" },
-      { src: "/images/limpieza-empresas.webp", alt: "Limpieza de empresas" },
-      { src: "/images/maquinaria-limpieza-garajes.webp", alt: "Limpieza de garajes" },
-
+      { src: "/images/telecom/antena-tdt-instalacion-01.jpg", alt: "Instalación de antenas TDT en Madrid" },
+      { src: "/images/telecom/antena-parabolica.jpg", alt: "Instalación de antenas parabólicas" },
+      { src: "/images/telecom/portero-automatico-instalacion-01.jpg", alt: "Porteros automáticos" },
+      { src: "/images/telecom/camaras-seguridad.jpg", alt: "Sistemas de videovigilancia" },
+      { src: "/images/telecom/trabajo-antena-2024-04-01.jpg", alt: "Solución de interferencias" },
+      { src: "/images/telecom/reparacion-urgente-01.jpg", alt: "Reparaciones urgentes 24/7" },
     ]
   },
 };
 
 export const metadata: Metadata = {
-  title: "Quiénes somos | Empresa de Limpiezas en Madrid",
+  title: "Quiénes somos | Advanced Telecom - Empresa de Telecomunicaciones en Madrid",
   description: pageData.hero.subtitle,
   alternates: {
-    canonical: `https://www.limpiezasenmadrid.es/${pageData.slug}`,
+    canonical: `https://www.advancedtelecom.es/${pageData.slug}`,
   },
   robots: {
     index: true,
@@ -67,18 +66,27 @@ export const metadata: Metadata = {
 const aboutPageSchema = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
-  "name": "Quiénes Somos | Limpiezas en Madrid",
+  "name": "Quiénes Somos | Advanced Telecom",
   "description": pageData.mainContent.paragraphs.join(" "),
-  "url": `https://www.limpiezasenmadrid.es/${pageData.slug}`,
+  "url": `https://www.advancedtelecom.es/${pageData.slug}`,
 };
 
 const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Limpiezas en Madrid",
-    "url": "https://www.limpiezasenmadrid.es",
-    "logo": "https://www.limpiezasenmadrid.es/logo.png",
-    "description": pageData.hero.subtitle
+    "name": "Advanced Telecom",
+    "url": "https://www.advancedtelecom.es",
+    "logo": "https://advancedtelecom.es/logo-advanced-telecom.jpg",
+    "description": pageData.hero.subtitle,
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle Velázquez 59",
+      "addressLocality": "Madrid",
+      "postalCode": "28001",
+      "addressCountry": "ES"
+    },
+    "telephone": "+34668838415",
+    "email": "info@advancedtelecom.es"
 };
 
 export default function QuienesSomosPage() {

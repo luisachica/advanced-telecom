@@ -14,11 +14,11 @@ function SubmitButton() {
   return (
     <Button
       type="submit"
-      className="w-full bg-[#8ed1b7] text-[#0a3b5c] hover:bg-[#7bc0a6] font-bold text-lg py-6 rounded-xl shadow-lg shadow-[#8ed1b7]/20 normal-case"
+      className="w-full bg-brand-green text-white hover:bg-brand-green-dark font-semibold text-sm py-3 rounded-lg shadow-md shadow-brand-green/20 normal-case"
       disabled={pending}
     >
       {pending ? "Enviando..." : "Enviar mensaje"}
-      <ArrowRight className="ml-2 h-5 w-5" />
+      <ArrowRight className="ml-2 h-4 w-4" />
     </Button>
   )
 }
@@ -39,54 +39,54 @@ export function ContactForm() {
   }
 
   return (
-    <>
-      <p className="mb-8">
-        Rellena este formulario de contacto, o llámanos para hablar con nuestros agentes especializados.
+    <div className="bg-gray-100 p-3 rounded-xl">
+      <p className="mb-4 text-brand-black text-sm leading-tight">
+        Rellena este formulario de contacto, o llámanos para hablar con nuestros técnicos especializados en telecomunicaciones.
       </p>
 
-      <form action={clientAction} className="space-y-6">
-        <div className="grid grid-cols-2 gap-6">
+      <form action={clientAction} className="space-y-3">
+        <div className="grid grid-cols-2 gap-3">
           <div>
-            <label htmlFor="nombre" className="block text-sm font-medium mb-2">
+            <label htmlFor="nombre" className="block text-xs font-medium mb-1 text-brand-black">
               Nombre*
             </label>
             <Input
               name="nombre"
               required
-              className="bg-white/90 text-[#0a3b5c] border border-gray-300 focus-visible:ring-2 focus-visible:ring-white rounded-md"
+              className="bg-white text-brand-black border border-gray-300 focus-visible:ring-2 focus-visible:ring-brand-green rounded-md"
             />
           </div>
           <div>
-            <label htmlFor="apellidos" className="block text-sm font-medium mb-2">
+            <label htmlFor="apellidos" className="block text-xs font-medium mb-1 text-brand-black">
               Apellidos
             </label>
             <Input
               name="apellidos"
-              className="bg-white/90 text-[#0a3b5c] border border-gray-300 focus-visible:ring-2 focus-visible:ring-white rounded-md"
+              className="bg-white text-brand-black border border-gray-300 focus-visible:ring-2 focus-visible:ring-brand-green rounded-md"
             />
           </div>
         </div>
 
         <div>
-          <label htmlFor="email" className="block text-sm font-medium mb-2">
+          <label htmlFor="email" className="block text-xs font-medium mb-1 text-brand-black">
             Email*
           </label>
           <Input
             name="email"
             type="email"
             required
-            className="bg-white/90 text-[#0a3b5c] border border-gray-300 focus-visible:ring-2 focus-visible:ring-white rounded-md"
+            className="bg-white text-brand-black border border-gray-300 focus-visible:ring-2 focus-visible:ring-brand-green rounded-md"
           />
         </div>
 
         <div>
-          <label htmlFor="telefono" className="block text-sm font-medium mb-2">
+          <label htmlFor="telefono" className="block text-xs font-medium mb-1 text-brand-black">
             Teléfono*
           </label>
           <div className="flex">
             <select
               name="pais"
-              className="w-16 rounded-l-md border border-gray-300 bg-white/90 text-[#0a3b5c]"
+              className="w-16 rounded-l-md border border-gray-300 bg-white text-brand-black"
             >
               <option>ES</option>
             </select>
@@ -94,63 +94,66 @@ export function ContactForm() {
               name="telefono"
               type="tel"
               required
-              className="rounded-l-none bg-white/90 text-[#0a3b5c] border border-gray-300 focus-visible:ring-2 focus-visible:ring-white"
+              className="rounded-l-none bg-white text-brand-black border border-gray-300 focus-visible:ring-2 focus-visible:ring-brand-green"
             />
           </div>
         </div>
 
         <div>
-          <label htmlFor="servicio" className="block text-sm font-medium mb-2">
+          <label htmlFor="servicio" className="block text-xs font-medium mb-1 text-brand-black">
             ¿En qué podemos ayudarte?*
           </label>
           <select
             id="servicio"
             name="servicio"
-            className="w-full h-10 rounded-md border border-gray-300 bg-white/90 px-3 py-2 text-[#0a3b5c] focus-visible:ring-2 focus-visible:ring-white"
+            className="w-full h-10 rounded-md border border-gray-300 bg-white px-3 py-2 text-brand-black focus-visible:ring-2 focus-visible:ring-brand-green"
           >
             <option>Selecciona un servicio</option>
-            <option>Fin de obra</option>
-            <option>Limpieza de hogar</option>
-            <option>Limpieza de comunidades</option>
-            <option>Limpieza de oficinas</option>
-            <option>Limpieza de clínicas</option>
-            <option>Limpieza de cristales</option>
-            <option>Limpieza de garajes</option>
+            <option>Instalación de antenas TDT</option>
+            <option>Instalación de antenas parabólicas</option>
+            <option>Instalación de porteros automáticos</option>
+            <option>Instalación de cámaras de seguridad</option>
+            <option>Solución de interferencias 4G</option>
+            <option>Reparaciones urgentes</option>
+            <option>Mantenimiento de equipos</option>
+            <option>Consultoría técnica</option>
           </select>
         </div>
 
         <div>
-          <label htmlFor="mensaje" className="block text-sm font-medium mb-2">
+          <label htmlFor="mensaje" className="block text-xs font-medium mb-1 text-brand-black">
             ¿Podrías contarnos algo más?
           </label>
           <Textarea
             name="mensaje"
-            rows={4}
-            className="bg-white/90 text-[#0a3b5c] border border-gray-300 focus-visible:ring-2 focus-visible:ring-white"
+            rows={2}
+            className="bg-white text-brand-black border border-gray-300 focus-visible:ring-2 focus-visible:ring-brand-green resize-none"
           />
         </div>
 
-        <div className="flex items-start gap-3">
-          <input
-            type="checkbox"
-            name="politica"
-            required
-            className="mt-1 rounded border-0 text-[#8ed1b7] focus:ring-[#8ed1b7]"
-          />
-          <label htmlFor="politica" className="text-sm">
-            Acepto la política de privacidad con el fin de comercialización telefónica o electrónica futura.
-          </label>
-        </div>
+        <div className="space-y-2">
+          <div className="flex items-start gap-2">
+            <input
+              type="checkbox"
+              name="politica"
+              required
+              className="mt-0.5 rounded border-0 text-brand-green focus:ring-brand-green"
+            />
+            <label htmlFor="politica" className="text-xs text-brand-black">
+              Acepto la política de privacidad con el fin de comercialización telefónica o electrónica futura.
+            </label>
+          </div>
 
-        <div className="flex items-start gap-3">
-          <input
-            type="checkbox"
-            name="comunicaciones"
-            className="mt-1 rounded border-0 text-[#8ed1b7] focus:ring-[#8ed1b7]"
-          />
-          <label htmlFor="comunicaciones" className="text-sm">
-            Acepto la comunicación de mis datos personales a otras empresas del grupo para acciones promocionales.
-          </label>
+          <div className="flex items-start gap-2">
+            <input
+              type="checkbox"
+              name="comunicaciones"
+              className="mt-0.5 rounded border-0 text-brand-green focus:ring-brand-green"
+            />
+            <label htmlFor="comunicaciones" className="text-xs text-brand-black">
+              Acepto la comunicación de mis datos personales a otras empresas del grupo para acciones promocionales.
+            </label>
+          </div>
         </div>
 
         <SubmitButton />
@@ -158,6 +161,6 @@ export function ContactForm() {
         {estado === "ok" && <p className="text-green-600">✅ Mensaje enviado correctamente</p>}
         {estado === "error" && <p className="text-red-600">❌ {mensajeError}</p>}
       </form>
-    </>
+    </div>
   )
 }

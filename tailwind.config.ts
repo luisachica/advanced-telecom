@@ -53,36 +53,29 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Colores personalizados de la nueva paleta
-        coral: {
-          DEFAULT: "#FF6465",
-          light: "#FF8A8B",
-          dark: "#E55A5B",
+        // Colores personalizados - Verde, Negro
+        brand: {
+          green: {
+            DEFAULT: "hsl(var(--brand-green))",
+            light: "hsl(var(--brand-green-light))",
+            dark: "hsl(var(--brand-green-dark))",
+          },
+          black: {
+            DEFAULT: "hsl(var(--brand-black))",
+            light: "hsl(var(--brand-black-light))",
+          },
+          gray: "hsl(var(--brand-gray))",
         },
-        yellow: {
-          primary: "#FFCF33",
-          light: "#FFD95C",
-          dark: "#E6B800",
+        // Alias para facilidad de uso
+        green: {
+          brand: "hsl(var(--brand-green))",
+          "brand-light": "hsl(var(--brand-green-light))",
+          "brand-dark": "hsl(var(--brand-green-dark))",
         },
-        navy: {
-          DEFAULT: "#2D3142",
-          light: "#3D4258",
-          dark: "#1D212C",
-        },
-        purple: {
-          accent: "#5B5F97",
-          light: "#7175B0",
-          dark: "#484C7A",
-        },
-        gray: {
-          accent: "#66D6DDD",
-          light: "#E0E5EB",
-          dark: "#B8C4D0",
-        },
-        cream: {
-          DEFAULT: "#FAFAFF",
-          light: "#FFFFFF",
-          dark: "#F0F0F5",
+
+        black: {
+          brand: "hsl(var(--brand-black))",
+          "brand-light": "hsl(var(--brand-black-light))",
         },
       },
       borderRadius: {

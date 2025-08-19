@@ -13,47 +13,46 @@ const contactData = {
       iconName: "Phone",
       title: "Llámanos",
       description: "Nuestro equipo está disponible para atenderte",
-      contact: "611 174 552",
-      link: "tel:611174552",
+      contact: "668 83 84 15",
+      link: "tel:668838415",
     },
     {
       iconName: "Mail",
       title: "Escríbenos",
       description: "Te responderemos a la mayor brevedad",
-      contact: "contacto@limpiezasenmadrid.es",
-      link: "mailto:contacto@limpiezasenmadrid.es",
+      contact: "info@advancedtelecom.es",
+      link: "mailto:info@advancedtelecom.es",
     },
     {
       iconName: "MapPin",
-      title: "Visítanos",
-      description: "Nuestras oficinas en Madrid",
-      contact: "Calle Velázquez 59 – 28001 Madrid",
-      link: "https://maps.google.com/?q=Calle+Velazquez+59+28001+Madrid",
+      title: "Ubicación",
+      contact: "Ubicados en Toledo y Madrid Sur",
+      link: "https://maps.google.com/?q=Avenida+de+la+Tecnologia+25+28021+Madrid",
     },
   ],
   faqs: [
     {
       question: "¿Cómo puedo solicitar un presupuesto?",
-      answer: "Puedes solicitar un presupuesto sin compromiso a través de nuestro formulario de contacto, llamando al 611 174 552 o enviando un email a contacto@limpiezasenmadrid.es. Te responderemos en menos de 24 horas con un presupuesto personalizado."
+      answer: "Puedes solicitar un presupuesto sin compromiso a través de nuestro formulario de contacto, llamando al 668 83 84 15 o enviando un email a info@advancedtelecom.es. Te responderemos en menos de 24 horas con un presupuesto personalizado para tu instalación."
     },
     {
       question: "¿Cuál es el área geográfica que cubren vuestros servicios?",
-      answer: "Ofrecemos nuestros servicios de limpieza en toda la Comunidad de Madrid, incluyendo la capital y municipios cercanos. Si tienes dudas sobre si tu ubicación está dentro de nuestra área de servicio, no dudes en contactarnos."
+      answer: "Ofrecemos nuestros servicios de telecomunicaciones en Toledo y Madrid Sur, incluyendo todos los municipios de estas zonas. Realizamos instalaciones tanto en viviendas particulares como en comunidades y empresas."
     },
     {
-      question: "¿Proporcionáis los productos y equipos de limpieza?",
-      answer: "Sí, nosotros proporcionamos todos los productos y equipos necesarios para realizar el servicio de limpieza. Utilizamos productos profesionales de alta calidad y respetuosos con el medio ambiente. Si prefieres que utilicemos productos específicos, podemos adaptarnos a tus necesidades."
+      question: "¿Qué equipos y materiales utilizáis en las instalaciones?",
+      answer: "Utilizamos exclusivamente equipos certificados de marcas líderes como Televes, Johansson y Fermax. Todos nuestros materiales cumplen con las normativas europeas y ofrecemos garantía en todas las instalaciones. Nuestros técnicos están certificados y utilizan herramientas profesionales de última generación."
     }
   ]
 };
 
 // Metadatos para el <head> de la página
 export const metadata: Metadata = {
-  title: "Contacto | Solicita Presupuesto | Limpiezas en Madrid",
-  description: "Contacta con nuestro equipo de limpieza profesional en Madrid. Solicita un presupuesto sin compromiso para servicios de empresas, oficinas y comunidades.",
-  keywords: "contacto limpieza madrid, presupuesto limpieza, teléfono empresa limpieza, email limpieza, dirección empresa limpieza",
+  title: "Contacto | Solicita Presupuesto | Advanced Telecom Madrid",
+  description: "Contacta con nuestro equipo de telecomunicaciones profesional en Madrid. Solicita un presupuesto sin compromiso para antenas, porteros automáticos y sistemas de seguridad.",
+  keywords: "contacto telecomunicaciones madrid, presupuesto antenas, teléfono empresa telecomunicaciones, email telecomunicaciones, dirección empresa telecomunicaciones",
   alternates: {
-    canonical: "https://www.limpiezasenmadrid.es/contacto",
+    canonical: "https://www.advancedtelecom.es/contacto",
   },
   robots: {
     index: true,
@@ -67,18 +66,18 @@ export const metadata: Metadata = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Limpiezas en Madrid",
-  "image": "https://www.limpiezasenmadrid.es/logo.png",
-  "telephone": "+34611174552",
-  "email": "contacto@limpiezasenmadrid.es",
+  "name": "Advanced Telecom",
+  "image": "https://www.advancedtelecom.es/logo-advanced-telecom.jpg",
+  "telephone": "+34668838415",
+  "email": "info@advancedtelecom.es",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Calle Velázquez 59",
+    "streetAddress": "Avenida de la Tecnología 25",
     "addressLocality": "Madrid",
-    "postalCode": "28001",
+    "postalCode": "28021",
     "addressCountry": "ES"
   },
-  "url": "https://www.limpiezasenmadrid.es/contacto",
+  "url": "https://www.advancedtelecom.es/contacto",
 };
 
 const faqSchema = {

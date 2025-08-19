@@ -2,7 +2,7 @@
 export default function WhatsappFloating() {
   return (
     <a
-      href="https://wa.me/34608305354?text=Hola%2C%20quiero%20más%20información"
+      href="https://wa.me/34668838415?text=Hola%2C%20quiero%20más%20información"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-4 right-6 z-50"

@@ -5,45 +5,45 @@ import type { Servicio } from "@/types/servicio"
 export const SERVICIOS: Servicio[] = [
   
   {
-    title: "Limpieza de Oficinas",
-    slug: "limpieza-oficinas",
-    description: "Servicios especializados para mantener tu espacio de trabajo limpio y organizado.",
-    image: "/limpieza-oficinas-en-madrid.webp",
-    iconName: "Briefcase"
+    title: "Antenas TDT",
+    slug: "antenas-tdt",
+    description: "Instalación, reparación y mantenimiento de antenas de televisión digital terrestre (TDT) para recepción de canales HD y 4K. Servicio técnico especializado con reparaciones el mismo día.",
+    image: "/images/telecom/antena-tdt-instalacion-01.jpg",
+    iconName: "Radio"
   },
   {
-    title: "Limpieza de Comunidades",
-    slug: "limpieza-comunidades",
-    description: "Mantenimiento y limpieza de zonas comunes en comunidades de vecinos.",
-    image: "/images/limpieza-comunidades.jpg",
-    iconName: "Building"
+    title: "Antenas Parabólicas",
+    slug: "antenas-parabolicas",
+    description: "Instalación y configuración de antenas parabólicas para televisión satelital. Reorientación a diferentes satélites (Astra, Hispasat) y ajuste de señal para máxima calidad de recepción.",
+    image: "/images/telecom/antena-parabolica.jpg",
+    iconName: "Satellite"
   },
   {
-    title: "Limpieza Fin de Obra",
-    slug: "limpieza-fin-obra",
-    description: "Limpieza profesional tras finalizar obras de construcción o reformas.",
-    image: "/images/fin-obra.jpg",
-    iconName: "Building2"
+    title: "Porteros Automáticos",
+    slug: "porteros-automaticos",
+    description: "Instalación y reparación de sistemas de porteros automáticos, citófonos, telefonillos y videoporteros. Modernización de sistemas antiguos con tecnología digital.",
+    image: "/images/telecom/portero-automatico-instalacion-01.jpg",
+    iconName: "Phone"
   },
   {
-    title: "Limpieza de empresas",
-    slug: "limpieza-empresas",
-    description: "Limpieza profesional para empresas",
-    image: "/images/limpieza-empresas.webp",
-    iconName: "Heart"
+    title: "Cámaras de Seguridad",
+    slug: "camaras-seguridad",
+    description: "Instalación de sistemas de videovigilancia profesional para hogares y empresas. Cámaras IP de alta definición con acceso remoto y grabación en la nube.",
+    image: "/images/telecom/camaras-seguridad.jpg",
+    iconName: "Camera"
   },
   {
-    title: "Limpieza de Cristales",
-    slug: "limpieza-cristales",
-    description: "Servicio especializado para cristales y ventanas con resultados impecables.",
-    image: "/images/limpieza-cristales.png",
-    iconName: "Glasses"
+    title: "Solución Interferencias 5G",
+    slug: "solucion-interferencias-5g",
+    description: "Diagnóstico y solución de interferencias causadas por señales 5G en la recepción de televisión. Instalación de filtros especializados y reajuste de equipos.",
+    image: "/images/telecom/antena-profesional.jpg",
+    iconName: "Wifi"
   },
   {
-    title: "Limpieza de Garajes",
-    slug: "limpieza-garajes",
-    description: "Limpieza y mantenimiento de garajes comunitarios y parkings.",
-    image: "/images/limpieza-garajes.webp",
-    iconName: "Car"
+    title: "Reparaciones Urgentes",
+    slug: "reparaciones-urgentes",
+    description: "Servicio de reparaciones urgentes 24/7 para antenas caídas, amplificadores averiados, pérdida de señal y otros problemas técnicos. Respuesta rápida en toda Madrid.",
+    image: "/images/telecom/reparaciones-urgentes.jpg",
+    iconName: "Zap"
   },
 ]
