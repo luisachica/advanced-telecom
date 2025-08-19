@@ -145,6 +145,34 @@ export function Footer() {
             </div>
           </div>
         </div>
+        
+        {/* Sección del Ministerio */}
+        <div className="pt-6 mt-6">
+          <div className="flex flex-col lg:flex-row items-center gap-6">
+            <div className="flex-shrink-0">
+              <Image
+                src="/images/telecom/Antenista-Madrid-Logo-Ministerio-de-Energía-Turismo-y-Agenda-Digital.png"
+                alt="Logo Ministerio de Energía, Turismo y Agenda Digital"
+                width={380}
+                height={100}
+                className="h-auto w-auto max-w-full"
+              />
+            </div>
+            <div className="text-center lg:text-left">
+              <p className="text-gray-300 text-sm leading-relaxed">
+                Estamos Registrados en Telecomunicaciones y cumplimos con los requisitos del 
+                Reglamento aprobado por el Real Decreto 24/2010 de 5 de marzo (BOE de 
+                24/03/2010). Exija siempre el Número de Inscripción en el Registro de 
+                Telecomunicaciones para evitarse problemas y disponer de la garantía 
+                correspondiente.
+              </p>
+              <p className="text-gray-400 text-xs mt-2">
+                Antenistas Homologados en Toledo y Madrid Sur. Reparaciones en el día.
+              </p>
+            </div>
+          </div>
+        </div>
+        
         <div className="border-t border-white/10 pt-6 mt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
