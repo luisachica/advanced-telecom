@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# Bloquear el rastreo de todos los motores de búsqueda
+# Este archivo impide que los bots indexen el sitio web

@@ -86,7 +86,7 @@ export default function Home() {
                   <br />
                   telecomunicaciones
                   <br />
-                  desde 2003
+                  desde 1995
                 </h1>
                 <p className="text-brand-black text-lg max-w-lg">
                   Llevamos más de 25 años trabajando en el sector de las telecomunicaciones, ofreciendo instalación y reparación de antenas TDT, parabólicas, porteros automáticos y cámaras de vigilancia en Toledo y Madrid Sur.

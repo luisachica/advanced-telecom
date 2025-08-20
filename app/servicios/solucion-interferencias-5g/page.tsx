@@ -5,6 +5,16 @@ import { SERVICIOS } from "@/data/servicios";
 export const metadata: Metadata = {
   title: "Solución Interferencias 5G | Advanced Telecom",
   description: "Eliminamos las interferencias 5G en su señal de televisión. Servicio profesional de instalación de filtros LTE para recuperar la calidad.",
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
   alternates: {
     canonical: "https://www.advancedtelecom.es/servicios/solucion-interferencias-5g",
   },

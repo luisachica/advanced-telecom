@@ -7,6 +7,16 @@ export const metadata: Metadata = {
     "Conozca Advanced Telecom, empresa de telecomunicaciones en Madrid con más de 25 años de experiencia. Servicios especializados en antenas y porteros automáticos.",
   keywords:
     "empresa telecomunicaciones madrid, quienes somos, servicios telecomunicaciones, experiencia telecomunicaciones, antenas madrid, porteros automaticos madrid",
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
 }
 
 export default function QuienesSomosLayout({

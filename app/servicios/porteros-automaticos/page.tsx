@@ -43,6 +43,16 @@ const serviceData = {
 export const metadata: Metadata = {
   title: `${serviceData.title} | Advanced Telecom`,
   description: serviceData.description,
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
   alternates: {
     canonical: `https://www.advancedtelecom.es/${serviceData.slug}`,
   },

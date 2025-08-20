@@ -55,8 +55,14 @@ export const metadata: Metadata = {
     canonical: "https://www.advancedtelecom.es/contacto",
   },
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
   },
 };
 

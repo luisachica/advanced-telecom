@@ -5,6 +5,16 @@ import { SERVICIOS } from "@/data/servicios";
 export const metadata: Metadata = {
   title: "Cámaras de Seguridad | Advanced Telecom",
   description: "Instalación y mantenimiento de cámaras de seguridad para hogares y empresas. Sistemas de videovigilancia profesionales con tecnología avanzada.",
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
   alternates: {
     canonical: "https://www.advancedtelecom.es/servicios/camaras-seguridad",
   },

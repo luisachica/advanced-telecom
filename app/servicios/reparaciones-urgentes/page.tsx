@@ -5,6 +5,16 @@ import { SERVICIOS } from "@/data/servicios";
 export const metadata: Metadata = {
   title: "Reparaciones Urgentes | Advanced Telecom",
   description: "Servicio de reparaciones urgentes para telecomunicaciones. Solucionamos averías en antenas, porteros automáticos y sistemas de seguridad.",
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
   alternates: {
     canonical: "https://www.advancedtelecom.es/servicios/reparaciones-urgentes",
   },
