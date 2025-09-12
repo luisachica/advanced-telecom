@@ -9,7 +9,7 @@ import StructuredData from '@/components/StructuredData';
 const serviceData = {
   title: "Antenas Parabólicas",
   slug: "servicios/antenas-parabolicas",
-  description: "Instalación y reparación de antenas parabólicas en Madrid. Servicio técnico especializado con reorientaciones a diferentes satélites.",
+  description: "Instalación y reparación de antenas parabólicas en Madrid. Servicio técnico especializado con reorientaciones a satélites.",
   heroImage: "/images/antenas-parabolicas-madrid.webp",
   shortDescription: "Instalación y reparación de antenas parabólicas con reorientaciones a diferentes satélites.",
   longDescription: "Nuestro servicio de instalación y reparación de antenas parabólicas está diseñado para ofrecerle acceso a canales internacionales y contenido exclusivo vía satélite. Contamos con técnicos especializados que realizan instalaciones precisas y reorientaciones a diferentes satélites como Astra, Hispasat, Hotbird y más. Trabajamos con los mejores equipos para garantizar una recepción óptima de la señal satelital en cualquier condición.",

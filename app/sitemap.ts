@@ -3,6 +3,22 @@ import type { MetadataRoute } from "next"
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://advancedtelecom.es"
 
+  // Municipios principales
+  const municipios = [
+    'alameda-de-la-sagra',
+    'getafe',
+    'illescas',
+    'toledo',
+    'torrecastillo'
+  ]
+
+  const municipioUrls = municipios.map(municipio => ({
+    url: `${baseUrl}/antenista-${municipio}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }))
+
   return [
     {
       url: baseUrl,
@@ -34,5 +50,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.6,
     },
+    ...municipioUrls,
   ]
 }

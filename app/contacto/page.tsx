@@ -49,7 +49,7 @@ const contactData = {
 // Metadatos para el <head> de la página
 export const metadata: Metadata = {
   title: "Contacto | Solicita Presupuesto | Advanced Telecom Madrid",
-  description: "Contacta con nuestro equipo de telecomunicaciones profesional en Madrid. Solicita un presupuesto sin compromiso para antenas, porteros automáticos y sistemas de seguridad.",
+  description: "Contacta con nuestro equipo de telecomunicaciones en Madrid. Presupuesto sin compromiso para antenas, porteros automáticos y cámaras de seguridad.",
   keywords: "contacto telecomunicaciones madrid, presupuesto antenas, teléfono empresa telecomunicaciones, email telecomunicaciones, dirección empresa telecomunicaciones",
   alternates: {
     canonical: "https://www.advancedtelecom.es/contacto",

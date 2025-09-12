@@ -9,7 +9,7 @@ import StructuredData from '@/components/StructuredData';
 const serviceData = {
   title: "Porteros Automáticos",
   slug: "servicios/porteros-automaticos",
-  description: "Instalación y reparación de porteros automáticos, videoporteros y telefonillos en Madrid. Servicio técnico especializado con atención rápida.",
+  description: "Instalación y reparación de porteros automáticos, videoporteros y telefonillos en Madrid. Servicio técnico especializado.",
   heroImage: "/images/telecom/portero-automatico-instalacion-01.jpg",
   shortDescription: "Instalación y reparación de porteros automáticos, citófonos, telefonillos y vídeo porteros.",
   longDescription: "Nuestro servicio de instalación y reparación de porteros automáticos está diseñado para garantizar la seguridad y comodidad en el acceso a su vivienda o comunidad. Contamos con técnicos especializados que instalan y reparan todo tipo de sistemas: desde telefonillos básicos hasta modernos videoporteros con las últimas tecnologías. Trabajamos con las mejores marcas del mercado para asegurar la fiabilidad y durabilidad de cada instalación.",

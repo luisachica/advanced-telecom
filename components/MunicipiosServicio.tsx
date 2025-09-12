@@ -45,17 +45,33 @@ export function MunicipiosServicio({
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 max-w-7xl mx-auto">
-          {municipios.map((municipio, index) => (
-            <div 
-              key={index}
-              className="flex items-center gap-2 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 border border-gray-100"
-            >
-              <MapPin className="h-4 w-4 text-brand-green flex-shrink-0" />
-              <span className="text-brand-black text-sm font-medium">
-                {municipio}
-              </span>
-            </div>
-          ))}
+          {municipios.map((municipio, index) => {
+            // Convertir nombre del municipio a slug para la URL
+            const municipioSlug = municipio
+              .toLowerCase()
+              .replace(/\s+/g, '-')
+              .replace(/ñ/g, 'n')
+              .replace(/á/g, 'a')
+              .replace(/é/g, 'e')
+              .replace(/í/g, 'i')
+              .replace(/ó/g, 'o')
+              .replace(/ú/g, 'u')
+              .replace(/ü/g, 'u')
+              .replace(/[^a-z0-9-]/g, '');
+            
+            return (
+              <Link 
+                key={index}
+                href={`/antenista-${municipioSlug}`}
+                className="flex items-center gap-2 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 hover:border-brand-green group cursor-pointer"
+              >
+                <MapPin className="h-4 w-4 text-brand-green flex-shrink-0 group-hover:scale-110 transition-transform" />
+                <span className="text-brand-black text-sm font-medium group-hover:text-brand-green transition-colors">
+                  {municipio}
+                </span>
+              </Link>
+            );
+          })}
         </div>
         
         <div className="text-center mt-12">

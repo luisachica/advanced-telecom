@@ -83,7 +83,7 @@ export default function ServicesPage() {
       description={servicio.description}
       image={servicio.image}
       slug={servicio.slug}
-      iconName={servicio.iconName}
+      icon={servicio.iconName}
     />
   ))}
 </div>
