@@ -15,116 +15,114 @@ import { SERVICIOS } from "@/data/servicios";
 
 // Datos específicos del municipio
 const municipioData = {
-  nombre: "Aldea del Fresno",
-  slug: "aldea-del-fresno",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
-  codigoPostal: "28691",
-  poblacion: "2.847",
-  superficie: "47,8",
-  descripcion: "Antenista profesional en Aldea del Fresno especializado en instalaciones de telecomunicaciones. Servicios técnicos de calidad para este municipio madrileño.",
+  nombre: "Layos",
+  slug: "layos",
+  provincia: "Toledo",
+  comunidad: "Castilla-La Mancha",
+  codigoPostal: "45123",
+  poblacion: "398",
+  superficie: "54,2",
+  descripcion: "Tu experto en antenas y telecomunicaciones en Layos. Servicio técnico especializado para chalets y viviendas con soluciones a medida utilizando tecnología avanzada.",
   servicios: [
-    "Instalación de antenas TDT en Aldea del Fresno",
-    "Antenas parabólicas para zonas residenciales",
-    "Porteros automáticos y videoporteros",
-    "Sistemas de videovigilancia CCTV",
-    "Amplificadores de señal digital",
-    "Mantenimiento técnico especializado"
+    "Diagnóstico y optimización de TDT en Layos",
+    "Instalación de TV por satélite (parabólicas)",
+    "Sistemas avanzados de videoportero",
+    "Circuitos cerrados de TV (CCTV)",
+    "Filtros de rechazo de banda (5G)",
+    "Reparación de averías con diagnóstico preciso"
   ],
    serviciosDestacados: [
-    "Antenista TDT especializado",
-    "Instalaciones residenciales",
-    "Servicio técnico local"
+    "Especialistas en chalets",
+    "Tecnología avanzada",
+    "Soporte post-instalación"
   ],
 
   zonasCubiertas: [
-    "Casco urbano",
-    "Zona residencial",
-    "Área industrial",
-    "Urbanizaciones",
-    "Viviendas aisladas"
+    "El pueblo de Layos",
+    "Urbanizaciones del entorno del Golf",
+    "Residenciales y chalets de nueva construcción",
+    "Fincas y casas de campo"
   ],
 
   cobertura: [
-    { zona: "Casco urbano", disponible: true },
-    { zona: "Zona residencial", disponible: true },
-    { zona: "Área industrial", disponible: true },
-    { zona: "Urbanizaciones", disponible: true },
-    { zona: "Viviendas aisladas", disponible: true }
+    { zona: "El pueblo de Layos", disponible: true },
+    { zona: "Urbanizaciones del entorno del Golf", disponible: true },
+    { zona: "Residenciales y chalets de nueva construcción", disponible: true },
+    { zona: "Fincas y casas de campo", disponible: true }
   ],
 
   testimonios: [
     {
-      nombre: "Carmen López",
-      comentario: "El mejor antenista de Aldea del Fresno. Instalación perfecta y muy profesional.",
+      nombre: "Javier M.",
+      comentario: "Tenía un problema de señal muy complejo que otros no supieron solucionar. Vinieron con sus equipos de medición, encontraron el fallo exacto y lo arreglaron. Unos verdaderos profesionales.",
       puntuacion: 5
     },
     {
-      nombre: "Miguel Ángel Ruiz",
-      comentario: "Servicio técnico excelente. Resolvieron todos nuestros problemas de señal.",
+      nombre: "Beatriz S.",
+      comentario: "Quería instalar unas cámaras de seguridad en el chalet y el asesoramiento fue de diez. Me explicaron todo con detalle y la instalación fue muy limpia y discreta. Totalmente recomendables.",
       puntuacion: 5
     },
     {
-      nombre: "Isabel Martínez",
-      comentario: "Antenista muy recomendable en Aldea del Fresno. Trabajo impecable y garantizado.",
+      nombre: "Luis G.",
+      comentario: "Después de instalarme la parabólica, tuve una duda sobre cómo sintonizar unos canales. Les llamé y me guiaron por teléfono con mucha paciencia. Un servicio postventa excelente.",
       puntuacion: 5
     }
   ],
 
    caracteristicas: [
     {
-      titulo: "Antenista local especializado",
-      descripcion: "Conocimiento específico de Aldea del Fresno y sus necesidades técnicas",
-      icono: "Home"
+      titulo: "Equipos de última generación",
+      descripcion: "Usamos medidores de campo y herramientas profesionales para garantizar máxima precisión técnica",
+      icono: "Zap"
     },
     {
-      titulo: "Instalaciones de calidad",
-      descripcion: "Equipos profesionales y técnicas avanzadas para óptima recepción",
-      icono: "Signal"
+      titulo: "Materiales de alta durabilidad",
+      descripcion: "Componentes de las mejores marcas que resisten el tiempo y las inclemencias meteorológicas",
+      icono: "Shield"
     },
     {
-      titulo: "Atención personalizada",
-      descripcion: "Servicio directo y soluciones adaptadas a cada hogar en Aldea del Fresno",
+      titulo: "Soluciones 100% personalizadas",
+      descripcion: "Estudiamos tus necesidades y la arquitectura de tu vivienda para una solución a medida",
       icono: "Users"
     },
     {
-      titulo: "Garantía profesional",
-      descripcion: "Garantía completa en todas nuestras instalaciones y reparaciones",
-      icono: "Shield"
+      titulo: "Soporte post-instalación",
+      descripcion: "Te ofrecemos soporte y resolvemos tus dudas para que saques el máximo partido a tu sistema",
+      icono: "Phone"
     }
   ],
 
   faqs: [
     {
-      question: "¿Qué servicios de antenista ofrecen en Aldea del Fresno?",
-      answer: "Como antenista especializado en Aldea del Fresno, ofrecemos instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia con garantía completa."
+      question: "¿Qué es un amplificador de mástil y por qué lo recomendáis en chalets?",
+      answer: "Es un dispositivo que se instala junto a la antena para potenciar la señal antes de que se distribuya por la casa. En chalets con varias tomas de TV o cableado largo, es fundamental para asegurar que la señal llegue con fuerza a todas partes."
     },
     {
-      question: "¿Cuál es el mejor antenista en Aldea del Fresno?",
-      answer: "Somos antenistas profesionales con más de 25 años de experiencia en Aldea del Fresno. Ofrecemos servicio técnico especializado, garantía y atención personalizada."
+      question: "¿Puedo integrar el videoportero con mi móvil?",
+      answer: "Sí. Trabajamos con modelos de última generación que te permiten responder a la llamada del videoportero y abrir la puerta desde tu smartphone, estés donde estés, como si estuvieras en casa."
     },
     {
-      question: "¿Realizan instalaciones de antenas TDT en Aldea del Fresno?",
-      answer: "Sí, somos especialistas en instalaciones de antenas TDT en Aldea del Fresno. Utilizamos equipos de alta calidad y ofrecemos garantía en todas nuestras instalaciones."
+      question: "¿El cableado que usáis es para exterior? ¿Aguanta el sol y la lluvia?",
+      answer: "Por supuesto. Todo el cableado que instalamos en exteriores cuenta con protección contra los rayos ultravioleta (UV) y es totalmente estanco para resistir la lluvia y la humedad, garantizando una larga vida útil."
     },
     {
-      question: "¿Cuánto cuesta un antenista en Aldea del Fresno?",
-      answer: "Los precios varían según el tipo de instalación. Como antenista local en Aldea del Fresno, ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
+      question: "¿Qué diferencia hay entre una cámara de seguridad normal y una IP?",
+      answer: "Las cámaras IP se conectan a tu red de internet, lo que te permite ver las imágenes en tiempo real desde cualquier dispositivo (móvil, tablet, ordenador) y desde cualquier lugar del mundo."
     }
   ]
 }
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Aldea del Fresno | Advanced Telecom`,
-  description: `Antenistas en Aldea del Fresno. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
-  keywords: `antenista Aldea del Fresno, antenas TDT Aldea del Fresno, instalación antenas Madrid, reparación antenas Aldea del Fresno, telecomunicaciones Aldea del Fresno`,
+  title: `Antenista en Layos | Advanced Telecom`,
+  description: `📡 Tu antenista experto en Layos. Mejoramos la señal de tu TDT, instalamos parabólicas, videoporteros y CCTV en chalets. Garantía total. ¡Contacta ahora!`,
+  keywords: `antenista Layos, antenas TDT Layos, instalación antenas Toledo, reparación antenas Layos, telecomunicaciones Layos, videoporteros Layos, CCTV chalets Layos`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-en-aldea-del-fresno'
+    canonical: 'https://advanced-telecom.es/antenista-layos'
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 
@@ -156,7 +154,7 @@ const IconComponent = (iconName: string) => {
   return Icon ? <Icon className="h-6 w-6" /> : <MapPin className="h-6 w-6" />;
 };
 
-export default function AldeaDelFresnoPage() {
+export default function LayosPage() {
   return (
     <>
       <div className="flex flex-col min-h-screen">
@@ -164,7 +162,7 @@ export default function AldeaDelFresnoPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section específico de Torrecastillo */}
+          {/* Hero Section específico de Layos */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -175,25 +173,25 @@ export default function AldeaDelFresnoPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Aldea del Fresno</span>
+                    <span className="text-brand-green font-medium">{municipioData.nombre}</span>
                   </nav>
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      <span className="text-brand-green">Antenista</span> en Aldea del Fresno
+                      Tu experto en <span className="text-brand-green">antenas y telecomunicaciones</span> en {municipioData.nombre}
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Antenista profesional en Aldea del Fresno con más de 25 años de experiencia. Especialistas en instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia. Servicio técnico garantizado en todo el municipio madrileño.
+                      Para que disfrutes de tu chalet en {municipioData.nombre} con la mejor calidad de imagen y la máxima tranquilidad, te ofrecemos un servicio técnico especializado. Modernizamos tus sistemas de antena, comunicación y seguridad con soluciones a medida, utilizando la tecnología más avanzada para garantizar un resultado impecable y duradero.
                     </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Llamar ahora
+                      Llama para un asesoramiento
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
-                      Solicitar presupuesto
+                      Pide tu presupuesto
                     </Link>
                   </div>
                 </div>
@@ -214,12 +212,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-           {/* Cobertura específica de Aldea del Fresno */}
+           {/* Cobertura específica de Layos */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio técnico profesional disponible en todo el municipio madrileño</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Asistencia técnica en todo el término de {municipioData.nombre}</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Tanto si tu vivienda está en el pueblo como en las urbanizaciones cercanas al campo de golf, te garantizamos una cobertura total y un servicio de proximidad.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -228,8 +226,8 @@ export default function AldeaDelFresnoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Aldea del Fresno</h3>
-                      <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
+                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra área de servicio en {municipioData.nombre} incluye:</h3>
+                      <p className="text-brand-black-light">Cobertura completa en todo el municipio</p>
                     </div>
                   </div>
                  
@@ -245,7 +243,7 @@ export default function AldeaDelFresnoPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Tiempo de respuesta: Menos de 2 horas</span>
+                      <span>Atención de urgencias garantizada en menos de 2 horas</span>
                     </div>
                   </div>
                 </div>
@@ -253,12 +251,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Servicios especializados en Aldea del Fresno */}
+          {/* Servicios especializados en Layos */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades del municipio madrileño.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Un catálogo de servicios para tu confort y seguridad</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Te ofrecemos una gama completa de soluciones diseñadas para mejorar tu calidad de vida y proteger tu hogar en {municipioData.nombre}.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -275,12 +273,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Por qué elegir nuestros servicios en Aldea del Fresno */}
+          {/* Por qué elegir nuestros servicios en Layos */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir nuestro antenista en Aldea del Fresno?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalación</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestros pilares: tecnología, calidad y servicio</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra filosofía de trabajo se basa en ofrecerte lo mejor, desde el primer contacto hasta el soporte post-instalación.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -296,12 +294,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-         {/* Testimonios de clientes en Aldea del Fresno */}
+         {/* Testimonios de clientes en Layos */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Aldea del Fresno que confían en nuestros servicios</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La experiencia de tus vecinos de {municipioData.nombre} con nuestro servicio</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La mejor prueba de nuestro compromiso es la valoración de quienes ya disfrutan de nuestras soluciones.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -315,19 +313,19 @@ export default function AldeaDelFresnoPage() {
                     </div>
                     <p className="text-brand-black-light mb-4 italic">"{testimonio.comentario}"</p>
                     <div className="font-semibold text-brand-black">{testimonio.nombre}</div>
-                    <div className="text-sm text-brand-black-light">Cliente en Aldea del Fresno</div>
+                    <div className="text-sm text-brand-black-light">Cliente en {municipioData.nombre}</div>
                   </div>
                 ))}
               </div>
             </div>
           </section>
 
-          {/* FAQs específicas de Aldea del Fresno */}
+          {/* FAQs específicas de Layos */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más comunes sobre nuestros servicios de antenista en el municipio</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Damos respuesta a tus preguntas más técnicas</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos algunas de las dudas que podrías tener sobre nuestros servicios en {municipioData.nombre}.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -340,16 +338,16 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* CTA Section específica para Aldea del Fresno */}
+          {/* CTA Section específica para Layos */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Aldea del Fresno?</h2>
-                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Aldea del Fresno.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Listo para modernizar tu hogar en {municipioData.nombre}?</h2>
+                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para recibir un asesoramiento técnico y un presupuesto detallado sin compromiso. Mejora tu calidad de vida.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Layos" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>

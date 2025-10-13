@@ -225,7 +225,7 @@ export default function ArroyomolinosPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Instalamos su Antena TDT y Parabólica en Arroyomolinos</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Instalamos su antena TDT y parabólica en Arroyomolinos</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">¡NO COBRAMOS DESPLAZAMIENTO! En Advanced Telecom nos enorgullecemos de ofrecer a nuestros clientes un servicio de calidad, trabajando con las mejores marcas del mercado: Fermax, Tegui, Auta, Golmar y Comelit.</p>
               </div>
               <div className="max-w-4xl mx-auto">
@@ -235,7 +235,7 @@ export default function ArroyomolinosPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Arroyomolinos</h3>
+                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en Arroyomolinos</h3>
                       <p className="text-brand-black-light">Servicio de antenista homologado en todo el municipio</p>
                     </div>
                   </div>

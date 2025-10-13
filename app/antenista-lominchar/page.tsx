@@ -15,110 +15,110 @@ import { SERVICIOS } from "@/data/servicios";
 
 // Datos específicos del municipio
 const municipioData = {
-  nombre: "Seseña Nuevo",
-  slug: "sesena-nuevo",
+  nombre: "Lominchar",
+  slug: "lominchar",
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
-  codigoPostal: "45223",
-  poblacion: "26.000+",
-  superficie: "71,0",
-  descripcion: "Antenista profesional en Seseña Nuevo especializado en instalaciones y reparaciones de telecomunicaciones. Servicio rápido en Seseña Nuevo, Seseña Viejo, El Quiñón y Vallegrande.",
+  codigoPostal: "45910",
+  poblacion: "1.500",
+  superficie: "52,3",
+  descripcion: "Tu antenista de confianza aquí, en Lominchar. Si eres de Lominchar y necesitas un técnico que conozca el pueblo y te dé un servicio honesto y eficaz, no busques más. Solucionamos cualquier problema con tu televisión, portero automático o antena, con la cercanía, la rapidez y la garantía que te mereces como vecino.",
   servicios: [
-    "Instalación y reparación de antenas TDT en Seseña Nuevo",
-    "Instalación y orientación de antenas parabólicas y satélite",
-    "Actualización de porteros automáticos y videoporteros",
-    "Instalación de cámaras de seguridad CCTV",
-    "Solución de interferencias 5G/4G y filtros LTE",
-    "Reparaciones y mantenimiento de sistemas de telecomunicaciones"
+    "Arreglo de antenas TDT en Lominchar",
+    "Instalación de antenas parabólicas",
+    "Videoporteros para tu seguridad",
+    "Cámaras de vigilancia",
+    "Filtros para interferencias 5G",
+    "Reparaciones urgentes de antenas"
   ],
-  serviciosDestacados: [
-    "Diagnóstico experto TDT",
-    "Parabólicas y satélite",
-    "Servicio técnico local en Seseña"
+   serviciosDestacados: [
+    "Servicio local en Lominchar",
+    "Reparaciones urgentes",
+    "Presupuesto gratuito"
   ],
 
   zonasCubiertas: [
-    "Cobertura total en todo el núcleo de Seseña Nuevo.",
-    "Atención a comunidades de propietarios y viviendas unifamiliares.",
-    "Servicio en urbanizaciones y zonas residenciales cercanas.",
-    "También damos servicio en Seseña Viejo, El Quiñón y Vallegrande."
+    "El casco urbano del pueblo",
+    "Las zonas de chalets y nuevas viviendas",
+    "Fincas, naves y casas de campo del término",
+    "Cualquier calle o barrio de Lominchar"
   ],
 
   cobertura: [
-    { zona: "Cobertura total en todo el núcleo de Seseña Nuevo.", disponible: true }, 
-    { zona: "Atención a comunidades de propietarios y viviendas unifamiliares", disponible: true },
-    { zona: "Servicio en urbanizaciones y zonas residenciales cercanas", disponible: true },
-    { zona: "También damos servicio en Seseña Viejo, El Quiñón y Vallegrande", disponible: true }
+    { zona: "El casco urbano del pueblo", disponible: true },
+    { zona: "Las zonas de chalets y nuevas viviendas", disponible: true },
+    { zona: "Fincas, naves y casas de campo del término", disponible: true },
+    { zona: "Cualquier calle o barrio de Lominchar", disponible: true }
   ],
 
   testimonios: [
     {
-      nombre: "Presidente de comunidad en Seseña Nuevo",
-      comentario: "Teníamos un problema general de señal en todo el bloque. Vinieron, revisaron la instalación central y lo dejaron perfecto para todos los vecinos. Muy profesionales y organizados.",
+      nombre: "Javier G.",
+      comentario: "Les llamé a mediodía porque no veía la tele y por la tarde ya lo tenía arreglado. Un servicio rapidísimo y muy eficaz aquí en el pueblo. Totalmente recomendables.",
       puntuacion: 5
     },
     {
-      nombre: "Marta G., Residente en Seseña Nuevo",
-      comentario: "De repente, empecé a perder canales de la TDT. Les llamé, me explicaron que era por el 5G y me instalaron un filtro. Problema resuelto en menos de media hora. ¡Un alivio!",
+      nombre: "María José S.",
+      comentario: "Muy profesionales y majos. Me explicaron cuál era el problema de la antena y qué iban a hacer. Se agradece un trato tan claro y cercano.",
       puntuacion: 5
     },
     {
-      nombre: "Carlos P., Seseña Nuevo",
-      comentario: "Quería instalar una parabólica para ver canales de mi país y ellos se encargaron de todo. Una instalación muy rápida, limpia y el técnico fue muy amable. Funcionamiento perfecto.",
+      nombre: "Francisco T.",
+      comentario: "Les pedí presupuesto para instalar un videoportero en el chalet y me dieron el mejor precio de la zona. El trabajo quedó perfecto, muy limpios y cuidadosos.",
       puntuacion: 5
     }
   ],
 
    caracteristicas: [
     {
-      titulo: "Especialización en la zona",
-      descripcion: "Conocemos las infraestructuras de telecomunicaciones de Seseña Nuevo y sus alrededores como El Quiñón, lo que nos permite identificar y solucionar problemas con una eficacia y rapidez inigualables.",
-      icono: "Home"
-    },
-    {
-      titulo: "Equipos de alto rendimiento",
-      descripcion: "Utilizamos solo materiales de marcas reconocidas que garantizan una recepción óptima, una mayor resistencia a las condiciones meteorológicas y una larga vida útil para toda su instalación.",
-      icono: "Signal"
-    },
-    {
-      titulo: "Precios claros y competitivos",
-      descripcion: "Le ofrecemos un presupuesto cerrado y detallado antes de realizar cualquier intervención. Sin sorpresas, sin costes inesperados. Nuestra política es la máxima honestidad.",
+      titulo: "Somos del pueblo",
+      descripcion: "Te atendemos nosotros directamente, sin intermediarios ni centralitas. Conocemos Lominchar y a su gente, y eso se nota en el trato.",
       icono: "Users"
     },
     {
-      titulo: "Trabajo totalmente garantizado ",
-      descripcion: "Todas nuestras instalaciones y reparaciones están cubiertas por una garantía completa, que afecta tanto a las piezas y componentes como a la mano de obra realizada.",
+      titulo: "Trabajos bien hechos",
+      descripcion: "Nos gusta hacer las cosas bien a la primera, utilizando buenos materiales para que la reparación o la instalación te dure muchos años.",
+      icono: "CheckCircle"
+    },
+    {
+      titulo: "Precios justos y honestos",
+      descripcion: "Te damos un presupuesto claro y sin compromiso. Un precio de aquí, sin abusos ni sorpresas de última hora en la factura.",
       icono: "Shield"
+    },
+    {
+      titulo: "Tu satisfacción es lo primero",
+      descripcion: "Nuestro objetivo es que quedes contento con el trabajo y que nos recomiendes a tus vecinos. Esa es nuestra mejor publicidad.",
+      icono: "Star"
     }
   ],
 
   faqs: [
     {
-      question: "¿Se adaptan a mi horario para realizar la visita?",
-      answer: "Sí. Somos flexibles y siempre intentamos coordinar la cita en el horario que mejor le convenga, incluyendo las primeras horas de la tarde para facilitar la conciliación laboral y familiar."
+      question: "¿Merece la pena arreglar mi antena vieja o pongo una nueva?",
+      answer: "Depende del estado en que se encuentre. Siempre te daremos una opinión honesta. Si la antena está en buen estado y solo necesita un ajuste o una pieza nueva, te lo diremos. Si está muy deteriorada y va a seguir dando problemas, te recomendaremos cambiarla."
     },
     {
-      question: "¿Cómo puedo tener buena señal de TV en todas las habitaciones de casa?",
-      answer: "Mediante la instalación de un pequeño amplificador de vivienda y un distribuidor de señal, nos aseguramos de que la calidad de imagen sea perfecta y estable en cada una de las tomas de antena de su hogar."
+      question: "¿Cuánto tiempo tardáis en hacer una instalación normal?",
+      answer: "Una instalación estándar, como poner una antena nueva en una casa o un videoportero, solemos dejarla lista en una sola mañana o tarde, para que te quedes con todo funcionando el mismo día."
     },
     {
-      question: "¿Tiene algún coste que vengan a mi domicilio a darme un presupuesto?",
-      answer: "Ninguno. El desplazamiento a su domicilio en Seseña Nuevo para evaluar el trabajo y proporcionarle un presupuesto detallado y sin ningún compromiso es completamente gratuito."
+      question: "Si el problema es de la comunidad, ¿qué hago?",
+      answer: "Nosotros podemos hacer una medición en tu casa para confirmarlo. Si vemos que el fallo viene de la instalación comunitaria, te lo decimos para que puedas hablar con el presidente o administrador y que ellos nos contacten."
     },
     {
-      question: "¿Qué métodos de pago aceptan?",
-      answer: " Para su mayor comodidad, aceptamos pago en efectivo, con tarjeta de crédito/débito a través de TPV móvil y también mediante Bizum."  
+      question: "¿Tenéis garantía en las reparaciones?",
+      answer: "Sí, por supuesto. Todos nuestros trabajos, tanto las instalaciones nuevas como las reparaciones, cuentan con su correspondiente garantía por escrito, para que tengas total tranquilidad."
     }
   ]
 }
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Seseña Nuevo | Advanced Telecom`,
-  description: `Antenistas en Seseña Nuevo. Instalación y reparación de antenas TDT y parabólicas, videoporteros y CCTV. Seseña Viejo, El Quiñón y Vallegrande.`,
-  keywords: `antenista Seseña Nuevo, antenas TDT Seseña, instalación parabólicas Seseña, videoporteros Seseña, cámaras seguridad Seseña, reparación antenas Seseña`,
+  title: `Antenista en Lominchar | Advanced Telecom`,
+  description: `✅ Tu antenista de confianza en Lominchar. Arreglamos tu TDT, instalamos parabólicas y videoporteros. Presupuesto gratis y servicio local garantizado.`,
+  keywords: `antenista Lominchar, antenas TDT Lominchar, instalación antenas Madrid, reparación antenas Lominchar, telecomunicaciones Lominchar`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-sesena'
+    canonical: 'https://advanced-telecom.es/antenista-en-lominchar'
   },
   robots: {
     index: false,
@@ -162,7 +162,7 @@ export default function AldeaDelFresnoPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section específico de Torrecastillo */}
+          {/* Hero Section específico de Lominchar */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -173,25 +173,25 @@ export default function AldeaDelFresnoPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Seseña Nuevo</span>
+                    <span className="text-brand-green font-medium">Lominchar</span>
                   </nav>
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      <span className="text-brand-green">Su especialista antenista </span> en Seseña Nuevo
+                      Tu <span className="text-brand-green">antenista de confianza</span> aquí, en Lominchar
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos un servicio de antenista rápido, eficiente y enfocado en las necesidades de los vecinos de Seseña Nuevo. Entendemos la importancia de una señal de televisión perfecta en su hogar y proporcionamos soluciones duraderas para cualquier tipo de vivienda, desde pisos en comunidades hasta chalets individuales.
+                      {municipioData.descripcion}
                     </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
-                      <Phone className="h-5 w-5 mr-2" />
-                      Solicitar presupuesto gratuito
+                    <Link href="https://wa.me/34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                      <MessageCircle className="h-5 w-5 mr-2" />
+                      Obtén información
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
-                      Llamar para una urgencia
+                      Te damos presupuesto
                     </Link>
                   </div>
                 </div>
@@ -201,7 +201,7 @@ export default function AldeaDelFresnoPage() {
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
                       src="/images/telecom/antenistas-en-toledo-sur.jpg"
-                      alt="Servicios de telecomunicaciones en Seseña Nuevo"
+                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histórico de La Sagra"
                       width={400}
                       height={200}
                       priority
@@ -212,12 +212,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-           {/* Cobertura específica de Seseña Nuevo */}
+           {/* Cobertura específica de Lominchar */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Atención completa en Seseña Nuevo y alrededores</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestro equipo garantiza una cobertura total y un servicio de proximidad, no solo en Seseña Nuevo, sino también en las zonas colindantes para ofrecer una solución integral.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Damos servicio en todo Lominchar, de punta a punta</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nos desplazamos a cualquier punto del término municipal para darte una solución, sin que tengas que esperar días.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -226,8 +226,8 @@ export default function AldeaDelFresnoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra área de servicio principal incluye</h3>
-                      <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
+                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra área de servicio en Lominchar incluye:</h3>
+                      <p className="text-brand-black-light">Cobertura completa en todo el municipio</p>
                     </div>
                   </div>
                  
@@ -243,7 +243,7 @@ export default function AldeaDelFresnoPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Nos comprometemos a dar una primera respuesta y diagnóstico en el mismo día.</span>
+                      <span>Para urgencias, estamos en tu casa en menos de 2 horas.</span>
                     </div>
                   </div>
                 </div>
@@ -251,12 +251,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Servicios especializados en Aldea del Fresno */}
+          {/* Servicios especializados en Lominchar */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Todos los servicios de telecomunicaciones que necesita</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Contamos con un abanico completo de servicios para asegurar que su instalación de antena esté siempre en perfecto estado.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Soluciones para tu hogar en Lominchar</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Te ofrecemos un servicio claro y directo para cada una de tus necesidades.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -273,12 +273,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Por qué elegir nuestros servicios en Seseña Nuevo */}
+          {/* Por qué elegir nuestros servicios en Lominchar */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La elección de confianza para su antena en Seseña Nuevo</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Elegir nuestro servicio es garantía de profesionalidad, eficiencia y un profundo conocimiento de la zona.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué llamar a tu antenista de Lominchar?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Te damos razones claras para que confíes en un servicio cercano y profesional.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -294,12 +294,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-         {/* Testimonios de clientes en Aldea del Fresno */}
+         {/* Testimonios de clientes en Lominchar */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La valoración de nuestros clientes en Seseña Nuevo</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacción de los vecinos de Seseña Nuevo es nuestro principal objetivo y nuestra mejor carta de presentación.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Lo que dicen de nosotros tus vecinos de Lominchar</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La confianza de la gente del pueblo es nuestro mayor orgullo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -313,19 +313,19 @@ export default function AldeaDelFresnoPage() {
                     </div>
                     <p className="text-brand-black-light mb-4 italic">"{testimonio.comentario}"</p>
                     <div className="font-semibold text-brand-black">{testimonio.nombre}</div>
-                    <div className="text-sm text-brand-black-light">Cliente en Aldea del Fresno</div>
+                    <div className="text-sm text-brand-black-light">Cliente en Lominchar</div>
                   </div>
                 ))}
               </div>
             </div>
           </section>
 
-          {/* FAQs específicas de Aldea del Fresno */}
+          {/* FAQs específicas de Lominchar */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Resolvemos sus dudas frecuentes</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Contestamos a las preguntas más habituales de nuestros clientes en la zona.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Tus dudas de siempre, respondidas con claridad</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Aquí resolvemos algunas de las preguntas que más nos hacéis los vecinos.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -338,16 +338,16 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* CTA Section específica para Aldea del Fresno */}
+          {/* CTA Section específica para Lominchar */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista de proximidad en Seseña Nuevo</h2>
-                  <p className="text-xl mb-8 text-white/90">Para cualquier consulta, avería o proyecto de instalación en Seseña Nuevo, no dude en llamarnos. Le ofreceremos una atención personalizada y la solución más adecuada y profesional a sus necesidades.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Hablamos? Tu antenista en Lominchar te atiende</h2>
+                  <p className="text-xl mb-8 text-white/90">Si tienes cualquier problema con tu antena o quieres pedir un presupuesto, no dudes en llamar o mandar un WhatsApp. Te atenderemos encantados y te daremos la mejor solución para tu casa.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Lominchar" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>

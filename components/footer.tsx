@@ -53,27 +53,27 @@ export function Footer() {
               </li>
               <li>
                 <a href="/servicios/antenas-parabolicas" className="text-gray-300 hover:text-white transition-colors">
-                  Antenas Parabólicas
+                  Antenas parabólicas
                 </a>
               </li>
               <li>
                 <a href="/servicios/porteros-automaticos" className="text-gray-300 hover:text-white transition-colors">
-                  Porteros Automáticos
+                  Porteros automáticos
                 </a>
               </li>
               <li>
                 <a href="/servicios/camaras-seguridad" className="text-gray-300 hover:text-white transition-colors">
-                  Cámaras de Seguridad
+                  Cámaras de seguridad
                 </a>
               </li>
               <li>
                 <a href="/servicios/solucion-interferencias-5g" className="text-gray-300 hover:text-white transition-colors">
-                  Solución Interferencias 5G
+                  Solución interferencias 5G
                 </a>
               </li>
               <li>
                 <a href="/servicios/reparaciones-urgentes" className="text-gray-300 hover:text-white transition-colors">
-                  Reparaciones Urgentes
+                  Reparaciones urgentes
                 </a>
               </li>
             </ul>
@@ -167,7 +167,7 @@ export function Footer() {
                 correspondiente.
               </p>
               <p className="text-gray-400 text-xs mt-2">
-                Antenistas Homologados en Toledo y Madrid Sur. Reparaciones en el día.
+                Antenistas homologados en Toledo y Madrid Sur. Reparaciones en el día.
               </p>
             </div>
           </div>

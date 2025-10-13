@@ -217,7 +217,7 @@ export default function AlamedaDeLaSagraPage() {
                       <Building className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Alameda de la Sagra</h3>
+                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en Alameda de la Sagra</h3>
                       <p className="text-brand-black-light">Especialistas en municipio histórico con tradición</p>
                     </div>
                   </div>
@@ -246,7 +246,7 @@ export default function AlamedaDeLaSagraPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de Telecomunicaciones en Alameda de la Sagra</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de telecomunicaciones en Alameda de la Sagra</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Ofrecemos servicios completos de instalación y reparación de sistemas de telecomunicaciones para hogares y empresas en Alameda de la Sagra.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -315,7 +315,7 @@ export default function AlamedaDeLaSagraPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre servicios en Alameda de la Sagra</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre servicios en Alameda de la Sagra</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más comunes sobre telecomunicaciones en Alameda de la Sagra</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">

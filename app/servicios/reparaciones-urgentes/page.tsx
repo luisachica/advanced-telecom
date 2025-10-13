@@ -42,7 +42,7 @@ export default function ReparacionesUrgentes() {
   
   // Datos del servicio
   const serviceData = {
-    title: "Reparaciones Urgentes",
+    title: "Reparaciones urgentes",
     slug: "reparaciones-urgentes",
     shortDescription: "Servicio rápido y eficiente para solucionar averías en sus sistemas de telecomunicaciones. Disponibles 24/7 para emergencias en toda la Comunidad de Madrid.",
     longDescription: "En Advanced Telecom entendemos que los problemas en sus sistemas de telecomunicaciones pueden causar grandes inconvenientes. Por eso, ofrecemos un servicio de reparaciones urgentes con técnicos cualificados disponibles para atender emergencias en el menor tiempo posible. Diagnosticamos y solucionamos averías en antenas, porteros automáticos, sistemas de seguridad y más, utilizando repuestos de calidad y garantizando resultados duraderos.",

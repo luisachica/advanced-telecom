@@ -7,7 +7,7 @@ import StructuredData from '@/components/StructuredData';
 // ==================================================================
 
 const serviceData = {
-  title: "Porteros Automáticos",
+  title: "Porteros automáticos",
   slug: "servicios/porteros-automaticos",
   description: "Instalación y reparación de porteros automáticos, videoporteros y telefonillos en Madrid. Servicio técnico especializado.",
   heroImage: "/images/telecom/portero-automatico-instalacion-01.jpg",

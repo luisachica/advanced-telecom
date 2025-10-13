@@ -124,15 +124,6 @@ export function MobileMenu({ services = [], isOpen, onClose }: MobileMenuProps) 
           <div className="border-b border-gray-100 my-2"></div>
 
           <Link
-            href="/blog"
-            className="flex items-center gap-3 p-3 rounded-lg text-brand-black hover:bg-brand-green/10 hover:text-brand-green"
-            onClick={onClose}
-          >
-            <FileText className="h-5 w-5" />
-            <span className="font-medium">Blog</span>
-          </Link>
-
-          <Link
             href="/contacto"
             className="flex items-center gap-3 p-3 rounded-lg text-brand-black hover:bg-brand-green/10 hover:text-brand-green"
             onClick={onClose}

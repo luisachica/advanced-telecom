@@ -7,7 +7,7 @@ import StructuredData from '@/components/StructuredData';
 // ==================================================================
 
 const serviceData = {
-  title: "Antenas Parabólicas",
+  title: "Antenas parabólicas",
   slug: "servicios/antenas-parabolicas",
   description: "Instalación y reparación de antenas parabólicas en Madrid. Servicio técnico especializado con reorientaciones a satélites.",
   heroImage: "/images/antenas-parabolicas-madrid.webp",
@@ -35,8 +35,8 @@ const serviceData = {
   ],
   relatedServices: [
     { title: "Antenas TDT", image: "/images/telecom/antena-tdt-instalacion-01.jpg", link: "/servicios/antenas-tdt" },
-    { title: "Cámaras de Seguridad", image: "/images/telecom/camaras-seguridad.jpg", link: "/servicios/camaras-seguridad" },
-    { title: "Porteros Automáticos", image: "/images/telecom/portero-automatico-instalacion-01.jpg", link: "/servicios/porteros-automaticos" },
+    { title: "Cámaras de seguridad", image: "/images/telecom/camaras-seguridad.jpg", link: "/servicios/camaras-seguridad" },
+    { title: "Porteros automáticos", image: "/images/telecom/portero-automatico-instalacion-01.jpg", link: "/servicios/porteros-automaticos" },
   ],
 };
 

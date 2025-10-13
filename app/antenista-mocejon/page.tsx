@@ -15,116 +15,126 @@ import { SERVICIOS } from "@/data/servicios";
 
 // Datos específicos del municipio
 const municipioData = {
-  nombre: "Aldea del Fresno",
-  slug: "aldea-del-fresno",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
-  codigoPostal: "28691",
-  poblacion: "2.847",
-  superficie: "47,8",
-  descripcion: "Antenista profesional en Aldea del Fresno especializado en instalaciones de telecomunicaciones. Servicios técnicos de calidad para este municipio madrileño.",
+  nombre: "Mocejón",
+  slug: "mocejon",
+  provincia: "Toledo",
+  comunidad: "Castilla-La Mancha",
+  codigoPostal: "45518",
+  poblacion: "5.200",
+  superficie: "54,2",
+  descripcion: "Tu antenista de confianza en Mocejón. Solucionamos tus problemas de TDT, parabólicas y videoporteros en el día. Presupuesto gratis y sin compromiso.",
   servicios: [
-    "Instalación de antenas TDT en Aldea del Fresno",
-    "Antenas parabólicas para zonas residenciales",
-    "Porteros automáticos y videoporteros",
-    "Sistemas de videovigilancia CCTV",
-    "Amplificadores de señal digital",
-    "Mantenimiento técnico especializado"
+    "Reparación y ajuste de TDT en Mocejón",
+    "Instalación de antenas parabólicas",
+    "Instalación y arreglo de videoporteros",
+    "Sistemas de cámaras de seguridad (CCTV)",
+    "Solución de interferencias 5G",
+    "Servicio de reparaciones urgentes"
   ],
    serviciosDestacados: [
-    "Antenista TDT especializado",
-    "Instalaciones residenciales",
-    "Servicio técnico local"
+    "Señal TDT nítida y estable en Mocejón",
+    "Antenista local de confianza",
+    "Servicio técnico especializado"
   ],
 
   zonasCubiertas: [
-    "Casco urbano",
-    "Zona residencial",
-    "Área industrial",
-    "Urbanizaciones",
-    "Viviendas aisladas"
+    "El casco urbano de Mocejón",
+    "Nuevas zonas residenciales y chalets",
+    "Comunidades de vecinos y bloques de pisos",
+    "El polígono industrial y fincas cercanas"
   ],
 
   cobertura: [
-    { zona: "Casco urbano", disponible: true },
-    { zona: "Zona residencial", disponible: true },
-    { zona: "Área industrial", disponible: true },
-    { zona: "Urbanizaciones", disponible: true },
-    { zona: "Viviendas aisladas", disponible: true }
+    { zona: "El casco urbano de Mocejón", disponible: true },
+    { zona: "Nuevas zonas residenciales y chalets", disponible: true },
+    { zona: "Comunidades de vecinos y bloques de pisos", disponible: true },
+    { zona: "El polígono industrial y fincas cercanas", disponible: true }
   ],
 
   testimonios: [
     {
-      nombre: "Carmen López",
-      comentario: "El mejor antenista de Aldea del Fresno. Instalación perfecta y muy profesional.",
+      nombre: "Presidente de comunidad",
+      comentario: "Les llamé por un problema con la antena de la comunidad y lo gestionaron todo muy rápido y muy bien. Un servicio muy profesional y recomendable.",
       puntuacion: 5
     },
     {
-      nombre: "Miguel Ángel Ruiz",
-      comentario: "Servicio técnico excelente. Resolvieron todos nuestros problemas de señal.",
+      nombre: "David R.",
+      comentario: "Un servicio excelente. El técnico fue muy puntual, amable y me arregló el problema de la TDT en menos de una hora. Se nota la experiencia.",
       puntuacion: 5
     },
     {
-      nombre: "Isabel Martínez",
-      comentario: "Antenista muy recomendable en Aldea del Fresno. Trabajo impecable y garantizado.",
+      nombre: "María L.",
+      comentario: "Son honestos y profesionales. Les pedí presupuesto y me dieron la solución más sencilla y económica, sin intentar venderme nada que no necesitara. Así da gusto.",
       puntuacion: 5
     }
   ],
 
    caracteristicas: [
     {
-      titulo: "Antenista local especializado",
-      descripcion: "Conocimiento específico de Aldea del Fresno y sus necesidades técnicas",
+      titulo: "Somos de la zona",
+      descripcion: "No somos una empresa de fuera. Somos tus técnicos de confianza en Mocejón, y eso se nota en la rapidez de la respuesta y en el trato directo y familiar.",
       icono: "Home"
     },
     {
-      titulo: "Instalaciones de calidad",
-      descripcion: "Equipos profesionales y técnicas avanzadas para óptima recepción",
-      icono: "Signal"
+      titulo: "Trabajos bien hechos, no parches",
+      descripcion: "Nos gusta hacer las cosas con profesionalidad, usando buenos materiales para que la solución sea definitiva y no un arreglo temporal que vuelva a fallar.",
+      icono: "Shield"
     },
     {
-      titulo: "Atención personalizada",
-      descripcion: "Servicio directo y soluciones adaptadas a cada hogar en Aldea del Fresno",
+      titulo: "Precios claros y sin sorpresas",
+      descripcion: "Te damos un presupuesto cerrado antes de empezar cualquier trabajo. Un precio justo y transparente por un servicio de la máxima calidad.",
       icono: "Users"
     },
     {
-      titulo: "Garantía profesional",
-      descripcion: "Garantía completa en todas nuestras instalaciones y reparaciones",
-      icono: "Shield"
+      titulo: "Compromiso contigo",
+      descripcion: "Nuestro objetivo es que quedes totalmente satisfecho con el resultado. No terminamos el trabajo hasta que todo funciona a la perfección.",
+      icono: "CheckCircle"
     }
   ],
 
   faqs: [
     {
-      question: "¿Qué servicios de antenista ofrecen en Aldea del Fresno?",
-      answer: "Como antenista especializado en Aldea del Fresno, ofrecemos instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia con garantía completa."
+      question: "¿Tengo que pagar por el desplazamiento si venís a darme presupuesto a Mocejón?",
+      answer: "No, en absoluto. El desplazamiento para valorar el trabajo y darte un presupuesto cerrado y sin compromiso es totalmente gratuito."
     },
     {
-      question: "¿Cuál es el mejor antenista en Aldea del Fresno?",
-      answer: "Somos antenistas profesionales con más de 25 años de experiencia en Aldea del Fresno. Ofrecemos servicio técnico especializado, garantía y atención personalizada."
+      question: "¿Cuánto tiempo tardáis en instalar una antena nueva?",
+      answer: "Una instalación estándar de una antena de TDT en una vivienda unifamiliar o en un tejado comunitario la dejamos lista en la misma mañana o tarde, para causarte las mínimas molestias."
     },
     {
-      question: "¿Realizan instalaciones de antenas TDT en Aldea del Fresno?",
-      answer: "Sí, somos especialistas en instalaciones de antenas TDT en Aldea del Fresno. Utilizamos equipos de alta calidad y ofrecemos garantía en todas nuestras instalaciones."
+      question: "Mi casa es antigua, ¿se puede mejorar la instalación de la antena?",
+      answer: "Sí, por supuesto. Estamos especializados en modernizar instalaciones antiguas, cambiando el cableado deteriorado y los componentes obsoletos para que disfrutes de la TDT con la calidad actual."
     },
     {
-      question: "¿Cuánto cuesta un antenista en Aldea del Fresno?",
-      answer: "Los precios varían según el tipo de instalación. Como antenista local en Aldea del Fresno, ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
+      question: "¿Tenéis garantía en las reparaciones?",
+      answer: "Sí. Todas nuestras reparaciones están garantizadas por escrito. Si el problema que hemos arreglado vuelve a producirse, volveremos a solucionarlo sin ningún coste para ti."
     }
   ]
 }
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Aldea del Fresno | Advanced Telecom`,
-  description: `Antenistas en Aldea del Fresno. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
-  keywords: `antenista Aldea del Fresno, antenas TDT Aldea del Fresno, instalación antenas Madrid, reparación antenas Aldea del Fresno, telecomunicaciones Aldea del Fresno`,
+  title: `Antenista en Mocejón | Advanced Telecom`,
+  description: `✅ Tu antenista de confianza en Mocejón. Solucionamos tus problemas de TDT, parabólicas y videoporteros en el día. Presupuesto gratis y sin compromiso.`,
+  keywords: `antenista Mocejón, antenas TDT Mocejón, instalación antenas Toledo, reparación antenas Mocejón, telecomunicaciones Mocejón, videoporteros Mocejón`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-en-aldea-del-fresno'
+    canonical: 'https://advanced-telecom.es/antenista-mocejon'
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title: 'Antenista en Mocejón | Advanced Telecom',
+    description: '✅ Tu antenista de confianza en Mocejón. Solucionamos tus problemas de TDT, parabólicas y videoporteros en el día. Presupuesto gratis y sin compromiso.',
+    url: 'https://advanced-telecom.es/antenista-mocejon',
+    siteName: 'Advanced Telecom',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Antenista en Mocejón | Advanced Telecom',
+    description: '✅ Tu antenista de confianza en Mocejón. Solucionamos tus problemas de TDT, parabólicas y videoporteros en el día. Presupuesto gratis y sin compromiso.',
   },
 };
 
@@ -175,25 +185,25 @@ export default function AldeaDelFresnoPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Aldea del Fresno</span>
+                    <span className="text-brand-green font-medium">Mocejón</span>
                   </nav>
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      <span className="text-brand-green">Antenista</span> en Aldea del Fresno
+                      Tu servicio de <span className="text-brand-green">antenista local</span> en Mocejón
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Antenista profesional en Aldea del Fresno con más de 25 años de experiencia. Especialistas en instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia. Servicio técnico garantizado en todo el municipio madrileño.
+                      Si eres de Mocejón y buscas un antenista profesional, que te dé un trato cercano y soluciones duraderas, has llegado al sitio correcto. Arreglamos cualquier avería en tu antena de TDT, parabólica o portero automático con la rapidez y la eficacia que necesitas, con la garantía de más de 25 años de experiencia.
                     </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Llamar ahora
+                      Llámanos
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
-                      Solicitar presupuesto
+                      Pide tu presupuesto
                     </Link>
                   </div>
                 </div>
@@ -214,12 +224,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-           {/* Cobertura específica de Aldea del Fresno */}
+           {/* Cobertura específica de Mocejón */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio técnico profesional disponible en todo el municipio madrileño</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Llegamos a cada rincón de Mocejón y sus alrededores</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestro equipo se desplaza por todo el municipio para ofrecerte una asistencia técnica ágil y de calidad, estés donde estés.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -228,8 +238,8 @@ export default function AldeaDelFresnoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Aldea del Fresno</h3>
-                      <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
+                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra área de cobertura en Mocejón incluye:</h3>
+                      <p className="text-brand-black-light">Servicio técnico profesional en todo el municipio</p>
                     </div>
                   </div>
                  
@@ -245,7 +255,7 @@ export default function AldeaDelFresnoPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Tiempo de respuesta: Menos de 2 horas</span>
+                      <span>Para averías urgentes, llegamos en menos de 2 horas.</span>
                     </div>
                   </div>
                 </div>
@@ -253,12 +263,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Servicios especializados en Aldea del Fresno */}
+          {/* Servicios especializados en Mocejón */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades del municipio madrileño.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Soluciones para tu hogar y negocio en Mocejón</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Tenemos un servicio a medida para cada necesidad, tanto para tu vivienda particular como para tu empresa o comunidad.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -275,12 +285,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Por qué elegir nuestros servicios en Aldea del Fresno */}
+          {/* Por qué elegir nuestros servicios en Mocejón */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir nuestro antenista en Aldea del Fresno?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalación</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La tranquilidad de contratar a tu antenista en Mocejón</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Te damos motivos de peso para que confíes en un servicio profesional y cercano.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -296,12 +306,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-         {/* Testimonios de clientes en Aldea del Fresno */}
+         {/* Testimonios de clientes en Mocejón */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Aldea del Fresno que confían en nuestros servicios</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Lo que dicen de nosotros en Mocejón</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La mejor referencia es la que te pueden dar tus propios vecinos.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -322,12 +332,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* FAQs específicas de Aldea del Fresno */}
+          {/* FAQs específicas de Mocejón */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más comunes sobre nuestros servicios de antenista en el municipio</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Tus dudas más comunes, respondidas</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos algunas de las preguntas que más nos hacen los vecinos de Mocejón.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -340,16 +350,16 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* CTA Section específica para Aldea del Fresno */}
+          {/* CTA Section específica para Mocejón */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Aldea del Fresno?</h2>
-                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Aldea del Fresno.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Tienes una avería en tu antena en Mocejón?</h2>
+                  <p className="text-xl mb-8 text-white/90">Llámanos y te damos un presupuesto sin compromiso. Nos desplazamos a tu domicilio en Mocejón para solucionar cualquier problema.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Mocejón" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>

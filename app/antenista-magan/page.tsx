@@ -15,117 +15,139 @@ import { SERVICIOS } from "@/data/servicios";
 
 // Datos específicos del municipio
 const municipioData = {
-  nombre: "Aldea del Fresno",
-  slug: "aldea-del-fresno",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
-  codigoPostal: "28691",
-  poblacion: "2.847",
-  superficie: "47,8",
-  descripcion: "Antenista profesional en Aldea del Fresno especializado en instalaciones de telecomunicaciones. Servicios técnicos de calidad para este municipio madrileño.",
+  nombre: "Magán",
+  slug: "magan",
+  provincia: "Toledo",
+  comunidad: "Castilla-La Mancha",
+  codigoPostal: "45230",
+  poblacion: "1.850",
+  superficie: "48,2",
+  descripcion: "Magán es un municipio de la provincia de Toledo, en la comunidad autónoma de Castilla-La Mancha. Con una población de aproximadamente 1.850 habitantes, se caracteriza por su tranquilidad y su crecimiento residencial con nuevas urbanizaciones.",
   servicios: [
-    "Instalación de antenas TDT en Aldea del Fresno",
-    "Antenas parabólicas para zonas residenciales",
-    "Porteros automáticos y videoporteros",
-    "Sistemas de videovigilancia CCTV",
-    "Amplificadores de señal digital",
-    "Mantenimiento técnico especializado"
+    "Instalación de antenas TDT en Magán",
+    "Reparación de antenas comunitarias en Magán",
+    "Instalación de antenas parabólicas en Magán",
+    "Sistemas de videoporteros en Magán",
+    "Instalación de cámaras de seguridad en Magán",
+    "Mantenimiento de sistemas de telecomunicaciones en Magán",
+    "Filtros 5G contra interferencias en Magán",
+    "Servicio de reparaciones urgentes en Magán"
   ],
-   serviciosDestacados: [
-    "Antenista TDT especializado",
-    "Instalaciones residenciales",
-    "Servicio técnico local"
+  serviciosDestacados: [
+    "Especialistas en TDT para hogares en Magán",
+    "Instalación de parabólicas en chalets y urbanizaciones",
+    "Videoporteros modernos para mayor seguridad",
+    "Sistemas de cámaras de vigilancia en Magán"
   ],
 
   zonasCubiertas: [
-    "Casco urbano",
-    "Zona residencial",
-    "Área industrial",
-    "Urbanizaciones",
-    "Viviendas aisladas"
+    "El casco urbano de Magán",
+    "Las nuevas urbanizaciones y zonas de chalets",
+    "Comunidades de vecinos y pisos",
+    "Fincas y naves en los alrededores",
+    "Todas las calles del centro del pueblo"
   ],
 
   cobertura: [
-    { zona: "Casco urbano", disponible: true },
-    { zona: "Zona residencial", disponible: true },
-    { zona: "Área industrial", disponible: true },
-    { zona: "Urbanizaciones", disponible: true },
-    { zona: "Viviendas aisladas", disponible: true }
+    "Todo el término municipal de Magán",
+    "Desde el centro del pueblo hasta las urbanizaciones más nuevas",
+    "Chalets y viviendas unifamiliares",
+    "Comunidades de vecinos",
+    "Fincas y propiedades en los alrededores"
   ],
 
   testimonios: [
     {
-      nombre: "Carmen López",
-      comentario: "El mejor antenista de Aldea del Fresno. Instalación perfecta y muy profesional.",
-      puntuacion: 5
+      nombre: "Javier G.",
+      comentario: "Les llamé por la mañana y por la tarde ya tenía la antena arreglada. Un servicio rapidísimo y muy eficaz aquí en Magán. Totalmente recomendables.",
+      puntuacion: 5,
+      servicio: "Reparación antena",
+      ubicacion: "Cliente en Magán"
     },
     {
-      nombre: "Miguel Ángel Ruiz",
-      comentario: "Servicio técnico excelente. Resolvieron todos nuestros problemas de señal.",
-      puntuacion: 5
+      nombre: "Isabel M.",
+      comentario: "Muy profesionales y amables. Me explicaron todo muy bien y el precio fue exactamente el que me dijeron en el presupuesto. Da gusto encontrar gente tan honesta.",
+      puntuacion: 5,
+      servicio: "Instalación TDT",
+      ubicacion: "Cliente en Magán"
     },
     {
-      nombre: "Isabel Martínez",
-      comentario: "Antenista muy recomendable en Aldea del Fresno. Trabajo impecable y garantizado.",
-      puntuacion: 5
+      nombre: "Francisco R.",
+      comentario: "Les pedí presupuesto para un videoportero en el chalet y todo perfecto. Fueron muy limpios y cuidadosos durante la instalación. Un trabajo de diez.",
+      puntuacion: 5,
+      servicio: "Videoportero",
+      ubicacion: "Cliente en Magán"
     }
   ],
 
    caracteristicas: [
     {
-      titulo: "Antenista local especializado",
-      descripcion: "Conocimiento específico de Aldea del Fresno y sus necesidades técnicas",
+      titulo: "Somos de aquí, como tú",
+      descripcion: "Te atendemos directamente, sin intermediarios. Conocemos el pueblo, sus calles y sus necesidades, y te ofrecemos un trato cercano y familiar.",
       icono: "Home"
     },
     {
-      titulo: "Instalaciones de calidad",
-      descripcion: "Equipos profesionales y técnicas avanzadas para óptima recepción",
+      titulo: "Trabajos bien hechos, para que duren",
+      descripcion: "No nos gustan las chapuzas. Usamos buenos materiales y hacemos las cosas con cuidado para que no tengas que volver a llamarnos por el mismo problema en mucho tiempo.",
       icono: "Signal"
     },
     {
-      titulo: "Atención personalizada",
-      descripcion: "Servicio directo y soluciones adaptadas a cada hogar en Aldea del Fresno",
+      titulo: "Precios honestos y transparentes",
+      descripcion: "Te damos un presupuesto claro y sin compromiso antes de empezar. Un precio justo y competitivo por un trabajo profesional.",
       icono: "Users"
     },
     {
-      titulo: "Garantía profesional",
-      descripcion: "Garantía completa en todas nuestras instalaciones y reparaciones",
+      titulo: "Tu satisfacción es nuestra meta",
+      descripcion: "No nos vamos de tu casa hasta que todo funcione a la perfección y tú estés completamente satisfecho con el trabajo realizado.",
       icono: "Shield"
     }
   ],
 
   faqs: [
     {
-      question: "¿Qué servicios de antenista ofrecen en Aldea del Fresno?",
-      answer: "Como antenista especializado en Aldea del Fresno, ofrecemos instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia con garantía completa."
+      question: "¿Merece la pena arreglar la antena comunitaria o es mejor que ponga una individual?",
+      answer: "Depende de cada caso. Siempre te daremos nuestra opinión más honesta. Si la avería comunitaria es sencilla, suele ser más económico repararla. Si la instalación es muy vieja, a veces una antena individual puede darte mejor resultado. Lo valoramos contigo."
     },
     {
-      question: "¿Cuál es el mejor antenista en Aldea del Fresno?",
-      answer: "Somos antenistas profesionales con más de 25 años de experiencia en Aldea del Fresno. Ofrecemos servicio técnico especializado, garantía y atención personalizada."
+      question: "¿Cuánto tiempo tardáis en hacer una instalación nueva?",
+      answer: "Una instalación estándar, como poner una antena de TDT o un videoportero en una vivienda unifamiliar, solemos dejarla lista en una sola mañana o tarde, para que no te causemos molestias."
     },
     {
-      question: "¿Realizan instalaciones de antenas TDT en Aldea del Fresno?",
-      answer: "Sí, somos especialistas en instalaciones de antenas TDT en Aldea del Fresno. Utilizamos equipos de alta calidad y ofrecemos garantía en todas nuestras instalaciones."
+      question: "¿El presupuesto que me dais es gratuito?",
+      answer: "Sí, por supuesto. Nos acercamos a tu casa en Magán, vemos lo que necesitas y te damos un presupuesto detallado sin ningún tipo de coste ni compromiso por tu parte."
     },
     {
-      question: "¿Cuánto cuesta un antenista en Aldea del Fresno?",
-      answer: "Los precios varían según el tipo de instalación. Como antenista local en Aldea del Fresno, ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
+      question: "¿Qué garantía tienen los trabajos que hacéis?",
+      answer: "Todos nuestros trabajos están cubiertos por la garantía legal. Te la entregamos por escrito en la factura para que tengas total tranquilidad y confianza en nuestro servicio."
     }
   ]
 }
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Aldea del Fresno | Advanced Telecom`,
-  description: `Antenistas en Aldea del Fresno. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
-  keywords: `antenista Aldea del Fresno, antenas TDT Aldea del Fresno, instalación antenas Madrid, reparación antenas Aldea del Fresno, telecomunicaciones Aldea del Fresno`,
+  title: `Antenista en Magán | Advanced Telecom`,
+  description: `✅ Tu antenista de confianza en Magán. Solucionamos problemas de señal TDT, instalamos parabólicas y videoporteros en tu casa. Presupuesto rápido y gratis.`,
+  keywords: `antenista Magán, antenas TDT Magán, instalación antenas Toledo, reparación antenas Magán, telecomunicaciones Magán, videoporteros Magán`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-en-aldea-del-fresno'
+    canonical: 'https://advanced-telecom.es/antenista-magan'
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
+  openGraph: {
+    title: 'Antenista en Magán | Advanced Telecom',
+    description: '✅ Tu antenista de confianza en Magán. Solucionamos problemas de señal TDT, instalamos parabólicas y videoporteros en tu casa. Presupuesto rápido y gratis.',
+    url: 'https://advanced-telecom.es/antenista-magan',
+    siteName: 'Advanced Telecom',
+    locale: 'es_ES',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Antenista en Magán | Advanced Telecom',
+    description: '✅ Tu antenista de confianza en Magán. Solucionamos problemas de señal TDT, instalamos parabólicas y videoporteros en tu casa. Presupuesto rápido y gratis.',
+  }
 };
 
 const iconMap = {
@@ -175,25 +197,25 @@ export default function AldeaDelFresnoPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Aldea del Fresno</span>
+                    <span className="text-brand-green font-medium">Magán</span>
                   </nav>
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      <span className="text-brand-green">Antenista</span> en Aldea del Fresno
+                      Tu antenista de confianza en <span className="text-brand-green">Magán</span>
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Antenista profesional en Aldea del Fresno con más de 25 años de experiencia. Especialistas en instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia. Servicio técnico garantizado en todo el municipio madrileño.
+                      Si eres de Magán y necesitas un técnico de antenas rápido, honesto y que conozca el pueblo, no busques más. Te ofrecemos un servicio profesional para solucionar cualquier avería con tu televisión o portero automático, con la cercanía que solo un servicio local te puede dar y la garantía de más de 25 años de experiencia.
                     </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Llamar ahora
+                      Llámanos
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
-                      Solicitar presupuesto
+                      Pide tu presupuesto
                     </Link>
                   </div>
                 </div>
@@ -214,12 +236,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-           {/* Cobertura específica de Aldea del Fresno */}
+           {/* Cobertura específica de Magán */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio técnico profesional disponible en todo el municipio madrileño</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Damos servicio en todo el término municipal de Magán</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Desde el centro del pueblo hasta las urbanizaciones más nuevas, nuestro equipo se desplaza para darte una solución eficaz y sin largas esperas.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -228,8 +250,8 @@ export default function AldeaDelFresnoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Aldea del Fresno</h3>
-                      <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
+                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra área de servicio en Magán incluye:</h3>
+                      <p className="text-brand-black-light">Cobertura completa en todo el municipio</p>
                     </div>
                   </div>
                  
@@ -245,7 +267,7 @@ export default function AldeaDelFresnoPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Tiempo de respuesta: Menos de 2 horas</span>
+                      <span>Para urgencias, estamos en tu casa en menos de 2 horas.</span>
                     </div>
                   </div>
                 </div>
@@ -253,12 +275,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Servicios especializados en Aldea del Fresno */}
+          {/* Servicios especializados para hogares en Magán */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades del municipio madrileño.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Soluciones para tu hogar en Magán</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Te ofrecemos un servicio claro y directo para cada una de tus necesidades, con la máxima calidad.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -275,12 +297,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Por qué elegir nuestros servicios en Aldea del Fresno */}
+          {/* Por qué elegir nuestros servicios en Magán */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir nuestro antenista en Aldea del Fresno?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalación</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué tus vecinos de Magán confían en nosotros?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra mejor carta de presentación es el trabajo bien hecho y la confianza de la gente del pueblo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -296,12 +318,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-         {/* Testimonios de clientes en Aldea del Fresno */}
+         {/* Testimonios de clientes en Magán */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Aldea del Fresno que confían en nuestros servicios</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Lo que dicen de nosotros en el pueblo</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La opinión de tus vecinos es la mejor prueba de nuestro compromiso.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -315,19 +337,19 @@ export default function AldeaDelFresnoPage() {
                     </div>
                     <p className="text-brand-black-light mb-4 italic">"{testimonio.comentario}"</p>
                     <div className="font-semibold text-brand-black">{testimonio.nombre}</div>
-                    <div className="text-sm text-brand-black-light">Cliente en Aldea del Fresno</div>
+                    <div className="text-sm text-brand-black-light">{testimonio.ubicacion}</div>
                   </div>
                 ))}
               </div>
             </div>
           </section>
 
-          {/* FAQs específicas de Aldea del Fresno */}
+          {/* FAQs específicas de Magán */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más comunes sobre nuestros servicios de antenista en el municipio</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Tus dudas de siempre, respondidas de forma clara</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Aquí resolvemos algunas de las preguntas que más nos hacen tus vecinos.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -340,23 +362,23 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* CTA Section específica para Aldea del Fresno */}
+          {/* CTA Section específica para Magán */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Aldea del Fresno?</h2>
-                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Aldea del Fresno.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Problemas con la antena en Magán?</h2>
+                  <p className="text-xl mb-8 text-white/90">Llámanos y te damos presupuesto sin compromiso. Nos acercamos a tu casa en Magán cuando mejor te venga.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Magán" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
                       <a href="tel:+34668838415" className="flex items-center gap-2">
-                        <Phone className="h-5 w-5" /> Llamar ahora
+                        <Phone className="h-5 w-5" /> Llama ahora
                       </a>
                     </Button>
                   </div>

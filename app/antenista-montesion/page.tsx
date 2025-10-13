@@ -15,116 +15,114 @@ import { SERVICIOS } from "@/data/servicios";
 
 // Datos específicos del municipio
 const municipioData = {
-  nombre: "Aldea del Fresno",
-  slug: "aldea-del-fresno",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
-  codigoPostal: "28691",
-  poblacion: "2.847",
-  superficie: "47,8",
-  descripcion: "Antenista profesional en Aldea del Fresno especializado en instalaciones de telecomunicaciones. Servicios técnicos de calidad para este municipio madrileño.",
+  nombre: "Montesión",
+  slug: "montesion",
+  provincia: "Toledo",
+  comunidad: "Castilla-La Mancha",
+  codigoPostal: "45004",
+  poblacion: "1.200",
+  superficie: "8,5",
+  descripcion: "Antenista especializado en la urbanización Montesión, Toledo. Servicios premium de telecomunicaciones para chalets y viviendas de alta gama.",
   servicios: [
-    "Instalación de antenas TDT en Aldea del Fresno",
-    "Antenas parabólicas para zonas residenciales",
-    "Porteros automáticos y videoporteros",
-    "Sistemas de videovigilancia CCTV",
-    "Amplificadores de señal digital",
-    "Mantenimiento técnico especializado"
+    "Señal TDT y 4K de alta fidelidad para Montesión",
+    "Antenas parabólicas de alto rendimiento",
+    "Videoporteros avanzados y domótica",
+    "CCTV y seguridad perimetral",
+    "Optimización de redes Wifi",
+    "Reparaciones discretas y eficaces"
   ],
    serviciosDestacados: [
-    "Antenista TDT especializado",
-    "Instalaciones residenciales",
-    "Servicio técnico local"
+    "Especialización en viviendas de alta gama",
+    "Servicio premium y discreto",
+    "Tecnología de última generación"
   ],
 
   zonasCubiertas: [
-    "Casco urbano",
-    "Zona residencial",
-    "Área industrial",
-    "Urbanizaciones",
-    "Viviendas aisladas"
+    "Todas las calles y parcelas de Montesión",
+    "Chalets individuales y viviendas de alto standing",
+    "Zonas comunes y accesos de la urbanización",
+    "Servicio garantizado en cualquier punto de Montesión"
   ],
 
   cobertura: [
-    { zona: "Casco urbano", disponible: true },
-    { zona: "Zona residencial", disponible: true },
-    { zona: "Área industrial", disponible: true },
-    { zona: "Urbanizaciones", disponible: true },
-    { zona: "Viviendas aisladas", disponible: true }
+    { zona: "Todas las calles y parcelas de Montesión", disponible: true },
+    { zona: "Chalets individuales y viviendas de alto standing", disponible: true },
+    { zona: "Zonas comunes y accesos de la urbanización", disponible: true },
+    { zona: "Servicio garantizado en cualquier punto de Montesión", disponible: true }
   ],
 
   testimonios: [
     {
-      nombre: "Carmen López",
-      comentario: "El mejor antenista de Aldea del Fresno. Instalación perfecta y muy profesional.",
+      nombre: "Javier V.",
+      comentario: "Necesitaba un sistema de cámaras para la parcela que fuera eficaz pero discreto. Me ofrecieron una solución muy avanzada y la instalación fue impecable. Muy profesionales.",
       puntuacion: 5
     },
     {
-      nombre: "Miguel Ángel Ruiz",
-      comentario: "Servicio técnico excelente. Resolvieron todos nuestros problemas de señal.",
+      nombre: "Marta R.",
+      comentario: "El técnico fue extremadamente profesional y cuidadoso al trabajar en casa. Resolvieron un problema complejo con la señal que afectaba a nuestro sistema de home cinema. Servicio de primera.",
       puntuacion: 5
     },
     {
-      nombre: "Isabel Martínez",
-      comentario: "Antenista muy recomendable en Aldea del Fresno. Trabajo impecable y garantizado.",
+      nombre: "Carlos D.",
+      comentario: "La mejor atención que he recibido. Me optimizaron la red wifi y ahora tengo cobertura perfecta en toda la casa y el jardín. Un trabajo excelente.",
       puntuacion: 5
     }
   ],
 
    caracteristicas: [
     {
-      titulo: "Antenista local especializado",
-      descripcion: "Conocimiento específico de Aldea del Fresno y sus necesidades técnicas",
+      titulo: "Especialización en viviendas de alta gama",
+      descripcion: "Entendemos las exigencias técnicas y estéticas de los chalets de Montesión. Nuestras instalaciones son impecables, funcionales y respetuosas con el diseño de tu casa.",
       icono: "Home"
     },
     {
-      titulo: "Instalaciones de calidad",
-      descripcion: "Equipos profesionales y técnicas avanzadas para óptima recepción",
+      titulo: "Máxima confidencialidad y respeto",
+      descripcion: "Tu privacidad es nuestra prioridad. Trabajamos con la más absoluta discreción y profesionalidad, garantizando una total confidencialidad.",
+      icono: "Shield"
+    },
+    {
+      titulo: "Componentes de las mejores marcas",
+      descripcion: "Solo utilizamos materiales y tecnología de punta de los fabricantes líderes para garantizar un rendimiento superior y una durabilidad excepcional en cada instalación.",
       icono: "Signal"
     },
     {
-      titulo: "Atención personalizada",
-      descripcion: "Servicio directo y soluciones adaptadas a cada hogar en Aldea del Fresno",
+      titulo: "Asesoramiento técnico personalizado",
+      descripcion: "Te escuchamos y te ofrecemos la solución tecnológica que mejor se adapta a tu estilo de vida y a las características de tu hogar, no una solución genérica.",
       icono: "Users"
-    },
-    {
-      titulo: "Garantía profesional",
-      descripcion: "Garantía completa en todas nuestras instalaciones y reparaciones",
-      icono: "Shield"
     }
   ],
 
   faqs: [
     {
-      question: "¿Qué servicios de antenista ofrecen en Aldea del Fresno?",
-      answer: "Como antenista especializado en Aldea del Fresno, ofrecemos instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia con garantía completa."
+      question: "¿Podéis integrar el videoportero con el sistema de domótica de mi casa?",
+      answer: "Sí, por supuesto. Trabajamos con sistemas de videoportero compatibles con los principales estándares de domótica (KNX, etc.). Podemos integrar el control de acceso en la misma aplicación que usas para el resto de tu hogar."
     },
     {
-      question: "¿Cuál es el mejor antenista en Aldea del Fresno?",
-      answer: "Somos antenistas profesionales con más de 25 años de experiencia en Aldea del Fresno. Ofrecemos servicio técnico especializado, garantía y atención personalizada."
+      question: "Tengo una instalación de antena muy compleja, ¿tenéis experiencia?",
+      answer: "Sí. Estamos especializados en instalaciones complejas con múltiples puntos de televisión, sistemas de amplificación avanzados y distribución de señal de satélite y TDT a toda la casa."
     },
     {
-      question: "¿Realizan instalaciones de antenas TDT en Aldea del Fresno?",
-      answer: "Sí, somos especialistas en instalaciones de antenas TDT en Aldea del Fresno. Utilizamos equipos de alta calidad y ofrecemos garantía en todas nuestras instalaciones."
+      question: "¿Cómo garantizáis la discreción durante el trabajo?",
+      answer: "Nuestros técnicos son profesionales con gran experiencia, se presentan en vehículos sin rotulación excesiva y realizan su trabajo de forma eficiente y silenciosa, respetando siempre tu privacidad y la de tu familia."
     },
     {
-      question: "¿Cuánto cuesta un antenista en Aldea del Fresno?",
-      answer: "Los precios varían según el tipo de instalación. Como antenista local en Aldea del Fresno, ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
+      question: "¿Ofrecéis contratos de mantenimiento para mi instalación?",
+      answer: "Sí. Para una total tranquilidad, te ofrecemos contratos de mantenimiento preventivo para asegurar que todos tus sistemas de telecomunicaciones y seguridad estén siempre en perfecto estado de funcionamiento."
     }
   ]
 }
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Aldea del Fresno | Advanced Telecom`,
-  description: `Antenistas en Aldea del Fresno. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
-  keywords: `antenista Aldea del Fresno, antenas TDT Aldea del Fresno, instalación antenas Madrid, reparación antenas Aldea del Fresno, telecomunicaciones Aldea del Fresno`,
+  title: `Antenista en Montesión, Toledo | Advanced Telecom`,
+  description: `Tu antenista de confianza en la urbanización Montesión. Servicio premium para TDT, parabólicas y videoporteros en tu chalet. Presupuesto sin compromiso.`,
+  keywords: `antenista Montesión, antenas TDT Montesión, instalación antenas Toledo, videoporteros Montesión, telecomunicaciones Montesión, chalets alta gama`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-en-aldea-del-fresno'
+    canonical: 'https://advanced-telecom.es/antenista-montesion'
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 
@@ -156,7 +154,7 @@ const IconComponent = (iconName: string) => {
   return Icon ? <Icon className="h-6 w-6" /> : <MapPin className="h-6 w-6" />;
 };
 
-export default function AldeaDelFresnoPage() {
+export default function MontesionPage() {
   return (
     <>
       <div className="flex flex-col min-h-screen">
@@ -164,7 +162,7 @@ export default function AldeaDelFresnoPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section específico de Torrecastillo */}
+          {/* Hero Section específico de Montesión */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -175,15 +173,15 @@ export default function AldeaDelFresnoPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Aldea del Fresno</span>
+                    <span className="text-brand-green font-medium">{municipioData.nombre}</span>
                   </nav>
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      <span className="text-brand-green">Antenista</span> en Aldea del Fresno
+                      <span className="text-brand-green">Tu servicio de antenista</span> para la urbanización {municipioData.nombre}
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Antenista profesional en Aldea del Fresno con más de 25 años de experiencia. Especialistas en instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia. Servicio técnico garantizado en todo el municipio madrileño.
+                      Si vives en la urbanización {municipioData.nombre} y buscas un servicio de antenista a la altura de tu hogar, has encontrado al especialista que necesitas. Te ofrecemos soluciones de alta gama para garantizar una señal de TV perfecta, una conexión a internet impecable y la máxima seguridad en tu chalet, todo ello con un servicio profesional y discreto.
                     </p>
                   </div>
 
@@ -214,12 +212,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-           {/* Cobertura específica de Aldea del Fresno */}
+           {/* Cobertura específica de Montesión */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio técnico profesional disponible en todo el municipio madrileño</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicio exclusivo para todas las calles de {municipioData.nombre}</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Conocemos cada rincón de la urbanización, lo que nos permite ofrecerte un servicio ágil y con un profundo conocimiento de las particularidades de la zona.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -228,8 +226,8 @@ export default function AldeaDelFresnoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Aldea del Fresno</h3>
-                      <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
+                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra área de servicio en {municipioData.nombre} incluye:</h3>
+                      <p className="text-brand-black-light">Atención prioritaria para residentes en {municipioData.nombre}: llegamos en menos de 2 horas.</p>
                     </div>
                   </div>
                  
@@ -253,12 +251,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Servicios especializados en Aldea del Fresno */}
+          {/* Servicios especializados en Montesión */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades del municipio madrileño.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Soluciones de telecomunicaciones para tu chalet en {municipioData.nombre}</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Entendemos las necesidades de una vivienda de altas prestaciones y te ofrecemos servicios de la máxima calidad.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -275,12 +273,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Por qué elegir nuestros servicios en Aldea del Fresno */}
+          {/* Por qué elegir nuestros servicios en Montesión */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir nuestro antenista en Aldea del Fresno?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalación</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué somos el antenista de confianza en {municipioData.nombre}?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra especialización, profesionalidad y discreción nos convierten en la elección ideal para tu hogar.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -296,12 +294,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-         {/* Testimonios de clientes en Aldea del Fresno */}
+         {/* Testimonios de clientes en Montesión */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Aldea del Fresno que confían en nuestros servicios</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La recomendación de tus vecinos de {municipioData.nombre}</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La confianza de quienes ya nos conocen es nuestra mejor garantía.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -315,19 +313,19 @@ export default function AldeaDelFresnoPage() {
                     </div>
                     <p className="text-brand-black-light mb-4 italic">"{testimonio.comentario}"</p>
                     <div className="font-semibold text-brand-black">{testimonio.nombre}</div>
-                    <div className="text-sm text-brand-black-light">Cliente en Aldea del Fresno</div>
+                    <div className="text-sm text-brand-black-light">Residente en {municipioData.nombre}</div>
                   </div>
                 ))}
               </div>
             </div>
           </section>
 
-          {/* FAQs específicas de Aldea del Fresno */}
+          {/* FAQs específicas de Montesión */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más comunes sobre nuestros servicios de antenista en el municipio</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Resolvemos tus dudas sobre nuestro servicio en {municipioData.nombre}</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Aquí tienes las respuestas a algunas de las preguntas más específicas de la urbanización.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -345,11 +343,11 @@ export default function AldeaDelFresnoPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Aldea del Fresno?</h2>
-                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Aldea del Fresno.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Montesión?</h2>
+                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Montesión.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Montesión" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>

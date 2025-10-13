@@ -15,114 +15,108 @@ import { SERVICIOS } from "@/data/servicios";
 
 // Datos específicos del municipio
 const municipioData = {
-  nombre: "Seseña Nuevo",
-  slug: "sesena-nuevo",
+  nombre: "Villaluenga de la Sagra",
+  slug: "villaluenga-de-la-sagra",
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
-  codigoPostal: "45223",
-  poblacion: "26.000+",
-  superficie: "71,0",
-  descripcion: "Antenista profesional en Seseña Nuevo especializado en instalaciones y reparaciones de telecomunicaciones. Servicio rápido en Seseña Nuevo, Seseña Viejo, El Quiñón y Vallegrande.",
-  servicios: [
-    "Instalación y reparación de antenas TDT en Seseña Nuevo",
-    "Instalación y orientación de antenas parabólicas y satélite",
-    "Actualización de porteros automáticos y videoporteros",
-    "Instalación de cámaras de seguridad CCTV",
-    "Solución de interferencias 5G/4G y filtros LTE",
-    "Reparaciones y mantenimiento de sistemas de telecomunicaciones"
-  ],
-  serviciosDestacados: [
-    "Diagnóstico experto TDT",
-    "Parabólicas y satélite",
-    "Servicio técnico local en Seseña"
-  ],
-
+  descripcion:
+    "Servicio de antenista profesional en Villaluenga de la Sagra para viviendas, comunidades y empresas. Instalación y reparación de TDT, parabólicas, videoporteros y CCTV.",
   zonasCubiertas: [
-    "Cobertura total en todo el núcleo de Seseña Nuevo.",
-    "Atención a comunidades de propietarios y viviendas unifamiliares.",
-    "Servicio en urbanizaciones y zonas residenciales cercanas.",
-    "También damos servicio en Seseña Viejo, El Quiñón y Vallegrande."
+    "Todo el casco urbano de Villaluenga de la Sagra",
+    "Zonas residenciales de nueva construcción y urbanizaciones",
+    "Polígonos industriales y naves del municipio",
+    "Municipios cercanos de la comarca de La Sagra"
   ],
-
   cobertura: [
-    { zona: "Cobertura total en todo el núcleo de Seseña Nuevo.", disponible: true }, 
-    { zona: "Atención a comunidades de propietarios y viviendas unifamiliares", disponible: true },
-    { zona: "Servicio en urbanizaciones y zonas residenciales cercanas", disponible: true },
-    { zona: "También damos servicio en Seseña Viejo, El Quiñón y Vallegrande", disponible: true }
+    { zona: "Casco urbano de Villaluenga de la Sagra", disponible: true },
+    { zona: "Nuevas zonas residenciales y urbanizaciones", disponible: true },
+    { zona: "Polígonos y naves industriales", disponible: true },
+    { zona: "Municipios cercanos en La Sagra", disponible: true }
   ],
-
-  testimonios: [
+  caracteristicas: [
     {
-      nombre: "Presidente de comunidad en Seseña Nuevo",
-      comentario: "Teníamos un problema general de señal en todo el bloque. Vinieron, revisaron la instalación central y lo dejaron perfecto para todos los vecinos. Muy profesionales y organizados.",
-      puntuacion: 5
-    },
-    {
-      nombre: "Marta G., Residente en Seseña Nuevo",
-      comentario: "De repente, empecé a perder canales de la TDT. Les llamé, me explicaron que era por el 5G y me instalaron un filtro. Problema resuelto en menos de media hora. ¡Un alivio!",
-      puntuacion: 5
-    },
-    {
-      nombre: "Carlos P., Seseña Nuevo",
-      comentario: "Quería instalar una parabólica para ver canales de mi país y ellos se encargaron de todo. Una instalación muy rápida, limpia y el técnico fue muy amable. Funcionamiento perfecto.",
-      puntuacion: 5
-    }
-  ],
-
-   caracteristicas: [
-    {
-      titulo: "Especialización en la zona",
-      descripcion: "Conocemos las infraestructuras de telecomunicaciones de Seseña Nuevo y sus alrededores como El Quiñón, lo que nos permite identificar y solucionar problemas con una eficacia y rapidez inigualables.",
-      icono: "Home"
-    },
-    {
-      titulo: "Equipos de alto rendimiento",
-      descripcion: "Utilizamos solo materiales de marcas reconocidas que garantizan una recepción óptima, una mayor resistencia a las condiciones meteorológicas y una larga vida útil para toda su instalación.",
-      icono: "Signal"
-    },
-    {
-      titulo: "Precios claros y competitivos",
-      descripcion: "Le ofrecemos un presupuesto cerrado y detallado antes de realizar cualquier intervención. Sin sorpresas, sin costes inesperados. Nuestra política es la máxima honestidad.",
+      titulo: "Experiencia Local Demostrada",
+      descripcion:
+        "Conocemos Villaluenga de la Sagra a la perfección, lo que nos permite trabajar más rápido y con precisión en cada tipo de edificio.",
       icono: "Users"
     },
     {
-      titulo: "Trabajo totalmente garantizado ",
-      descripcion: "Todas nuestras instalaciones y reparaciones están cubiertas por una garantía completa, que afecta tanto a las piezas y componentes como a la mano de obra realizada.",
+      titulo: "Calidad en Cada Componente",
+      descripcion:
+        "Solo utilizamos materiales de primeras marcas para instalaciones robustas y fiables que resisten la meteorología local.",
       icono: "Shield"
+    },
+    {
+      titulo: "Presupuesto sin Sorpresas",
+      descripcion:
+        "Presupuesto claro y por escrito antes de empezar. El precio acordado es el final, sin extras inesperados.",
+      icono: "CheckCircle"
+    },
+    {
+      titulo: "Garantía Integral del Servicio",
+      descripcion:
+        "Todas nuestras instalaciones y reparaciones incluyen garantía completa de mano de obra y materiales.",
+      icono: "Zap"
     }
   ],
-
+  testimonios: [
+    {
+      nombre: "Familia Sánchez",
+      comentario:
+        "Nos construimos una casa nueva y se encargaron de la instalación de TV y el videoportero. Trabajo muy profesional, limpio y bien coordinado.",
+      puntuacion: 5
+    },
+    {
+      nombre: "Presidente de Comunidad (centro)",
+      comentario:
+        "Teníamos problemas con la antena del bloque desde hacía años. Por fin nos dieron una solución definitiva a buen precio. Muy recomendables para comunidades.",
+      puntuacion: 5
+    },
+    {
+      nombre: "Raquel G.",
+      comentario:
+        "Se fue la señal un sábado por la tarde. Vinieron en un par de horas y lo arreglaron. Un servicio de urgencia que de verdad funciona.",
+      puntuacion: 5
+    }
+  ],
   faqs: [
     {
-      question: "¿Se adaptan a mi horario para realizar la visita?",
-      answer: "Sí. Somos flexibles y siempre intentamos coordinar la cita en el horario que mejor le convenga, incluyendo las primeras horas de la tarde para facilitar la conciliación laboral y familiar."
+      question: "¿Cuánto tiempo se tarda en instalar una antena nueva?",
+      answer:
+        "Una instalación estándar de TDT o parabólica en una vivienda unifamiliar suele completarse en 2–3 horas, incluyendo montaje, cableado y sintonización de canales."
     },
     {
-      question: "¿Cómo puedo tener buena señal de TV en todas las habitaciones de casa?",
-      answer: "Mediante la instalación de un pequeño amplificador de vivienda y un distribuidor de señal, nos aseguramos de que la calidad de imagen sea perfecta y estable en cada una de las tomas de antena de su hogar."
+      question:
+        "Mi señal de TV se pixela cuando hace viento, ¿tiene arreglo?",
+      answer:
+        "Sí. Suele deberse a sujeción deficiente, mástil inestable o cableado exterior deteriorado. Revisamos y aseguramos la instalación para que no vuelva a ocurrir."
     },
     {
-      question: "¿Tiene algún coste que vengan a mi domicilio a darme un presupuesto?",
-      answer: "Ninguno. El desplazamiento a su domicilio en Seseña Nuevo para evaluar el trabajo y proporcionarle un presupuesto detallado y sin ningún compromiso es completamente gratuito."
+      question: "¿Pueden darme un presupuesto por teléfono?",
+      answer:
+        "Podemos dar una estimación aproximada por teléfono. Para un presupuesto cerrado y preciso preferimos visitar su domicilio en Villaluenga sin coste ni compromiso."
     },
     {
-      question: "¿Qué métodos de pago aceptan?",
-      answer: " Para su mayor comodidad, aceptamos pago en efectivo, con tarjeta de crédito/débito a través de TPV móvil y también mediante Bizum."  
+      question: "¿Trabajan los fines de semana?",
+      answer:
+        "Atendemos avisos de urgencias durante el fin de semana. Para instalaciones nuevas o trabajos no urgentes programamos en días laborables."
     }
   ]
 }
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Seseña Nuevo | Advanced Telecom`,
-  description: `Antenistas en Seseña Nuevo. Instalación y reparación de antenas TDT y parabólicas, videoporteros y CCTV. Seseña Viejo, El Quiñón y Vallegrande.`,
-  keywords: `antenista Seseña Nuevo, antenas TDT Seseña, instalación parabólicas Seseña, videoporteros Seseña, cámaras seguridad Seseña, reparación antenas Seseña`,
+  title: `Antenista en Villaluenga de la Sagra | Advanced Telecom`,
+  description:
+    `Servicio de antenista en Villaluenga de la Sagra para particulares, comunidades y empresas. Instalación y reparación de TDT, parabólicas y videoporteros.`,
+  keywords:
+    `antenista Villaluenga de la Sagra, instalación TDT, antenas parabólicas, videoporteros, reparación antenas Toledo`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-sesena'
+    canonical: 'https://advanced-telecom.es/antenista-villaluenga-de-la-sagra'
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 
@@ -154,7 +148,7 @@ const IconComponent = (iconName: string) => {
   return Icon ? <Icon className="h-6 w-6" /> : <MapPin className="h-6 w-6" />;
 };
 
-export default function AldeaDelFresnoPage() {
+export default function VillaluengaDeLaSagraPage() {
   return (
     <>
       <div className="flex flex-col min-h-screen">
@@ -173,25 +167,25 @@ export default function AldeaDelFresnoPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Seseña Nuevo</span>
+                    <span className="text-brand-green font-medium">Villaluenga de la Sagra</span>
                   </nav>
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      <span className="text-brand-green">Su especialista antenista </span> en Seseña Nuevo
+                      Servicio de antenista profesional en <span className="text-brand-green">Villaluenga de la Sagra</span>
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos un servicio de antenista rápido, eficiente y enfocado en las necesidades de los vecinos de Seseña Nuevo. Entendemos la importancia de una señal de televisión perfecta en su hogar y proporcionamos soluciones duraderas para cualquier tipo de vivienda, desde pisos en comunidades hasta chalets individuales.
+                      Damos un servicio de antenista completo y profesional a toda la localidad de Villaluenga de la Sagra. Soluciones de telecomunicaciones para viviendas del casco urbano, chalets y pisos en zonas de nueva construcción, combinando experiencia y tecnología actual para trabajar en cualquier tipo de edificio.
                     </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Solicitar presupuesto gratuito
+                      Llamar para una avería
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
-                      Llamar para una urgencia
+                      Solicitar presupuesto ahora
                     </Link>
                   </div>
                 </div>
@@ -201,7 +195,7 @@ export default function AldeaDelFresnoPage() {
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
                       src="/images/telecom/antenistas-en-toledo-sur.jpg"
-                      alt="Servicios de telecomunicaciones en Seseña Nuevo"
+                      alt="Servicios de telecomunicaciones en Villaluenga de la Sagra"
                       width={400}
                       height={200}
                       priority
@@ -212,12 +206,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-           {/* Cobertura específica de Seseña Nuevo */}
+           {/* Cobertura específica de Villaluenga de la Sagra */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Atención completa en Seseña Nuevo y alrededores</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestro equipo garantiza una cobertura total y un servicio de proximidad, no solo en Seseña Nuevo, sino también en las zonas colindantes para ofrecer una solución integral.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura total en Villaluenga y Comarca de La Sagra</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestro equipo local garantiza atención rápida y eficiente en todo Villaluenga y localidades cercanas.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -226,8 +220,8 @@ export default function AldeaDelFresnoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra área de servicio principal incluye</h3>
-                      <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
+                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en Villaluenga de la Sagra</h3>
+                      <p className="text-brand-black-light">Servicio de proximidad en todo el término municipal</p>
                     </div>
                   </div>
                  
@@ -235,7 +229,7 @@ export default function AldeaDelFresnoPage() {
                     {municipioData.zonasCubiertas?.map((zona, index) => (
                       <div key={index} className="flex items-center p-4 bg-white/70 rounded-lg border border-green-100/50">
                         <CheckCircle className="h-6 w-6 text-brand-green mr-3 flex-shrink-0" />
-                        <span className="text-brand-black font-medium">{zona}</span>
+                      <span className="text-brand-black font-medium">{zona}</span>
                       </div>
                     ))}
                   </div>
@@ -243,7 +237,7 @@ export default function AldeaDelFresnoPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Nos comprometemos a dar una primera respuesta y diagnóstico en el mismo día.</span>
+                      <span>Tiempo de respuesta: Menos de 2 horas. Servicio rápido para averías y pérdidas de señal.</span>
                     </div>
                   </div>
                 </div>
@@ -251,12 +245,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Servicios especializados en Aldea del Fresno */}
+          {/* Servicios en Villaluenga de la Sagra */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Todos los servicios de telecomunicaciones que necesita</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Contamos con un abanico completo de servicios para asegurar que su instalación de antena esté siempre en perfecto estado.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestros servicios de telecomunicaciones</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Equipo técnico cualificado para TDT, parabólicas, videoporteros, CCTV, solución a interferencias 4G/5G y telecomunicaciones para empresas en Villaluenga.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -273,12 +267,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Por qué elegir nuestros servicios en Seseña Nuevo */}
+          {/* Por qué elegirnos en Villaluenga de la Sagra */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La elección de confianza para su antena en Seseña Nuevo</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Elegir nuestro servicio es garantía de profesionalidad, eficiencia y un profundo conocimiento de la zona.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué somos su antenista de confianza en Villaluenga?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra profesionalidad, conocimiento local y compromiso con la calidad nos distinguen.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -294,12 +288,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-         {/* Testimonios de clientes en Aldea del Fresno */}
+         {/* Testimonios de clientes en Villaluenga de la Sagra */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La valoración de nuestros clientes en Seseña Nuevo</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacción de los vecinos de Seseña Nuevo es nuestro principal objetivo y nuestra mejor carta de presentación.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La satisfacción de nuestros clientes en Villaluenga de la Sagra</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La confianza que nuestros vecinos depositan en nosotros es nuestro mayor orgullo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -313,19 +307,19 @@ export default function AldeaDelFresnoPage() {
                     </div>
                     <p className="text-brand-black-light mb-4 italic">"{testimonio.comentario}"</p>
                     <div className="font-semibold text-brand-black">{testimonio.nombre}</div>
-                    <div className="text-sm text-brand-black-light">Cliente en Aldea del Fresno</div>
+                    <div className="text-sm text-brand-black-light">Cliente en Villaluenga de la Sagra</div>
                   </div>
                 ))}
               </div>
             </div>
           </section>
 
-          {/* FAQs específicas de Aldea del Fresno */}
+          {/* FAQs específicas de Villaluenga de la Sagra */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Resolvemos sus dudas frecuentes</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Contestamos a las preguntas más habituales de nuestros clientes en la zona.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes y sus respuestas</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos algunas de las dudas más habituales de nuestros clientes.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -338,16 +332,16 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* CTA Section específica para Aldea del Fresno */}
+          {/* CTA Section específica para Villaluenga de la Sagra */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista de proximidad en Seseña Nuevo</h2>
-                  <p className="text-xl mb-8 text-white/90">Para cualquier consulta, avería o proyecto de instalación en Seseña Nuevo, no dude en llamarnos. Le ofreceremos una atención personalizada y la solución más adecuada y profesional a sus necesidades.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Villaluenga de la Sagra?</h2>
+                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Villaluenga de la Sagra.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Villaluenga%20de%20la%20Sagra" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>

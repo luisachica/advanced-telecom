@@ -348,7 +348,7 @@ export default function BoroxPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">PIDE TU PRESUPUESTO SIN COMPROMISO</h2>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Nuevo Borox</h2>
                   <p className="text-xl mb-8 text-white/90">Atendemos su solicitud rápido y en el día. Cada uno de nuestros trabajos lo entregamos con la respectiva garantía. Nuestros presupuestos los adaptamos a la medida de sus necesidades y siempre estamos atentos a ofrecer el mejor servicio a precios razonables y competitivos.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">

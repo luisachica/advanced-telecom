@@ -142,7 +142,7 @@ export function MainNavigation({ services = [] }: MainNavigationProps) {
               className="flex items-center gap-1 px-3 py-2 rounded-lg text-brand-black font-medium hover:bg-brand-green/10 hover:text-brand-green transition-all duration-200 border-b-2 border-transparent hover:border-brand-green text-sm xl:text-base xl:px-4 xl:gap-2"
             >
               <Info className="h-4 w-4 xl:h-5 xl:w-5" />
-              <span>Quiénes Somos</span>
+              <span>Quiénes somos</span>
             </Link>
 
             <div className="relative">
@@ -183,13 +183,6 @@ export function MainNavigation({ services = [] }: MainNavigationProps) {
             </div>
 
             <Link
-              href="/blog"
-              className="flex items-center gap-1 px-3 py-2 rounded-lg text-brand-black font-medium hover:bg-brand-green/10 hover:text-brand-green transition-all duration-200 border-b-2 border-transparent hover:border-brand-green text-sm xl:text-base xl:px-4 xl:gap-2"
-            >
-              <FileText className="h-4 w-4 xl:h-5 xl:w-5" />
-              <span>Blog</span>
-            </Link>
-            <Link
               href="/contacto"
               className="flex items-center gap-1 px-3 py-2 rounded-lg text-brand-black font-medium hover:bg-brand-green/10 hover:text-brand-green transition-all duration-200 border-b-2 border-transparent hover:border-brand-green text-sm xl:text-base xl:px-4 xl:gap-2"
             >
@@ -203,7 +196,7 @@ export function MainNavigation({ services = [] }: MainNavigationProps) {
           <a href="https://wa.me/34668838415?text=Hola%2C%20quiero%20más%20información%20sobre%20servicios%20de%20telecomunicaciones" className="hidden lg:block">
             <Button className="flex items-center gap-1 bg-gray-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-gray-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 text-sm xl:text-base xl:px-6 xl:gap-2 border-2 border-gray-600 hover:border-gray-700">
               <Phone className="h-4 w-4 xl:h-5 xl:w-5" />
-              Presupuesto Gratis
+              Presupuesto gratis
             </Button>
           </a>
 

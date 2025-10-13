@@ -55,18 +55,18 @@ const municipioData = {
 
   testimonios: [
     {
-      nombre: "Carmen López",
-      comentario: "El mejor antenista de Aldea del Fresno. Instalación perfecta y muy profesional.",
+      nombre: "Laura Sánchez",
+      comentario: "Atención rápida y profesional en Pantoja. La señal de TDT quedó perfecta.",
       puntuacion: 5
     },
     {
-      nombre: "Miguel Ángel Ruiz",
-      comentario: "Servicio técnico excelente. Resolvieron todos nuestros problemas de señal.",
+      nombre: "José Manuel Ortega",
+      comentario: "Instalaron el videoportero en nuestra comunidad. Trabajo limpio y garantizado.",
       puntuacion: 5
     },
     {
-      nombre: "Isabel Martínez",
-      comentario: "Antenista muy recomendable en Aldea del Fresno. Trabajo impecable y garantizado.",
+      nombre: "Marta Gómez",
+      comentario: "Solucionaron interferencias 5G que afectaban la antena. Muy recomendables en Pantoja.",
       puntuacion: 5
     }
   ],
@@ -74,7 +74,7 @@ const municipioData = {
    caracteristicas: [
     {
       titulo: "Antenista local especializado",
-      descripcion: "Conocimiento específico de Aldea del Fresno y sus necesidades técnicas",
+      descripcion: "Conocimiento específico de Pantoja y sus necesidades técnicas",
       icono: "Home"
     },
     {
@@ -84,7 +84,7 @@ const municipioData = {
     },
     {
       titulo: "Atención personalizada",
-      descripcion: "Servicio directo y soluciones adaptadas a cada hogar en Aldea del Fresno",
+      descripcion: "Servicio directo y soluciones adaptadas a cada hogar en Pantoja",
       icono: "Users"
     },
     {
@@ -96,31 +96,31 @@ const municipioData = {
 
   faqs: [
     {
-      question: "¿Qué servicios de antenista ofrecen en Aldea del Fresno?",
-      answer: "Como antenista especializado en Aldea del Fresno, ofrecemos instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia con garantía completa."
+      question: "¿Qué servicios de antenista ofrecen en Pantoja?",
+      answer: "Instalación y reparación de antenas TDT y parabólicas, montaje de videoporteros, CCTV, soluciones por interferencias 5G y reparaciones urgentes, con garantía completa."
     },
     {
-      question: "¿Cuál es el mejor antenista en Aldea del Fresno?",
-      answer: "Somos antenistas profesionales con más de 25 años de experiencia en Aldea del Fresno. Ofrecemos servicio técnico especializado, garantía y atención personalizada."
+      question: "¿Cuál es el mejor antenista en Pantoja?",
+      answer: "Contamos con más de 25 años de experiencia y atención local en Pantoja. Servicio técnico especializado, garantía y trato personalizado."
     },
     {
-      question: "¿Realizan instalaciones de antenas TDT en Aldea del Fresno?",
-      answer: "Sí, somos especialistas en instalaciones de antenas TDT en Aldea del Fresno. Utilizamos equipos de alta calidad y ofrecemos garantía en todas nuestras instalaciones."
+      question: "¿Realizan instalaciones de antenas TDT en Pantoja?",
+      answer: "Sí, somos especialistas en instalaciones de antenas TDT en Pantoja. Utilizamos equipos de alta calidad y garantizamos todas nuestras instalaciones."
     },
     {
-      question: "¿Cuánto cuesta un antenista en Aldea del Fresno?",
-      answer: "Los precios varían según el tipo de instalación. Como antenista local en Aldea del Fresno, ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
+      question: "¿Cuánto cuesta un antenista en Pantoja?",
+      answer: "Depende del tipo de instalación o reparación. Ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
     }
   ]
 }
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Aldea del Fresno | Advanced Telecom`,
-  description: `Antenistas en Aldea del Fresno. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
-  keywords: `antenista Aldea del Fresno, antenas TDT Aldea del Fresno, instalación antenas Madrid, reparación antenas Aldea del Fresno, telecomunicaciones Aldea del Fresno`,
+  title: `Antenista en Pantoja | Advanced Telecom`,
+  description: `Antenistas en Pantoja. Servicio técnico en TDT, antenas parabólicas, videoporteros, CCTV, soluciones por interferencias 5G y reparaciones urgentes.`,
+  keywords: `antenista Pantoja, antenas TDT Pantoja, instalación antenas Toledo, reparación antenas Pantoja, telecomunicaciones Pantoja`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-en-aldea-del-fresno'
+    canonical: 'https://advanced-telecom.es/antenista-en-pantoja'
   },
   robots: {
     index: false,
@@ -156,7 +156,7 @@ const IconComponent = (iconName: string) => {
   return Icon ? <Icon className="h-6 w-6" /> : <MapPin className="h-6 w-6" />;
 };
 
-export default function AldeaDelFresnoPage() {
+export default function PantojaPage() {
   return (
     <>
       <div className="flex flex-col min-h-screen">
@@ -175,15 +175,15 @@ export default function AldeaDelFresnoPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Aldea del Fresno</span>
+                    <span className="text-brand-green font-medium">Pantoja</span>
                   </nav>
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      <span className="text-brand-green">Antenista</span> en Aldea del Fresno
+                      <span className="text-brand-green">Antenista</span> en Pantoja
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Antenista profesional en Aldea del Fresno con más de 25 años de experiencia. Especialistas en instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia. Servicio técnico garantizado en todo el municipio madrileño.
+                      Servicio de antenista en Pantoja con más de 25 años de experiencia. Instalación y reparación de antenas TDT y parabólicas, porteros automáticos y videoporteros, CCTV, soluciones por interferencias 5G y reparaciones urgentes. Atención rápida y profesional en todo el municipio.
                     </p>
                   </div>
 
@@ -203,7 +203,7 @@ export default function AldeaDelFresnoPage() {
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
                       src="/images/telecom/antenistas-en-toledo-sur.jpg"
-                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histórico de La Sagra"
+                      alt="Servicios de telecomunicaciones en Pantoja - Municipio de La Sagra"
                       width={400}
                       height={200}
                       priority
@@ -218,8 +218,8 @@ export default function AldeaDelFresnoPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio técnico profesional disponible en todo el municipio madrileño</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Pantoja</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio técnico profesional disponible en todo el municipio de Pantoja</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -228,7 +228,7 @@ export default function AldeaDelFresnoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Aldea del Fresno</h3>
+                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Pantoja</h3>
                       <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
                     </div>
                   </div>
@@ -253,12 +253,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Servicios especializados en Aldea del Fresno */}
+          {/* Servicios especializados en Pantoja */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades del municipio madrileño.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en Pantoja</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades de Pantoja.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -275,11 +275,11 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Por qué elegir nuestros servicios en Aldea del Fresno */}
+          {/* Por qué elegir nuestros servicios en Pantoja */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir nuestro antenista en Aldea del Fresno?</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir nuestro antenista en Pantoja?</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalación</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -315,18 +315,18 @@ export default function AldeaDelFresnoPage() {
                     </div>
                     <p className="text-brand-black-light mb-4 italic">"{testimonio.comentario}"</p>
                     <div className="font-semibold text-brand-black">{testimonio.nombre}</div>
-                    <div className="text-sm text-brand-black-light">Cliente en Aldea del Fresno</div>
+                    <div className="text-sm text-brand-black-light">Cliente en Pantoja</div>
                   </div>
                 ))}
               </div>
             </div>
           </section>
 
-          {/* FAQs específicas de Aldea del Fresno */}
+          {/* FAQs específicas de Pantoja */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Aldea del Fresno</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Pantoja</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más comunes sobre nuestros servicios de antenista en el municipio</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
@@ -340,16 +340,16 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* CTA Section específica para Aldea del Fresno */}
+          {/* CTA Section específica para Pantoja */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Aldea del Fresno?</h2>
-                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Aldea del Fresno.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Pantoja?</h2>
+                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Pantoja.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Pantoja" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>

@@ -13,119 +13,131 @@ import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 
-// Datos específicos del municipio
+// Datos específicos de la urbanización
 const municipioData = {
-  nombre: "Aldea del Fresno",
-  slug: "aldea-del-fresno",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
-  codigoPostal: "28691",
-  poblacion: "2.847",
-  superficie: "47,8",
-  descripcion: "Antenista profesional en Aldea del Fresno especializado en instalaciones de telecomunicaciones. Servicios técnicos de calidad para este municipio madrileño.",
+  nombre: "Los Palominos",
+  slug: "los-palominos",
+  provincia: "Toledo",
+  comunidad: "Castilla-La Mancha",
+  codigoPostal: "45210",
+  poblacion: "1.200",
+  superficie: "2,5",
+  descripcion: "Antenista especialista en la urbanización Los Palominos. Servicios técnicos profesionales para chalets, con conocimiento específico de la zona y atención personalizada.",
   servicios: [
-    "Instalación de antenas TDT en Aldea del Fresno",
-    "Antenas parabólicas para zonas residenciales",
-    "Porteros automáticos y videoporteros",
-    "Sistemas de videovigilancia CCTV",
-    "Amplificadores de señal digital",
-    "Mantenimiento técnico especializado"
+    "Optimización de señal TDT para chalets",
+    "Instalación discreta de antenas parabólicas",
+    "Videoporteros modernos para parcelas",
+    "Sistemas CCTV de seguridad",
+    "Filtros 5G anti-interferencias",
+    "Reparaciones urgentes especializadas"
   ],
    serviciosDestacados: [
-    "Antenista TDT especializado",
-    "Instalaciones residenciales",
-    "Servicio técnico local"
+    "Especialista en chalets",
+    "Servicio rápido en la zona",
+    "Instalaciones discretas"
   ],
 
   zonasCubiertas: [
-    "Casco urbano",
-    "Zona residencial",
-    "Área industrial",
-    "Urbanizaciones",
-    "Viviendas aisladas"
+    "Todas las calles y parcelas de la urbanización",
+    "Chalets de todas las fases y tipos de construcción",
+    "Viviendas con cualquier tipo de tejado o fachada",
+    "Atención en la zona del club social y alrededores"
   ],
 
   cobertura: [
-    { zona: "Casco urbano", disponible: true },
-    { zona: "Zona residencial", disponible: true },
-    { zona: "Área industrial", disponible: true },
-    { zona: "Urbanizaciones", disponible: true },
-    { zona: "Viviendas aisladas", disponible: true }
+    { zona: "Todas las calles y parcelas", disponible: true },
+    { zona: "Chalets de todas las fases", disponible: true },
+    { zona: "Diferentes tipos de tejado", disponible: true },
+    { zona: "Zona del club social", disponible: true },
+    { zona: "Alrededores de la urbanización", disponible: true }
   ],
 
   testimonios: [
     {
-      nombre: "Carmen López",
-      comentario: "El mejor antenista de Aldea del Fresno. Instalación perfecta y muy profesional.",
+      nombre: "Miguel R.",
+      comentario: "La señal de la TDT en mi chalet nunca se había visto bien del todo. Vinieron, me cambiaron la orientación de la antena y me pusieron un amplificador. El cambio ha sido espectacular.",
       puntuacion: 5
     },
     {
-      nombre: "Miguel Ángel Ruiz",
-      comentario: "Servicio técnico excelente. Resolvieron todos nuestros problemas de señal.",
+      nombre: "Sonia L.",
+      comentario: "Quería poner un videoportero y me asesoraron genial. El técnico fue muy cuidadoso con el jardín y la fachada. Un trabajo muy fino y profesional. Los recomiendo.",
       puntuacion: 5
     },
     {
-      nombre: "Isabel Martínez",
-      comentario: "Antenista muy recomendable en Aldea del Fresno. Trabajo impecable y garantizado.",
+      nombre: "Isabel G.",
+      comentario: "Después de la última tormenta de granizo, la parabólica se movió. Les llamé y vinieron el mismo día. Un servicio urgente de verdad. Muy agradecida.",
       puntuacion: 5
     }
   ],
 
    caracteristicas: [
     {
-      titulo: "Antenista local especializado",
-      descripcion: "Conocimiento específico de Aldea del Fresno y sus necesidades técnicas",
+      titulo: "Conocimiento experto de la zona",
+      descripcion: "Sabemos cómo se construyeron los chalets de Los Palominos y conocemos los puntos débiles de las instalaciones originales, lo que nos permite ir directos al problema y solucionarlo antes.",
       icono: "Home"
     },
     {
-      titulo: "Instalaciones de calidad",
-      descripcion: "Equipos profesionales y técnicas avanzadas para óptima recepción",
-      icono: "Signal"
-    },
-    {
-      titulo: "Atención personalizada",
-      descripcion: "Servicio directo y soluciones adaptadas a cada hogar en Aldea del Fresno",
+      titulo: "Servicio cercano y de confianza",
+      descripcion: "Te atendemos personalmente, sin centralitas ni intermediarios. Somos tus técnicos de confianza en la urbanización, con un trato directo y honesto.",
       icono: "Users"
     },
     {
-      titulo: "Garantía profesional",
-      descripcion: "Garantía completa en todas nuestras instalaciones y reparaciones",
+      titulo: "Presupuestos claros y sin compromiso",
+      descripcion: "Te damos un precio detallado y cerrado antes de empezar a trabajar. Con nosotros, la transparencia es total desde el primer minuto.",
+      icono: "CheckCircle"
+    },
+    {
+      titulo: "Garantía en cada intervención",
+      descripcion: "Respaldamos nuestro trabajo con una garantía por escrito, tanto en las reparaciones como en las instalaciones nuevas que realizamos.",
       icono: "Shield"
     }
   ],
 
   faqs: [
     {
-      question: "¿Qué servicios de antenista ofrecen en Aldea del Fresno?",
-      answer: "Como antenista especializado en Aldea del Fresno, ofrecemos instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia con garantía completa."
+      question: "Mi chalet tiene varias plantas, ¿podéis asegurar que la señal de TV llegue bien a todas?",
+      answer: "Sí, por supuesto. Es un problema muy común y tiene fácil solución. Estudiamos la distribución de tu casa e instalamos los derivadores y amplificadores necesarios para que la señal llegue con la misma fuerza y calidad a cada una de las tomas de antena."
     },
     {
-      question: "¿Cuál es el mejor antenista en Aldea del Fresno?",
-      answer: "Somos antenistas profesionales con más de 25 años de experiencia en Aldea del Fresno. Ofrecemos servicio técnico especializado, garantía y atención personalizada."
+      question: "¿Cuánto se tarda en instalar un sistema de cámaras de seguridad?",
+      answer: "Una instalación típica de 3 o 4 cámaras en el perímetro de un chalet en Los Palominos suele llevar una jornada de trabajo, dejándolo todo instalado, configurado en tu móvil y funcionando."
     },
     {
-      question: "¿Realizan instalaciones de antenas TDT en Aldea del Fresno?",
-      answer: "Sí, somos especialistas en instalaciones de antenas TDT en Aldea del Fresno. Utilizamos equipos de alta calidad y ofrecemos garantía en todas nuestras instalaciones."
+      question: "¿El presupuesto que me dais es gratuito aunque al final no haga el trabajo?",
+      answer: "Sí, totalmente. Nos desplazamos a tu casa en Los Palominos, valoramos lo que necesitas y te damos un presupuesto detallado sin ningún tipo de coste ni compromiso por tu parte."
     },
     {
-      question: "¿Cuánto cuesta un antenista en Aldea del Fresno?",
-      answer: "Los precios varían según el tipo de instalación. Como antenista local en Aldea del Fresno, ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
+      question: "¿Qué tipo de garantía ofrecéis?",
+      answer: "Te ofrecemos la máxima garantía legal en todos nuestros trabajos, que queda reflejada por escrito en la factura. Cubre tanto la mano de obra como los materiales que hemos instalado."
     }
   ]
 }
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Aldea del Fresno | Advanced Telecom`,
-  description: `Antenistas en Aldea del Fresno. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
-  keywords: `antenista Aldea del Fresno, antenas TDT Aldea del Fresno, instalación antenas Madrid, reparación antenas Aldea del Fresno, telecomunicaciones Aldea del Fresno`,
+  title: `Antenista en Los Palominos | Advanced Telecom`,
+  description: `✅ Tu antenista en la urbanización Los Palominos. Damos solución a problemas de TDT y parabólicas en tu chalet. Presupuesto gratuito y servicio rápido.`,
+  keywords: `antenista Los Palominos, antenas TDT Los Palominos, instalación antenas chalets, reparación antenas urbanización, telecomunicaciones Los Palominos`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-en-aldea-del-fresno'
+    canonical: 'https://advanced-telecom.es/antenista-los-palominos'
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
+  openGraph: {
+    title: 'Antenista en Los Palominos | Advanced Telecom',
+    description: '✅ Tu antenista en la urbanización Los Palominos. Damos solución a problemas de TDT y parabólicas en tu chalet. Presupuesto gratuito y servicio rápido.',
+    url: 'https://advanced-telecom.es/antenista-los-palominos',
+    siteName: 'Advanced Telecom',
+    locale: 'es_ES',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Antenista en Los Palominos | Advanced Telecom',
+    description: '✅ Tu antenista en la urbanización Los Palominos. Damos solución a problemas de TDT y parabólicas en tu chalet. Presupuesto gratuito y servicio rápido.',
+  }
 };
 
 const iconMap = {
@@ -164,7 +176,7 @@ export default function AldeaDelFresnoPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section específico de Torrecastillo */}
+          {/* Hero Section específico de Los Palominos */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -175,25 +187,25 @@ export default function AldeaDelFresnoPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Aldea del Fresno</span>
+                    <span className="text-brand-green font-medium">Los Palominos</span>
                   </nav>
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      <span className="text-brand-green">Antenista</span> en Aldea del Fresno
+                      Tu antenista especialista en la <span className="text-brand-green">urbanización Los Palominos</span>
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Antenista profesional en Aldea del Fresno con más de 25 años de experiencia. Especialistas en instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia. Servicio técnico garantizado en todo el municipio madrileño.
+                      Si tienes tu chalet en la urbanización Los Palominos y necesitas un antenista de confianza que conozca la zona, estás en el lugar indicado. Te ofrecemos un servicio técnico especializado para resolver cualquier avería, mejorar la señal de tu hogar o aumentar tu seguridad, con la profesionalidad y la rapidez que buscas.
                     </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Llamar ahora
+                      Llámanos
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
-                      Solicitar presupuesto
+                      Pide presupuesto
                     </Link>
                   </div>
                 </div>
@@ -214,12 +226,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-           {/* Cobertura específica de Aldea del Fresno */}
+           {/* Cobertura específica de Los Palominos */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio técnico profesional disponible en todo el municipio madrileño</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicio dedicado para toda la urbanización Los Palominos</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra especialización en la zona nos permite ofrecerte un servicio más rápido y eficiente, cubriendo cada calle y parcela de la urbanización.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -228,8 +240,8 @@ export default function AldeaDelFresnoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Aldea del Fresno</h3>
-                      <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
+                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra área de servicio en Los Palominos incluye:</h3>
+                      <p className="text-brand-black-light">Cobertura completa en toda la urbanización</p>
                     </div>
                   </div>
                  
@@ -245,7 +257,7 @@ export default function AldeaDelFresnoPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Tiempo de respuesta: Menos de 2 horas</span>
+                      <span>Como estamos en la zona, te atendemos en menos de 2 horas.</span>
                     </div>
                   </div>
                 </div>
@@ -253,12 +265,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Servicios especializados en Aldea del Fresno */}
+          {/* Servicios especializados en Los Palominos */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades del municipio madrileño.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Soluciones a medida para tu chalet en Los Palominos</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Entendemos las necesidades de tu vivienda y te ofrecemos los servicios que realmente marcan la diferencia.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -275,12 +287,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Por qué elegir nuestros servicios en Aldea del Fresno */}
+          {/* Por qué elegir nuestros servicios en Los Palominos */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir nuestro antenista en Aldea del Fresno?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalación</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en un especialista de Los Palominos?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra experiencia en tu urbanización es tu mejor garantía.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -296,12 +308,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-         {/* Testimonios de clientes en Aldea del Fresno */}
+         {/* Testimonios de clientes en Los Palominos */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Aldea del Fresno que confían en nuestros servicios</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La opinión de tus vecinos de Los Palominos</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La gente que vive en tu misma urbanización ya ha probado nuestro servicio y esta es su experiencia.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -322,12 +334,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* FAQs específicas de Aldea del Fresno */}
+          {/* FAQs específicas de Los Palominos */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más comunes sobre nuestros servicios de antenista en el municipio</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Resolvemos tus dudas sobre el servicio en la urbanización</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Aquí tienes las respuestas a las preguntas que más nos hacen tus vecinos.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -340,16 +352,16 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* CTA Section específica para Aldea del Fresno */}
+          {/* CTA Section específica para Los Palominos */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Aldea del Fresno?</h2>
-                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Aldea del Fresno.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Los Palominos? Llámanos</h2>
+                  <p className="text-xl mb-8 text-white/90">Si vives en la urbanización, no dudes en contactar con nosotros. Te daremos una solución rápida y a medida para tu chalet, con la garantía de un servicio especialista en la zona.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Los%20Palominos" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>

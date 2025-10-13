@@ -15,114 +15,115 @@ import { SERVICIOS } from "@/data/servicios";
 
 // Datos específicos del municipio
 const municipioData = {
-  nombre: "Seseña Nuevo",
-  slug: "sesena-nuevo",
+  nombre: "Numancia de la Sagra",
+  slug: "numancia-de-la-sagra",
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
-  codigoPostal: "45223",
-  poblacion: "26.000+",
-  superficie: "71,0",
-  descripcion: "Antenista profesional en Seseña Nuevo especializado en instalaciones y reparaciones de telecomunicaciones. Servicio rápido en Seseña Nuevo, Seseña Viejo, El Quiñón y Vallegrande.",
+  codigoPostal: "45222",
+  poblacion: "3.124",
+  superficie: "52,3",
+  descripcion: "Servicio de antenista profesional en Numancia de la Sagra. Soluciones para TDT, parabólicas y videoporteros en hogar, comunidad y empresa.",
   servicios: [
-    "Instalación y reparación de antenas TDT en Seseña Nuevo",
-    "Instalación y orientación de antenas parabólicas y satélite",
-    "Actualización de porteros automáticos y videoporteros",
-    "Instalación de cámaras de seguridad CCTV",
-    "Solución de interferencias 5G/4G y filtros LTE",
-    "Reparaciones y mantenimiento de sistemas de telecomunicaciones"
+    "Instalación y reparación de antenas TDT",
+    "Instalación de antenas parabólicas",
+    "Sistemas de videoportero y portero automático",
+    "Instalación de videovigilancia (CCTV)",
+    "Solución a interferencias por la red 5G",
+    "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Diagnóstico experto TDT",
-    "Parabólicas y satélite",
-    "Servicio técnico local en Seseña"
+    "Experiencia local contrastada",
+    "Tecnología avanzada y materiales de primera",
+    "Presupuestos transparentes",
+    "Garantía profesional por escrito"
   ],
 
   zonasCubiertas: [
-    "Cobertura total en todo el núcleo de Seseña Nuevo.",
-    "Atención a comunidades de propietarios y viviendas unifamiliares.",
-    "Servicio en urbanizaciones y zonas residenciales cercanas.",
-    "También damos servicio en Seseña Viejo, El Quiñón y Vallegrande."
+    "El casco urbano de Numancia",
+    "Nuevas zonas residenciales y chalets",
+    "Comunidades de vecinos y bloques de pisos",
+    "El polígono industrial y fincas del término"
   ],
 
   cobertura: [
-    { zona: "Cobertura total en todo el núcleo de Seseña Nuevo.", disponible: true }, 
-    { zona: "Atención a comunidades de propietarios y viviendas unifamiliares", disponible: true },
-    { zona: "Servicio en urbanizaciones y zonas residenciales cercanas", disponible: true },
-    { zona: "También damos servicio en Seseña Viejo, El Quiñón y Vallegrande", disponible: true }
+    { zona: "El casco urbano de Numancia", disponible: true },
+    { zona: "Nuevas zonas residenciales y chalets", disponible: true },
+    { zona: "Comunidades de vecinos y bloques de pisos", disponible: true },
+    { zona: "El polígono industrial y fincas del término", disponible: true }
   ],
 
   testimonios: [
     {
-      nombre: "Presidente de comunidad en Seseña Nuevo",
-      comentario: "Teníamos un problema general de señal en todo el bloque. Vinieron, revisaron la instalación central y lo dejaron perfecto para todos los vecinos. Muy profesionales y organizados.",
+      nombre: "Administrador de fincas",
+      comentario: "Un servicio muy profesional y eficiente. Contactamos con ellos para un problema en la antena de la comunidad y lo solucionaron en el mismo día. Muy recomendables.",
       puntuacion: 5
     },
     {
-      nombre: "Marta G., Residente en Seseña Nuevo",
-      comentario: "De repente, empecé a perder canales de la TDT. Les llamé, me explicaron que era por el 5G y me instalaron un filtro. Problema resuelto en menos de media hora. ¡Un alivio!",
+      nombre: "Propietario en Numancia de la Sagra",
+      comentario: "El técnico que vino a mi chalet fue muy profesional y atento. Me explicó cuál era el problema de la señal y lo resolvió de forma definitiva. Excelente trabajo.",
       puntuacion: 5
     },
     {
-      nombre: "Carlos P., Seseña Nuevo",
-      comentario: "Quería instalar una parabólica para ver canales de mi país y ellos se encargaron de todo. Una instalación muy rápida, limpia y el técnico fue muy amable. Funcionamiento perfecto.",
+      nombre: "Gerente de empresa local",
+      comentario: "Solicitamos un presupuesto para instalar cámaras de seguridad en nuestro negocio y nos ofrecieron la mejor solución. La instalación fue rápida y muy limpia.",
       puntuacion: 5
     }
   ],
 
-   caracteristicas: [
+  caracteristicas: [
     {
-      titulo: "Especialización en la zona",
-      descripcion: "Conocemos las infraestructuras de telecomunicaciones de Seseña Nuevo y sus alrededores como El Quiñón, lo que nos permite identificar y solucionar problemas con una eficacia y rapidez inigualables.",
-      icono: "Home"
+      titulo: "Experiencia local contrastada",
+      descripcion: "Conocemos a fondo la señal en La Sagra, ofreciendo soluciones rápidas y eficaces.",
+      icono: "MapPin"
     },
     {
-      titulo: "Equipos de alto rendimiento",
-      descripcion: "Utilizamos solo materiales de marcas reconocidas que garantizan una recepción óptima, una mayor resistencia a las condiciones meteorológicas y una larga vida útil para toda su instalación.",
-      icono: "Signal"
-    },
-    {
-      titulo: "Precios claros y competitivos",
-      descripcion: "Le ofrecemos un presupuesto cerrado y detallado antes de realizar cualquier intervención. Sin sorpresas, sin costes inesperados. Nuestra política es la máxima honestidad.",
-      icono: "Users"
-    },
-    {
-      titulo: "Trabajo totalmente garantizado ",
-      descripcion: "Todas nuestras instalaciones y reparaciones están cubiertas por una garantía completa, que afecta tanto a las piezas y componentes como a la mano de obra realizada.",
+      titulo: "Compromiso con la máxima calidad",
+      descripcion: "Materiales de primeras marcas y componentes homologados para máxima fiabilidad.",
       icono: "Shield"
+    },
+    {
+      titulo: "Transparencia y presupuestos cerrados",
+      descripcion: "Presupuesto detallado y sin compromiso, sin costes ocultos.",
+      icono: "Eye"
+    },
+    {
+      titulo: "Garantía profesional por escrito",
+      descripcion: "Garantía completa por escrito en materiales y mano de obra.",
+      icono: "CheckCircle"
     }
   ],
 
   faqs: [
     {
-      question: "¿Se adaptan a mi horario para realizar la visita?",
-      answer: "Sí. Somos flexibles y siempre intentamos coordinar la cita en el horario que mejor le convenga, incluyendo las primeras horas de la tarde para facilitar la conciliación laboral y familiar."
+      question: "¿Qué se incluye en un servicio de mantenimiento para una comunidad?",
+      answer: "Incluye la revisión y ajuste de la instalación colectiva: antena, amplificador, fuente de alimentación y distribución, asegurando su correcto funcionamiento y previniendo averías."
     },
     {
-      question: "¿Cómo puedo tener buena señal de TV en todas las habitaciones de casa?",
-      answer: "Mediante la instalación de un pequeño amplificador de vivienda y un distribuidor de señal, nos aseguramos de que la calidad de imagen sea perfecta y estable en cada una de las tomas de antena de su hogar."
+      question: "¿El presupuesto que ofrecen tiene algún coste?",
+      answer: "No. El desplazamiento a su domicilio en Numancia de la Sagra para valorar el trabajo y ofrecerle un presupuesto detallado es gratuito y sin compromiso."
     },
     {
-      question: "¿Tiene algún coste que vengan a mi domicilio a darme un presupuesto?",
-      answer: "Ninguno. El desplazamiento a su domicilio en Seseña Nuevo para evaluar el trabajo y proporcionarle un presupuesto detallado y sin ningún compromiso es completamente gratuito."
+      question: "¿Cuánto tiempo de garantía tienen las instalaciones?",
+      answer: "Todas las instalaciones nuevas cuentan con la garantía legal, que cubre componentes y mano de obra. La garantía queda reflejada en la factura."
     },
     {
-      question: "¿Qué métodos de pago aceptan?",
-      answer: " Para su mayor comodidad, aceptamos pago en efectivo, con tarjeta de crédito/débito a través de TPV móvil y también mediante Bizum."  
+      question: "¿Trabajan con seguros del hogar para reparaciones?",
+      answer: "Sí. Si su póliza cubre la avería (por ejemplo, por tormenta), emitimos la factura e informe técnico necesarios para su compañía aseguradora."
     }
   ]
 }
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Seseña Nuevo | Advanced Telecom`,
-  description: `Antenistas en Seseña Nuevo. Instalación y reparación de antenas TDT y parabólicas, videoporteros y CCTV. Seseña Viejo, El Quiñón y Vallegrande.`,
-  keywords: `antenista Seseña Nuevo, antenas TDT Seseña, instalación parabólicas Seseña, videoporteros Seseña, cámaras seguridad Seseña, reparación antenas Seseña`,
+  title: `Antenista en Numancia de la Sagra | Advanced Telecom`,
+  description: `Servicio de antenista en Numancia de la Sagra. Soluciones profesionales para TDT, parabólicas y videoporteros en su hogar o comunidad. Presupuesto sin compromiso.`,
+  keywords: `antenista Numancia de la Sagra, antenas TDT Numancia, instalación antenas Toledo, reparación antenas Numancia de la Sagra, videoporteros Numancia de la Sagra, telecomunicaciones Numancia`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-sesena'
+    canonical: 'https://advanced-telecom.es/antenista-numancia-de-la-sagra'
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 
@@ -154,7 +155,7 @@ const IconComponent = (iconName: string) => {
   return Icon ? <Icon className="h-6 w-6" /> : <MapPin className="h-6 w-6" />;
 };
 
-export default function AldeaDelFresnoPage() {
+export default function NumanciaPage() {
   return (
     <>
       <div className="flex flex-col min-h-screen">
@@ -162,7 +163,7 @@ export default function AldeaDelFresnoPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section específico de Torrecastillo */}
+          {/* Hero Section específico de Numancia de la Sagra */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -173,25 +174,27 @@ export default function AldeaDelFresnoPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Seseña Nuevo</span>
+                    <span className="text-brand-green font-medium">Numancia de la Sagra</span>
                   </nav>
+
+              
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      <span className="text-brand-green">Su especialista antenista </span> en Seseña Nuevo
+                      Antenista en <span className="text-brand-green">Numancia de la Sagra</span>
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos un servicio de antenista rápido, eficiente y enfocado en las necesidades de los vecinos de Seseña Nuevo. Entendemos la importancia de una señal de televisión perfecta en su hogar y proporcionamos soluciones duraderas para cualquier tipo de vivienda, desde pisos en comunidades hasta chalets individuales.
+                      Le ofrecemos un servicio técnico de antenista para dar solución a cualquier incidencia de telecomunicaciones en Numancia de la Sagra. Con más de 25 años de experiencia, garantizamos intervenciones rápidas y eficaces para particulares, comunidades de propietarios y empresas, utilizando siempre la tecnología más avanzada.
                     </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
-                      <Phone className="h-5 w-5 mr-2" />
-                      Solicitar presupuesto gratuito
+                    <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                      <ArrowRight className="h-5 w-5 mr-2" />
+                      Solicitar un presupuesto
                     </Link>
-                    <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
-                      Llamar para una urgencia
+                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
+                      Contactar asistencia técnica
                     </Link>
                   </div>
                 </div>
@@ -201,7 +204,7 @@ export default function AldeaDelFresnoPage() {
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
                       src="/images/telecom/antenistas-en-toledo-sur.jpg"
-                      alt="Servicios de telecomunicaciones en Seseña Nuevo"
+                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histórico de La Sagra"
                       width={400}
                       height={200}
                       priority
@@ -212,12 +215,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-           {/* Cobertura específica de Seseña Nuevo */}
+           {/* Cobertura completa en Numancia de la Sagra */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Atención completa en Seseña Nuevo y alrededores</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestro equipo garantiza una cobertura total y un servicio de proximidad, no solo en Seseña Nuevo, sino también en las zonas colindantes para ofrecer una solución integral.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Numancia de la Sagra y alrededores</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestro equipo técnico se desplaza a cualquier punto del término municipal para ofrecerle una asistencia profesional y de proximidad.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -226,8 +229,8 @@ export default function AldeaDelFresnoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra área de servicio principal incluye</h3>
-                      <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
+                      <h3 className="text-2xl font-semibold text-brand-black">Área de servicio completo</h3>
+                      <p className="text-brand-black-light">Nuestra área de servicio en Numancia de la Sagra incluye:</p>
                     </div>
                   </div>
                  
@@ -243,7 +246,7 @@ export default function AldeaDelFresnoPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Nos comprometemos a dar una primera respuesta y diagnóstico en el mismo día.</span>
+                      <span>Servicio de urgencia con asistencia garantizada en menos de 2 horas.</span>
                     </div>
                   </div>
                 </div>
@@ -251,12 +254,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Servicios especializados en Aldea del Fresno */}
+          {/* Nuestro catálogo de servicios especializados */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Todos los servicios de telecomunicaciones que necesita</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Contamos con un abanico completo de servicios para asegurar que su instalación de antena esté siempre en perfecto estado.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Disponemos de una gama completa de soluciones para asegurar el óptimo funcionamiento de sus sistemas de televisión y comunicación.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -273,12 +276,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Por qué elegir nuestros servicios en Seseña Nuevo */}
+          {/* ¿Por qué confiar en nuestro servicio técnico? */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La elección de confianza para su antena en Seseña Nuevo</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Elegir nuestro servicio es garantía de profesionalidad, eficiencia y un profundo conocimiento de la zona.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra profesionalidad y compromiso son la mejor garantía para todos nuestros clientes en Numancia de la Sagra.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -294,12 +297,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-         {/* Testimonios de clientes en Aldea del Fresno */}
+         {/* La confianza de nuestros clientes en Numancia de la Sagra */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La valoración de nuestros clientes en Seseña Nuevo</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacción de los vecinos de Seseña Nuevo es nuestro principal objetivo y nuestra mejor carta de presentación.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en Numancia de la Sagra</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacción de los vecinos y empresas de la localidad es nuestro principal objetivo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -313,19 +316,19 @@ export default function AldeaDelFresnoPage() {
                     </div>
                     <p className="text-brand-black-light mb-4 italic">"{testimonio.comentario}"</p>
                     <div className="font-semibold text-brand-black">{testimonio.nombre}</div>
-                    <div className="text-sm text-brand-black-light">Cliente en Aldea del Fresno</div>
+                    <div className="text-sm text-brand-black-light">Cliente en Numancia de la Sagra</div>
                   </div>
                 ))}
               </div>
             </div>
           </section>
 
-          {/* FAQs específicas de Aldea del Fresno */}
+          {/* Preguntas frecuentes sobre nuestros servicios */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Resolvemos sus dudas frecuentes</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Contestamos a las preguntas más habituales de nuestros clientes en la zona.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos aquí las dudas más habituales de nuestros clientes.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -338,16 +341,16 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* CTA Section específica para Aldea del Fresno */}
+          {/* CTA Section específica para Numancia de la Sagra */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista de proximidad en Seseña Nuevo</h2>
-                  <p className="text-xl mb-8 text-white/90">Para cualquier consulta, avería o proyecto de instalación en Seseña Nuevo, no dude en llamarnos. Le ofreceremos una atención personalizada y la solución más adecuada y profesional a sus necesidades.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Numancia de la Sagra</h2>
+                  <p className="text-xl mb-8 text-white/90">Si desea solicitar un presupuesto o programar una visita técnica, no dude en contactar con nosotros. Estaremos encantados de ofrecerle la mejor solución para su hogar o negocio.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Numancia%20de%20la%20Sagra" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>

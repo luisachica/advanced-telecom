@@ -15,116 +15,126 @@ import { SERVICIOS } from "@/data/servicios";
 
 // Datos específicos del municipio
 const municipioData = {
-  nombre: "Aldea del Fresno",
-  slug: "aldea-del-fresno",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
-  codigoPostal: "28691",
-  poblacion: "2.847",
-  superficie: "47,8",
-  descripcion: "Antenista profesional en Aldea del Fresno especializado en instalaciones de telecomunicaciones. Servicios técnicos de calidad para este municipio madrileño.",
+  nombre: "Los Cisneros",
+  slug: "los-cisneros",
+  provincia: "Toledo",
+  comunidad: "Castilla-La Mancha",
+  codigoPostal: "45220",
+  poblacion: "1.200",
+  superficie: "8,5",
+  descripcion: "Antenista especialista en la urbanización Los Cisneros (Yeles). Soluciones TDT, parabólicas y videoporteros para tu chalet. Servicio de confianza para viviendas unifamiliares.",
   servicios: [
-    "Instalación de antenas TDT en Aldea del Fresno",
-    "Antenas parabólicas para zonas residenciales",
-    "Porteros automáticos y videoporteros",
-    "Sistemas de videovigilancia CCTV",
-    "Amplificadores de señal digital",
-    "Mantenimiento técnico especializado"
+    "Optimización de señal TDT para chalets en Los Cisneros",
+    "Instalación de antenas parabólicas discretas",
+    "Instalación de videoporteros modernos",
+    "Sistemas de cámaras de seguridad (CCTV)",
+    "Solución de interferencias 5G",
+    "Reparaciones urgentes en la urbanización"
   ],
    serviciosDestacados: [
-    "Antenista TDT especializado",
-    "Instalaciones residenciales",
-    "Servicio técnico local"
+    "Especialistas en chalets",
+    "Instalaciones discretas",
+    "Servicio urgente en urbanización"
   ],
 
   zonasCubiertas: [
-    "Casco urbano",
-    "Zona residencial",
-    "Área industrial",
-    "Urbanizaciones",
-    "Viviendas aisladas"
+    "Todas las calles y parcelas de la urbanización",
+    "Chalets individuales, pareados y adosados",
+    "Viviendas en cualquier fase de Los Cisneros",
+    "Zonas comunes de la urbanización"
   ],
 
   cobertura: [
-    { zona: "Casco urbano", disponible: true },
-    { zona: "Zona residencial", disponible: true },
-    { zona: "Área industrial", disponible: true },
-    { zona: "Urbanizaciones", disponible: true },
-    { zona: "Viviendas aisladas", disponible: true }
+    { zona: "Todas las calles y parcelas", disponible: true },
+    { zona: "Chalets individuales", disponible: true },
+    { zona: "Chalets pareados y adosados", disponible: true },
+    { zona: "Zonas comunes", disponible: true }
   ],
 
   testimonios: [
     {
-      nombre: "Carmen López",
-      comentario: "El mejor antenista de Aldea del Fresno. Instalación perfecta y muy profesional.",
+      nombre: "David G.",
+      ubicacion: "Los Cisneros",
+      comentario: "El servicio ha sido inmejorable. Vinieron a mi chalet en Los Cisneros, encontraron por qué se pixelaba la tele y lo arreglaron. Muy profesionales y eficientes.",
       puntuacion: 5
     },
     {
-      nombre: "Miguel Ángel Ruiz",
-      comentario: "Servicio técnico excelente. Resolvieron todos nuestros problemas de señal.",
+      nombre: "Laura M.",
+      ubicacion: "Los Cisneros",
+      comentario: "Quería instalar un videoportero y me asesoraron genial. La instalación fue muy limpia y el técnico muy amable. Los recomiendo sin ninguna duda.",
       puntuacion: 5
     },
     {
-      nombre: "Isabel Martínez",
-      comentario: "Antenista muy recomendable en Aldea del Fresno. Trabajo impecable y garantizado.",
+      nombre: "Javier S.",
+      ubicacion: "Los Cisneros",
+      comentario: "Tuve una urgencia con la antena después de una tormenta y fueron los únicos que me atendieron rápido. Se agradece tener un servicio así de fiable en la urbanización.",
       puntuacion: 5
     }
   ],
 
    caracteristicas: [
     {
-      titulo: "Antenista local especializado",
-      descripcion: "Conocimiento específico de Aldea del Fresno y sus necesidades técnicas",
-      icono: "Home"
+      titulo: "Especialistas en la zona",
+      descripcion: "No somos un servicio genérico. Conocemos la distribución de Los Cisneros, los tipos de construcción de los chalets y los pequeños desafíos de la señal en el área.",
+      icono: "🎯"
     },
     {
-      titulo: "Instalaciones de calidad",
-      descripcion: "Equipos profesionales y técnicas avanzadas para óptima recepción",
-      icono: "Signal"
+      titulo: "Trato cercano y de confianza",
+      descripcion: "Te atendemos como a un vecino, con un trato directo, honesto y transparente. Sin intermediarios ni complicaciones innecesarias.",
+      icono: "🤝"
     },
     {
-      titulo: "Atención personalizada",
-      descripcion: "Servicio directo y soluciones adaptadas a cada hogar en Aldea del Fresno",
-      icono: "Users"
+      titulo: "Presupuestos claros y sin sorpresas",
+      descripcion: "Te damos un precio cerrado y justo por nuestro trabajo. Sabrás el coste total antes de que empecemos, con total claridad.",
+      icono: "💰"
     },
     {
-      titulo: "Garantía profesional",
-      descripcion: "Garantía completa en todas nuestras instalaciones y reparaciones",
-      icono: "Shield"
+      titulo: "Garantía de un trabajo bien hecho",
+      descripcion: "Nuestro objetivo es tu total satisfacción. Por eso, te garantizamos por escrito todas nuestras instalaciones y reparaciones.",
+      icono: "✅"
     }
   ],
 
   faqs: [
     {
-      question: "¿Qué servicios de antenista ofrecen en Aldea del Fresno?",
-      answer: "Como antenista especializado en Aldea del Fresno, ofrecemos instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia con garantía completa."
+      question: "En mi calle de Los Cisneros la señal a veces es débil, ¿se puede mejorar?",
+      answer: "Sí, por supuesto. Aunque la señal general de una zona sea mejorable, podemos potenciarla en tu chalet instalando un buen amplificador de mástil junto a la antena. Esto asegura que la señal llegue con fuerza a toda la casa."
     },
     {
-      question: "¿Cuál es el mejor antenista en Aldea del Fresno?",
-      answer: "Somos antenistas profesionales con más de 25 años de experiencia en Aldea del Fresno. Ofrecemos servicio técnico especializado, garantía y atención personalizada."
+      question: "¿Instaláis tomas de antena nuevas si quiero poner una tele en el porche?",
+      answer: "Claro. Es un trabajo muy habitual. Te llevamos una nueva toma de antena a cualquier punto de tu casa o jardín, utilizando cable de exterior de alta calidad para que la instalación sea segura y duradera."
     },
     {
-      question: "¿Realizan instalaciones de antenas TDT en Aldea del Fresno?",
-      answer: "Sí, somos especialistas en instalaciones de antenas TDT en Aldea del Fresno. Utilizamos equipos de alta calidad y ofrecemos garantía en todas nuestras instalaciones."
+      question: "¿El presupuesto que me dais es totalmente gratuito?",
+      answer: "Sí. Nos desplazamos a tu casa en Los Cisneros, valoramos el trabajo que necesitas y te damos un presupuesto detallado sin ningún tipo de coste ni compromiso para ti."
     },
     {
-      question: "¿Cuánto cuesta un antenista en Aldea del Fresno?",
-      answer: "Los precios varían según el tipo de instalación. Como antenista local en Aldea del Fresno, ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
+      question: "¿Cuánto tiempo de garantía tiene una instalación nueva?",
+      answer: "Todas nuestras instalaciones nuevas cuentan con la máxima garantía, tanto en los materiales que utilizamos como en la mano de obra, que queda reflejada por escrito en tu factura."
     }
   ]
 }
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Aldea del Fresno | Advanced Telecom`,
-  description: `Antenistas en Aldea del Fresno. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
-  keywords: `antenista Aldea del Fresno, antenas TDT Aldea del Fresno, instalación antenas Madrid, reparación antenas Aldea del Fresno, telecomunicaciones Aldea del Fresno`,
-  alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-en-aldea-del-fresno'
+  title: "Antenista en Los Cisneros | Advanced Telecom",
+  description: "✅ Tu antenista especialista en la urbanización Los Cisneros (Yeles). Soluciones TDT, parabólicas y videoporteros para tu chalet. ¡Pide presupuesto!",
+  keywords: "antenista Los Cisneros, antenas TDT Los Cisneros, videoporteros Los Cisneros, antenista Yeles, chalets Los Cisneros",
+  openGraph: {
+    title: "Antenista en Los Cisneros | Advanced Telecom",
+    description: "Tu antenista especialista en la urbanización Los Cisneros (Yeles). Soluciones TDT, parabólicas y videoporteros para tu chalet.",
+    url: "https://advanced-telecom.es/antenista-los-cisneros",
+    siteName: "Advanced Telecom",
+    locale: "es_ES",
+    type: "website",
   },
-  robots: {
-    index: false,
-    follow: false,
+  twitter: {
+    card: "summary",
+    title: "Antenista en Los Cisneros | Advanced Telecom",
+    description: "Tu antenista especialista en la urbanización Los Cisneros (Yeles). Soluciones TDT, parabólicas y videoporteros para tu chalet.",
+  },
+  alternates: {
+    canonical: "https://advanced-telecom.es/antenista-los-cisneros",
   },
 };
 
@@ -164,7 +174,7 @@ export default function AldeaDelFresnoPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section específico de Torrecastillo */}
+          {/* Hero Section específico de Los Cisneros */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -175,25 +185,25 @@ export default function AldeaDelFresnoPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Aldea del Fresno</span>
+                    <span className="text-brand-green font-medium">Los Cisneros</span>
                   </nav>
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      <span className="text-brand-green">Antenista</span> en Aldea del Fresno
+                      Tu <span className="text-brand-green">antenista de confianza</span> en la urbanización Los Cisneros
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Antenista profesional en Aldea del Fresno con más de 25 años de experiencia. Especialistas en instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia. Servicio técnico garantizado en todo el municipio madrileño.
+                      Si vives en la urbanización Los Cisneros, en Yeles, y necesitas un antenista que conozca la zona y te ofrezca un servicio de confianza para tu chalet, has llegado al sitio ideal. Nos especializamos en dar soluciones a medida para las viviendas de la urbanización, garantizando un trabajo profesional, rápido y con la máxima calidad.
                     </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Llamar ahora
+                      Llama y cuéntanos tu problema
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
-                      Solicitar presupuesto
+                      Pide tu presupuesto
                     </Link>
                   </div>
                 </div>
@@ -214,12 +224,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-           {/* Cobertura específica de Aldea del Fresno */}
+           {/* Cobertura específica de Los Cisneros */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio técnico profesional disponible en todo el municipio madrileño</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicio completo en cada calle de Los Cisneros</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Conocemos perfectamente la urbanización, lo que nos permite ofrecerte un servicio ágil y eficaz en cualquier punto.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -228,8 +238,8 @@ export default function AldeaDelFresnoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Aldea del Fresno</h3>
-                      <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
+                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra área de servicio en Los Cisneros incluye:</h3>
+                      <p className="text-brand-black-light">Cobertura completa en toda la urbanización</p>
                     </div>
                   </div>
                  
@@ -245,7 +255,7 @@ export default function AldeaDelFresnoPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Tiempo de respuesta: Menos de 2 horas</span>
+                      <span>Respuesta prioritaria para vecinos de Los Cisneros: te atendemos en menos de 2 horas.</span>
                     </div>
                   </div>
                 </div>
@@ -253,12 +263,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Servicios especializados en Aldea del Fresno */}
+          {/* Servicios especializados en Los Cisneros */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades del municipio madrileño.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Todas las soluciones que tu chalet en Los Cisneros necesita</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Te ofrecemos una gama completa de servicios pensados para las necesidades de una vivienda unifamiliar como la tuya.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -275,12 +285,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Por qué elegir nuestros servicios en Aldea del Fresno */}
+          {/* Por qué elegir nuestros servicios en Los Cisneros */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir nuestro antenista en Aldea del Fresno?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalación</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué somos el servicio de confianza en Los Cisneros?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra especialización en tu urbanización es la mejor garantía que te podemos ofrecer.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -296,12 +306,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-         {/* Testimonios de clientes en Aldea del Fresno */}
+         {/* Testimonios de clientes en Los Cisneros */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Aldea del Fresno que confían en nuestros servicios</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Lo que dicen de nosotros tus vecinos de Los Cisneros</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La opinión de la gente que vive en tu misma urbanización es la mejor referencia.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -315,19 +325,19 @@ export default function AldeaDelFresnoPage() {
                     </div>
                     <p className="text-brand-black-light mb-4 italic">"{testimonio.comentario}"</p>
                     <div className="font-semibold text-brand-black">{testimonio.nombre}</div>
-                    <div className="text-sm text-brand-black-light">Cliente en Aldea del Fresno</div>
+                    <div className="text-sm text-brand-black-light">Vecino de Los Cisneros</div>
                   </div>
                 ))}
               </div>
             </div>
           </section>
 
-          {/* FAQs específicas de Aldea del Fresno */}
+          {/* FAQs específicas de Los Cisneros */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más comunes sobre nuestros servicios de antenista en el municipio</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Tus dudas sobre el servicio de antenista en la urbanización</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos algunas de las preguntas que más nos hacen tus vecinos.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -340,16 +350,16 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* CTA Section específica para Aldea del Fresno */}
+          {/* CTA Section específica para Los Cisneros */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Aldea del Fresno?</h2>
-                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Aldea del Fresno.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Los Cisneros? Llámanos</h2>
+                  <p className="text-xl mb-8 text-white/90">Si vives en la urbanización, no busques más. Contacta con nosotros y te daremos una solución rápida, profesional y a medida para tu chalet.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Los%20Cisneros" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>

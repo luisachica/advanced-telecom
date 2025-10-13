@@ -42,7 +42,7 @@ export default function SolucionInterferencias5G() {
   
   // Datos del servicio
   const serviceData = {
-    title: "Solución Interferencias 5G",
+    title: "Solución interferencias 5G",
     slug: "solucion-interferencias-5g",
     shortDescription: "Eliminamos las interferencias causadas por la red 5G en su señal de televisión. Recupere la calidad de imagen y sonido con nuestro servicio profesional de instalación de filtros LTE.",
     longDescription: "Las redes de telefonía móvil 5G pueden causar interferencias en la señal de televisión, provocando cortes, pixelaciones o pérdida total de canales. En Advanced Telecom somos especialistas en la instalación de filtros LTE que eliminan estas interferencias, permitiéndole disfrutar nuevamente de una recepción óptima en su televisor. Nuestros técnicos realizan un diagnóstico completo y aplican la solución más adecuada para cada caso particular.",

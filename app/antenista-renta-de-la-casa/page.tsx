@@ -15,16 +15,16 @@ import { SERVICIOS } from "@/data/servicios";
 
 // Datos específicos del municipio
 const municipioData = {
-  nombre: "Aldea del Fresno",
-  slug: "aldea-del-fresno",
+  nombre: "Renta de la Casa",
+  slug: "renta-de-la-casa",
   provincia: "Madrid",
   comunidad: "Comunidad de Madrid",
   codigoPostal: "28691",
   poblacion: "2.847",
   superficie: "47,8",
-  descripcion: "Antenista profesional en Aldea del Fresno especializado en instalaciones de telecomunicaciones. Servicios técnicos de calidad para este municipio madrileño.",
+  descripcion: "Servicio de antenista profesional en la zona de Renta de la Casa. Especialistas en TDT y parabólicas para chalets. Presupuesto sin compromiso.",
   servicios: [
-    "Instalación de antenas TDT en Aldea del Fresno",
+    "Instalación de antenas TDT en Renta de la Casa", 
     "Antenas parabólicas para zonas residenciales",
     "Porteros automáticos y videoporteros",
     "Sistemas de videovigilancia CCTV",
@@ -38,89 +38,88 @@ const municipioData = {
   ],
 
   zonasCubiertas: [
-    "Casco urbano",
-    "Zona residencial",
-    "Área industrial",
-    "Urbanizaciones",
-    "Viviendas aisladas"
+    "Todas las calles y parcelas de Renta de la Casa",
+    "Chalets individuales y viviendas unifamiliares",
+    "Fincas y propiedades en el entorno cercano",
+    "Atención dedicada en toda la urbanización"
+    
   ],
 
   cobertura: [
-    { zona: "Casco urbano", disponible: true },
-    { zona: "Zona residencial", disponible: true },
-    { zona: "Área industrial", disponible: true },
-    { zona: "Urbanizaciones", disponible: true },
-    { zona: "Viviendas aisladas", disponible: true }
+    { zona: "Todas las calles y parcelas de Renta de la Casa", disponible: true },
+    { zona: "Chalets individuales y viviendas unifamiliares", disponible: true },
+    { zona: "Fincas y propiedades en el entorno cercano", disponible: true },
+    { zona: "Atención dedicada en toda la urbanización", disponible: true }
   ],
 
   testimonios: [
-    {
-      nombre: "Carmen López",
-      comentario: "El mejor antenista de Aldea del Fresno. Instalación perfecta y muy profesional.",
-      puntuacion: 5
-    },
-    {
-      nombre: "Miguel Ángel Ruiz",
-      comentario: "Servicio técnico excelente. Resolvieron todos nuestros problemas de señal.",
-      puntuacion: 5
-    },
-    {
-      nombre: "Isabel Martínez",
-      comentario: "Antenista muy recomendable en Aldea del Fresno. Trabajo impecable y garantizado.",
-      puntuacion: 5
-    }
-  ],
+  {
+    "nombre": "Javier Torres",
+    "comentario": "Servicio técnico impecable en Renta de la Casa. Vinieron el mismo día que los llamé y solucionaron el problema de señal en menos de una hora. Muy profesionales.",
+    "puntuacion": 5
+  },
+  {
+    "nombre": "Lucía Fernández",
+    "comentario": "Tenía una instalación complicada y el técnico de Antenista Renta de la Casa lo resolvió de maravilla. Un trabajo limpio, rápido y a un precio justo. ¡Totalmente recomendados!",
+    "puntuacion": 5
+  },
+  {
+    "nombre": "Carlos Mendoza",
+    "comentario": "El mejor servicio de antenista de la zona. Se nota la experiencia que tienen. La señal de TV ahora es perfecta en todas las habitaciones. Muy agradecido.",
+    "puntuacion": 5
+  }
+],
 
    caracteristicas: [
-    {
-      titulo: "Antenista local especializado",
-      descripcion: "Conocimiento específico de Aldea del Fresno y sus necesidades técnicas",
-      icono: "Home"
-    },
-    {
-      titulo: "Instalaciones de calidad",
-      descripcion: "Equipos profesionales y técnicas avanzadas para óptima recepción",
-      icono: "Signal"
-    },
-    {
-      titulo: "Atención personalizada",
-      descripcion: "Servicio directo y soluciones adaptadas a cada hogar en Aldea del Fresno",
-      icono: "Users"
-    },
-    {
-      titulo: "Garantía profesional",
-      descripcion: "Garantía completa en todas nuestras instalaciones y reparaciones",
-      icono: "Shield"
-    }
-  ],
+  {
+    titulo: "Antenista local especializado",
+    descripcion: "Conocimiento específico de Renta de la Casa y sus necesidades técnicas.",
+    icono: "Home"
+  },
+  {
+    titulo: "Instalaciones de calidad",
+    descripcion: "Equipos profesionales y técnicas avanzadas para una óptima recepción de señal.",
+    icono: "Signal"
+  },
+  {
+    titulo: "Atención personalizada",
+    descripcion: "Servicio directo y soluciones adaptadas a cada hogar en Renta de la Casa.",
+    icono: "Users"
+  },
+  {
+    titulo: "Garantía profesional",
+    descripcion: "Garantía completa en todas nuestras instalaciones y reparaciones.",
+    icono: "Shield"
+  }
+],
 
   faqs: [
     {
-      question: "¿Qué servicios de antenista ofrecen en Aldea del Fresno?",
-      answer: "Como antenista especializado en Aldea del Fresno, ofrecemos instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia con garantía completa."
+      question: "Mi chalet tiene un tejado delicado, ¿tienen cuidado durante la instalación?",
+      answer: "Por supuesto. Somos extremadamente cuidadosos con todo tipo de cubiertas. Realizamos las instalaciones con los anclajes y sellados adecuados para garantizar una fijación segura y totalmente estanca, sin dañar su tejado."
     },
     {
-      question: "¿Cuál es el mejor antenista en Aldea del Fresno?",
-      answer: "Somos antenistas profesionales con más de 25 años de experiencia en Aldea del Fresno. Ofrecemos servicio técnico especializado, garantía y atención personalizada."
+      question: "¿Es posible llevar la señal de TV a una zona exterior como un porche o un cenador?",
+      answer: "Sí. Es una solicitud habitual en chalets. Realizamos la instalación del cableado de exterior y las tomas necesarias de forma segura y estética para que pueda disfrutar de la televisión al aire libre."
     },
     {
-      question: "¿Realizan instalaciones de antenas TDT en Aldea del Fresno?",
-      answer: "Sí, somos especialistas en instalaciones de antenas TDT en Aldea del Fresno. Utilizamos equipos de alta calidad y ofrecemos garantía en todas nuestras instalaciones."
+      question: "¿El presupuesto que ofrecen es gratuito?",
+      answer: "Sí. El desplazamiento a su domicilio en Renta de la Casa para valorar el trabajo y ofrecerle un presupuesto detallado y sin compromiso es totalmente gratuito."
     },
     {
-      question: "¿Cuánto cuesta un antenista en Aldea del Fresno?",
-      answer: "Los precios varían según el tipo de instalación. Como antenista local en Aldea del Fresno, ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
+      question: "¿Qué garantía ofrecen en las reparaciones?",
+      answer: "Todas nuestras reparaciones cuentan con la garantía legal que cubre tanto la mano de obra como los componentes que hayan sido sustituidos, quedando todo reflejado en su factura."
     }
   ]
 }
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Aldea del Fresno | Advanced Telecom`,
-  description: `Antenistas en Aldea del Fresno. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
-  keywords: `antenista Aldea del Fresno, antenas TDT Aldea del Fresno, instalación antenas Madrid, reparación antenas Aldea del Fresno, telecomunicaciones Aldea del Fresno`,
+  title: `Antenista en Renta de la Casa | Advanced Telecom`,
+  description: `Servicio de antenista profesional en la zona de Renta de la Casa. Especialistas en TDT y parabólicas para chalets. Presupuesto sin compromiso.`,
+  keywords: `antenista en Renta de la Casa, antenas TDT Renta de la Casa, instalación antenas Toledo, reparación antenas Renta de la Casa, telecomunicaciones Renta de la Casa`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-en-aldea-del-fresno'
+    canonical: 'https://advanced-telecom.es/antenista-renta-de-la-casa'
   },
   robots: {
     index: false,
@@ -156,7 +155,7 @@ const IconComponent = (iconName: string) => {
   return Icon ? <Icon className="h-6 w-6" /> : <MapPin className="h-6 w-6" />;
 };
 
-export default function AldeaDelFresnoPage() {
+export default function RentaDeLaCasaPage() {
   return (
     <>
       <div className="flex flex-col min-h-screen">
@@ -175,15 +174,15 @@ export default function AldeaDelFresnoPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Aldea del Fresno</span>
+                    <span className="text-brand-green font-medium"> Renta de la Casa</span>
                   </nav>
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      <span className="text-brand-green">Antenista</span> en Aldea del Fresno
+                      <span className="text-brand-green">Servicio de antenista</span> especialista en Renta de la Casa
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Antenista profesional en Aldea del Fresno con más de 25 años de experiencia. Especialistas en instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia. Servicio técnico garantizado en todo el municipio madrileño.
+                      Le ofrecemos un servicio técnico de antenista especializado para los propietarios de viviendas en la zona residencial de Renta de la Casa. Con más de 25 años de experiencia, garantizamos soluciones a medida y de alta calidad para cualquier necesidad de telecomunicaciones en su chalet.
                     </p>
                   </div>
 
@@ -218,8 +217,8 @@ export default function AldeaDelFresnoPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio técnico profesional disponible en todo el municipio madrileño</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en toda la zona de Renta de la Casa</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestro equipo técnico se dedica a dar un servicio de proximidad y alta eficiencia, cubriendo la totalidad de esta área residencial.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -228,7 +227,7 @@ export default function AldeaDelFresnoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Aldea del Fresno</h3>
+                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Renta de la Casa</h3>
                       <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
                     </div>
                   </div>
@@ -257,8 +256,8 @@ export default function AldeaDelFresnoPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades del municipio madrileño.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Soluciones a medida para su chalet en Renta de la Casa</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Entendemos las particularidades de las viviendas de la zona y ofrecemos un catálogo de servicios diseñado para ellas.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -279,8 +278,8 @@ export default function AldeaDelFresnoPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir nuestro antenista en Aldea del Fresno?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalación</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir un especialista en Renta de la Casa?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra especialización en la zona es su mayor garantía de un trabajo eficiente y de máxima calidad.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -300,8 +299,8 @@ export default function AldeaDelFresnoPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Aldea del Fresno que confían en nuestros servicios</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestros servicios en Renta de la Casa</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Renta de la Casa que confían en nuestros servicios</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -326,8 +325,8 @@ export default function AldeaDelFresnoPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más comunes sobre nuestros servicios de antenista en el municipio</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos aquí las dudas más habituales de los residentes de la zona.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -345,8 +344,8 @@ export default function AldeaDelFresnoPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Aldea del Fresno?</h2>
-                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Aldea del Fresno.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Renta de la Casa</h2>
+                  <p className="text-xl mb-8 text-white/90">Si reside en la zona de Renta de la Casa y desea solicitar un presupuesto o una intervención técnica, no dude en contactar con nosotros. Será un placer ofrecerle la mejor solución para su chalet.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">

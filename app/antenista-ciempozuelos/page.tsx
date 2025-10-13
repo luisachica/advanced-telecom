@@ -345,7 +345,7 @@ export default function CiempozuelosPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesita una solución? hable con un Antenista en {municipioData.nombre}</h2>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesita una solución? hable con un antenista en {municipioData.nombre}</h2>
                   <p className="text-xl mb-8 text-white/90">Póngase en contacto con nuestro equipo técnico para recibir asesoramiento y un presupuesto gratuito. Acudiremos a tu domicilio en {municipioData.nombre} para valorar sus necesidades y ofrecerle la mejor solución.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">

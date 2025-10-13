@@ -15,14 +15,14 @@ import { SERVICIOS } from "@/data/servicios";
 
 // Datos específicos del municipio
 const municipioData = {
-  nombre: "Aldea del Fresno",
-  slug: "aldea-del-fresno",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
-  codigoPostal: "28691",
+  nombre: "Santa Cruz del Retamar",
+  slug: "santa-cruz-del-retamar",
+  provincia: "Toledo",
+  comunidad: "Castilla-La Mancha",
+  codigoPostal: "45513",
   poblacion: "2.847",
   superficie: "47,8",
-  descripcion: "Antenista profesional en Aldea del Fresno especializado en instalaciones de telecomunicaciones. Servicios técnicos de calidad para este municipio madrileño.",
+  descripcion: "Servicio de antenista profesional en Santa Cruz del Retamar. Especialistas en TDT, parabólicas y soluciones para viviendas.",
   servicios: [
     "Instalación de antenas TDT en Aldea del Fresno",
     "Antenas parabólicas para zonas residenciales",
@@ -38,11 +38,11 @@ const municipioData = {
   ],
 
   zonasCubiertas: [
-    "Casco urbano",
-    "Zona residencial",
-    "Área industrial",
-    "Urbanizaciones",
-    "Viviendas aisladas"
+    "El casco urbano y todas las calles del municipio",
+    "Chalets individuales y viviendas unifamiliares",
+    "Urbanizaciones y fincas en el entorno cercano",
+    "Atención dedicada en todo el término municipal",
+    "Servicio de urgencia con asistencia garantizada en menos de 2 horas."
   ],
 
   cobertura: [
@@ -55,76 +55,76 @@ const municipioData = {
 
   testimonios: [
     {
-      nombre: "Carmen López",
-      comentario: "El mejor antenista de Aldea del Fresno. Instalación perfecta y muy profesional.",
+      nombre: "Vecino de Santa Cruz del Retamar",
+      comentario: "Un servicio muy profesional y resolutivo. Teníamos problemas con la señal de TDT en casa y lo solucionaron de forma definitiva. Se nota la experiencia en la zona.",
       puntuacion: 5
     },
     {
-      nombre: "Miguel Ángel Ruiz",
-      comentario: "Servicio técnico excelente. Resolvieron todos nuestros problemas de señal.",
+      nombre: "Residente en el casco urbano",
+      comentario: "La instalación del videoportero fue impecable. Un trabajo muy limpio, rápido y el técnico nos explicó el funcionamiento a la perfección. Muy recomendables.",
       puntuacion: 5
     },
     {
-      nombre: "Isabel Martínez",
-      comentario: "Antenista muy recomendable en Aldea del Fresno. Trabajo impecable y garantizado.",
+      nombre: "Propietario en una urbanización cercana",
+      comentario: "Después de una tormenta, la antena parabólica dejó de funcionar. Les llamamos y acudieron el mismo día. Un servicio de urgencia eficaz y muy profesional.",
       puntuacion: 5
     }
   ],
 
    caracteristicas: [
     {
-      titulo: "Antenista local especializado",
-      descripcion: "Conocimiento específico de Aldea del Fresno y sus necesidades técnicas",
+      titulo: "Conocimiento profundo de la zona",
+      descripcion: "Nuestra experiencia trabajando en Santa Cruz del Retamar nos permite conocer las particularidades de sus instalaciones y ofrecer soluciones más rápidas y eficaces, adaptadas a la estructura de su vivienda.",
       icono: "Home"
     },
     {
-      titulo: "Instalaciones de calidad",
-      descripcion: "Equipos profesionales y técnicas avanzadas para óptima recepción",
+      titulo: "Máxima calidad en materiales y acabados",
+      descripcion: "Empleamos únicamente componentes y antenas de las mejores marcas del mercado para garantizar instalaciones duraderas y estéticamente cuidadas, respetando siempre la arquitectura de su vivienda.",
       icono: "Signal"
     },
     {
-      titulo: "Atención personalizada",
-      descripcion: "Servicio directo y soluciones adaptadas a cada hogar en Aldea del Fresno",
+      titulo: "Presupuestos transparentes y sin compromiso",
+      descripcion: "Le proporcionamos un presupuesto detallado y por escrito, sin letra pequeña ni sorpresas de última hora. La honestidad es un pilar fundamental de nuestro servicio.",
       icono: "Users"
     },
     {
-      titulo: "Garantía profesional",
-      descripcion: "Garantía completa en todas nuestras instalaciones y reparaciones",
+      titulo: "Garantía profesional por escrito",
+      descripcion: "Todos nuestros trabajos, desde reparaciones hasta instalaciones completas, están cubiertos por una garantía formal para su total tranquilidad y confianza.",
       icono: "Shield"
     }
   ],
 
   faqs: [
     {
-      question: "¿Qué servicios de antenista ofrecen en Aldea del Fresno?",
-      answer: "Como antenista especializado en Aldea del Fresno, ofrecemos instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia con garantía completa."
+      question: "Mi casa tiene un tejado delicado, ¿tienen cuidado durante la instalación?",
+      answer: "Por supuesto. Somos extremadamente cuidadosos con todo tipo de cubiertas. Realizamos las instalaciones con los anclajes y sellados adecuados para garantizar una fijación segura y totalmente estanca, sin dañar su tejado."
     },
     {
-      question: "¿Cuál es el mejor antenista en Aldea del Fresno?",
-      answer: "Somos antenistas profesionales con más de 25 años de experiencia en Aldea del Fresno. Ofrecemos servicio técnico especializado, garantía y atención personalizada."
+      question: "¿Es posible llevar la señal de TV a una zona exterior como un patio o un porche?",
+      answer: "Sí. Es una solicitud habitual en la zona. Realizamos la instalación del cableado de exterior y las tomas necesarias de forma segura y estética para que pueda disfrutar de la televisión al aire libre."
     },
     {
-      question: "¿Realizan instalaciones de antenas TDT en Aldea del Fresno?",
-      answer: "Sí, somos especialistas en instalaciones de antenas TDT en Aldea del Fresno. Utilizamos equipos de alta calidad y ofrecemos garantía en todas nuestras instalaciones."
+      question: "¿El presupuesto que ofrecen es gratuito?",
+      answer: "Sí. El desplazamiento a su domicilio en Santa Cruz del Retamar para valorar el trabajo y ofrecerle un presupuesto detallado y sin compromiso es totalmente gratuito."
     },
     {
-      question: "¿Cuánto cuesta un antenista en Aldea del Fresno?",
-      answer: "Los precios varían según el tipo de instalación. Como antenista local en Aldea del Fresno, ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
+      question: "¿Qué garantía ofrecen en las reparaciones?",
+      answer: "Todas nuestras reparaciones cuentan con la garantía legal que cubre tanto la mano de obra como los componentes que hayan sido sustituidos, quedando todo reflejado en su factura."
     }
   ]
 }
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Aldea del Fresno | Advanced Telecom`,
-  description: `Antenistas en Aldea del Fresno. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
-  keywords: `antenista Aldea del Fresno, antenas TDT Aldea del Fresno, instalación antenas Madrid, reparación antenas Aldea del Fresno, telecomunicaciones Aldea del Fresno`,
+  title: `Antenista en Santa Cruz del Retamar | Advanced Telecom`,
+  description: `Servicio de antenista profesional en Santa Cruz del Retamar. Especialistas en TDT, parabólicas y soluciones para viviendas. Presupuesto sin compromiso.`,
+  keywords: `antenista Santa Cruz del Retamar, antenas TDT Santa Cruz del Retamar, instalación antenas, reparación antenas, telecomunicaciones Santa Cruz del Retamar`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-en-aldea-del-fresno'
+    canonical: 'https://advanced-telecom.es/antenista-santa-cruz-del-retamar'
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 
@@ -175,22 +175,22 @@ export default function AldeaDelFresnoPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Aldea del Fresno</span>
+                    <span className="text-brand-green font-medium">Santa Cruz del Retamar</span>
                   </nav>
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      <span className="text-brand-green">Antenista</span> en Aldea del Fresno
+                      <span className="text-brand-green">Antenista</span> en Santa Cruz del Retamar
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Antenista profesional en Aldea del Fresno con más de 25 años de experiencia. Especialistas en instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia. Servicio técnico garantizado en todo el municipio madrileño.
+                      Le ofrecemos un servicio técnico de antenista especializado para los vecinos y propietarios de viviendas en Santa Cruz del Retamar. Con más de 25 años de experiencia, garantizamos soluciones a medida y de alta calidad para cualquier necesidad de telecomunicaciones en su hogar.
                     </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Llamar ahora
+                      Contactar asistencia técnica
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -203,7 +203,7 @@ export default function AldeaDelFresnoPage() {
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
                       src="/images/telecom/antenistas-en-toledo-sur.jpg"
-                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histórico de La Sagra"
+                      alt="Servicios de antenista en Santa Cruz del Retamar"
                       width={400}
                       height={200}
                       priority
@@ -214,12 +214,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-           {/* Cobertura específica de Aldea del Fresno */}
+           {/* Cobertura específica de Santa Cruz del Retamar */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio técnico profesional disponible en todo el municipio madrileño</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en todo Santa Cruz del Retamar</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestro equipo técnico se dedica a dar un servicio de proximidad y alta eficiencia, cubriendo la totalidad del municipio y sus alrededores.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -228,8 +228,8 @@ export default function AldeaDelFresnoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Aldea del Fresno</h3>
-                      <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
+                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra área de servicio en Santa Cruz del Retamar incluye:</h3>
+                      <p className="text-brand-black-light">Antenista profesional en todo el término municipal</p>
                     </div>
                   </div>
                  
@@ -245,7 +245,7 @@ export default function AldeaDelFresnoPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Tiempo de respuesta: Menos de 2 horas</span>
+                      <span>Servicio de urgencia con asistencia garantizada en menos de 2 horas.</span>
                     </div>
                   </div>
                 </div>
@@ -257,8 +257,8 @@ export default function AldeaDelFresnoPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades del municipio madrileño.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Soluciones a medida para su vivienda en Santa Cruz del Retamar</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Entendemos las particularidades de las viviendas de la zona y ofrecemos un catálogo de servicios diseñado para ellas.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -279,8 +279,8 @@ export default function AldeaDelFresnoPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir nuestro antenista en Aldea del Fresno?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalación</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir un especialista en Santa Cruz del Retamar?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra especialización en el municipio es su mayor garantía de un trabajo eficiente y de máxima calidad.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -296,12 +296,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-         {/* Testimonios de clientes en Aldea del Fresno */}
+         {/* La confianza de sus vecinos en Santa Cruz del Retamar */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Aldea del Fresno que confían en nuestros servicios</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de sus vecinos en Santa Cruz del Retamar</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacción de los propietarios del municipio es nuestra mejor referencia.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -315,7 +315,7 @@ export default function AldeaDelFresnoPage() {
                     </div>
                     <p className="text-brand-black-light mb-4 italic">"{testimonio.comentario}"</p>
                     <div className="font-semibold text-brand-black">{testimonio.nombre}</div>
-                    <div className="text-sm text-brand-black-light">Cliente en Aldea del Fresno</div>
+                    <div className="text-sm text-brand-black-light">Cliente en Santa Cruz del Retamar</div>
                   </div>
                 ))}
               </div>
@@ -326,8 +326,8 @@ export default function AldeaDelFresnoPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más comunes sobre nuestros servicios de antenista en el municipio</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos aquí las dudas más habituales de los residentes de Santa Cruz del Retamar.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -340,16 +340,16 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* CTA Section específica para Aldea del Fresno */}
+          {/* Contacte con su antenista en Santa Cruz del Retamar */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Aldea del Fresno?</h2>
-                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Aldea del Fresno.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Santa Cruz del Retamar</h2>
+                  <p className="text-xl mb-8 text-white/90">Si reside en Santa Cruz del Retamar y desea solicitar un presupuesto o una intervención técnica, no dude en contactar con nosotros. Será un placer ofrecerle la mejor solución para su chalet.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20informaci%C3%B3n%20sobre%20antenas%20en%20Santa%20Cruz%20del%20Retamar" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>

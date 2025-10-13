@@ -28,42 +28,42 @@ export default function Home() {
       image: "/images/telecom/antena-tdt-instalacion-01.jpg",
       iconName: "Radio",
       description: "Instalación, reparación y mantenimiento de antenas de televisión digital terrestre (TDT) para recepción de canales HD y 4K. Servicio técnico especializado con reparaciones el mismo día.",
-      slug: "/servicios/antenas-tdt"
+      slug: "antenas-tdt"
     },
     {
-      title: "Antenas Parabólicas",
+      title: "Antenas parabólicas",
       image: "/images/telecom/antena-parabolica.jpg",
       iconName: "Satellite",
       description: "Instalación y configuración de antenas parabólicas para televisión satelital. Reorientación a diferentes satélites (Astra, Hispasat) y ajuste de señal para máxima calidad de recepción.",
-      slug: "/servicios/antenas-parabolicas"
+      slug: "antenas-parabolicas"
     },
     {
-      title: "Porteros Automáticos",
+      title: "Porteros automáticos",
       image: "/images/telecom/portero-automatico-instalacion-01.jpg",
       iconName: "Phone",
       description: "Instalación y reparación de sistemas de porteros automáticos, citófonos, telefonillos y videoporteros. Modernización de sistemas antiguos con tecnología digital.",
-      slug: "/servicios/porteros-automaticos"
+      slug: "porteros-automaticos"
     },
     {
-      title: "Cámaras de Seguridad",
+      title: "Cámaras de seguridad",
       image: "/images/telecom/camaras-seguridad.jpg",
       iconName: "Camera",
       description: "Instalación de sistemas de videovigilancia profesional para hogares y empresas. Cámaras IP de alta definición con acceso remoto y grabación en la nube.",
-      slug: "/servicios/camaras-seguridad"
+      slug: "camaras-seguridad"
     },
     {
-      title: "Solución Interferencias 5G",
+      title: "Solución interferencias 5G",
       image: "/images/telecom/antena-profesional.jpg",
       iconName: "Wifi",
       description: "Diagnóstico y solución de interferencias causadas por señales 5G en la recepción de televisión. Instalación de filtros especializados y reajuste de equipos.",
-      slug: "/servicios/solucion-interferencias-5g"
+      slug: "solucion-interferencias-5g"
     },
     {
-      title: "Reparaciones Urgentes",
+      title: "Reparaciones urgentes",
       image: "/images/telecom/reparaciones-urgentes.jpg",
       iconName: "Zap",
       description: "Servicio de reparaciones urgentes 24/7 para antenas caídas, amplificadores averiados, pérdida de señal y otros problemas técnicos. Respuesta rápida en toda Madrid.",
-      slug: "/servicios/reparaciones-urgentes"
+      slug: "reparaciones-urgentes"
     }
   ]
 
@@ -80,7 +80,7 @@ export default function Home() {
           <div className="container mx-auto px-4 md:px-6 py-16 md:py-24 relative z-10">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
-                <p className="text-brand-green font-medium">Antenista Homologado</p>
+                <p className="text-brand-green font-medium">Antenista homologado</p>
                 <h1 className="text-4xl md:text-5xl font-bold text-brand-black leading-tight mb-6">
                   Expertos en
                   <br />
@@ -126,7 +126,7 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">
-                Nuestros Servicios
+                Nuestros servicios
               </h2>
               <p className="text-brand-black text-lg">
                 Ofrecemos soluciones de telecomunicaciones personalizadas con personal cualificado.
@@ -140,7 +140,7 @@ export default function Home() {
                   title={service.title}
                   description={service.description}
                   image={service.image}
-                  iconName={service.iconName}
+                  icon={service.iconName}
                   slug={service.slug} 
                 />
               ))}
@@ -173,7 +173,7 @@ export default function Home() {
                 <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Check className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-bold text-brand-black mb-2">Técnicos Certificados</h3>
+                <h3 className="text-xl font-bold text-brand-black mb-2">Técnicos certificados</h3>
                 <p className="text-brand-black">Personal cualificado con más de 25 años de experiencia en el sector.</p>
               </div>
               
@@ -181,7 +181,7 @@ export default function Home() {
                 <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Star className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-bold text-brand-black mb-2">Equipos de Calidad</h3>
+                <h3 className="text-xl font-bold text-brand-black mb-2">Equipos de calidad</h3>
                 <p className="text-brand-black">Trabajamos con las mejores marcas: Televes, Johansson, Fermax.</p>
               </div>
               
@@ -197,7 +197,7 @@ export default function Home() {
                 <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <ArrowRight className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-bold text-brand-black mb-2">Garantía Total</h3>
+                <h3 className="text-xl font-bold text-brand-black mb-2">Garantía total</h3>
                 <p className="text-brand-black">Todos nuestros trabajos incluyen garantía y servicio postventa.</p>
               </div>
             </div>

@@ -15,34 +15,34 @@ import { SERVICIOS } from "@/data/servicios";
 
 // Datos específicos del municipio
 const municipioData = {
-  nombre: "Aldea del Fresno",
-  slug: "aldea-del-fresno",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
-  codigoPostal: "28691",
-  poblacion: "2.847",
-  superficie: "47,8",
-  descripcion: "Antenista profesional en Aldea del Fresno especializado en instalaciones de telecomunicaciones. Servicios técnicos de calidad para este municipio madrileño.",
+  nombre: "Méntrida",
+  slug: "mentrida",
+  provincia: "Toledo",
+  comunidad: "Castilla-La Mancha",
+  codigoPostal: "45930",
+  poblacion: "4.200",
+  superficie: "67,2",
+  descripcion: "Tu antenista de confianza en Méntrida. Soluciones profesionales para TDT, parabólicas y videoporteros en chalets y pisos. Servicio local especializado.",
   servicios: [
-    "Instalación de antenas TDT en Aldea del Fresno",
-    "Antenas parabólicas para zonas residenciales",
-    "Porteros automáticos y videoporteros",
-    "Sistemas de videovigilancia CCTV",
-    "Amplificadores de señal digital",
-    "Mantenimiento técnico especializado"
+    "Señal TDT nítida y estable en Méntrida",
+    "Instalación de antenas parabólicas",
+    "Instalación y reparación de videoporteros",
+    "Sistemas de cámaras de seguridad (CCTV)",
+    "Solución a interferencias 5G",
+    "Servicio de reparaciones urgentes en Méntrida"
   ],
    serviciosDestacados: [
-    "Antenista TDT especializado",
-    "Instalaciones residenciales",
-    "Servicio técnico local"
+    "Antenista local de confianza",
+    "Especialistas en urbanizaciones",
+    "Servicio rápido y profesional"
   ],
 
   zonasCubiertas: [
-    "Casco urbano",
-    "Zona residencial",
-    "Área industrial",
-    "Urbanizaciones",
-    "Viviendas aisladas"
+    "El casco urbano de Méntrida",
+    "Urbanización Valcarillo",
+    "Urbanización San Nicolás",
+    "Chalets y viviendas unifamiliares",
+    "Bodegas, fincas y naves del término municipal"
   ],
 
   cobertura: [
@@ -55,76 +55,88 @@ const municipioData = {
 
   testimonios: [
     {
-      nombre: "Carmen López",
-      comentario: "El mejor antenista de Aldea del Fresno. Instalación perfecta y muy profesional.",
+      nombre: "Laura G.",
+      comentario: "Vivo en una de las urbanizaciones de Méntrida y la señal de la TDT era un desastre. Les llamé y me lo solucionaron en la misma mañana. Un servicio de 10.",
       puntuacion: 5
     },
     {
-      nombre: "Miguel Ángel Ruiz",
-      comentario: "Servicio técnico excelente. Resolvieron todos nuestros problemas de señal.",
+      nombre: "Javier S.",
+      comentario: "Muy profesionales y cercanos. Se nota que conocen el pueblo. Me instalaron un videoportero y el trabajo fue impecable. Totalmente recomendables.",
       puntuacion: 5
     },
     {
-      nombre: "Isabel Martínez",
-      comentario: "Antenista muy recomendable en Aldea del Fresno. Trabajo impecable y garantizado.",
+      nombre: "Gerente de bodega local",
+      comentario: "Necesitaba una instalación de antena para la bodega y me dieron un presupuesto muy competitivo. El trabajo fue rápido y el resultado perfecto.",
       puntuacion: 5
     }
   ],
 
    caracteristicas: [
     {
-      titulo: "Antenista local especializado",
-      descripcion: "Conocimiento específico de Aldea del Fresno y sus necesidades técnicas",
+      titulo: "Conocimiento experto de la zona",
+      descripcion: "Conocemos la orografía de Méntrida y sus urbanizaciones, sabemos dónde la señal es más débil y tenemos las soluciones técnicas para que veas la tele perfectamente.",
       icono: "Home"
     },
     {
-      titulo: "Instalaciones de calidad",
-      descripcion: "Equipos profesionales y técnicas avanzadas para óptima recepción",
-      icono: "Signal"
-    },
-    {
-      titulo: "Atención personalizada",
-      descripcion: "Servicio directo y soluciones adaptadas a cada hogar en Aldea del Fresno",
+      titulo: "Trato cercano y profesional",
+      descripcion: "Te atendemos directamente, sin intermediarios. Te escuchamos, entendemos tu problema y te damos la solución que de verdad necesitas, sin rodeos.",
       icono: "Users"
     },
     {
-      titulo: "Garantía profesional",
-      descripcion: "Garantía completa en todas nuestras instalaciones y reparaciones",
+      titulo: "Presupuestos claros y sin sorpresas",
+      descripcion: "Te damos un precio cerrado, detallado y honesto antes de empezar. Sin costes inesperados ni letra pequeña.",
+      icono: "Signal"
+    },
+    {
+      titulo: "Garantía de un trabajo bien hecho",
+      descripcion: "Utilizamos materiales de primeras marcas y garantizamos todas nuestras instalaciones y reparaciones por escrito para tu total tranquilidad.",
       icono: "Shield"
     }
   ],
 
   faqs: [
     {
-      question: "¿Qué servicios de antenista ofrecen en Aldea del Fresno?",
-      answer: "Como antenista especializado en Aldea del Fresno, ofrecemos instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia con garantía completa."
+      question: "Vivo en una urbanización, ¿el problema de la TDT es mío o de todos?",
+      answer: "Es una duda muy común. Podemos ir a tu casa y hacer una medición de señal en tu toma de antena. Así sabremos al instante si el fallo está en tu instalación individual o si es un problema de la antena colectiva que debéis gestionar con la comunidad."
     },
     {
-      question: "¿Cuál es el mejor antenista en Aldea del Fresno?",
-      answer: "Somos antenistas profesionales con más de 25 años de experiencia en Aldea del Fresno. Ofrecemos servicio técnico especializado, garantía y atención personalizada."
+      question: "¿Cuánto tiempo tardáis en instalar una antena parabólica?",
+      answer: "Una instalación normal en el tejado de un chalet o en una terraza, incluyendo el cableado hasta una toma principal, suele llevar entre 2 y 3 horas, dejándolo todo funcionando y sintonizado."
     },
     {
-      question: "¿Realizan instalaciones de antenas TDT en Aldea del Fresno?",
-      answer: "Sí, somos especialistas en instalaciones de antenas TDT en Aldea del Fresno. Utilizamos equipos de alta calidad y ofrecemos garantía en todas nuestras instalaciones."
+      question: "¿El presupuesto que me dais es gratuito y sin compromiso?",
+      answer: "Sí, siempre. Nos desplazamos a tu domicilio en Méntrida para valorar el trabajo y darte un presupuesto cerrado y detallado sin ningún tipo de coste ni compromiso por tu parte."
     },
     {
-      question: "¿Cuánto cuesta un antenista en Aldea del Fresno?",
-      answer: "Los precios varían según el tipo de instalación. Como antenista local en Aldea del Fresno, ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
+      question: "¿Qué garantía tienen vuestros trabajos?",
+      answer: "Todos nuestros trabajos están cubiertos por la garantía legal. Te la entregamos por escrito en la factura para que tengas la máxima confianza y seguridad en el servicio que te hemos prestado."
     }
   ]
 }
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Aldea del Fresno | Advanced Telecom`,
-  description: `Antenistas en Aldea del Fresno. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
-  keywords: `antenista Aldea del Fresno, antenas TDT Aldea del Fresno, instalación antenas Madrid, reparación antenas Aldea del Fresno, telecomunicaciones Aldea del Fresno`,
+  title: `Antenista en Méntrida | Advanced Telecom`,
+  description: `✅ Tu antenista de confianza en Méntrida. Soluciones para TDT, parabólicas y videoporteros en chalets y pisos. Pide tu presupuesto gratis ahora.`,
+  keywords: `antenista Méntrida, antenas TDT Méntrida, instalación antenas Toledo, reparación antenas Méntrida, telecomunicaciones Méntrida, videoporteros Méntrida, parabólicas Méntrida`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-en-aldea-del-fresno'
+    canonical: 'https://advanced-telecom.es/antenista-mentrida'
+  },
+  openGraph: {
+    title: 'Antenista en Méntrida | Advanced Telecom',
+    description: '✅ Tu antenista de confianza en Méntrida. Soluciones para TDT, parabólicas y videoporteros en chalets y pisos. Pide tu presupuesto gratis ahora.',
+    url: 'https://advanced-telecom.es/antenista-mentrida',
+    siteName: 'Advanced Telecom',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Antenista en Méntrida | Advanced Telecom',
+    description: '✅ Tu antenista de confianza en Méntrida. Soluciones para TDT, parabólicas y videoporteros en chalets y pisos. Pide tu presupuesto gratis ahora.',
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 
@@ -175,25 +187,25 @@ export default function AldeaDelFresnoPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Aldea del Fresno</span>
+                    <span className="text-brand-green font-medium">Méntrida</span>
                   </nav>
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      <span className="text-brand-green">Antenista</span> en Aldea del Fresno
+                      Tu servicio de <span className="text-brand-green">antenista de confianza</span> en Méntrida
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Antenista profesional en Aldea del Fresno con más de 25 años de experiencia. Especialistas en instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia. Servicio técnico garantizado en todo el municipio madrileño.
+                      Tanto si vives en el centro de Méntrida como en una de sus urbanizaciones, te ofrecemos un servicio de antenista local, rápido y profesional. Solucionamos cualquier avería para que solo te preocupes de disfrutar de tu hogar, con la garantía y la cercanía de un técnico que conoce la zona a la perfección.
                     </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Llamar ahora
+                      Llámanos
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
-                      Solicitar presupuesto
+                      Pide tu presupuesto
                     </Link>
                   </div>
                 </div>
@@ -214,12 +226,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-           {/* Cobertura específica de Aldea del Fresno */}
+           {/* Cobertura específica de Méntrida */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio técnico profesional disponible en todo el municipio madrileño</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Damos servicio en todo Méntrida y sus alrededores</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestro equipo se desplaza a cualquier punto del término municipal para ofrecerte una asistencia técnica ágil y de la máxima calidad.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -228,8 +240,8 @@ export default function AldeaDelFresnoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Aldea del Fresno</h3>
-                      <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
+                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra área de cobertura en Méntrida incluye:</h3>
+                      <p className="text-brand-black-light">Servicio técnico especializado en todo el término municipal</p>
                     </div>
                   </div>
                  
@@ -245,7 +257,7 @@ export default function AldeaDelFresnoPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Tiempo de respuesta: Menos de 2 horas</span>
+                      <span>Para urgencias, te garantizamos una respuesta en menos de 2 horas.</span>
                     </div>
                   </div>
                 </div>
@@ -253,12 +265,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Servicios especializados en Aldea del Fresno */}
+          {/* Servicios especializados en Méntrida */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades del municipio madrileño.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Una solución para cada hogar y negocio en Méntrida</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Tenemos un servicio a medida para cada necesidad, ya sea en tu vivienda particular o en tu empresa.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -275,12 +287,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Por qué elegir nuestros servicios en Aldea del Fresno */}
+          {/* Por qué elegir nuestros servicios en Méntrida */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir nuestro antenista en Aldea del Fresno?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalación</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La tranquilidad de contar con un antenista de Méntrida</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Elegir un servicio local y profesional marca la diferencia. Te contamos por qué.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -296,12 +308,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-         {/* Testimonios de clientes en Aldea del Fresno */}
+         {/* Testimonios de clientes en Méntrida */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Aldea del Fresno que confían en nuestros servicios</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Lo que opinan tus vecinos de Méntrida</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacción de la gente de tu pueblo es nuestro mayor orgullo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -322,12 +334,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* FAQs específicas de Aldea del Fresno */}
+          {/* FAQs específicas de Méntrida */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Aldea del Fresno</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más comunes sobre nuestros servicios de antenista en el municipio</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Resolvemos tus dudas más frecuentes en Méntrida</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Estas son las preguntas que más nos hacen nuestros clientes de Méntrida.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -340,16 +352,16 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* CTA Section específica para Aldea del Fresno */}
+          {/* CTA Section específica para Méntrida */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Aldea del Fresno?</h2>
-                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Aldea del Fresno.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Problemas con tu antena en Méntrida?</h2>
+                  <p className="text-xl mb-8 text-white/90">Llámanos y te damos presupuesto sin compromiso. Nos desplazamos a cualquier punto de Méntrida.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Méntrida" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>

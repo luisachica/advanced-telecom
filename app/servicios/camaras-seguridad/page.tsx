@@ -3,7 +3,7 @@ import ContenidoCamarasSeguridad from "@/components/paginas/contenido-camaras-se
 import { SERVICIOS } from "@/data/servicios";
 
 export const metadata: Metadata = {
-  title: "Cámaras de Seguridad | Advanced Telecom",
+  title: "Cámaras de seguridad | Advanced Telecom",
   description: "Instalación y mantenimiento de cámaras de seguridad para hogares y empresas. Sistemas de videovigilancia profesionales con tecnología avanzada.",
   robots: {
     index: false,
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     canonical: "https://www.advancedtelecom.es/servicios/camaras-seguridad",
   },
   openGraph: {
-    title: "Cámaras de Seguridad | Advanced Telecom",
+    title: "Cámaras de seguridad | Advanced Telecom",
     description: "Instalación y mantenimiento de cámaras de seguridad para hogares y empresas. Sistemas de videovigilancia profesionales con tecnología avanzada.",
     url: "https://advancedtelecom.es/servicios/camaras-seguridad",
     siteName: "Advanced Telecom",
@@ -42,7 +42,7 @@ export default function CamarasSeguridad() {
   
   // Datos del servicio
   const serviceData = {
-    title: "Cámaras de Seguridad",
+    title: "Cámaras de seguridad",
     slug: "camaras-seguridad",
     shortDescription: "Instalación y mantenimiento de sistemas de videovigilancia profesionales para hogares y empresas. Proteja su propiedad con tecnología de última generación.",
     longDescription: "Ofrecemos soluciones completas de videovigilancia adaptadas a sus necesidades específicas. Nuestros sistemas de cámaras de seguridad proporcionan vigilancia continua, grabación de alta calidad y acceso remoto desde su smartphone o tablet. Trabajamos con las mejores marcas del mercado para garantizar un rendimiento óptimo y duradero.",

@@ -117,7 +117,7 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: `Antenistas Yuncos | Advanced Telecom`,
-  description: `Antenistas en Yuncos especializados en nuevas urbanizaciones. Servicio técnico en TDT, satélite, porteros automáticos y cámaras de seguridad. ¡Solución profesional!`,
+  description: `Antenistas en Yuncos especializados en nuevas urbanizaciones. Servicio técnico en TDT, satélite, porteros automáticos y cámaras de seguridad.`,
   keywords: `antenista Yuncos, antenas TDT Yuncos, instalación antenas Toledo, reparación antenas Yuncos, telecomunicaciones Yuncos, nuevas urbanizaciones`,
   alternates: {
     canonical: 'https://advanced-telecom.es/antenista-yuncos'
@@ -326,7 +326,7 @@ export default function YuncosPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Yuncos</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre antenista en Yuncos</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más comunes sobre nuestros servicios de antenista en el municipio</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
