@@ -166,7 +166,11 @@ export function MainNavigation({ services = [] }: MainNavigationProps) {
                   {defaultServices.map((service, index) => (
                     <Link
                       key={index}
-                      href={service.link || service.slug || "#"}
+                      href={
+                        service.link
+                          ? (service.link.startsWith("/") ? service.link : `/servicios/${service.link}`)
+                          : (service.slug ? `/servicios/${service.slug}` : "#")
+                      }
                       className="flex items-center gap-3 p-3 rounded-lg hover:bg-brand-green/10 transition-all duration-200"
                     >
                       <div className="bg-brand-green/10 p-2 rounded-lg text-brand-green">
