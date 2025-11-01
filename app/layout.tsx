@@ -45,7 +45,13 @@ export const metadata: Metadata = {
   },
   // ✅ AQUÍ VA LA PROPIEDAD 'icons', DENTRO DEL OBJETO
   icons: {
-    icon: '/favicon-advanced-telecom.webp',
+    icon: [
+      { url: '/favicon-advanced-telecom.webp', sizes: '16x16', type: 'image/webp' },
+      { url: '/favicon-advanced-telecom.webp', sizes: '32x32', type: 'image/webp' },
+      { url: '/favicon-advanced-telecom.webp', sizes: '48x48', type: 'image/webp' },
+      { url: '/favicon-advanced-telecom.webp', sizes: '64x64', type: 'image/webp' },
+    ],
+    apple: '/favicon-advanced-telecom.webp',
   },
 
    
