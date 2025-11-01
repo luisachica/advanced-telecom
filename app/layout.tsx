@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   // ✅ AQUÍ VA LA PROPIEDAD 'icons', DENTRO DEL OBJETO
   icons: {
-    icon: '/favicon-advanced-telecom.png',
+    icon: '/favicon-advanced-telecom.webp',
   },
 
    
