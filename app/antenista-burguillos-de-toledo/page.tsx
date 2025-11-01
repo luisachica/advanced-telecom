@@ -125,8 +125,8 @@ export const metadata: Metadata = {
     canonical: 'https://advanced-telecom.es/antenista-burguillos-de-toledo'
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 

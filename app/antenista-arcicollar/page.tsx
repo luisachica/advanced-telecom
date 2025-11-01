@@ -123,8 +123,8 @@ export const metadata: Metadata = {
     canonical: 'https://advanced-telecom.es/antenista-en-arcicollar'
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 

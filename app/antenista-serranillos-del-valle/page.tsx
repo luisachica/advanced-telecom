@@ -122,8 +122,8 @@ export const metadata: Metadata = {
     canonical: 'https://advanced-telecom.es/antenista-serranillos-del-valle'
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 

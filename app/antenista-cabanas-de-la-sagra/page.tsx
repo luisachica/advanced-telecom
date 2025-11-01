@@ -123,8 +123,8 @@ export const metadata: Metadata = {
     canonical: 'https://advanced-telecom.es/antenista-cabanas-de-la-sagra'
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 

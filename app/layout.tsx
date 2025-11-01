@@ -2,6 +2,10 @@ import type React from "react"
 import "@/app/globals.css"
 import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
+import { CookieProvider } from "@/hooks/use-cookies"
+import CookieBanner from "@/components/cookie-banner"
+import CookiePreferencesModal from "@/components/cookie-preferences-modal"
+import GoogleAnalytics from "@/components/google-analytics"
 import type { Metadata } from "next"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -14,22 +18,22 @@ export const metadata: Metadata = {
     "telecomunicaciones madrid, antenas TDT, antenas parabólicas, porteros automáticos, cámaras seguridad, interferencias 4G",
   authors: [{ name: "Advanced Telecom" }],
   robots: {
-    index: false,
-    follow: false,
-    nocache: true,
+    index: true,
+    follow: true,
+    nocache: false,
     googleBot: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
       noimageindex: true,
     },
   },
   alternates: {
-    canonical: "https://www.advancedtelecom.es",
+    canonical: "https://advancedtelecom.es",
   },
   openGraph: {
     type: "website",
     locale: "es_ES",
-    url: "https://www.advancedtelecom.es",
+    url: "https://advancedtelecom.es",
     title: "Advanced Telecom Madrid | Servicios de telecomunicaciones",
     description:
       "Servicios profesionales de telecomunicaciones en Madrid. Instalación de antenas, porteros automáticos y sistemas de seguridad.",
@@ -43,6 +47,12 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Advanced Telecom Madrid | Servicios de telecomunicaciones",
+    description: "Servicios profesionales de telecomunicaciones en Madrid. Instalación de antenas, porteros automáticos y sistemas de seguridad.",
+    images: ["/logo-advanced-telecom.jpg"],
+  },
   // ✅ AQUÍ VA LA PROPIEDAD 'icons', DENTRO DEL OBJETO
   icons: {
     icon: [
@@ -50,8 +60,13 @@ export const metadata: Metadata = {
       { url: '/favicon-advanced-telecom.webp', sizes: '32x32', type: 'image/webp' },
       { url: '/favicon-advanced-telecom.webp', sizes: '48x48', type: 'image/webp' },
       { url: '/favicon-advanced-telecom.webp', sizes: '64x64', type: 'image/webp' },
+      { url: '/favicon-advanced-telecom.webp', sizes: '96x96', type: 'image/webp' },
+      { url: '/favicon-advanced-telecom.webp', sizes: '128x128', type: 'image/webp' },
+      { url: '/favicon-advanced-telecom.webp', sizes: '192x192', type: 'image/webp' },
     ],
-    apple: '/favicon-advanced-telecom.webp',
+    apple: [
+      { url: '/favicon-advanced-telecom.webp', sizes: '180x180', type: 'image/webp' },
+    ],
   },
 
    
@@ -69,9 +84,14 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
-          {children}
-        </ThemeProvider>
+        <CookieProvider>
+          <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+            <GoogleAnalytics />
+            {children}
+            <CookieBanner />
+            <CookiePreferencesModal />
+          </ThemeProvider>
+        </CookieProvider>
       </body>
     </html>
   )

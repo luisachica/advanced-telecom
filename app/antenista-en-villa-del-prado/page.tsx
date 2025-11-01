@@ -125,8 +125,8 @@ export const metadata: Metadata = {
     canonical: 'https://advanced-telecom.es/antenista-villa-del-prado'
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 

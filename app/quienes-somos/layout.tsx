@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   keywords:
     "empresa telecomunicaciones madrid, quienes somos, servicios telecomunicaciones, experiencia telecomunicaciones, antenas madrid, porteros automaticos madrid",
   robots: {
-    index: false,
-    follow: false,
-    nocache: true,
+    index: true,
+    follow: true,
+    nocache: false,
     googleBot: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
       noimageindex: true,
     },
   },

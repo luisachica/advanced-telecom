@@ -1,7 +1,10 @@
+'use client'
+
 import Image from "next/image"
 import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import { useCookies } from "@/hooks/use-cookies"
 
 // Función para validar rutas de imágenes
 const validateImageSrc = (src: string | undefined | null): string => {
@@ -9,6 +12,8 @@ const validateImageSrc = (src: string | undefined | null): string => {
 }
 
 export function Footer() {
+  const { openPreferences } = useCookies()
+  
   return (
     <footer className="w-full border-t bg-gray-800 text-white">
       <div className="container flex flex-col gap-6 py-12 px-4 md:px-6">
@@ -29,16 +34,16 @@ export function Footer() {
               Servicios profesionales de telecomunicaciones para hogares y empresas en toda la Comunidad de Madrid.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors">
+              <a href="https://www.facebook.com/antenistatoledo" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors">
                 <Facebook className="h-5 w-5 text-white" />
               </a>
-              <a href="#" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors">
+              <a href="https://twitter.com/antenistatoledo" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors">
                 <Twitter className="h-5 w-5 text-white" />
               </a>
-              <a href="#" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors">
+              <a href="https://www.instagram.com/antenistatoledo/" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors">
                 <Instagram className="h-5 w-5 text-white" />
               </a>
-              <a href="#" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors">
+              <a href="https://es.linkedin.com/in/antenistatoledo" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors">
                 <Linkedin className="h-5 w-5 text-white" />
               </a>
             </div>
@@ -122,7 +127,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-brand-green flex-shrink-0" />
-                <a href="tel:668838415" className="text-gray-300 hover:text-white transition-colors">
+                <a href="tel:+34668838415" className="text-gray-300 hover:text-white transition-colors">
                   668 83 84 15
                 </a>
               </li>
@@ -176,18 +181,24 @@ export function Footer() {
         <div className="border-t border-white/10 pt-6 mt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Advanced Telecom. Todos los derechos reservados.
+              © {new Date().getFullYear()} Hecho con ❤️ por Snapik. Todos los derechos reservados.
             </p>
             <div className="flex gap-6">
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+              <Link href="/politica-privacidad" className="text-gray-400 hover:text-white text-sm transition-colors">
                 Política de privacidad
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+              </Link>
+              <Link href="/terminos-condiciones" className="text-gray-400 hover:text-white text-sm transition-colors">
                 Términos y condiciones
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Cookies
-              </a>
+              </Link>
+              <Link href="/politica-cookies" className="text-gray-400 hover:text-white text-sm transition-colors">
+                Política de cookies
+              </Link>
+              <button 
+                onClick={openPreferences}
+                className="text-gray-400 hover:text-white text-sm transition-colors underline"
+              >
+                Gestionar cookies
+              </button>
             </div>
           </div>
         </div>

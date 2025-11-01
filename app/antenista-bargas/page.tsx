@@ -147,8 +147,8 @@ export const metadata: Metadata = {
     canonical: 'https://advanced-telecom.es/antenista-bargas'
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 

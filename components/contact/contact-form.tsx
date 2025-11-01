@@ -1,38 +1,102 @@
 "use client"
 
 import { useState } from "react"
-import { useFormStatus } from "react-dom"
-import { sendContactAction } from "@/app/actions/send-contact"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
-import Link from "next/link"
-
-function SubmitButton() {
-  const { pending } = useFormStatus()
-  return (
-    <Button
-      type="submit"
-      className="w-full bg-brand-green text-white hover:bg-brand-green-dark font-semibold text-sm py-3 rounded-lg shadow-md shadow-brand-green/20 normal-case"
-      disabled={pending}
-    >
-      {pending ? "Enviando..." : "Enviar mensaje"}
-      <ArrowRight className="ml-2 h-4 w-4" />
-    </Button>
-  )
-}
 
 export function ContactForm() {
-  const [estado, setEstado] = useState<"idle" | "ok" | "error">("idle")
+  const [estado, setEstado] = useState<"idle" | "ok" | "error" | "redirecting" | "loading">("idle")
   const [mensajeError, setMensajeError] = useState("")
+  const [debugInfo, setDebugInfo] = useState("")
 
-  async function clientAction(formData: FormData) {
-    const res = await sendContactAction(formData)
-    if ("success" in res) {
-      setEstado("ok")
-      setMensajeError("")
-    } else {
+  function processContactForm(formData: FormData) {
+    const nombre = formData.get("nombre")?.toString() || ""
+    const email = formData.get("email")?.toString() || ""
+    const telefono = formData.get("telefono")?.toString() || ""
+    const mensaje = formData.get("mensaje")?.toString() || ""
+    const servicio = formData.get("servicio")?.toString() || ""
+
+    console.log("🔍 Validando campos:", { nombre, email, telefono, mensaje, servicio })
+
+    if (!nombre || !email || !telefono) {
+      return { error: "Por favor completa todos los campos obligatorios (nombre, email y teléfono)." }
+    }
+
+    try {
+      // Generar mensaje para WhatsApp
+      let whatsappMessage = `¡Hola! Me gustaría solicitar información sobre sus servicios.\n\n`
+      whatsappMessage += `*Nombre:* ${nombre}\n`
+      whatsappMessage += `*Email:* ${email}\n`
+      
+      if (telefono) {
+        whatsappMessage += `*Teléfono:* ${telefono}\n`
+      }
+      
+      if (servicio && servicio !== "Selecciona un servicio") {
+        whatsappMessage += `🔧 *Servicio:* ${servicio}\n`
+      }
+      
+      if (mensaje) {
+        whatsappMessage += `\n *Mensaje:*\n${mensaje}\n\n`
+      } else {
+        whatsappMessage += `\n *Mensaje:*\nSolicito información sobre sus servicios.\n\n`
+      }
+      whatsappMessage += `Enviado desde: https://advancedtelecom.es`
+
+      // Codificar el mensaje para URL
+      const encodedMessage = encodeURIComponent(whatsappMessage)
+      
+      // Número de WhatsApp de la empresa
+      const whatsappNumber = "34668838415" // +34 668 83 84 15
+      
+      // Generar URL de WhatsApp
+      const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`
+
+      return { 
+        success: true, 
+        whatsappUrl: whatsappUrl,
+        message: "Formulario procesado correctamente. Serás redirigido a WhatsApp."
+      }
+    } catch (error) {
+      console.error("❌ Error al procesar formulario:", error)
+      return { error: "No se pudo procesar el formulario. Intenta más tarde." }
+    }
+  }
+
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault()
+    setEstado("loading")
+    setMensajeError("")
+
+    const formData = new FormData(event.currentTarget)
+    
+    // Debug: Mostrar datos del formulario
+    console.log("📝 Datos del formulario:")
+    let debugText = "Datos del formulario:\n"
+    for (let [key, value] of formData.entries()) {
+      console.log(`${key}: ${value}`)
+      debugText += `${key}: ${value}\n`
+    }
+    setDebugInfo(debugText)
+    
+    const res = processContactForm(formData)
+    console.log("🔄 Resultado del procesamiento:", res)
+    setDebugInfo(prev => prev + `\nResultado: ${JSON.stringify(res, null, 2)}`)
+    
+    if ("success" in res && "whatsappUrl" in res) {
+      console.log("✅ Éxito, URL de WhatsApp:", res.whatsappUrl)
+      setEstado("redirecting")
+      
+      // Mostrar mensaje de éxito por un momento antes de redirigir
+      setTimeout(() => {
+        console.log("🚀 Abriendo WhatsApp...")
+        window.open(res.whatsappUrl, '_blank')
+        setEstado("ok")
+      }, 1500)
+    } else if ("error" in res) {
+      console.log("❌ Error:", res.error)
       setEstado("error")
       setMensajeError(res.error)
     }
@@ -44,7 +108,7 @@ export function ContactForm() {
         Rellena este formulario de contacto, o llámanos para hablar con nuestros técnicos especializados en telecomunicaciones.
       </p>
 
-      <form action={clientAction} className="space-y-3">
+      <form onSubmit={handleSubmit} className="space-y-3">
         <div className="grid grid-cols-2 gap-3">
           <div>
             <label htmlFor="nombre" className="block text-xs font-medium mb-1 text-brand-black">
@@ -156,9 +220,21 @@ export function ContactForm() {
           </div>
         </div>
 
-        <SubmitButton />
+        <Button
+          type="submit"
+          className="w-full bg-brand-green text-white hover:bg-brand-green-dark font-semibold text-sm py-3 rounded-lg shadow-md shadow-brand-green/20 normal-case"
+          disabled={estado === "loading" || estado === "redirecting"}
+        >
+          {estado === "loading" ? "Enviando..." : "Enviar mensaje"}
+          <ArrowRight className="ml-2 h-4 w-4" />
+        </Button>
 
-        {estado === "ok" && <p className="text-green-600">✅ Mensaje enviado correctamente</p>}
+        {estado === "redirecting" && (
+          <p className="text-blue-600">🔄 Preparando redirección a WhatsApp...</p>
+        )}
+        {estado === "ok" && (
+          <p className="text-green-600">✅ ¡Perfecto! Te hemos redirigido a WhatsApp para continuar la conversación</p>
+        )}
         {estado === "error" && <p className="text-red-600">❌ {mensajeError}</p>}
       </form>
     </div>

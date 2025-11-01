@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   keywords:
     "servicios telecomunicaciones madrid, antenas TDT, porteros automaticos, camaras seguridad, reparaciones urgentes, instalaciones telecomunicaciones",
   robots: {
-    index: false,
-    follow: false,
-    nocache: true,
+    index: true,
+    follow: true,
+    nocache: false,
     googleBot: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
       noimageindex: true,
     },
   },

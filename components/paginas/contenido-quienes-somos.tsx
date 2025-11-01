@@ -58,7 +58,7 @@ export default function ContenidoQuienesSomos({ data: pageData }: { data: any })
                   </Link>
                   <div className="flex items-center gap-2 text-gray-700 font-medium">
                      <span>o llame al</span>
-                     <Link href="tel:668838415" className="text-green-600 hover:text-green-700 font-bold hover:underline transition-colors duration-200">668 83 84 15</Link>
+                     <Link href="tel:+34668838415" className="text-green-600 hover:text-green-700 font-bold hover:underline transition-colors duration-200">668 83 84 15</Link>
                    </div>
                 </div>
               </div>

@@ -44,12 +44,12 @@ export const metadata: Metadata = {
   title: `${serviceData.title} | Advanced Telecom`,
   description: serviceData.description,
   robots: {
-    index: false,
-    follow: false,
-    nocache: true,
+    index: true,
+    follow: true,
+    nocache: false,
     googleBot: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
       noimageindex: true,
     },
   },

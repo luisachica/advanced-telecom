@@ -139,7 +139,7 @@ export function MobileMenu({ services = [], isOpen, onClose }: MobileMenuProps) 
 
         <div className="p-4 mt-4 bg-brand-green/10">
         <p className="text-brand-black font-medium mb-2">¿Necesitas ayuda?</p>
-        <Link href="tel:668838415" className="flex items-center gap-2 text-brand-green font-bold">
+        <Link href="tel:+34668838415" className="flex items-center gap-2 text-brand-green font-bold">
             <Phone className="h-4 w-4" />
             668 83 84 15
           </Link>

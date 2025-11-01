@@ -14,7 +14,7 @@ const contactData = {
       title: "Llámanos",
       description: "Nuestro equipo está disponible para atenderte",
       contact: "668 83 84 15",
-      link: "tel:668838415",
+      link: "tel:+34668838415",
     },
     {
       iconName: "Mail",
@@ -55,12 +55,12 @@ export const metadata: Metadata = {
     canonical: "https://www.advancedtelecom.es/contacto",
   },
   robots: {
-    index: false,
-    follow: false,
-    nocache: true,
+    index: true,
+    follow: true,
+    nocache: false,
     googleBot: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
       noimageindex: true,
     },
   },

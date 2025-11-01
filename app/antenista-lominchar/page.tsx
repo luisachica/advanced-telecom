@@ -121,8 +121,8 @@ export const metadata: Metadata = {
     canonical: 'https://advanced-telecom.es/antenista-en-lominchar'
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 

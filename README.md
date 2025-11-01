@@ -4,35 +4,38 @@ Sitio web profesional para servicios de telecomunicaciones en Madrid.
 
 ## Configuración para Despliegue
 
-### Variables de Entorno Requeridas
+### Formulario de Contacto
 
-Para que el sitio funcione correctamente en producción, necesitas configurar las siguientes variables de entorno:
+El formulario de contacto está configurado para redirigir automáticamente a WhatsApp con los datos del formulario. No requiere configuración de API externa.
 
-#### Resend (Servicio de Email)
-- `RESEND_API_KEY`: Clave API de Resend para el formulario de contacto
-  - Obtener en: https://resend.com/api-keys
-  - Requerido para que funcione el formulario de contacto
+#### Configuración de WhatsApp
+- El número de WhatsApp se configura en `app/actions/send-contact.ts`
+- Actualiza la variable `whatsappNumber` con tu número real (formato: 34XXXXXXXXX)
 
 #### Google Reviews (Opcional)
 - `GOOGLE_PLACES_API_KEY`: Para mostrar reseñas de Google
 - `GOOGLE_PLACE_ID`: ID del lugar en Google Places
 
-### Configuración en Vercel
+### Configuración en Cloudflare Pages
 
-1. Ve a tu proyecto en Vercel Dashboard
+1. Ve a tu proyecto en Cloudflare Pages Dashboard
 2. Navega a Settings > Environment Variables
-3. Agrega las variables necesarias:
-   - `RESEND_API_KEY`: tu_clave_resend_aqui
-   - Otras variables según necesites
+3. Agrega las variables opcionales si las necesitas:
+   - `GOOGLE_PLACES_API_KEY`: tu_clave_google_aqui
+   - `GOOGLE_PLACE_ID`: tu_place_id_aqui
 
 ### Desarrollo Local
 
-1. Copia `.env.example` a `.env.local`
-2. Completa las variables con tus valores reales
+1. Clona el repositorio
+2. Ejecuta `npm install`
 3. Ejecuta `npm run dev`
+4. El formulario funcionará localmente redirigiendo a WhatsApp
 
-### Solución de Problemas
+### Características
 
-Si obtienes el error "Missing API key" durante el build:
-1. Asegúrate de que `RESEND_API_KEY` esté configurada en Vercel
-2. Redespliega el proyecto después de agregar las variables
+- ✅ Formulario de contacto con redirección a WhatsApp
+- ✅ Optimizado para Cloudflare Pages
+- ✅ SEO completo con metadatos y sitemap
+- ✅ Responsive design
+- ✅ 80+ páginas de municipios
+- ✅ Sin dependencias de API externa para formularios

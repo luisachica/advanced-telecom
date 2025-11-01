@@ -3,13 +3,99 @@ import type { MetadataRoute } from "next"
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://advancedtelecom.es"
 
-  // Municipios principales
+  // Todos los municipios con antenistas
   const municipios = [
     'alameda-de-la-sagra',
+    'anover-del-tajo',
+    'arcicollar',
+    'bargas',
+    'batres',
+    'borox',
+    'burguillos-de-toledo',
+    'cabanas-de-la-sagra',
+    'calypo-fado',
+    'camarena',
+    'carranque',
+    'casarrubios-del-monte',
+    'casarrubuelos',
+    'cedillo-del-condado',
+    'chozas-de-canales',
+    'ciempozuelos',
+    'cigarales',
+    'cobeja',
+    'cobisa',
+    'coto-del-zagal',
+    'cubas-de-la-sagra',
+    'el-alamo',
+    'el-quinon',
+    'el-viso-de-san-juan',
+    'fuensalida',
     'getafe',
+    'grinon',
     'illescas',
+    'las-ventas-de-retamosa',
+    'la-torre-de-esteban-hambran',
+    'layos',
+    'lominchar',
+    'los-cisneros',
+    'los-palominos',
+    'los-pozuelos',
+    'los-pradillos',
+    'magan',
+    'mentrida',
+    'mocejon',
+    'montesion',
+    'moraleja-de-enmedio',
+    'mostoles',
+    'nambroca',
+    'navalcarnero',
+    'nuevo-borox',
+    'numancia-de-la-sagra',
+    'olias-del-rey',
+    'pinar-de-villeriche',
+    'recas',
+    'renta-de-la-casa',
+    'santa-cruz-del-retamar',
+    'senorio-de-illescas',
+    'serranillos-del-valle',
+    'sesena',
+    'sesena-viejo',
+    'talavera-de-la-reina',
     'toledo',
-    'torrecastillo'
+    'torrecastillo',
+    'torrejon-de-la-calzada',
+    'torrejon-de-velasco',
+    'valdemoro',
+    'valmojado',
+    'valparaiso',
+    'villaluenga-de-la-sagra',
+    'villamanta',
+    'villamiel-de-toledo',
+    'villanueva-de-la-sagra',
+    'yuncler',
+    'yunclillos',
+    'yuncos'
+  ]
+
+  // Servicios específicos
+  const servicios = [
+    'antenas-tdt',
+    'antenas-parabolicas',
+    'camaras-seguridad',
+    'porteros-automaticos',
+    'reparaciones-urgentes',
+    'solucion-interferencias-5g'
+  ]
+
+  // Páginas especiales con prefijo "en-"
+  const municipiosEspeciales = [
+    'aldea-del-fresno',
+    'arroyomolinos',
+    'calalberche',
+    'esquivias',
+    'palomeque',
+    'pantoja',
+    'villa-del-prado'
   ]
 
   const municipioUrls = municipios.map(municipio => ({
@@ -17,6 +103,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.7,
+  }))
+
+  const municipioEspecialUrls = municipiosEspeciales.map(municipio => ({
+    url: `${baseUrl}/antenista-en-${municipio}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }))
+
+  const servicioUrls = servicios.map(servicio => ({
+    url: `${baseUrl}/servicios/${servicio}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
   }))
 
   return [
@@ -30,10 +130,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/servicios`,
       lastModified: new Date(),
       changeFrequency: "weekly",
-      priority: 0.8,
+      priority: 0.9,
     },
     {
-      url: `${baseUrl}/sobre-nosotros`,
+      url: `${baseUrl}/quienes-somos`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.7,
@@ -44,6 +144,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/politica-cookies`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    ...servicioUrls,
     ...municipioUrls,
+    ...municipioEspecialUrls,
   ]
 }

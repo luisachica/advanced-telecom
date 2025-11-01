@@ -122,8 +122,8 @@ export const metadata: Metadata = {
     canonical: 'https://advanced-telecom.es/antenista-renta-de-la-casa'
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 

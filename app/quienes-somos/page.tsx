@@ -58,12 +58,12 @@ export const metadata: Metadata = {
     canonical: `https://www.advancedtelecom.es/${pageData.slug}`,
   },
   robots: {
-    index: false,
-    follow: false,
-    nocache: true,
+    index: true,
+    follow: true,
+    nocache: false,
     googleBot: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
       noimageindex: true,
     },
   },
