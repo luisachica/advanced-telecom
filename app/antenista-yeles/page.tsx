@@ -15,56 +15,58 @@ import { SERVICIOS } from "@/data/servicios";
 
 // Datos específicos del municipio
 const municipioData = {
-  nombre: "Palomeque",
-  slug: "palomeque",
+  nombre: "Yeles",
+  slug: "yeles",
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
-  codigoPostal: "",
-  poblacion: "",
-  superficie: "",
-  descripcion: "Servicio de antenista profesional en Palomeque. Soluciones para TDT, parabólicas y videoporteros en su casa, chalet o comunidad. Presupuesto sin compromiso.",
+  codigoPostal: "45220",
+  poblacion: "5.721",
+  superficie: "57,2",
+  descripcion: "Antenista profesional en Yeles especializado en instalaciones de telecomunicaciones. Servicios técnicos de calidad para este municipio toledano.",
   servicios: [
-    "Instalación y reparación de antenas TDT en Palomeque",
-    "Instalación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias por la red 5G",
-    "Servicio de reparaciones urgentes"
+    "Instalación de antenas TDT en Yeles",
+    "Antenas parabólicas para zonas residenciales",
+    "Porteros automáticos y videoporteros",
+    "Sistemas de videovigilancia CCTV",
+    "Amplificadores de señal digital",
+    "Mantenimiento técnico especializado"
   ],
-  serviciosDestacados: [
-    "TDT y parabólicas",
-    "Videoporteros y CCTV",
-    "Servicio urgente < 2 horas"
+   serviciosDestacados: [
+    "Antenista TDT especializado",
+    "Instalaciones residenciales",
+    "Servicio técnico local"
   ],
 
   zonasCubiertas: [
-    "El casco urbano de Palomeque",
-    "Zonas de chalets y nuevas viviendas",
-    "Comunidades de vecinos y pisos",
-    "Fincas y naves en los alrededores"
+    "Casco urbano",
+    "Zona residencial",
+    "Área industrial",
+    "Urbanizaciones",
+    "Viviendas aisladas"
   ],
 
   cobertura: [
-    { zona: "El casco urbano de Palomeque", disponible: true },
-    { zona: "Zonas de chalets y nuevas viviendas", disponible: true },
-    { zona: "Comunidades de vecinos y pisos", disponible: true },
-    { zona: "Fincas y naves en los alrededores", disponible: true }
+    { zona: "Casco urbano", disponible: true },
+    { zona: "Zona residencial", disponible: true },
+    { zona: "Área industrial", disponible: true },
+    { zona: "Urbanizaciones", disponible: true },
+    { zona: "Viviendas aisladas", disponible: true }
   ],
 
   testimonios: [
     {
-      nombre: "Carmen López",
-      comentario: "Un servicio muy rápido y profesional. Tuvieron que cambiar la antena de la comunidad y lo gestionaron todo de forma impecable. Muy recomendables.",
+      nombre: "Carlos Fernández",
+      comentario: "El mejor antenista de Yeles. Instalación perfecta y muy profesional.",
       puntuacion: 5
     },
     {
-      nombre: "Miguel Ángel Ruiz",
+      nombre: "Laura Sánchez",
       comentario: "Servicio técnico excelente. Resolvieron todos nuestros problemas de señal.",
       puntuacion: 5
     },
     {
-      nombre: "Isabel Martínez",
-      comentario: "Les pedí presupuesto para instalar un videoportero en el chalet y me ofrecieron un precio muy competitivo. El trabajo fue limpio y el resultado, perfecto.",
+      nombre: "Antonio Morales",
+      comentario: "Antenista muy recomendable en Yeles. Trabajo impecable y garantizado.",
       puntuacion: 5
     }
   ],
@@ -72,7 +74,7 @@ const municipioData = {
    caracteristicas: [
     {
       titulo: "Antenista local especializado",
-      descripcion: "Somos su servicio técnico de proximidad en Palomeque, con soluciones rápidas y adaptadas a la localidad",
+      descripcion: "Conocimiento específico de Yeles y sus necesidades técnicas",
       icono: "Home"
     },
     {
@@ -82,7 +84,7 @@ const municipioData = {
     },
     {
       titulo: "Atención personalizada",
-      descripcion: "Presupuestos detallados y por escrito, sin sorpresas ni costes ocultos",
+      descripcion: "Servicio directo y soluciones adaptadas a cada hogar en Yeles",
       icono: "Users"
     },
     {
@@ -94,31 +96,31 @@ const municipioData = {
 
   faqs: [
     {
-      question: "¿El precio del presupuesto puede cambiar durante el trabajo?",
-      answer: "No. Nuestra política es de presupuestos cerrados. El precio ofrecido es el final, salvo que usted solicite un trabajo adicional durante la intervención, que se presupuestaría aparte."
+      question: "¿Qué servicios de antenista ofrecen en Yeles?",
+      answer: "Como antenista especializado en Yeles, ofrecemos instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia con garantía completa."
     },
     {
-      question: "¿Cuánto tiempo de garantía tienen las reparaciones?",
-      answer: "Todas nuestras reparaciones cuentan con la garantía legal que cubre tanto la mano de obra como los componentes sustituidos. La garantía queda reflejada en su factura."
+      question: "¿Cuál es el mejor antenista en Yeles?",
+      answer: "Somos antenistas profesionales con más de 25 años de experiencia en Yeles. Ofrecemos servicio técnico especializado, garantía y atención personalizada."
     },
     {
-      question: "Mi casa es antigua, ¿es complicado mejorar la instalación de TV?",
-      answer: "No tiene por qué serlo. Estamos especializados en modernizar instalaciones antiguas: sustituimos cableado deteriorado y componentes obsoletos para que disfrute de la TDT con la máxima calidad actual."
+      question: "¿Realizan instalaciones de antenas TDT en Yeles?",
+      answer: "Sí, somos especialistas en instalaciones de antenas TDT en Yeles. Utilizamos equipos de alta calidad y ofrecemos garantía en todas nuestras instalaciones."
     },
     {
-      question: "¿El presupuesto que ofrecen es gratuito?",
-      answer: "Sí, el desplazamiento a su domicilio en Palomeque para valorar el trabajo y ofrecer un presupuesto detallado es completamente gratuito y sin compromiso."
+      question: "¿Cuánto cuesta un antenista en Yeles?",
+      answer: "Los precios varían según el tipo de instalación. Como antenista local en Yeles, ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
     }
   ]
 }
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Palomeque | Advanced Telecom`,
-  description: `Servicio de antenista profesional en Palomeque. Soluciones para TDT, parabólicas y videoporteros en su casa, chalet o comunidad. Presupuesto sin compromiso.`,
-  keywords: `antenista Palomeque, antenas TDT Palomeque, instalación parabólicas Toledo, reparación antenas Palomeque, videoporteros Palomeque, CCTV Palomeque`,
+  title: `Antenista en Yeles | Advanced Telecom`,
+  description: `Antenistas en Yeles. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
+  keywords: `antenista Yeles, antenas TDT Yeles, instalación antenas Toledo, reparación antenas Yeles, telecomunicaciones Yeles`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-en-palomeque'
+    canonical: 'https://www.advancedtelecom.es/antenista-yeles/'
   },
   robots: {
     index: true,
@@ -154,7 +156,7 @@ const IconComponent = (iconName: string) => {
   return Icon ? <Icon className="h-6 w-6" /> : <MapPin className="h-6 w-6" />;
 };
 
-export default function PalomequePage() {
+export default function YelesPage() {
   return (
     <>
       <div className="flex flex-col min-h-screen">
@@ -173,16 +175,16 @@ export default function PalomequePage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Palomeque</span>
+                    <span className="text-brand-green font-medium">Yeles</span>
                   </nav>
 
                   <div className="space-y-6">
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      <span className="text-brand-green">Antenista</span> en Palomeque
-                    </h1>
-                    <p className="text-xl text-brand-black-light leading-relaxed">
-                      Le ofrecemos un servicio técnico de antenista en Palomeque, garantizando soluciones eficaces y duraderas para cualquier incidencia con su señal de televisión o sistemas de comunicación. Con más de 25 años de experiencia, somos su servicio de confianza en la localidad, comprometidos con la calidad y la satisfacción del cliente.
-                    </p>
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight mb-6">
+                    <span className="text-brand-green">Antenista</span> en Yeles
+                  </h1>
+                    <p className="text-xl text-brand-black-light mb-8 leading-relaxed">
+                    Antenista profesional en Yeles con más de 25 años de experiencia. Especialistas en instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia. Servicio técnico garantizado en todo el municipio toledano.
+                  </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
@@ -212,11 +214,11 @@ export default function PalomequePage() {
             </div>
           </section>
 
-           {/* Cobertura específica de Palomeque */}
+           {/* Cobertura específica de Yeles */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Palomeque y su término municipal</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Yeles</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio técnico profesional disponible en todo el municipio madrileño</p>
               </div>
               <div className="max-w-4xl mx-auto">
@@ -226,7 +228,7 @@ export default function PalomequePage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra área de servicio en Palomeque incluye:</h3>
+                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Yeles</h3>
                       <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
                     </div>
                   </div>
@@ -251,11 +253,11 @@ export default function PalomequePage() {
             </div>
           </section>
 
-          {/* Nuestro catálogo de servicios especializados */}
+          {/* Servicios especializados en Yeles */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en Yeles</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades del municipio madrileño.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -273,11 +275,11 @@ export default function PalomequePage() {
             </div>
           </section>
 
-          {/* ¿Por qué elegir nuestro servicio de antenista en Palomeque? */}
+          {/* Por qué elegir nuestros servicios en Yeles */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir nuestro servicio de antenista en Palomeque?</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir nuestro antenista en Yeles?</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalación</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -294,12 +296,12 @@ export default function PalomequePage() {
             </div>
           </section>
 
-         {/* La confianza de nuestros clientes en Palomeque */}
+         {/* Testimonios de clientes en Yeles */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en Palomeque</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacción de los vecinos de la localidad es nuestro principal objetivo y nuestra mejor carta de presentación.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en Yeles</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Yeles que confían en nuestros servicios</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -313,18 +315,18 @@ export default function PalomequePage() {
                     </div>
                     <p className="text-brand-black-light mb-4 italic">"{testimonio.comentario}"</p>
                     <div className="font-semibold text-brand-black">{testimonio.nombre}</div>
-                    <div className="text-sm text-brand-black-light">Cliente en Palomeque</div>
+                    <div className="text-sm text-brand-black-light">Cliente en Yeles</div>
                   </div>
                 ))}
               </div>
             </div>
           </section>
 
-          {/* Preguntas frecuentes sobre nuestros servicios */}
+          {/* FAQs específicas de Yeles */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre antenista en Yeles</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más comunes sobre nuestros servicios de antenista en el municipio</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
@@ -338,18 +340,18 @@ export default function PalomequePage() {
             </div>
           </section>
 
-          {/* Contacte con su antenista en Palomeque */}
+          {/* CTA Section específica para Yeles */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Palomeque</h2>
-                  <p className="text-xl mb-8 text-white/90">Si desea solicitar un presupuesto, programar una visita técnica o resolver cualquier duda, no dude en ponerse en contacto con nosotros. Será un placer atenderle.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Yeles?</h2>
+                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Yeles.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Palomeque" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Yeles" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
-                        Enviar un WhatsApp
+                        Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">

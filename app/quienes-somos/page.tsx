@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import ContenidoQuienesSomos from '@/components/paginas/contenido-quienes-somos';
 import StructuredData from '@/components/StructuredData';
+import { withPhone } from '@/lib/seo';
 
 // ==================================================================
 // DATOS Y SEO PARA "QUIÉNES SOMOS"
@@ -53,7 +54,7 @@ const pageData = {
 
 export const metadata: Metadata = {
   title: "Quiénes somos | Advanced Telecom - Empresa de Telecomunicaciones en Madrid",
-  description: pageData.hero.subtitle,
+  description: withPhone(pageData.hero.subtitle),
   alternates: {
     canonical: `https://www.advancedtelecom.es/${pageData.slug}`,
   },

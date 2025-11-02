@@ -3,11 +3,18 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Cookie, Shield, BarChart3, Target, Settings, Mail, Phone } from 'lucide-react'
 import Link from 'next/link'
+import { withPhone } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: 'Política de Cookies | Advanced Telecom',
-  description: 'Información detallada sobre el uso de cookies en nuestro sitio web y cómo gestionar tus preferencias.',
-  robots: 'index, follow',
+  description: withPhone('Información detallada sobre el uso de cookies en nuestro sitio web y cómo gestionar tus preferencias.'),
+  alternates: {
+    canonical: 'https://www.advancedtelecom.es/politica-de-cookies/'
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function PoliticaCookiesPage() {

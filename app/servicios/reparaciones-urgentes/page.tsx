@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import ContenidoReparacionesUrgentes from "@/components/paginas/contenido-reparaciones-urgentes";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Reparaciones Urgentes | Advanced Telecom",
-  description: "Servicio de reparaciones urgentes para telecomunicaciones. Solucionamos averías en antenas, porteros automáticos y sistemas de seguridad.",
+  description: withPhone("Servicio de reparaciones urgentes para telecomunicaciones. Solucionamos averías en antenas, porteros automáticos y sistemas de seguridad."),
   robots: {
     index: true,
     follow: true,
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Reparaciones Urgentes | Advanced Telecom",
-    description: "Servicio de reparaciones urgentes para telecomunicaciones. Solucionamos averías en antenas, porteros automáticos y sistemas de seguridad.",
+    description: withPhone("Servicio de reparaciones urgentes para telecomunicaciones. Solucionamos averías en antenas, porteros automáticos y sistemas de seguridad."),
     url: "https://advancedtelecom.es/servicios/reparaciones-urgentes",
     siteName: "Advanced Telecom",
     images: [

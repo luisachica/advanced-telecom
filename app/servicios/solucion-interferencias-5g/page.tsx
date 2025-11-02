@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import ContenidoSolucionInterferencias5G from "@/components/paginas/contenido-solucion-interferencias-5g";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Solución Interferencias 5G | Advanced Telecom",
-  description: "Eliminamos las interferencias 5G en su señal de televisión. Servicio profesional de instalación de filtros LTE para recuperar la calidad.",
+  description: withPhone("Eliminamos las interferencias 5G en su señal de televisión. Servicio profesional de instalación de filtros LTE para recuperar la calidad."),
   robots: {
     index: true,
     follow: true,
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Solución Interferencias 5G | Advanced Telecom",
-    description: "Eliminamos las interferencias 5G en su señal de televisión. Servicio profesional de instalación de filtros LTE para recuperar la calidad.",
+    description: withPhone("Eliminamos las interferencias 5G en su señal de televisión. Servicio profesional de instalación de filtros LTE para recuperar la calidad."),
     url: "https://advancedtelecom.es/servicios/solucion-interferencias-5g",
     siteName: "Advanced Telecom",
     images: [

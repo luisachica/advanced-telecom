@@ -7,13 +7,16 @@ import CookieBanner from "@/components/cookie-banner"
 import CookiePreferencesModal from "@/components/cookie-preferences-modal"
 import GoogleAnalytics from "@/components/google-analytics"
 import type { Metadata } from "next"
+import { withPhone } from "@/lib/seo"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://advancedtelecom.es"),
   title: "Advanced Telecom Madrid | Servicios de telecomunicaciones",
-  description:
-    "Servicios profesionales de telecomunicaciones en Madrid. Instalación de antenas, porteros automáticos y sistemas de seguridad. Presupuesto sin compromiso.",
+  description: withPhone(
+    "Servicios profesionales de telecomunicaciones en Madrid. Instalación de antenas, porteros automáticos y sistemas de seguridad. Presupuesto sin compromiso."
+  ),
   keywords:
     "telecomunicaciones madrid, antenas TDT, antenas parabólicas, porteros automáticos, cámaras seguridad, interferencias 4G",
   authors: [{ name: "Advanced Telecom" }],
@@ -35,8 +38,9 @@ export const metadata: Metadata = {
     locale: "es_ES",
     url: "https://advancedtelecom.es",
     title: "Advanced Telecom Madrid | Servicios de telecomunicaciones",
-    description:
-      "Servicios profesionales de telecomunicaciones en Madrid. Instalación de antenas, porteros automáticos y sistemas de seguridad.",
+    description: withPhone(
+      "Servicios profesionales de telecomunicaciones en Madrid. Instalación de antenas, porteros automáticos y sistemas de seguridad."
+    ),
     siteName: "Advanced Telecom",
     images: [
       {
@@ -50,7 +54,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Advanced Telecom Madrid | Servicios de telecomunicaciones",
-    description: "Servicios profesionales de telecomunicaciones en Madrid. Instalación de antenas, porteros automáticos y sistemas de seguridad.",
+    description: withPhone(
+      "Servicios profesionales de telecomunicaciones en Madrid. Instalación de antenas, porteros automáticos y sistemas de seguridad."
+    ),
     images: ["/logo-advanced-telecom.jpg"],
   },
   // ✅ AQUÍ VA LA PROPIEDAD 'icons', DENTRO DEL OBJETO

@@ -3,10 +3,11 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
 import { FileText, User, Wrench, CreditCard, Shield, AlertTriangle, Clock, CheckCircle, Phone, Mail, MapPin } from 'lucide-react'
+import { withPhone } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: 'Términos y Condiciones | Advanced Telecom',
-  description: 'Términos y condiciones de uso de los servicios de Advanced Telecom. Condiciones generales de contratación y prestación de servicios.',
+  description: withPhone('Términos y condiciones de uso de los servicios de Advanced Telecom. Condiciones generales de contratación y prestación de servicios.'),
   robots: 'index, follow',
 }
 

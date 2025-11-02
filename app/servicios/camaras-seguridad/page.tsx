@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import ContenidoCamarasSeguridad from "@/components/paginas/contenido-camaras-seguridad";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Cámaras de seguridad | Advanced Telecom",
-  description: "Instalación y mantenimiento de cámaras de seguridad para hogares y empresas. Sistemas de videovigilancia profesionales con tecnología avanzada.",
+  description: withPhone("Instalación y mantenimiento de cámaras de seguridad para hogares y empresas. Sistemas de videovigilancia profesionales con tecnología avanzada."),
   robots: {
     index: true,
     follow: true,
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Cámaras de seguridad | Advanced Telecom",
-    description: "Instalación y mantenimiento de cámaras de seguridad para hogares y empresas. Sistemas de videovigilancia profesionales con tecnología avanzada.",
+    description: withPhone("Instalación y mantenimiento de cámaras de seguridad para hogares y empresas. Sistemas de videovigilancia profesionales con tecnología avanzada."),
     url: "https://advancedtelecom.es/servicios/camaras-seguridad",
     siteName: "Advanced Telecom",
     images: [

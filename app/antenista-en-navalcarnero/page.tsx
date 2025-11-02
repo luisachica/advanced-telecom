@@ -15,112 +15,125 @@ import { SERVICIOS } from "@/data/servicios";
 
 // Datos específicos del municipio
 const municipioData = {
-  nombre: "Yeles",
-  slug: "yeles",
-  provincia: "Toledo",
-  comunidad: "Castilla-La Mancha",
-  codigoPostal: "45220",
-  poblacion: "5.721",
-  superficie: "57,2",
-  descripcion: "Antenista profesional en Yeles especializado en instalaciones de telecomunicaciones. Servicios técnicos de calidad para este municipio toledano.",
+  nombre: "Navalcarnero",
+  slug: "navalcarnero",
+  provincia: "Madrid",
+  comunidad: "Comunidad de Madrid",
+  codigoPostal: "28600",
+  poblacion: "—",
+  superficie: "—",
+  descripcion:
+    "Ofrecemos soluciones técnicas avanzadas de antenista para particulares, comunidades de propietarios y empresas en Navalcarnero. Con más de 25 años de trayectoria en el sector, garantizamos intervenciones rápidas y eficaces para cualquier necesidad de telecomunicaciones, combinando la máxima profesionalidad con un profundo conocimiento local.",
   servicios: [
-    "Instalación de antenas TDT en Yeles",
-    "Antenas parabólicas para zonas residenciales",
-    "Porteros automáticos y videoporteros",
-    "Sistemas de videovigilancia CCTV",
-    "Amplificadores de señal digital",
-    "Mantenimiento técnico especializado"
+    "Instalación y reparación de antenas TDT",
+    "Instalación y orientación de antenas parabólicas",
+    "Sistemas de videoportero y control de accesos",
+    "Instalación de videovigilancia (CCTV)",
+    "Solución a interferencias 5G",
+    "Servicio de reparaciones urgentes"
   ],
-   serviciosDestacados: [
+  serviciosDestacados: [
     "Antenista TDT especializado",
-    "Instalaciones residenciales",
+    "Tecnología de diagnóstico avanzada",
     "Servicio técnico local"
   ],
 
   zonasCubiertas: [
-    "Casco urbano",
-    "Zona residencial",
-    "Área industrial",
-    "Urbanizaciones",
-    "Viviendas aisladas"
+    "El casco histórico y centro de Navalcarnero",
+    "Barrios de El Pinar y San Andrés",
+    "Nuevas urbanizaciones y zonas de chalets",
+    "Fincas, bodegas y naves del término municipal"
   ],
 
   cobertura: [
-    { zona: "Casco urbano", disponible: true },
-    { zona: "Zona residencial", disponible: true },
-    { zona: "Área industrial", disponible: true },
-    { zona: "Urbanizaciones", disponible: true },
-    { zona: "Viviendas aisladas", disponible: true }
+    { zona: "El casco histórico y centro de Navalcarnero", disponible: true },
+    { zona: "Barrios de El Pinar y San Andrés", disponible: true },
+    { zona: "Nuevas urbanizaciones y zonas de chalets", disponible: true },
+    { zona: "Fincas, bodegas y naves del término municipal", disponible: true }
   ],
 
   testimonios: [
     {
-      nombre: "Carlos Fernández",
-      comentario: "El mejor antenista de Yeles. Instalación perfecta y muy profesional.",
+      nombre: "Administrador de Fincas",
+      comentario:
+        "Contratamos sus servicios para renovar el sistema de videoportero de la comunidad y el resultado ha sido excelente. Muy profesionales, organizados y limpios en la ejecución.",
       puntuacion: 5
     },
     {
-      nombre: "Laura Sánchez",
-      comentario: "Servicio técnico excelente. Resolvieron todos nuestros problemas de señal.",
+      nombre: "Propietario en el centro de Navalcarnero",
+      comentario:
+        "Vivo en una casa en el casco antiguo y la instalación era complicada. El técnico demostró una gran experiencia y solucionó el problema con mucho cuidado. Un servicio impecable.",
       puntuacion: 5
     },
     {
-      nombre: "Antonio Morales",
-      comentario: "Antenista muy recomendable en Yeles. Trabajo impecable y garantizado.",
+      nombre: "Residente en una urbanización",
+      comentario:
+        "Servicio rápido y eficaz. Tenía problemas de señal en mi chalet y lo solucionaron el mismo día. Se nota la profesionalidad y el conocimiento de la zona.",
       puntuacion: 5
     }
   ],
 
-   caracteristicas: [
+  caracteristicas: [
     {
-      titulo: "Antenista local especializado",
-      descripcion: "Conocimiento específico de Yeles y sus necesidades técnicas",
-      icono: "Home"
+      titulo: "1. Experiencia en Todo Tipo de Edificios",
+      descripcion:
+        "Nuestra larga trayectoria nos permite trabajar con la misma eficacia en edificios protegidos del casco histórico como en las modernas construcciones de las nuevas urbanizaciones de Navalcarnero.",
+      icono: "Building"
     },
     {
-      titulo: "Instalaciones de calidad",
-      descripcion: "Equipos profesionales y técnicas avanzadas para óptima recepción",
-      icono: "Signal"
+      titulo: "2. Tecnología de Vanguardia",
+      descripcion:
+        "Invertimos constantemente en los equipos de diagnóstico y herramientas más avanzados del mercado para ofrecer un servicio preciso, eficiente y adaptado a las últimas tecnologías.",
+      icono: "Eye"
     },
     {
-      titulo: "Atención personalizada",
-      descripcion: "Servicio directo y soluciones adaptadas a cada hogar en Yeles",
+      titulo: "3. Presupuestos Claros y Sin Compromiso",
+      descripcion:
+        "Le proporcionamos un presupuesto detallado y por escrito antes de iniciar cualquier trabajo. Máxima transparencia, garantizando que no habrá costes imprevistos.",
       icono: "Users"
     },
     {
-      titulo: "Garantía profesional",
-      descripcion: "Garantía completa en todas nuestras instalaciones y reparaciones",
+      titulo: "4. Garantía Profesional en Todos los Servicios",
+      descripcion:
+        "Todos nuestros trabajos, desde una pequeña reparación hasta una instalación completa, están cubiertos por una garantía por escrito para su total seguridad y confianza.",
       icono: "Shield"
     }
   ],
 
   faqs: [
     {
-      question: "¿Qué servicios de antenista ofrecen en Yeles?",
-      answer: "Como antenista especializado en Yeles, ofrecemos instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia con garantía completa."
+      question:
+        "¿Tienen experiencia en la instalación de antenas en edificios protegidos del casco histórico?",
+      answer:
+        "Sí. Contamos con una amplia experiencia trabajando en edificios históricos. Realizamos las instalaciones de forma respetuosa con la normativa y la estética del inmueble, buscando siempre el mínimo impacto visual."
     },
     {
-      question: "¿Cuál es el mejor antenista en Yeles?",
-      answer: "Somos antenistas profesionales con más de 25 años de experiencia en Yeles. Ofrecemos servicio técnico especializado, garantía y atención personalizada."
+      question: "¿Qué incluye el presupuesto de una instalación de antena TDT?",
+      answer:
+        "Un presupuesto estándar incluye la antena, el mástil, los anclajes, el cableado exterior, la mano de obra y la puesta en marcha, asegurando una señal óptima en la toma principal de la vivienda. Cualquier elemento adicional se detalla aparte."
     },
     {
-      question: "¿Realizan instalaciones de antenas TDT en Yeles?",
-      answer: "Sí, somos especialistas en instalaciones de antenas TDT en Yeles. Utilizamos equipos de alta calidad y ofrecemos garantía en todas nuestras instalaciones."
+      question: "¿Ofrecen contratos de mantenimiento para comunidades de vecinos?",
+      answer:
+        "Por supuesto. Ofrecemos planes de mantenimiento preventivo para comunidades en Navalcarnero, diseñados para garantizar el correcto funcionamiento de la instalación durante todo el año y prevenir averías."
     },
     {
-      question: "¿Cuánto cuesta un antenista en Yeles?",
-      answer: "Los precios varían según el tipo de instalación. Como antenista local en Yeles, ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
+      question: "¿Cuánto tiempo de garantía tienen sus reparaciones?",
+      answer:
+        "Todas nuestras reparaciones cuentan con la garantía que estipula la ley"
     }
   ]
 }
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Yeles | Advanced Telecom`,
-  description: `Antenistas en Yeles. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
-  keywords: `antenista Yeles, antenas TDT Yeles, instalación antenas Toledo, reparación antenas Yeles, telecomunicaciones Yeles`,
+  title: `Antenista en Navalcarnero | Advanced Telecom`,
+  description:
+    `Servicio de antenista profesional en Navalcarnero. Especialistas en TDT, parabólicas y videoporteros para chalets y comunidades. Garantía y presupuesto sin compromiso.`,
+  keywords:
+    `antenista Navalcarnero, antenas TDT Navalcarnero, instalación antenas Madrid, reparación antenas Navalcarnero, videoporteros Navalcarnero, telecomunicaciones Navalcarnero`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-en-yeles'
+    canonical: 'https://www.advancedtelecom.es/antenista-en-navalcarnero/'
   },
   robots: {
     index: true,
@@ -156,7 +169,7 @@ const IconComponent = (iconName: string) => {
   return Icon ? <Icon className="h-6 w-6" /> : <MapPin className="h-6 w-6" />;
 };
 
-export default function YelesPage() {
+export default function NavalcarneroPage() {
   return (
     <>
       <div className="flex flex-col min-h-screen">
@@ -164,7 +177,7 @@ export default function YelesPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section específico de Torrecastillo */}
+          {/* Hero Section específico de Navalcarnero */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -175,25 +188,25 @@ export default function YelesPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Yeles</span>
+                    <span className="text-brand-green font-medium">Navalcarnero</span>
                   </nav>
 
                   <div className="space-y-6">
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight mb-6">
-                    <span className="text-brand-green">Antenista</span> en Yeles
-                  </h1>
-                    <p className="text-xl text-brand-black-light mb-8 leading-relaxed">
-                    Antenista profesional en Yeles con más de 25 años de experiencia. Especialistas en instalación y reparación de antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia. Servicio técnico garantizado en todo el municipio toledano.
-                  </p>
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
+                      <span className="text-brand-green">Antenista</span> en Navalcarnero
+                    </h1>
+                    <p className="text-xl text-brand-black-light leading-relaxed">
+                      Servicio de antenista profesional en Navalcarnero. Ofrecemos soluciones técnicas avanzadas para particulares, comunidades y empresas. Intervenciones rápidas y eficaces con máxima profesionalidad y profundo conocimiento local.
+                    </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
-                      <Phone className="h-5 w-5 mr-2" />
-                      Llamar ahora
-                    </Link>
-                    <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
+                    <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       Solicitar presupuesto
+                    </Link>
+                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
+                      <Phone className="h-5 w-5 mr-2" />
+                      Contactar asistencia técnica
                     </Link>
                   </div>
                 </div>
@@ -203,7 +216,7 @@ export default function YelesPage() {
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
                       src="/images/telecom/antenistas-en-toledo-sur.jpg"
-                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histórico de La Sagra"
+                      alt="Servicios de telecomunicaciones en Navalcarnero"
                       width={400}
                       height={200}
                       priority
@@ -214,12 +227,12 @@ export default function YelesPage() {
             </div>
           </section>
 
-           {/* Cobertura específica de Yeles */}
+           {/* Cobertura integral en Navalcarnero: Centro y urbanizaciones */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Yeles</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio técnico profesional disponible en todo el municipio madrileño</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura integral en Navalcarnero: Centro y urbanizaciones</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestro equipo técnico ofrece una cobertura completa en todo el término municipal, desde el centro histórico hasta los nuevos desarrollos residenciales.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -228,7 +241,7 @@ export default function YelesPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Yeles</h3>
+                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra área de servicio en Navalcarnero incluye</h3>
                       <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
                     </div>
                   </div>
@@ -245,7 +258,7 @@ export default function YelesPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Tiempo de respuesta: Menos de 2 horas</span>
+                      <span>Servicio de urgencia con asistencia garantizada en menos de 2 horas.</span>
                     </div>
                   </div>
                 </div>
@@ -253,12 +266,12 @@ export default function YelesPage() {
             </div>
           </section>
 
-          {/* Servicios especializados en Yeles */}
+          {/* Nuestro portafolio de servicios de telecomunicaciones */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en Yeles</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades del municipio madrileño.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro portafolio de servicios de telecomunicaciones</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Disponemos de una gama completa de soluciones para asegurar el óptimo funcionamiento de sus sistemas de televisión, comunicación y seguridad.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -275,12 +288,12 @@ export default function YelesPage() {
             </div>
           </section>
 
-          {/* Por qué elegir nuestros servicios en Yeles */}
+          {/* ¿Por qué somos su antenista de confianza en Navalcarnero? */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir nuestro antenista en Yeles?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalación</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué somos su antenista de confianza en Navalcarnero?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra profesionalidad se fundamenta en la experiencia, la tecnología y un compromiso total con la satisfacción del cliente.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -296,12 +309,12 @@ export default function YelesPage() {
             </div>
           </section>
 
-         {/* Testimonios de clientes en Yeles */}
+         {/* La confianza de nuestros clientes en Navalcarnero */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en Yeles</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Yeles que confían en nuestros servicios</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en Navalcarnero</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacción de los vecinos y empresas del municipio es nuestra mejor carta de presentación.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -315,19 +328,19 @@ export default function YelesPage() {
                     </div>
                     <p className="text-brand-black-light mb-4 italic">"{testimonio.comentario}"</p>
                     <div className="font-semibold text-brand-black">{testimonio.nombre}</div>
-                    <div className="text-sm text-brand-black-light">Cliente en Yeles</div>
+                    <div className="text-sm text-brand-black-light">Cliente en Navalcarnero</div>
                   </div>
                 ))}
               </div>
             </div>
           </section>
 
-          {/* FAQs específicas de Yeles */}
+          {/* Preguntas frecuentes sobre nuestros servicios técnicos */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre antenista en Yeles</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más comunes sobre nuestros servicios de antenista en el municipio</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios técnicos</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos aquí las dudas más habituales de nuestros clientes en Navalcarnero.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -340,16 +353,16 @@ export default function YelesPage() {
             </div>
           </section>
 
-          {/* CTA Section específica para Yeles */}
+          {/* CTA Section específica para Navalcarnero */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Yeles?</h2>
-                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Yeles.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Navalcarnero</h2>
+                  <p className="text-xl mb-8 text-white/90">Si desea solicitar un presupuesto, realizar una consulta o programar una visita técnica, no dude en ponerse en contacto con nosotros. Estaremos encantados de atenderle.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Yeles" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Navalcarnero" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>

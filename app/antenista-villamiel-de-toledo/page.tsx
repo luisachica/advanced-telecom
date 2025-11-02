@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 // Datos específicos del municipio
 const municipioData = {
@@ -117,7 +118,7 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Villamiel de Toledo | Advanced Telecom`,
-  description: `Antenistas en Villamiel de Toledo. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
+  description: withPhone(`Antenistas en Villamiel de Toledo. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`),
   keywords: `antenista Villamiel de Toledo, antenas TDT Villamiel de Toledo, instalación antenas Toledo, reparación antenas Villamiel de Toledo, telecomunicaciones Villamiel de Toledo, zonas rurales`,
   alternates: {
     canonical: 'https://advanced-telecom.es/antenista-en-villamiel-de-toledo'

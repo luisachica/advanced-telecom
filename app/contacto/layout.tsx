@@ -1,10 +1,12 @@
 import type React from "react"
 import type { Metadata } from "next"
+import { withPhone } from "@/lib/seo"
 
 export const metadata: Metadata = {
   title: "Contacto | Presupuesto | Advanced Telecom Madrid",
-  description:
-    "Contacta con nuestro equipo de telecomunicaciones en Madrid. Solicita presupuesto sin compromiso para antenas, cámaras de seguridad y porteros automáticos.",
+  description: withPhone(
+    "Contacta con nuestro equipo de telecomunicaciones en Madrid. Solicita presupuesto sin compromiso para antenas, cámaras de seguridad y porteros automáticos."
+  ),
   keywords:
     "contacto telecomunicaciones madrid, presupuesto antenas, teléfono empresa telecomunicaciones, email telecomunicaciones, dirección empresa telecomunicaciones",
   robots: {

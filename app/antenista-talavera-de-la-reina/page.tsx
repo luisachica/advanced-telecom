@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 // Datos específicos del municipio
 const municipioData = {
@@ -117,7 +118,7 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Talavera de la Reina | Advanced Telecom`,
-  description: `Antenistas en Talavera de la Reina. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
+  description: withPhone(`Antenistas en Talavera de la Reina. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`),
   keywords: `antenista Talavera de la Reina, antenas TDT Talavera de la Reina, instalación antenas Toledo, reparación antenas Talavera de la Reina, telecomunicaciones Talavera de la Reina`,
   alternates: {
     canonical: 'https://advanced-telecom.es/antenista-en-talavera-de-la-reina'

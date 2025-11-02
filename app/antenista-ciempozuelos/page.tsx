@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 // Datos específicos del municipio
 const municipioData = {
@@ -117,7 +118,7 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Ciempozuelos | Advanced Telecom`,
-  description: `Antenista en Ciempozuelos con más de 25 años de experiencia. Especialistas en TDT, antenas parabólicas, porteros automáticos y videovigilancia.`,
+  description: withPhone(`Antenista en Ciempozuelos con más de 25 años de experiencia. Especialistas en TDT, antenas parabólicas, porteros automáticos y videovigilancia.`),
   keywords: `antenista Ciempozuelos, antenas TDT Ciempozuelos, instalación antenas Madrid, reparación antenas Ciempozuelos, telecomunicaciones Ciempozuelos, porteros automáticos Ciempozuelos`,
   alternates: {
     canonical: 'https://advanced-telecom.es/antenista-ciempozuelos'

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import ContenidoAntenasParabolicas from '@/components/paginas/contenido-antenas-parabolicas';
 import StructuredData from '@/components/StructuredData';
+import { withPhone } from '@/lib/seo';
 
 // ==================================================================
 // DATOS Y SEO PARA "ANTENAS PARABÓLICAS"
@@ -42,7 +43,7 @@ const serviceData = {
 
 export const metadata: Metadata = {
   title: `${serviceData.title} | Advanced Telecom`,
-  description: serviceData.description,
+  description: withPhone(serviceData.description),
   robots: {
     index: true,
     follow: true,
@@ -58,7 +59,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: serviceData.title,
-    description: serviceData.description,
+    description: withPhone(serviceData.description),
     url: `https://www.advancedtelecom.es/${serviceData.slug}`,
     images: [{ url: `https://www.advancedtelecom.es${serviceData.heroImage}`, width: 1200, height: 630 }],
   },

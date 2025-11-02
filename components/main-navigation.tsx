@@ -13,7 +13,8 @@ import {
   ChevronDown, 
   Phone, 
   Menu, 
-  Info
+  Info,
+  BadgeCheck
 
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -143,6 +144,14 @@ export function MainNavigation({ services = [] }: MainNavigationProps) {
             >
               <Info className="h-4 w-4 xl:h-5 xl:w-5" />
               <span>Quiénes somos</span>
+            </Link>
+
+            <Link
+              href="/antenista-de-confianza-en-toledo-y-madrid-sur"
+              className="flex items-center gap-1 px-3 py-2 rounded-lg text-brand-black font-medium hover:bg-brand-green/10 hover:text-brand-green transition-all duration-200 border-b-2 border-transparent hover:border-brand-green text-sm xl:text-base xl:px-4 xl:gap-2"
+            >
+              <BadgeCheck className="h-4 w-4 xl:h-5 xl:w-5" />
+              <span>Antenista homologado</span>
             </Link>
 
             <div className="relative">

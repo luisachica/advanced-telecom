@@ -120,7 +120,7 @@ export const metadata: Metadata = {
   description: `Antenistas en Pantoja. Servicio técnico en TDT, antenas parabólicas, videoporteros, CCTV, soluciones por interferencias 5G y reparaciones urgentes.`,
   keywords: `antenista Pantoja, antenas TDT Pantoja, instalación antenas Toledo, reparación antenas Pantoja, telecomunicaciones Pantoja`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-en-pantoja'
+    canonical: 'https://www.advancedtelecom.es/tecnico-antenista-pantoja/'
   },
   robots: {
     index: true,

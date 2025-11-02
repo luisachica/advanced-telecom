@@ -3,10 +3,11 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
 import { Shield, User, Database, Mail, Phone, MapPin, Clock, AlertTriangle, CheckCircle } from 'lucide-react'
+import { withPhone } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: 'Política de Privacidad | Advanced Telecom',
-  description: 'Política de privacidad de Advanced Telecom. Información sobre cómo recopilamos, utilizamos y protegemos sus datos personales.',
+  description: withPhone('Política de privacidad de Advanced Telecom. Información sobre cómo recopilamos, utilizamos y protegemos sus datos personales.'),
   robots: 'index, follow',
 }
 

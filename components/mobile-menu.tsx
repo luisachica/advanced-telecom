@@ -5,7 +5,7 @@ import type React from "react"
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { Home, Briefcase, FileText, MessageCircle, ChevronDown, X, Phone, Info } from "lucide-react"
+import { Home, Briefcase, FileText, MessageCircle, ChevronDown, X, Phone, Info, BadgeCheck } from "lucide-react"
 import { ServiceIcon } from "@/components/ServiceIcon"
 
 // Función para validar rutas de imágenes
@@ -73,25 +73,32 @@ export function MobileMenu({ services = [], isOpen, onClose }: MobileMenuProps) 
             <span className="font-medium">Quiénes Somos</span>
           </Link>
 
+          <Link
+            href="/antenista-de-confianza-en-toledo-y-madrid-sur"
+            className="flex items-center gap-3 p-3 rounded-lg hover:bg-brand-green/10 text-brand-black hover:text-brand-green"
+            onClick={onClose}
+          >
+            <BadgeCheck className="h-5 w-5" />
+            <span className="font-medium">Antenista homologado</span>
+          </Link>
+
           <div className="border-b border-gray-100 my-2"></div>
 
           {showServicesMenu && (
             <>
               <button
-                className="flex items-center justify-between p-3 rounded-lg text-brand-black hover:bg-brand-green/10 hover:text-brand-green"
+                className="flex items-center gap-3 p-3 rounded-lg text-brand-black hover:bg-brand-green/10 hover:text-brand-green"
                 onClick={() => setServicesOpen(!servicesOpen)}
               >
-                <div className="flex items-center gap-3">
-                  <Briefcase className="h-5 w-5" />
-                  <span className="font-medium">Servicios de telecomunicaciones</span>
-                </div>
+                <Briefcase className="h-5 w-5" />
+                <span className="font-medium">Servicios</span>
                 <ChevronDown
-                  className={`h-5 w-5 transition-transform duration-200 ${servicesOpen ? "rotate-180" : ""}`}
+                  className={`ml-auto h-5 w-5 transition-transform duration-200 ${servicesOpen ? "rotate-180" : ""}`}
                 />
               </button>
 
               {servicesOpen && (
-                <div className="ml-4 pl-4 border-l-2 border-brand-green/20 space-y-2 py-2">
+                <div className="space-y-2 py-2">
                   {services.map((service, index) => (
                     <Link
                       key={index}
@@ -100,13 +107,13 @@ export function MobileMenu({ services = [], isOpen, onClose }: MobileMenuProps) 
                           ? (service.link.startsWith("/") ? service.link : `/servicios/${service.link}`)
                           : (service.slug ? `/servicios/${service.slug}` : "#")
                       }
-                      className="flex items-center gap-3 p-3 rounded-lg hover:bg-brand-green/10 transition-all duration-200"
+                      className="flex items-center gap-3 p-3 rounded-lg hover:bg-brand-green/10 text-brand-black hover:text-brand-green transition-all duration-200"
                       onClick={onClose}
                     >
                       <div className="bg-brand-green/10 p-1.5 rounded-lg text-brand-green">
                           <ServiceIcon name={service.iconName} className="h-4 w-4" />
                         </div>
-                      <span className="text-brand-black">{service.title}</span>
+                      <span className="font-medium">{service.title}</span>
                     </Link>
                   ))}
                 </div>
@@ -121,7 +128,7 @@ export function MobileMenu({ services = [], isOpen, onClose }: MobileMenuProps) 
               onClick={onClose}
             >
               <Briefcase className="h-5 w-5" />
-              <span className="font-medium">Servicios de telecomunicaciones</span>
+              <span className="font-medium">Servicios</span>
             </Link>
           )}
 

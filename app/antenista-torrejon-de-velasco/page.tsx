@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 // Datos específicos del municipio
 const municipioData = {
@@ -117,7 +118,7 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Torrejón de Velasco | Advanced Telecom`,
-  description: `Antenistas en Torrejón de Velasco. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
+  description: withPhone(`Antenistas en Torrejón de Velasco. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`),
   keywords: `antenista Torrejón de Velasco, antenas TDT Torrejón de Velasco, instalación antenas Madrid, reparación antenas Torrejón de Velasco, telecomunicaciones Torrejón de Velasco`,
   alternates: {
     canonical: 'https://advanced-telecom.es/antenista-en-torrejon-de-velasco'

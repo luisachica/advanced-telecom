@@ -19,3 +19,20 @@
 
 /images/*
   Cache-Control: public, max-age=31536000, immutable
+
+# Redirecciones 301
+/politica-de-cookies-2
+  Location: /politica-de-cookies/
+  Status: 301
+
+/solicitar-servicio
+  Location: /servicios/
+  Status: 301
+
+/antenas-y-parabolicas
+  Location: /servicios/antenas-parabolicas/
+  Status: 301
+
+/porteros-automaticos-y-video-porteros
+  Location: /servicios/porteros-automaticos/
+  Status: 301
