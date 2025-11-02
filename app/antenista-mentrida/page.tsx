@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 // Datos específicos del municipio
 const municipioData = {
@@ -117,14 +118,14 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Méntrida | Advanced Telecom`,
-  description: `✅ Tu antenista de confianza en Méntrida. Soluciones para TDT, parabólicas y videoporteros en chalets y pisos. Pide tu presupuesto gratis ahora.`,
+  description: withPhone(`✅ Tu antenista de confianza en Méntrida. Soluciones para TDT, parabólicas y videoporteros en chalets y pisos. Pide tu presupuesto gratis ahora.`),
   keywords: `antenista Méntrida, antenas TDT Méntrida, instalación antenas Toledo, reparación antenas Méntrida, telecomunicaciones Méntrida, videoporteros Méntrida, parabólicas Méntrida`,
   alternates: {
     canonical: 'https://advanced-telecom.es/antenista-mentrida'
   },
   openGraph: {
     title: 'Antenista en Méntrida | Advanced Telecom',
-    description: '✅ Tu antenista de confianza en Méntrida. Soluciones para TDT, parabólicas y videoporteros en chalets y pisos. Pide tu presupuesto gratis ahora.',
+    description: withPhone('✅ Tu antenista de confianza en Méntrida. Soluciones para TDT, parabólicas y videoporteros en chalets y pisos. Pide tu presupuesto gratis ahora.'),
     url: 'https://advanced-telecom.es/antenista-mentrida',
     siteName: 'Advanced Telecom',
     type: 'website',
@@ -132,7 +133,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     title: 'Antenista en Méntrida | Advanced Telecom',
-    description: '✅ Tu antenista de confianza en Méntrida. Soluciones para TDT, parabólicas y videoporteros en chalets y pisos. Pide tu presupuesto gratis ahora.',
+    description: withPhone('✅ Tu antenista de confianza en Méntrida. Soluciones para TDT, parabólicas y videoporteros en chalets y pisos. Pide tu presupuesto gratis ahora.'),
   },
   robots: {
     index: true,

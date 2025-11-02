@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 // Datos específicos del municipio
 const municipioData = {
@@ -141,7 +142,7 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Bargas | Advanced Telecom`,
-  description: `Antenista en Bargas. Instalación y reparación de antenas TDT, antenas colectivas, parabólicas, porteros automáticos, vídeo-porteros y cámaras de vigilancia.`,
+  description: withPhone(`Antenista en Bargas. Instalación y reparación de antenas TDT, antenas colectivas, parabólicas, porteros automáticos, vídeo-porteros y cámaras de vigilancia.`),
   keywords: `antenista Bargas, antenas TDT Bargas, porteros automáticos Bargas, sin desplazamiento, Advanced Telecom, Toledo`,
   alternates: {
     canonical: 'https://advanced-telecom.es/antenista-bargas'

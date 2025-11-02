@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 // Datos específicos del municipio
 const municipioData = {
@@ -118,11 +119,11 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: "Antenista en Los Cisneros | Advanced Telecom",
-  description: "✅ Tu antenista especialista en la urbanización Los Cisneros (Yeles). Soluciones TDT, parabólicas y videoporteros para tu chalet. ¡Pide presupuesto!",
+  description: withPhone("✅ Tu antenista especialista en la urbanización Los Cisneros (Yeles). Soluciones TDT, parabólicas y videoporteros para tu chalet. ¡Pide presupuesto!"),
   keywords: "antenista Los Cisneros, antenas TDT Los Cisneros, videoporteros Los Cisneros, antenista Yeles, chalets Los Cisneros",
   openGraph: {
     title: "Antenista en Los Cisneros | Advanced Telecom",
-    description: "Tu antenista especialista en la urbanización Los Cisneros (Yeles). Soluciones TDT, parabólicas y videoporteros para tu chalet.",
+    description: withPhone("Tu antenista especialista en la urbanización Los Cisneros (Yeles). Soluciones TDT, parabólicas y videoporteros para tu chalet."),
     url: "https://advanced-telecom.es/antenista-los-cisneros",
     siteName: "Advanced Telecom",
     locale: "es_ES",
@@ -131,7 +132,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary",
     title: "Antenista en Los Cisneros | Advanced Telecom",
-    description: "Tu antenista especialista en la urbanización Los Cisneros (Yeles). Soluciones TDT, parabólicas y videoporteros para tu chalet.",
+    description: withPhone("Tu antenista especialista en la urbanización Los Cisneros (Yeles). Soluciones TDT, parabólicas y videoporteros para tu chalet."),
   },
   alternates: {
     canonical: "https://advanced-telecom.es/antenista-los-cisneros",

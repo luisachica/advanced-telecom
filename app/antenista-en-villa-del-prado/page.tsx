@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 // Datos específicos del municipio
 const municipioData = {
@@ -119,7 +120,7 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: `Antenistas Villa del Prado | Advanced Telecom`,
-  description: `Antenistas en Villa del Prado especializados en zonas rurales. Servicio técnico en TDT, satélite, porteros automáticos y cámaras de seguridad. ¡Solución profesional!`,
+  description: withPhone(`Antenistas en Villa del Prado especializados en zonas rurales. Servicio técnico en TDT, satélite, porteros automáticos y cámaras de seguridad. ¡Solución profesional!`),
   keywords: `antenista Villa del Prado, antenas TDT Villa del Prado, instalación antenas Madrid, reparación antenas zonas rurales, telecomunicaciones Villa del Prado`,
   alternates: {
     canonical: 'https://advanced-telecom.es/antenista-villa-del-prado'

@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 // Datos específicos del municipio
 const municipioData = {
@@ -115,7 +116,7 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Mocejón | Advanced Telecom`,
-  description: `✅ Tu antenista de confianza en Mocejón. Solucionamos tus problemas de TDT, parabólicas y videoporteros en el día. Presupuesto gratis y sin compromiso.`,
+  description: withPhone(`✅ Tu antenista de confianza en Mocejón. Solucionamos tus problemas de TDT, parabólicas y videoporteros en el día. Presupuesto gratis y sin compromiso.`),
   keywords: `antenista Mocejón, antenas TDT Mocejón, instalación antenas Toledo, reparación antenas Mocejón, telecomunicaciones Mocejón, videoporteros Mocejón`,
   alternates: {
     canonical: 'https://advanced-telecom.es/antenista-mocejon'
@@ -126,7 +127,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Antenista en Mocejón | Advanced Telecom',
-    description: '✅ Tu antenista de confianza en Mocejón. Solucionamos tus problemas de TDT, parabólicas y videoporteros en el día. Presupuesto gratis y sin compromiso.',
+    description: withPhone('✅ Tu antenista de confianza en Mocejón. Solucionamos tus problemas de TDT, parabólicas y videoporteros en el día. Presupuesto gratis y sin compromiso.'),
     url: 'https://advanced-telecom.es/antenista-mocejon',
     siteName: 'Advanced Telecom',
     type: 'website',
@@ -134,7 +135,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Antenista en Mocejón | Advanced Telecom',
-    description: '✅ Tu antenista de confianza en Mocejón. Solucionamos tus problemas de TDT, parabólicas y videoporteros en el día. Presupuesto gratis y sin compromiso.',
+    description: withPhone('✅ Tu antenista de confianza en Mocejón. Solucionamos tus problemas de TDT, parabólicas y videoporteros en el día. Presupuesto gratis y sin compromiso.'),
   },
 };
 

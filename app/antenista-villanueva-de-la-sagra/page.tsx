@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 // Datos específicos del municipio
 const municipioData = {
@@ -117,7 +118,7 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: `Antenistas Villanueva de la Sagra | Advanced Telecom`,
-  description: `Antenistas en Villanueva de la Sagra especializados en nuevas construcciones. Servicio técnico en TDT, satélite, porteros automáticos y cámaras de seguridad. ¡Solución profesional!`,
+  description: withPhone(`Antenistas en Villanueva de la Sagra especializados en nuevas construcciones. Servicio técnico en TDT, satélite, porteros automáticos y cámaras de seguridad. ¡Solución profesional!`),
   keywords: `antenista Villanueva de la Sagra, antenas TDT Villanueva de la Sagra, instalación antenas Toledo, reparación antenas La Sagra, telecomunicaciones Villanueva de la Sagra, nuevas construcciones`,
   alternates: {
     canonical: 'https://advanced-telecom.es/antenista-villanueva-de-la-sagra'

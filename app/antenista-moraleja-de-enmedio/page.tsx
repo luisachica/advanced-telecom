@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 // Datos específicos del municipio
 const municipioData = {
@@ -118,7 +119,7 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Moraleja de Enmedio | Advanced Telecom`,
-  description: `Servicio técnico de antenista en Moraleja de Enmedio. Especialistas en TDT, parabólicas y videoporteros. Soluciones rápidas y garantizadas. Presupuesto sin compromiso.`,
+  description: withPhone(`Servicio técnico de antenista en Moraleja de Enmedio. Especialistas en TDT, parabólicas y videoporteros. Soluciones rápidas y garantizadas. Presupuesto sin compromiso.`),
   keywords: `antenista Moraleja de Enmedio, antenas TDT Moraleja de Enmedio, instalación antenas Madrid, reparación antenas Moraleja de Enmedio, telecomunicaciones Moraleja de Enmedio, videoporteros Moraleja de Enmedio`,
   alternates: {
     canonical: 'https://advanced-telecom.es/antenista-moraleja-de-enmedio'
@@ -129,7 +130,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Antenista en Moraleja de Enmedio | Advanced Telecom',
-    description: 'Servicio técnico de antenista en Moraleja de Enmedio. Especialistas en TDT, parabólicas y videoporteros. Soluciones rápidas y garantizadas.',
+    description: withPhone('Servicio técnico de antenista en Moraleja de Enmedio. Especialistas en TDT, parabólicas y videoporteros. Soluciones rápidas y garantizadas.'),
     url: 'https://advanced-telecom.es/antenista-moraleja-de-enmedio',
     siteName: 'Advanced Telecom',
     locale: 'es_ES',
@@ -138,7 +139,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Antenista en Moraleja de Enmedio | Advanced Telecom',
-    description: 'Servicio técnico de antenista en Moraleja de Enmedio. Especialistas en TDT, parabólicas y videoporteros.',
+    description: withPhone('Servicio técnico de antenista en Moraleja de Enmedio. Especialistas en TDT, parabólicas y videoporteros.'),
   }
 };
 

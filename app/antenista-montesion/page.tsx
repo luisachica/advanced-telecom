@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 // Datos específicos del municipio
 const municipioData = {
@@ -115,7 +116,7 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Montesión, Toledo | Advanced Telecom`,
-  description: `Tu antenista de confianza en la urbanización Montesión. Servicio premium para TDT, parabólicas y videoporteros en tu chalet. Presupuesto sin compromiso.`,
+  description: withPhone(`Tu antenista de confianza en la urbanización Montesión. Servicio premium para TDT, parabólicas y videoporteros en tu chalet. Presupuesto sin compromiso.`),
   keywords: `antenista Montesión, antenas TDT Montesión, instalación antenas Toledo, videoporteros Montesión, telecomunicaciones Montesión, chalets alta gama`,
   alternates: {
     canonical: 'https://advanced-telecom.es/antenista-montesion'

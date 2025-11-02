@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 // Datos específicos del municipio
 const municipioData = {
@@ -117,7 +118,7 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Villamanta | Advanced Telecom`,
-  description: `Antenistas en Villamanta. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
+  description: withPhone(`Antenistas en Villamanta. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`),
   keywords: `antenista Villamanta, antenas TDT Villamanta, instalación antenas Madrid, reparación antenas Villamanta, telecomunicaciones Villamanta`,
   alternates: {
     canonical: 'https://advanced-telecom.es/antenista-en-villamanta'

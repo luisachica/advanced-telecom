@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 // Datos específicos del municipio
 const municipioData = {
@@ -115,7 +116,7 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Los Pradillos | Advanced Telecom`,
-  description: `✅ Tu antenista de confianza en la urbanización Los Pradillos (Illescas). Soluciones para TDT y parabólicas en tu chalet. Presupuesto rápido y gratis.`,
+  description: withPhone(`✅ Tu antenista de confianza en la urbanización Los Pradillos (Illescas). Soluciones para TDT y parabólicas en tu chalet. Presupuesto rápido y gratis.`),
   keywords: `antenista Los Pradillos, antenas TDT Los Pradillos, instalación antenas Illescas, reparación antenas Los Pradillos, telecomunicaciones Los Pradillos, antenista urbanización`,
   alternates: {
     canonical: 'https://advanced-telecom.es/antenista-los-pradillos'
@@ -126,7 +127,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Antenista en Los Pradillos | Advanced Telecom',
-    description: '✅ Tu antenista de confianza en la urbanización Los Pradillos (Illescas). Soluciones para TDT y parabólicas en tu chalet. Presupuesto rápido y gratis.',
+    description: withPhone('✅ Tu antenista de confianza en la urbanización Los Pradillos (Illescas). Soluciones para TDT y parabólicas en tu chalet. Presupuesto rápido y gratis.'),
     url: 'https://advanced-telecom.es/antenista-los-pradillos',
     siteName: 'Advanced Telecom',
     locale: 'es_ES',
@@ -135,7 +136,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     title: 'Antenista en Los Pradillos | Advanced Telecom',
-    description: '✅ Tu antenista de confianza en la urbanización Los Pradillos (Illescas). Soluciones para TDT y parabólicas en tu chalet. Presupuesto rápido y gratis.',
+    description: withPhone('✅ Tu antenista de confianza en la urbanización Los Pradillos (Illescas). Soluciones para TDT y parabólicas en tu chalet. Presupuesto rápido y gratis.'),
   }
 };
 

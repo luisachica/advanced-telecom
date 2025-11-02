@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 // Datos específicos del municipio
 const municipioData = {
@@ -117,18 +118,18 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: "Antenista en Arroyomolinos - Antenas TDT y Porteros Automáticos",
-  description: "Antenistas homologados en Arroyomolinos. Instalamos antenas TDT y parabólicas. ¡NO COBRAMOS DESPLAZAMIENTO! Fermax, Tegui, Auta, Golmar y Comelit.",
+  description: withPhone("Antenistas homologados en Arroyomolinos. Instalamos antenas TDT y parabólicas. ¡NO COBRAMOS DESPLAZAMIENTO! Fermax, Tegui, Auta, Golmar y Comelit."),
   keywords: "antenista Arroyomolinos, antenas TDT, parabólicas, porteros automáticos, reparación antenas, instalación antenas, Fermax, Tegui, Auta, Golmar, Comelit",
   openGraph: {
     title: "Antenista en Arroyomolinos - Servicio Homologado",
-    description: "Advanced Telecom - Antenistas homologados en Arroyomolinos. Sin desplazamiento. Reparaciones en el día. Mejores marcas del mercado.",
+    description: withPhone("Advanced Telecom - Antenistas homologados en Arroyomolinos. Sin desplazamiento. Reparaciones en el día. Mejores marcas del mercado."),
     type: "website",
     locale: "es_ES",
   },
   twitter: {
     card: "summary_large_image",
     title: "Antenista en Arroyomolinos - Advanced Telecom",
-    description: "Servicio de antenista homologado en Arroyomolinos. Antenas TDT, parabólicas, porteros automáticos y cámaras de seguridad.",
+    description: withPhone("Servicio de antenista homologado en Arroyomolinos. Antenas TDT, parabólicas, porteros automáticos y cámaras de seguridad."),
   },
   alternates: {
     canonical: "https://advanced-telecom.es/antenista-en-arroyomolinos"

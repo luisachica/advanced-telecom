@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
+import { withPhone } from "@/lib/seo";
 
 // Datos específicos del municipio
 const municipioData = {
@@ -117,7 +118,7 @@ const municipioData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Calypo Fado | Advanced Telecom`,
-  description: `Antenistas especializados en Calypo Fado. Más de 25 años de experiencia con tecnología de vanguardia. TDT, satélite, porteros inteligentes y videovigilancia IP.`,
+  description: withPhone(`Antenistas especializados en Calypo Fado. Más de 25 años de experiencia con tecnología de vanguardia. TDT, satélite, porteros inteligentes y videovigilancia IP.`),
   keywords: `antenista Calypo Fado, antenas TDT Calypo, instalación antenas Toledo, tecnología avanzada, telecomunicaciones Calypo Fado`,
   alternates: {
     canonical: 'https://advanced-telecom.es/antenista-calypo-fado'
