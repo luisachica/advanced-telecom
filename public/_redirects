@@ -1,0 +1,6 @@
+# Cloudflare Pages redirects
+
+/politica-de-cookies-2/          /politica-de-cookies/                301
+/solicitar-servicio/             /servicios                           301
+/antenas-y-parabolicas/          /servicios/antenas-parabolicas       301
+/porteros-automaticos-y-video-porteros/ /servicios/porteros-automaticos 301
