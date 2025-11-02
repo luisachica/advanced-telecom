@@ -100,7 +100,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Páginas con prefijo "tecnico-antenista-"
   const municipiosTecnico = [
     'palomeque',
-    'pantoja'
+    'pantoja',
+    'ugena'
   ]
 
   const municipioUrls = municipios.map(municipio => ({
