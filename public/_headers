@@ -4,6 +4,7 @@
   Referrer-Policy: origin-when-cross-origin
   X-XSS-Protection: 1; mode=block
   Permissions-Policy: camera=(), microphone=(), geolocation=()
+  X-Robots-Tag: noindex, nofollow
 
 /sitemap.xml
   Cache-Control: public, max-age=3600

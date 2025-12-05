@@ -87,7 +87,7 @@ export function Footer() {
             <h3 className="text-lg font-bold mb-4">Enlaces rápidos</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                <a href="/" className="text-gray-300 hover:text-white transition-colors">
                   Inicio
                 </a>
               </li>
@@ -102,17 +102,17 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                <a href="/faq" className="text-gray-300 hover:text-white transition-colors">
                   Preguntas frecuentes
                 </a>
               </li>
               <li>
-                <a href="contacto" className="text-gray-300 hover:text-white transition-colors">
+                <a href="/contacto" className="text-gray-300 hover:text-white transition-colors">
                   Contacto
                 </a>
               </li>
               <li>
-                <a href="blog" className="text-gray-300 hover:text-white transition-colors">
+                <a href="/blog" className="text-gray-300 hover:text-white transition-colors">
                   Blog
                 </a>
               </li>

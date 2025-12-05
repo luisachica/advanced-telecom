@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   keywords:
     "contacto telecomunicaciones madrid, presupuesto antenas, teléfono empresa telecomunicaciones, email telecomunicaciones, dirección empresa telecomunicaciones",
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
     nocache: false,
     googleBot: {
-      index: true,
-      follow: true,
+      index: false,
+      follow: false,
       noimageindex: true,
     },
   },

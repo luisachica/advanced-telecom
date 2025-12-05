@@ -21,12 +21,12 @@ export const metadata: Metadata = {
     "telecomunicaciones madrid, antenas TDT, antenas parabólicas, porteros automáticos, cámaras seguridad, interferencias 4G",
   authors: [{ name: "Advanced Telecom" }],
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
     nocache: false,
     googleBot: {
-      index: true,
-      follow: true,
+      index: false,
+      follow: false,
       noimageindex: true,
     },
   },

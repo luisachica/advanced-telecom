@@ -50,7 +50,7 @@ export default function ContenidoQuienesSomos({ data: pageData }: { data: any })
               <div className="space-y-6">
                 <div className="text-green-600 font-medium">Servicios de telecomunicaciones en Toledo y Madrid Sur</div>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">{pageData.mainContent.title}</h2>
-                <div className="border-l-4 border-green-600 pl-4 italic text-gray-700">">{pageData.mainContent.quote}"</div>
+                <div className="border-l-4 border-green-600 pl-4 italic text-gray-700">“{pageData.mainContent.quote}”</div>
                 {pageData.mainContent.paragraphs.map((p: string, i: number) => <p key={i} className={`text-gray-700 ${i === 3 ? 'font-medium' : ''}`}>{p}</p>)}
                 <div className="flex flex-wrap items-center gap-6 pt-4">
                   <Link href="/contacto" className="inline-flex items-center justify-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold rounded-full px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-sm normal-case">
@@ -126,7 +126,7 @@ export default function ContenidoQuienesSomos({ data: pageData }: { data: any })
                 <Link href="/contacto" className="inline-flex items-center justify-center bg-white text-gray-900 hover:bg-gray-100 rounded-full px-8 py-3 font-medium transition-colors duration-200 text-lg">
                   Solicitar presupuesto
                 </Link>
-                <Link href="tel:668838415" className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-gray-900 rounded-full px-8 py-3 font-medium transition-colors duration-200 text-lg">
+                <Link href="tel:+34668838415" className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-gray-900 rounded-full px-8 py-3 font-medium transition-colors duration-200 text-lg">
                   Llamar ahora
                 </Link>
               </div>
