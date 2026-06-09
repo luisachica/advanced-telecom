@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -114,11 +114,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Esquivias | Advanced Telecom`,
+  title: `Antenista en Esquivias | Antenas Toledo`,
   description: `✅ Tu antenista en Esquivias. Damos solución a problemas de señal TDT, parabólicas y videoporteros en tu casa o comunidad. Presupuesto gratis y sin esperas.`,
   keywords: `antenista Esquivias, antenas TDT Esquivias, instalación antenas Toledo, reparación antenas Esquivias, telecomunicaciones Esquivias, videoporteros Esquivias`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-en-esquivias'
+    canonical: 'https://antenastoledo.com/antenista-en-esquivias'
   },
   robots: {
     index: true,
@@ -186,7 +186,7 @@ export default function EsquiviasPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llámanos
                     </Link>
@@ -347,13 +347,13 @@ export default function EsquiviasPage() {
                   <p className="text-xl mb-8 text-white/90">Si necesitas un presupuesto o quieres resolver una duda, llámanos o escríbenos. Estamos aquí para ayudarte en lo que necesites, con un trato cercano y profesional.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href={`https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20${municipioData.nombre}`} className="flex items-center gap-2">
+                      <a href={`https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20${municipioData.nombre}`} className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llama y te informamos
                       </a>
                     </Button>

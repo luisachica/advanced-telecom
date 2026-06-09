@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import type React from "react"
 
@@ -118,11 +118,12 @@ export function MainNavigation({ services = [] }: MainNavigationProps) {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src={validateImageSrc("/logo-advanced-telecom-horizontal.png") || "/placeholder.svg"}
-            alt="Advanced Telecom Logo"
-            width={300}
-            height={80}
-            className="h-16 w-auto max-w-[300px] object-contain"
+            src={validateImageSrc("/logo-antenas-toledo.png") || "/placeholder.svg"}
+            alt="Antenas Toledo Logo"
+            width={400}
+            height={107}
+            className="h-20 w-auto max-w-[500px] object-contain"
+            style={{ width: 'auto' }}
             priority
           />
         </Link>
@@ -147,7 +148,7 @@ export function MainNavigation({ services = [] }: MainNavigationProps) {
             </Link>
 
             <Link
-              href="/antenista-de-confianza-en-toledo-y-madrid-sur"
+              href="/antenista-de-confianza-en-toledo-y--sur"
               className="flex items-center gap-1 px-3 py-2 rounded-lg text-brand-black font-medium hover:bg-brand-green/10 hover:text-brand-green transition-all duration-200 border-b-2 border-transparent hover:border-brand-green text-sm xl:text-base xl:px-4 xl:gap-2"
             >
               <BadgeCheck className="h-4 w-4 xl:h-5 xl:w-5" />
@@ -206,7 +207,7 @@ export function MainNavigation({ services = [] }: MainNavigationProps) {
         </nav>
 
         <div className="flex items-center gap-4">
-          <a href="https://wa.me/34668838415?text=Hola%2C%20quiero%20más%20información%20sobre%20servicios%20de%20telecomunicaciones" className="hidden lg:block">
+          <a href="https://wa.me/34668679500?text=Hola%2C%20quiero%20más%20información%20sobre%20servicios%20de%20telecomunicaciones" className="hidden lg:block">
             <Button className="flex items-center gap-1 bg-gray-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-gray-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 text-sm xl:text-base xl:px-6 xl:gap-2 border-2 border-gray-600 hover:border-gray-700">
               <Phone className="h-4 w-4 xl:h-5 xl:w-5" />
               Presupuesto gratis

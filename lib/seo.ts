@@ -1,7 +1,7 @@
-export function withPhone(description: string): string {
-  const phoneSuffix = " ☎️ 668 83 84 15";
+﻿export function withPhone(description: string): string {
+  const phoneSuffix = " ☎️ 668 67 95 00";
   if (!description) return phoneSuffix.trim();
-  if (description.includes("668 83 84 15")) return description;
+  if (description.includes("668 67 95 00")) return description;
   const maxLength = 160;
   const targetLength = description.length + phoneSuffix.length;
   if (targetLength <= maxLength) {

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import ContenidoAntenasTDT from '@/components/paginas/contenido-antenas-tdt';
 import StructuredData from '@/components/StructuredData';
 import { withPhone } from '@/lib/seo';
@@ -10,7 +10,7 @@ import { withPhone } from '@/lib/seo';
 const serviceData = {
   title: "Antenas TDT",
   slug: "servicios/antenas-tdt",
-  description: "Instalación y reparación de antenas TDT en Madrid. Servicio técnico especializado con atención el mismo día.",
+  description: "Instalación y reparación de antenas TDT en . Servicio técnico especializado con atención el mismo día.",
   heroImage: "/images/telecom/antena-tdt-instalacion-01.jpg",
   shortDescription: "Instalación y reparación de antenas de televisión TDT - HD - 4K con reparaciones en el mismo día.",
   longDescription: "Nuestro servicio de instalación y reparación de antenas TDT está diseñado para garantizar la mejor calidad de señal en su televisor. Contamos con técnicos especializados que diagnostican y solucionan cualquier problema con su antena, desde la pérdida de canales hasta la instalación completa de nuevos sistemas. Trabajamos con equipos de última generación para asegurar una recepción óptima de la señal digital terrestre en cualquier condición.",
@@ -42,7 +42,7 @@ const serviceData = {
 };
 
 export const metadata: Metadata = {
-  title: `${serviceData.title} | Advanced Telecom`,
+  title: `${serviceData.title} | Antenas Toledo`,
   description: withPhone(serviceData.description),
   robots: {
     index: true,
@@ -55,13 +55,13 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: `https://www.advancedtelecom.es/${serviceData.slug}`,
+    canonical: `https://antenastoledo.com/${serviceData.slug}`,
   },
   openGraph: {
     title: serviceData.title,
     description: withPhone(serviceData.description),
-    url: `https://www.advancedtelecom.es/${serviceData.slug}`,
-    images: [{ url: `https://www.advancedtelecom.es${serviceData.heroImage}`, width: 1200, height: 630 }],
+    url: `https://antenastoledo.com/${serviceData.slug}`,
+    images: [{ url: `https://antenastoledo.com${serviceData.heroImage}`, width: 1200, height: 630 }],
   },
 };
 
@@ -72,7 +72,7 @@ const serviceSchema = {
   "description": serviceData.longDescription,
   "provider": {
     "@type": "LocalBusiness",
-    "name": "Advanced Telecom",
+    "name": "Antenas Toledo",
   }
 };
 

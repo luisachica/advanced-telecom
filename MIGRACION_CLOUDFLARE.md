@@ -1,8 +1,8 @@
-# 📋 Documentación de Migración a Cloudflare Pages
+﻿# 📋 Documentación de Migración a Cloudflare Pages
 
 ## ✅ Resumen Ejecutivo
 
-El sitio web **Advanced Telecom** está **LISTO** para migrar de Vercel a Cloudflare Pages. Se han implementado todas las mejoras críticas de SEO, rendimiento y configuración necesarias.
+El sitio web **Antenas Toledo** está **LISTO** para migrar de Vercel a Cloudflare Pages. Se han implementado todas las mejoras críticas de SEO, rendimiento y configuración necesarias.
 
 ---
 
@@ -34,7 +34,7 @@ El sitio web **Advanced Telecom** está **LISTO** para migrar de Vercel a Cloudf
   - Permite buscadores clásicos (Google, Bing)
   - Permite bots de citación IA (ChatGPT, Claude, Perplexity)
   - Bloquea bots de entrenamiento masivo (GPTBot, CCBot, etc.)
-  - Sitemap especificado: `https://advancedtelecom.es/sitemap.xml`
+  - Sitemap especificado: `https://antenastoledo.com/sitemap.xml`
 
 - ✅ **Metadatos robots**: Habilitada indexación en layout.tsx
   - `index: true, follow: true`
@@ -42,8 +42,8 @@ El sitio web **Advanced Telecom** está **LISTO** para migrar de Vercel a Cloudf
   - `nocache: false`
 
 - ✅ **URLs corregidas**: 
-  - Canonical URL: `https://advancedtelecom.es`
-  - Open Graph URL: `https://advancedtelecom.es`
+  - Canonical URL: `https://antenastoledo.com`
+  - Open Graph URL: `https://antenastoledo.com`
   - Sitemap corregido: `/quienes-somos` (era `/sobre-nosotros`)
 
 #### Metadatos Optimizados:
@@ -57,7 +57,7 @@ El sitio web **Advanced Telecom** está **LISTO** para migrar de Vercel a Cloudf
 #### Sitemap Dinámico:
 - ✅ URLs principales + 80+ municipios
 - ✅ Frecuencia de cambio y prioridades configuradas
-- ✅ Base URL correcta: `https://advancedtelecom.es`
+- ✅ Base URL correcta: `https://antenastoledo.com`
 
 ---
 
@@ -175,20 +175,20 @@ ls out/
 
 #### Variables de Entorno:
 ```
-NEXT_PUBLIC_SITE_URL=https://advancedtelecom.es
+NEXT_PUBLIC_SITE_URL=https://antenastoledo.com
 ```
 
 **Nota**: Ya no se necesita `RESEND_API_KEY` porque el formulario de contacto ahora redirige directamente a WhatsApp.
 
 ### 3. Configuración de Dominio
-- **Dominio principal**: `advancedtelecom.es`
+- **Dominio principal**: `antenastoledo.com`
 - **Redirecciones**: Configurar www → sin www si es necesario
 - **SSL**: Automático con Cloudflare
 
 ### 4. Verificación Post-Migración
 
 #### Checklist de Verificación:
-- [ ] Sitio carga correctamente en `https://advancedtelecom.es`
+- [ ] Sitio carga correctamente en `https://antenastoledo.com`
 - [ ] Formulario de contacto funciona
 - [ ] Todas las páginas de municipios cargan
 - [ ] Sitemap accesible en `/sitemap.xml`
@@ -237,7 +237,7 @@ NEXT_PUBLIC_SITE_URL=https://advancedtelecom.es
 
 ## ✅ Conclusión
 
-El sitio **Advanced Telecom** está completamente preparado para la migración a Cloudflare Pages. Todas las optimizaciones críticas han sido implementadas:
+El sitio **Antenas Toledo** está completamente preparado para la migración a Cloudflare Pages. Todas las optimizaciones críticas han sido implementadas:
 
 - ✅ SEO completamente optimizado
 - ✅ Configuración técnica lista
@@ -250,5 +250,5 @@ El sitio **Advanced Telecom** está completamente preparado para la migración a
 ---
 
 *Documentación generada el: $(date)*
-*Proyecto: Advanced Telecom*
+*Proyecto: Antenas Toledo*
 *Migración: Vercel → Cloudflare Pages*

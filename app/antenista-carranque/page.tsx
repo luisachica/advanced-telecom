@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -116,11 +116,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Carranque | Advanced Telecom`,
+  title: `Antenista en Carranque | Antenas Toledo`,
   description: `Antenista profesional en Carranque con +25 años de experiencia. Instalación TDT, parabólicas, videoporteros y cámaras de seguridad. Servicio garantizado en La Sagra.`,
   keywords: `antenista Carranque, antenas TDT Carranque, instalación antenas Toledo, reparación antenas Carranque, telecomunicaciones Carranque, videoporteros Carranque, cámaras seguridad Carranque`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-carranque'
+    canonical: 'https://antenastoledo.com/antenista-carranque'
   },
   robots: {
     index: true,
@@ -188,7 +188,7 @@ export default function CarranquePage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llamar para un diagnóstico
                     </Link>
@@ -349,13 +349,13 @@ export default function CarranquePage() {
                   <p className="text-xl mb-8 text-white/90">Si necesita un servicio profesional, rápido y con garantía, ha llegado al lugar indicado. Póngase en contacto con nosotros, explíquenos su caso y le daremos la mejor solución para su hogar o negocio en {municipioData.nombre}.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href={`https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20${municipioData.nombre}`} className="flex items-center gap-2">
+                      <a href={`https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20${municipioData.nombre}`} className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por whatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

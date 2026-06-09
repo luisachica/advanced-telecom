@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -114,11 +114,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Lominchar | Advanced Telecom`,
+  title: `Antenista en Lominchar | Antenas Toledo`,
   description: `✅ Tu antenista de confianza en Lominchar. Arreglamos tu TDT, instalamos parabólicas y videoporteros. Presupuesto gratis y servicio local garantizado.`,
-  keywords: `antenista Lominchar, antenas TDT Lominchar, instalación antenas Madrid, reparación antenas Lominchar, telecomunicaciones Lominchar`,
+  keywords: `antenista Lominchar, antenas TDT Lominchar, instalación antenas , reparación antenas Lominchar, telecomunicaciones Lominchar`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-en-lominchar'
+    canonical: 'https://antenastoledo.com/antenista-en-lominchar'
   },
   robots: {
     index: true,
@@ -186,7 +186,7 @@ export default function AldeaDelFresnoPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="https://wa.me/34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="https://wa.me/34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <MessageCircle className="h-5 w-5 mr-2" />
                       Obtén información
                     </Link>
@@ -347,13 +347,13 @@ export default function AldeaDelFresnoPage() {
                   <p className="text-xl mb-8 text-white/90">Si tienes cualquier problema con tu antena o quieres pedir un presupuesto, no dudes en llamar o mandar un WhatsApp. Te atenderemos encantados y te daremos la mejor solución para tu casa.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Lominchar" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Lominchar" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,8 +17,8 @@ import { SERVICIOS } from "@/data/servicios";
 const municipioData = {
   nombre: "Serranillos del Valle",
   slug: "serranillos-del-valle",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
+  provincia: "",
+  comunidad: "Comunidad de ",
   codigoPostal: "28691",
   poblacion: "2.847",
   superficie: "47,8",
@@ -115,11 +115,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Serranillos del Valle | Advanced Telecom`,
+  title: `Antenista en Serranillos del Valle | Antenas Toledo`,
   description: `Servicio de antenista para todo Serranillos del Valle. Atendemos averías y realizamos instalaciones en el casco urbano y urbanizaciones. Calidad garantizada.`,
-  keywords: `antenista Serranillos del Valle, antenas TDT Serranillos del Valle, instalación antenas Madrid, reparación antenas Serranillos del Valle, telecomunicaciones Serranillos del Valle`,
+  keywords: `antenista Serranillos del Valle, antenas TDT Serranillos del Valle, instalación antenas , reparación antenas Serranillos del Valle, telecomunicaciones Serranillos del Valle`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-serranillos-del-valle'
+    canonical: 'https://antenastoledo.com/antenista-serranillos-del-valle'
   },
   robots: {
     index: true,
@@ -190,7 +190,7 @@ export default function SerranillosDelVallePage() {
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar Presupuesto
                     </Link>
-                    <Link href={`https://wa.me/34668838415?text=Hola%2C%20tengo%20una%20aver%C3%ADa%20de%20antena%20en%20${encodeURIComponent(municipioData.nombre)}`} className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href={`https://wa.me/34668679500?text=Hola%2C%20tengo%20una%20aver%C3%ADa%20de%20antena%20en%20${encodeURIComponent(municipioData.nombre)}`} className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <MessageCircle className="h-5 w-5 mr-2" />
                       Contactar para Avería
                     </Link>
@@ -350,13 +350,13 @@ export default function SerranillosDelVallePage() {
                   <p className="text-xl mb-8 text-white/90">Si necesita una reparación, una nueva instalación o simplemente asesoramiento profesional en {municipioData.nombre}, estamos aquí para ayudarle. Contáctenos hoy mismo y reciba la mejor atención y el servicio más eficaz.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href={`https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20${encodeURIComponent(municipioData.nombre)}`} className="flex items-center gap-2">
+                      <a href={`https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20${encodeURIComponent(municipioData.nombre)}`} className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

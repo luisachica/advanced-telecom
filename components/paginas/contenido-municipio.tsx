@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React from "react";
 import Image from "next/image";
@@ -208,7 +208,7 @@ export function ContenidoMunicipio({ data }: ContenidoMunicipioProps) {
                     description={`Servicio profesional de ${servicio.toLowerCase()} en ${data.nombre} con garantía y soporte técnico especializado.`}
                     image={getServiceImage(servicio)}
                     slug={servicioSlug}
-                    iconName={getIconName(servicio)}
+                    icon={getIconName(servicio)}
                   />
                 );
               })}
@@ -289,13 +289,13 @@ export function ContenidoMunicipio({ data }: ContenidoMunicipioProps) {
                 <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso</p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                    <a href="https://wa.me/34668838415?text=Hola%2C%20quiero%20más%20información%20sobre%20servicios%20de%20telecomunicaciones" className="flex items-center gap-2">
+                    <a href="https://wa.me/34668679500?text=Hola%2C%20quiero%20más%20información%20sobre%20servicios%20de%20telecomunicaciones" className="flex items-center gap-2">
                       <MessageCircle className="h-5 w-5" />
                       Contactar por WhatsApp
                     </a>
                   </Button>
                   <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                    <a href="tel:+34668838415" className="flex items-center gap-2">
+                    <a href="tel:+34668679500" className="flex items-center gap-2">
                       <Phone className="h-5 w-5" /> Llamar ahora
                     </a>
                   </Button>

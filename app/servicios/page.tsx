@@ -1,4 +1,4 @@
-import type React from "react"
+﻿import type React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight, Home, Building, Building2, Briefcase, Heart, Glasses, Car } from "lucide-react"
@@ -45,14 +45,14 @@ export default function ServicesPage() {
               </h1>
               <p className="text-brand-black-light text-lg max-w-2xl mx-auto mb-8">
                 Especialistas en instalación y reparación de antenas, sistemas de seguridad y telecomunicaciones
-                en toda la Comunidad de Madrid. Servicio técnico profesional con más de 25 años de experiencia.
+                en toda la Comunidad de . Servicio técnico profesional con más de 25 años de experiencia.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Link href="/contacto" className="bg-brand-green hover:bg-brand-green-dark text-white rounded-full px-6 py-3 border-2 border-brand-green hover:border-brand-green-dark font-medium transition-all duration-200 no-underline inline-flex items-center gap-2">
                   Solicita tu presupuesto gratuito
                 </Link>
-                <a href="tel:+34668838415" className="bg-transparent hover:bg-gray-600 text-brand-green hover:text-white border-2 border-brand-green hover:border-gray-600 rounded-full px-6 py-3 font-medium transition-all duration-200 no-underline inline-flex items-center gap-2">
-                  Llama ahora: 668 83 84 15
+                <a href="tel:+34668679500" className="bg-transparent hover:bg-gray-600 text-brand-green hover:text-white border-2 border-brand-green hover:border-gray-600 rounded-full px-6 py-3 font-medium transition-all duration-200 no-underline inline-flex items-center gap-2">
+                  Llama ahora: 668 67 95 00
                 </a>
               </div>
             </div>

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -117,22 +117,22 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Méntrida | Advanced Telecom`,
+  title: `Antenista en Méntrida | Antenas Toledo`,
   description: withPhone(`✅ Tu antenista de confianza en Méntrida. Soluciones para TDT, parabólicas y videoporteros en chalets y pisos. Pide tu presupuesto gratis ahora.`),
   keywords: `antenista Méntrida, antenas TDT Méntrida, instalación antenas Toledo, reparación antenas Méntrida, telecomunicaciones Méntrida, videoporteros Méntrida, parabólicas Méntrida`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-mentrida'
+    canonical: 'https://antenastoledo.com/antenista-mentrida'
   },
   openGraph: {
-    title: 'Antenista en Méntrida | Advanced Telecom',
+    title: 'Antenista en Méntrida | Antenas Toledo',
     description: withPhone('✅ Tu antenista de confianza en Méntrida. Soluciones para TDT, parabólicas y videoporteros en chalets y pisos. Pide tu presupuesto gratis ahora.'),
-    url: 'https://advanced-telecom.es/antenista-mentrida',
-    siteName: 'Advanced Telecom',
+    url: 'https://antenastoledo.com/antenista-mentrida',
+    siteName: 'Antenas Toledo',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Antenista en Méntrida | Advanced Telecom',
+    title: 'Antenista en Méntrida | Antenas Toledo',
     description: withPhone('✅ Tu antenista de confianza en Méntrida. Soluciones para TDT, parabólicas y videoporteros en chalets y pisos. Pide tu presupuesto gratis ahora.'),
   },
   robots: {
@@ -201,7 +201,7 @@ export default function AldeaDelFresnoPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llámanos
                     </Link>
@@ -362,13 +362,13 @@ export default function AldeaDelFresnoPage() {
                   <p className="text-xl mb-8 text-white/90">Llámanos y te damos presupuesto sin compromiso. Nos desplazamos a cualquier punto de Méntrida.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Méntrida" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Méntrida" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

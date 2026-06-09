@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import ContenidoCamarasSeguridad from "@/components/paginas/contenido-camaras-seguridad";
 import { SERVICIOS } from "@/data/servicios";
 import { withPhone } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Cámaras de seguridad | Advanced Telecom",
+  title: "Cámaras de seguridad | Antenas Toledo",
   description: withPhone("Instalación y mantenimiento de cámaras de seguridad para hogares y empresas. Sistemas de videovigilancia profesionales con tecnología avanzada."),
   robots: {
     index: true,
@@ -17,19 +17,19 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.advancedtelecom.es/servicios/camaras-seguridad",
+    canonical: "https://antenastoledo.com/servicios/camaras-seguridad",
   },
   openGraph: {
-    title: "Cámaras de seguridad | Advanced Telecom",
+    title: "Cámaras de seguridad | Antenas Toledo",
     description: withPhone("Instalación y mantenimiento de cámaras de seguridad para hogares y empresas. Sistemas de videovigilancia profesionales con tecnología avanzada."),
-    url: "https://advancedtelecom.es/servicios/camaras-seguridad",
-    siteName: "Advanced Telecom",
+    url: "https://antenastoledo.com/servicios/camaras-seguridad",
+    siteName: "Antenas Toledo",
     images: [
       {
-        url: "https://advancedtelecom.es/og-image-camaras-seguridad.jpg",
+        url: "https://antenastoledo.com/og-image-camaras-seguridad.jpg",
         width: 1200,
         height: 630,
-        alt: "Cámaras de Seguridad - Advanced Telecom",
+        alt: "Cámaras de Seguridad - Antenas Toledo",
       },
     ],
     locale: "es_ES",
@@ -140,22 +140,22 @@ export default function CamarasSeguridad() {
     "name": "Cámaras de Seguridad",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Advanced Telecom",
+      "name": "Antenas Toledo",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Avenida de la Tecnología 25",
-        "addressLocality": "Madrid",
+        "addressLocality": "",
         "postalCode": "28021",
         "addressCountry": "ES"
       },
-      "telephone": "+34668838415",
+      "telephone": "+34668679500",
       "priceRange": "€€",
-      "image": "https://advancedtelecom.es/logo-advanced-telecom.jpg"
+      "image": "https://antenastoledo.com/logo-advanced-telecom.jpg"
     },
     "description": "Instalación y mantenimiento de sistemas de videovigilancia profesionales para hogares y empresas. Proteja su propiedad con tecnología de última generación.",
     "areaServed": {
       "@type": "City",
-      "name": "Madrid"
+      "name": ""
     },
     "serviceType": "Instalación de cámaras de seguridad"
   };

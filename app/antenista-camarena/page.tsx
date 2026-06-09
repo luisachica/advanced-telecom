@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,8 +17,8 @@ import { SERVICIOS } from "@/data/servicios";
 const municipioData = {
   nombre: "Camarena",
   slug: "aldea-del-fresno",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
+  provincia: "",
+  comunidad: "Comunidad de ",
   codigoPostal: "28691",
   poblacion: "2.847",
   superficie: "47,8",
@@ -116,11 +116,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Camarena | Advanced Telecom`,
+  title: `Antenista en Camarena | Antenas Toledo`,
   description: `Antenistas en Camarena. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
   keywords: `antenista Camarena, antenas TDT Camarena, instalación antenas Toledo, reparación antenas Camarena, telecomunicaciones Camarena`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-en-aldea-del-fresno'
+    canonical: 'https://antenastoledo.com/antenista-en-aldea-del-fresno'
   },
   robots: {
     index: true,
@@ -188,7 +188,7 @@ export default function AldeaDelFresnoPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llamar ahora
                     </Link>
@@ -349,13 +349,13 @@ export default function AldeaDelFresnoPage() {
                   <p className="text-xl mb-8 text-white/90">Si busca una solución eficaz y garantizada, llámenos. Le daremos un presupuesto gratuito y nos desplazaremos a tu domicilio en {municipioData.nombre} para resolver tu necesidad.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href={`https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20${municipioData.nombre}`} className="flex items-center gap-2">
+                      <a href={`https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20${municipioData.nombre}`} className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Enviar un whatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar directamente
                       </a>
                     </Button>

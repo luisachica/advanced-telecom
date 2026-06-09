@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -125,27 +125,27 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Magán | Advanced Telecom`,
+  title: `Antenista en Magán | Antenas Toledo`,
   description: `✅ Tu antenista de confianza en Magán. Solucionamos problemas de señal TDT, instalamos parabólicas y videoporteros en tu casa. Presupuesto rápido y gratis.`,
   keywords: `antenista Magán, antenas TDT Magán, instalación antenas Toledo, reparación antenas Magán, telecomunicaciones Magán, videoporteros Magán`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-magan'
+    canonical: 'https://antenastoledo.com/antenista-magan'
   },
   robots: {
     index: true,
     follow: true,
   },
   openGraph: {
-    title: 'Antenista en Magán | Advanced Telecom',
+    title: 'Antenista en Magán | Antenas Toledo',
     description: '✅ Tu antenista de confianza en Magán. Solucionamos problemas de señal TDT, instalamos parabólicas y videoporteros en tu casa. Presupuesto rápido y gratis.',
-    url: 'https://advanced-telecom.es/antenista-magan',
-    siteName: 'Advanced Telecom',
+    url: 'https://antenastoledo.com/antenista-magan',
+    siteName: 'Antenas Toledo',
     locale: 'es_ES',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Antenista en Magán | Advanced Telecom',
+    title: 'Antenista en Magán | Antenas Toledo',
     description: '✅ Tu antenista de confianza en Magán. Solucionamos problemas de señal TDT, instalamos parabólicas y videoporteros en tu casa. Presupuesto rápido y gratis.',
   }
 };
@@ -210,7 +210,7 @@ export default function AldeaDelFresnoPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llámanos
                     </Link>
@@ -371,13 +371,13 @@ export default function AldeaDelFresnoPage() {
                   <p className="text-xl mb-8 text-white/90">Llámanos y te damos presupuesto sin compromiso. Nos acercamos a tu casa en Magán cuando mejor te venga.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Magán" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Magán" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llama ahora
                       </a>
                     </Button>

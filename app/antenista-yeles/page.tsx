@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -116,11 +116,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Yeles | Advanced Telecom`,
+  title: `Antenista en Yeles | Antenas Toledo`,
   description: `Antenistas en Yeles. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
   keywords: `antenista Yeles, antenas TDT Yeles, instalación antenas Toledo, reparación antenas Yeles, telecomunicaciones Yeles`,
   alternates: {
-    canonical: 'https://www.advancedtelecom.es/antenista-yeles/'
+    canonical: 'https://antenastoledo.com/antenista-yeles/'
   },
   robots: {
     index: true,
@@ -188,7 +188,7 @@ export default function YelesPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llamar ahora
                     </Link>
@@ -349,13 +349,13 @@ export default function YelesPage() {
                   <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Yeles.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Yeles" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Yeles" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

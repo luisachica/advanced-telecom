@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,8 +17,8 @@ import { SERVICIOS } from "@/data/servicios";
 const municipioData = {
   nombre: "Griñón",
   slug: "grinon",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
+  provincia: "",
+  comunidad: "Comunidad de ",
   codigoPostal: "28971",
   poblacion: "10.842",
   superficie: "17,6",
@@ -116,11 +116,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Griñón | Advanced Telecom`,
+  title: `Antenista en Griñón | Antenas Toledo`,
   description: `✅ Tu antenista en Griñón. Servicio especializado en comunidades, centro urbano, zona norte y sur. Instalaciones TDT, parabólicas y porteros. ¡Llama ahora!`,
-  keywords: `antenista Griñón, antenas TDT Griñón, instalación antenas Madrid, reparación antenas Griñón, telecomunicaciones Griñón, comunidades Griñón`,
+  keywords: `antenista Griñón, antenas TDT Griñón, instalación antenas , reparación antenas Griñón, telecomunicaciones Griñón, comunidades Griñón`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-grinon'
+    canonical: 'https://antenastoledo.com/antenista-grinon'
   },
   robots: {
     index: true,
@@ -188,7 +188,7 @@ export default function GrinonPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llamar ahora
                     </Link>
@@ -349,13 +349,13 @@ export default function GrinonPage() {
                   <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en {municipioData.nombre}.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -18,8 +18,8 @@ import { withPhone } from "@/lib/seo";
 const municipioData = {
   nombre: "Batres",
   slug: "batres",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
+  provincia: "",
+  comunidad: "Comunidad de ",
   codigoPostal: "28694",
   poblacion: "1.821",
   superficie: "42,4",
@@ -117,11 +117,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Batres | Advanced Telecom`,
+  title: `Antenista en Batres | Antenas Toledo`,
   description: withPhone(`Antenistas en Batres. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`),
-  keywords: `antenista Batres, antenas TDT Batres, instalación antenas Madrid, reparación antenas Batres, telecomunicaciones Batres`,
+  keywords: `antenista Batres, antenas TDT Batres, instalación antenas , reparación antenas Batres, telecomunicaciones Batres`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-batres'
+    canonical: 'https://antenastoledo.com/antenista-batres'
   },
   robots: {
     index: true,
@@ -197,7 +197,7 @@ export default function BatresPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llamar ahora
                     </Link>
@@ -228,7 +228,7 @@ export default function BatresPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicio de antenista económico y de alta calidad en Batres</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nos avalan más de 25 años realizando trabajos en Batres con agilidad y compromiso, velando siempre por satisfacer las necesidades de los clientes que confían en Advanced Telecom.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nos avalan más de 25 años realizando trabajos en Batres con agilidad y compromiso, velando siempre por satisfacer las necesidades de los clientes que confían en Antenas Toledo.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -336,7 +336,7 @@ export default function BatresPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Batres</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Contamos con más de 25 años de experiencia en reparación y servicio técnico de antenas, en el sector residencial y empresarial. El personal de Advanced Telecom es experto en todo tipo de antenas y estamos siempre listos para servirle.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Contamos con más de 25 años de experiencia en reparación y servicio técnico de antenas, en el sector residencial y empresarial. El personal de Antenas Toledo es experto en todo tipo de antenas y estamos siempre listos para servirle.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -358,13 +358,13 @@ export default function BatresPage() {
                   <p className="text-xl mb-8 text-white/90">Atendemos su solicitud rápido y en el día. Cada uno de nuestros trabajos lo entregamos con la respectiva garantía. Nuestros presupuestos los adaptamos a la medida de sus necesidades y siempre estamos atentos a ofrecer el mejor servicio a precios razonables y competitivos.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Batres" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Batres" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

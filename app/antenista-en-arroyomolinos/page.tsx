@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -18,8 +18,8 @@ import { withPhone } from "@/lib/seo";
 const municipioData = {
   nombre: "Arroyomolinos",
   slug: "arroyomolinos",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
+  provincia: "",
+  comunidad: "Comunidad de ",
   codigoPostal: "28939",
   poblacion: "28.913",
   superficie: "42,33",
@@ -102,7 +102,7 @@ const municipioData = {
     },
     {
       question: "¿Cobran desplazamiento en Arroyomolinos?",
-      answer: "No, en Advanced Telecom no cobramos desplazamiento en Arroyomolinos. Adaptamos nuestros presupuestos a las necesidades de cada cliente porque sabemos que cada situación es única."
+      answer: "No, en Antenas Toledo no cobramos desplazamiento en Arroyomolinos. Adaptamos nuestros presupuestos a las necesidades de cada cliente porque sabemos que cada situación es única."
     },
     {
       question: "¿Qué marcas utilizan para las instalaciones?",
@@ -122,17 +122,17 @@ export const metadata: Metadata = {
   keywords: "antenista Arroyomolinos, antenas TDT, parabólicas, porteros automáticos, reparación antenas, instalación antenas, Fermax, Tegui, Auta, Golmar, Comelit",
   openGraph: {
     title: "Antenista en Arroyomolinos - Servicio Homologado",
-    description: withPhone("Advanced Telecom - Antenistas homologados en Arroyomolinos. Sin desplazamiento. Reparaciones en el día. Mejores marcas del mercado."),
+    description: withPhone("Antenas Toledo - Antenistas homologados en Arroyomolinos. Sin desplazamiento. Reparaciones en el día. Mejores marcas del mercado."),
     type: "website",
     locale: "es_ES",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Antenista en Arroyomolinos - Advanced Telecom",
+    title: "Antenista en Arroyomolinos - Antenas Toledo",
     description: withPhone("Servicio de antenista homologado en Arroyomolinos. Antenas TDT, parabólicas, porteros automáticos y cámaras de seguridad."),
   },
   alternates: {
-    canonical: "https://advanced-telecom.es/antenista-en-arroyomolinos"
+    canonical: "https://antenastoledo.com/antenista-en-arroyomolinos"
   }
 };
 
@@ -191,12 +191,12 @@ export default function ArroyomolinosPage() {
                       <span className="text-brand-green">Antenista</span> en Arroyomolinos
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      ¡Bienvenidos a Advanced Telecom! Somos una empresa de servicios de antenista homologado en Arroyomolinos, registrados en telecomunicaciones de España, y estamos aquí para ofrecerle soluciones en instalación y reparación de antenas de TV, TDT y parabólicas, porteros automáticos y vídeo porteros, cámaras de seguridad y alarmas.
+                      ¡Bienvenidos a Antenas Toledo! Somos una empresa de servicios de antenista homologado en Arroyomolinos, registrados en telecomunicaciones de España, y estamos aquí para ofrecerle soluciones en instalación y reparación de antenas de TV, TDT y parabólicas, porteros automáticos y vídeo porteros, cámaras de seguridad y alarmas.
                     </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llamar ahora
                     </Link>
@@ -227,7 +227,7 @@ export default function ArroyomolinosPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Instalamos su antena TDT y parabólica en Arroyomolinos</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">¡NO COBRAMOS DESPLAZAMIENTO! En Advanced Telecom nos enorgullecemos de ofrecer a nuestros clientes un servicio de calidad, trabajando con las mejores marcas del mercado: Fermax, Tegui, Auta, Golmar y Comelit.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">¡NO COBRAMOS DESPLAZAMIENTO! En Antenas Toledo nos enorgullecemos de ofrecer a nuestros clientes un servicio de calidad, trabajando con las mejores marcas del mercado: Fermax, Tegui, Auta, Golmar y Comelit.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -288,7 +288,7 @@ export default function ArroyomolinosPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Tipos de clientes a los que podemos ofrecer nuestros servicios de antenista en Arroyomolinos</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">En Advanced Telecom estamos en la capacidad de atender diferentes tipos de clientes en Arroyomolinos y las urbanizaciones cercanas, tanto particulares, como empresas y cualquier tipo de negocio que requiera instalación, reparación o mantenimiento de antenas de TV, parabólicas, TDT y/o porteros automáticos.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">En Antenas Toledo estamos en la capacidad de atender diferentes tipos de clientes en Arroyomolinos y las urbanizaciones cercanas, tanto particulares, como empresas y cualquier tipo de negocio que requiera instalación, reparación o mantenimiento de antenas de TV, parabólicas, TDT y/o porteros automáticos.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -410,16 +410,16 @@ export default function ArroyomolinosPage() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
                   <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">PIDE TU PRESUPUESTO SIN COMPROMISO</h2>
-                  <p className="text-xl mb-8 text-white/90">Si necesitas un servicio de antenista homologado en Arroyomolinos, no dudes en contactarnos. En Advanced Telecom estamos listos para ofrecerte un servicio personalizado, con garantía y reparaciones en el momento que lo necesites. ¡Esperamos poder ayudarte pronto!</p>
+                  <p className="text-xl mb-8 text-white/90">Si necesitas un servicio de antenista homologado en Arroyomolinos, no dudes en contactarnos. En Antenas Toledo estamos listos para ofrecerte un servicio personalizado, con garantía y reparaciones en el momento que lo necesites. ¡Esperamos poder ayudarte pronto!</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Arroyomolinos" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Arroyomolinos" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import ContenidoPorterosAutomaticos from '@/components/paginas/contenido-porteros-automaticos';
 import StructuredData from '@/components/StructuredData';
 import { withPhone } from '@/lib/seo';
@@ -10,7 +10,7 @@ import { withPhone } from '@/lib/seo';
 const serviceData = {
   title: "Porteros automáticos",
   slug: "servicios/porteros-automaticos",
-  description: "Instalación y reparación de porteros automáticos, videoporteros y telefonillos en Madrid. Servicio técnico especializado.",
+  description: "Instalación y reparación de porteros automáticos, videoporteros y telefonillos en . Servicio técnico especializado.",
   heroImage: "/images/telecom/portero-automatico-instalacion-01.jpg",
   shortDescription: "Instalación y reparación de porteros automáticos, citófonos, telefonillos y vídeo porteros.",
   longDescription: "Nuestro servicio de instalación y reparación de porteros automáticos está diseñado para garantizar la seguridad y comodidad en el acceso a su vivienda o comunidad. Contamos con técnicos especializados que instalan y reparan todo tipo de sistemas: desde telefonillos básicos hasta modernos videoporteros con las últimas tecnologías. Trabajamos con las mejores marcas del mercado para asegurar la fiabilidad y durabilidad de cada instalación.",
@@ -42,7 +42,7 @@ const serviceData = {
 };
 
 export const metadata: Metadata = {
-  title: `${serviceData.title} | Advanced Telecom`,
+  title: `${serviceData.title} | Antenas Toledo`,
   description: withPhone(serviceData.description),
   robots: {
     index: true,
@@ -55,13 +55,13 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: `https://www.advancedtelecom.es/${serviceData.slug}`,
+    canonical: `https://antenastoledo.com/${serviceData.slug}`,
   },
   openGraph: {
     title: serviceData.title,
     description: withPhone(serviceData.description),
-    url: `https://www.advancedtelecom.es/${serviceData.slug}`,
-    images: [{ url: `https://www.advancedtelecom.es${serviceData.heroImage}`, width: 1200, height: 630 }],
+    url: `https://antenastoledo.com/${serviceData.slug}`,
+    images: [{ url: `https://antenastoledo.com${serviceData.heroImage}`, width: 1200, height: 630 }],
   },
 };
 
@@ -72,7 +72,7 @@ const serviceSchema = {
   "description": serviceData.longDescription,
   "provider": {
     "@type": "LocalBusiness",
-    "name": "Advanced Telecom",
+    "name": "Antenas Toledo",
   }
 };
 

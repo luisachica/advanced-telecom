@@ -15,7 +15,7 @@ import { Toaster } from "@/components/ui/toaster";
 
 // --- Mapeador de Íconos ---
 const iconMap = { Phone, Mail, MapPin, Clock, ArrowRight, CheckCircle };
-const Icon = ({ name, ...props }: { name: keyof typeof iconMap; [key: string]: any }) => {
+const Icon = ({ name, ...props }: { name: keyof typeof iconMap;[key: string]: any }) => {
   const LucideIcon = iconMap[name];
   return LucideIcon ? <LucideIcon {...props} /> : null;
 };
@@ -80,20 +80,7 @@ export default function ContenidoContacto({ data }: { data: any }) {
                 <ContactForm />
               </div>
               <div className="space-y-8">
-                <div className="rounded-xl overflow-hidden shadow-lg h-[400px] relative">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.5!2d-3.7!3d40.45!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDI3JzAwLjAiTiAzwrA0MicwMC4wIlc!5e0!3m2!1sen!2ses!4v1628509311195!5m2!1sen!2ses"
-                    width="100%" 
-                    height="100%" 
-                    style={{ border: 0 }} 
-                    allowFullScreen 
-                    loading="lazy" 
-                    referrerPolicy="no-referrer-when-downgrade" 
-                    title="Ubicación de Advanced Telecom"
-                  >
-                  </iframe>
-                </div>
-                <div className="bg-green-50 rounded-xl p-6 shadow-md">
+<div className="bg-green-50 rounded-xl p-6 shadow-md">
                   <div className="flex items-center gap-3 mb-4">
                     <Icon name="Clock" className="h-5 w-5 text-green-600" />
                     <h3 className="text-lg font-semibold text-slate-800">Horario de atención</h3>
@@ -133,7 +120,7 @@ export default function ContenidoContacto({ data }: { data: any }) {
             </div>
           </div>
         </section>
-        
+
         {/* ... Resto de secciones como el CTA ... */}
 
       </main>

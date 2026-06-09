@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -114,11 +114,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Palomeque | Advanced Telecom`,
+  title: `Antenista en Palomeque | Antenas Toledo`,
   description: `Servicio de antenista profesional en Palomeque. Soluciones para TDT, parabólicas y videoporteros en su casa, chalet o comunidad. Presupuesto sin compromiso.`,
   keywords: `antenista Palomeque, antenas TDT Palomeque, instalación parabólicas Toledo, reparación antenas Palomeque, videoporteros Palomeque, CCTV Palomeque`,
   alternates: {
-    canonical: 'https://www.advancedtelecom.es/tecnico-antenista-palomeque/'
+    canonical: 'https://antenastoledo.com/tecnico-antenista-palomeque/'
   },
   robots: {
     index: true,
@@ -186,7 +186,7 @@ export default function PalomequePage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llamar ahora
                     </Link>
@@ -347,13 +347,13 @@ export default function PalomequePage() {
                   <p className="text-xl mb-8 text-white/90">Si desea solicitar un presupuesto, programar una visita técnica o resolver cualquier duda, no dude en ponerse en contacto con nosotros. Será un placer atenderle.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Palomeque" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Palomeque" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Enviar un WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

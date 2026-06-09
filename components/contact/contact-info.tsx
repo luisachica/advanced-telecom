@@ -31,12 +31,18 @@ export function ContactInfo({
           <p className={`text-sm mb-3 ${textColor === "text-white" ? "text-white/80" : "text-[#5a7184]"}`}>
             {description}
           </p>
-          <Link
-            href={link}
-            className={`font-medium text-base break-all hover:underline ${textColor === "text-white" ? "text-white" : "text-green-600"}`}
-          >
-            {contact}
-          </Link>
+          {link ? (
+            <Link
+              href={link}
+              className={`font-medium text-base break-all hover:underline ${textColor === "text-white" ? "text-white" : "text-green-600"}`}
+            >
+              {contact}
+            </Link>
+          ) : (
+            <span className={`font-medium text-base break-all ${textColor === "text-white" ? "text-white" : "text-green-600"}`}>
+              {contact}
+            </span>
+          )}
         </div>
       </div>
     </div>

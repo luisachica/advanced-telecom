@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -54,7 +54,7 @@ const municipioData = {
   testimonios: [
     {
       nombre: "Carmen Ruiz",
-      comentario: "Increíble transformación en nuestra conectividad. Los técnicos de Advanced Telecom convirtieron nuestra casa en Borox en un hogar inteligente con señal perfecta.",
+      comentario: "Increíble transformación en nuestra conectividad. Los técnicos de Antenas Toledo convirtieron nuestra casa en Borox en un hogar inteligente con señal perfecta.",
       puntuacion: 5
     },
     {
@@ -94,7 +94,7 @@ const municipioData = {
 
   faqs: [
     {
-      question: "¿Qué hace especial el servicio de Advanced Telecom en Borox?",
+      question: "¿Qué hace especial el servicio de Antenas Toledo en Borox?",
       answer: "Somos pioneros en tecnología avanzada para Borox. Combinamos más de 25 años de experiencia con las últimas innovaciones en telecomunicaciones, ofreciendo soluciones personalizadas que transforman la conectividad de cada hogar y empresa."
     },
     {
@@ -114,11 +114,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Borox | Advanced Telecom`,
+  title: `Antenista en Borox | Antenas Toledo`,
   description: `Antenistas en Borox. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Sin coste de desplazamiento!`,
   keywords: `antenista Borox, antenas TDT Borox, instalación antenas Toledo, reparación antenas Borox, telecomunicaciones Borox, antenista barato Borox`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-borox'
+    canonical: 'https://antenastoledo.com/antenista-borox'
   },
   robots: {
     index: true,
@@ -191,7 +191,7 @@ export default function BoroxPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llamar ahora
                     </Link>
@@ -330,7 +330,7 @@ export default function BoroxPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Borox</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Contamos con más de 25 años de experiencia en reparación y servicio técnico de antenas, en el sector residencial y empresarial. El personal de Advanced Telecom es experto en todo tipo de antenas y estamos siempre listos para servirle.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Contamos con más de 25 años de experiencia en reparación y servicio técnico de antenas, en el sector residencial y empresarial. El personal de Antenas Toledo es experto en todo tipo de antenas y estamos siempre listos para servirle.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -352,13 +352,13 @@ export default function BoroxPage() {
                   <p className="text-xl mb-8 text-white/90">Atendemos su solicitud rápido y en el día. Cada uno de nuestros trabajos lo entregamos con la respectiva garantía. Nuestros presupuestos los adaptamos a la medida de sus necesidades y siempre estamos atentos a ofrecer el mejor servicio a precios razonables y competitivos.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Borox" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Borox" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

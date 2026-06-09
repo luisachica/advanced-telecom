@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -115,27 +115,27 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Los Pradillos | Advanced Telecom`,
+  title: `Antenista en Los Pradillos | Antenas Toledo`,
   description: withPhone(`✅ Tu antenista de confianza en la urbanización Los Pradillos (Illescas). Soluciones para TDT y parabólicas en tu chalet. Presupuesto rápido y gratis.`),
   keywords: `antenista Los Pradillos, antenas TDT Los Pradillos, instalación antenas Illescas, reparación antenas Los Pradillos, telecomunicaciones Los Pradillos, antenista urbanización`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-los-pradillos'
+    canonical: 'https://antenastoledo.com/antenista-los-pradillos'
   },
   robots: {
     index: true,
     follow: true,
   },
   openGraph: {
-    title: 'Antenista en Los Pradillos | Advanced Telecom',
+    title: 'Antenista en Los Pradillos | Antenas Toledo',
     description: withPhone('✅ Tu antenista de confianza en la urbanización Los Pradillos (Illescas). Soluciones para TDT y parabólicas en tu chalet. Presupuesto rápido y gratis.'),
-    url: 'https://advanced-telecom.es/antenista-los-pradillos',
-    siteName: 'Advanced Telecom',
+    url: 'https://antenastoledo.com/antenista-los-pradillos',
+    siteName: 'Antenas Toledo',
     locale: 'es_ES',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Antenista en Los Pradillos | Advanced Telecom',
+    title: 'Antenista en Los Pradillos | Antenas Toledo',
     description: withPhone('✅ Tu antenista de confianza en la urbanización Los Pradillos (Illescas). Soluciones para TDT y parabólicas en tu chalet. Presupuesto rápido y gratis.'),
   }
 };
@@ -200,7 +200,7 @@ export default function AldeaDelFresnoPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llama y cuéntanos qué necesitas
                     </Link>
@@ -361,13 +361,13 @@ export default function AldeaDelFresnoPage() {
                   <p className="text-xl mb-8 text-white/90">Si vives en la urbanización, llámanos o escríbenos. Te daremos una solución a medida para tu chalet, de forma rápida, profesional y con la garantía de un especialista en la zona.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Los%20Pradillos" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Los%20Pradillos" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llama ahora
                       </a>
                     </Button>

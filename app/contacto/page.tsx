@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import ContenidoContacto from '@/components/paginas/contenido-contacto';
 import StructuredData from '@/components/StructuredData';
 import { withPhone } from '@/lib/seo';
@@ -14,31 +14,32 @@ const contactData = {
       iconName: "Phone",
       title: "Llámanos",
       description: "Nuestro equipo está disponible para atenderte",
-      contact: "668 83 84 15",
-      link: "tel:+34668838415",
+      contact: "668 67 95 00",
+      link: "tel:+34668679500",
     },
     {
       iconName: "Mail",
       title: "Escríbenos",
       description: "Te responderemos a la mayor brevedad",
-      contact: "info@advancedtelecom.es",
-      link: "mailto:info@advancedtelecom.es",
+      contact: "antenastoledo@yahoo.com",
+      link: "mailto:antenastoledo@yahoo.com",
     },
     {
       iconName: "MapPin",
       title: "Ubicación",
-      contact: "Ubicados en Toledo y Madrid Sur",
-      link: "https://maps.google.com/?q=Avenida+de+la+Tecnologia+25+28021+Madrid",
+      description: "Nuestra sede",
+      contact: "Polígono Santa María de Benquerencia (Toledo), España",
+      link: "",
     },
   ],
   faqs: [
     {
       question: "¿Cómo puedo solicitar un presupuesto?",
-      answer: "Puedes solicitar un presupuesto sin compromiso a través de nuestro formulario de contacto, llamando al 668 83 84 15 o enviando un email a info@advancedtelecom.es. Te responderemos en menos de 24 horas con un presupuesto personalizado para tu instalación."
+      answer: "Puedes solicitar un presupuesto sin compromiso a través de nuestro formulario de contacto, llamando al 668 67 95 00 o enviando un email a antenastoledo@yahoo.com. Te responderemos en menos de 24 horas con un presupuesto personalizado para tu instalación."
     },
     {
       question: "¿Cuál es el área geográfica que cubren vuestros servicios?",
-      answer: "Ofrecemos nuestros servicios de telecomunicaciones en Toledo y Madrid Sur, incluyendo todos los municipios de estas zonas. Realizamos instalaciones tanto en viviendas particulares como en comunidades y empresas."
+      answer: "Ofrecemos nuestros servicios de telecomunicaciones en Toledo y  Sur, incluyendo todos los municipios de estas zonas. Realizamos instalaciones tanto en viviendas particulares como en comunidades y empresas."
     },
     {
       question: "¿Qué equipos y materiales utilizáis en las instalaciones?",
@@ -49,11 +50,11 @@ const contactData = {
 
 // Metadatos para el <head> de la página
 export const metadata: Metadata = {
-  title: "Contacto | Solicita Presupuesto | Advanced Telecom Madrid",
-  description: withPhone("Contacta con nuestro equipo de telecomunicaciones en Madrid. Presupuesto sin compromiso para antenas, porteros automáticos y cámaras de seguridad."),
-  keywords: "contacto telecomunicaciones madrid, presupuesto antenas, teléfono empresa telecomunicaciones, email telecomunicaciones, dirección empresa telecomunicaciones",
+  title: "Contacto | Solicita Presupuesto | Antenas Toledo ",
+  description: withPhone("Contacta con nuestro equipo de telecomunicaciones en . Presupuesto sin compromiso para antenas, porteros automáticos y cámaras de seguridad."),
+  keywords: "contacto telecomunicaciones , presupuesto antenas, teléfono empresa telecomunicaciones, email telecomunicaciones, dirección empresa telecomunicaciones",
   alternates: {
-    canonical: "https://www.advancedtelecom.es/contacto",
+    canonical: "https://antenastoledo.com/contacto",
   },
   robots: {
     index: false,
@@ -73,18 +74,18 @@ export const metadata: Metadata = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Advanced Telecom",
-  "image": "https://www.advancedtelecom.es/logo-advanced-telecom.jpg",
-  "telephone": "+34668838415",
-  "email": "info@advancedtelecom.es",
+  "name": "Antenas Toledo",
+  "image": "https://antenastoledo.com/logo-advanced-telecom.jpg",
+  "telephone": "+34668679500",
+  "email": "antenastoledo@yahoo.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Avenida de la Tecnología 25",
-    "addressLocality": "Madrid",
+    "addressLocality": "",
     "postalCode": "28021",
     "addressCountry": "ES"
   },
-  "url": "https://www.advancedtelecom.es/contacto",
+  "url": "https://antenastoledo.com/contacto",
 };
 
 const faqSchema = {

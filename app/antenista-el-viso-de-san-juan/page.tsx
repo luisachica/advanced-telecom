@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -115,11 +115,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en El Viso de San Juan | Advanced Telecom`,
+  title: `Antenista en El Viso de San Juan | Antenas Toledo`,
   description: `✅ Tu antenista en El Viso de San Juan. Damos servicio a chalets y pisos. Soluciones TDT, parabólicas y videoporteros. Pide tu presupuesto gratis.`,
   keywords: `antenista El Viso de San Juan, antenas TDT El Viso de San Juan, instalación antenas Toledo, reparación antenas El Viso de San Juan, telecomunicaciones El Viso de San Juan, videoporteros chalets`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-el-viso-de-san-juan'
+    canonical: 'https://antenastoledo.com/antenista-el-viso-de-san-juan'
   },
   robots: {
     index: true,
@@ -187,7 +187,7 @@ export default function ElVisoSanJuanPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llama y te damos solución
                     </Link>
@@ -348,13 +348,13 @@ export default function ElVisoSanJuanPage() {
                   <p className="text-xl mb-8 text-white/90">Sea cual sea tu avería o proyecto, no dudes en contactarnos. Llámanos o escríbenos un WhatsApp y te daremos un presupuesto gratuito, rápido y a tu medida.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20{municipioData.nombre}" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20{municipioData.nombre}" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llama y te informamos
                       </a>
                     </Button>

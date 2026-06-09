@@ -1,15 +1,15 @@
-export function SchemaMarkup() {
+﻿export function SchemaMarkup() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "Advanced Telecom Madrid",
-    image: "https://advancedtelecom.es/telecom-logo.png",
-    url: "https://advancedtelecom.es",
-    telephone: "+34668838415",
+    name: "Antenas Toledo ",
+    image: "https://antenastoledo.com/telecom-logo.png",
+    url: "https://antenastoledo.com",
+    telephone: "+34668679500",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Calle Principal 123",
-      addressLocality: "Madrid",
+      addressLocality: "",
       postalCode: "28001",
       addressCountry: "ES",
     },
@@ -39,11 +39,11 @@ export function SchemaMarkup() {
     serviceType: "Servicios de telecomunicaciones",
     provider: {
       "@type": "LocalBusiness",
-      name: "Advanced Telecom Madrid",
+      name: "Antenas Toledo ",
     },
     areaServed: {
       "@type": "City",
-      name: "Madrid",
+      name: "",
     },
     hasOfferCatalog: {
       "@type": "OfferCatalog",

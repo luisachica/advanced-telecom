@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import ContenidoQuienesSomos from '@/components/paginas/contenido-quienes-somos';
 import StructuredData from '@/components/StructuredData';
 import { withPhone } from '@/lib/seo';
@@ -10,16 +10,16 @@ import { withPhone } from '@/lib/seo';
 const pageData = {
   slug: "quienes-somos",
   hero: {
-    title: "Conozca Advanced Telecom",
-    subtitle: "Descubra por qué somos la empresa de telecomunicaciones preferida en Madrid, con más de 25 años de experiencia brindando servicios técnicos especializados."
+    title: "Conozca Antenas Toledo",
+    subtitle: "Descubra por qué somos la empresa de telecomunicaciones preferida en , con más de 25 años de experiencia brindando servicios técnicos especializados."
   },
   mainContent: {
     title: "Líderes en servicios de telecomunicaciones",
-    quote: "Advanced Telecom se posiciona como referente en Madrid por nuestra excelencia técnica y compromiso con la innovación tecnológica.",
+    quote: "Antenas Toledo se posiciona como referente en  por nuestra excelencia técnica y compromiso con la innovación tecnológica.",
     paragraphs: [
       "Somos especialistas en instalación y mantenimiento de sistemas de telecomunicaciones. Nuestro equipo técnico altamente cualificado garantiza soluciones precisas y duraderas para antenas TDT, parabólicas, porteros automáticos y sistemas de videovigilancia.",
-      "Nuestra trayectoria de más de 25 años nos ha consolidado como la empresa de confianza en Madrid para servicios de telecomunicaciones. Trabajamos con las mejores marcas del sector como Televes, Johansson y Fermax, asegurando la máxima calidad en cada instalación.",
-      "Ofrecemos cobertura en Toledo y Madrid Sur, adaptándonos a las necesidades específicas de cada cliente, desde viviendas particulares hasta grandes comunidades de propietarios y empresas.",
+      "Nuestra trayectoria de más de 25 años nos ha consolidado como la empresa de confianza en  para servicios de telecomunicaciones. Trabajamos con las mejores marcas del sector como Televes, Johansson y Fermax, asegurando la máxima calidad en cada instalación.",
+      "Ofrecemos cobertura en Toledo y  Sur, adaptándonos a las necesidades específicas de cada cliente, desde viviendas particulares hasta grandes comunidades de propietarios y empresas.",
       "Con más de 25 años de experiencia en el sector, atendemos tanto a clientes particulares como empresariales, manteniendo siempre nuestro compromiso con la excelencia técnica y la satisfacción del cliente."
     ],
     images: [
@@ -29,8 +29,8 @@ const pageData = {
     ]
   },
   differentiators: {
-    title: "Qué nos diferencia de otras empresas de telecomunicaciones en Madrid",
-    subtitle: "Descubra por qué Advanced Telecom es la opción preferida para servicios técnicos especializados en Toledo y Madrid Sur.",
+    title: "Qué nos diferencia de otras empresas de telecomunicaciones en ",
+    subtitle: "Descubra por qué Antenas Toledo es la opción preferida para servicios técnicos especializados en Toledo y  Sur.",
     items: [
       { iconName: "Clock", title: "01. Experiencia consolidada", text: "Con más de 25 años de experiencia, nuestros técnicos especializados dominan las últimas tecnologías en telecomunicaciones y sistemas de comunicación." },
       { iconName: "Shield", title: "02. Certificaciones oficiales", text: "Trabajamos exclusivamente con equipos certificados de marcas líderes como Televes, Johansson y Fermax, garantizando la máxima calidad y durabilidad." },
@@ -39,10 +39,10 @@ const pageData = {
     ]
   },
   gallery: {
-    title: "Servicios de telecomunicaciones en Madrid",
+    title: "Servicios de telecomunicaciones en ",
     subtitle: "Ejemplos de nuestras instalaciones y servicios técnicos especializados en diferentes entornos.",
     images: [
-      { src: "/images/telecom/antena-tdt-instalacion-01.jpg", alt: "Instalación de antenas TDT en Madrid" },
+      { src: "/images/telecom/antena-tdt-instalacion-01.jpg", alt: "Instalación de antenas TDT en " },
       { src: "/images/telecom/antena-parabolica.jpg", alt: "Instalación de antenas parabólicas" },
       { src: "/images/telecom/portero-automatico-instalacion-01.jpg", alt: "Porteros automáticos" },
       { src: "/images/telecom/camaras-seguridad.jpg", alt: "Sistemas de videovigilancia" },
@@ -53,10 +53,10 @@ const pageData = {
 };
 
 export const metadata: Metadata = {
-  title: "Quiénes somos | Advanced Telecom - Empresa de Telecomunicaciones en Madrid",
+  title: "Quiénes somos | Antenas Toledo - Empresa de Telecomunicaciones en ",
   description: withPhone(pageData.hero.subtitle),
   alternates: {
-    canonical: `https://www.advancedtelecom.es/${pageData.slug}`,
+    canonical: `https://antenastoledo.com/${pageData.slug}`,
   },
   robots: {
     index: false,
@@ -73,27 +73,27 @@ export const metadata: Metadata = {
 const aboutPageSchema = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
-  "name": "Quiénes Somos | Advanced Telecom",
+  "name": "Quiénes Somos | Antenas Toledo",
   "description": pageData.mainContent.paragraphs.join(" "),
-  "url": `https://www.advancedtelecom.es/${pageData.slug}`,
+  "url": `https://antenastoledo.com/${pageData.slug}`,
 };
 
 const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Advanced Telecom",
-    "url": "https://www.advancedtelecom.es",
-    "logo": "https://advancedtelecom.es/logo-advanced-telecom.jpg",
+    "name": "Antenas Toledo",
+    "url": "https://antenastoledo.com",
+    "logo": "https://antenastoledo.com/logo-advanced-telecom.jpg",
     "description": pageData.hero.subtitle,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Calle Velázquez 59",
-      "addressLocality": "Madrid",
+      "addressLocality": "",
       "postalCode": "28001",
       "addressCountry": "ES"
     },
-    "telephone": "+34668838415",
-    "email": "info@advancedtelecom.es"
+    "telephone": "+34668679500",
+    "email": "antenastoledo@yahoo.com"
 };
 
 export default function QuienesSomosPage() {

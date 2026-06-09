@@ -1,4 +1,4 @@
-import { Metadata } from 'next'
+﻿import { Metadata } from 'next'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Cookie, Shield, BarChart3, Target, Settings, Mail, Phone } from 'lucide-react'
@@ -6,10 +6,10 @@ import Link from 'next/link'
 import { withPhone } from '@/lib/seo'
 
 export const metadata: Metadata = {
-  title: 'Política de Cookies | Advanced Telecom',
+  title: 'Política de Cookies | Antenas Toledo',
   description: withPhone('Información detallada sobre el uso de cookies en nuestro sitio web y cómo gestionar tus preferencias.'),
   alternates: {
-    canonical: 'https://www.advancedtelecom.es/politica-de-cookies/'
+    canonical: 'https://antenastoledo.com/politica-de-cookies/'
   },
   robots: {
     index: true,
@@ -229,11 +229,11 @@ export default function PoliticaCookiesPage() {
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-blue-600" />
-                  <span>info@advancedtelecom.es</span>
+                  <span>antenastoledo@yahoo.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="h-5 w-5 text-blue-600" />
-                  <span>+34 668 83 84 15</span>
+                  <span>+34 668 67 95 00</span>
                 </div>
               </div>
               

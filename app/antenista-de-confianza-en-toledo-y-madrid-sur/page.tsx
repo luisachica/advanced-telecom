@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import type { Metadata } from "next";
 import { PhoneBanner } from "@/components/phone-banner";
 import { MainNavigation } from "@/components/main-navigation";
@@ -40,7 +40,7 @@ const ventajasCompetitivas = [
   },
   {
     titulo: "Cobertura completa",
-    descripcion: "Servicio en Toledo, Madrid Sur y municipios limítrofes",
+    descripcion: "Servicio en Toledo,  Sur y municipios limítrofes",
     icono: MapPin
   },
   {
@@ -58,13 +58,13 @@ const ventajasCompetitivas = [
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Advanced Telecom - Antenista de Confianza Toledo y Madrid Sur",
-  "description": "Antenista profesional de confianza en Toledo y Madrid Sur. Especialistas en antenas TDT, parabólicas, porteros automáticos y videovigilancia.",
-  "url": "https://www.advancedtelecom.es/antenista-de-confianza-en-toledo-y-madrid-sur/",
-  "telephone": "+34 668 83 84 15",
+  "name": "Antenas Toledo - Antenista de Confianza Toledo y  Sur",
+  "description": "Antenista profesional de confianza en Toledo y  Sur. Especialistas en antenas TDT, parabólicas, porteros automáticos y videovigilancia.",
+  "url": "https://antenastoledo.com/antenista-de-confianza-en-toledo-y--sur/",
+  "telephone": "+34 668 67 95 00",
   "address": {
     "@type": "PostalAddress",
-    "addressRegion": "Toledo y Madrid Sur",
+    "addressRegion": "Toledo y  Sur",
     "addressCountry": "ES"
   },
   "geo": {
@@ -84,7 +84,7 @@ const structuredData = {
   },
   "areaServed": [
     "Toledo",
-    "Madrid Sur",
+    " Sur",
     "Illescas",
     "Seseña",
     "Getafe",
@@ -132,28 +132,28 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: "Antenista homologado en Toledo y Madrid Sur ☎️ 668 83 84 15",
+  title: "Antenista homologado en Toledo y  Sur ☎️ 668 67 95 00",
   description:
-    "Antenista de confianza en Toledo y Madrid Sur. Servicio técnico profesional en antenas TDT, parabólicas, porteros automáticos y videovigilancia.",
+    "Antenista de confianza en Toledo y  Sur. Servicio técnico profesional en antenas TDT, parabólicas, porteros automáticos y videovigilancia.",
   keywords: [
     "antenista Toledo",
-    "antenista Madrid Sur",
+    "antenista  Sur",
     "antenista de confianza",
     "instalación antenas Toledo",
-    "técnico antenas Madrid Sur",
+    "técnico antenas  Sur",
     "servicio antenista profesional",
-    "antenas TDT Toledo Madrid",
+    "antenas TDT Toledo ",
   ],
   robots: {
     index: true,
     follow: true,
   },
   alternates: {
-    canonical: "/antenista-de-confianza-en-toledo-y-madrid-sur",
+    canonical: "/antenista-de-confianza-en-toledo-y--sur",
   },
 };
 
-export default function AntenistadeConfianzaToledoMadridSurPage() {
+export default function AntenistadeConfianzaToledoSurPage() {
   return (
     <>
       <StructuredData data={structuredData} />
@@ -168,7 +168,7 @@ export default function AntenistadeConfianzaToledoMadridSurPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="text-center lg:text-left">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                  Antenista de Confianza en <span className="text-white">Toledo y Madrid Sur</span>
+                  Antenista de Confianza en <span className="text-white">Toledo y  Sur</span>
                 </h1>
                 <p className="text-xl md:text-2xl mb-8 text-white/90">
                   Servicio técnico profesional con más de 25 años de experiencia. Instalación y mantenimiento de antenas, porteros automáticos y videovigilancia.
@@ -192,7 +192,7 @@ export default function AntenistadeConfianzaToledoMadridSurPage() {
               <div className="text-center lg:text-right">
                 <img 
                   src="/images/telecom/antenistas-en-toledo-sur.jpg" 
-                  alt="Antenista profesional trabajando en Toledo y Madrid Sur"
+                  alt="Antenista profesional trabajando en Toledo y  Sur"
                   className="w-full max-w-md mx-auto lg:mx-0 rounded-lg shadow-2xl"
                 />
               </div>
@@ -208,7 +208,7 @@ export default function AntenistadeConfianzaToledoMadridSurPage() {
                 ¿Por qué elegir nuestro servicio de antenista?
               </h2>
               <p className="text-lg text-brand-black-light">
-                Somos el antenista de confianza en Toledo y Madrid Sur con el respaldo de años de experiencia y miles de clientes satisfechos.
+                Somos el antenista de confianza en Toledo y  Sur con el respaldo de años de experiencia y miles de clientes satisfechos.
               </p>
             </div>
             
@@ -255,7 +255,7 @@ export default function AntenistadeConfianzaToledoMadridSurPage() {
                     <div className="relative h-96">
                       <img 
                         src={imageMap[servicio.icono as keyof typeof imageMap]} 
-                        alt={`${servicio.titulo} - Servicio profesional en Toledo y Madrid Sur`}
+                        alt={`${servicio.titulo} - Servicio profesional en Toledo y  Sur`}
                         className="w-full h-full object-cover"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
@@ -281,7 +281,7 @@ export default function AntenistadeConfianzaToledoMadridSurPage() {
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-6">
-                Nuestros trabajos en Toledo y Madrid Sur
+                Nuestros trabajos en Toledo y  Sur
               </h2>
               <p className="text-lg text-brand-black-light">
                 Ejemplos reales de nuestras instalaciones y trabajos realizados en la zona.
@@ -306,7 +306,7 @@ export default function AntenistadeConfianzaToledoMadridSurPage() {
               <div className="relative group overflow-hidden rounded-lg">
                 <img 
                   src="/images/telecom/trabajo-instalacion-2024-04-19.jpg" 
-                  alt="Instalación de antena parabólica en Madrid Sur"
+                  alt="Instalación de antena parabólica en  Sur"
                   className="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -336,8 +336,8 @@ export default function AntenistadeConfianzaToledoMadridSurPage() {
 
         {/* Municipios Servicio */}
         <MunicipiosServicio 
-          titulo="Antenista de confianza en Toledo y Madrid Sur - conoce nuestro alcance"
-          descripcion="Servicio técnico profesional disponible en todos estos municipios de Toledo y Madrid Sur. Encuentra tu localidad y solicita nuestro servicio especializado."
+          titulo="Antenista de confianza en Toledo y  Sur - conoce nuestro alcance"
+          descripcion="Servicio técnico profesional disponible en todos estos municipios de Toledo y  Sur. Encuentra tu localidad y solicita nuestro servicio especializado."
         />
 
         {/* Contacto */}
@@ -348,7 +348,7 @@ export default function AntenistadeConfianzaToledoMadridSurPage() {
                 Contacta con tu antenista de confianza
               </h2>
               <p className="text-lg text-brand-black-light">
-                ¿Necesitas un antenista profesional en Toledo o Madrid Sur? Contáctanos para un presupuesto gratuito y sin compromiso.
+                ¿Necesitas un antenista profesional en Toledo o  Sur? Contáctanos para un presupuesto gratuito y sin compromiso.
               </p>
             </div>
             

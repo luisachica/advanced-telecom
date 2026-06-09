@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -18,8 +18,8 @@ import { withPhone } from "@/lib/seo";
 const municipioData = {
   nombre: "Moraleja de Enmedio",
   slug: "moraleja-de-enmedio",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
+  provincia: "",
+  comunidad: "Comunidad de ",
   codigoPostal: "28950",
   poblacion: "5.234",
   superficie: "4,9",
@@ -118,27 +118,27 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Moraleja de Enmedio | Advanced Telecom`,
+  title: `Antenista en Moraleja de Enmedio | Antenas Toledo`,
   description: withPhone(`Servicio técnico de antenista en Moraleja de Enmedio. Especialistas en TDT, parabólicas y videoporteros. Soluciones rápidas y garantizadas. Presupuesto sin compromiso.`),
-  keywords: `antenista Moraleja de Enmedio, antenas TDT Moraleja de Enmedio, instalación antenas Madrid, reparación antenas Moraleja de Enmedio, telecomunicaciones Moraleja de Enmedio, videoporteros Moraleja de Enmedio`,
+  keywords: `antenista Moraleja de Enmedio, antenas TDT Moraleja de Enmedio, instalación antenas , reparación antenas Moraleja de Enmedio, telecomunicaciones Moraleja de Enmedio, videoporteros Moraleja de Enmedio`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-moraleja-de-enmedio'
+    canonical: 'https://antenastoledo.com/antenista-moraleja-de-enmedio'
   },
   robots: {
     index: true,
     follow: true,
   },
   openGraph: {
-    title: 'Antenista en Moraleja de Enmedio | Advanced Telecom',
+    title: 'Antenista en Moraleja de Enmedio | Antenas Toledo',
     description: withPhone('Servicio técnico de antenista en Moraleja de Enmedio. Especialistas en TDT, parabólicas y videoporteros. Soluciones rápidas y garantizadas.'),
-    url: 'https://advanced-telecom.es/antenista-moraleja-de-enmedio',
-    siteName: 'Advanced Telecom',
+    url: 'https://antenastoledo.com/antenista-moraleja-de-enmedio',
+    siteName: 'Antenas Toledo',
     locale: 'es_ES',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Antenista en Moraleja de Enmedio | Advanced Telecom',
+    title: 'Antenista en Moraleja de Enmedio | Antenas Toledo',
     description: withPhone('Servicio técnico de antenista en Moraleja de Enmedio. Especialistas en TDT, parabólicas y videoporteros.'),
   }
 };
@@ -203,7 +203,7 @@ export default function AldeaDelFresnoPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Contactar por teléfono
                     </Link>
@@ -428,13 +428,13 @@ export default function AldeaDelFresnoPage() {
                   <p className="text-xl mb-8 text-white/90">Si desea solicitar un presupuesto, realizar una consulta o programar una visita técnica, no dude en ponerse en contacto con nosotros. Estaremos encantados de atenderle.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Moraleja%20de%20Enmedio" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Moraleja%20de%20Enmedio" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Enviar un WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

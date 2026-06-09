@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { useState } from "react"
 import { Input } from "@/components/ui/input"
@@ -43,13 +43,13 @@ export function ContactForm() {
       } else {
         whatsappMessage += `\n *Mensaje:*\nSolicito información sobre sus servicios.\n\n`
       }
-      whatsappMessage += `Enviado desde: https://advancedtelecom.es`
+      whatsappMessage += `Enviado desde: https://antenastoledo.com`
 
       // Codificar el mensaje para URL
       const encodedMessage = encodeURIComponent(whatsappMessage)
       
       // Número de WhatsApp de la empresa
-      const whatsappNumber = "34668838415" // +34 668 83 84 15
+      const whatsappNumber = "34668679500" // +34 668 67 95 00
       
       // Generar URL de WhatsApp
       const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`

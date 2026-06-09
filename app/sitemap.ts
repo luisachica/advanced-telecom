@@ -1,9 +1,9 @@
-import type { MetadataRoute } from "next"
+﻿import type { MetadataRoute } from "next"
 
 export const dynamic = "force-static"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://advancedtelecom.es"
+  const baseUrl = "https://antenastoledo.com"
 
   // Todos los municipios con antenistas
   const municipios = [
@@ -178,7 +178,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
     },
     {
-      url: `${baseUrl}/antenista-de-confianza-en-toledo-y-madrid-sur/`,
+      url: `${baseUrl}/antenista-de-confianza-en-toledo-y--sur/`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,

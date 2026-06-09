@@ -12,14 +12,14 @@ import { withPhone } from "@/lib/seo"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://advancedtelecom.es"),
-  title: "Advanced Telecom Madrid | Servicios de telecomunicaciones",
+  metadataBase: new URL("https://antenastoledo.com"),
+  title: "Antenas Toledo | Servicios de telecomunicaciones",
   description: withPhone(
-    "Servicios profesionales de telecomunicaciones en Madrid. Instalación de antenas, porteros automáticos y sistemas de seguridad. Presupuesto sin compromiso."
+    "Servicios profesionales de telecomunicaciones en Toledo. Instalación de antenas, porteros automáticos y sistemas de seguridad. Presupuesto sin compromiso."
   ),
   keywords:
-    "telecomunicaciones madrid, antenas TDT, antenas parabólicas, porteros automáticos, cámaras seguridad, interferencias 4G",
-  authors: [{ name: "Advanced Telecom" }],
+    "telecomunicaciones toledo, antenas TDT, antenas parabólicas, porteros automáticos, cámaras seguridad, interferencias 4G",
+  authors: [{ name: "Antenas Toledo" }],
   robots: {
     index: false,
     follow: false,
@@ -31,47 +31,47 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://advancedtelecom.es",
+    canonical: "https://antenastoledo.com",
   },
   openGraph: {
     type: "website",
     locale: "es_ES",
-    url: "https://advancedtelecom.es",
-    title: "Advanced Telecom Madrid | Servicios de telecomunicaciones",
+    url: "https://antenastoledo.com",
+    title: "Antenas Toledo | Servicios de telecomunicaciones",
     description: withPhone(
-      "Servicios profesionales de telecomunicaciones en Madrid. Instalación de antenas, porteros automáticos y sistemas de seguridad."
+      "Servicios profesionales de telecomunicaciones en Toledo. Instalación de antenas, porteros automáticos y sistemas de seguridad."
     ),
-    siteName: "Advanced Telecom",
+    siteName: "Antenas Toledo",
     images: [
       {
-        url: "/logo-advanced-telecom.jpg",
+        url: "/logo-antenas-toledo.PNG",
         width: 800,
         height: 600,
-        alt: "Advanced Telecom Logo",
+        alt: "Antenas Toledo Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Advanced Telecom Madrid | Servicios de telecomunicaciones",
+    title: "Antenas Toledo | Servicios de telecomunicaciones",
     description: withPhone(
-      "Servicios profesionales de telecomunicaciones en Madrid. Instalación de antenas, porteros automáticos y sistemas de seguridad."
+      "Servicios profesionales de telecomunicaciones en Toledo    . Instalación de antenas, porteros automáticos y sistemas de seguridad."
     ),
-    images: ["/logo-advanced-telecom.jpg"],
+    images: ["/logo-antenas-toledo.PNG"],
   },
   // ✅ AQUÍ VA LA PROPIEDAD 'icons', DENTRO DEL OBJETO
   icons: {
     icon: [
-      { url: '/favicon-advanced-telecom.webp', sizes: '16x16', type: 'image/webp' },
-      { url: '/favicon-advanced-telecom.webp', sizes: '32x32', type: 'image/webp' },
-      { url: '/favicon-advanced-telecom.webp', sizes: '48x48', type: 'image/webp' },
-      { url: '/favicon-advanced-telecom.webp', sizes: '64x64', type: 'image/webp' },
-      { url: '/favicon-advanced-telecom.webp', sizes: '96x96', type: 'image/webp' },
-      { url: '/favicon-advanced-telecom.webp', sizes: '128x128', type: 'image/webp' },
-      { url: '/favicon-advanced-telecom.webp', sizes: '192x192', type: 'image/webp' },
+      { url: '/favicon-antenas-toledo.webp', sizes: '16x16', type: 'image/webp' },
+      { url: '/favicon-antenas-toledo.webp', sizes: '32x32', type: 'image/webp' },
+      { url: '/favicon-antenas-toledo.webp', sizes: '48x48', type: 'image/webp' },
+      { url: '/favicon-antenas-toledo.webp', sizes: '64x64', type: 'image/webp' },
+      { url: '/favicon-antenas-toledo.webp', sizes: '96x96', type: 'image/webp' },
+      { url: '/favicon-antenas-toledo.webp', sizes: '128x128', type: 'image/webp' },
+      { url: '/favicon-antenas-toledo.webp', sizes: '192x192', type: 'image/webp' },
     ],
     apple: [
-      { url: '/favicon-advanced-telecom.webp', sizes: '180x180', type: 'image/webp' },
+      { url: '/favicon-antenas-toledo.webp', sizes: '180x180', type: 'image/webp' },
     ],
   },
 

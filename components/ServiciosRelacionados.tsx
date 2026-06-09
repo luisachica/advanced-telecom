@@ -27,7 +27,7 @@ export function ServiciosRelacionados({ actualSlug }: { actualSlug: string }) {
             description={serv.description}
             image={serv.image}
             slug={serv.slug}
-            iconName={serv.iconName}
+            icon={serv.iconName}
           />
         ))}
       </div>

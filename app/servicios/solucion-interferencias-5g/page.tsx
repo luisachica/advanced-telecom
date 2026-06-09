@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import ContenidoSolucionInterferencias5G from "@/components/paginas/contenido-solucion-interferencias-5g";
 import { SERVICIOS } from "@/data/servicios";
 import { withPhone } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Solución Interferencias 5G | Advanced Telecom",
+  title: "Solución Interferencias 5G | Antenas Toledo",
   description: withPhone("Eliminamos las interferencias 5G en su señal de televisión. Servicio profesional de instalación de filtros LTE para recuperar la calidad."),
   robots: {
     index: true,
@@ -17,19 +17,19 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.advancedtelecom.es/servicios/solucion-interferencias-5g",
+    canonical: "https://antenastoledo.com/servicios/solucion-interferencias-5g",
   },
   openGraph: {
-    title: "Solución Interferencias 5G | Advanced Telecom",
+    title: "Solución Interferencias 5G | Antenas Toledo",
     description: withPhone("Eliminamos las interferencias 5G en su señal de televisión. Servicio profesional de instalación de filtros LTE para recuperar la calidad."),
-    url: "https://advancedtelecom.es/servicios/solucion-interferencias-5g",
-    siteName: "Advanced Telecom",
+    url: "https://antenastoledo.com/servicios/solucion-interferencias-5g",
+    siteName: "Antenas Toledo",
     images: [
       {
-        url: "https://advancedtelecom.es/og-image-solucion-interferencias-5g.jpg",
+        url: "https://antenastoledo.com/og-image-solucion-interferencias-5g.jpg",
         width: 1200,
         height: 630,
-        alt: "Solución Interferencias 5G - Advanced Telecom",
+        alt: "Solución Interferencias 5G - Antenas Toledo",
       },
     ],
     locale: "es_ES",
@@ -46,7 +46,7 @@ export default function SolucionInterferencias5G() {
     title: "Solución interferencias 5G",
     slug: "solucion-interferencias-5g",
     shortDescription: "Eliminamos las interferencias causadas por la red 5G en su señal de televisión. Recupere la calidad de imagen y sonido con nuestro servicio profesional de instalación de filtros LTE.",
-    longDescription: "Las redes de telefonía móvil 5G pueden causar interferencias en la señal de televisión, provocando cortes, pixelaciones o pérdida total de canales. En Advanced Telecom somos especialistas en la instalación de filtros LTE que eliminan estas interferencias, permitiéndole disfrutar nuevamente de una recepción óptima en su televisor. Nuestros técnicos realizan un diagnóstico completo y aplican la solución más adecuada para cada caso particular.",
+    longDescription: "Las redes de telefonía móvil 5G pueden causar interferencias en la señal de televisión, provocando cortes, pixelaciones o pérdida total de canales. En Antenas Toledo somos especialistas en la instalación de filtros LTE que eliminan estas interferencias, permitiéndole disfrutar nuevamente de una recepción óptima en su televisor. Nuestros técnicos realizan un diagnóstico completo y aplican la solución más adecuada para cada caso particular.",
     heroImage: "/images/telecom/antena-profesional.jpg",
     features: [
       {
@@ -140,22 +140,22 @@ export default function SolucionInterferencias5G() {
     "name": "Solución Interferencias 4G",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Advanced Telecom",
+      "name": "Antenas Toledo",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Avenida de la Tecnología 25",
-        "addressLocality": "Madrid",
+        "addressLocality": "",
         "postalCode": "28021",
         "addressCountry": "ES"
       },
-      "telephone": "+34668838415",
+      "telephone": "+34668679500",
       "priceRange": "€€",
-      "image": "https://advancedtelecom.es/logo-advanced-telecom.jpg"
+      "image": "https://antenastoledo.com/logo-advanced-telecom.jpg"
     },
     "description": "Eliminamos las interferencias causadas por la red 4G/5G en su señal de televisión. Recupere la calidad de imagen y sonido con nuestro servicio profesional de instalación de filtros LTE.",
     "areaServed": {
       "@type": "City",
-      "name": "Madrid"
+      "name": ""
     },
     "serviceType": "Instalación de filtros LTE"
   };

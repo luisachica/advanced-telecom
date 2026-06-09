@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import ContenidoAntenasParabolicas from '@/components/paginas/contenido-antenas-parabolicas';
 import StructuredData from '@/components/StructuredData';
 import { withPhone } from '@/lib/seo';
@@ -10,8 +10,8 @@ import { withPhone } from '@/lib/seo';
 const serviceData = {
   title: "Antenas parabólicas",
   slug: "servicios/antenas-parabolicas",
-  description: "Instalación y reparación de antenas parabólicas en Madrid. Servicio técnico especializado con reorientaciones a satélites.",
-  heroImage: "/images/antenas-parabolicas-madrid.webp",
+  description: "Instalación y reparación de antenas parabólicas en . Servicio técnico especializado con reorientaciones a satélites.",
+  heroImage: "/images/antenas-parabolicas-.webp",
   shortDescription: "Instalación y reparación de antenas parabólicas con reorientaciones a diferentes satélites.",
   longDescription: "Nuestro servicio de instalación y reparación de antenas parabólicas está diseñado para ofrecerle acceso a canales internacionales y contenido exclusivo vía satélite. Contamos con técnicos especializados que realizan instalaciones precisas y reorientaciones a diferentes satélites como Astra, Hispasat, Hotbird y más. Trabajamos con los mejores equipos para garantizar una recepción óptima de la señal satelital en cualquier condición.",
   features: [
@@ -42,7 +42,7 @@ const serviceData = {
 };
 
 export const metadata: Metadata = {
-  title: `${serviceData.title} | Advanced Telecom`,
+  title: `${serviceData.title} | Antenas Toledo`,
   description: withPhone(serviceData.description),
   robots: {
     index: true,
@@ -55,13 +55,13 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: `https://www.advancedtelecom.es/${serviceData.slug}`,
+    canonical: `https://antenastoledo.com/${serviceData.slug}`,
   },
   openGraph: {
     title: serviceData.title,
     description: withPhone(serviceData.description),
-    url: `https://www.advancedtelecom.es/${serviceData.slug}`,
-    images: [{ url: `https://www.advancedtelecom.es${serviceData.heroImage}`, width: 1200, height: 630 }],
+    url: `https://antenastoledo.com/${serviceData.slug}`,
+    images: [{ url: `https://antenastoledo.com${serviceData.heroImage}`, width: 1200, height: 630 }],
   },
 };
 
@@ -72,7 +72,7 @@ const serviceSchema = {
   "description": serviceData.longDescription,
   "provider": {
     "@type": "LocalBusiness",
-    "name": "Advanced Telecom",
+    "name": "Antenas Toledo",
   }
 };
 

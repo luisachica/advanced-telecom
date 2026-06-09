@@ -1,4 +1,4 @@
-# Integración con Google My Business Reviews
+﻿# Integración con Google My Business Reviews
 
 Este documento explica cómo conectar los testimonios reales de Google My Business con la sección de testimonios de la página web.
 
@@ -10,7 +10,7 @@ Actualmente, la sección de testimonios utiliza datos mock definidos en `data/te
 - ✅ Información del autor (datos mock)
 - ✅ Fecha de la reseña (datos mock)
 - ✅ Rating promedio calculado (datos mock)
-- ✅ Enlace REAL a Google My Business de Advanced Telecom
+- ✅ Enlace REAL a Google My Business de Antenas Toledo
 - ✅ Diseño responsivo y atractivo
 
 **Decisión:** Se mantienen los datos mock para evitar complejidad de sincronización automática, pero el enlace sí dirige a la ficha real de Google My Business.
@@ -127,7 +127,7 @@ GOOGLE_LOCATION_ID=tu_location_id_aqui
 ### Encontrar tu Place ID
 
 1. Ir a [Place ID Finder](https://developers.google.com/maps/documentation/places/web-service/place-id)
-2. Buscar "Advanced Telecom Madrid"
+2. Buscar "Antenas Toledo Madrid"
 3. Copiar el Place ID generado
 
 ### Implementación Final

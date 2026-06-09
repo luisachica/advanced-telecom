@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import Image from "next/image"
 import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
@@ -22,16 +22,17 @@ export function Footer() {
             {/* Aumentar el tamaño del logo */}
             <div className="inline-block">
               <Image
-                src={validateImageSrc("/logo-advanced-telecom-horizontal.png") || "/placeholder.svg"}
-                alt="Advanced Telecom Logo"
-                width={300}
-                height={80}
+                src={validateImageSrc("/logo-antenas-toledo.png") || "/placeholder.svg"}
+                alt="Antenas Toledo Logo"
+                width={400}
+                height={107}
                 className="h-20 w-auto"
+                style={{ width: 'auto' }}
                 priority
               />
             </div>
             <p className="text-gray-300">
-              Servicios profesionales de telecomunicaciones para hogares y empresas en toda la Comunidad de Madrid.
+              Servicios profesionales de telecomunicaciones para hogares y empresas en toda la Comunidad de .
             </p>
             <div className="flex gap-4">
               <a href="https://www.facebook.com/antenistatoledo" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors">
@@ -123,26 +124,26 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Avenida de la Tecnología 25 – 28021 Madrid, España</span>
+                <span className="text-gray-300">Avenida de la Tecnología 25 – 28021 , España</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-brand-green flex-shrink-0" />
-                <a href="tel:+34668838415" className="text-gray-300 hover:text-white transition-colors">
-                  668 83 84 15
+                <a href="tel:+34668679500" className="text-gray-300 hover:text-white transition-colors">
+                  668 67 95 00
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-brand-green flex-shrink-0" />
                 <a
-                  href="mailto:info@advancedtelecom.es"
+                  href="mailto:antenastoledo@yahoo.com"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
-                  info@advancedtelecom.es
+                  antenastoledo@yahoo.com
                 </a>
               </li>
             </ul>
             <div className="mt-6">
-              <Link href="https://wa.me/34668838415?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20servicios%20de%20telecomunicaciones">
+              <Link href="https://wa.me/34668679500?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20servicios%20de%20telecomunicaciones">
                 <Button className="bg-brand-green hover:bg-brand-green/90 text-white rounded-full px-6 py-2 normal-case">
                   Solicitar presupuesto
                 </Button>
@@ -156,7 +157,7 @@ export function Footer() {
           <div className="flex flex-col lg:flex-row items-center gap-6">
             <div className="flex-shrink-0">
               <Image
-                src="/images/telecom/Antenista-Madrid-Logo-Ministerio-de-Energía-Turismo-y-Agenda-Digital.png"
+                src="/images/telecom/Antenista--Logo-Ministerio-de-Energía-Turismo-y-Agenda-Digital.png"
                 alt="Logo Ministerio de Energía, Turismo y Agenda Digital"
                 width={380}
                 height={100}
@@ -172,7 +173,7 @@ export function Footer() {
                 correspondiente.
               </p>
               <p className="text-gray-400 text-xs mt-2">
-                Antenistas homologados en Toledo y Madrid Sur. Reparaciones en el día.
+                Antenistas homologados en Toledo y  Sur. Reparaciones en el día.
               </p>
             </div>
           </div>

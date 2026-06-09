@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -114,11 +114,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Seseña Nuevo | Advanced Telecom`,
+  title: `Antenista en Seseña Nuevo | Antenas Toledo`,
   description: `Antenistas en Seseña Nuevo. Instalación y reparación de antenas TDT y parabólicas, videoporteros y CCTV. Seseña Viejo, El Quiñón y Vallegrande.`,
   keywords: `antenista Seseña Nuevo, antenas TDT Seseña, instalación parabólicas Seseña, videoporteros Seseña, cámaras seguridad Seseña, reparación antenas Seseña`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-sesena'
+    canonical: 'https://antenastoledo.com/antenista-sesena'
   },
   robots: {
     index: true,
@@ -186,7 +186,7 @@ export default function AldeaDelFresnoPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Solicitar presupuesto gratuito
                     </Link>
@@ -347,13 +347,13 @@ export default function AldeaDelFresnoPage() {
                   <p className="text-xl mb-8 text-white/90">Para cualquier consulta, avería o proyecto de instalación en Seseña Nuevo, no dude en llamarnos. Le ofreceremos una atención personalizada y la solución más adecuada y profesional a sus necesidades.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import type React from "react"
 
@@ -43,10 +43,11 @@ export function MobileMenu({ services = [], isOpen, onClose }: MobileMenuProps) 
           <div className="flex items-center">
             <Image
               src={validateImageSrc("/logo-advanced-telecom-horizontal.png") || "/placeholder.svg"}
-              alt="Advanced Telecom Logo"
+              alt="Antenas Toledo Logo"
               width={200}
               height={53}
               className="h-12 w-auto"
+              style={{ width: 'auto' }}
             />
           </div>
           <button onClick={onClose} className="p-2 rounded-full hover:bg-gray-100">
@@ -74,7 +75,7 @@ export function MobileMenu({ services = [], isOpen, onClose }: MobileMenuProps) 
           </Link>
 
           <Link
-            href="/antenista-de-confianza-en-toledo-y-madrid-sur"
+            href="/antenista-de-confianza-en-toledo-y--sur"
             className="flex items-center gap-3 p-3 rounded-lg hover:bg-brand-green/10 text-brand-black hover:text-brand-green"
             onClick={onClose}
           >
@@ -146,9 +147,9 @@ export function MobileMenu({ services = [], isOpen, onClose }: MobileMenuProps) 
 
         <div className="p-4 mt-4 bg-brand-green/10">
         <p className="text-brand-black font-medium mb-2">¿Necesitas ayuda?</p>
-        <Link href="tel:+34668838415" className="flex items-center gap-2 text-brand-green font-bold">
+        <Link href="tel:+34668679500" className="flex items-center gap-2 text-brand-green font-bold">
             <Phone className="h-4 w-4" />
-            668 83 84 15
+            668 67 95 00
           </Link>
         </div>
       </div>

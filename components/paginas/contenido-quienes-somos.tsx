@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import type React from "react";
 import Image from "next/image";
@@ -48,7 +48,7 @@ export default function ContenidoQuienesSomos({ data: pageData }: { data: any })
           <div className="container mx-auto px-4 md:px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="space-y-6">
-                <div className="text-green-600 font-medium">Servicios de telecomunicaciones en Toledo y Madrid Sur</div>
+                <div className="text-green-600 font-medium">Servicios de telecomunicaciones en Toledo y  Sur</div>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">{pageData.mainContent.title}</h2>
                 <div className="border-l-4 border-green-600 pl-4 italic text-gray-700">“{pageData.mainContent.quote}”</div>
                 {pageData.mainContent.paragraphs.map((p: string, i: number) => <p key={i} className={`text-gray-700 ${i === 3 ? 'font-medium' : ''}`}>{p}</p>)}
@@ -58,7 +58,7 @@ export default function ContenidoQuienesSomos({ data: pageData }: { data: any })
                   </Link>
                   <div className="flex items-center gap-2 text-gray-700 font-medium">
                      <span>o llame al</span>
-                     <Link href="tel:+34668838415" className="text-green-600 hover:text-green-700 font-bold hover:underline transition-colors duration-200">668 83 84 15</Link>
+                     <Link href="tel:+34668679500" className="text-green-600 hover:text-green-700 font-bold hover:underline transition-colors duration-200">668 67 95 00</Link>
                    </div>
                 </div>
               </div>
@@ -120,13 +120,13 @@ export default function ContenidoQuienesSomos({ data: pageData }: { data: any })
           <div className="absolute inset-0 bg-black/10"></div>
           <div className="container mx-auto px-4 md:px-6 relative z-10">
             <div className="text-center max-w-3xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">¿Necesita servicios técnicos de telecomunicaciones en Toledo y Madrid Sur?</h2>
-              <p className="text-white/90 text-lg mb-8">Contáctanos hoy mismo y descubre por qué somos la empresa de telecomunicaciones preferida en Toledo y Madrid Sur. Solicita un presupuesto sin compromiso.</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">¿Necesita servicios técnicos de telecomunicaciones en Toledo y  Sur?</h2>
+              <p className="text-white/90 text-lg mb-8">Contáctanos hoy mismo y descubre por qué somos la empresa de telecomunicaciones preferida en Toledo y  Sur. Solicita un presupuesto sin compromiso.</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contacto" className="inline-flex items-center justify-center bg-white text-gray-900 hover:bg-gray-100 rounded-full px-8 py-3 font-medium transition-colors duration-200 text-lg">
                   Solicitar presupuesto
                 </Link>
-                <Link href="tel:+34668838415" className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-gray-900 rounded-full px-8 py-3 font-medium transition-colors duration-200 text-lg">
+                <Link href="tel:+34668679500" className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-gray-900 rounded-full px-8 py-3 font-medium transition-colors duration-200 text-lg">
                   Llamar ahora
                 </Link>
               </div>

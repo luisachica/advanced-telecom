@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import ContenidoReparacionesUrgentes from "@/components/paginas/contenido-reparaciones-urgentes";
 import { SERVICIOS } from "@/data/servicios";
 import { withPhone } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Reparaciones Urgentes | Advanced Telecom",
+  title: "Reparaciones Urgentes | Antenas Toledo",
   description: withPhone("Servicio de reparaciones urgentes para telecomunicaciones. Solucionamos averías en antenas, porteros automáticos y sistemas de seguridad."),
   robots: {
     index: true,
@@ -17,19 +17,19 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.advancedtelecom.es/servicios/reparaciones-urgentes",
+    canonical: "https://antenastoledo.com/servicios/reparaciones-urgentes",
   },
   openGraph: {
-    title: "Reparaciones Urgentes | Advanced Telecom",
+    title: "Reparaciones Urgentes | Antenas Toledo",
     description: withPhone("Servicio de reparaciones urgentes para telecomunicaciones. Solucionamos averías en antenas, porteros automáticos y sistemas de seguridad."),
-    url: "https://advancedtelecom.es/servicios/reparaciones-urgentes",
-    siteName: "Advanced Telecom",
+    url: "https://antenastoledo.com/servicios/reparaciones-urgentes",
+    siteName: "Antenas Toledo",
     images: [
       {
-        url: "https://advancedtelecom.es/og-image-reparaciones-urgentes.jpg",
+        url: "https://antenastoledo.com/og-image-reparaciones-urgentes.jpg",
         width: 1200,
         height: 630,
-        alt: "Reparaciones Urgentes - Advanced Telecom",
+        alt: "Reparaciones Urgentes - Antenas Toledo",
       },
     ],
     locale: "es_ES",
@@ -45,8 +45,8 @@ export default function ReparacionesUrgentes() {
   const serviceData = {
     title: "Reparaciones urgentes",
     slug: "reparaciones-urgentes",
-    shortDescription: "Servicio rápido y eficiente para solucionar averías en sus sistemas de telecomunicaciones. Disponibles 24/7 para emergencias en toda la Comunidad de Madrid.",
-    longDescription: "En Advanced Telecom entendemos que los problemas en sus sistemas de telecomunicaciones pueden causar grandes inconvenientes. Por eso, ofrecemos un servicio de reparaciones urgentes con técnicos cualificados disponibles para atender emergencias en el menor tiempo posible. Diagnosticamos y solucionamos averías en antenas, porteros automáticos, sistemas de seguridad y más, utilizando repuestos de calidad y garantizando resultados duraderos.",
+    shortDescription: "Servicio rápido y eficiente para solucionar averías en sus sistemas de telecomunicaciones. Disponibles 24/7 para emergencias en toda la Comunidad de .",
+    longDescription: "En Antenas Toledo entendemos que los problemas en sus sistemas de telecomunicaciones pueden causar grandes inconvenientes. Por eso, ofrecemos un servicio de reparaciones urgentes con técnicos cualificados disponibles para atender emergencias en el menor tiempo posible. Diagnosticamos y solucionamos averías en antenas, porteros automáticos, sistemas de seguridad y más, utilizando repuestos de calidad y garantizando resultados duraderos.",
     heroImage: "/images/telecom/reparaciones-urgentes.jpg",
     features: [
       {
@@ -140,22 +140,22 @@ export default function ReparacionesUrgentes() {
     "name": "Reparaciones Urgentes",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Advanced Telecom",
+      "name": "Antenas Toledo",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Avenida de la Tecnología 25",
-        "addressLocality": "Madrid",
+        "addressLocality": "",
         "postalCode": "28021",
         "addressCountry": "ES"
       },
-      "telephone": "+34668838415",
+      "telephone": "+34668679500",
       "priceRange": "€€",
-      "image": "https://advancedtelecom.es/logo-advanced-telecom.jpg"
+      "image": "https://antenastoledo.com/logo-advanced-telecom.jpg"
     },
-    "description": "Servicio rápido y eficiente para solucionar averías en sus sistemas de telecomunicaciones. Disponibles 24/7 para emergencias en toda la Comunidad de Madrid.",
+    "description": "Servicio rápido y eficiente para solucionar averías en sus sistemas de telecomunicaciones. Disponibles 24/7 para emergencias en toda la Comunidad de .",
     "areaServed": {
       "@type": "City",
-      "name": "Madrid"
+      "name": ""
     },
     "serviceType": "Reparación urgente de telecomunicaciones"
   };

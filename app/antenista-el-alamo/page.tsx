@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,8 +17,8 @@ import { SERVICIOS } from "@/data/servicios";
 const municipioData = {
   nombre: "El Álamo",
   slug: "el-alamo",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
+  provincia: "",
+  comunidad: "Comunidad de ",
   codigoPostal: "28607",
   poblacion: "9.657",
   superficie: "22,2",
@@ -115,11 +115,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en El Álamo | Advanced Telecom`,
+  title: `Antenista en El Álamo | Antenas Toledo`,
   description: `✅ Tu antenista en El Álamo. Solucionamos al instante problemas de TDT, parabólicas y videoporteros. Más de 25 años de experiencia. ¡Pide presupuesto!`,
-  keywords: `antenista El Álamo, antenas TDT El Álamo, instalación antenas Madrid, reparación antenas El Álamo, telecomunicaciones El Álamo, videoporteros El Álamo`,
+  keywords: `antenista El Álamo, antenas TDT El Álamo, instalación antenas , reparación antenas El Álamo, telecomunicaciones El Álamo, videoporteros El Álamo`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-el-alamo'
+    canonical: 'https://antenastoledo.com/antenista-el-alamo'
   },
   robots: {
     index: true,
@@ -187,7 +187,7 @@ export default function ElAlamoPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llama y cuéntanos tu caso
                     </Link>
@@ -348,13 +348,13 @@ export default function ElAlamoPage() {
                   <p className="text-xl mb-8 text-white/90">Si vives en {municipioData.nombre}, no dudes en llamar o escribir. Cuéntanos tu problema o proyecto y te daremos un presupuesto gratuito y sin ningún tipo de compromiso para solucionarlo.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href={`https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20${municipioData.nombre}`} className="flex items-center gap-2">
+                      <a href={`https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20${municipioData.nombre}`} className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llama y te informamos
                       </a>
                     </Button>

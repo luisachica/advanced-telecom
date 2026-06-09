@@ -103,18 +103,6 @@ export function TestimonialsSection({ testimonials }: TestimonialsSectionProps) 
           ))}
         </div>
 
-        {/* CTA para ver más reseñas */}
-        <div className="text-center mt-12">
-          <a
-            href="https://www.google.com/search?sca_esv=9dd6fa6532a43e61&rlz=1C1CHZN_enCO1141CO1141&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EzK8akobKwQFEMkoOcskyLNdRVVf4jkYVm6CbnSdKtVTs42K5q057zZSXRnO77j3A2I3GjvmJIaPqnHvM7gAKH8roDklvBFS_f-xw7n9hU3KW7lBsgzKOs36BixoBAMPFu2htiE%3D&q=ADVANCED+TELECOM+-+Antenas+y+Videoporteros+Opiniones&sa=X&ved=2ahUKEwjI9MS9lpePAxVlSTABHdOEE0gQ0bkNegQIHhAD&biw=1366&bih=607&dpr=1"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-full font-semibold transition-colors duration-200"
-          >
-            Ver todas las reseñas en Google
-            <Star className="h-4 w-4" />
-          </a>
-        </div>
       </div>
     </section>
   )

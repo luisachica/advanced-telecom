@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,8 +17,8 @@ import { SERVICIOS } from "@/data/servicios";
 const municipioData = {
   nombre: "Navalcarnero",
   slug: "navalcarnero",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
+  provincia: "",
+  comunidad: "Comunidad de ",
   codigoPostal: "28600",
   poblacion: "—",
   superficie: "—",
@@ -127,13 +127,13 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Navalcarnero | Advanced Telecom`,
+  title: `Antenista en Navalcarnero | Antenas Toledo`,
   description:
     `Servicio de antenista profesional en Navalcarnero. Especialistas en TDT, parabólicas y videoporteros para chalets y comunidades. Garantía y presupuesto sin compromiso.`,
   keywords:
-    `antenista Navalcarnero, antenas TDT Navalcarnero, instalación antenas Madrid, reparación antenas Navalcarnero, videoporteros Navalcarnero, telecomunicaciones Navalcarnero`,
+    `antenista Navalcarnero, antenas TDT Navalcarnero, instalación antenas , reparación antenas Navalcarnero, videoporteros Navalcarnero, telecomunicaciones Navalcarnero`,
   alternates: {
-    canonical: 'https://www.advancedtelecom.es/antenista-en-navalcarnero/'
+    canonical: 'https://antenastoledo.com/antenista-en-navalcarnero/'
   },
   robots: {
     index: true,
@@ -204,7 +204,7 @@ export default function NavalcarneroPage() {
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       Solicitar presupuesto
                     </Link>
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       <Phone className="h-5 w-5 mr-2" />
                       Contactar asistencia técnica
                     </Link>
@@ -362,13 +362,13 @@ export default function NavalcarneroPage() {
                   <p className="text-xl mb-8 text-white/90">Si desea solicitar un presupuesto, realizar una consulta o programar una visita técnica, no dude en ponerse en contacto con nosotros. Estaremos encantados de atenderle.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Navalcarnero" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Navalcarnero" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

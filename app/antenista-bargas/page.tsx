@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -91,7 +91,7 @@ const municipioData = {
     },
     {
       nombre: "María José Ruiz",
-      comentario: "Advanced Telecom tiene los mejores precios del sector. Muy recomendable en Bargas.",
+      comentario: "Antenas Toledo tiene los mejores precios del sector. Muy recomendable en Bargas.",
       puntuacion: 5
     }
   ],
@@ -141,11 +141,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Bargas | Advanced Telecom`,
+  title: `Antenista en Bargas | Antenas Toledo`,
   description: withPhone(`Antenista en Bargas. Instalación y reparación de antenas TDT, antenas colectivas, parabólicas, porteros automáticos, vídeo-porteros y cámaras de vigilancia.`),
-  keywords: `antenista Bargas, antenas TDT Bargas, porteros automáticos Bargas, sin desplazamiento, Advanced Telecom, Toledo`,
+  keywords: `antenista Bargas, antenas TDT Bargas, porteros automáticos Bargas, sin desplazamiento, Antenas Toledo, Toledo`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-bargas'
+    canonical: 'https://antenastoledo.com/antenista-bargas'
   },
   robots: {
     index: true,
@@ -208,12 +208,12 @@ export default function BargasPage() {
                       <span className="text-brand-green">Antenista</span> en Bargas
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Servicio de Antenista en Bargas. Si estás buscando Instalación y reparación de antenas TDT, antenas colectivas, antenas parabólicas, porteros automáticos, vídeo-porteros y cámaras de vigilancia en Bargas, Advanced Telecom tiene todos los servicios que necesitas.
+                      Servicio de Antenista en Bargas. Si estás buscando Instalación y reparación de antenas TDT, antenas colectivas, antenas parabólicas, porteros automáticos, vídeo-porteros y cámaras de vigilancia en Bargas, Antenas Toledo tiene todos los servicios que necesitas.
                     </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llamar ahora
                     </Link>
@@ -282,8 +282,8 @@ export default function BargasPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Los mejores precios del sector con Advanced Telecom en Bargas</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">En Advanced Telecom nos caracterizamos por tener precios altamente competitivos, manteniendo la calidad en todos los servicios que ofrecemos. Puede solicitar que un técnico antenista o instalador de porteros automáticos se acerque a su vivienda para un mantenimiento, instalación o reparación.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Los mejores precios del sector con Antenas Toledo en Bargas</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">En Antenas Toledo nos caracterizamos por tener precios altamente competitivos, manteniendo la calidad en todos los servicios que ofrecemos. Puede solicitar que un técnico antenista o instalador de porteros automáticos se acerque a su vivienda para un mantenimiento, instalación o reparación.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -374,13 +374,13 @@ export default function BargasPage() {
                   <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Le atenderemos inmediatamente para reparar su avería o realizar la instalación que necesite en el menor tiempo posible. No cobramos desplazamiento.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Bargas" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Bargas" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

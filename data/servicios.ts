@@ -1,4 +1,4 @@
-
+﻿
 // data/servicios.ts
 import type { Servicio } from "@/types/servicio"
 
@@ -42,7 +42,7 @@ export const SERVICIOS: Servicio[] = [
   {
     title: "Reparaciones urgentes",
     slug: "reparaciones-urgentes",
-    description: "Servicio de reparaciones urgentes 24/7 para antenas caídas, amplificadores averiados, pérdida de señal y otros problemas técnicos. Respuesta rápida en toda Madrid.",
+    description: "Servicio de reparaciones urgentes 24/7 para antenas caídas, amplificadores averiados, pérdida de señal y otros problemas técnicos. Respuesta rápida en toda .",
     image: "/images/telecom/reparaciones-urgentes.jpg",
     iconName: "Zap"
   },

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -114,11 +114,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Cubas de la Sagra | Advanced Telecom`,
+  title: `Antenista en Cubas de la Sagra | Antenas Toledo`,
   description: `📡 Tu antenista en Cubas de la Sagra para TDT, parabólicas y videoporteros. Servicio rápido y con garantía. ✅ Pide tu presupuesto sin compromiso.`,
   keywords: `antenista Cubas de la Sagra, antenas TDT Cubas de la Sagra, instalación antenas Toledo, reparación antenas Cubas de la Sagra, telecomunicaciones La Sagra`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-cubas-de-la-sagra'
+    canonical: 'https://antenastoledo.com/antenista-cubas-de-la-sagra'
   },
   robots: {
     index: true,
@@ -186,7 +186,7 @@ export default function CubasDelaSagraPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llama y te informamos
                     </Link>
@@ -347,13 +347,13 @@ export default function CubasDelaSagraPage() {
                   <p className="text-xl mb-8 text-white/90">Si vives en {municipioData.nombre}, no dudes en ponerte en contacto. Llámanos o envíanos un WhatsApp, explícanos tu caso y te daremos un presupuesto gratuito para resolver tu problema.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20{municipioData.nombre}" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20{municipioData.nombre}" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llama y te informamos
                       </a>
                     </Button>

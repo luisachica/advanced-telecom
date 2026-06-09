@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,12 +17,12 @@ import { SERVICIOS } from "@/data/servicios";
 const municipioData = {
   nombre: "Casarrubuelos",
   slug: "casarrubuelos",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
+  provincia: "",
+  comunidad: "Comunidad de ",
   codigoPostal: "28977",
   poblacion: "3.245",
   superficie: "38,2",
-  descripcion: "Ofrecemos un servicio de antenista local y especializado para todos los vecinos de Casarrubuelos. Con más de 25 años de experiencia en el sector, nos hemos consolidado como la referencia en la instalación, mantenimiento y reparación de todo tipo de sistemas de telecomunicaciones para viviendas unifamiliares, comunidades y empresas en esta localidad de la Comunidad de Madrid.",
+  descripcion: "Ofrecemos un servicio de antenista local y especializado para todos los vecinos de Casarrubuelos. Con más de 25 años de experiencia en el sector, nos hemos consolidado como la referencia en la instalación, mantenimiento y reparación de todo tipo de sistemas de telecomunicaciones para viviendas unifamiliares, comunidades y empresas en esta localidad de la Comunidad de .",
   servicios: [
     "Televisión digital terrestre (TDT)",
     "Instalación de antenas parabólicas",
@@ -116,17 +116,17 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: "Antenista en Casarrubuelos | Advanced Telecom",
+  title: "Antenista en Casarrubuelos | Antenas Toledo",
   description: "Antenista profesional en Casarrubuelos. Instalación, reparación y mantenimiento de antenas TDT, parabólicas y porteros automáticos.",
   keywords: "antenista Casarrubuelos, instalación antenas Casarrubuelos, reparación antenas, porteros automáticos, videovigilancia, TDT Casarrubuelos",
   openGraph: {
-    title: "Antenista en Casarrubuelos | Advanced Telecom",
+    title: "Antenista en Casarrubuelos | Antenas Toledo",
     description: "Antenista profesional en Casarrubuelos. Instalación, reparación y mantenimiento de antenas TDT, parabólicas y porteros automáticos.",
-    url: "https://antenista-madrid.com/antenista-casarrubuelos",
+    url: "https://antenista-.com/antenista-casarrubuelos",
     type: "website",
   },
   alternates: {
-    canonical: "https://antenista-madrid.com/antenista-casarrubuelos"
+    canonical: "https://antenista-.com/antenista-casarrubuelos"
   }
 };
 
@@ -188,12 +188,12 @@ export default function CasarrubuuelosPage() {
                     Ofrecemos un servicio de antenista local y especializado para todos los vecinos de {municipioData.nombre}. 
                     Con más de 25 años de experiencia en el sector, nos hemos consolidado como la referencia en la instalación, 
                     mantenimiento y reparación de todo tipo de <Link href="/servicios/antenas-parabolicas" className="text-brand-green hover:underline"> sistemas de telecomunicaciones </Link>  para viviendas unifamiliares, 
-                    comunidades y empresas en esta localidad de la Comunidad de Madrid. 
+                    comunidades y empresas en esta localidad de la Comunidad de . 
                   </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llamar ahora
                     </Link>
@@ -354,13 +354,13 @@ export default function CasarrubuuelosPage() {
                   <p className="text-xl mb-8 text-white/90">Si busca una solución profesional y garantizada para su antena o portero automático, no dude en contactarnos. Le atenderemos de forma personalizada y nos desplazaremos hasta su domicilio en {municipioData.nombre} para ofrecerle la mejor solución.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Casarrubuelos" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Casarrubuelos" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

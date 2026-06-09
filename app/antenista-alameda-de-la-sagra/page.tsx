@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -105,11 +105,11 @@ const municipioData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenistas ${municipioData.nombre} | Advanced Telecom`,
+  title: `Antenistas ${municipioData.nombre} | Antenas Toledo`,
   description: `Servicios de telecomunicaciones en ${municipioData.nombre}. Antenas, porteros automáticos, cámaras de seguridad. Técnicos especializados.`,
   keywords: `telecomunicaciones ${municipioData.nombre}, antenas ${municipioData.nombre}, porteros automáticos ${municipioData.nombre}, cámaras seguridad ${municipioData.nombre}`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-alameda-de-la-sagra'
+    canonical: 'https://antenastoledo.com/antenista-alameda-de-la-sagra'
   },
   robots: {
     index: true,
@@ -177,7 +177,7 @@ export default function AlamedaDeLaSagraPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llamar ahora
                     </Link>
@@ -338,13 +338,13 @@ export default function AlamedaDeLaSagraPage() {
                   <p className="text-xl mb-8 text-white/90">Municipio histórico de La Sagra. Contacta con nosotros para un presupuesto gratuito con técnicos especializados en toda la zona.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20quiero%20más%20información%20sobre%20servicios%20de%20telecomunicaciones%20en%20Alameda%20de%20la%20Sagra" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20quiero%20más%20información%20sobre%20servicios%20de%20telecomunicaciones%20en%20Alameda%20de%20la%20Sagra" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

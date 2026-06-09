@@ -1,4 +1,4 @@
-import Image from "next/image"
+﻿import Image from "next/image"
 import Link from "next/link"
 import {
   Check,
@@ -62,7 +62,7 @@ export default function Home() {
       title: "Reparaciones urgentes",
       image: "/images/telecom/reparaciones-urgentes.jpg",
       iconName: "Zap",
-      description: "Servicio de reparaciones urgentes 24/7 para antenas caídas, amplificadores averiados, pérdida de señal y otros problemas técnicos. Respuesta rápida en toda Madrid.",
+      description: "Servicio de reparaciones urgentes 24/7 para antenas caídas, amplificadores averiados, pérdida de señal y otros problemas técnicos. Respuesta rápida en toda .",
       slug: "reparaciones-urgentes"
     }
   ]
@@ -89,10 +89,10 @@ export default function Home() {
                   desde 1995
                 </h1>
                 <p className="text-brand-black text-lg max-w-lg">
-                  Llevamos más de 25 años trabajando en el sector de las telecomunicaciones, ofreciendo instalación y reparación de antenas TDT, parabólicas, porteros automáticos y cámaras de vigilancia en Toledo y Madrid Sur.
+                  Llevamos más de 25 años trabajando en el sector de las telecomunicaciones, ofreciendo instalación y reparación de antenas TDT, parabólicas, porteros automáticos y cámaras de vigilancia en Toledo y  Sur.
                 </p>
                 <div className="flex flex-wrap gap-4 pt-4">
-                  <a href="https://wa.me/34668838415?text=Hola%2C%20quiero%20más%20información">
+                  <a href="https://wa.me/34668679500?text=Hola%2C%20quiero%20más%20información">
                     <Button className="bg-primary hover:bg-primary/90 text-white rounded-full px-8 py-6 normal-case">
                       Solicitar presupuesto sin compromiso
                     </Button>
@@ -161,10 +161,10 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">
-                ¿Por qué elegir Advanced Telecom?
+                ¿Por qué elegir Antenas Toledo?
               </h2>
               <p className="text-brand-black text-lg">
-                Más de 25 años de experiencia nos avalan como líderes en telecomunicaciones en Madrid.
+                Más de 25 años de experiencia nos avalan como líderes en telecomunicaciones en .
               </p>
             </div>
 
@@ -254,7 +254,7 @@ export default function Home() {
                       </div>
                       <div>
                         <p className="text-sm text-brand-black">Llámanos</p>
-                        <p className="font-bold text-brand-black">668 83 84 15</p>
+                        <p className="font-bold text-brand-black">668 67 95 00</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -263,7 +263,7 @@ export default function Home() {
                       </div>
                       <div>
                         <p className="text-sm text-brand-black">Escríbenos</p>
-                        <p className="font-bold text-brand-black">info@advancedtelecom.es</p>
+                        <p className="font-bold text-brand-black">antenastoledo@yahoo.com</p>
                       </div>
                     </div>
                   </div>

@@ -1,4 +1,4 @@
-import { Metadata } from 'next'
+﻿import { Metadata } from 'next'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
@@ -6,8 +6,8 @@ import { Shield, User, Database, Mail, Phone, MapPin, Clock, AlertTriangle, Chec
 import { withPhone } from '@/lib/seo'
 
 export const metadata: Metadata = {
-  title: 'Política de Privacidad | Advanced Telecom',
-  description: withPhone('Política de privacidad de Advanced Telecom. Información sobre cómo recopilamos, utilizamos y protegemos sus datos personales.'),
+  title: 'Política de Privacidad | Antenas Toledo',
+  description: withPhone('Política de privacidad de Antenas Toledo. Información sobre cómo recopilamos, utilizamos y protegemos sus datos personales.'),
   robots: 'index, follow',
 }
 
@@ -26,7 +26,7 @@ export default function PoliticaPrivacidadPage() {
             Política de Privacidad
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            En Advanced Telecom respetamos su privacidad y nos comprometemos a proteger sus datos personales
+            En Antenas Toledo respetamos su privacidad y nos comprometemos a proteger sus datos personales
           </p>
           <Badge variant="outline" className="mt-4">
             <Clock className="h-4 w-4 mr-2" />
@@ -45,7 +45,7 @@ export default function PoliticaPrivacidadPage() {
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="bg-blue-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-gray-900 mb-2">Advanced Telecom</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">Antenas Toledo</h3>
                 <div className="space-y-2 text-gray-700">
                   <div className="flex items-center gap-2">
                     <MapPin className="h-4 w-4 text-blue-600" />
@@ -53,11 +53,11 @@ export default function PoliticaPrivacidadPage() {
                   </div>
                   <div className="flex items-center gap-2">
                     <Phone className="h-4 w-4 text-blue-600" />
-                    <span>+34 668 83 84 15</span>
+                    <span>+34 668 67 95 00</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Mail className="h-4 w-4 text-blue-600" />
-                    <span>info@advancedtelecom.es</span>
+                    <span>antenastoledo@yahoo.com</span>
                   </div>
                 </div>
               </div>
@@ -263,11 +263,11 @@ export default function PoliticaPrivacidadPage() {
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
                     <Mail className="h-4 w-4 text-indigo-600" />
-                    <span className="text-gray-700">info@advancedtelecom.es</span>
+                    <span className="text-gray-700">antenastoledo@yahoo.com</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Phone className="h-4 w-4 text-indigo-600" />
-                    <span className="text-gray-700">+34 668 83 84 15</span>
+                    <span className="text-gray-700">+34 668 67 95 00</span>
                   </div>
                 </div>
               </div>
@@ -337,11 +337,11 @@ export default function PoliticaPrivacidadPage() {
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <Mail className="h-5 w-5 text-blue-600" />
-                    <span className="font-medium">info@advancedtelecom.es</span>
+                    <span className="font-medium">antenastoledo@yahoo.com</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Phone className="h-5 w-5 text-blue-600" />
-                    <span className="font-medium">+34 668 83 84 15</span>
+                    <span className="font-medium">+34 668 67 95 00</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <MapPin className="h-5 w-5 text-blue-600" />

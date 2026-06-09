@@ -1,4 +1,4 @@
-import { Metadata } from 'next'
+﻿import { Metadata } from 'next'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
@@ -6,8 +6,8 @@ import { FileText, User, Wrench, CreditCard, Shield, AlertTriangle, Clock, Check
 import { withPhone } from '@/lib/seo'
 
 export const metadata: Metadata = {
-  title: 'Términos y Condiciones | Advanced Telecom',
-  description: withPhone('Términos y condiciones de uso de los servicios de Advanced Telecom. Condiciones generales de contratación y prestación de servicios.'),
+  title: 'Términos y Condiciones | Antenas Toledo',
+  description: withPhone('Términos y condiciones de uso de los servicios de Antenas Toledo. Condiciones generales de contratación y prestación de servicios.'),
   robots: 'index, follow',
 }
 
@@ -26,7 +26,7 @@ export default function TerminosCondicionesPage() {
             Términos y Condiciones
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Condiciones generales de contratación y prestación de servicios de Advanced Telecom
+            Condiciones generales de contratación y prestación de servicios de Antenas Toledo
           </p>
           <Badge variant="outline" className="mt-4">
             <Clock className="h-4 w-4 mr-2" />
@@ -45,7 +45,7 @@ export default function TerminosCondicionesPage() {
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="bg-slate-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-gray-900 mb-2">Advanced Telecom</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">Antenas Toledo</h3>
                 <div className="space-y-2 text-gray-700">
                   <div className="flex items-center gap-2">
                     <MapPin className="h-4 w-4 text-slate-600" />
@@ -53,11 +53,11 @@ export default function TerminosCondicionesPage() {
                   </div>
                   <div className="flex items-center gap-2">
                     <Phone className="h-4 w-4 text-slate-600" />
-                    <span>+34 668 83 84 15</span>
+                    <span>+34 668 67 95 00</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Mail className="h-4 w-4 text-slate-600" />
-                    <span>info@advancedtelecom.es</span>
+                    <span>antenastoledo@yahoo.com</span>
                   </div>
                 </div>
                 <p className="text-gray-600 mt-3">
@@ -79,7 +79,7 @@ export default function TerminosCondicionesPage() {
               <div className="space-y-4">
                 <p className="text-gray-700">
                   Los presentes términos y condiciones regulan la prestación de servicios de telecomunicaciones 
-                  ofrecidos por Advanced Telecom, incluyendo:
+                  ofrecidos por Antenas Toledo, incluyendo:
                 </p>
                 <div className="grid md:grid-cols-2 gap-4">
                   <ul className="space-y-2 text-gray-700">
@@ -290,7 +290,7 @@ export default function TerminosCondicionesPage() {
             <CardContent>
               <div className="space-y-4">
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-gray-900 mb-2">Responsabilidad de Advanced Telecom</h3>
+                  <h3 className="font-semibold text-gray-900 mb-2">Responsabilidad de Antenas Toledo</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li>• Prestación del servicio con la máxima calidad técnica</li>
                     <li>• Cumplimiento de los plazos acordados</li>
@@ -349,7 +349,7 @@ export default function TerminosCondicionesPage() {
                 <div className="bg-red-50 p-4 rounded-lg">
                   <h3 className="font-semibold text-gray-900 mb-2">Causas de Fuerza Mayor</h3>
                   <p className="text-gray-700">
-                    Advanced Telecom no será responsable de retrasos o cancelaciones debidos a 
+                    Antenas Toledo no será responsable de retrasos o cancelaciones debidos a 
                     condiciones meteorológicas adversas, huelgas, o cualquier otra causa de fuerza mayor.
                   </p>
                 </div>
@@ -430,11 +430,11 @@ export default function TerminosCondicionesPage() {
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <Mail className="h-5 w-5 text-slate-600" />
-                    <span className="font-medium">info@advancedtelecom.es</span>
+                    <span className="font-medium">antenastoledo@yahoo.com</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Phone className="h-5 w-5 text-slate-600" />
-                    <span className="font-medium">+34 668 83 84 15</span>
+                    <span className="font-medium">+34 668 67 95 00</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <MapPin className="h-5 w-5 text-slate-600" />

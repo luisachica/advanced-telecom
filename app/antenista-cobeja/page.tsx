@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -114,11 +114,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Cobeja | Advanced Telecom`,
+  title: `Antenista en Cobeja | Antenas Toledo`,
   description: `✅ Tu antenista en Cobeja de confianza. Solucionamos problemas de señal TDT, instalamos parabólicas y videoporteros. Pide tu presupuesto gratis ahora.`,
   keywords: `antenista Cobeja, antenas TDT Cobeja, instalación antenas Toledo, reparación antenas Cobeja, telecomunicaciones Cobeja, videoporteros Cobeja`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-cobeja'
+    canonical: 'https://antenastoledo.com/antenista-cobeja'
   },
   robots: {
     index: true,
@@ -186,7 +186,7 @@ export default function CobejaPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llama y consúltanos
                     </Link>
@@ -347,13 +347,13 @@ export default function CobejaPage() {
                   <p className="text-xl mb-8 text-white/90">Si quieres una solución rápida y eficaz para tu antena o portero, no esperes más. Llámanos o escríbenos un WhatsApp y te atenderemos encantados.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Cobeja" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Cobeja" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar para consultar
                       </a>
                     </Button>

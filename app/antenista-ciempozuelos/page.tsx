@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -18,8 +18,8 @@ import { withPhone } from "@/lib/seo";
 const municipioData = {
   nombre: "Ciempozuelos",
   slug: "ciempozuelos",
-  provincia: "Madrid",
-  comunidad: "Comunidad de Madrid",
+  provincia: "",
+  comunidad: "Comunidad de ",
   codigoPostal: "28350",
   poblacion: "25.615",
   superficie: "49,1",
@@ -117,11 +117,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Ciempozuelos | Advanced Telecom`,
+  title: `Antenista en Ciempozuelos | Antenas Toledo`,
   description: withPhone(`Antenista en Ciempozuelos con más de 25 años de experiencia. Especialistas en TDT, antenas parabólicas, porteros automáticos y videovigilancia.`),
-  keywords: `antenista Ciempozuelos, antenas TDT Ciempozuelos, instalación antenas Madrid, reparación antenas Ciempozuelos, telecomunicaciones Ciempozuelos, porteros automáticos Ciempozuelos`,
+  keywords: `antenista Ciempozuelos, antenas TDT Ciempozuelos, instalación antenas , reparación antenas Ciempozuelos, telecomunicaciones Ciempozuelos, porteros automáticos Ciempozuelos`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-ciempozuelos'
+    canonical: 'https://antenastoledo.com/antenista-ciempozuelos'
   },
   robots: {
     index: true,
@@ -189,7 +189,7 @@ export default function CiempozuelosPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llamar para asistencia
                     </Link>
@@ -350,13 +350,13 @@ export default function CiempozuelosPage() {
                   <p className="text-xl mb-8 text-white/90">Póngase en contacto con nuestro equipo técnico para recibir asesoramiento y un presupuesto gratuito. Acudiremos a tu domicilio en {municipioData.nombre} para valorar sus necesidades y ofrecerle la mejor solución.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Ciempozuelos" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Ciempozuelos" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar vía whatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>

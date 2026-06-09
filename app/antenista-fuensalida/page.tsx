@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -116,11 +116,11 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Fuensalida | Advanced Telecom`,
+  title: `Antenista en Fuensalida | Antenas Toledo`,
   description: `⭐ Tu antenista de confianza en Fuensalida. Expertos en TDT, parabólicas y videoporteros para tu casa o comunidad. Presupuesto gratis y atención inmediata.`,
   keywords: `antenista Fuensalida, antenas TDT Fuensalida, instalación antenas Toledo, reparación antenas Fuensalida, telecomunicaciones Fuensalida`,
   alternates: {
-    canonical: 'https://advanced-telecom.es/antenista-fuensalida'
+    canonical: 'https://antenastoledo.com/antenista-fuensalida'
   },
   robots: {
     index: true,
@@ -188,7 +188,7 @@ export default function FuensalidaPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Link href="tel:+34668838415" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
+                    <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
                       Llamar ahora
                     </Link>
@@ -349,13 +349,13 @@ export default function FuensalidaPage() {
                   <p className="text-xl mb-8 text-white/90">Si necesitas un presupuesto, tienes una avería o simplemente quieres hacer una consulta, no dudes en contactar. Estamos aquí para ayudarte con un trato cercano y profesional.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668838415?text=Hola%2C%20necesito%20un%20antenista%20en%20Fuensalida" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Fuensalida" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>
                     </Button>
                     <Button asChild variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white rounded-full px-8 py-6">
-                      <a href="tel:+34668838415" className="flex items-center gap-2">
+                      <a href="tel:+34668679500" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" /> Llamar ahora
                       </a>
                     </Button>
