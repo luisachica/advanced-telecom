@@ -195,6 +195,7 @@ const IconComponent = (iconName: string) => {
 export default function PalomarejosPage() {
   return (
     <>
+      <StructuredData data={structuredData} />
       <div className="flex flex-col min-h-screen">
         <PhoneBanner />
         <MainNavigation services={[]} />
