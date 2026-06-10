@@ -110,7 +110,7 @@ export default function Home() {
               <div className="relative flex justify-center">
                 <div className="relative w-[500px] h-[500px] overflow-hidden" style={{borderRadius: '6px'}}>
                   <Image
-                    src="/images/telecom/empresa-advanced-telecom.jpg"
+                    src="/images/telecom/trabajo-antena-2023-03-27.jpg"
                     alt="Servicios de telecomunicaciones profesionales"
                     fill
                     className="object-cover"
