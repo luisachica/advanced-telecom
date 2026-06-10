@@ -6,7 +6,7 @@ import { Shield, User, Database, Mail, Phone, MapPin, Clock, AlertTriangle, Chec
 import { withPhone } from '@/lib/seo'
 
 export const metadata: Metadata = {
-  title: 'Política de Privacidad | Antenas Toledo',
+  title: 'Política de Privacidad | ☎️ 668 67 95 00',
   description: withPhone('Política de privacidad de Antenas Toledo. Información sobre cómo recopilamos, utilizamos y protegemos sus datos personales.'),
   robots: 'index, follow',
 }

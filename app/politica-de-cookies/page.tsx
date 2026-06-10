@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { withPhone } from '@/lib/seo'
 
 export const metadata: Metadata = {
-  title: 'Política de Cookies | Antenas Toledo',
+  title: 'Política de Cookies | ☎️ 668 67 95 00',
   description: withPhone('Información detallada sobre el uso de cookies en nuestro sitio web y cómo gestionar tus preferencias.'),
   alternates: {
     canonical: 'https://antenastoledo.com/politica-de-cookies/'

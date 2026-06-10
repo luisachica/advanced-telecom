@@ -4,7 +4,7 @@ import { SERVICIOS } from "@/data/servicios";
 import { withPhone } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Reparaciones Urgentes | Antenas Toledo",
+  title: "Reparaciones Urgentes | ☎️ 668 67 95 00",
   description: withPhone("Servicio de reparaciones urgentes para telecomunicaciones. Solucionamos averías en antenas, porteros automáticos y sistemas de seguridad."),
   robots: {
     index: true,
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: "https://antenastoledo.com/servicios/reparaciones-urgentes",
   },
   openGraph: {
-    title: "Reparaciones Urgentes | Antenas Toledo",
+    title: "Reparaciones Urgentes | ☎️ 668 67 95 00",
     description: withPhone("Servicio de reparaciones urgentes para telecomunicaciones. Solucionamos averías en antenas, porteros automáticos y sistemas de seguridad."),
     url: "https://antenastoledo.com/servicios/reparaciones-urgentes",
     siteName: "Antenas Toledo",

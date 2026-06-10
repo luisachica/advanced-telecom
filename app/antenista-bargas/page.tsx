@@ -141,7 +141,7 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Bargas | Antenas Toledo`,
+  title: `Antenista en Bargas | ☎️ 668 67 95 00`,
   description: withPhone(`Antenista en Bargas. Instalación y reparación de antenas TDT, antenas colectivas, parabólicas, porteros automáticos, vídeo-porteros y cámaras de vigilancia.`),
   keywords: `antenista Bargas, antenas TDT Bargas, porteros automáticos Bargas, sin desplazamiento, Antenas Toledo, Toledo`,
   alternates: {

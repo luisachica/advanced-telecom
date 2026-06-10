@@ -42,7 +42,7 @@ const serviceData = {
 };
 
 export const metadata: Metadata = {
-  title: `${serviceData.title} | Antenas Toledo`,
+  title: `${serviceData.title} | ☎️ 668 67 95 00`,
   description: withPhone(serviceData.description),
   robots: {
     index: true,

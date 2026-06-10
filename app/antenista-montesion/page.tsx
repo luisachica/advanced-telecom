@@ -115,7 +115,7 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Montesión, Toledo | Antenas Toledo`,
+  title: `Antenista en Montesión, Toledo | ☎️ 668 67 95 00`,
   description: withPhone(`Tu antenista de confianza en la urbanización Montesión. Servicio premium para TDT, parabólicas y videoporteros en tu chalet. Presupuesto sin compromiso.`),
   keywords: `antenista Montesión, antenas TDT Montesión, instalación antenas Toledo, videoporteros Montesión, telecomunicaciones Montesión, chalets alta gama`,
   alternates: {

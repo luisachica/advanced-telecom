@@ -4,7 +4,7 @@ import { SERVICIOS } from "@/data/servicios";
 import { withPhone } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Solución Interferencias 5G | Antenas Toledo",
+  title: "Solución Interferencias 5G | ☎️ 668 67 95 00",
   description: withPhone("Eliminamos las interferencias 5G en su señal de televisión. Servicio profesional de instalación de filtros LTE para recuperar la calidad."),
   robots: {
     index: true,
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: "https://antenastoledo.com/servicios/solucion-interferencias-5g",
   },
   openGraph: {
-    title: "Solución Interferencias 5G | Antenas Toledo",
+    title: "Solución Interferencias 5G | ☎️ 668 67 95 00",
     description: withPhone("Eliminamos las interferencias 5G en su señal de televisión. Servicio profesional de instalación de filtros LTE para recuperar la calidad."),
     url: "https://antenastoledo.com/servicios/solucion-interferencias-5g",
     siteName: "Antenas Toledo",

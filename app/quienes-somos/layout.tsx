@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { withPhone } from "@/lib/seo"
 
 export const metadata: Metadata = {
-  title: "Quiénes Somos | Antenas Toledo ",
+  title: "Quiénes Somos | ☎️ 668 67 95 00 ",
   description: withPhone(
     "Conozca Antenas Toledo, empresa de telecomunicaciones en  con más de 25 años de experiencia. Servicios especializados en antenas y porteros automáticos."
   ),

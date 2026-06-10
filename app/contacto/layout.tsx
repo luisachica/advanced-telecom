@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { withPhone } from "@/lib/seo"
 
 export const metadata: Metadata = {
-  title: "Contacto | Presupuesto | Antenas Toledo ",
+  title: "Contacto | Presupuesto | ☎️ 668 67 95 00 ",
   description: withPhone(
     "Contacta con nuestro equipo de telecomunicaciones en . Solicita presupuesto sin compromiso para antenas, cámaras de seguridad y porteros automáticos."
   ),

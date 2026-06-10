@@ -53,7 +53,7 @@ const pageData = {
 };
 
 export const metadata: Metadata = {
-  title: "Quiénes somos | Antenas Toledo - Empresa de Telecomunicaciones en ",
+  title: "Quiénes somos | ☎️ 668 67 95 00 - Empresa de Telecomunicaciones en ",
   description: withPhone(pageData.hero.subtitle),
   alternates: {
     canonical: `https://antenastoledo.com/${pageData.slug}`,
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
 const aboutPageSchema = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
-  "name": "Quiénes Somos | Antenas Toledo",
+  "name": "Quiénes Somos | ☎️ 668 67 95 00",
   "description": pageData.mainContent.paragraphs.join(" "),
   "url": `https://antenastoledo.com/${pageData.slug}`,
 };

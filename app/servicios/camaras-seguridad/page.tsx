@@ -4,7 +4,7 @@ import { SERVICIOS } from "@/data/servicios";
 import { withPhone } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Cámaras de seguridad | Antenas Toledo",
+  title: "Cámaras de seguridad | ☎️ 668 67 95 00",
   description: withPhone("Instalación y mantenimiento de cámaras de seguridad para hogares y empresas. Sistemas de videovigilancia profesionales con tecnología avanzada."),
   robots: {
     index: true,
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: "https://antenastoledo.com/servicios/camaras-seguridad",
   },
   openGraph: {
-    title: "Cámaras de seguridad | Antenas Toledo",
+    title: "Cámaras de seguridad | ☎️ 668 67 95 00",
     description: withPhone("Instalación y mantenimiento de cámaras de seguridad para hogares y empresas. Sistemas de videovigilancia profesionales con tecnología avanzada."),
     url: "https://antenastoledo.com/servicios/camaras-seguridad",
     siteName: "Antenas Toledo",

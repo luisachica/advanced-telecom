@@ -116,7 +116,7 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Olías del Rey | Antenas Toledo`,
+  title: `Antenista en Olías del Rey | ☎️ 668 67 95 00`,
   description: `Servicio de antenista profesional en Olías del Rey. Damos solución a averías de TDT, parabólicas y videoporteros en chalets, pisos y locales comerciales.`,
   keywords: `antenista Olías del Rey, antenas TDT Olías del Rey, instalación antenas Toledo, reparación antenas Olías del Rey, videoporteros Olías del Rey, telecomunicaciones Olías del Rey`,
   alternates: {

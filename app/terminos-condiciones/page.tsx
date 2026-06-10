@@ -6,7 +6,7 @@ import { FileText, User, Wrench, CreditCard, Shield, AlertTriangle, Clock, Check
 import { withPhone } from '@/lib/seo'
 
 export const metadata: Metadata = {
-  title: 'Términos y Condiciones | Antenas Toledo',
+  title: 'Términos y Condiciones | ☎️ 668 67 95 00',
   description: withPhone('Términos y condiciones de uso de los servicios de Antenas Toledo. Condiciones generales de contratación y prestación de servicios.'),
   robots: 'index, follow',
 }

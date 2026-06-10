@@ -117,7 +117,7 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenistas Yunclillos | Antenas Toledo`,
+  title: `Antenistas Yunclillos | ☎️ 668 67 95 00`,
   description: withPhone(`Antenistas en Yunclillos especializados en nuevas construcciones. Servicio técnico en TDT, satélite, porteros automáticos y cámaras de seguridad. ¡Solución profesional!`),
   keywords: `antenista Yunclillos, antenas TDT Yunclillos, instalación antenas Toledo, reparación antenas Yunclillos, telecomunicaciones Yunclillos, nuevas construcciones`,
   alternates: {

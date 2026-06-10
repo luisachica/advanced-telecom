@@ -123,10 +123,74 @@ const municipioData = {
   ]
 }
 
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Electrician",
+      "@id": "https://antenastoledo.com/#localbusiness",
+      "name": "Antenistas Toledo",
+      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-sur.jpg",
+      "telephone": "+34668679500",
+      "url": `https://antenastoledo.com/antenista-${municipioData.slug}`,
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toledo",
+        "addressRegion": "Toledo",
+        "postalCode": municipioData.codigoPostal,
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "39.8628",
+        "longitude": "-4.0233"
+      },
+      "areaServed": municipioData.zonasCubiertas.map((zona: string) => ({
+        "@type": "AdministrativeArea",
+        "name": zona
+      })),
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": String(municipioData.testimonios.length)
+      },
+      "review": municipioData.testimonios.slice(0, 1).map((t: any) => ({
+        "@type": "Review",
+        "author": { "@type": "Person", "name": t.nombre },
+        "reviewRating": { "@type": "Rating", "ratingValue": String(t.puntuacion) },
+        "reviewBody": t.comentario
+      }))
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `https://antenastoledo.com/antenista-${municipioData.slug}/#breadcrumb`,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://antenastoledo.com" },
+        { "@type": "ListItem", "position": 2, "name": "Servicios", "item": "https://antenastoledo.com/servicios" },
+        { "@type": "ListItem", "position": 3, "name": municipioData.nombre, "item": `https://antenastoledo.com/antenista-${municipioData.slug}` }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": `https://antenastoledo.com/antenista-${municipioData.slug}/#faq`,
+      "mainEntity": municipioData.faqs.map((faq: any) => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+      }))
+    }
+  ]
+};
 
 export const metadata: Metadata = {
-  title: `Antenista en Magán | Antenas Toledo`,
-  description: `✅ Tu antenista de confianza en Magán. Solucionamos problemas de señal TDT, instalamos parabólicas y videoporteros en tu casa. Presupuesto rápido y gratis.`,
+  title: `Antenista en Magán | ☎️ 668 67 95 00`,
+  description: `Tu antenista de confianza en Magán. Solucionamos problemas de señal TDT, instalamos parabólicas y videoporteros en tu casa. Presupuesto rápido y gratis.`,
   keywords: `antenista Magán, antenas TDT Magán, instalación antenas Toledo, reparación antenas Magán, telecomunicaciones Magán, videoporteros Magán`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-magan'
@@ -136,7 +200,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: 'Antenista en Magán | Antenas Toledo',
+    title: 'Antenista en Magán | ☎️ 668 67 95 00',
     description: '✅ Tu antenista de confianza en Magán. Solucionamos problemas de señal TDT, instalamos parabólicas y videoporteros en tu casa. Presupuesto rápido y gratis.',
     url: 'https://antenastoledo.com/antenista-magan',
     siteName: 'Antenas Toledo',
@@ -145,7 +209,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary',
-    title: 'Antenista en Magán | Antenas Toledo',
+    title: 'Antenista en Magán | ☎️ 668 67 95 00',
     description: '✅ Tu antenista de confianza en Magán. Solucionamos problemas de señal TDT, instalamos parabólicas y videoporteros en tu casa. Presupuesto rápido y gratis.',
   }
 };

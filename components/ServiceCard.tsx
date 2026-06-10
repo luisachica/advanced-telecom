@@ -57,7 +57,7 @@ export function ServiceCard({
   const imageSrc = image && image.trim() !== "" ? image : "/placeholder.svg"
 
   return (
-    <div className="group relative overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-300 hover:shadow-xl hover:shadow-2xl">
+    <div className="group relative overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-300 hover:shadow-2xl">
       <div className="relative aspect-[4/3] overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-t from-brand-black/80 via-transparent to-transparent z-10"></div>
         <Image

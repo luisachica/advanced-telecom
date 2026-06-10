@@ -116,7 +116,7 @@ const municipioData = {
 
 
 export const metadata: Metadata = {
-  title: `Antenista en Valparaíso | Antenas Toledo`,
+  title: `Antenista en Valparaíso | ☎️ 668 67 95 00`,
   description: `Antenistas en Valparaíso. Servicio técnico en TDT, satélite, porteros automáticos, video porteros y cámaras de seguridad. ¡Solución profesional!`,
   keywords: `antenista Valparaíso, antenas TDT Valparaíso, instalación antenas Toledo, reparación antenas Valparaíso, telecomunicaciones Valparaíso`,
   alternates: {

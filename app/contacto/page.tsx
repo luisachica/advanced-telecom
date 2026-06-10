@@ -50,7 +50,7 @@ const contactData = {
 
 // Metadatos para el <head> de la página
 export const metadata: Metadata = {
-  title: "Contacto | Solicita Presupuesto | Antenas Toledo ",
+  title: "Contacto | Solicita Presupuesto | ☎️ 668 67 95 00 ",
   description: withPhone("Contacta con nuestro equipo de telecomunicaciones en . Presupuesto sin compromiso para antenas, porteros automáticos y cámaras de seguridad."),
   keywords: "contacto telecomunicaciones , presupuesto antenas, teléfono empresa telecomunicaciones, email telecomunicaciones, dirección empresa telecomunicaciones",
   alternates: {
