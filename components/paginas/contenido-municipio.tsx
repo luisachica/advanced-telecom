@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React from "react";
 import Image from "next/image";
@@ -114,7 +114,7 @@ export function ContenidoMunicipio({ data }: ContenidoMunicipioProps) {
                 {/* Imagen principal */}
                 <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                   <Image
-                    src="/images/telecom/antenistas-en-toledo-.jpg"
+                    src="/images/telecom/antenistas-en-toledo.jpg"
                     alt={`Servicios de telecomunicaciones en ${data.nombre}`}
                     width={400}
                     height={200}
@@ -198,7 +198,7 @@ export function ContenidoMunicipio({ data }: ContenidoMunicipioProps) {
                   if (servicioLower.includes('portero') || servicioLower.includes('automático') || servicioLower.includes('automatico')) return '/images/telecom/portero automatico.jpg';
                   if (servicioLower.includes('interferencia') || servicioLower.includes('5g') || servicioLower.includes('wifi')) return '/images/telecom/antena-profesional.jpg';
                   if (servicioLower.includes('reparación') || servicioLower.includes('reparacion') || servicioLower.includes('urgente')) return '/images/telecom/reparaciones-urgentes.jpg';
-                  return '/images/telecom/antenistas-en-toledo-.jpg';
+                  return '/images/telecom/antenistas-en-toledo.jpg';
                 };
                 
                 return (

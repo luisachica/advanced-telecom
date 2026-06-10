@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -111,7 +111,7 @@ const structuredData = {
       "@type": "Electrician",
       "@id": "https://antenastoledo.com/#localbusiness",
       "name": "Antenistas Toledo",
-      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-.jpg",
+      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo.jpg",
       "telephone": "+34668679500",
       "url": `https://antenastoledo.com/antenista-${municipioData.slug}`,
       "address": {
@@ -232,7 +232,7 @@ export default function BariencePage() {
                 </div>
                 <div className="relative">
                   <div className="mt-20 flex justify-center relative overflow-hidden rounded-xl">
-                    <Image src="/images/telecom/antenistas-en-toledo-.jpg" alt="Antenista profesional en Barience Toledo" width={400} height={200} priority />
+                    <Image src="/images/telecom/antenistas-en-toledo.jpg" alt="Antenista profesional en Barience Toledo" width={400} height={200} priority />
                   </div>
                 </div>
               </div>
