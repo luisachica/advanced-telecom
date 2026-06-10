@@ -157,7 +157,7 @@ export function Footer() {
           <div className="flex flex-col lg:flex-row items-center gap-6">
             <div className="flex-shrink-0">
               <Image
-                src="/images/telecom/Antenista--Logo-Ministerio-de-Energía-Turismo-y-Agenda-Digital.png"
+                src="/images/telecom/Antenista-Madrid-Logo-Ministerio-de-Energía-Turismo-y-Agenda-Digital.png"
                 alt="Logo Ministerio de Energía, Turismo y Agenda Digital"
                 width={380}
                 height={100}

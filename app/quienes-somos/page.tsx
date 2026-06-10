@@ -23,7 +23,7 @@ const pageData = {
       "Con más de 25 años de experiencia en el sector, atendemos tanto a clientes particulares como empresariales, manteniendo siempre nuestro compromiso con la excelencia técnica y la satisfacción del cliente."
     ],
     images: [
-      { src: "/images/telecom/empresa-advanced-telecom.jpg", alt: "Equipo técnico especializado" },
+      { src: "/images/telecom/trabajo-antena-2023-12-22-02.jpg", alt: "Equipo técnico especializado" },
       { src: "/images/telecom/antena-profesional.jpg", alt: "Instalaciones profesionales" },
       { src: "/images/telecom/video-portero-02.jpg", alt: "Sistemas de comunicación" },
     ]
@@ -83,7 +83,7 @@ const organizationSchema = {
     "@type": "Organization",
     "name": "Antenas Toledo",
     "url": "https://antenastoledo.com",
-    "logo": "https://antenastoledo.com/logo-advanced-telecom.jpg",
+    "logo": "https://antenastoledo.com/logo-antenas-toledo.png",
     "description": pageData.hero.subtitle,
     "address": {
       "@type": "PostalAddress",
