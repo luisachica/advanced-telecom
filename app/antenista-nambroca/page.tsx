@@ -1,4 +1,4 @@
-Ôªøimport React from "react";
+import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 
-// Datos espec√≠ficos del municipio
+// Datos especÌficos del municipio
 const municipioData = {
   nombre: "Nambroca",
   slug: "nambroca",
@@ -22,57 +22,57 @@ const municipioData = {
   codigoPostal: "45190",
   poblacion: "",
   superficie: "",
-  descripcion: "Servicio de antenista profesional en Nambroca. Especialistas en TDT, parab√≥licas y videoporteros para chalets y comunidades. Presupuesto sin compromiso.",
+  descripcion: "Servicio de antenista profesional en Nambroca. Especialistas en TDT, parabÛlicas y videoporteros para chalets y comunidades. Presupuesto sin compromiso.",
   servicios: [
-    "Instalaci√≥n y reparaci√≥n de antenas TDT",
-    "Instalaci√≥n y orientaci√≥n de antenas parab√≥licas",
-    "Sistemas de videoportero y portero autom√°tico",
-    "Instalaci√≥n de videovigilancia (CCTV)",
-    "Soluci√≥n a interferencias 5G",
+    "InstalaciÛn y reparaciÛn de antenas TDT",
+    "InstalaciÛn y orientaciÛn de antenas parabÛlicas",
+    "Sistemas de videoportero y portero autom·tico",
+    "InstalaciÛn de videovigilancia (CCTV)",
+    "SoluciÛn a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Alta cualificaci√≥n t√©cnica",
+    "Alta cualificaciÛn tÈcnica",
     "Materiales homologados",
-    "Garant√≠a profesional"
+    "GarantÌa profesional"
   ],
 
   zonasCubiertas: [
     "El casco urbano de Nambroca",
-    "La urbanizaci√≥n Las Nieves",
+    "La urbanizaciÛn Las Nieves",
     "Nuevos desarrollos residenciales y chalets",
-    "Fincas y naves del t√©rmino municipal"
+    "Fincas y naves del tÈrmino municipal"
   ],
 
   cobertura: [
     { zona: "El casco urbano de Nambroca", disponible: true },
-    { zona: "La urbanizaci√≥n Las Nieves", disponible: true },
+    { zona: "La urbanizaciÛn Las Nieves", disponible: true },
     { zona: "Nuevos desarrollos residenciales y chalets", disponible: true },
-    { zona: "Fincas y naves del t√©rmino municipal", disponible: true }
+    { zona: "Fincas y naves del tÈrmino municipal", disponible: true }
   ],
 
   testimonios: [
     {
       nombre: "Gerente de empresa en Nambroca",
-      comentario: "Contactamos con ellos para la instalaci√≥n del sistema de videovigilancia en nuestra empresa y el servicio fue impecable. Muy profesionales, serios y eficientes.",
+      comentario: "Contactamos con ellos para la instalaciÛn del sistema de videovigilancia en nuestra empresa y el servicio fue impecable. Muy profesionales, serios y eficientes.",
       puntuacion: 5
     },
     {
       nombre: "Propietario de chalet",
-      comentario: "Vivo en la urbanizaci√≥n Las Nieves y ten√≠a problemas constantes con la se√±al de la TDT. Vinieron, detectaron el problema en el amplificador y lo solucionaron definitivamente. Muy recomendables.",
+      comentario: "Vivo en la urbanizaciÛn Las Nieves y tenÌa problemas constantes con la seÒal de la TDT. Vinieron, detectaron el problema en el amplificador y lo solucionaron definitivamente. Muy recomendables.",
       puntuacion: 5
     },
     {
       nombre: "Presidente de comunidad",
-      comentario: "Gestionaron la reparaci√≥n de la antena colectiva de nuestra comunidad con gran profesionalidad. Se coordinaron con la administraci√≥n y ejecutaron el trabajo en el plazo previsto.",
+      comentario: "Gestionaron la reparaciÛn de la antena colectiva de nuestra comunidad con gran profesionalidad. Se coordinaron con la administraciÛn y ejecutaron el trabajo en el plazo previsto.",
       puntuacion: 5
     }
   ],
 
   caracteristicas: [
     {
-      titulo: "Alta Cualificaci√≥n T√©cnica",
-      descripcion: "Nuestro equipo est√° en constante formaci√≥n para dominar las √∫ltimas tecnolog√≠as del sector.",
+      titulo: "Alta CualificaciÛn TÈcnica",
+      descripcion: "Nuestro equipo est· en constante formaciÛn para dominar las ˙ltimas tecnologÌas del sector.",
       icono: "Briefcase"
     },
     {
@@ -82,32 +82,32 @@ const municipioData = {
     },
     {
       titulo: "Presupuestos Transparentes y Detallados",
-      descripcion: "Presupuesto cerrado y por escrito antes de cualquier intervenci√≥n.",
+      descripcion: "Presupuesto cerrado y por escrito antes de cualquier intervenciÛn.",
       icono: "Eye"
     },
     {
-      titulo: "Garant√≠a Profesional por Escrito",
-      descripcion: "Garant√≠a completa en todas las instalaciones y reparaciones efectuadas.",
+      titulo: "GarantÌa Profesional por Escrito",
+      descripcion: "GarantÌa completa en todas las instalaciones y reparaciones efectuadas.",
       icono: "CheckCircle"
     }
   ],
 
   faqs: [
     {
-      question: "¬øRealizan el mantenimiento de la antena colectiva de una comunidad?",
-      answer: "S√≠. Ofrecemos planes de mantenimiento preventivo para comunidades de propietarios en Nambroca. Est√°n dise√±ados para asegurar el buen estado de la instalaci√≥n y evitar aver√≠as imprevistas."
+      question: "øRealizan el mantenimiento de la antena colectiva de una comunidad?",
+      answer: "SÌ. Ofrecemos planes de mantenimiento preventivo para comunidades de propietarios en Nambroca. Est·n diseÒados para asegurar el buen estado de la instalaciÛn y evitar averÌas imprevistas."
     },
     {
-      question: "¬øQu√© incluye un presupuesto est√°ndar de instalaci√≥n de antena?",
-      answer: "Incluye la antena, el m√°stil y los anclajes, el cableado exterior necesario, la mano de obra y la puesta en marcha del servicio, garantizando se√±al correcta en una toma principal."
+      question: "øQuÈ incluye un presupuesto est·ndar de instalaciÛn de antena?",
+      answer: "Incluye la antena, el m·stil y los anclajes, el cableado exterior necesario, la mano de obra y la puesta en marcha del servicio, garantizando seÒal correcta en una toma principal."
     },
     {
-      question: "¬øEs necesario cambiar toda la instalaci√≥n para solucionar interferencias 5G?",
-      answer: "No. Lo m√°s habitual y eficaz es instalar un filtro espec√≠fico en la cabecera de la instalaci√≥n, justo despu√©s de la antena, que bloquea las frecuencias de la telefon√≠a m√≥vil."
+      question: "øEs necesario cambiar toda la instalaciÛn para solucionar interferencias 5G?",
+      answer: "No. Lo m·s habitual y eficaz es instalar un filtro especÌfico en la cabecera de la instalaciÛn, justo despuÈs de la antena, que bloquea las frecuencias de la telefonÌa mÛvil."
     },
     {
-      question: "¬øQu√© m√©todos de pago aceptan?",
-      answer: "Aceptamos transferencia bancaria, pago con tarjeta a trav√©s de TPV m√≥vil y Bizum."
+      question: "øQuÈ mÈtodos de pago aceptan?",
+      answer: "Aceptamos transferencia bancaria, pago con tarjeta a travÈs de TPV mÛvil y Bizum."
     }
   ]
 }
@@ -119,7 +119,7 @@ const structuredData = {
       "@type": "Electrician",
       "@id": "https://antenastoledo.com/#localbusiness",
       "name": "Antenistas Toledo",
-      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-sur.jpg",
+      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-.jpg",
       "telephone": "+34668679500",
       "url": `https://antenastoledo.com/antenista-${municipioData.slug}`,
       "address": {
@@ -178,9 +178,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Nambroca | ‚òéÔ∏è 668 67 95 00`,
-  description: `Servicio de antenista profesional en Nambroca. Especialistas en TDT, parab√≥licas y videoporteros para chalets y comunidades. Presupuesto sin compromiso.`,
-  keywords: `antenista Nambroca, antenas TDT Nambroca, instalaci√≥n antenas Toledo, reparaci√≥n antenas Nambroca, telecomunicaciones Nambroca, videoporteros Nambroca`,
+  title: `Antenista en Nambroca | ?? 668 67 95 00`,
+  description: `Servicio de antenista profesional en Nambroca. Especialistas en TDT, parabÛlicas y videoporteros para chalets y comunidades. Presupuesto sin compromiso.`,
+  keywords: `antenista Nambroca, antenas TDT Nambroca, instalaciÛn antenas Toledo, reparaciÛn antenas Nambroca, telecomunicaciones Nambroca, videoporteros Nambroca`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-nambroca'
   },
@@ -246,14 +246,14 @@ export default function AldeaDelFresnoPage() {
                       Servicio de antenista profesional en Nambroca
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos un servicio t√©cnico de antenistas altamente cualificado para particulares, comunidades de propietarios y empresas en Nambroca. Con m√°s de 25 a√±os de experiencia en el sector, garantizamos soluciones eficaces y duraderas para cualquier incidencia relacionada con la se√±al de televisi√≥n o sus sistemas de comunicaci√≥n y seguridad.
+                      Ofrecemos un servicio tÈcnico de antenistas altamente cualificado para particulares, comunidades de propietarios y empresas en Nambroca. Con m·s de 25 aÒos de experiencia en el sector, garantizamos soluciones eficaces y duraderas para cualquier incidencia relacionada con la seÒal de televisiÛn o sus sistemas de comunicaciÛn y seguridad.
                     </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervenci√≥n
+                      Contactar para una intervenciÛn
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -265,8 +265,8 @@ export default function AldeaDelFresnoPage() {
                   {/* Imagen principal */}
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
-                      src="/images/telecom/antenistas-en-toledo-sur.jpg"
-                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio hist√≥rico de La Sagra"
+                      src="/images/telecom/antenistas-en-toledo-.jpg"
+                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histÛrico de La Sagra"
                       width={400}
                       height={200}
                       priority
@@ -282,7 +282,7 @@ export default function AldeaDelFresnoPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Nambroca y urbanizaciones</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestro equipo t√©cnico ofrece una cobertura total en todo el t√©rmino municipal, asegurando una respuesta √°gil y profesional en cada rinc√≥n de la localidad.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestro equipo tÈcnico ofrece una cobertura total en todo el tÈrmino municipal, asegurando una respuesta ·gil y profesional en cada rincÛn de la localidad.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -316,12 +316,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Nuestro Cat√°logo de Servicios Especializados */}
+          {/* Nuestro Cat·logo de Servicios Especializados */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat√°logo de servicios especializados</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Disponemos de una gama completa de soluciones t√©cnicas para satisfacer cualquier necesidad, utilizando siempre la tecnolog√≠a m√°s avanzada.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat·logo de servicios especializados</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Disponemos de una gama completa de soluciones tÈcnicas para satisfacer cualquier necesidad, utilizando siempre la tecnologÌa m·s avanzada.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -338,12 +338,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* ¬øPor Qu√© Confiar en Nuestro Servicio T√©cnico? */}
+          {/* øPor QuÈ Confiar en Nuestro Servicio TÈcnico? */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¬øPor qu√© confiar en nuestro servicio t√©cnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra profesionalidad, experiencia y compromiso con la calidad son la mejor garant√≠a para nuestros clientes.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">øPor quÈ confiar en nuestro servicio tÈcnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra profesionalidad, experiencia y compromiso con la calidad son la mejor garantÌa para nuestros clientes.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -364,7 +364,7 @@ export default function AldeaDelFresnoPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en Nambroca</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacci√≥n de los vecinos y empresas de la localidad es nuestro principal objetivo y nuestra mejor referencia.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacciÛn de los vecinos y empresas de la localidad es nuestro principal objetivo y nuestra mejor referencia.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -390,7 +390,7 @@ export default function AldeaDelFresnoPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos aqu√≠ las dudas m√°s habituales de nuestros clientes en Nambroca.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos aquÌ las dudas m·s habituales de nuestros clientes en Nambroca.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -409,7 +409,7 @@ export default function AldeaDelFresnoPage() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
                   <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Nambroca</h2>
-                  <p className="text-xl mb-8 text-white/90">Si desea solicitar un presupuesto, resolver cualquier duda o programar una visita t√©cnica, no dude en ponerse en contacto con nosotros. Estaremos encantados de atenderle.</p>
+                  <p className="text-xl mb-8 text-white/90">Si desea solicitar un presupuesto, resolver cualquier duda o programar una visita tÈcnica, no dude en ponerse en contacto con nosotros. Estaremos encantados de atenderle.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Nambroca" className="flex items-center gap-2">

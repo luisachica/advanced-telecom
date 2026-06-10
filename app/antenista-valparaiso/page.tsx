@@ -1,4 +1,4 @@
-Ôªøimport React from "react";
+import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,34 +13,34 @@ import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 
-// Datos espec√≠ficos del municipio
+// Datos especÌficos del municipio
 const municipioData = {
-  nombre: "Valpara√≠so",
+  nombre: "ValparaÌso",
   slug: "valparaiso",
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45593",
   poblacion: "1.234",
   superficie: "32,5",
-  descripcion: "Antenista profesional en Valpara√≠so especializado en instalaciones de telecomunicaciones. Servicios t√©cnicos de calidad para este municipio toledano.",
+  descripcion: "Antenista profesional en ValparaÌso especializado en instalaciones de telecomunicaciones. Servicios tÈcnicos de calidad para este municipio toledano.",
   servicios: [
-    "Instalaci√≥n de antenas TDT en Valpara√≠so",
-    "Antenas parab√≥licas para zonas residenciales",
-    "Porteros autom√°ticos y videoporteros",
+    "InstalaciÛn de antenas TDT en ValparaÌso",
+    "Antenas parabÛlicas para zonas residenciales",
+    "Porteros autom·ticos y videoporteros",
     "Sistemas de videovigilancia CCTV",
-    "Amplificadores de se√±al digital",
-    "Mantenimiento t√©cnico especializado"
+    "Amplificadores de seÒal digital",
+    "Mantenimiento tÈcnico especializado"
   ],
    serviciosDestacados: [
     "Antenista TDT especializado",
     "Instalaciones residenciales",
-    "Servicio t√©cnico local"
+    "Servicio tÈcnico local"
   ],
 
   zonasCubiertas: [
     "Casco urbano",
     "Zona residencial",
-    "√Årea industrial",
+    "¡rea industrial",
     "Urbanizaciones",
     "Viviendas aisladas"
   ],
@@ -48,25 +48,25 @@ const municipioData = {
   cobertura: [
     { zona: "Casco urbano", disponible: true },
     { zona: "Zona residencial", disponible: true },
-    { zona: "√Årea industrial", disponible: true },
+    { zona: "¡rea industrial", disponible: true },
     { zona: "Urbanizaciones", disponible: true },
     { zona: "Viviendas aisladas", disponible: true }
   ],
 
   testimonios: [
     {
-      nombre: "Antonio Garc√≠a",
-      comentario: "El mejor antenista de Valpara√≠so. Instalaci√≥n perfecta y muy profesional.",
+      nombre: "Antonio GarcÌa",
+      comentario: "El mejor antenista de ValparaÌso. InstalaciÛn perfecta y muy profesional.",
       puntuacion: 5
     },
     {
-      nombre: "Rosa Mar√≠a Jim√©nez",
-      comentario: "Servicio t√©cnico excelente. Resolvieron todos nuestros problemas de se√±al.",
+      nombre: "Rosa MarÌa JimÈnez",
+      comentario: "Servicio tÈcnico excelente. Resolvieron todos nuestros problemas de seÒal.",
       puntuacion: 5
     },
     {
       nombre: "Francisco Delgado",
-      comentario: "Antenista muy recomendable en Valpara√≠so. Trabajo impecable y garantizado.",
+      comentario: "Antenista muy recomendable en ValparaÌso. Trabajo impecable y garantizado.",
       puntuacion: 5
     }
   ],
@@ -74,42 +74,42 @@ const municipioData = {
    caracteristicas: [
     {
       titulo: "Antenista local especializado",
-      descripcion: "Conocimiento espec√≠fico de Valpara√≠so y sus necesidades t√©cnicas",
+      descripcion: "Conocimiento especÌfico de ValparaÌso y sus necesidades tÈcnicas",
       icono: "Home"
     },
     {
       titulo: "Instalaciones de calidad",
-      descripcion: "Equipos profesionales y t√©cnicas avanzadas para √≥ptima recepci√≥n",
+      descripcion: "Equipos profesionales y tÈcnicas avanzadas para Ûptima recepciÛn",
       icono: "Signal"
     },
     {
-      titulo: "Atenci√≥n personalizada",
-      descripcion: "Servicio directo y soluciones adaptadas a cada hogar en Valpara√≠so",
+      titulo: "AtenciÛn personalizada",
+      descripcion: "Servicio directo y soluciones adaptadas a cada hogar en ValparaÌso",
       icono: "Users"
     },
     {
-      titulo: "Garant√≠a profesional",
-      descripcion: "Garant√≠a completa en todas nuestras instalaciones y reparaciones",
+      titulo: "GarantÌa profesional",
+      descripcion: "GarantÌa completa en todas nuestras instalaciones y reparaciones",
       icono: "Shield"
     }
   ],
 
   faqs: [
     {
-      question: "¬øQu√© servicios de antenista ofrecen en Valpara√≠so?",
-      answer: "Como antenista especializado en Valpara√≠so, ofrecemos instalaci√≥n y reparaci√≥n de antenas TDT, parab√≥licas, porteros autom√°ticos y sistemas de videovigilancia con garant√≠a completa."
+      question: "øQuÈ servicios de antenista ofrecen en ValparaÌso?",
+      answer: "Como antenista especializado en ValparaÌso, ofrecemos instalaciÛn y reparaciÛn de antenas TDT, parabÛlicas, porteros autom·ticos y sistemas de videovigilancia con garantÌa completa."
     },
     {
-      question: "¬øCu√°l es el mejor antenista en Valpara√≠so?",
-      answer: "Somos antenistas profesionales con m√°s de 25 a√±os de experiencia en Valpara√≠so. Ofrecemos servicio t√©cnico especializado, garant√≠a y atenci√≥n personalizada."
+      question: "øCu·l es el mejor antenista en ValparaÌso?",
+      answer: "Somos antenistas profesionales con m·s de 25 aÒos de experiencia en ValparaÌso. Ofrecemos servicio tÈcnico especializado, garantÌa y atenciÛn personalizada."
     },
     {
-      question: "¬øRealizan instalaciones de antenas TDT en Valpara√≠so?",
-      answer: "S√≠, somos especialistas en instalaciones de antenas TDT en Valpara√≠so. Utilizamos equipos de alta calidad y ofrecemos garant√≠a en todas nuestras instalaciones."
+      question: "øRealizan instalaciones de antenas TDT en ValparaÌso?",
+      answer: "SÌ, somos especialistas en instalaciones de antenas TDT en ValparaÌso. Utilizamos equipos de alta calidad y ofrecemos garantÌa en todas nuestras instalaciones."
     },
     {
-      question: "¬øCu√°nto cuesta un antenista en Valpara√≠so?",
-      answer: "Los precios var√≠an seg√∫n el tipo de instalaci√≥n. Como antenista local en Valpara√≠so, ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
+      question: "øCu·nto cuesta un antenista en ValparaÌso?",
+      answer: "Los precios varÌan seg˙n el tipo de instalaciÛn. Como antenista local en ValparaÌso, ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
     }
   ]
 }
@@ -121,7 +121,7 @@ const structuredData = {
       "@type": "Electrician",
       "@id": "https://antenastoledo.com/#localbusiness",
       "name": "Antenistas Toledo",
-      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-sur.jpg",
+      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-.jpg",
       "telephone": "+34668679500",
       "url": `https://antenastoledo.com/antenista-${municipioData.slug}`,
       "address": {
@@ -180,9 +180,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Valpara√≠so | ‚òéÔ∏è 668 67 95 00`,
-  description: `Antenistas en Valpara√≠so. Servicio t√©cnico en TDT, sat√©lite, porteros autom√°ticos, video porteros y c√°maras de seguridad. ¬°Soluci√≥n profesional!`,
-  keywords: `antenista Valpara√≠so, antenas TDT Valpara√≠so, instalaci√≥n antenas Toledo, reparaci√≥n antenas Valpara√≠so, telecomunicaciones Valpara√≠so`,
+  title: `Antenista en ValparaÌso | ?? 668 67 95 00`,
+  description: `Antenistas en ValparaÌso. Servicio tÈcnico en TDT, satÈlite, porteros autom·ticos, video porteros y c·maras de seguridad. °SoluciÛn profesional!`,
+  keywords: `antenista ValparaÌso, antenas TDT ValparaÌso, instalaciÛn antenas Toledo, reparaciÛn antenas ValparaÌso, telecomunicaciones ValparaÌso`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-en-valparaiso'
   },
@@ -229,7 +229,7 @@ export default function ValparaisoPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section espec√≠fico de Torrecastillo */}
+          {/* Hero Section especÌfico de Torrecastillo */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -240,15 +240,15 @@ export default function ValparaisoPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Valpara√≠so</span>
+                    <span className="text-brand-green font-medium">ValparaÌso</span>
                   </nav>
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight mb-6">
-                    <span className="text-brand-green">Antenista</span> en Valpara√≠so
+                    <span className="text-brand-green">Antenista</span> en ValparaÌso
                   </h1>
                     <p className="text-xl text-brand-black-light mb-8 leading-relaxed">
-                    Antenista profesional en Valpara√≠so con m√°s de 25 a√±os de experiencia. Especialistas en instalaci√≥n y reparaci√≥n de antenas TDT, parab√≥licas, porteros autom√°ticos y sistemas de videovigilancia. Servicio t√©cnico garantizado en todo el municipio toledano.
+                    Antenista profesional en ValparaÌso con m·s de 25 aÒos de experiencia. Especialistas en instalaciÛn y reparaciÛn de antenas TDT, parabÛlicas, porteros autom·ticos y sistemas de videovigilancia. Servicio tÈcnico garantizado en todo el municipio toledano.
                   </p>
                   </div>
 
@@ -267,8 +267,8 @@ export default function ValparaisoPage() {
                   {/* Imagen principal */}
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
-                      src="/images/telecom/antenistas-en-toledo-sur.jpg"
-                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio hist√≥rico de La Sagra"
+                      src="/images/telecom/antenistas-en-toledo-.jpg"
+                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histÛrico de La Sagra"
                       width={400}
                       height={200}
                       priority
@@ -279,12 +279,12 @@ export default function ValparaisoPage() {
             </div>
           </section>
 
-           {/* Cobertura espec√≠fica de Valpara√≠so */}
+           {/* Cobertura especÌfica de ValparaÌso */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Valpara√≠so</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio t√©cnico profesional disponible en todo el municipio madrile√±o</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en ValparaÌso</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio tÈcnico profesional disponible en todo el municipio madrileÒo</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -293,7 +293,7 @@ export default function ValparaisoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Valpara√≠so</h3>
+                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en ValparaÌso</h3>
                       <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
                     </div>
                   </div>
@@ -318,12 +318,12 @@ export default function ValparaisoPage() {
             </div>
           </section>
 
-          {/* Servicios especializados en Valpara√≠so */}
+          {/* Servicios especializados en ValparaÌso */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en Valpara√≠so</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades del municipio madrile√±o.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en ValparaÌso</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades del municipio madrileÒo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -340,12 +340,12 @@ export default function ValparaisoPage() {
             </div>
           </section>
 
-          {/* Por qu√© elegir nuestros servicios en Valpara√≠so */}
+          {/* Por quÈ elegir nuestros servicios en ValparaÌso */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¬øPor qu√© elegir nuestro antenista en Valpara√≠so?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalaci√≥n</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">øPor quÈ elegir nuestro antenista en ValparaÌso?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalaciÛn</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -361,12 +361,12 @@ export default function ValparaisoPage() {
             </div>
           </section>
 
-         {/* Testimonios de clientes en Valpara√≠so */}
+         {/* Testimonios de clientes en ValparaÌso */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en Valpara√≠so</h2>
-            <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Valpara√≠so que conf√≠an en nuestros servicios</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en ValparaÌso</h2>
+            <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de ValparaÌso que confÌan en nuestros servicios</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -380,19 +380,19 @@ export default function ValparaisoPage() {
                     </div>
                     <p className="text-brand-black-light mb-4 italic">"{testimonio.comentario}"</p>
                     <div className="font-semibold text-brand-black">{testimonio.nombre}</div>
-                    <div className="text-sm text-brand-black-light">Cliente en Valpara√≠so</div>
+                    <div className="text-sm text-brand-black-light">Cliente en ValparaÌso</div>
                   </div>
                 ))}
               </div>
             </div>
           </section>
 
-          {/* FAQs espec√≠ficas de Valpara√≠so */}
+          {/* FAQs especÌficas de ValparaÌso */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre antenista en Valpara√≠so</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas m√°s comunes sobre nuestros servicios de antenista en el municipio</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre antenista en ValparaÌso</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas m·s comunes sobre nuestros servicios de antenista en el municipio</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -405,13 +405,13 @@ export default function ValparaisoPage() {
             </div>
           </section>
 
-          {/* CTA Section espec√≠fica para Valpara√≠so */}
+          {/* CTA Section especÌfica para ValparaÌso */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¬øNecesitas un antenista en Valpara√≠so?</h2>
-            <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Valpara√≠so.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">øNecesitas un antenista en ValparaÌso?</h2>
+            <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en ValparaÌso.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Aldea%20del%20Fresno" className="flex items-center gap-2">

@@ -1,11 +1,11 @@
-ï»¿import type { Metadata } from "next";
-import ContenidoReparacionesUrgentes from "@/components/paginas/contenido-reparaciones-urgentes";
+import type { Metadata } from "next";
+import ContenidoReparacionegentes from "@/components/paginas/contenido-reparaciones-urgentes";
 import { SERVICIOS } from "@/data/servicios";
 import { withPhone } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Reparaciones Urgentes | â˜Žï¸ 668 67 95 00",
-  description: withPhone("Servicio de reparaciones urgentes para telecomunicaciones. Solucionamos averÃ­as en antenas, porteros automÃ¡ticos y sistemas de seguridad."),
+  title: "Reparaciones Urgentes | ?? 668 67 95 00",
+  description: withPhone("Servicio de reparaciones urgentes para telecomunicaciones. Solucionamos averías en antenas, porteros automáticos y sistemas de seguridad."),
   robots: {
     index: true,
     follow: true,
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     canonical: "https://antenastoledo.com/servicios/reparaciones-urgentes",
   },
   openGraph: {
-    title: "Reparaciones Urgentes | â˜Žï¸ 668 67 95 00",
-    description: withPhone("Servicio de reparaciones urgentes para telecomunicaciones. Solucionamos averÃ­as en antenas, porteros automÃ¡ticos y sistemas de seguridad."),
+    title: "Reparaciones Urgentes | ?? 668 67 95 00",
+    description: withPhone("Servicio de reparaciones urgentes para telecomunicaciones. Solucionamos averías en antenas, porteros automáticos y sistemas de seguridad."),
     url: "https://antenastoledo.com/servicios/reparaciones-urgentes",
     siteName: "Antenas Toledo",
     images: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function ReparacionesUrgentes() {
+export default function Reparacionegentes() {
   // Encontrar el servicio correspondiente
   const servicio = SERVICIOS.find((s) => s.slug === "reparaciones-urgentes");
   
@@ -45,18 +45,18 @@ export default function ReparacionesUrgentes() {
   const serviceData = {
     title: "Reparaciones urgentes",
     slug: "reparaciones-urgentes",
-    shortDescription: "Servicio rÃ¡pido y eficiente para solucionar averÃ­as en sus sistemas de telecomunicaciones. Disponibles 24/7 para emergencias en toda la Comunidad de .",
-    longDescription: "En Antenas Toledo entendemos que los problemas en sus sistemas de telecomunicaciones pueden causar grandes inconvenientes. Por eso, ofrecemos un servicio de reparaciones urgentes con tÃ©cnicos cualificados disponibles para atender emergencias en el menor tiempo posible. Diagnosticamos y solucionamos averÃ­as en antenas, porteros automÃ¡ticos, sistemas de seguridad y mÃ¡s, utilizando repuestos de calidad y garantizando resultados duraderos.",
+    shortDescription: "Servicio rápido y eficiente para solucionar averías en sus sistemas de telecomunicaciones. Disponibles 24/7 para emergencias en toda la Comunidad de .",
+    longDescription: "En Antenas Toledo entendemos que los problemas en sus sistemas de telecomunicaciones pueden causar grandes inconvenientes. Por eso, ofrecemos un servicio de reparaciones urgentes con técnicos cualificados disponibles para atender emergencias en el menor tiempo posible. Diagnosticamos y solucionamos averías en antenas, porteros automáticos, sistemas de seguridad y más, utilizando repuestos de calidad y garantizando resultados duraderos.",
     heroImage: "/images/telecom/reparaciones-urgentes.jpg",
     features: [
       {
-        title: "Respuesta rÃ¡pida",
+        title: "Respuesta rápida",
         description: "Atendemos su emergencia en el menor tiempo posible, minimizando el tiempo sin servicio.",
         iconName: "Clock"
       },
       {
-        title: "TÃ©cnicos cualificados",
-        description: "Profesionales con amplia experiencia en la resoluciÃ³n de todo tipo de averÃ­as en telecomunicaciones.",
+        title: "Técnicos cualificados",
+        description: "Profesionales con amplia experiencia en la resolución de todo tipo de averías en telecomunicaciones.",
         iconName: "Users"
       },
       {
@@ -65,58 +65,58 @@ export default function ReparacionesUrgentes() {
         iconName: "Sparkles"
       },
       {
-        title: "GarantÃ­a en reparaciones",
-        description: "Todas nuestras reparaciones incluyen garantÃ­a para su tranquilidad y seguridad.",
+        title: "Garantía en reparaciones",
+        description: "Todas nuestras reparaciones incluyen garantía para su tranquilidad y seguridad.",
         iconName: "Shield"
       },
     ],
     process: [
       {
         title: "Contacto de emergencia",
-        description: "LlÃ¡menos o envÃ­e un WhatsApp explicando el problema que estÃ¡ experimentando."
+        description: "Llámenos o envíe un WhatsApp explicando el problema que está experimentando."
       },
       {
-        title: "DiagnÃ³stico inicial",
-        description: "Realizamos un primer diagnÃ³stico telefÃ³nico para preparar la visita tÃ©cnica adecuadamente."
+        title: "Diagnóstico inicial",
+        description: "Realizamos un primer diagnóstico telefónico para preparar la visita técnica adecuadamente."
       },
       {
-        title: "Visita tÃ©cnica urgente",
-        description: "Nuestros tÃ©cnicos acuden a su domicilio con las herramientas y repuestos necesarios."
+        title: "Visita técnica urgente",
+        description: "Nuestros técnicos acuden a su domicilio con las herramientas y repuestos necesarios."
       },
       {
-        title: "ReparaciÃ³n profesional",
-        description: "Solucionamos la averÃ­a de forma rÃ¡pida y eficiente, explicÃ¡ndole el origen del problema."
+        title: "Reparación profesional",
+        description: "Solucionamos la avería de forma rápida y eficiente, explicándole el origen del problema."
       },
       {
-        title: "VerificaciÃ³n y garantÃ­a",
-        description: "Comprobamos el correcto funcionamiento del sistema y le ofrecemos garantÃ­a en la reparaciÃ³n."
+        title: "Verificación y garantía",
+        description: "Comprobamos el correcto funcionamiento del sistema y le ofrecemos garantía en la reparación."
       },
     ],
     faqs: [
       {
-        question: "Â¿CuÃ¡nto tiempo tardan en atender una emergencia?",
-        answer: "Nuestro tiempo de respuesta varÃ­a segÃºn la ubicaciÃ³n y la carga de trabajo, pero nos comprometemos a atender emergencias en el mismo dÃ­a en la mayorÃ­a de los casos. Para averÃ­as crÃ­ticas, intentamos dar prioridad y acudir en las primeras horas tras su llamada."
+        question: "¿Cuánto tiempo tardan en atender una emergencia?",
+        answer: "Nuestro tiempo de respuesta varía según la ubicación y la carga de trabajo, pero nos comprometemos a atender emergencias en el mismo día en la mayoría de los casos. Para averías críticas, intentamos dar prioridad y acudir en las primeras horas tras su llamada."
       },
       {
-        question: "Â¿QuÃ© tipos de averÃ­as urgentes reparan?",
-        answer: "Atendemos todo tipo de averÃ­as urgentes relacionadas con telecomunicaciones: problemas en antenas TDT, averÃ­as en antenas parabÃ³licas, fallos en porteros automÃ¡ticos, sistemas de videovigilancia caÃ­dos, interferencias severas en la seÃ±al de TV, y cualquier otra emergencia relacionada con nuestros servicios."
+        question: "¿Qué tipos de averías urgentes reparan?",
+        answer: "Atendemos todo tipo de averías urgentes relacionadas con telecomunicaciones: problemas en antenas TDT, averías en antenas parabólicas, fallos en porteros automáticos, sistemas de videovigilancia caídos, interferencias severas en la señal de TV, y cualquier otra emergencia relacionada con nuestros servicios."
       },
       {
-        question: "Â¿CuÃ¡l es el coste de una reparaciÃ³n urgente?",
-        answer: "El coste depende del tipo de averÃ­a, los repuestos necesarios y la complejidad de la reparaciÃ³n. Siempre realizamos un presupuesto previo sin compromiso, detallando todos los costes para su aprobaciÃ³n antes de proceder con la reparaciÃ³n."
+        question: "¿Cuál es el coste de una reparación urgente?",
+        answer: "El coste depende del tipo de avería, los repuestos necesarios y la complejidad de la reparación. Siempre realizamos un presupuesto previo sin compromiso, detallando todos los costes para su aprobación antes de proceder con la reparación."
       },
       {
-        question: "Â¿Trabajan los fines de semana y festivos?",
-        answer: "SÃ­, nuestro servicio de reparaciones urgentes estÃ¡ disponible los 365 dÃ­as del aÃ±o, incluyendo fines de semana y festivos, para atender emergencias que no pueden esperar."
+        question: "¿Trabajan los fines de semana y festivos?",
+        answer: "Sí, nuestro servicio de reparaciones urgentes está disponible los 365 días del año, incluyendo fines de semana y festivos, para atender emergencias que no pueden esperar."
       },
       {
-        question: "Â¿QuÃ© garantÃ­a ofrecen en las reparaciones?",
-        answer: "Todas nuestras reparaciones incluyen una garantÃ­a mÃ­nima de 6 meses que cubre tanto la mano de obra como los repuestos instalados. En caso de que la averÃ­a persista o reaparezca durante este periodo, acudiremos sin coste adicional."
+        question: "¿Qué garantía ofrecen en las reparaciones?",
+        answer: "Todas nuestras reparaciones incluyen una garantía mínima de 6 meses que cubre tanto la mano de obra como los repuestos instalados. En caso de que la avería persista o reaparezca durante este periodo, acudiremos sin coste adicional."
       },
     ],
     relatedServices: [
       {
-        title: "Antenas ParabÃ³licas",
+        title: "Antenas Parabólicas",
         image: "/images/telecom/antena-parabolica.jpg",
         link: "/servicios/antenas-parabolicas"
       },
@@ -126,7 +126,7 @@ export default function ReparacionesUrgentes() {
         link: "/servicios/antenas-tdt"
       },
       {
-        title: "Porteros AutomÃ¡ticos",
+        title: "Porteros Automáticos",
         image: "/images/telecom/portero-automatico-instalacion-01.jpg",
         link: "/servicios/porteros-automaticos"
       },
@@ -143,21 +143,21 @@ export default function ReparacionesUrgentes() {
       "name": "Antenas Toledo",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Avenida de la TecnologÃ­a 25",
+        "streetAddress": "Avenida de la Tecnología 25",
         "addressLocality": "",
         "postalCode": "28021",
         "addressCountry": "ES"
       },
       "telephone": "+34668679500",
-      "priceRange": "â‚¬â‚¬",
+      "priceRange": "€€",
       "image": "https://antenastoledo.com/logo-advanced-telecom.jpg"
     },
-    "description": "Servicio rÃ¡pido y eficiente para solucionar averÃ­as en sus sistemas de telecomunicaciones. Disponibles 24/7 para emergencias en toda la Comunidad de .",
+    "description": "Servicio rápido y eficiente para solucionar averías en sus sistemas de telecomunicaciones. Disponibles 24/7 para emergencias en toda la Comunidad de .",
     "areaServed": {
       "@type": "City",
       "name": ""
     },
-    "serviceType": "ReparaciÃ³n urgente de telecomunicaciones"
+    "serviceType": "Reparación urgente de telecomunicaciones"
   };
 
   const faqSchema = {
@@ -183,7 +183,7 @@ export default function ReparacionesUrgentes() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <ContenidoReparacionesUrgentes data={serviceData} />
+      <ContenidoReparacionegentes data={serviceData} />
     </>
   );
 }

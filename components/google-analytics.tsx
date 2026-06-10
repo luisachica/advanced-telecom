@@ -5,7 +5,7 @@ import Script from 'next/script'
 import { useCookieConsent } from '@/hooks/use-cookies'
 
 // Reemplaza con tu ID de Google Analytics
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || 'G-XXXXXXXXXX'
+const GA_MEAEMENT_ID = process.env.NEXT_PUBLIC_GA_MEAEMENT_ID || 'G-XXXXXXXXXX'
 
 declare global {
   interface Window {
@@ -53,7 +53,7 @@ export function GoogleAnalytics() {
   return (
     <>
       <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEAEMENT_ID}`}
         strategy="afterInteractive"
       />
       <Script
@@ -72,7 +72,7 @@ export function GoogleAnalytics() {
             });
             
             gtag('js', new Date());
-            gtag('config', '${GA_MEASUREMENT_ID}', {
+            gtag('config', '${GA_MEAEMENT_ID}', {
               page_title: document.title,
               page_location: window.location.href,
             });
@@ -109,7 +109,7 @@ export function useGoogleAnalytics() {
       return
     }
 
-    window.gtag('config', GA_MEASUREMENT_ID, {
+    window.gtag('config', GA_MEAEMENT_ID, {
       page_path: url,
       page_title: title,
     })

@@ -1,4 +1,4 @@
-Ôªøimport React from "react";
+import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 
-// Datos espec√≠ficos del municipio
+// Datos especÌficos del municipio
 const municipioData = {
   nombre: "Camarena",
   slug: "aldea-del-fresno",
@@ -22,25 +22,25 @@ const municipioData = {
   codigoPostal: "28691",
   poblacion: "2.847",
   superficie: "47,8",
-  descripcion: "Con m√°s de dos d√©cadas de servicio en Camarena, nuestro equipo t√©cnico le ofrece una experiencia inigualable. Somos los especialistas de referencia para instalar o reparar tu antena TDT, parab√≥lica, videoportero o circuito de c√°maras de seguridad (CCTV) en cualquier punto de esta localidad toledana.",
+  descripcion: "Con m·s de dos dÈcadas de servicio en Camarena, nuestro equipo tÈcnico le ofrece una experiencia inigualable. Somos los especialistas de referencia para instalar o reparar tu antena TDT, parabÛlica, videoportero o circuito de c·maras de seguridad (CCTV) en cualquier punto de esta localidad toledana.",
   servicios: [
-    "Instalaci√≥n de antenas TDT en Camarena",
-    "Antenas parab√≥licas para zonas residenciales",
-    "Porteros autom√°ticos y videoporteros",
+    "InstalaciÛn de antenas TDT en Camarena",
+    "Antenas parabÛlicas para zonas residenciales",
+    "Porteros autom·ticos y videoporteros",
     "Sistemas de videovigilancia CCTV",
-    "Amplificadores de se√±al digital",
-    "Mantenimiento t√©cnico especializado"
+    "Amplificadores de seÒal digital",
+    "Mantenimiento tÈcnico especializado"
   ],
    serviciosDestacados: [
     "Antenista TDT especializado",
     "Instalaciones residenciales",
-    "Servicio t√©cnico local"
+    "Servicio tÈcnico local"
   ],
 
   zonasCubiertas: [
-    "Centro hist√≥rico y casco antiguo",
+    "Centro histÛrico y casco antiguo",
     "Nuevas zonas residenciales",
-    "Pol√≠gono industrial",
+    "PolÌgono industrial",
     "Todas las urbanizaciones",
     "Fincas y viviendas rurales"
   ],
@@ -48,7 +48,7 @@ const municipioData = {
   cobertura: [
     { zona: "Casco urbano", disponible: true },
     { zona: "Zona residencial", disponible: true },
-    { zona: "√Årea industrial", disponible: true },
+    { zona: "¡rea industrial", disponible: true },
     { zona: "Urbanizaciones", disponible: true },
     { zona: "Viviendas aisladas", disponible: true }
   ],
@@ -56,17 +56,17 @@ const municipioData = {
   testimonios: [
     {
       nombre: "Carlos G.",
-      comentario: "Unos profesionales de los pies a la cabeza. Me solucionaron el problema con la antena de TDT en mi chalet de Camarena el mismo d√≠a que les llam√©. Impecable.",
+      comentario: "Unos profesionales de los pies a la cabeza. Me solucionaron el problema con la antena de TDT en mi chalet de Camarena el mismo dÌa que les llamÈ. Impecable.",
       puntuacion: 5
     },
     {
-      nombre: "Luc√≠a M.",
-      comentario: "Contrat√© la instalaci√≥n de un videoportero para la comunidad y todo perfecto. El antenista fue muy amable y el resultado final, de diez. Muy recomendables en Camarena.",
+      nombre: "LucÌa M.",
+      comentario: "ContratÈ la instalaciÛn de un videoportero para la comunidad y todo perfecto. El antenista fue muy amable y el resultado final, de diez. Muy recomendables en Camarena.",
       puntuacion: 5
     },
     {
       nombre: "Antonio R.",
-      comentario: "Servicio r√°pido y a un precio justo. Se nota que conocen bien la zona de Camarena. Por fin vemos todos los canales sin cortes.",
+      comentario: "Servicio r·pido y a un precio justo. Se nota que conocen bien la zona de Camarena. Por fin vemos todos los canales sin cortes.",
       puntuacion: 5
     }
   ],
@@ -74,42 +74,42 @@ const municipioData = {
    caracteristicas: [
     {
       titulo: "Antenista local especializado",
-      descripcion: "Conocimiento espec√≠fico de Camarena y tus necesidades t√©cnicas",
+      descripcion: "Conocimiento especÌfico de Camarena y tus necesidades tÈcnicas",
       icono: "Home"
     },
     {
       titulo: "Instalaciones de calidad",
-      descripcion: "Equipos profesionales y t√©cnicas avanzadas para √≥ptima recepci√≥n",
+      descripcion: "Equipos profesionales y tÈcnicas avanzadas para Ûptima recepciÛn",
       icono: "Signal"
     },
     {
-      titulo: "Atenci√≥n personalizada",
+      titulo: "AtenciÛn personalizada",
       descripcion: "Servicio directo y soluciones adaptadas a cada hogar en Camarena",
       icono: "Users"
     },
     {
-      titulo: "Garant√≠a profesional",
-      descripcion: "Garant√≠a completa en todas nuestras instalaciones y reparaciones",
+      titulo: "GarantÌa profesional",
+      descripcion: "GarantÌa completa en todas nuestras instalaciones y reparaciones",
       icono: "Shield"
     }
   ],
 
   faqs: [
     {
-      pregunta: "¬øQu√© trabajos de antenista realizan en Camarena?",
-      respuesta: "Nuestro equipo en Camarena se especializa en todo lo relacionado con TDT, sat√©lite, porteros autom√°ticos y videovigilancia, tanto para clientes particulares como para comunidades y empresas."
+      pregunta: "øQuÈ trabajos de antenista realizan en Camarena?",
+      respuesta: "Nuestro equipo en Camarena se especializa en todo lo relacionado con TDT, satÈlite, porteros autom·ticos y videovigilancia, tanto para clientes particulares como para comunidades y empresas."
     },
     {
-      pregunta: "¬øQu√© distingue a un buen antenista en Camarena?",
-      respuesta: "La experiencia local es clave. Con m√°s de 25 a√±os en Camarena, conocemos los desaf√≠os de la se√±al en la zona y garantizamos resultados donde otros no llegan."
+      pregunta: "øQuÈ distingue a un buen antenista en Camarena?",
+      respuesta: "La experiencia local es clave. Con m·s de 25 aÒos en Camarena, conocemos los desafÌos de la seÒal en la zona y garantizamos resultados donde otros no llegan."
     },
     {
-      pregunta: "¬øPueden mejorar la se√±al de TDT en una vivienda de Camarena?",
-      respuesta: "Por supuesto. Es una de nuestras especialidades. Analizamos tu instalaci√≥n actual y aplicamos las mejoras necesarias (amplificadores, reorientaci√≥n, nuevo cableado) para lograr una se√±al potente y estable."
+      pregunta: "øPueden mejorar la seÒal de TDT en una vivienda de Camarena?",
+      respuesta: "Por supuesto. Es una de nuestras especialidades. Analizamos tu instalaciÛn actual y aplicamos las mejoras necesarias (amplificadores, reorientaciÛn, nuevo cableado) para lograr una seÒal potente y estable."
     },
     {
-      pregunta: "¬øQu√© presupuesto tiene un servicio de antenista en Camarena?",
-      respuesta: "Cada caso es diferente. Por eso, como tus antenistas de confianza en Camarena, le ofrecemos un presupuesto detallado y sin ning√∫n tipo de compromiso antes de realizar cualquier trabajo."
+      pregunta: "øQuÈ presupuesto tiene un servicio de antenista en Camarena?",
+      respuesta: "Cada caso es diferente. Por eso, como tus antenistas de confianza en Camarena, le ofrecemos un presupuesto detallado y sin ning˙n tipo de compromiso antes de realizar cualquier trabajo."
     }
   ]
 }
@@ -121,7 +121,7 @@ const structuredData = {
       "@type": "Electrician",
       "@id": "https://antenastoledo.com/#localbusiness",
       "name": "Antenistas Toledo",
-      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-sur.jpg",
+      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-.jpg",
       "telephone": "+34668679500",
       "url": `https://antenastoledo.com/antenista-${municipioData.slug}`,
       "address": {
@@ -180,9 +180,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Camarena | ‚òéÔ∏è 668 67 95 00`,
-  description: `Antenistas en Camarena. Servicio t√©cnico en TDT, sat√©lite, porteros autom√°ticos, video porteros y c√°maras de seguridad. ¬°Soluci√≥n profesional!`,
-  keywords: `antenista Camarena, antenas TDT Camarena, instalaci√≥n antenas Toledo, reparaci√≥n antenas Camarena, telecomunicaciones Camarena`,
+  title: `Antenista en Camarena | ?? 668 67 95 00`,
+  description: `Antenistas en Camarena. Servicio tÈcnico en TDT, satÈlite, porteros autom·ticos, video porteros y c·maras de seguridad. °SoluciÛn profesional!`,
+  keywords: `antenista Camarena, antenas TDT Camarena, instalaciÛn antenas Toledo, reparaciÛn antenas Camarena, telecomunicaciones Camarena`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-en-aldea-del-fresno'
   },
@@ -229,7 +229,7 @@ export default function AldeaDelFresnoPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section espec√≠fico de Torrecastillo */}
+          {/* Hero Section especÌfico de Torrecastillo */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -267,8 +267,8 @@ export default function AldeaDelFresnoPage() {
                   {/* Imagen principal */}
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
-                      src="/images/telecom/antenistas-en-toledo-sur.jpg"
-                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio hist√≥rico de La Sagra"
+                      src="/images/telecom/antenistas-en-toledo-.jpg"
+                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histÛrico de La Sagra"
                       width={400}
                       height={200}
                       priority
@@ -279,12 +279,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-           {/* Cobertura espec√≠fica de {municipioData.nombre} */}
+           {/* Cobertura especÌfica de {municipioData.nombre} */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura integral de antenista en todo {municipioData.nombre}</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra capacidad log√≠stica nos permite garantizar asistencia t√©cnica profesional en cada rinc√≥n del municipio.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra capacidad logÌstica nos permite garantizar asistencia tÈcnica profesional en cada rincÛn del municipio.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -293,8 +293,8 @@ export default function AldeaDelFresnoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">√Åreas de servicio en {municipioData.nombre}</h3>
-                      <p className="text-brand-black-light">Llegamos a todo el t√©rmino municipal con la m√°xima rapidez.</p>
+                      <h3 className="text-2xl font-semibold text-brand-black">¡reas de servicio en {municipioData.nombre}</h3>
+                      <p className="text-brand-black-light">Llegamos a todo el tÈrmino municipal con la m·xima rapidez.</p>
                     </div>
                   </div>
                  
@@ -322,7 +322,7 @@ export default function AldeaDelFresnoPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cat√°logo de servicios de antenista en {municipioData.nombre}</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cat·logo de servicios de antenista en {municipioData.nombre}</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Ofrecemos un abanico completo de soluciones en telecomunicaciones, pensadas para las particularidades de {municipioData.nombre}.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -340,12 +340,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Por qu√© elegir nuestros servicios en {municipioData.nombre} */}
+          {/* Por quÈ elegir nuestros servicios en {municipioData.nombre} */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¬øPor qu√© somos tu antenista de referencia en {municipioData.nombre}?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra reputaci√≥n se basa en la confianza, la eficacia y el profundo conocimiento local.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">øPor quÈ somos tu antenista de referencia en {municipioData.nombre}?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra reputaciÛn se basa en la confianza, la eficacia y el profundo conocimiento local.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -365,8 +365,8 @@ export default function AldeaDelFresnoPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La opini√≥n de nuestros clientes en {municipioData.nombre}</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacci√≥n de nuestros vecinos es nuestro mejor aval.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La opiniÛn de nuestros clientes en {municipioData.nombre}</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacciÛn de nuestros vecinos es nuestro mejor aval.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -387,12 +387,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* FAQs espec√≠ficas de {municipioData.nombre} */}
+          {/* FAQs especÌficas de {municipioData.nombre} */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Dudas frecuentes sobre antenistas en {municipioData.nombre}</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Aqu√≠ respondemos a las consultas m√°s habituales de nuestros clientes en la localidad.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">AquÌ respondemos a las consultas m·s habituales de nuestros clientes en la localidad.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -405,13 +405,13 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* CTA Section espec√≠fica para {municipioData.nombre} */}
+          {/* CTA Section especÌfica para {municipioData.nombre} */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¬øHablamos? Contacta con tu antenista en {municipioData.nombre}</h2>
-                  <p className="text-xl mb-8 text-white/90">Si busca una soluci√≥n eficaz y garantizada, ll√°menos. Le daremos un presupuesto gratuito y nos desplazaremos a tu domicilio en {municipioData.nombre} para resolver tu necesidad.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">øHablamos? Contacta con tu antenista en {municipioData.nombre}</h2>
+                  <p className="text-xl mb-8 text-white/90">Si busca una soluciÛn eficaz y garantizada, ll·menos. Le daremos un presupuesto gratuito y nos desplazaremos a tu domicilio en {municipioData.nombre} para resolver tu necesidad.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href={`https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20${municipioData.nombre}`} className="flex items-center gap-2">

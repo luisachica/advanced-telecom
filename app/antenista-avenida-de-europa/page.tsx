@@ -1,4 +1,4 @@
-Ôªøimport React from "react";
+import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,31 +19,31 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45005",
-  descripcion: "Antenista profesional en la zona de Avenida de Europa, Toledo. Instalaci√≥n y reparaci√≥n de antenas TDT, parab√≥licas, videoporteros y c√°maras para comunidades, pisos y negocios.",
+  descripcion: "Antenista profesional en la zona de Avenida de Europa, Toledo. InstalaciÛn y reparaciÛn de antenas TDT, parabÛlicas, videoporteros y c·maras para comunidades, pisos y negocios.",
   servicios: [
-    "Instalaci√≥n y reparaci√≥n de antenas TDT",
-    "Instalaci√≥n y orientaci√≥n de antenas parab√≥licas",
-    "Sistemas de videoportero y portero autom√°tico",
-    "Instalaci√≥n de videovigilancia (CCTV)",
-    "Soluci√≥n a interferencias 5G",
+    "InstalaciÛn y reparaciÛn de antenas TDT",
+    "InstalaciÛn y orientaciÛn de antenas parabÛlicas",
+    "Sistemas de videoportero y portero autom·tico",
+    "InstalaciÛn de videovigilancia (CCTV)",
+    "SoluciÛn a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Alta cualificaci√≥n t√©cnica",
+    "Alta cualificaciÛn tÈcnica",
     "Materiales homologados",
-    "Garant√≠a profesional"
+    "GarantÌa profesional"
   ],
   zonasCubiertas: [
     "Avenida de Europa y calles adyacentes",
     "Comunidades de vecinos del entorno",
     "Zona comercial y de servicios",
-    "Urbanizaciones residenciales pr√≥ximas"
+    "Urbanizaciones residenciales prÛximas"
   ],
   cobertura: [
     { zona: "Avenida de Europa y calles adyacentes", disponible: true },
     { zona: "Comunidades de vecinos del entorno", disponible: true },
     { zona: "Zona comercial y de servicios", disponible: true },
-    { zona: "Urbanizaciones residenciales pr√≥ximas", disponible: true }
+    { zona: "Urbanizaciones residenciales prÛximas", disponible: true }
   ],
   testimonios: [
     {
@@ -52,8 +52,8 @@ const municipioData = {
       puntuacion: 5
     },
     {
-      nombre: "Due√±o de local comercial",
-      comentario: "Instalaron las c√°maras de seguridad en mi tienda. El sistema es intuitivo, la imagen muy n√≠tida y el t√©cnico nos explic√≥ todo con paciencia. Muy recomendables.",
+      nombre: "DueÒo de local comercial",
+      comentario: "Instalaron las c·maras de seguridad en mi tienda. El sistema es intuitivo, la imagen muy nÌtida y el tÈcnico nos explicÛ todo con paciencia. Muy recomendables.",
       puntuacion: 5
     },
     {
@@ -64,8 +64,8 @@ const municipioData = {
   ],
   caracteristicas: [
     {
-      titulo: "Alta Cualificaci√≥n T√©cnica",
-      descripcion: "T√©cnicos especializados con formaci√≥n continua en las √∫ltimas tecnolog√≠as.",
+      titulo: "Alta CualificaciÛn TÈcnica",
+      descripcion: "TÈcnicos especializados con formaciÛn continua en las ˙ltimas tecnologÌas.",
       icono: "Briefcase"
     },
     {
@@ -79,27 +79,27 @@ const municipioData = {
       icono: "Eye"
     },
     {
-      titulo: "Garant√≠a Profesional",
-      descripcion: "Garant√≠a completa en instalaciones y reparaciones, entregada por escrito.",
+      titulo: "GarantÌa Profesional",
+      descripcion: "GarantÌa completa en instalaciones y reparaciones, entregada por escrito.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¬øCu√°nto cuesta renovar la antena colectiva de una comunidad en Avenida de Europa?",
-      answer: "El precio depende del n√∫mero de viviendas, el tipo de equipo necesario y el estado de la instalaci√≥n existente. Realizamos visita t√©cnica previa gratuita y entregamos presupuesto cerrado sin compromiso."
+      question: "øCu·nto cuesta renovar la antena colectiva de una comunidad en Avenida de Europa?",
+      answer: "El precio depende del n˙mero de viviendas, el tipo de equipo necesario y el estado de la instalaciÛn existente. Realizamos visita tÈcnica previa gratuita y entregamos presupuesto cerrado sin compromiso."
     },
     {
-      question: "¬øPueden instalar m√°s tomas de televisi√≥n en mi piso?",
-      answer: "S√≠. Realizamos ampliaciones de distribuci√≥n interior a√±adiendo tomas de se√±al en habitaciones, salones o cualquier estancia que lo requiera, aprovechando la instalaci√≥n existente."
+      question: "øPueden instalar m·s tomas de televisiÛn en mi piso?",
+      answer: "SÌ. Realizamos ampliaciones de distribuciÛn interior aÒadiendo tomas de seÒal en habitaciones, salones o cualquier estancia que lo requiera, aprovechando la instalaciÛn existente."
     },
     {
-      question: "¬øTrabajan con todas las comunidades de la zona de Avenida de Europa?",
-      answer: "S√≠. Atendemos tanto instalaciones individuales como colectivas para comunidades de propietarios de cualquier tama√±o. Ofrecemos contratos de mantenimiento anual para comunidades."
+      question: "øTrabajan con todas las comunidades de la zona de Avenida de Europa?",
+      answer: "SÌ. Atendemos tanto instalaciones individuales como colectivas para comunidades de propietarios de cualquier tamaÒo. Ofrecemos contratos de mantenimiento anual para comunidades."
     },
     {
-      question: "¬øQu√© incluye el servicio de reparaci√≥n urgente?",
-      answer: "El servicio urgente incluye desplazamiento, diagn√≥stico completo de la instalaci√≥n, reparaci√≥n de la aver√≠a y verificaci√≥n de la se√±al en todas las tomas afectadas. Materiales adicionales se presupuestan aparte."
+      question: "øQuÈ incluye el servicio de reparaciÛn urgente?",
+      answer: "El servicio urgente incluye desplazamiento, diagnÛstico completo de la instalaciÛn, reparaciÛn de la averÌa y verificaciÛn de la seÒal en todas las tomas afectadas. Materiales adicionales se presupuestan aparte."
     }
   ]
 };
@@ -111,7 +111,7 @@ const structuredData = {
       "@type": "Electrician",
       "@id": "https://antenastoledo.com/#localbusiness",
       "name": "Antenistas Toledo",
-      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-sur.jpg",
+      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-.jpg",
       "telephone": "+34668679500",
       "url": `https://antenastoledo.com/antenista-${municipioData.slug}`,
       "address": {
@@ -170,9 +170,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Avenida de Europa Toledo | ‚òéÔ∏è 668 67 95 00`,
-  description: `Antenista en Avenida de Europa, Toledo. TDT, parab√≥licas, videoporteros y c√°maras para comunidades, pisos y negocios. Presupuesto gratuito.`,
-  keywords: `antenista Avenida de Europa Toledo, antenas TDT Toledo, instalaci√≥n antenas comunidades Toledo, reparaci√≥n antenas Avenida Europa Toledo, antenista Toledo`,
+  title: `Antenista en Avenida de Europa Toledo | ?? 668 67 95 00`,
+  description: `Antenista en Avenida de Europa, Toledo. TDT, parabÛlicas, videoporteros y c·maras para comunidades, pisos y negocios. Presupuesto gratuito.`,
+  keywords: `antenista Avenida de Europa Toledo, antenas TDT Toledo, instalaciÛn antenas comunidades Toledo, reparaciÛn antenas Avenida Europa Toledo, antenista Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-avenida-de-europa'
   },
@@ -217,13 +217,13 @@ export default function AvenidaDeEuropaPage() {
                       Antenista profesional en Avenida de Europa, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos servicio de antenista en la zona de Avenida de Europa y su entorno residencial en Toledo. Atendemos comunidades de vecinos, pisos particulares, locales comerciales y oficinas con instalaciones de antenas TDT, parab√≥licas, videoporteros y sistemas de videovigilancia. M√°s de 25 a√±os de experiencia en Toledo.
+                      Ofrecemos servicio de antenista en la zona de Avenida de Europa y su entorno residencial en Toledo. Atendemos comunidades de vecinos, pisos particulares, locales comerciales y oficinas con instalaciones de antenas TDT, parabÛlicas, videoporteros y sistemas de videovigilancia. M·s de 25 aÒos de experiencia en Toledo.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervenci√≥n
+                      Contactar para una intervenciÛn
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -232,7 +232,7 @@ export default function AvenidaDeEuropaPage() {
                 </div>
                 <div className="relative">
                   <div className="mt-20 flex justify-center relative overflow-hidden rounded-xl">
-                    <Image src="/images/telecom/antenistas-en-toledo-sur.jpg" alt="Antenista profesional en Avenida de Europa Toledo" width={400} height={200} priority />
+                    <Image src="/images/telecom/antenistas-en-toledo-.jpg" alt="Antenista profesional en Avenida de Europa Toledo" width={400} height={200} priority />
                   </div>
                 </div>
               </div>
@@ -243,7 +243,7 @@ export default function AvenidaDeEuropaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Avenida de Europa y alrededores</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la zona con respuesta √°gil y t√©cnicos especializados.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la zona con respuesta ·gil y tÈcnicos especializados.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -253,7 +253,7 @@ export default function AvenidaDeEuropaPage() {
                     </div>
                     <div>
                       <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en Avenida de Europa</h3>
-                      <p className="text-brand-black-light">Antenista profesional en toda el √°rea</p>
+                      <p className="text-brand-black-light">Antenista profesional en toda el ·rea</p>
                     </div>
                   </div>
                   <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -278,7 +278,7 @@ export default function AvenidaDeEuropaPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat√°logo de servicios especializados</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat·logo de servicios especializados</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Todas las soluciones de telecomunicaciones para su hogar o negocio en Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -292,7 +292,7 @@ export default function AvenidaDeEuropaPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¬øPor qu√© confiar en nuestro servicio t√©cnico?</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">øPor quÈ confiar en nuestro servicio tÈcnico?</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Calidad y profesionalidad demostrada en cientos de instalaciones en Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -356,7 +356,7 @@ export default function AvenidaDeEuropaPage() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
                   <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Avenida de Europa</h2>
-                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto gratuito o llame para una intervenci√≥n urgente en la zona.</p>
+                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto gratuito o llame para una intervenciÛn urgente en la zona.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Avenida%20de%20Europa%20Toledo" className="flex items-center gap-2">

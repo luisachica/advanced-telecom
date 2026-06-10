@@ -1,4 +1,4 @@
-Ôªøimport React from "react";
+import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,26 +13,26 @@ import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 
-// Datos espec√≠ficos del municipio
+// Datos especÌficos del municipio
 const municipioData = {
-  nombre: "Ol√≠as del Rey",
+  nombre: "OlÌas del Rey",
   slug: "olias-del-rey",
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45280",
   poblacion: "",
   superficie: "",
-  descripcion: "Antenista profesional en Ol√≠as del Rey especializado en instalaciones y reparaciones de telecomunicaciones. Servicio urgente y de calidad en todo el municipio.",
+  descripcion: "Antenista profesional en OlÌas del Rey especializado en instalaciones y reparaciones de telecomunicaciones. Servicio urgente y de calidad en todo el municipio.",
   servicios: [
-    "Instalaci√≥n y reparaci√≥n de antenas TDT en Ol√≠as del Rey",
-    "Montaje y orientaci√≥n de antenas parab√≥licas (sat√©lite)",
-    "Instalaci√≥n de porteros autom√°ticos y videoporteros",
-    "C√°maras de seguridad y sistemas CCTV",
+    "InstalaciÛn y reparaciÛn de antenas TDT en OlÌas del Rey",
+    "Montaje y orientaciÛn de antenas parabÛlicas (satÈlite)",
+    "InstalaciÛn de porteros autom·ticos y videoporteros",
+    "C·maras de seguridad y sistemas CCTV",
     "Soluciones contra interferencias 4G/5G y amplificadores",
-    "Reparaciones urgentes y mantenimiento t√©cnico"
+    "Reparaciones urgentes y mantenimiento tÈcnico"
   ],
    serviciosDestacados: [
-    "Antenista TDT y parab√≥lica",
+    "Antenista TDT y parabÛlica",
     "Videoporteros y CCTV",
     "Servicio urgente en 2 horas"
   ],
@@ -40,7 +40,7 @@ const municipioData = {
   zonasCubiertas: [
     "Casco urbano",
     "Zonas comerciales",
-    "√Åreas residenciales",
+    "¡reas residenciales",
     "Urbanizaciones y comunidades",
     "Viviendas aisladas"
   ],
@@ -48,25 +48,25 @@ const municipioData = {
   cobertura: [
     { zona: "Casco urbano", disponible: true },
     { zona: "Zonas comerciales", disponible: true },
-    { zona: "√Åreas residenciales", disponible: true },
+    { zona: "¡reas residenciales", disponible: true },
     { zona: "Urbanizaciones y comunidades", disponible: true },
     { zona: "Viviendas aisladas", disponible: true }
   ],
 
   testimonios: [
     {
-      nombre: "Laura G√≥mez",
-      comentario: "Servicio r√°pido y profesional en Ol√≠as del Rey. Televisi√≥n perfecta en todas las habitaciones.",
+      nombre: "Laura GÛmez",
+      comentario: "Servicio r·pido y profesional en OlÌas del Rey. TelevisiÛn perfecta en todas las habitaciones.",
       puntuacion: 5
     },
     {
-      nombre: "Jos√© Manuel Ortega",
-      comentario: "Nos instalaron un videoportero y mejoraron la se√±al TDT. Muy recomendables.",
+      nombre: "JosÈ Manuel Ortega",
+      comentario: "Nos instalaron un videoportero y mejoraron la seÒal TDT. Muy recomendables.",
       puntuacion: 5
     },
     {
-      nombre: "Marta Hern√°ndez",
-      comentario: "Detectaron interferencias 5G y lo solucionaron con un filtro. Atenci√≥n excelente.",
+      nombre: "Marta Hern·ndez",
+      comentario: "Detectaron interferencias 5G y lo solucionaron con un filtro. AtenciÛn excelente.",
       puntuacion: 5
     }
   ],
@@ -74,42 +74,42 @@ const municipioData = {
    caracteristicas: [
     {
       titulo: "Experiencia local",
-      descripcion: "Conocimiento espec√≠fico de Ol√≠as del Rey y su orograf√≠a",
+      descripcion: "Conocimiento especÌfico de OlÌas del Rey y su orografÌa",
       icono: "Home"
     },
     {
       titulo: "Materiales de calidad",
-      descripcion: "Equipos y accesorios profesionales para m√°xima durabilidad",
+      descripcion: "Equipos y accesorios profesionales para m·xima durabilidad",
       icono: "Signal"
     },
     {
       titulo: "Presupuesto transparente",
-      descripcion: "Precios claros, sin sorpresas y asesor√≠a honesta",
+      descripcion: "Precios claros, sin sorpresas y asesorÌa honesta",
       icono: "Users"
     },
     {
-      titulo: "Garant√≠a profesional",
-      descripcion: "Todas las instalaciones y reparaciones con garant√≠a",
+      titulo: "GarantÌa profesional",
+      descripcion: "Todas las instalaciones y reparaciones con garantÌa",
       icono: "Shield"
     }
   ],
 
   faqs: [
     {
-      question: "¬øQu√© servicios de antenista ofrecen en Ol√≠as del Rey?",
-      answer: "Instalaci√≥n y reparaci√≥n de antenas TDT y sat√©lite, porteros autom√°ticos, videoporteros, CCTV y soluciones contra interferencias 4G/5G."
+      question: "øQuÈ servicios de antenista ofrecen en OlÌas del Rey?",
+      answer: "InstalaciÛn y reparaciÛn de antenas TDT y satÈlite, porteros autom·ticos, videoporteros, CCTV y soluciones contra interferencias 4G/5G."
     },
     {
-      question: "¬øAtienden urgencias en Ol√≠as del Rey?",
-      answer: "S√≠, ofrecemos servicio urgente con respuesta habitual en menos de 2 horas dentro del municipio."
+      question: "øAtienden urgencias en OlÌas del Rey?",
+      answer: "SÌ, ofrecemos servicio urgente con respuesta habitual en menos de 2 horas dentro del municipio."
     },
     {
-      question: "¬øTrabajan con comunidades de vecinos?",
-      answer: "S√≠, realizamos instalaciones y mantenimiento para comunidades, urbanizaciones y negocios."
+      question: "øTrabajan con comunidades de vecinos?",
+      answer: "SÌ, realizamos instalaciones y mantenimiento para comunidades, urbanizaciones y negocios."
     },
     {
-      question: "¬øOfrecen garant√≠a en las instalaciones?",
-      answer: "Todas nuestras instalaciones y reparaciones incluyen garant√≠a y soporte t√©cnico."
+      question: "øOfrecen garantÌa en las instalaciones?",
+      answer: "Todas nuestras instalaciones y reparaciones incluyen garantÌa y soporte tÈcnico."
     }
   ]
 }
@@ -121,7 +121,7 @@ const structuredData = {
       "@type": "Electrician",
       "@id": "https://antenastoledo.com/#localbusiness",
       "name": "Antenistas Toledo",
-      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-sur.jpg",
+      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-.jpg",
       "telephone": "+34668679500",
       "url": `https://antenastoledo.com/antenista-${municipioData.slug}`,
       "address": {
@@ -180,9 +180,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Ol√≠as del Rey | ‚òéÔ∏è 668 67 95 00`,
-  description: `Servicio de antenista profesional en Ol√≠as del Rey. Damos soluci√≥n a aver√≠as de TDT, parab√≥licas y videoporteros en chalets, pisos y locales comerciales.`,
-  keywords: `antenista Ol√≠as del Rey, antenas TDT Ol√≠as del Rey, instalaci√≥n antenas Toledo, reparaci√≥n antenas Ol√≠as del Rey, videoporteros Ol√≠as del Rey, telecomunicaciones Ol√≠as del Rey`,
+  title: `Antenista en OlÌas del Rey | ?? 668 67 95 00`,
+  description: `Servicio de antenista profesional en OlÌas del Rey. Damos soluciÛn a averÌas de TDT, parabÛlicas y videoporteros en chalets, pisos y locales comerciales.`,
+  keywords: `antenista OlÌas del Rey, antenas TDT OlÌas del Rey, instalaciÛn antenas Toledo, reparaciÛn antenas OlÌas del Rey, videoporteros OlÌas del Rey, telecomunicaciones OlÌas del Rey`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-olias-del-rey'
   },
@@ -229,7 +229,7 @@ export default function OliasDelReyPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section espec√≠fico de Ol√≠as del Rey */}
+          {/* Hero Section especÌfico de OlÌas del Rey */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -240,15 +240,15 @@ export default function OliasDelReyPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Ol√≠as del Rey</span>
+                    <span className="text-brand-green font-medium">OlÌas del Rey</span>
                   </nav>
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      Antenista en <span className="text-brand-green">Ol√≠as del Rey</span>
+                      Antenista en <span className="text-brand-green">OlÌas del Rey</span>
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Le ofrecemos un servicio t√©cnico integral de antenista en Ol√≠as del Rey, dirigido a particulares, comunidades de propietarios y empresas. Con m√°s de 25 a√±os de experiencia, garantizamos soluciones r√°pidas, fiables y duraderas para cualquier necesidad relacionada con sus sistemas de telecomunicaciones.
+                      Le ofrecemos un servicio tÈcnico integral de antenista en OlÌas del Rey, dirigido a particulares, comunidades de propietarios y empresas. Con m·s de 25 aÒos de experiencia, garantizamos soluciones r·pidas, fiables y duraderas para cualquier necesidad relacionada con sus sistemas de telecomunicaciones.
                     </p>
                   </div>
 
@@ -267,8 +267,8 @@ export default function OliasDelReyPage() {
                   {/* Imagen principal */}
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
-                      src="/images/telecom/antenistas-en-toledo-sur.jpg"
-                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio hist√≥rico de La Sagra"
+                      src="/images/telecom/antenistas-en-toledo-.jpg"
+                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histÛrico de La Sagra"
                       width={400}
                       height={200}
                       priority
@@ -279,12 +279,12 @@ export default function OliasDelReyPage() {
             </div>
           </section>
 
-           {/* Cobertura espec√≠fica de Ol√≠as del Rey */}
+           {/* Cobertura especÌfica de OlÌas del Rey */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Ol√≠as del Rey</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio t√©cnico profesional disponible en todo el municipio madrile√±o</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en OlÌas del Rey</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio tÈcnico profesional disponible en todo el municipio madrileÒo</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -293,7 +293,7 @@ export default function OliasDelReyPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Ol√≠as del Rey</h3>
+                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en OlÌas del Rey</h3>
                       <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
                     </div>
                   </div>
@@ -318,12 +318,12 @@ export default function OliasDelReyPage() {
             </div>
           </section>
 
-          {/* Servicios especializados en Ol√≠as del Rey */}
+          {/* Servicios especializados en OlÌas del Rey */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en Ol√≠as del Rey</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades del municipio madrile√±o.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicios de antenista en OlÌas del Rey</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones profesionales de telecomunicaciones adaptadas a las necesidades del municipio madrileÒo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -340,12 +340,12 @@ export default function OliasDelReyPage() {
             </div>
           </section>
 
-          {/* Por qu√© elegir nuestros servicios en Ol√≠as del Rey */}
+          {/* Por quÈ elegir nuestros servicios en OlÌas del Rey */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¬øPor qu√© elegir nuestro antenista en Ol√≠as del Rey?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalaci√≥n</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">øPor quÈ elegir nuestro antenista en OlÌas del Rey?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalaciÛn</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -361,12 +361,12 @@ export default function OliasDelReyPage() {
             </div>
           </section>
 
-         {/* Testimonios de clientes en Ol√≠as del Rey */}
+         {/* Testimonios de clientes en OlÌas del Rey */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en Ol√≠as del Rey</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Ol√≠as del Rey que conf√≠an en nuestros servicios</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en OlÌas del Rey</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de OlÌas del Rey que confÌan en nuestros servicios</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -380,19 +380,19 @@ export default function OliasDelReyPage() {
                     </div>
                     <p className="text-brand-black-light mb-4 italic">"{testimonio.comentario}"</p>
                     <div className="font-semibold text-brand-black">{testimonio.nombre}</div>
-                    <div className="text-sm text-brand-black-light">Cliente en Ol√≠as del Rey</div>
+                    <div className="text-sm text-brand-black-light">Cliente en OlÌas del Rey</div>
                   </div>
                 ))}
               </div>
             </div>
           </section>
 
-          {/* FAQs espec√≠ficas de Ol√≠as del Rey */}
+          {/* FAQs especÌficas de OlÌas del Rey */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Ol√≠as del Rey</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas m√°s comunes sobre nuestros servicios de antenista en el municipio</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en OlÌas del Rey</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas m·s comunes sobre nuestros servicios de antenista en el municipio</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -405,13 +405,13 @@ export default function OliasDelReyPage() {
             </div>
           </section>
 
-          {/* CTA Section espec√≠fica para Ol√≠as del Rey */}
+          {/* CTA Section especÌfica para OlÌas del Rey */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¬øNecesitas un antenista en Ol√≠as del Rey?</h2>
-                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Ol√≠as del Rey.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">øNecesitas un antenista en OlÌas del Rey?</h2>
+                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en OlÌas del Rey.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Ol%C3%ADas%20del%20Rey" className="flex items-center gap-2">

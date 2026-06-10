@@ -1,4 +1,4 @@
-ï»¿"use client"
+"use client"
 
 import type React from "react"
 
@@ -8,7 +8,7 @@ import Image from "next/image"
 import { Home, Briefcase, FileText, MessageCircle, ChevronDown, X, Phone, Info, BadgeCheck } from "lucide-react"
 import { ServiceIcon } from "@/components/ServiceIcon"
 
-// FunciÃ³n para validar rutas de imÃ¡genes
+// Función para validar rutas de imágenes
 const validateImageSrc = (src: string | undefined | null): string => {
   return src && src.trim() !== "" ? src : "/placeholder.svg"
 }
@@ -18,8 +18,8 @@ interface MobileMenuProps {
     title: string
     iconName: string
     description: string
-    link?: string // AÃ±adir propiedad opcional para el enlace
-    slug?: string // AÃ±adir propiedad opcional para el slug
+    link?: string // Añadir propiedad opcional para el enlace
+    slug?: string // Añadir propiedad opcional para el slug
   }[]
   isOpen: boolean
   onClose: () => void
@@ -30,7 +30,7 @@ export function MobileMenu({ services = [], isOpen, onClose }: MobileMenuProps) 
 
   if (!isOpen) return null
 
-  // Mostrar el menÃº de servicios solo si hay servicios
+  // Mostrar el menú de servicios solo si hay servicios
   const showServicesMenu = services.length > 0
 
   return (
@@ -71,11 +71,11 @@ export function MobileMenu({ services = [], isOpen, onClose }: MobileMenuProps) 
             onClick={onClose}
           >
             <Info className="h-5 w-5" />
-            <span className="font-medium">QuiÃ©nes Somos</span>
+            <span className="font-medium">Quiénes Somos</span>
           </Link>
 
           <Link
-            href="/antenista-de-confianza-en-toledo-y--sur"
+            href="/antenista-de-confianza-en-toledo-y--"
             className="flex items-center gap-3 p-3 rounded-lg hover:bg-brand-green/10 text-brand-black hover:text-brand-green"
             onClick={onClose}
           >
@@ -146,7 +146,7 @@ export function MobileMenu({ services = [], isOpen, onClose }: MobileMenuProps) 
         </div>
 
         <div className="p-4 mt-4 bg-brand-green/10">
-        <p className="text-brand-black font-medium mb-2">Â¿Necesitas ayuda?</p>
+        <p className="text-brand-black font-medium mb-2">¿Necesitas ayuda?</p>
         <Link href="tel:+34668679500" className="flex items-center gap-2 text-brand-green font-bold">
             <Phone className="h-4 w-4" />
             668 67 95 00

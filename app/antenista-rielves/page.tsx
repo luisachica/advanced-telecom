@@ -1,4 +1,4 @@
-Ôªøimport React from "react";
+import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,46 +19,46 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45165",
-  descripcion: "Antenista profesional en Rielves (Toledo). Instalaci√≥n y reparaci√≥n de antenas TDT, parab√≥licas, videoporteros y c√°maras de seguridad. Servicio a domicilio con presupuesto sin compromiso.",
+  descripcion: "Antenista profesional en Rielves (Toledo). InstalaciÛn y reparaciÛn de antenas TDT, parabÛlicas, videoporteros y c·maras de seguridad. Servicio a domicilio con presupuesto sin compromiso.",
   servicios: [
-    "Instalaci√≥n y reparaci√≥n de antenas TDT",
-    "Instalaci√≥n y orientaci√≥n de antenas parab√≥licas",
-    "Sistemas de videoportero y portero autom√°tico",
-    "Instalaci√≥n de videovigilancia (CCTV)",
-    "Soluci√≥n a interferencias 5G",
+    "InstalaciÛn y reparaciÛn de antenas TDT",
+    "InstalaciÛn y orientaciÛn de antenas parabÛlicas",
+    "Sistemas de videoportero y portero autom·tico",
+    "InstalaciÛn de videovigilancia (CCTV)",
+    "SoluciÛn a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Servicio en municipios peque√±os",
+    "Servicio en municipios pequeÒos",
     "Materiales homologados",
-    "Garant√≠a profesional"
+    "GarantÌa profesional"
   ],
   zonasCubiertas: [
     "Casco urbano de Rielves",
-    "Diseminados y fincas del t√©rmino municipal",
+    "Diseminados y fincas del tÈrmino municipal",
     "Viviendas rurales y chalets",
-    "Municipios lim√≠trofes de la comarca"
+    "Municipios limÌtrofes de la comarca"
   ],
   cobertura: [
     { zona: "Casco urbano de Rielves", disponible: true },
-    { zona: "Diseminados y fincas del t√©rmino municipal", disponible: true },
+    { zona: "Diseminados y fincas del tÈrmino municipal", disponible: true },
     { zona: "Viviendas rurales y chalets", disponible: true },
-    { zona: "Municipios lim√≠trofes de la comarca", disponible: true }
+    { zona: "Municipios limÌtrofes de la comarca", disponible: true }
   ],
   testimonios: [
     {
       nombre: "Propietario en Rielves",
-      comentario: "Vinieron desde Toledo sin ning√∫n problema para instalar la antena en mi casa. El precio fue muy justo y el trabajo muy profesional. Desde entonces la TDT funciona perfectamente.",
+      comentario: "Vinieron desde Toledo sin ning˙n problema para instalar la antena en mi casa. El precio fue muy justo y el trabajo muy profesional. Desde entonces la TDT funciona perfectamente.",
       puntuacion: 5
     },
     {
       nombre: "Vecina de Rielves",
-      comentario: "Me instalaron una parab√≥lica nueva para ver canales de pago. Orientaron perfectamente la antena y desde el primer momento captamos todos los canales del sat√©lite.",
+      comentario: "Me instalaron una parabÛlica nueva para ver canales de pago. Orientaron perfectamente la antena y desde el primer momento captamos todos los canales del satÈlite.",
       puntuacion: 5
     },
     {
       nombre: "Agricultor de la zona",
-      comentario: "Pusieron c√°maras de seguridad en la finca para controlar los accesos. Trabajo muy serio y el sistema funciona fenomenal desde el tel√©fono m√≥vil. Muy recomendables.",
+      comentario: "Pusieron c·maras de seguridad en la finca para controlar los accesos. Trabajo muy serio y el sistema funciona fenomenal desde el telÈfono mÛvil. Muy recomendables.",
       puntuacion: 5
     }
   ],
@@ -70,7 +70,7 @@ const municipioData = {
     },
     {
       titulo: "Materiales de Primera",
-      descripcion: "Trabajamos exclusivamente con componentes homologados y de marcas l√≠deres del sector.",
+      descripcion: "Trabajamos exclusivamente con componentes homologados y de marcas lÌderes del sector.",
       icono: "Shield"
     },
     {
@@ -79,27 +79,27 @@ const municipioData = {
       icono: "Eye"
     },
     {
-      titulo: "Garant√≠a Escrita",
-      descripcion: "Ofrecemos garant√≠a completa por escrito en todas nuestras instalaciones.",
+      titulo: "GarantÌa Escrita",
+      descripcion: "Ofrecemos garantÌa completa por escrito en todas nuestras instalaciones.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¬øSe desplazan a Rielves sin coste adicional?",
-      answer: "S√≠. El desplazamiento a Rielves y municipios de la comarca est√° incluido en el presupuesto. No aplicamos recargo por distancia en nuestra √°rea habitual de trabajo."
+      question: "øSe desplazan a Rielves sin coste adicional?",
+      answer: "SÌ. El desplazamiento a Rielves y municipios de la comarca est· incluido en el presupuesto. No aplicamos recargo por distancia en nuestra ·rea habitual de trabajo."
     },
     {
-      question: "¬øQu√© tipo de antena necesito en Rielves para buena cobertura TDT?",
-      answer: "En la mayor√≠a de casos en Rielves es suficiente con una antena directiva de exterior apuntando al repetidor de Toledo m√°s cercano. En algunos puntos puede ser necesario un amplificador de se√±al. Lo verificamos con medici√≥n in situ."
+      question: "øQuÈ tipo de antena necesito en Rielves para buena cobertura TDT?",
+      answer: "En la mayorÌa de casos en Rielves es suficiente con una antena directiva de exterior apuntando al repetidor de Toledo m·s cercano. En algunos puntos puede ser necesario un amplificador de seÒal. Lo verificamos con mediciÛn in situ."
     },
     {
-      question: "¬øPueden instalar sistema de alarma adem√°s de c√°maras?",
-      answer: "Nuestra especialidad son los sistemas de videovigilancia CCTV. Para alarmas con central receptora, recomendamos combinarlo con nuestro sistema de c√°maras para una soluci√≥n de seguridad completa."
+      question: "øPueden instalar sistema de alarma adem·s de c·maras?",
+      answer: "Nuestra especialidad son los sistemas de videovigilancia CCTV. Para alarmas con central receptora, recomendamos combinarlo con nuestro sistema de c·maras para una soluciÛn de seguridad completa."
     },
     {
-      question: "¬øCu√°nto tiempo dura la garant√≠a de una instalaci√≥n nueva?",
-      answer: "Todas nuestras instalaciones nuevas tienen garant√≠a m√≠nima de 2 a√±os sobre mano de obra y materiales, ampliable seg√∫n el tipo de instalaci√≥n. Se entrega documentaci√≥n por escrito."
+      question: "øCu·nto tiempo dura la garantÌa de una instalaciÛn nueva?",
+      answer: "Todas nuestras instalaciones nuevas tienen garantÌa mÌnima de 2 aÒos sobre mano de obra y materiales, ampliable seg˙n el tipo de instalaciÛn. Se entrega documentaciÛn por escrito."
     }
   ]
 };
@@ -111,7 +111,7 @@ const structuredData = {
       "@type": "Electrician",
       "@id": "https://antenastoledo.com/#localbusiness",
       "name": "Antenistas Toledo",
-      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-sur.jpg",
+      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-.jpg",
       "telephone": "+34668679500",
       "url": `https://antenastoledo.com/antenista-${municipioData.slug}`,
       "address": {
@@ -170,9 +170,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Rielves Toledo | ‚òéÔ∏è 668 67 95 00`,
-  description: `Antenista en Rielves, Toledo. TDT, parab√≥licas, videoporteros y c√°maras de seguridad. Desplazamiento incluido. Presupuesto gratuito.`,
-  keywords: `antenista Rielves Toledo, antenas TDT Rielves, instalaci√≥n antenas Rielves Toledo, antenista rural Toledo, reparaci√≥n antenas comarca Toledo`,
+  title: `Antenista en Rielves Toledo | ?? 668 67 95 00`,
+  description: `Antenista en Rielves, Toledo. TDT, parabÛlicas, videoporteros y c·maras de seguridad. Desplazamiento incluido. Presupuesto gratuito.`,
+  keywords: `antenista Rielves Toledo, antenas TDT Rielves, instalaciÛn antenas Rielves Toledo, antenista rural Toledo, reparaciÛn antenas comarca Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-rielves'
   },
@@ -217,13 +217,13 @@ export default function RielvesPage() {
                       Antenista profesional en Rielves, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos servicio de antenista a domicilio en Rielves, municipio de la provincia de Toledo. Nos especializamos en instalaciones para viviendas unifamiliares, chalets y peque√±as comunidades, con soluciones de TDT, antenas parab√≥licas, videoporteros y sistemas de seguridad adaptadas al entorno rural.
+                      Ofrecemos servicio de antenista a domicilio en Rielves, municipio de la provincia de Toledo. Nos especializamos en instalaciones para viviendas unifamiliares, chalets y pequeÒas comunidades, con soluciones de TDT, antenas parabÛlicas, videoporteros y sistemas de seguridad adaptadas al entorno rural.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervenci√≥n
+                      Contactar para una intervenciÛn
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -232,7 +232,7 @@ export default function RielvesPage() {
                 </div>
                 <div className="relative">
                   <div className="mt-20 flex justify-center relative overflow-hidden rounded-xl">
-                    <Image src="/images/telecom/antenistas-en-toledo-sur.jpg" alt="Antenista profesional en Rielves Toledo" width={400} height={200} priority />
+                    <Image src="/images/telecom/antenistas-en-toledo-.jpg" alt="Antenista profesional en Rielves Toledo" width={400} height={200} priority />
                   </div>
                 </div>
               </div>
@@ -243,7 +243,7 @@ export default function RielvesPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Rielves y comarca</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Atendemos todo el t√©rmino municipal con desplazamiento incluido y servicio de urgencias disponible.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Atendemos todo el tÈrmino municipal con desplazamiento incluido y servicio de urgencias disponible.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -253,7 +253,7 @@ export default function RielvesPage() {
                     </div>
                     <div>
                       <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en Rielves</h3>
-                      <p className="text-brand-black-light">Antenista profesional en todo el t√©rmino</p>
+                      <p className="text-brand-black-light">Antenista profesional en todo el tÈrmino</p>
                     </div>
                   </div>
                   <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -267,7 +267,7 @@ export default function RielvesPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Atenci√≥n en el d√≠a para urgencias en Rielves y localidades cercanas.</span>
+                      <span>AtenciÛn en el dÌa para urgencias en Rielves y localidades cercanas.</span>
                     </div>
                   </div>
                 </div>
@@ -278,8 +278,8 @@ export default function RielvesPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat√°logo de servicios especializados</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones t√©cnicas completas para hogares y negocios en Rielves.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat·logo de servicios especializados</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones tÈcnicas completas para hogares y negocios en Rielves.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -292,8 +292,8 @@ export default function RielvesPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¬øPor qu√© confiar en nuestro servicio t√©cnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Profesionalidad y confianza en cada visita t√©cnica.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">øPor quÈ confiar en nuestro servicio tÈcnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Profesionalidad y confianza en cada visita tÈcnica.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -356,7 +356,7 @@ export default function RielvesPage() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
                   <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Rielves</h2>
-                  <p className="text-xl mb-8 text-white/90">Ll√°menos o escr√≠banos para solicitar presupuesto gratuito o concertar una visita t√©cnica en Rielves.</p>
+                  <p className="text-xl mb-8 text-white/90">Ll·menos o escrÌbanos para solicitar presupuesto gratuito o concertar una visita tÈcnica en Rielves.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Rielves%20Toledo" className="flex items-center gap-2">

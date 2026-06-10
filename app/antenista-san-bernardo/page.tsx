@@ -1,4 +1,4 @@
-Ôªøimport React from "react";
+import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,19 +19,19 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45001",
-  descripcion: "Antenista profesional en el barrio de San Bernardo, Toledo. Especialistas en antenas TDT, parab√≥licas, videoporteros y c√°maras de seguridad para pisos, comunidades y negocios.",
+  descripcion: "Antenista profesional en el barrio de San Bernardo, Toledo. Especialistas en antenas TDT, parabÛlicas, videoporteros y c·maras de seguridad para pisos, comunidades y negocios.",
   servicios: [
-    "Instalaci√≥n y reparaci√≥n de antenas TDT",
-    "Instalaci√≥n y orientaci√≥n de antenas parab√≥licas",
-    "Sistemas de videoportero y portero autom√°tico",
-    "Instalaci√≥n de videovigilancia (CCTV)",
-    "Soluci√≥n a interferencias 5G",
+    "InstalaciÛn y reparaciÛn de antenas TDT",
+    "InstalaciÛn y orientaciÛn de antenas parabÛlicas",
+    "Sistemas de videoportero y portero autom·tico",
+    "InstalaciÛn de videovigilancia (CCTV)",
+    "SoluciÛn a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Alta cualificaci√≥n t√©cnica",
+    "Alta cualificaciÛn tÈcnica",
     "Materiales homologados",
-    "Garant√≠a profesional"
+    "GarantÌa profesional"
   ],
   zonasCubiertas: [
     "Barrio de San Bernardo",
@@ -48,7 +48,7 @@ const municipioData = {
   testimonios: [
     {
       nombre: "Propietario de piso en San Bernardo",
-      comentario: "Instalaron una antena nueva en mi piso de San Bernardo. El t√©cnico fue puntual, trabaj√≥ con mucho cuidado y la se√±al es ahora excelente. Muy satisfecho con el servicio.",
+      comentario: "Instalaron una antena nueva en mi piso de San Bernardo. El tÈcnico fue puntual, trabajÛ con mucho cuidado y la seÒal es ahora excelente. Muy satisfecho con el servicio.",
       puntuacion: 5
     },
     {
@@ -58,19 +58,19 @@ const municipioData = {
     },
     {
       nombre: "Hostelero de San Bernardo",
-      comentario: "Instalaron el sistema de c√°maras en mi bar. El trabajo fue impecable y ahora tengo acceso en tiempo real desde el m√≥vil. El servicio postventa tambi√©n es muy bueno.",
+      comentario: "Instalaron el sistema de c·maras en mi bar. El trabajo fue impecable y ahora tengo acceso en tiempo real desde el mÛvil. El servicio postventa tambiÈn es muy bueno.",
       puntuacion: 5
     }
   ],
   caracteristicas: [
     {
       titulo: "Conocimiento Local",
-      descripcion: "Conocemos perfectamente los edificios y caracter√≠sticas t√©cnicas del barrio de San Bernardo.",
+      descripcion: "Conocemos perfectamente los edificios y caracterÌsticas tÈcnicas del barrio de San Bernardo.",
       icono: "Briefcase"
     },
     {
       titulo: "Materiales Certificados",
-      descripcion: "Utilizamos √∫nicamente materiales homologados de primeras marcas europeas.",
+      descripcion: "Utilizamos ˙nicamente materiales homologados de primeras marcas europeas.",
       icono: "Shield"
     },
     {
@@ -79,27 +79,27 @@ const municipioData = {
       icono: "Eye"
     },
     {
-      titulo: "Garant√≠a Total",
-      descripcion: "Garant√≠a completa por escrito en instalaciones y reparaciones.",
+      titulo: "GarantÌa Total",
+      descripcion: "GarantÌa completa por escrito en instalaciones y reparaciones.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¬øTrabajan en pisos con acceso dif√≠cil en San Bernardo?",
-      answer: "S√≠. Contamos con equipamiento y t√©cnicas para instalaciones en edificios de dif√≠cil acceso, tejados inclinados y fachadas hist√≥ricas del barrio, respetando siempre la normativa municipal."
+      question: "øTrabajan en pisos con acceso difÌcil en San Bernardo?",
+      answer: "SÌ. Contamos con equipamiento y tÈcnicas para instalaciones en edificios de difÌcil acceso, tejados inclinados y fachadas histÛricas del barrio, respetando siempre la normativa municipal."
     },
     {
-      question: "¬øPueden renovar la antena colectiva de un edificio antiguo?",
+      question: "øPueden renovar la antena colectiva de un edificio antiguo?",
       answer: "Por supuesto. Realizamos sustituciones completas de instalaciones de antena colectiva, incluyendo cabecera, amplificador, derivadores, cable y tomas de usuario en todos los pisos."
     },
     {
-      question: "¬øSolucionan problemas de se√±al TDT en zonas bajas junto al r√≠o?",
-      answer: "S√≠. La zona baja de Toledo puede tener problemas de se√±al por la orograf√≠a. Disponemos de soluciones espec√≠ficas como amplificadores de alta ganancia y orientaciones alternativas de antena."
+      question: "øSolucionan problemas de seÒal TDT en zonas bajas junto al rÌo?",
+      answer: "SÌ. La zona baja de Toledo puede tener problemas de seÒal por la orografÌa. Disponemos de soluciones especÌficas como amplificadores de alta ganancia y orientaciones alternativas de antena."
     },
     {
-      question: "¬øQu√© tiempo tardan en atender una aver√≠a en San Bernardo?",
-      answer: "Para aver√≠as urgentes, nuestro objetivo es atender el mismo d√≠a o en menos de 24 horas en San Bernardo y el centro de Toledo. Tenemos t√©cnicos disponibles de lunes a s√°bado."
+      question: "øQuÈ tiempo tardan en atender una averÌa en San Bernardo?",
+      answer: "Para averÌas urgentes, nuestro objetivo es atender el mismo dÌa o en menos de 24 horas en San Bernardo y el centro de Toledo. Tenemos tÈcnicos disponibles de lunes a s·bado."
     }
   ]
 };
@@ -111,7 +111,7 @@ const structuredData = {
       "@type": "Electrician",
       "@id": "https://antenastoledo.com/#localbusiness",
       "name": "Antenistas Toledo",
-      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-sur.jpg",
+      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-.jpg",
       "telephone": "+34668679500",
       "url": `https://antenastoledo.com/antenista-${municipioData.slug}`,
       "address": {
@@ -170,9 +170,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en San Bernardo Toledo | ‚òéÔ∏è 668 67 95 00`,
-  description: `Antenista en el barrio de San Bernardo, Toledo. TDT, parab√≥licas, videoporteros y c√°maras para pisos, comunidades y negocios. Presupuesto gratuito.`,
-  keywords: `antenista San Bernardo Toledo, antenas TDT San Bernardo Toledo, instalaci√≥n antenas Toledo centro, reparaci√≥n antenas San Bernardo, videoportero barrio San Bernardo`,
+  title: `Antenista en San Bernardo Toledo | ?? 668 67 95 00`,
+  description: `Antenista en el barrio de San Bernardo, Toledo. TDT, parabÛlicas, videoporteros y c·maras para pisos, comunidades y negocios. Presupuesto gratuito.`,
+  keywords: `antenista San Bernardo Toledo, antenas TDT San Bernardo Toledo, instalaciÛn antenas Toledo centro, reparaciÛn antenas San Bernardo, videoportero barrio San Bernardo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-san-bernardo'
   },
@@ -217,13 +217,13 @@ export default function SanBernardoPage() {
                       Antenista profesional en el barrio de San Bernardo, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Prestamos servicio de antenista en el barrio de San Bernardo, en la orilla del Tajo en Toledo. Atendemos pisos, comunidades de vecinos, locales y negocios del barrio con instalaciones de TDT, antenas parab√≥licas, videoporteros y sistemas de videovigilancia. M√°s de 25 a√±os de experiencia en Toledo nos avalan.
+                      Prestamos servicio de antenista en el barrio de San Bernardo, en la orilla del Tajo en Toledo. Atendemos pisos, comunidades de vecinos, locales y negocios del barrio con instalaciones de TDT, antenas parabÛlicas, videoporteros y sistemas de videovigilancia. M·s de 25 aÒos de experiencia en Toledo nos avalan.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervenci√≥n
+                      Contactar para una intervenciÛn
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -232,7 +232,7 @@ export default function SanBernardoPage() {
                 </div>
                 <div className="relative">
                   <div className="mt-20 flex justify-center relative overflow-hidden rounded-xl">
-                    <Image src="/images/telecom/antenistas-en-toledo-sur.jpg" alt="Antenista profesional en San Bernardo Toledo" width={400} height={200} priority />
+                    <Image src="/images/telecom/antenistas-en-toledo-.jpg" alt="Antenista profesional en San Bernardo Toledo" width={400} height={200} priority />
                   </div>
                 </div>
               </div>
@@ -243,7 +243,7 @@ export default function SanBernardoPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en San Bernardo y alrededores</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el barrio y las zonas pr√≥ximas del centro hist√≥rico de Toledo.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el barrio y las zonas prÛximas del centro histÛrico de Toledo.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -278,7 +278,7 @@ export default function SanBernardoPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat√°logo de servicios especializados</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat·logo de servicios especializados</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones completas de telecomunicaciones para San Bernardo y Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -292,7 +292,7 @@ export default function SanBernardoPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¬øPor qu√© confiar en nuestro servicio t√©cnico?</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">øPor quÈ confiar en nuestro servicio tÈcnico?</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Profesionalidad y resultados demostrados en toda Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -338,7 +338,7 @@ export default function SanBernardoPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios en San Bernardo</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Respondemos las dudas m√°s habituales de nuestros clientes del barrio.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Respondemos las dudas m·s habituales de nuestros clientes del barrio.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -356,7 +356,7 @@ export default function SanBernardoPage() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
                   <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en San Bernardo</h2>
-                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto gratuito o reserve su visita t√©cnica en San Bernardo, Toledo.</p>
+                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto gratuito o reserve su visita tÈcnica en San Bernardo, Toledo.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20San%20Bernardo%20Toledo" className="flex items-center gap-2">

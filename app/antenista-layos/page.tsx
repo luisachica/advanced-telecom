@@ -1,4 +1,4 @@
-Ôªøimport React from "react";
+import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 
-// Datos espec√≠ficos del municipio
+// Datos especÌficos del municipio
 const municipioData = {
   nombre: "Layos",
   slug: "layos",
@@ -22,92 +22,92 @@ const municipioData = {
   codigoPostal: "45123",
   poblacion: "398",
   superficie: "54,2",
-  descripcion: "Tu experto en antenas y telecomunicaciones en Layos. Servicio t√©cnico especializado para chalets y viviendas con soluciones a medida utilizando tecnolog√≠a avanzada.",
+  descripcion: "Tu experto en antenas y telecomunicaciones en Layos. Servicio tÈcnico especializado para chalets y viviendas con soluciones a medida utilizando tecnologÌa avanzada.",
   servicios: [
-    "Diagn√≥stico y optimizaci√≥n de TDT en Layos",
-    "Instalaci√≥n de TV por sat√©lite (parab√≥licas)",
+    "DiagnÛstico y optimizaciÛn de TDT en Layos",
+    "InstalaciÛn de TV por satÈlite (parabÛlicas)",
     "Sistemas avanzados de videoportero",
     "Circuitos cerrados de TV (CCTV)",
     "Filtros de rechazo de banda (5G)",
-    "Reparaci√≥n de aver√≠as con diagn√≥stico preciso"
+    "ReparaciÛn de averÌas con diagnÛstico preciso"
   ],
    serviciosDestacados: [
     "Especialistas en chalets",
-    "Tecnolog√≠a avanzada",
-    "Soporte post-instalaci√≥n"
+    "TecnologÌa avanzada",
+    "Soporte post-instalaciÛn"
   ],
 
   zonasCubiertas: [
     "El pueblo de Layos",
     "Urbanizaciones del entorno del Golf",
-    "Residenciales y chalets de nueva construcci√≥n",
+    "Residenciales y chalets de nueva construcciÛn",
     "Fincas y casas de campo"
   ],
 
   cobertura: [
     { zona: "El pueblo de Layos", disponible: true },
     { zona: "Urbanizaciones del entorno del Golf", disponible: true },
-    { zona: "Residenciales y chalets de nueva construcci√≥n", disponible: true },
+    { zona: "Residenciales y chalets de nueva construcciÛn", disponible: true },
     { zona: "Fincas y casas de campo", disponible: true }
   ],
 
   testimonios: [
     {
       nombre: "Javier M.",
-      comentario: "Ten√≠a un problema de se√±al muy complejo que otros no supieron solucionar. Vinieron con sus equipos de medici√≥n, encontraron el fallo exacto y lo arreglaron. Unos verdaderos profesionales.",
+      comentario: "TenÌa un problema de seÒal muy complejo que otros no supieron solucionar. Vinieron con sus equipos de mediciÛn, encontraron el fallo exacto y lo arreglaron. Unos verdaderos profesionales.",
       puntuacion: 5
     },
     {
       nombre: "Beatriz S.",
-      comentario: "Quer√≠a instalar unas c√°maras de seguridad en el chalet y el asesoramiento fue de diez. Me explicaron todo con detalle y la instalaci√≥n fue muy limpia y discreta. Totalmente recomendables.",
+      comentario: "QuerÌa instalar unas c·maras de seguridad en el chalet y el asesoramiento fue de diez. Me explicaron todo con detalle y la instalaciÛn fue muy limpia y discreta. Totalmente recomendables.",
       puntuacion: 5
     },
     {
       nombre: "Luis G.",
-      comentario: "Despu√©s de instalarme la parab√≥lica, tuve una duda sobre c√≥mo sintonizar unos canales. Les llam√© y me guiaron por tel√©fono con mucha paciencia. Un servicio postventa excelente.",
+      comentario: "DespuÈs de instalarme la parabÛlica, tuve una duda sobre cÛmo sintonizar unos canales. Les llamÈ y me guiaron por telÈfono con mucha paciencia. Un servicio postventa excelente.",
       puntuacion: 5
     }
   ],
 
    caracteristicas: [
     {
-      titulo: "Equipos de √∫ltima generaci√≥n",
-      descripcion: "Usamos medidores de campo y herramientas profesionales para garantizar m√°xima precisi√≥n t√©cnica",
+      titulo: "Equipos de ˙ltima generaciÛn",
+      descripcion: "Usamos medidores de campo y herramientas profesionales para garantizar m·xima precisiÛn tÈcnica",
       icono: "Zap"
     },
     {
       titulo: "Materiales de alta durabilidad",
-      descripcion: "Componentes de las mejores marcas que resisten el tiempo y las inclemencias meteorol√≥gicas",
+      descripcion: "Componentes de las mejores marcas que resisten el tiempo y las inclemencias meteorolÛgicas",
       icono: "Shield"
     },
     {
       titulo: "Soluciones 100% personalizadas",
-      descripcion: "Estudiamos tus necesidades y la arquitectura de tu vivienda para una soluci√≥n a medida",
+      descripcion: "Estudiamos tus necesidades y la arquitectura de tu vivienda para una soluciÛn a medida",
       icono: "Users"
     },
     {
-      titulo: "Soporte post-instalaci√≥n",
-      descripcion: "Te ofrecemos soporte y resolvemos tus dudas para que saques el m√°ximo partido a tu sistema",
+      titulo: "Soporte post-instalaciÛn",
+      descripcion: "Te ofrecemos soporte y resolvemos tus dudas para que saques el m·ximo partido a tu sistema",
       icono: "Phone"
     }
   ],
 
   faqs: [
     {
-      question: "¬øQu√© es un amplificador de m√°stil y por qu√© lo recomend√°is en chalets?",
-      answer: "Es un dispositivo que se instala junto a la antena para potenciar la se√±al antes de que se distribuya por la casa. En chalets con varias tomas de TV o cableado largo, es fundamental para asegurar que la se√±al llegue con fuerza a todas partes."
+      question: "øQuÈ es un amplificador de m·stil y por quÈ lo recomend·is en chalets?",
+      answer: "Es un dispositivo que se instala junto a la antena para potenciar la seÒal antes de que se distribuya por la casa. En chalets con varias tomas de TV o cableado largo, es fundamental para asegurar que la seÒal llegue con fuerza a todas partes."
     },
     {
-      question: "¬øPuedo integrar el videoportero con mi m√≥vil?",
-      answer: "S√≠. Trabajamos con modelos de √∫ltima generaci√≥n que te permiten responder a la llamada del videoportero y abrir la puerta desde tu smartphone, est√©s donde est√©s, como si estuvieras en casa."
+      question: "øPuedo integrar el videoportero con mi mÛvil?",
+      answer: "SÌ. Trabajamos con modelos de ˙ltima generaciÛn que te permiten responder a la llamada del videoportero y abrir la puerta desde tu smartphone, estÈs donde estÈs, como si estuvieras en casa."
     },
     {
-      question: "¬øEl cableado que us√°is es para exterior? ¬øAguanta el sol y la lluvia?",
-      answer: "Por supuesto. Todo el cableado que instalamos en exteriores cuenta con protecci√≥n contra los rayos ultravioleta (UV) y es totalmente estanco para resistir la lluvia y la humedad, garantizando una larga vida √∫til."
+      question: "øEl cableado que us·is es para exterior? øAguanta el sol y la lluvia?",
+      answer: "Por supuesto. Todo el cableado que instalamos en exteriores cuenta con protecciÛn contra los rayos ultravioleta (UV) y es totalmente estanco para resistir la lluvia y la humedad, garantizando una larga vida ˙til."
     },
     {
-      question: "¬øQu√© diferencia hay entre una c√°mara de seguridad normal y una IP?",
-      answer: "Las c√°maras IP se conectan a tu red de internet, lo que te permite ver las im√°genes en tiempo real desde cualquier dispositivo (m√≥vil, tablet, ordenador) y desde cualquier lugar del mundo."
+      question: "øQuÈ diferencia hay entre una c·mara de seguridad normal y una IP?",
+      answer: "Las c·maras IP se conectan a tu red de internet, lo que te permite ver las im·genes en tiempo real desde cualquier dispositivo (mÛvil, tablet, ordenador) y desde cualquier lugar del mundo."
     }
   ]
 }
@@ -119,7 +119,7 @@ const structuredData = {
       "@type": "Electrician",
       "@id": "https://antenastoledo.com/#localbusiness",
       "name": "Antenistas Toledo",
-      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-sur.jpg",
+      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-.jpg",
       "telephone": "+34668679500",
       "url": `https://antenastoledo.com/antenista-${municipioData.slug}`,
       "address": {
@@ -178,9 +178,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Layos | ‚òéÔ∏è 668 67 95 00`,
-  description: `Tu antenista experto en Layos. Mejoramos la se√±al de tu TDT, instalamos parab√≥licas, videoporteros y CCTV en chalets. Garant√≠a total. ¬°Contacta ahora!`,
-  keywords: `antenista Layos, antenas TDT Layos, instalaci√≥n antenas Toledo, reparaci√≥n antenas Layos, telecomunicaciones Layos, videoporteros Layos, CCTV chalets Layos`,
+  title: `Antenista en Layos | ?? 668 67 95 00`,
+  description: `Tu antenista experto en Layos. Mejoramos la seÒal de tu TDT, instalamos parabÛlicas, videoporteros y CCTV en chalets. GarantÌa total. °Contacta ahora!`,
+  keywords: `antenista Layos, antenas TDT Layos, instalaciÛn antenas Toledo, reparaciÛn antenas Layos, telecomunicaciones Layos, videoporteros Layos, CCTV chalets Layos`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-layos'
   },
@@ -227,7 +227,7 @@ export default function LayosPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section espec√≠fico de Layos */}
+          {/* Hero Section especÌfico de Layos */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -246,7 +246,7 @@ export default function LayosPage() {
                       Tu experto en <span className="text-brand-green">antenas y telecomunicaciones</span> en {municipioData.nombre}
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Para que disfrutes de tu chalet en {municipioData.nombre} con la mejor calidad de imagen y la m√°xima tranquilidad, te ofrecemos un servicio t√©cnico especializado. Modernizamos tus sistemas de antena, comunicaci√≥n y seguridad con soluciones a medida, utilizando la tecnolog√≠a m√°s avanzada para garantizar un resultado impecable y duradero.
+                      Para que disfrutes de tu chalet en {municipioData.nombre} con la mejor calidad de imagen y la m·xima tranquilidad, te ofrecemos un servicio tÈcnico especializado. Modernizamos tus sistemas de antena, comunicaciÛn y seguridad con soluciones a medida, utilizando la tecnologÌa m·s avanzada para garantizar un resultado impecable y duradero.
                     </p>
                   </div>
 
@@ -265,8 +265,8 @@ export default function LayosPage() {
                   {/* Imagen principal */}
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
-                      src="/images/telecom/antenistas-en-toledo-sur.jpg"
-                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio hist√≥rico de La Sagra"
+                      src="/images/telecom/antenistas-en-toledo-.jpg"
+                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histÛrico de La Sagra"
                       width={400}
                       height={200}
                       priority
@@ -277,12 +277,12 @@ export default function LayosPage() {
             </div>
           </section>
 
-           {/* Cobertura espec√≠fica de Layos */}
+           {/* Cobertura especÌfica de Layos */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Asistencia t√©cnica en todo el t√©rmino de {municipioData.nombre}</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Tanto si tu vivienda est√° en el pueblo como en las urbanizaciones cercanas al campo de golf, te garantizamos una cobertura total y un servicio de proximidad.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Asistencia tÈcnica en todo el tÈrmino de {municipioData.nombre}</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Tanto si tu vivienda est· en el pueblo como en las urbanizaciones cercanas al campo de golf, te garantizamos una cobertura total y un servicio de proximidad.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -291,7 +291,7 @@ export default function LayosPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra √°rea de servicio en {municipioData.nombre} incluye:</h3>
+                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra ·rea de servicio en {municipioData.nombre} incluye:</h3>
                       <p className="text-brand-black-light">Cobertura completa en todo el municipio</p>
                     </div>
                   </div>
@@ -308,7 +308,7 @@ export default function LayosPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Atenci√≥n de urgencias garantizada en menos de 2 horas</span>
+                      <span>AtenciÛn de urgencias garantizada en menos de 2 horas</span>
                     </div>
                   </div>
                 </div>
@@ -320,8 +320,8 @@ export default function LayosPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Un cat√°logo de servicios para tu confort y seguridad</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Te ofrecemos una gama completa de soluciones dise√±adas para mejorar tu calidad de vida y proteger tu hogar en {municipioData.nombre}.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Un cat·logo de servicios para tu confort y seguridad</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Te ofrecemos una gama completa de soluciones diseÒadas para mejorar tu calidad de vida y proteger tu hogar en {municipioData.nombre}.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -338,12 +338,12 @@ export default function LayosPage() {
             </div>
           </section>
 
-          {/* Por qu√© elegir nuestros servicios en Layos */}
+          {/* Por quÈ elegir nuestros servicios en Layos */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestros pilares: tecnolog√≠a, calidad y servicio</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra filosof√≠a de trabajo se basa en ofrecerte lo mejor, desde el primer contacto hasta el soporte post-instalaci√≥n.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestros pilares: tecnologÌa, calidad y servicio</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra filosofÌa de trabajo se basa en ofrecerte lo mejor, desde el primer contacto hasta el soporte post-instalaciÛn.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -364,7 +364,7 @@ export default function LayosPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La experiencia de tus vecinos de {municipioData.nombre} con nuestro servicio</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La mejor prueba de nuestro compromiso es la valoraci√≥n de quienes ya disfrutan de nuestras soluciones.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La mejor prueba de nuestro compromiso es la valoraciÛn de quienes ya disfrutan de nuestras soluciones.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -385,12 +385,12 @@ export default function LayosPage() {
             </div>
           </section>
 
-          {/* FAQs espec√≠ficas de Layos */}
+          {/* FAQs especÌficas de Layos */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Damos respuesta a tus preguntas m√°s t√©cnicas</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos algunas de las dudas que podr√≠as tener sobre nuestros servicios en {municipioData.nombre}.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Damos respuesta a tus preguntas m·s tÈcnicas</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos algunas de las dudas que podrÌas tener sobre nuestros servicios en {municipioData.nombre}.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -403,13 +403,13 @@ export default function LayosPage() {
             </div>
           </section>
 
-          {/* CTA Section espec√≠fica para Layos */}
+          {/* CTA Section especÌfica para Layos */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¬øListo para modernizar tu hogar en {municipioData.nombre}?</h2>
-                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para recibir un asesoramiento t√©cnico y un presupuesto detallado sin compromiso. Mejora tu calidad de vida.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">øListo para modernizar tu hogar en {municipioData.nombre}?</h2>
+                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para recibir un asesoramiento tÈcnico y un presupuesto detallado sin compromiso. Mejora tu calidad de vida.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Layos" className="flex items-center gap-2">

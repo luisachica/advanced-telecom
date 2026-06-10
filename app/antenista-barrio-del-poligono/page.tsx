@@ -1,4 +1,4 @@
-Ôªøimport React from "react";
+import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,58 +14,58 @@ import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 
 const municipioData = {
-  nombre: "Barrio del Pol√≠gono",
+  nombre: "Barrio del PolÌgono",
   slug: "barrio-del-poligono",
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45007",
-  descripcion: "Servicio de antenista profesional en el Barrio del Pol√≠gono de Toledo. Especialistas en TDT, parab√≥licas, videoporteros y c√°maras de seguridad para viviendas, comunidades y empresas.",
+  descripcion: "Servicio de antenista profesional en el Barrio del PolÌgono de Toledo. Especialistas en TDT, parabÛlicas, videoporteros y c·maras de seguridad para viviendas, comunidades y empresas.",
   servicios: [
-    "Instalaci√≥n y reparaci√≥n de antenas TDT",
-    "Instalaci√≥n y orientaci√≥n de antenas parab√≥licas",
-    "Sistemas de videoportero y portero autom√°tico",
-    "Instalaci√≥n de videovigilancia (CCTV)",
-    "Soluci√≥n a interferencias 5G",
+    "InstalaciÛn y reparaciÛn de antenas TDT",
+    "InstalaciÛn y orientaciÛn de antenas parabÛlicas",
+    "Sistemas de videoportero y portero autom·tico",
+    "InstalaciÛn de videovigilancia (CCTV)",
+    "SoluciÛn a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Alta cualificaci√≥n t√©cnica",
+    "Alta cualificaciÛn tÈcnica",
     "Materiales homologados",
-    "Garant√≠a profesional"
+    "GarantÌa profesional"
   ],
   zonasCubiertas: [
-    "Barrio del Pol√≠gono (zona residencial)",
-    "Pol√≠gono Industrial de Toledo",
+    "Barrio del PolÌgono (zona residencial)",
+    "PolÌgono Industrial de Toledo",
     "Urbanizaciones y comunidades del entorno",
     "Naves industriales y locales comerciales"
   ],
   cobertura: [
-    { zona: "Barrio del Pol√≠gono (zona residencial)", disponible: true },
-    { zona: "Pol√≠gono Industrial de Toledo", disponible: true },
+    { zona: "Barrio del PolÌgono (zona residencial)", disponible: true },
+    { zona: "PolÌgono Industrial de Toledo", disponible: true },
     { zona: "Urbanizaciones y comunidades del entorno", disponible: true },
     { zona: "Naves industriales y locales comerciales", disponible: true }
   ],
   testimonios: [
     {
-      nombre: "Gerente de empresa en el Pol√≠gono",
-      comentario: "Instalaron el sistema de videovigilancia de nuestra nave industrial con total profesionalidad. El trabajo fue limpio, r√°pido y el precio muy competitivo. Totalmente recomendables.",
+      nombre: "Gerente de empresa en el PolÌgono",
+      comentario: "Instalaron el sistema de videovigilancia de nuestra nave industrial con total profesionalidad. El trabajo fue limpio, r·pido y el precio muy competitivo. Totalmente recomendables.",
       puntuacion: 5
     },
     {
       nombre: "Presidente de comunidad de vecinos",
-      comentario: "Renovamos toda la instalaci√≥n de antena colectiva del bloque y la mejora fue enorme. Sin interferencias, sin cortes. Muy satisfechos con el resultado y con el trato recibido.",
+      comentario: "Renovamos toda la instalaciÛn de antena colectiva del bloque y la mejora fue enorme. Sin interferencias, sin cortes. Muy satisfechos con el resultado y con el trato recibido.",
       puntuacion: 5
     },
     {
       nombre: "Vecina del barrio",
-      comentario: "Ten√≠a problemas con la TDT desde la llegada del 5G. Vinieron el mismo d√≠a que llam√© y en una hora hab√≠an colocado el filtro y la se√±al era perfecta. Excelente servicio.",
+      comentario: "TenÌa problemas con la TDT desde la llegada del 5G. Vinieron el mismo dÌa que llamÈ y en una hora habÌan colocado el filtro y la seÒal era perfecta. Excelente servicio.",
       puntuacion: 5
     }
   ],
   caracteristicas: [
     {
-      titulo: "Alta Cualificaci√≥n T√©cnica",
-      descripcion: "Nuestro equipo est√° en constante formaci√≥n para dominar las √∫ltimas tecnolog√≠as del sector.",
+      titulo: "Alta CualificaciÛn TÈcnica",
+      descripcion: "Nuestro equipo est· en constante formaciÛn para dominar las ˙ltimas tecnologÌas del sector.",
       icono: "Briefcase"
     },
     {
@@ -75,31 +75,31 @@ const municipioData = {
     },
     {
       titulo: "Presupuestos Transparentes",
-      descripcion: "Presupuesto cerrado y por escrito antes de cualquier intervenci√≥n, sin sorpresas.",
+      descripcion: "Presupuesto cerrado y por escrito antes de cualquier intervenciÛn, sin sorpresas.",
       icono: "Eye"
     },
     {
-      titulo: "Garant√≠a Profesional",
-      descripcion: "Garant√≠a completa en todas las instalaciones y reparaciones efectuadas.",
+      titulo: "GarantÌa Profesional",
+      descripcion: "GarantÌa completa en todas las instalaciones y reparaciones efectuadas.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¬øTrabajan con comunidades de vecinos en el Barrio del Pol√≠gono?",
-      answer: "S√≠. Ofrecemos instalaci√≥n y mantenimiento de antenas colectivas para comunidades de propietarios, incluyendo amplificadores de se√±al y distribuci√≥n interior por pisos."
+      question: "øTrabajan con comunidades de vecinos en el Barrio del PolÌgono?",
+      answer: "SÌ. Ofrecemos instalaciÛn y mantenimiento de antenas colectivas para comunidades de propietarios, incluyendo amplificadores de seÒal y distribuciÛn interior por pisos."
     },
     {
-      question: "¬øPueden instalar c√°maras de seguridad en una nave industrial?",
-      answer: "Por supuesto. Dise√±amos sistemas de videovigilancia adaptados a espacios industriales, con grabaci√≥n continua, acceso remoto y almacenamiento en la nube o local."
+      question: "øPueden instalar c·maras de seguridad en una nave industrial?",
+      answer: "Por supuesto. DiseÒamos sistemas de videovigilancia adaptados a espacios industriales, con grabaciÛn continua, acceso remoto y almacenamiento en la nube o local."
     },
     {
-      question: "¬øQu√© tiempo tardan en atender una aver√≠a urgente?",
-      answer: "Nuestro servicio de urgencias garantiza la presencia de un t√©cnico en menos de 2 horas en el Barrio del Pol√≠gono y zonas adyacentes de Toledo."
+      question: "øQuÈ tiempo tardan en atender una averÌa urgente?",
+      answer: "Nuestro servicio de urgencias garantiza la presencia de un tÈcnico en menos de 2 horas en el Barrio del PolÌgono y zonas adyacentes de Toledo."
     },
     {
-      question: "¬øInstalan videoporteros en comunidades ya construidas?",
-      answer: "S√≠. Realizamos instalaciones de videoportero tanto en obra nueva como en edificios existentes, aprovechando el cableado disponible o instalando nuevo si fuera necesario."
+      question: "øInstalan videoporteros en comunidades ya construidas?",
+      answer: "SÌ. Realizamos instalaciones de videoportero tanto en obra nueva como en edificios existentes, aprovechando el cableado disponible o instalando nuevo si fuera necesario."
     }
   ]
 };
@@ -111,7 +111,7 @@ const structuredData = {
       "@type": "Electrician",
       "@id": "https://antenastoledo.com/#localbusiness",
       "name": "Antenistas Toledo",
-      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-sur.jpg",
+      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-.jpg",
       "telephone": "+34668679500",
       "url": `https://antenastoledo.com/antenista-${municipioData.slug}`,
       "address": {
@@ -170,9 +170,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Barrio del Pol√≠gono Toledo | ‚òéÔ∏è 668 67 95 00`,
-  description: `Antenista en el Barrio del Pol√≠gono, Toledo. TDT, parab√≥licas, videoporteros y c√°maras para viviendas, comunidades y empresas. Presupuesto sin compromiso.`,
-  keywords: `antenista Barrio del Pol√≠gono Toledo, antenas TDT Pol√≠gono Toledo, instalaci√≥n antenas Toledo, reparaci√≥n antenas Pol√≠gono, c√°maras seguridad Pol√≠gono Toledo`,
+  title: `Antenista en Barrio del PolÌgono Toledo | ?? 668 67 95 00`,
+  description: `Antenista en el Barrio del PolÌgono, Toledo. TDT, parabÛlicas, videoporteros y c·maras para viviendas, comunidades y empresas. Presupuesto sin compromiso.`,
+  keywords: `antenista Barrio del PolÌgono Toledo, antenas TDT PolÌgono Toledo, instalaciÛn antenas Toledo, reparaciÛn antenas PolÌgono, c·maras seguridad PolÌgono Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-barrio-del-poligono'
   },
@@ -210,20 +210,20 @@ export default function BarrioDelPoligonoPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Barrio del Pol√≠gono</span>
+                    <span className="text-brand-green font-medium">Barrio del PolÌgono</span>
                   </nav>
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      Antenista profesional en el Barrio del Pol√≠gono de Toledo
+                      Antenista profesional en el Barrio del PolÌgono de Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos servicio t√©cnico de antenistas para viviendas, comunidades de propietarios, oficinas y naves industriales en el Barrio del Pol√≠gono de Toledo. Con m√°s de 25 a√±os de experiencia, somos especialistas en instalaciones de televisi√≥n, sistemas de acceso y videovigilancia para entornos residenciales e industriales.
+                      Ofrecemos servicio tÈcnico de antenistas para viviendas, comunidades de propietarios, oficinas y naves industriales en el Barrio del PolÌgono de Toledo. Con m·s de 25 aÒos de experiencia, somos especialistas en instalaciones de televisiÛn, sistemas de acceso y videovigilancia para entornos residenciales e industriales.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervenci√≥n
+                      Contactar para una intervenciÛn
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -233,8 +233,8 @@ export default function BarrioDelPoligonoPage() {
                 <div className="relative">
                   <div className="mt-20 flex justify-center relative overflow-hidden rounded-xl">
                     <Image
-                      src="/images/telecom/antenistas-en-toledo-sur.jpg"
-                      alt="Antenista profesional en el Barrio del Pol√≠gono de Toledo"
+                      src="/images/telecom/antenistas-en-toledo-.jpg"
+                      alt="Antenista profesional en el Barrio del PolÌgono de Toledo"
                       width={400}
                       height={200}
                       priority
@@ -248,8 +248,8 @@ export default function BarrioDelPoligonoPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en el Barrio del Pol√≠gono y alrededores</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Atendemos tanto la zona residencial como la industrial del barrio, con respuesta r√°pida y t√©cnicos especializados.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en el Barrio del PolÌgono y alrededores</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Atendemos tanto la zona residencial como la industrial del barrio, con respuesta r·pida y tÈcnicos especializados.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -258,8 +258,8 @@ export default function BarrioDelPoligonoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en el Barrio del Pol√≠gono</h3>
-                      <p className="text-brand-black-light">Antenista profesional para toda el √°rea</p>
+                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en el Barrio del PolÌgono</h3>
+                      <p className="text-brand-black-light">Antenista profesional para toda el ·rea</p>
                     </div>
                   </div>
                   <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -284,8 +284,8 @@ export default function BarrioDelPoligonoPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat√°logo de servicios especializados</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Disponemos de una gama completa de soluciones t√©cnicas para cualquier necesidad, tanto residencial como industrial.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat·logo de servicios especializados</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Disponemos de una gama completa de soluciones tÈcnicas para cualquier necesidad, tanto residencial como industrial.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -298,8 +298,8 @@ export default function BarrioDelPoligonoPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¬øPor qu√© confiar en nuestro servicio t√©cnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra profesionalidad y experiencia son la mejor garant√≠a para nuestros clientes.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">øPor quÈ confiar en nuestro servicio tÈcnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra profesionalidad y experiencia son la mejor garantÌa para nuestros clientes.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -318,8 +318,8 @@ export default function BarrioDelPoligonoPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en el Barrio del Pol√≠gono</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacci√≥n de vecinos y empresas del barrio es nuestro principal objetivo.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en el Barrio del PolÌgono</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacciÛn de vecinos y empresas del barrio es nuestro principal objetivo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -344,7 +344,7 @@ export default function BarrioDelPoligonoPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas m√°s habituales de nuestros clientes en el Barrio del Pol√≠gono.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas m·s habituales de nuestros clientes en el Barrio del PolÌgono.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -361,8 +361,8 @@ export default function BarrioDelPoligonoPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en el Barrio del Pol√≠gono</h2>
-                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto sin compromiso o reserve una visita t√©cnica. Atendemos con rapidez y profesionalidad.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en el Barrio del PolÌgono</h2>
+                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto sin compromiso o reserve una visita tÈcnica. Atendemos con rapidez y profesionalidad.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20el%20Barrio%20del%20Pol%C3%ADgono%20de%20Toledo" className="flex items-center gap-2">

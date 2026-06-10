@@ -1,59 +1,59 @@
-Ôªøimport type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import ContenidoQuienesSomos from '@/components/paginas/contenido-quienes-somos';
 import StructuredData from '@/components/StructuredData';
 import { withPhone } from '@/lib/seo';
 
 // ==================================================================
-// DATOS Y SEO PARA "QUI√âNES SOMOS"
+// DATOS Y SEO PARA "QUI…NES SOMOS"
 // ==================================================================
 
 const pageData = {
   slug: "quienes-somos",
   hero: {
     title: "Conozca Antenas Toledo",
-    subtitle: "Descubra por qu√© somos la empresa de telecomunicaciones preferida en , con m√°s de 25 a√±os de experiencia brindando servicios t√©cnicos especializados."
+    subtitle: "Descubra por quÈ somos la empresa de telecomunicaciones preferida en , con m·s de 25 aÒos de experiencia brindando servicios tÈcnicos especializados."
   },
   mainContent: {
-    title: "L√≠deres en servicios de telecomunicaciones",
-    quote: "Antenas Toledo se posiciona como referente en  por nuestra excelencia t√©cnica y compromiso con la innovaci√≥n tecnol√≥gica.",
+    title: "LÌderes en servicios de telecomunicaciones",
+    quote: "Antenas Toledo se posiciona como referente en  por nuestra excelencia tÈcnica y compromiso con la innovaciÛn tecnolÛgica.",
     paragraphs: [
-      "Somos especialistas en instalaci√≥n y mantenimiento de sistemas de telecomunicaciones. Nuestro equipo t√©cnico altamente cualificado garantiza soluciones precisas y duraderas para antenas TDT, parab√≥licas, porteros autom√°ticos y sistemas de videovigilancia.",
-      "Nuestra trayectoria de m√°s de 25 a√±os nos ha consolidado como la empresa de confianza en  para servicios de telecomunicaciones. Trabajamos con las mejores marcas del sector como Televes, Johansson y Fermax, asegurando la m√°xima calidad en cada instalaci√≥n.",
-      "Ofrecemos cobertura en Toledo y  Sur, adapt√°ndonos a las necesidades espec√≠ficas de cada cliente, desde viviendas particulares hasta grandes comunidades de propietarios y empresas.",
-      "Con m√°s de 25 a√±os de experiencia en el sector, atendemos tanto a clientes particulares como empresariales, manteniendo siempre nuestro compromiso con la excelencia t√©cnica y la satisfacci√≥n del cliente."
+      "Somos especialistas en instalaciÛn y mantenimiento de sistemas de telecomunicaciones. Nuestro equipo tÈcnico altamente cualificado garantiza soluciones precisas y duraderas para antenas TDT, parabÛlicas, porteros autom·ticos y sistemas de videovigilancia.",
+      "Nuestra trayectoria de m·s de 25 aÒos nos ha consolidado como la empresa de confianza en  para servicios de telecomunicaciones. Trabajamos con las mejores marcas del sector como Televes, Johansson y Fermax, asegurando la m·xima calidad en cada instalaciÛn.",
+      "Ofrecemos cobertura en Toledo y  , adapt·ndonos a las necesidades especÌficas de cada cliente, desde viviendas particulares hasta grandes comunidades de propietarios y empresas.",
+      "Con m·s de 25 aÒos de experiencia en el sector, atendemos tanto a clientes particulares como empresariales, manteniendo siempre nuestro compromiso con la excelencia tÈcnica y la satisfacciÛn del cliente."
     ],
     images: [
-      { src: "/images/telecom/trabajo-antena-2023-12-22-02.jpg", alt: "Equipo t√©cnico especializado" },
+      { src: "/images/telecom/trabajo-antena-2023-12-22-02.jpg", alt: "Equipo tÈcnico especializado" },
       { src: "/images/telecom/antena-profesional.jpg", alt: "Instalaciones profesionales" },
-      { src: "/images/telecom/video-portero-02.jpg", alt: "Sistemas de comunicaci√≥n" },
+      { src: "/images/telecom/video-portero-02.jpg", alt: "Sistemas de comunicaciÛn" },
     ]
   },
   differentiators: {
-    title: "Qu√© nos diferencia de otras empresas de telecomunicaciones en ",
-    subtitle: "Descubra por qu√© Antenas Toledo es la opci√≥n preferida para servicios t√©cnicos especializados en Toledo y  Sur.",
+    title: "QuÈ nos diferencia de otras empresas de telecomunicaciones en ",
+    subtitle: "Descubra por quÈ Antenas Toledo es la opciÛn preferida para servicios tÈcnicos especializados en Toledo y  .",
     items: [
-      { iconName: "Clock", title: "01. Experiencia consolidada", text: "Con m√°s de 25 a√±os de experiencia, nuestros t√©cnicos especializados dominan las √∫ltimas tecnolog√≠as en telecomunicaciones y sistemas de comunicaci√≥n." },
-      { iconName: "Shield", title: "02. Certificaciones oficiales", text: "Trabajamos exclusivamente con equipos certificados de marcas l√≠deres como Televes, Johansson y Fermax, garantizando la m√°xima calidad y durabilidad." },
-      { iconName: "Sparkles", title: "03. Servicios integrales", text: "Desde antenas TDT y parab√≥licas hasta porteros autom√°ticos y c√°maras de seguridad, cubrimos todas sus necesidades de telecomunicaciones." },
-      { iconName: "Users", title: "04. Precios transparentes", text: "Ofrecemos presupuestos claros y competitivos, sin sorpresas. Compare nuestra relaci√≥n calidad-precio con otras empresas del sector." }
+      { iconName: "Clock", title: "01. Experiencia consolidada", text: "Con m·s de 25 aÒos de experiencia, nuestros tÈcnicos especializados dominan las ˙ltimas tecnologÌas en telecomunicaciones y sistemas de comunicaciÛn." },
+      { iconName: "Shield", title: "02. Certificaciones oficiales", text: "Trabajamos exclusivamente con equipos certificados de marcas lÌderes como Televes, Johansson y Fermax, garantizando la m·xima calidad y durabilidad." },
+      { iconName: "Sparkles", title: "03. Servicios integrales", text: "Desde antenas TDT y parabÛlicas hasta porteros autom·ticos y c·maras de seguridad, cubrimos todas sus necesidades de telecomunicaciones." },
+      { iconName: "Users", title: "04. Precios transparentes", text: "Ofrecemos presupuestos claros y competitivos, sin sorpresas. Compare nuestra relaciÛn calidad-precio con otras empresas del sector." }
     ]
   },
   gallery: {
     title: "Servicios de telecomunicaciones en ",
-    subtitle: "Ejemplos de nuestras instalaciones y servicios t√©cnicos especializados en diferentes entornos.",
+    subtitle: "Ejemplos de nuestras instalaciones y servicios tÈcnicos especializados en diferentes entornos.",
     images: [
-      { src: "/images/telecom/antena-tdt-instalacion-01.jpg", alt: "Instalaci√≥n de antenas TDT en " },
-      { src: "/images/telecom/antena-parabolica.jpg", alt: "Instalaci√≥n de antenas parab√≥licas" },
-      { src: "/images/telecom/portero-automatico-instalacion-01.jpg", alt: "Porteros autom√°ticos" },
+      { src: "/images/telecom/antena-tdt-instalacion-01.jpg", alt: "InstalaciÛn de antenas TDT en " },
+      { src: "/images/telecom/antena-parabolica.jpg", alt: "InstalaciÛn de antenas parabÛlicas" },
+      { src: "/images/telecom/portero-automatico-instalacion-01.jpg", alt: "Porteros autom·ticos" },
       { src: "/images/telecom/camaras-seguridad.jpg", alt: "Sistemas de videovigilancia" },
-      { src: "/images/telecom/trabajo-antena-2024-04-01.jpg", alt: "Soluci√≥n de interferencias" },
+      { src: "/images/telecom/trabajo-antena-2024-04-01.jpg", alt: "SoluciÛn de interferencias" },
       { src: "/images/telecom/reparacion-urgente-01.jpg", alt: "Reparaciones urgentes 24/7" },
     ]
   },
 };
 
 export const metadata: Metadata = {
-  title: "Qui√©nes somos | ‚òéÔ∏è 668 67 95 00 - Empresa de Telecomunicaciones en ",
+  title: "QuiÈnes somos | ?? 668 67 95 00 - Empresa de Telecomunicaciones en ",
   description: withPhone(pageData.hero.subtitle),
   alternates: {
     canonical: `https://antenastoledo.com/${pageData.slug}`,
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
 const aboutPageSchema = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
-  "name": "Qui√©nes Somos | ‚òéÔ∏è 668 67 95 00",
+  "name": "QuiÈnes Somos | ?? 668 67 95 00",
   "description": pageData.mainContent.paragraphs.join(" "),
   "url": `https://antenastoledo.com/${pageData.slug}`,
 };
@@ -87,7 +87,7 @@ const organizationSchema = {
     "description": pageData.hero.subtitle,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Calle Vel√°zquez 59",
+      "streetAddress": "Calle Vel·zquez 59",
       "addressLocality": "",
       "postalCode": "28001",
       "addressCountry": "ES"

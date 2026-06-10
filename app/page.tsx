@@ -1,4 +1,4 @@
-Ôªøimport Image from "next/image"
+import Image from "next/image"
 import Link from "next/link"
 import {
   Check,
@@ -27,42 +27,42 @@ export default function Home() {
       title: "Antenas TDT",
       image: "/images/telecom/antena-tdt-instalacion-01.jpg",
       iconName: "Radio",
-      description: "Instalaci√≥n, reparaci√≥n y mantenimiento de antenas de televisi√≥n digital terrestre (TDT) para recepci√≥n de canales HD y 4K. Servicio t√©cnico especializado con reparaciones el mismo d√≠a.",
+      description: "InstalaciÛn, reparaciÛn y mantenimiento de antenas de televisiÛn digital terrestre (TDT) para recepciÛn de canales HD y 4K. Servicio tÈcnico especializado con reparaciones el mismo dÌa.",
       slug: "antenas-tdt"
     },
     {
-      title: "Antenas parab√≥licas",
+      title: "Antenas parabÛlicas",
       image: "/images/telecom/antena-parabolica.jpg",
       iconName: "Satellite",
-      description: "Instalaci√≥n y configuraci√≥n de antenas parab√≥licas para televisi√≥n satelital. Reorientaci√≥n a diferentes sat√©lites (Astra, Hispasat) y ajuste de se√±al para m√°xima calidad de recepci√≥n.",
+      description: "InstalaciÛn y configuraciÛn de antenas parabÛlicas para televisiÛn satelital. ReorientaciÛn a diferentes satÈlites (Astra, Hispasat) y ajuste de seÒal para m·xima calidad de recepciÛn.",
       slug: "antenas-parabolicas"
     },
     {
-      title: "Porteros autom√°ticos",
+      title: "Porteros autom·ticos",
       image: "/images/telecom/portero-automatico-instalacion-01.jpg",
       iconName: "Phone",
-      description: "Instalaci√≥n y reparaci√≥n de sistemas de porteros autom√°ticos, cit√≥fonos, telefonillos y videoporteros. Modernizaci√≥n de sistemas antiguos con tecnolog√≠a digital.",
+      description: "InstalaciÛn y reparaciÛn de sistemas de porteros autom·ticos, citÛfonos, telefonillos y videoporteros. ModernizaciÛn de sistemas antiguos con tecnologÌa digital.",
       slug: "porteros-automaticos"
     },
     {
-      title: "C√°maras de seguridad",
+      title: "C·maras de seguridad",
       image: "/images/telecom/camaras-seguridad.jpg",
       iconName: "Camera",
-      description: "Instalaci√≥n de sistemas de videovigilancia profesional para hogares y empresas. C√°maras IP de alta definici√≥n con acceso remoto y grabaci√≥n en la nube.",
+      description: "InstalaciÛn de sistemas de videovigilancia profesional para hogares y empresas. C·maras IP de alta definiciÛn con acceso remoto y grabaciÛn en la nube.",
       slug: "camaras-seguridad"
     },
     {
-      title: "Soluci√≥n interferencias 5G",
+      title: "SoluciÛn interferencias 5G",
       image: "/images/telecom/antena-profesional.jpg",
       iconName: "Wifi",
-      description: "Diagn√≥stico y soluci√≥n de interferencias causadas por se√±ales 5G en la recepci√≥n de televisi√≥n. Instalaci√≥n de filtros especializados y reajuste de equipos.",
+      description: "DiagnÛstico y soluciÛn de interferencias causadas por seÒales 5G en la recepciÛn de televisiÛn. InstalaciÛn de filtros especializados y reajuste de equipos.",
       slug: "solucion-interferencias-5g"
     },
     {
       title: "Reparaciones urgentes",
       image: "/images/telecom/reparaciones-urgentes.jpg",
       iconName: "Zap",
-      description: "Servicio de reparaciones urgentes 24/7 para antenas ca√≠das, amplificadores averiados, p√©rdida de se√±al y otros problemas t√©cnicos. Respuesta r√°pida en toda .",
+      description: "Servicio de reparaciones urgentes 24/7 para antenas caÌdas, amplificadores averiados, pÈrdida de seÒal y otros problemas tÈcnicos. Respuesta r·pida en toda .",
       slug: "reparaciones-urgentes"
     }
   ]
@@ -89,10 +89,10 @@ export default function Home() {
                   desde 1995
                 </h1>
                 <p className="text-brand-black text-lg max-w-lg">
-                  Llevamos m√°s de 25 a√±os trabajando en el sector de las telecomunicaciones, ofreciendo instalaci√≥n y reparaci√≥n de antenas TDT, parab√≥licas, porteros autom√°ticos y c√°maras de vigilancia en Toledo y  Sur.
+                  Llevamos m·s de 25 aÒos trabajando en el sector de las telecomunicaciones, ofreciendo instalaciÛn y reparaciÛn de antenas TDT, parabÛlicas, porteros autom·ticos y c·maras de vigilancia en Toledo y  .
                 </p>
                 <div className="flex flex-wrap gap-4 pt-4">
-                  <a href="https://wa.me/34668679500?text=Hola%2C%20quiero%20m√°s%20informaci√≥n">
+                  <a href="https://wa.me/34668679500?text=Hola%2C%20quiero%20m·s%20informaciÛn">
                     <Button className="bg-primary hover:bg-primary/90 text-white rounded-full px-8 py-6 normal-case">
                       Solicitar presupuesto sin compromiso
                     </Button>
@@ -156,15 +156,15 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Por qu√© elegirnos Section */}
+        {/* Por quÈ elegirnos Section */}
         <section className="w-full py-16 md:py-24 bg-white">
           <div className="container px-4 md:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">
-                ¬øPor qu√© elegir Antenas Toledo?
+                øPor quÈ elegir Antenas Toledo?
               </h2>
               <p className="text-brand-black text-lg">
-                M√°s de 25 a√±os de experiencia nos avalan como l√≠deres en telecomunicaciones en .
+                M·s de 25 aÒos de experiencia nos avalan como lÌderes en telecomunicaciones en .
               </p>
             </div>
 
@@ -173,8 +173,8 @@ export default function Home() {
                 <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Check className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-bold text-brand-black mb-2">T√©cnicos certificados</h3>
-                <p className="text-brand-black">Personal cualificado con m√°s de 25 a√±os de experiencia en el sector.</p>
+                <h3 className="text-xl font-bold text-brand-black mb-2">TÈcnicos certificados</h3>
+                <p className="text-brand-black">Personal cualificado con m·s de 25 aÒos de experiencia en el sector.</p>
               </div>
               
               <div className="text-center">
@@ -189,28 +189,28 @@ export default function Home() {
                 <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Phone className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-bold text-brand-black mb-2">Atenci√≥n 24/7</h3>
-                <p className="text-brand-black">Servicio de urgencias disponible todos los d√≠as del a√±o.</p>
+                <h3 className="text-xl font-bold text-brand-black mb-2">AtenciÛn 24/7</h3>
+                <p className="text-brand-black">Servicio de urgencias disponible todos los dÌas del aÒo.</p>
               </div>
               
               <div className="text-center">
                 <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <ArrowRight className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-bold text-brand-black mb-2">Garant√≠a total</h3>
-                <p className="text-brand-black">Todos nuestros trabajos incluyen garant√≠a y servicio postventa.</p>
+                <h3 className="text-xl font-bold text-brand-black mb-2">GarantÌa total</h3>
+                <p className="text-brand-black">Todos nuestros trabajos incluyen garantÌa y servicio postventa.</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Estad√≠sticas Section */}
+        {/* EstadÌsticas Section */}
         <section className="w-full py-16 md:py-24 bg-slate-900">
           <div className="container px-4 md:px-6">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div>
                 <div className="text-4xl md:text-5xl font-bold text-white mb-2">+20</div>
-                <p className="text-white/80">A√±os de experiencia</p>
+                <p className="text-white/80">AÒos de experiencia</p>
               </div>
               <div>
                 <div className="text-4xl md:text-5xl font-bold text-white mb-2">+5000</div>
@@ -222,7 +222,7 @@ export default function Home() {
               </div>
               <div>
                 <div className="text-4xl md:text-5xl font-bold text-white mb-2">100%</div>
-                <p className="text-white/80">Satisfacci√≥n garantizada</p>
+                <p className="text-white/80">SatisfacciÛn garantizada</p>
               </div>
             </div>
           </div>
@@ -238,7 +238,7 @@ export default function Home() {
               <div className="space-y-6">
                 <div>
                   <h2 className="text-2xl md:text-3xl font-bold text-brand-black mb-4">
-                    ¬øNecesitas m√°s informaci√≥n?
+                    øNecesitas m·s informaciÛn?
                   </h2>
                   <p className="text-brand-black text-lg">
                     Contacta con nosotros para un presupuesto personalizado sin compromiso.
@@ -253,7 +253,7 @@ export default function Home() {
                         <Phone className="h-6 w-6" />
                       </div>
                       <div>
-                        <p className="text-sm text-brand-black">Ll√°manos</p>
+                        <p className="text-sm text-brand-black">Ll·manos</p>
                         <p className="font-bold text-brand-black">668 67 95 00</p>
                       </div>
                     </div>
@@ -262,7 +262,7 @@ export default function Home() {
                         <Mail className="h-6 w-6" />
                       </div>
                       <div>
-                        <p className="text-sm text-brand-black">Escr√≠benos</p>
+                        <p className="text-sm text-brand-black">EscrÌbenos</p>
                         <p className="font-bold text-brand-black">antenastoledo@yahoo.com</p>
                       </div>
                     </div>

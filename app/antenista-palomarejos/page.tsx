@@ -1,4 +1,4 @@
-Ôªøimport React from "react";
+import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,86 +19,86 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45003",
-  descripcion: "Antenista profesional en el barrio de Palomarejos, Toledo. Instalaci√≥n y reparaci√≥n de antenas TDT, parab√≥licas, videoporteros y c√°maras de seguridad para viviendas y comunidades.",
+  descripcion: "Antenista profesional en el barrio de Palomarejos, Toledo. InstalaciÛn y reparaciÛn de antenas TDT, parabÛlicas, videoporteros y c·maras de seguridad para viviendas y comunidades.",
   servicios: [
-    "Instalaci√≥n y reparaci√≥n de antenas TDT",
-    "Instalaci√≥n y orientaci√≥n de antenas parab√≥licas",
-    "Sistemas de videoportero y portero autom√°tico",
-    "Instalaci√≥n de videovigilancia (CCTV)",
-    "Soluci√≥n a interferencias 5G",
+    "InstalaciÛn y reparaciÛn de antenas TDT",
+    "InstalaciÛn y orientaciÛn de antenas parabÛlicas",
+    "Sistemas de videoportero y portero autom·tico",
+    "InstalaciÛn de videovigilancia (CCTV)",
+    "SoluciÛn a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Alta cualificaci√≥n t√©cnica",
+    "Alta cualificaciÛn tÈcnica",
     "Materiales homologados",
-    "Garant√≠a profesional"
+    "GarantÌa profesional"
   ],
   zonasCubiertas: [
     "Barrio de Palomarejos",
     "Comunidades residenciales del entorno",
-    "Pol√≠gono industrial pr√≥ximo",
+    "PolÌgono industrial prÛximo",
     "Zonas comerciales del barrio"
   ],
   cobertura: [
     { zona: "Barrio de Palomarejos", disponible: true },
     { zona: "Comunidades residenciales del entorno", disponible: true },
-    { zona: "Pol√≠gono industrial pr√≥ximo", disponible: true },
+    { zona: "PolÌgono industrial prÛximo", disponible: true },
     { zona: "Zonas comerciales del barrio", disponible: true }
   ],
   testimonios: [
     {
       nombre: "Vecino de Palomarejos",
-      comentario: "Llevaba semanas con la antena estropeada y en pocas horas de llamarles ya ten√≠a al t√©cnico en casa. Repar√≥ la aver√≠a y ajust√≥ la se√±al de forma impecable. Muy satisfecho.",
+      comentario: "Llevaba semanas con la antena estropeada y en pocas horas de llamarles ya tenÌa al tÈcnico en casa. ReparÛ la averÌa y ajustÛ la seÒal de forma impecable. Muy satisfecho.",
       puntuacion: 5
     },
     {
       nombre: "Propietaria de vivienda",
-      comentario: "Instalaron el videoportero con c√°mara en color. La instalaci√≥n qued√≥ muy limpia y el sistema funciona perfectamente. El precio fue razonable y el servicio muy profesional.",
+      comentario: "Instalaron el videoportero con c·mara en color. La instalaciÛn quedÛ muy limpia y el sistema funciona perfectamente. El precio fue razonable y el servicio muy profesional.",
       puntuacion: 5
     },
     {
       nombre: "Responsable de comunidad de Palomarejos",
-      comentario: "Renovamos la instalaci√≥n colectiva del bloque y la mejora fue espectacular. Todos los vecinos notaron la diferencia inmediatamente. Recomendamos este servicio sin dudarlo.",
+      comentario: "Renovamos la instalaciÛn colectiva del bloque y la mejora fue espectacular. Todos los vecinos notaron la diferencia inmediatamente. Recomendamos este servicio sin dudarlo.",
       puntuacion: 5
     }
   ],
   caracteristicas: [
     {
-      titulo: "Alta Cualificaci√≥n",
-      descripcion: "T√©cnicos con formaci√≥n especializada en telecomunicaciones y amplia experiencia.",
+      titulo: "Alta CualificaciÛn",
+      descripcion: "TÈcnicos con formaciÛn especializada en telecomunicaciones y amplia experiencia.",
       icono: "Briefcase"
     },
     {
       titulo: "Materiales Certificados",
-      descripcion: "Solo utilizamos componentes homologados que garantizan una instalaci√≥n duradera.",
+      descripcion: "Solo utilizamos componentes homologados que garantizan una instalaciÛn duradera.",
       icono: "Shield"
     },
     {
       titulo: "Presupuesto Claro",
-      descripcion: "Visita t√©cnica gratuita y presupuesto cerrado por escrito sin compromiso.",
+      descripcion: "Visita tÈcnica gratuita y presupuesto cerrado por escrito sin compromiso.",
       icono: "Eye"
     },
     {
-      titulo: "Garant√≠a Profesional",
-      descripcion: "Garant√≠a escrita en todas nuestras instalaciones y reparaciones.",
+      titulo: "GarantÌa Profesional",
+      descripcion: "GarantÌa escrita en todas nuestras instalaciones y reparaciones.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¬øTienen cobertura en el barrio de Palomarejos en Toledo?",
-      answer: "S√≠. Palomarejos est√° dentro de nuestra zona de cobertura habitual en Toledo. Atendemos urgencias y trabajos programados con tiempos de respuesta muy √°giles, generalmente menos de 2 horas para urgencias."
+      question: "øTienen cobertura en el barrio de Palomarejos en Toledo?",
+      answer: "SÌ. Palomarejos est· dentro de nuestra zona de cobertura habitual en Toledo. Atendemos urgencias y trabajos programados con tiempos de respuesta muy ·giles, generalmente menos de 2 horas para urgencias."
     },
     {
-      question: "¬øQu√© hacer si mi televisi√≥n no recibe algunos canales TDT en Palomarejos?",
-      answer: "Lo m√°s habitual es que la antena necesite reorientaci√≥n o que la instalaci√≥n tenga alg√∫n fallo el√©ctrico. Tambi√©n puede ser un problema de interferencias 5G. Diagnosticamos el problema en la primera visita y aplicamos la soluci√≥n."
+      question: "øQuÈ hacer si mi televisiÛn no recibe algunos canales TDT en Palomarejos?",
+      answer: "Lo m·s habitual es que la antena necesite reorientaciÛn o que la instalaciÛn tenga alg˙n fallo elÈctrico. TambiÈn puede ser un problema de interferencias 5G. Diagnosticamos el problema en la primera visita y aplicamos la soluciÛn."
     },
     {
-      question: "¬øPueden instalar c√°maras de seguridad en un negocio del pol√≠gono pr√≥ximo?",
-      answer: "S√≠. Instalamos sistemas de videovigilancia para negocios, naves industriales y locales comerciales. Dise√±amos el sistema seg√∫n las necesidades espec√≠ficas y ofrecemos opciones de grabaci√≥n local y en la nube."
+      question: "øPueden instalar c·maras de seguridad en un negocio del polÌgono prÛximo?",
+      answer: "SÌ. Instalamos sistemas de videovigilancia para negocios, naves industriales y locales comerciales. DiseÒamos el sistema seg˙n las necesidades especÌficas y ofrecemos opciones de grabaciÛn local y en la nube."
     },
     {
-      question: "¬øHacen descuento para vecinos de la misma escalera o comunidad?",
+      question: "øHacen descuento para vecinos de la misma escalera o comunidad?",
       answer: "Para trabajos en la misma comunidad o edificio, podemos optimizar desplazamientos y ofrecer condiciones especiales. Consulte sin compromiso para recibir una propuesta ajustada a su caso concreto."
     }
   ]
@@ -111,7 +111,7 @@ const structuredData = {
       "@type": "Electrician",
       "@id": "https://antenastoledo.com/#localbusiness",
       "name": "Antenistas Toledo",
-      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-sur.jpg",
+      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-.jpg",
       "telephone": "+34668679500",
       "url": `https://antenastoledo.com/antenista-${municipioData.slug}`,
       "address": {
@@ -170,9 +170,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Palomarejos Toledo | ‚òéÔ∏è 668 67 95 00`,
-  description: `Antenista en Palomarejos, Toledo. TDT, parab√≥licas, videoporteros y c√°maras para viviendas y comunidades. Presupuesto gratuito y servicio urgente.`,
-  keywords: `antenista Palomarejos Toledo, antenas TDT Palomarejos Toledo, instalaci√≥n antenas barrio Toledo, reparaci√≥n antenas Palomarejos, videoportero Toledo`,
+  title: `Antenista en Palomarejos Toledo | ?? 668 67 95 00`,
+  description: `Antenista en Palomarejos, Toledo. TDT, parabÛlicas, videoporteros y c·maras para viviendas y comunidades. Presupuesto gratuito y servicio urgente.`,
+  keywords: `antenista Palomarejos Toledo, antenas TDT Palomarejos Toledo, instalaciÛn antenas barrio Toledo, reparaciÛn antenas Palomarejos, videoportero Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-palomarejos'
   },
@@ -217,13 +217,13 @@ export default function PalomarejosPage() {
                       Antenista profesional en Palomarejos, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos servicio de antenista en el barrio de Palomarejos, Toledo. Atendemos viviendas, pisos, comunidades de vecinos, locales y negocios del pol√≠gono pr√≥ximo con instalaciones de antenas TDT, parab√≥licas, videoporteros y sistemas de videovigilancia. Servicio √°gil, profesional y con garant√≠a.
+                      Ofrecemos servicio de antenista en el barrio de Palomarejos, Toledo. Atendemos viviendas, pisos, comunidades de vecinos, locales y negocios del polÌgono prÛximo con instalaciones de antenas TDT, parabÛlicas, videoporteros y sistemas de videovigilancia. Servicio ·gil, profesional y con garantÌa.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervenci√≥n
+                      Contactar para una intervenciÛn
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -232,7 +232,7 @@ export default function PalomarejosPage() {
                 </div>
                 <div className="relative">
                   <div className="mt-20 flex justify-center relative overflow-hidden rounded-xl">
-                    <Image src="/images/telecom/antenistas-en-toledo-sur.jpg" alt="Antenista profesional en Palomarejos Toledo" width={400} height={200} priority />
+                    <Image src="/images/telecom/antenistas-en-toledo-.jpg" alt="Antenista profesional en Palomarejos Toledo" width={400} height={200} priority />
                   </div>
                 </div>
               </div>
@@ -243,7 +243,7 @@ export default function PalomarejosPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Palomarejos y alrededores</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el barrio y el entorno con t√©cnicos especializados y servicio urgente.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el barrio y el entorno con tÈcnicos especializados y servicio urgente.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -278,7 +278,7 @@ export default function PalomarejosPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat√°logo de servicios especializados</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat·logo de servicios especializados</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones completas de telecomunicaciones para Palomarejos y Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -292,8 +292,8 @@ export default function PalomarejosPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¬øPor qu√© confiar en nuestro servicio t√©cnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Profesionalidad y calidad en cada instalaci√≥n en Palomarejos, Toledo.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">øPor quÈ confiar en nuestro servicio tÈcnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Profesionalidad y calidad en cada instalaciÛn en Palomarejos, Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -313,7 +313,7 @@ export default function PalomarejosPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en Palomarejos</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Vecinos y negocios del barrio que conf√≠an en nuestro servicio.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Vecinos y negocios del barrio que confÌan en nuestro servicio.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -338,7 +338,7 @@ export default function PalomarejosPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios en Palomarejos</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas m√°s habituales de los vecinos del barrio.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas m·s habituales de los vecinos del barrio.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -356,7 +356,7 @@ export default function PalomarejosPage() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
                   <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Palomarejos</h2>
-                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto gratuito o llame para una intervenci√≥n urgente en Palomarejos, Toledo.</p>
+                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto gratuito o llame para una intervenciÛn urgente en Palomarejos, Toledo.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Palomarejos%20Toledo" className="flex items-center gap-2">

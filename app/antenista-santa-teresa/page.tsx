@@ -1,4 +1,4 @@
-Ôªøimport React from "react";
+import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,19 +19,19 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45006",
-  descripcion: "Antenista profesional en el barrio de Santa Teresa, Toledo. Instalaci√≥n y reparaci√≥n de antenas TDT, parab√≥licas, videoporteros y c√°maras de seguridad para pisos, comunidades y negocios.",
+  descripcion: "Antenista profesional en el barrio de Santa Teresa, Toledo. InstalaciÛn y reparaciÛn de antenas TDT, parabÛlicas, videoporteros y c·maras de seguridad para pisos, comunidades y negocios.",
   servicios: [
-    "Instalaci√≥n y reparaci√≥n de antenas TDT",
-    "Instalaci√≥n y orientaci√≥n de antenas parab√≥licas",
-    "Sistemas de videoportero y portero autom√°tico",
-    "Instalaci√≥n de videovigilancia (CCTV)",
-    "Soluci√≥n a interferencias 5G",
+    "InstalaciÛn y reparaciÛn de antenas TDT",
+    "InstalaciÛn y orientaciÛn de antenas parabÛlicas",
+    "Sistemas de videoportero y portero autom·tico",
+    "InstalaciÛn de videovigilancia (CCTV)",
+    "SoluciÛn a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Alta cualificaci√≥n t√©cnica",
+    "Alta cualificaciÛn tÈcnica",
     "Materiales homologados",
-    "Garant√≠a profesional"
+    "GarantÌa profesional"
   ],
   zonasCubiertas: [
     "Barrio de Santa Teresa",
@@ -48,12 +48,12 @@ const municipioData = {
   testimonios: [
     {
       nombre: "Vecino de Santa Teresa",
-      comentario: "Instalaron la antena nueva en mi piso y desde entonces tengo imagen perfecta. El t√©cnico fue muy puntual y explic√≥ todo con detalle. Muy satisfecho con el servicio.",
+      comentario: "Instalaron la antena nueva en mi piso y desde entonces tengo imagen perfecta. El tÈcnico fue muy puntual y explicÛ todo con detalle. Muy satisfecho con el servicio.",
       puntuacion: 5
     },
     {
       nombre: "Propietaria de piso en Santa Teresa",
-      comentario: "Llam√© para instalar un videoportero nuevo ya que el antiguo estaba roto. En menos de 24 horas vinieron, instalaron un modelo moderno con c√°mara y funcion√≥ desde el primer momento.",
+      comentario: "LlamÈ para instalar un videoportero nuevo ya que el antiguo estaba roto. En menos de 24 horas vinieron, instalaron un modelo moderno con c·mara y funcionÛ desde el primer momento.",
       puntuacion: 5
     },
     {
@@ -64,8 +64,8 @@ const municipioData = {
   ],
   caracteristicas: [
     {
-      titulo: "Alta Cualificaci√≥n",
-      descripcion: "T√©cnicos con a√±os de experiencia y formaci√≥n continua en telecomunicaciones.",
+      titulo: "Alta CualificaciÛn",
+      descripcion: "TÈcnicos con aÒos de experiencia y formaciÛn continua en telecomunicaciones.",
       icono: "Briefcase"
     },
     {
@@ -79,27 +79,27 @@ const municipioData = {
       icono: "Eye"
     },
     {
-      titulo: "Garant√≠a por Escrito",
-      descripcion: "Garant√≠a profesional incluida en cada instalaci√≥n y reparaci√≥n.",
+      titulo: "GarantÌa por Escrito",
+      descripcion: "GarantÌa profesional incluida en cada instalaciÛn y reparaciÛn.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¬øAtienden con urgencia en el barrio de Santa Teresa?",
-      answer: "S√≠. Disponemos de servicio de urgencias para el barrio de Santa Teresa y el resto de Toledo. Para casos urgentes como p√©rdida total de se√±al, nuestro objetivo es atender el mismo d√≠a o en menos de 2 horas."
+      question: "øAtienden con urgencia en el barrio de Santa Teresa?",
+      answer: "SÌ. Disponemos de servicio de urgencias para el barrio de Santa Teresa y el resto de Toledo. Para casos urgentes como pÈrdida total de seÒal, nuestro objetivo es atender el mismo dÌa o en menos de 2 horas."
     },
     {
-      question: "¬øPueden cambiar solo el cable de la antena sin cambiar la antena?",
-      answer: "S√≠. Si la antena est√° en buen estado, podemos cambiar √∫nicamente el tramo de cable coaxial defectuoso, lo que supone un ahorro importante respecto a cambiar toda la instalaci√≥n."
+      question: "øPueden cambiar solo el cable de la antena sin cambiar la antena?",
+      answer: "SÌ. Si la antena est· en buen estado, podemos cambiar ˙nicamente el tramo de cable coaxial defectuoso, lo que supone un ahorro importante respecto a cambiar toda la instalaciÛn."
     },
     {
-      question: "¬øOfrecen contrato de mantenimiento para comunidades en Santa Teresa?",
-      answer: "S√≠. Ofrecemos contratos de mantenimiento preventivo anual para comunidades de propietarios, incluyendo revisi√≥n de la instalaci√≥n de antena colectiva, limpieza de conectores y comprobaci√≥n de niveles de se√±al."
+      question: "øOfrecen contrato de mantenimiento para comunidades en Santa Teresa?",
+      answer: "SÌ. Ofrecemos contratos de mantenimiento preventivo anual para comunidades de propietarios, incluyendo revisiÛn de la instalaciÛn de antena colectiva, limpieza de conectores y comprobaciÛn de niveles de seÒal."
     },
     {
-      question: "¬øCu√°nto cuesta instalar un videoportero en un piso de Santa Teresa?",
-      answer: "El precio depende del tipo de videoportero elegido (b√°sico o con c√°mara HD), el n√∫mero de plantas y si hay que renovar el cableado. Realizamos visita previa gratuita y entregamos presupuesto detallado."
+      question: "øCu·nto cuesta instalar un videoportero en un piso de Santa Teresa?",
+      answer: "El precio depende del tipo de videoportero elegido (b·sico o con c·mara HD), el n˙mero de plantas y si hay que renovar el cableado. Realizamos visita previa gratuita y entregamos presupuesto detallado."
     }
   ]
 };
@@ -111,7 +111,7 @@ const structuredData = {
       "@type": "Electrician",
       "@id": "https://antenastoledo.com/#localbusiness",
       "name": "Antenistas Toledo",
-      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-sur.jpg",
+      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-.jpg",
       "telephone": "+34668679500",
       "url": `https://antenastoledo.com/antenista-${municipioData.slug}`,
       "address": {
@@ -170,9 +170,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Santa Teresa Toledo | ‚òéÔ∏è 668 67 95 00`,
-  description: `Antenista en el barrio de Santa Teresa, Toledo. TDT, parab√≥licas, videoporteros y c√°maras para pisos y comunidades. Servicio urgente disponible.`,
-  keywords: `antenista Santa Teresa Toledo, antenas TDT barrio Santa Teresa Toledo, instalaci√≥n antenas Toledo, reparaci√≥n antenas Santa Teresa, videoportero Toledo`,
+  title: `Antenista en Santa Teresa Toledo | ?? 668 67 95 00`,
+  description: `Antenista en el barrio de Santa Teresa, Toledo. TDT, parabÛlicas, videoporteros y c·maras para pisos y comunidades. Servicio urgente disponible.`,
+  keywords: `antenista Santa Teresa Toledo, antenas TDT barrio Santa Teresa Toledo, instalaciÛn antenas Toledo, reparaciÛn antenas Santa Teresa, videoportero Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-santa-teresa'
   },
@@ -217,13 +217,13 @@ export default function SantaTeresaPage() {
                       Antenista profesional en Santa Teresa, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Prestamos servicio de antenista en el barrio de Santa Teresa de Toledo. Atendemos pisos, comunidades de vecinos, locales y negocios con instalaciones de TDT, parab√≥licas, videoporteros y sistemas de videovigilancia. Disponemos de servicio urgente con atenci√≥n en el mismo d√≠a.
+                      Prestamos servicio de antenista en el barrio de Santa Teresa de Toledo. Atendemos pisos, comunidades de vecinos, locales y negocios con instalaciones de TDT, parabÛlicas, videoporteros y sistemas de videovigilancia. Disponemos de servicio urgente con atenciÛn en el mismo dÌa.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervenci√≥n
+                      Contactar para una intervenciÛn
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -232,7 +232,7 @@ export default function SantaTeresaPage() {
                 </div>
                 <div className="relative">
                   <div className="mt-20 flex justify-center relative overflow-hidden rounded-xl">
-                    <Image src="/images/telecom/antenistas-en-toledo-sur.jpg" alt="Antenista profesional en Santa Teresa Toledo" width={400} height={200} priority />
+                    <Image src="/images/telecom/antenistas-en-toledo-.jpg" alt="Antenista profesional en Santa Teresa Toledo" width={400} height={200} priority />
                   </div>
                 </div>
               </div>
@@ -243,7 +243,7 @@ export default function SantaTeresaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Santa Teresa y alrededores</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el barrio de Santa Teresa con t√©cnicos con experiencia local.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el barrio de Santa Teresa con tÈcnicos con experiencia local.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -267,7 +267,7 @@ export default function SantaTeresaPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Servicio urgente disponible. Atenci√≥n en el mismo d√≠a en Santa Teresa.</span>
+                      <span>Servicio urgente disponible. AtenciÛn en el mismo dÌa en Santa Teresa.</span>
                     </div>
                   </div>
                 </div>
@@ -278,7 +278,7 @@ export default function SantaTeresaPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat√°logo de servicios especializados</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat·logo de servicios especializados</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Todo lo que necesita para sus telecomunicaciones en Santa Teresa.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -292,7 +292,7 @@ export default function SantaTeresaPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¬øPor qu√© confiar en nuestro servicio t√©cnico?</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">øPor quÈ confiar en nuestro servicio tÈcnico?</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Profesionales comprometidos con la calidad en cada visita.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -313,7 +313,7 @@ export default function SantaTeresaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en Santa Teresa</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Vecinos y comunidades de Santa Teresa que conf√≠an en nosotros.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Vecinos y comunidades de Santa Teresa que confÌan en nosotros.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -338,7 +338,7 @@ export default function SantaTeresaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios en Santa Teresa</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Respuestas a las preguntas m√°s habituales de los vecinos del barrio.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Respuestas a las preguntas m·s habituales de los vecinos del barrio.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -356,7 +356,7 @@ export default function SantaTeresaPage() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
                   <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Santa Teresa</h2>
-                  <p className="text-xl mb-8 text-white/90">Pida presupuesto o llame para una intervenci√≥n urgente en el barrio de Santa Teresa, Toledo.</p>
+                  <p className="text-xl mb-8 text-white/90">Pida presupuesto o llame para una intervenciÛn urgente en el barrio de Santa Teresa, Toledo.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Santa%20Teresa%20Toledo" className="flex items-center gap-2">

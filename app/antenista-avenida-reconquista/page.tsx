@@ -1,4 +1,4 @@
-Ôªøimport React from "react";
+import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,41 +19,41 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45007",
-  descripcion: "Antenista profesional en la zona de Avenida Reconquista, Toledo. Instalaci√≥n y reparaci√≥n de antenas TDT, parab√≥licas, videoporteros y c√°maras de seguridad para comunidades y pisos.",
+  descripcion: "Antenista profesional en la zona de Avenida Reconquista, Toledo. InstalaciÛn y reparaciÛn de antenas TDT, parabÛlicas, videoporteros y c·maras de seguridad para comunidades y pisos.",
   servicios: [
-    "Instalaci√≥n y reparaci√≥n de antenas TDT",
-    "Instalaci√≥n y orientaci√≥n de antenas parab√≥licas",
-    "Sistemas de videoportero y portero autom√°tico",
-    "Instalaci√≥n de videovigilancia (CCTV)",
-    "Soluci√≥n a interferencias 5G",
+    "InstalaciÛn y reparaciÛn de antenas TDT",
+    "InstalaciÛn y orientaciÛn de antenas parabÛlicas",
+    "Sistemas de videoportero y portero autom·tico",
+    "InstalaciÛn de videovigilancia (CCTV)",
+    "SoluciÛn a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Alta cualificaci√≥n t√©cnica",
+    "Alta cualificaciÛn tÈcnica",
     "Materiales homologados",
-    "Garant√≠a profesional"
+    "GarantÌa profesional"
   ],
   zonasCubiertas: [
     "Avenida Reconquista y calles adyacentes",
     "Bloques residenciales del entorno",
     "Zona comercial de la avenida",
-    "Comunidades de vecinos del √°rea"
+    "Comunidades de vecinos del ·rea"
   ],
   cobertura: [
     { zona: "Avenida Reconquista y calles adyacentes", disponible: true },
     { zona: "Bloques residenciales del entorno", disponible: true },
     { zona: "Zona comercial de la avenida", disponible: true },
-    { zona: "Comunidades de vecinos del √°rea", disponible: true }
+    { zona: "Comunidades de vecinos del ·rea", disponible: true }
   ],
   testimonios: [
     {
       nombre: "Vecino de Avenida Reconquista",
-      comentario: "Llam√© por fallo en la antena colectiva y vinieron en pocas horas. Localizaron la aver√≠a en el amplificador de cabecera y lo sustituyeron al momento. R√°pidos y muy profesionales.",
+      comentario: "LlamÈ por fallo en la antena colectiva y vinieron en pocas horas. Localizaron la averÌa en el amplificador de cabecera y lo sustituyeron al momento. R·pidos y muy profesionales.",
       puntuacion: 5
     },
     {
       nombre: "Comerciante de la zona",
-      comentario: "Instalaron las c√°maras de seguridad en mi local. La instalaci√≥n fue muy limpia y el sistema funciona perfectamente. Accedo desde el m√≥vil en cualquier momento. Muy recomendables.",
+      comentario: "Instalaron las c·maras de seguridad en mi local. La instalaciÛn fue muy limpia y el sistema funciona perfectamente. Accedo desde el mÛvil en cualquier momento. Muy recomendables.",
       puntuacion: 5
     },
     {
@@ -64,8 +64,8 @@ const municipioData = {
   ],
   caracteristicas: [
     {
-      titulo: "Alta Cualificaci√≥n T√©cnica",
-      descripcion: "T√©cnicos especializados con experiencia en todo tipo de instalaciones.",
+      titulo: "Alta CualificaciÛn TÈcnica",
+      descripcion: "TÈcnicos especializados con experiencia en todo tipo de instalaciones.",
       icono: "Briefcase"
     },
     {
@@ -79,27 +79,27 @@ const municipioData = {
       icono: "Eye"
     },
     {
-      titulo: "Garant√≠a Escrita",
-      descripcion: "Garant√≠a completa en todas nuestras instalaciones y reparaciones.",
+      titulo: "GarantÌa Escrita",
+      descripcion: "GarantÌa completa en todas nuestras instalaciones y reparaciones.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¬øTienen t√©cnicos disponibles cerca de Avenida Reconquista?",
-      answer: "S√≠. Operamos desde Toledo capital y cubrimos toda la ciudad con t√©cnicos que conocen bien todos los barrios. Para la zona de Avenida Reconquista el tiempo de respuesta es habitualmente inferior a 2 horas."
+      question: "øTienen tÈcnicos disponibles cerca de Avenida Reconquista?",
+      answer: "SÌ. Operamos desde Toledo capital y cubrimos toda la ciudad con tÈcnicos que conocen bien todos los barrios. Para la zona de Avenida Reconquista el tiempo de respuesta es habitualmente inferior a 2 horas."
     },
     {
-      question: "¬øPueden instalar parab√≥lica en un piso sin balc√≥n en Avenida Reconquista?",
-      answer: "S√≠. En pisos sin balc√≥n buscamos la soluci√≥n m√°s adecuada: tejado del edificio, ventana orientada al sur, o en algunos casos fachada trasera. Siempre respetamos la normativa de la comunidad."
+      question: "øPueden instalar parabÛlica en un piso sin balcÛn en Avenida Reconquista?",
+      answer: "SÌ. En pisos sin balcÛn buscamos la soluciÛn m·s adecuada: tejado del edificio, ventana orientada al , o en algunos casos fachada trasera. Siempre respetamos la normativa de la comunidad."
     },
     {
-      question: "¬øHacen presupuesto para renovar toda la instalaci√≥n de antena de un bloque?",
-      answer: "S√≠. Realizamos auditor√≠a gratuita de la instalaci√≥n existente y presentamos presupuesto detallado para la renovaci√≥n completa, incluyendo cable, amplificador, derivadores y tomas de usuario."
+      question: "øHacen presupuesto para renovar toda la instalaciÛn de antena de un bloque?",
+      answer: "SÌ. Realizamos auditorÌa gratuita de la instalaciÛn existente y presentamos presupuesto detallado para la renovaciÛn completa, incluyendo cable, amplificador, derivadores y tomas de usuario."
     },
     {
-      question: "¬øTrabajan s√°bados en la zona de Avenida Reconquista?",
-      answer: "S√≠. Atendemos intervenciones urgentes de lunes a s√°bado. Para trabajos programados tambi√©n podemos adaptarnos a los s√°bados si el horario laboral de entre semana no le permite estar en casa."
+      question: "øTrabajan s·bados en la zona de Avenida Reconquista?",
+      answer: "SÌ. Atendemos intervenciones urgentes de lunes a s·bado. Para trabajos programados tambiÈn podemos adaptarnos a los s·bados si el horario laboral de entre semana no le permite estar en casa."
     }
   ]
 };
@@ -111,7 +111,7 @@ const structuredData = {
       "@type": "Electrician",
       "@id": "https://antenastoledo.com/#localbusiness",
       "name": "Antenistas Toledo",
-      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-sur.jpg",
+      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-.jpg",
       "telephone": "+34668679500",
       "url": `https://antenastoledo.com/antenista-${municipioData.slug}`,
       "address": {
@@ -170,9 +170,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Avenida Reconquista Toledo | ‚òéÔ∏è 668 67 95 00`,
-  description: `Antenista en Avenida Reconquista, Toledo. TDT, parab√≥licas, videoporteros y c√°maras para comunidades y pisos. Presupuesto gratuito y servicio urgente.`,
-  keywords: `antenista Avenida Reconquista Toledo, antenas TDT Toledo, instalaci√≥n antenas comunidades Toledo, antenista Toledo sur, reparaci√≥n antenas Toledo`,
+  title: `Antenista en Avenida Reconquista Toledo | ?? 668 67 95 00`,
+  description: `Antenista en Avenida Reconquista, Toledo. TDT, parabÛlicas, videoporteros y c·maras para comunidades y pisos. Presupuesto gratuito y servicio urgente.`,
+  keywords: `antenista Avenida Reconquista Toledo, antenas TDT Toledo, instalaciÛn antenas comunidades Toledo, antenista Toledo , reparaciÛn antenas Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-avenida-reconquista'
   },
@@ -217,13 +217,13 @@ export default function AvenidaReconquistaPage() {
                       Antenista profesional en Avenida Reconquista, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos servicio de antenista en la zona de Avenida Reconquista y su entorno residencial en Toledo. Atendemos comunidades de vecinos, pisos particulares y establecimientos comerciales con instalaciones de antenas TDT, parab√≥licas, videoporteros y sistemas de videovigilancia. M√°s de 25 a√±os de experiencia en Toledo nos avalan.
+                      Ofrecemos servicio de antenista en la zona de Avenida Reconquista y su entorno residencial en Toledo. Atendemos comunidades de vecinos, pisos particulares y establecimientos comerciales con instalaciones de antenas TDT, parabÛlicas, videoporteros y sistemas de videovigilancia. M·s de 25 aÒos de experiencia en Toledo nos avalan.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervenci√≥n
+                      Contactar para una intervenciÛn
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -232,7 +232,7 @@ export default function AvenidaReconquistaPage() {
                 </div>
                 <div className="relative">
                   <div className="mt-20 flex justify-center relative overflow-hidden rounded-xl">
-                    <Image src="/images/telecom/antenistas-en-toledo-sur.jpg" alt="Antenista profesional en Avenida Reconquista Toledo" width={400} height={200} priority />
+                    <Image src="/images/telecom/antenistas-en-toledo-.jpg" alt="Antenista profesional en Avenida Reconquista Toledo" width={400} height={200} priority />
                   </div>
                 </div>
               </div>
@@ -243,7 +243,7 @@ export default function AvenidaReconquistaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Avenida Reconquista y alrededores</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la zona con t√©cnicos especializados y servicio de urgencias disponible.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la zona con tÈcnicos especializados y servicio de urgencias disponible.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -253,7 +253,7 @@ export default function AvenidaReconquistaPage() {
                     </div>
                     <div>
                       <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en Avenida Reconquista</h3>
-                      <p className="text-brand-black-light">Antenista profesional en toda el √°rea</p>
+                      <p className="text-brand-black-light">Antenista profesional en toda el ·rea</p>
                     </div>
                   </div>
                   <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -278,7 +278,7 @@ export default function AvenidaReconquistaPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat√°logo de servicios especializados</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat·logo de servicios especializados</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones completas de telecomunicaciones para la zona de Avenida Reconquista.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -292,8 +292,8 @@ export default function AvenidaReconquistaPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¬øPor qu√© confiar en nuestro servicio t√©cnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Profesionalidad y calidad en cada instalaci√≥n en Toledo.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">øPor quÈ confiar en nuestro servicio tÈcnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Profesionalidad y calidad en cada instalaciÛn en Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -338,7 +338,7 @@ export default function AvenidaReconquistaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas m√°s habituales de nuestros clientes en la zona.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas m·s habituales de nuestros clientes en la zona.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -356,7 +356,7 @@ export default function AvenidaReconquistaPage() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
                   <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Avenida Reconquista</h2>
-                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto gratuito o llame para una intervenci√≥n urgente en Toledo.</p>
+                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto gratuito o llame para una intervenciÛn urgente en Toledo.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Avenida%20Reconquista%20Toledo" className="flex items-center gap-2">

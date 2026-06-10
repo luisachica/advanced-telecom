@@ -1,4 +1,4 @@
-Ôªøimport React from "react";
+import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,101 +14,101 @@ import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 import { withPhone } from "@/lib/seo";
 
-// Datos espec√≠ficos del municipio
+// Datos especÌficos del municipio
 const municipioData = {
-  nombre: "Montesi√≥n",
+  nombre: "MontesiÛn",
   slug: "montesion",
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45004",
   poblacion: "1.200",
   superficie: "8,5",
-  descripcion: "Antenista especializado en la urbanizaci√≥n Montesi√≥n, Toledo. Servicios premium de telecomunicaciones para chalets y viviendas de alta gama.",
+  descripcion: "Antenista especializado en la urbanizaciÛn MontesiÛn, Toledo. Servicios premium de telecomunicaciones para chalets y viviendas de alta gama.",
   servicios: [
-    "Se√±al TDT y 4K de alta fidelidad para Montesi√≥n",
-    "Antenas parab√≥licas de alto rendimiento",
-    "Videoporteros avanzados y dom√≥tica",
+    "SeÒal TDT y 4K de alta fidelidad para MontesiÛn",
+    "Antenas parabÛlicas de alto rendimiento",
+    "Videoporteros avanzados y domÛtica",
     "CCTV y seguridad perimetral",
-    "Optimizaci√≥n de redes Wifi",
+    "OptimizaciÛn de redes Wifi",
     "Reparaciones discretas y eficaces"
   ],
    serviciosDestacados: [
-    "Especializaci√≥n en viviendas de alta gama",
+    "EspecializaciÛn en viviendas de alta gama",
     "Servicio premium y discreto",
-    "Tecnolog√≠a de √∫ltima generaci√≥n"
+    "TecnologÌa de ˙ltima generaciÛn"
   ],
 
   zonasCubiertas: [
-    "Todas las calles y parcelas de Montesi√≥n",
+    "Todas las calles y parcelas de MontesiÛn",
     "Chalets individuales y viviendas de alto standing",
-    "Zonas comunes y accesos de la urbanizaci√≥n",
-    "Servicio garantizado en cualquier punto de Montesi√≥n"
+    "Zonas comunes y accesos de la urbanizaciÛn",
+    "Servicio garantizado en cualquier punto de MontesiÛn"
   ],
 
   cobertura: [
-    { zona: "Todas las calles y parcelas de Montesi√≥n", disponible: true },
+    { zona: "Todas las calles y parcelas de MontesiÛn", disponible: true },
     { zona: "Chalets individuales y viviendas de alto standing", disponible: true },
-    { zona: "Zonas comunes y accesos de la urbanizaci√≥n", disponible: true },
-    { zona: "Servicio garantizado en cualquier punto de Montesi√≥n", disponible: true }
+    { zona: "Zonas comunes y accesos de la urbanizaciÛn", disponible: true },
+    { zona: "Servicio garantizado en cualquier punto de MontesiÛn", disponible: true }
   ],
 
   testimonios: [
     {
       nombre: "Javier V.",
-      comentario: "Necesitaba un sistema de c√°maras para la parcela que fuera eficaz pero discreto. Me ofrecieron una soluci√≥n muy avanzada y la instalaci√≥n fue impecable. Muy profesionales.",
+      comentario: "Necesitaba un sistema de c·maras para la parcela que fuera eficaz pero discreto. Me ofrecieron una soluciÛn muy avanzada y la instalaciÛn fue impecable. Muy profesionales.",
       puntuacion: 5
     },
     {
       nombre: "Marta R.",
-      comentario: "El t√©cnico fue extremadamente profesional y cuidadoso al trabajar en casa. Resolvieron un problema complejo con la se√±al que afectaba a nuestro sistema de home cinema. Servicio de primera.",
+      comentario: "El tÈcnico fue extremadamente profesional y cuidadoso al trabajar en casa. Resolvieron un problema complejo con la seÒal que afectaba a nuestro sistema de home cinema. Servicio de primera.",
       puntuacion: 5
     },
     {
       nombre: "Carlos D.",
-      comentario: "La mejor atenci√≥n que he recibido. Me optimizaron la red wifi y ahora tengo cobertura perfecta en toda la casa y el jard√≠n. Un trabajo excelente.",
+      comentario: "La mejor atenciÛn que he recibido. Me optimizaron la red wifi y ahora tengo cobertura perfecta en toda la casa y el jardÌn. Un trabajo excelente.",
       puntuacion: 5
     }
   ],
 
    caracteristicas: [
     {
-      titulo: "Especializaci√≥n en viviendas de alta gama",
-      descripcion: "Entendemos las exigencias t√©cnicas y est√©ticas de los chalets de Montesi√≥n. Nuestras instalaciones son impecables, funcionales y respetuosas con el dise√±o de tu casa.",
+      titulo: "EspecializaciÛn en viviendas de alta gama",
+      descripcion: "Entendemos las exigencias tÈcnicas y estÈticas de los chalets de MontesiÛn. Nuestras instalaciones son impecables, funcionales y respetuosas con el diseÒo de tu casa.",
       icono: "Home"
     },
     {
-      titulo: "M√°xima confidencialidad y respeto",
-      descripcion: "Tu privacidad es nuestra prioridad. Trabajamos con la m√°s absoluta discreci√≥n y profesionalidad, garantizando una total confidencialidad.",
+      titulo: "M·xima confidencialidad y respeto",
+      descripcion: "Tu privacidad es nuestra prioridad. Trabajamos con la m·s absoluta discreciÛn y profesionalidad, garantizando una total confidencialidad.",
       icono: "Shield"
     },
     {
       titulo: "Componentes de las mejores marcas",
-      descripcion: "Solo utilizamos materiales y tecnolog√≠a de punta de los fabricantes l√≠deres para garantizar un rendimiento superior y una durabilidad excepcional en cada instalaci√≥n.",
+      descripcion: "Solo utilizamos materiales y tecnologÌa de punta de los fabricantes lÌderes para garantizar un rendimiento superior y una durabilidad excepcional en cada instalaciÛn.",
       icono: "Signal"
     },
     {
-      titulo: "Asesoramiento t√©cnico personalizado",
-      descripcion: "Te escuchamos y te ofrecemos la soluci√≥n tecnol√≥gica que mejor se adapta a tu estilo de vida y a las caracter√≠sticas de tu hogar, no una soluci√≥n gen√©rica.",
+      titulo: "Asesoramiento tÈcnico personalizado",
+      descripcion: "Te escuchamos y te ofrecemos la soluciÛn tecnolÛgica que mejor se adapta a tu estilo de vida y a las caracterÌsticas de tu hogar, no una soluciÛn genÈrica.",
       icono: "Users"
     }
   ],
 
   faqs: [
     {
-      question: "¬øPod√©is integrar el videoportero con el sistema de dom√≥tica de mi casa?",
-      answer: "S√≠, por supuesto. Trabajamos con sistemas de videoportero compatibles con los principales est√°ndares de dom√≥tica (KNX, etc.). Podemos integrar el control de acceso en la misma aplicaci√≥n que usas para el resto de tu hogar."
+      question: "øPodÈis integrar el videoportero con el sistema de domÛtica de mi casa?",
+      answer: "SÌ, por supuesto. Trabajamos con sistemas de videoportero compatibles con los principales est·ndares de domÛtica (KNX, etc.). Podemos integrar el control de acceso en la misma aplicaciÛn que usas para el resto de tu hogar."
     },
     {
-      question: "Tengo una instalaci√≥n de antena muy compleja, ¬øten√©is experiencia?",
-      answer: "S√≠. Estamos especializados en instalaciones complejas con m√∫ltiples puntos de televisi√≥n, sistemas de amplificaci√≥n avanzados y distribuci√≥n de se√±al de sat√©lite y TDT a toda la casa."
+      question: "Tengo una instalaciÛn de antena muy compleja, øtenÈis experiencia?",
+      answer: "SÌ. Estamos especializados en instalaciones complejas con m˙ltiples puntos de televisiÛn, sistemas de amplificaciÛn avanzados y distribuciÛn de seÒal de satÈlite y TDT a toda la casa."
     },
     {
-      question: "¬øC√≥mo garantiz√°is la discreci√≥n durante el trabajo?",
-      answer: "Nuestros t√©cnicos son profesionales con gran experiencia, se presentan en veh√≠culos sin rotulaci√≥n excesiva y realizan su trabajo de forma eficiente y silenciosa, respetando siempre tu privacidad y la de tu familia."
+      question: "øCÛmo garantiz·is la discreciÛn durante el trabajo?",
+      answer: "Nuestros tÈcnicos son profesionales con gran experiencia, se presentan en vehÌculos sin rotulaciÛn excesiva y realizan su trabajo de forma eficiente y silenciosa, respetando siempre tu privacidad y la de tu familia."
     },
     {
-      question: "¬øOfrec√©is contratos de mantenimiento para mi instalaci√≥n?",
-      answer: "S√≠. Para una total tranquilidad, te ofrecemos contratos de mantenimiento preventivo para asegurar que todos tus sistemas de telecomunicaciones y seguridad est√©n siempre en perfecto estado de funcionamiento."
+      question: "øOfrecÈis contratos de mantenimiento para mi instalaciÛn?",
+      answer: "SÌ. Para una total tranquilidad, te ofrecemos contratos de mantenimiento preventivo para asegurar que todos tus sistemas de telecomunicaciones y seguridad estÈn siempre en perfecto estado de funcionamiento."
     }
   ]
 }
@@ -120,7 +120,7 @@ const structuredData = {
       "@type": "Electrician",
       "@id": "https://antenastoledo.com/#localbusiness",
       "name": "Antenistas Toledo",
-      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-sur.jpg",
+      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-.jpg",
       "telephone": "+34668679500",
       "url": `https://antenastoledo.com/antenista-${municipioData.slug}`,
       "address": {
@@ -179,9 +179,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Montesi√≥n, Toledo | ‚òéÔ∏è 668 67 95 00`,
-  description: withPhone(`Tu antenista de confianza en la urbanizaci√≥n Montesi√≥n. Servicio premium para TDT, parab√≥licas y videoporteros en tu chalet. Presupuesto sin compromiso.`),
-  keywords: `antenista Montesi√≥n, antenas TDT Montesi√≥n, instalaci√≥n antenas Toledo, videoporteros Montesi√≥n, telecomunicaciones Montesi√≥n, chalets alta gama`,
+  title: `Antenista en MontesiÛn, Toledo | ?? 668 67 95 00`,
+  description: withPhone(`Tu antenista de confianza en la urbanizaciÛn MontesiÛn. Servicio premium para TDT, parabÛlicas y videoporteros en tu chalet. Presupuesto sin compromiso.`),
+  keywords: `antenista MontesiÛn, antenas TDT MontesiÛn, instalaciÛn antenas Toledo, videoporteros MontesiÛn, telecomunicaciones MontesiÛn, chalets alta gama`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-montesion'
   },
@@ -228,7 +228,7 @@ export default function MontesionPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section espec√≠fico de Montesi√≥n */}
+          {/* Hero Section especÌfico de MontesiÛn */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -244,10 +244,10 @@ export default function MontesionPage() {
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      <span className="text-brand-green">Tu servicio de antenista</span> para la urbanizaci√≥n {municipioData.nombre}
+                      <span className="text-brand-green">Tu servicio de antenista</span> para la urbanizaciÛn {municipioData.nombre}
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Si vives en la urbanizaci√≥n {municipioData.nombre} y buscas un servicio de antenista a la altura de tu hogar, has encontrado al especialista que necesitas. Te ofrecemos soluciones de alta gama para garantizar una se√±al de TV perfecta, una conexi√≥n a internet impecable y la m√°xima seguridad en tu chalet, todo ello con un servicio profesional y discreto.
+                      Si vives en la urbanizaciÛn {municipioData.nombre} y buscas un servicio de antenista a la altura de tu hogar, has encontrado al especialista que necesitas. Te ofrecemos soluciones de alta gama para garantizar una seÒal de TV perfecta, una conexiÛn a internet impecable y la m·xima seguridad en tu chalet, todo ello con un servicio profesional y discreto.
                     </p>
                   </div>
 
@@ -266,8 +266,8 @@ export default function MontesionPage() {
                   {/* Imagen principal */}
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
-                      src="/images/telecom/antenistas-en-toledo-sur.jpg"
-                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio hist√≥rico de La Sagra"
+                      src="/images/telecom/antenistas-en-toledo-.jpg"
+                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histÛrico de La Sagra"
                       width={400}
                       height={200}
                       priority
@@ -278,12 +278,12 @@ export default function MontesionPage() {
             </div>
           </section>
 
-           {/* Cobertura espec√≠fica de Montesi√≥n */}
+           {/* Cobertura especÌfica de MontesiÛn */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicio exclusivo para todas las calles de {municipioData.nombre}</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Conocemos cada rinc√≥n de la urbanizaci√≥n, lo que nos permite ofrecerte un servicio √°gil y con un profundo conocimiento de las particularidades de la zona.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Conocemos cada rincÛn de la urbanizaciÛn, lo que nos permite ofrecerte un servicio ·gil y con un profundo conocimiento de las particularidades de la zona.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -292,8 +292,8 @@ export default function MontesionPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra √°rea de servicio en {municipioData.nombre} incluye:</h3>
-                      <p className="text-brand-black-light">Atenci√≥n prioritaria para residentes en {municipioData.nombre}: llegamos en menos de 2 horas.</p>
+                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra ·rea de servicio en {municipioData.nombre} incluye:</h3>
+                      <p className="text-brand-black-light">AtenciÛn prioritaria para residentes en {municipioData.nombre}: llegamos en menos de 2 horas.</p>
                     </div>
                   </div>
                  
@@ -317,12 +317,12 @@ export default function MontesionPage() {
             </div>
           </section>
 
-          {/* Servicios especializados en Montesi√≥n */}
+          {/* Servicios especializados en MontesiÛn */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Soluciones de telecomunicaciones para tu chalet en {municipioData.nombre}</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Entendemos las necesidades de una vivienda de altas prestaciones y te ofrecemos servicios de la m√°xima calidad.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Entendemos las necesidades de una vivienda de altas prestaciones y te ofrecemos servicios de la m·xima calidad.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -339,12 +339,12 @@ export default function MontesionPage() {
             </div>
           </section>
 
-          {/* Por qu√© elegir nuestros servicios en Montesi√≥n */}
+          {/* Por quÈ elegir nuestros servicios en MontesiÛn */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¬øPor qu√© somos el antenista de confianza en {municipioData.nombre}?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra especializaci√≥n, profesionalidad y discreci√≥n nos convierten en la elecci√≥n ideal para tu hogar.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">øPor quÈ somos el antenista de confianza en {municipioData.nombre}?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra especializaciÛn, profesionalidad y discreciÛn nos convierten en la elecciÛn ideal para tu hogar.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -360,12 +360,12 @@ export default function MontesionPage() {
             </div>
           </section>
 
-         {/* Testimonios de clientes en Montesi√≥n */}
+         {/* Testimonios de clientes en MontesiÛn */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La recomendaci√≥n de tus vecinos de {municipioData.nombre}</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La confianza de quienes ya nos conocen es nuestra mejor garant√≠a.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La recomendaciÛn de tus vecinos de {municipioData.nombre}</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La confianza de quienes ya nos conocen es nuestra mejor garantÌa.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -386,12 +386,12 @@ export default function MontesionPage() {
             </div>
           </section>
 
-          {/* FAQs espec√≠ficas de Montesi√≥n */}
+          {/* FAQs especÌficas de MontesiÛn */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Resolvemos tus dudas sobre nuestro servicio en {municipioData.nombre}</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Aqu√≠ tienes las respuestas a algunas de las preguntas m√°s espec√≠ficas de la urbanizaci√≥n.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">AquÌ tienes las respuestas a algunas de las preguntas m·s especÌficas de la urbanizaciÛn.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -404,16 +404,16 @@ export default function MontesionPage() {
             </div>
           </section>
 
-          {/* CTA Section espec√≠fica para Aldea del Fresno */}
+          {/* CTA Section especÌfica para Aldea del Fresno */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¬øNecesitas un antenista en Montesi√≥n?</h2>
-                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Montesi√≥n.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">øNecesitas un antenista en MontesiÛn?</h2>
+                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en MontesiÛn.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Montesi√≥n" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20MontesiÛn" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>

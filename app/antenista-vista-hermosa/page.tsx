@@ -1,4 +1,4 @@
-Ôªøimport React from "react";
+import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,46 +19,46 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45005",
-  descripcion: "Antenista profesional en Vista Hermosa, Toledo. Instalaci√≥n y reparaci√≥n de antenas TDT, parab√≥licas, videoporteros y sistemas de seguridad para chalets y urbanizaciones residenciales.",
+  descripcion: "Antenista profesional en Vista Hermosa, Toledo. InstalaciÛn y reparaciÛn de antenas TDT, parabÛlicas, videoporteros y sistemas de seguridad para chalets y urbanizaciones residenciales.",
   servicios: [
-    "Instalaci√≥n y reparaci√≥n de antenas TDT",
-    "Instalaci√≥n y orientaci√≥n de antenas parab√≥licas",
-    "Sistemas de videoportero y portero autom√°tico",
-    "Instalaci√≥n de videovigilancia (CCTV)",
-    "Soluci√≥n a interferencias 5G",
+    "InstalaciÛn y reparaciÛn de antenas TDT",
+    "InstalaciÛn y orientaciÛn de antenas parabÛlicas",
+    "Sistemas de videoportero y portero autom·tico",
+    "InstalaciÛn de videovigilancia (CCTV)",
+    "SoluciÛn a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
     "Especialistas en urbanizaciones",
     "Materiales homologados",
-    "Garant√≠a profesional"
+    "GarantÌa profesional"
   ],
   zonasCubiertas: [
-    "Urbanizaci√≥n Vista Hermosa",
+    "UrbanizaciÛn Vista Hermosa",
     "Chalets y viviendas unifamiliares",
-    "Comunidades de propietarios de la urbanizaci√≥n",
+    "Comunidades de propietarios de la urbanizaciÛn",
     "Zonas residenciales del entorno"
   ],
   cobertura: [
-    { zona: "Urbanizaci√≥n Vista Hermosa", disponible: true },
+    { zona: "UrbanizaciÛn Vista Hermosa", disponible: true },
     { zona: "Chalets y viviendas unifamiliares", disponible: true },
-    { zona: "Comunidades de propietarios de la urbanizaci√≥n", disponible: true },
+    { zona: "Comunidades de propietarios de la urbanizaciÛn", disponible: true },
     { zona: "Zonas residenciales del entorno", disponible: true }
   ],
   testimonios: [
     {
       nombre: "Propietario de chalet en Vista Hermosa",
-      comentario: "Instalaron parab√≥lica y c√°maras perimetrales en nuestro chalet. El trabajo fue muy profesional, cuidando la est√©tica de la instalaci√≥n. Muy satisfecho con el resultado.",
+      comentario: "Instalaron parabÛlica y c·maras perimetrales en nuestro chalet. El trabajo fue muy profesional, cuidando la estÈtica de la instalaciÛn. Muy satisfecho con el resultado.",
       puntuacion: 5
     },
     {
-      nombre: "Vecina de la urbanizaci√≥n",
-      comentario: "Llam√© por problemas de pixelaci√≥n en la TDT. Vino el t√©cnico al d√≠a siguiente, cambi√≥ el amplificador y orient√≥ bien la antena. Desde entonces sin ning√∫n problema. Excelente servicio.",
+      nombre: "Vecina de la urbanizaciÛn",
+      comentario: "LlamÈ por problemas de pixelaciÛn en la TDT. Vino el tÈcnico al dÌa siguiente, cambiÛ el amplificador y orientÛ bien la antena. Desde entonces sin ning˙n problema. Excelente servicio.",
       puntuacion: 5
     },
     {
       nombre: "Presidenta de comunidad",
-      comentario: "Nos instalaron el videoportero nuevo para toda la comunidad. El t√©cnico coordin√≥ muy bien con todos los propietarios y el sistema funciona perfectamente.",
+      comentario: "Nos instalaron el videoportero nuevo para toda la comunidad. El tÈcnico coordinÛ muy bien con todos los propietarios y el sistema funciona perfectamente.",
       puntuacion: 5
     }
   ],
@@ -79,27 +79,27 @@ const municipioData = {
       icono: "Eye"
     },
     {
-      titulo: "Garant√≠a Escrita",
-      descripcion: "Garant√≠a completa en todas nuestras instalaciones y reparaciones.",
+      titulo: "GarantÌa Escrita",
+      descripcion: "GarantÌa completa en todas nuestras instalaciones y reparaciones.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¬øPueden instalar antena TDT y parab√≥lica en el mismo m√°stil en Vista Hermosa?",
-      answer: "S√≠. Es posible y muy habitual instalar ambas antenas en un mismo m√°stil, optimizando el espacio y reduciendo los puntos de anclaje en el tejado o fachada del chalet."
+      question: "øPueden instalar antena TDT y parabÛlica en el mismo m·stil en Vista Hermosa?",
+      answer: "SÌ. Es posible y muy habitual instalar ambas antenas en un mismo m·stil, optimizando el espacio y reduciendo los puntos de anclaje en el tejado o fachada del chalet."
     },
     {
-      question: "¬øQu√© tipo de c√°maras recomiendan para exteriores en chalets?",
-      answer: "Para exteriores recomendamos c√°maras con certificaci√≥n IP66 o superior, que garantiza resistencia al agua y polvo. Combinamos visi√≥n diurna en alta resoluci√≥n con visi√≥n nocturna infrarroja para cobertura completa."
+      question: "øQuÈ tipo de c·maras recomiendan para exteriores en chalets?",
+      answer: "Para exteriores recomendamos c·maras con certificaciÛn IP66 o superior, que garantiza resistencia al agua y polvo. Combinamos visiÛn diurna en alta resoluciÛn con visiÛn nocturna infrarroja para cobertura completa."
     },
     {
-      question: "¬øCu√°ntas c√°maras necesito para cubrir un chalet en Vista Hermosa?",
-      answer: "Depende del tama√±o y distribuci√≥n de la propiedad. Para un chalet est√°ndar, entre 4 y 8 c√°maras suelen cubrir per√≠metro y accesos principales. Realizamos estudio personalizado sin coste."
+      question: "øCu·ntas c·maras necesito para cubrir un chalet en Vista Hermosa?",
+      answer: "Depende del tamaÒo y distribuciÛn de la propiedad. Para un chalet est·ndar, entre 4 y 8 c·maras suelen cubrir perÌmetro y accesos principales. Realizamos estudio personalizado sin coste."
     },
     {
-      question: "¬øInstalan videoportero con apertura de garaje desde el smartphone?",
-      answer: "S√≠. Los videoporteros modernos permiten abrir el port√≥n de acceso desde el tel√©fono m√≥vil, con c√°mara de alta definici√≥n y comunicaci√≥n de audio/v√≠deo en tiempo real."
+      question: "øInstalan videoportero con apertura de garaje desde el smartphone?",
+      answer: "SÌ. Los videoporteros modernos permiten abrir el portÛn de acceso desde el telÈfono mÛvil, con c·mara de alta definiciÛn y comunicaciÛn de audio/vÌdeo en tiempo real."
     }
   ]
 };
@@ -111,7 +111,7 @@ const structuredData = {
       "@type": "Electrician",
       "@id": "https://antenastoledo.com/#localbusiness",
       "name": "Antenistas Toledo",
-      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-sur.jpg",
+      "image": "https://antenastoledo.com/images/telecom/antenistas-en-toledo-.jpg",
       "telephone": "+34668679500",
       "url": `https://antenastoledo.com/antenista-${municipioData.slug}`,
       "address": {
@@ -170,9 +170,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Vista Hermosa Toledo | ‚òéÔ∏è 668 67 95 00`,
-  description: `Antenista en Vista Hermosa, Toledo. TDT, parab√≥licas, videoporteros y c√°maras para chalets y urbanizaciones. Presupuesto sin compromiso.`,
-  keywords: `antenista Vista Hermosa Toledo, antenas TDT chalets Toledo, instalaci√≥n parab√≥lica urbanizaci√≥n Toledo, c√°maras seguridad chalets Toledo, antenista urbanizaci√≥n Toledo`,
+  title: `Antenista en Vista Hermosa Toledo | ?? 668 67 95 00`,
+  description: `Antenista en Vista Hermosa, Toledo. TDT, parabÛlicas, videoporteros y c·maras para chalets y urbanizaciones. Presupuesto sin compromiso.`,
+  keywords: `antenista Vista Hermosa Toledo, antenas TDT chalets Toledo, instalaciÛn parabÛlica urbanizaciÛn Toledo, c·maras seguridad chalets Toledo, antenista urbanizaciÛn Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-vista-hermosa'
   },
@@ -217,13 +217,13 @@ export default function VistaHermosaPage() {
                       Antenista profesional en Vista Hermosa, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos servicio de antenista en la urbanizaci√≥n Vista Hermosa de Toledo. Especializados en instalaciones para chalets, viviendas unifamiliares y comunidades residenciales, cubrimos todas las necesidades de telecomunicaciones: TDT, antenas parab√≥licas, videoporteros y sistemas completos de videovigilancia exterior.
+                      Ofrecemos servicio de antenista en la urbanizaciÛn Vista Hermosa de Toledo. Especializados en instalaciones para chalets, viviendas unifamiliares y comunidades residenciales, cubrimos todas las necesidades de telecomunicaciones: TDT, antenas parabÛlicas, videoporteros y sistemas completos de videovigilancia exterior.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervenci√≥n
+                      Contactar para una intervenciÛn
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -232,7 +232,7 @@ export default function VistaHermosaPage() {
                 </div>
                 <div className="relative">
                   <div className="mt-20 flex justify-center relative overflow-hidden rounded-xl">
-                    <Image src="/images/telecom/antenistas-en-toledo-sur.jpg" alt="Antenista profesional en Vista Hermosa Toledo" width={400} height={200} priority />
+                    <Image src="/images/telecom/antenistas-en-toledo-.jpg" alt="Antenista profesional en Vista Hermosa Toledo" width={400} height={200} priority />
                   </div>
                 </div>
               </div>
@@ -243,7 +243,7 @@ export default function VistaHermosaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Vista Hermosa</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Atendemos toda la urbanizaci√≥n y el entorno residencial con t√©cnicos especializados en instalaciones para chalets.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Atendemos toda la urbanizaciÛn y el entorno residencial con tÈcnicos especializados en instalaciones para chalets.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -253,7 +253,7 @@ export default function VistaHermosaPage() {
                     </div>
                     <div>
                       <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en Vista Hermosa</h3>
-                      <p className="text-brand-black-light">Antenista profesional en toda la urbanizaci√≥n</p>
+                      <p className="text-brand-black-light">Antenista profesional en toda la urbanizaciÛn</p>
                     </div>
                   </div>
                   <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -278,7 +278,7 @@ export default function VistaHermosaPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat√°logo de servicios especializados</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro cat·logo de servicios especializados</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones de telecomunicaciones para chalets y urbanizaciones en Vista Hermosa.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -292,7 +292,7 @@ export default function VistaHermosaPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¬øPor qu√© confiar en nuestro servicio t√©cnico?</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">øPor quÈ confiar en nuestro servicio tÈcnico?</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Especialistas en instalaciones para propiedades unifamiliares y urbanizaciones.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -313,7 +313,7 @@ export default function VistaHermosaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en Vista Hermosa</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Propietarios satisfechos en la urbanizaci√≥n.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Propietarios satisfechos en la urbanizaciÛn.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
