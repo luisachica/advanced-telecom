@@ -14,7 +14,7 @@ import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 import { withPhone } from "@/lib/seo";
 
-// Datos específicos del municipio
+// Datos especÃ­ficos del municipio
 const municipioData = {
   nombre: "Bargas",
   slug: "bargas",
@@ -23,19 +23,19 @@ const municipioData = {
   codigoPostal: "45593",
   poblacion: "10.180",
   superficie: "18,3",
-  descripcion: "Servicio de Antenista en Bargas. Instalación y reparación de antenas TDT, antenas colectivas, antenas parabólicas, porteros automáticos, vídeo-porteros y cámaras de vigilancia.",
+  descripcion: "Servicio de Antenista en Bargas. InstalaciÃ³n y reparaciÃ³n de antenas TDT, antenas colectivas, antenas parabÃ³licas, porteros automÃ¡ticos, vÃ­deo-porteros y cÃ¡maras de vigilancia.",
   servicios: [
-    "Instalación y reparación de antenas TDT en Bargas",
-    "Antenas colectivas y parabólicas",
-    "Porteros automáticos y vídeo-porteros homologados",
-    "Cámaras de vigilancia y sistemas de seguridad",
-    "Mantenimiento y reparación de antenas",
-    "Orientación de antenas parabólicas"
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT en Bargas",
+    "Antenas colectivas y parabÃ³licas",
+    "Porteros automÃ¡ticos y vÃ­deo-porteros homologados",
+    "CÃ¡maras de vigilancia y sistemas de seguridad",
+    "Mantenimiento y reparaciÃ³n de antenas",
+    "OrientaciÃ³n de antenas parabÃ³licas"
   ],
    serviciosDestacados: [
     "No cobramos desplazamiento",
     "Antenistas homologados",
-    "Más de 25 años de experiencia"
+    "MÃ¡s de 25 aÃ±os de experiencia"
   ],
 
   zonasCubiertas: [
@@ -80,17 +80,17 @@ const municipioData = {
 
   testimonios: [
     {
-      nombre: "Ana García",
+      nombre: "Ana GarcÃ­a",
       comentario: "Excelente servicio de antenista en Bargas. No cobraron desplazamiento y el trabajo fue perfecto.",
       puntuacion: 5
     },
     {
-      nombre: "Carlos Fernández",
-      comentario: "Antenistas muy profesionales en Bargas. Repararon mi antena el mismo día que llamé.",
+      nombre: "Carlos FernÃ¡ndez",
+      comentario: "Antenistas muy profesionales en Bargas. Repararon mi antena el mismo dÃ­a que llamÃ©.",
       puntuacion: 5
     },
     {
-      nombre: "María José Ruiz",
+      nombre: "MarÃ­a JosÃ© Ruiz",
       comentario: "Antenas Toledo tiene los mejores precios del sector. Muy recomendable en Bargas.",
       puntuacion: 5
     }
@@ -103,37 +103,37 @@ const municipioData = {
       icono: "Home"
     },
     {
-      titulo: "30 Años de Experiencia",
+      titulo: "30 AÃ±os de Experiencia",
       descripcion: "Antenistas cualificados con registro en telecomunicaciones",
       icono: "Signal"
     },
     {
-      titulo: "Actualizaciones Tecnológicas",
-      descripcion: "Siempre atentos a las nuevas tecnologías como 5G",
+      titulo: "Actualizaciones TecnolÃ³gicas",
+      descripcion: "Siempre atentos a las nuevas tecnologÃ­as como 5G",
       icono: "Users"
     },
     {
-      titulo: "Garantía profesional",
-      descripcion: "Garantía completa en todas nuestras instalaciones y reparaciones",
+      titulo: "GarantÃ­a profesional",
+      descripcion: "GarantÃ­a completa en todas nuestras instalaciones y reparaciones",
       icono: "Shield"
     }
   ],
 
   faqs: [
     {
-      question: "¿Qué servicios de antenista ofrecen en Bargas?",
-      answer: "Ofrecemos instalación y reparación de antenas TDT, antenas colectivas, parabólicas, porteros automáticos, vídeo-porteros y cámaras de vigilancia en Bargas."
+      question: "Â¿QuÃ© servicios de antenista ofrecen en Bargas?",
+      answer: "Ofrecemos instalaciÃ³n y reparaciÃ³n de antenas TDT, antenas colectivas, parabÃ³licas, porteros automÃ¡ticos, vÃ­deo-porteros y cÃ¡maras de vigilancia en Bargas."
     },
     {
-      question: "¿Cobran desplazamiento en Bargas?",
-      answer: "No, no cobramos desplazamiento en Bargas ni en las zonas que cubrimos como Mocejón, Yunclillos, Barcience y Rielves."
+      question: "Â¿Cobran desplazamiento en Bargas?",
+      answer: "No, no cobramos desplazamiento en Bargas ni en las zonas que cubrimos como MocejÃ³n, Yunclillos, Barcience y Rielves."
     },
     {
-      question: "¿Qué experiencia tienen como antenistas?",
-      answer: "Contamos con 20 años de experiencia en el sector y registro en telecomunicaciones que nos avala para ofrecer garantía total en nuestros trabajos."
+      question: "Â¿QuÃ© experiencia tienen como antenistas?",
+      answer: "Contamos con 20 aÃ±os de experiencia en el sector y registro en telecomunicaciones que nos avala para ofrecer garantÃ­a total en nuestros trabajos."
     },
     {
-      question: "¿En qué urbanizaciones de Bargas trabajan?",
+      question: "Â¿En quÃ© urbanizaciones de Bargas trabajan?",
       answer: "Trabajamos en Las Perdices, Valdelagua, Santa Clara, Ciudadela, Vergel, Los Altos De Bargas, Los Nogales, La Palma, Entrepinos, Los Olivos, Italica, Guindal, Elviria, Las Lomas, Salamanca, Acuario, El Beato."
     }
   ]
@@ -206,8 +206,8 @@ const structuredData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Bargas | ?? 668 67 95 00`,
-  description: withPhone(`Antenista en Bargas. Instalación y reparación de antenas TDT, antenas colectivas, parabólicas, porteros automáticos, vídeo-porteros y cámaras de vigilancia.`),
-  keywords: `antenista Bargas, antenas TDT Bargas, porteros automáticos Bargas, sin desplazamiento, Antenas Toledo, Toledo`,
+  description: withPhone(`Antenista en Bargas. InstalaciÃ³n y reparaciÃ³n de antenas TDT, antenas colectivas, parabÃ³licas, porteros automÃ¡ticos, vÃ­deo-porteros y cÃ¡maras de vigilancia.`),
+  keywords: `antenista Bargas, antenas TDT Bargas, porteros automÃ¡ticos Bargas, sin desplazamiento, Antenas Toledo, Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-bargas'
   },
@@ -254,7 +254,7 @@ export default function BargasPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section específico de Torrecastillo */}
+          {/* Hero Section especÃ­fico de Torrecastillo */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -273,7 +273,7 @@ export default function BargasPage() {
                       <span className="text-brand-green">Antenista</span> en Bargas
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Servicio de Antenista en Bargas. Si estás buscando Instalación y reparación de antenas TDT, antenas colectivas, antenas parabólicas, porteros automáticos, vídeo-porteros y cámaras de vigilancia en Bargas, Antenas Toledo tiene todos los servicios que necesitas.
+                      Servicio de Antenista en Bargas. Si estÃ¡s buscando InstalaciÃ³n y reparaciÃ³n de antenas TDT, antenas colectivas, antenas parabÃ³licas, porteros automÃ¡ticos, vÃ­deo-porteros y cÃ¡maras de vigilancia en Bargas, Antenas Toledo tiene todos los servicios que necesitas.
                     </p>
                   </div>
 
@@ -293,7 +293,7 @@ export default function BargasPage() {
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
                       src="/images/telecom/antenistas-en-toledo-.jpg"
-                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histórico de La Sagra"
+                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histÃ³rico de La Sagra"
                       width={400}
                       height={200}
                       priority
@@ -304,12 +304,12 @@ export default function BargasPage() {
             </div>
           </section>
 
-           {/* Cobertura específica de Bargas */}
+           {/* Cobertura especÃ­fica de Bargas */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenistas y porteros automáticos homologados en Bargas</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Tenemos a su disposición antenistas profesionales y cualificados en mantenimiento, reparación e instalación de todo tipo de antenas en las siguientes urbanizaciones: </p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenistas y porteros automÃ¡ticos homologados en Bargas</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Tenemos a su disposiciÃ³n antenistas profesionales y cualificados en mantenimiento, reparaciÃ³n e instalaciÃ³n de todo tipo de antenas en las siguientes urbanizaciones: </p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -319,7 +319,7 @@ export default function BargasPage() {
                     </div>
                     <div>
                       <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura en Bargas</h3>
-                      <p className="text-brand-black-light">Trabajamos también el servicio de antenista y video porteros en: Mocejón, Yunclillos, Barcience, Rielves.</p>
+                      <p className="text-brand-black-light">Trabajamos tambiÃ©n el servicio de antenista y video porteros en: MocejÃ³n, Yunclillos, Barcience, Rielves.</p>
                     </div>
                   </div>
                  
@@ -348,7 +348,7 @@ export default function BargasPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Los mejores precios del sector con Antenas Toledo en Bargas</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">En Antenas Toledo nos caracterizamos por tener precios altamente competitivos, manteniendo la calidad en todos los servicios que ofrecemos. Puede solicitar que un técnico antenista o instalador de porteros automáticos se acerque a su vivienda para un mantenimiento, instalación o reparación.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">En Antenas Toledo nos caracterizamos por tener precios altamente competitivos, manteniendo la calidad en todos los servicios que ofrecemos. Puede solicitar que un tÃ©cnico antenista o instalador de porteros automÃ¡ticos se acerque a su vivienda para un mantenimiento, instalaciÃ³n o reparaciÃ³n.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -365,12 +365,12 @@ export default function BargasPage() {
             </div>
           </section>
 
-          {/* Por qué elegir nuestros servicios en Bargas */}
+          {/* Por quÃ© elegir nuestros servicios en Bargas */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicio de antenista en Bargas ágil y rápido</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Contamos con más de 25 años de experiencia en el sector de antenistas cualificados y el Registro en Telecomunicaciones de nuestra empresa, lo que nos avala para que disponga de una total garantía en todos los trabajos que realizamos. Desde el momento en que nos llame para solicitar un servicio de antenista en Bargas un técnico profesional se desplazará rápidamente a su vivienda.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Servicio de antenista en Bargas Ã¡gil y rÃ¡pido</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Contamos con mÃ¡s de 25 aÃ±os de experiencia en el sector de antenistas cualificados y el Registro en Telecomunicaciones de nuestra empresa, lo que nos avala para que disponga de una total garantÃ­a en todos los trabajos que realizamos. Desde el momento en que nos llame para solicitar un servicio de antenista en Bargas un tÃ©cnico profesional se desplazarÃ¡ rÃ¡pidamente a su vivienda.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -386,12 +386,12 @@ export default function BargasPage() {
             </div>
           </section>
 
-         {/* Estamos atentos a las actualizaciones tecnológicas */}
+         {/* Estamos atentos a las actualizaciones tecnolÃ³gicas */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Estamos atentos a las actualizaciones tecnológicas</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">En nuestra empresa siempre estamos atentos a las actualizaciones tecnológicas, por tal motivo, nos capacitamos constantemente en las nuevas tecnologías que ingresan al mercado, como es el caso del próximo lanzamiento de la banda de telefonía móvil 5G. Nuestro servicio de antenista en Bargas es 100% garantizado y de alta calidad. Estamos equipados con las mejores herramientas para realizar un trabajo altamente profesional.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Estamos atentos a las actualizaciones tecnolÃ³gicas</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">En nuestra empresa siempre estamos atentos a las actualizaciones tecnolÃ³gicas, por tal motivo, nos capacitamos constantemente en las nuevas tecnologÃ­as que ingresan al mercado, como es el caso del prÃ³ximo lanzamiento de la banda de telefonÃ­a mÃ³vil 5G. Nuestro servicio de antenista en Bargas es 100% garantizado y de alta calidad. Estamos equipados con las mejores herramientas para realizar un trabajo altamente profesional.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -412,12 +412,12 @@ export default function BargasPage() {
             </div>
           </section>
 
-          {/* FAQs específicas de Bargas */}
+          {/* FAQs especÃ­ficas de Bargas */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Bargas</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Instalamos siempre los productos nuevos que existen en el mercado de las telecomunicaciones de tal forma, que usted como cliente, cuente con una instalación que dure a través del tiempo y garantizada.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Instalamos siempre los productos nuevos que existen en el mercado de las telecomunicaciones de tal forma, que usted como cliente, cuente con una instalaciÃ³n que dure a travÃ©s del tiempo y garantizada.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -430,13 +430,13 @@ export default function BargasPage() {
             </div>
           </section>
 
-          {/* CTA Section específica para Bargas */}
+          {/* CTA Section especÃ­fica para Bargas */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas un antenista en Bargas?</h2>
-                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Le atenderemos inmediatamente para reparar su avería o realizar la instalación que necesite en el menor tiempo posible. No cobramos desplazamiento.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Â¿Necesitas un antenista en Bargas?</h2>
+                  <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Le atenderemos inmediatamente para reparar su averÃ­a o realizar la instalaciÃ³n que necesite en el menor tiempo posible. No cobramos desplazamiento.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Bargas" className="flex items-center gap-2">

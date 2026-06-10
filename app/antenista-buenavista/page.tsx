@@ -19,19 +19,19 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45003",
-  descripcion: "Antenista profesional en Buenavista, Toledo. Instalación y reparación de antenas TDT, parabólicas, videoporteros y sistemas de seguridad para viviendas, urbanizaciones y comunidades.",
+  descripcion: "Antenista profesional en Buenavista, Toledo. InstalaciÃ³n y reparaciÃ³n de antenas TDT, parabÃ³licas, videoporteros y sistemas de seguridad para viviendas, urbanizaciones y comunidades.",
   servicios: [
-    "Instalación y reparación de antenas TDT",
-    "Instalación y orientación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias 5G",
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT",
+    "InstalaciÃ³n y orientaciÃ³n de antenas parabÃ³licas",
+    "Sistemas de videoportero y portero automÃ¡tico",
+    "InstalaciÃ³n de videovigilancia (CCTV)",
+    "SoluciÃ³n a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Alta cualificación técnica",
+    "Alta cualificaciÃ³n tÃ©cnica",
     "Materiales homologados",
-    "Garantía profesional"
+    "GarantÃ­a profesional"
   ],
   zonasCubiertas: [
     "Buenavista y urbanizaciones del entorno",
@@ -48,24 +48,24 @@ const municipioData = {
   testimonios: [
     {
       nombre: "Propietario en Buenavista",
-      comentario: "Instalaron la antena TDT y la parabólica en el tejado del chalet. Trabajo muy cuidado, materiales de calidad y señal excelente. El precio fue muy razonable. Muy recomendables.",
+      comentario: "Instalaron la antena TDT y la parabÃ³lica en el tejado del chalet. Trabajo muy cuidado, materiales de calidad y seÃ±al excelente. El precio fue muy razonable. Muy recomendables.",
       puntuacion: 5
     },
     {
-      nombre: "Vecina de la urbanización",
-      comentario: "Tenía problemas con el videoportero y no funcionaba bien. El técnico identificó la avería enseguida y la solucionó en la misma visita. Servicio rápido y profesional.",
+      nombre: "Vecina de la urbanizaciÃ³n",
+      comentario: "TenÃ­a problemas con el videoportero y no funcionaba bien. El tÃ©cnico identificÃ³ la averÃ­a enseguida y la solucionÃ³ en la misma visita. Servicio rÃ¡pido y profesional.",
       puntuacion: 5
     },
     {
       nombre: "Administrador de fincas en Buenavista",
-      comentario: "Llevamos años trabajando con este servicio para el mantenimiento de comunidades en Buenavista. Siempre responden con rapidez y sus trabajos son de primera calidad.",
+      comentario: "Llevamos aÃ±os trabajando con este servicio para el mantenimiento de comunidades en Buenavista. Siempre responden con rapidez y sus trabajos son de primera calidad.",
       puntuacion: 5
     }
   ],
   caracteristicas: [
     {
-      titulo: "Alta Cualificación",
-      descripcion: "Técnicos especializados con años de experiencia en Toledo y su entorno.",
+      titulo: "Alta CualificaciÃ³n",
+      descripcion: "TÃ©cnicos especializados con aÃ±os de experiencia en Toledo y su entorno.",
       icono: "Briefcase"
     },
     {
@@ -79,27 +79,27 @@ const municipioData = {
       icono: "Eye"
     },
     {
-      titulo: "Garantía Escrita",
-      descripcion: "Garantía completa en todas las instalaciones y reparaciones realizadas.",
+      titulo: "GarantÃ­a Escrita",
+      descripcion: "GarantÃ­a completa en todas las instalaciones y reparaciones realizadas.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¿Atienden instalaciones en chalets y viviendas unifamiliares en Buenavista?",
-      answer: "Sí. En Buenavista atendemos tanto chalets y viviendas individuales como comunidades de propietarios y pisos. Para las viviendas unifamiliares podemos realizar instalaciones más personalizadas que en las colectivas."
+      question: "Â¿Atienden instalaciones en chalets y viviendas unifamiliares en Buenavista?",
+      answer: "SÃ­. En Buenavista atendemos tanto chalets y viviendas individuales como comunidades de propietarios y pisos. Para las viviendas unifamiliares podemos realizar instalaciones mÃ¡s personalizadas que en las colectivas."
     },
     {
-      question: "¿Qué tipo de antena recomiendan para un chalet en Buenavista?",
-      answer: "Para chalets recomendamos antenas individuales de alta ganancia instaladas en el tejado, que ofrecen la mejor recepción y son menos susceptibles a averías que las antenas colectivas."
+      question: "Â¿QuÃ© tipo de antena recomiendan para un chalet en Buenavista?",
+      answer: "Para chalets recomendamos antenas individuales de alta ganancia instaladas en el tejado, que ofrecen la mejor recepciÃ³n y son menos susceptibles a averÃ­as que las antenas colectivas."
     },
     {
-      question: "¿Pueden instalar un sistema de cámaras exterior para vigilar el perímetro?",
-      answer: "Sí. Diseñamos e instalamos sistemas de videovigilancia exterior para viviendas unifamiliares, con cámaras resistentes a la intemperie, visión nocturna y posibilidad de acceso remoto desde el móvil."
+      question: "Â¿Pueden instalar un sistema de cÃ¡maras exterior para vigilar el perÃ­metro?",
+      answer: "SÃ­. DiseÃ±amos e instalamos sistemas de videovigilancia exterior para viviendas unifamiliares, con cÃ¡maras resistentes a la intemperie, visiÃ³n nocturna y posibilidad de acceso remoto desde el mÃ³vil."
     },
     {
-      question: "¿Es posible recibir la TDT de pago en Buenavista?",
-      answer: "La TDT incluye canales de pago como LaLiga o Movistar+Lite. Para recibirlos necesitará un descodificador TDT de pago compatible. Le asesoramos sobre las opciones disponibles y los equipos compatibles."
+      question: "Â¿Es posible recibir la TDT de pago en Buenavista?",
+      answer: "La TDT incluye canales de pago como LaLiga o Movistar+Lite. Para recibirlos necesitarÃ¡ un descodificador TDT de pago compatible. Le asesoramos sobre las opciones disponibles y los equipos compatibles."
     }
   ]
 };
@@ -171,8 +171,8 @@ const structuredData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Buenavista Toledo | ?? 668 67 95 00`,
-  description: `Antenista en Buenavista, Toledo. TDT, parabólicas, videoporteros y cámaras para chalets, viviendas y comunidades. Presupuesto gratuito y servicio urgente.`,
-  keywords: `antenista Buenavista Toledo, antenas TDT Buenavista Toledo, instalación antenas chalets Toledo, reparación antenas Buenavista, videoportero Toledo urbanización`,
+  description: `Antenista en Buenavista, Toledo. TDT, parabÃ³licas, videoporteros y cÃ¡maras para chalets, viviendas y comunidades. Presupuesto gratuito y servicio urgente.`,
+  keywords: `antenista Buenavista Toledo, antenas TDT Buenavista Toledo, instalaciÃ³n antenas chalets Toledo, reparaciÃ³n antenas Buenavista, videoportero Toledo urbanizaciÃ³n`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-buenavista'
   },
@@ -217,13 +217,13 @@ export default function BuenavistaPage() {
                       Antenista profesional en Buenavista, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Prestamos servicio de antenista en Buenavista y sus urbanizaciones en Toledo. Atendemos chalets, viviendas unifamiliares, adosados y comunidades de propietarios con instalaciones de antenas TDT, parabólicas, videoporteros y sistemas de videovigilancia. Presupuesto sin compromiso y servicio urgente disponible.
+                      Prestamos servicio de antenista en Buenavista y sus urbanizaciones en Toledo. Atendemos chalets, viviendas unifamiliares, adosados y comunidades de propietarios con instalaciones de antenas TDT, parabÃ³licas, videoporteros y sistemas de videovigilancia. Presupuesto sin compromiso y servicio urgente disponible.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervención
+                      Contactar para una intervenciÃ³n
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -243,7 +243,7 @@ export default function BuenavistaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Buenavista y alrededores</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la zona con técnicos especializados y servicio urgente disponible.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la zona con tÃ©cnicos especializados y servicio urgente disponible.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -278,7 +278,7 @@ export default function BuenavistaPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catÃ¡logo de servicios especializados</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Todo lo que necesita para sus telecomunicaciones en Buenavista, Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -292,8 +292,8 @@ export default function BuenavistaPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Calidad y profesionalidad respaldadas por años de experiencia.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© confiar en nuestro servicio tÃ©cnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Calidad y profesionalidad respaldadas por aÃ±os de experiencia.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -338,7 +338,7 @@ export default function BuenavistaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios en Buenavista</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las preguntas más habituales de los vecinos y propietarios de la zona.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las preguntas mÃ¡s habituales de los vecinos y propietarios de la zona.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (

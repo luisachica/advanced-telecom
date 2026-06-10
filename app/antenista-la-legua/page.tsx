@@ -19,58 +19,58 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45007",
-  descripcion: "Antenista profesional en La Legua, Toledo. Instalación y reparación de antenas TDT, parabólicas, videoporteros y sistemas de seguridad para viviendas y comunidades.",
+  descripcion: "Antenista profesional en La Legua, Toledo. InstalaciÃ³n y reparaciÃ³n de antenas TDT, parabÃ³licas, videoporteros y sistemas de seguridad para viviendas y comunidades.",
   servicios: [
-    "Instalación y reparación de antenas TDT",
-    "Instalación y orientación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias 5G",
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT",
+    "InstalaciÃ³n y orientaciÃ³n de antenas parabÃ³licas",
+    "Sistemas de videoportero y portero automÃ¡tico",
+    "InstalaciÃ³n de videovigilancia (CCTV)",
+    "SoluciÃ³n a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Alta cualificación técnica",
+    "Alta cualificaciÃ³n tÃ©cnica",
     "Materiales homologados",
-    "Garantía profesional"
+    "GarantÃ­a profesional"
   ],
   zonasCubiertas: [
     "Zona de La Legua, Toledo",
     "Urbanizaciones y comunidades del entorno",
     "Viviendas unifamiliares y chalets",
-    "Zonas residenciales próximas"
+    "Zonas residenciales prÃ³ximas"
   ],
   cobertura: [
     { zona: "Zona de La Legua, Toledo", disponible: true },
     { zona: "Urbanizaciones y comunidades del entorno", disponible: true },
     { zona: "Viviendas unifamiliares y chalets", disponible: true },
-    { zona: "Zonas residenciales próximas", disponible: true }
+    { zona: "Zonas residenciales prÃ³ximas", disponible: true }
   ],
   testimonios: [
     {
       nombre: "Vecino de La Legua",
-      comentario: "Instalaron la antena TDT en mi nueva vivienda de La Legua. El técnico fue muy puntual, trabajó con rapidez y dejó todo limpio. La señal es perfecta en todos los puntos de la casa.",
+      comentario: "Instalaron la antena TDT en mi nueva vivienda de La Legua. El tÃ©cnico fue muy puntual, trabajÃ³ con rapidez y dejÃ³ todo limpio. La seÃ±al es perfecta en todos los puntos de la casa.",
       puntuacion: 5
     },
     {
       nombre: "Propietaria de chalet",
-      comentario: "Repararon la parabólica que había dejado de captar canales. El diagnóstico fue rápido y el problema estaba en el LNB. Lo cambiaron al momento y todo volvió a funcionar perfectamente.",
+      comentario: "Repararon la parabÃ³lica que habÃ­a dejado de captar canales. El diagnÃ³stico fue rÃ¡pido y el problema estaba en el LNB. Lo cambiaron al momento y todo volviÃ³ a funcionar perfectamente.",
       puntuacion: 5
     },
     {
       nombre: "Presidente de comunidad de La Legua",
-      comentario: "Renovamos la instalación de antena colectiva y el cambio fue notable. Todos los vecinos están muy satisfechos con la mejora en la calidad de imagen. Trabajo muy profesional.",
+      comentario: "Renovamos la instalaciÃ³n de antena colectiva y el cambio fue notable. Todos los vecinos estÃ¡n muy satisfechos con la mejora en la calidad de imagen. Trabajo muy profesional.",
       puntuacion: 5
     }
   ],
   caracteristicas: [
     {
-      titulo: "Alta Cualificación",
-      descripcion: "Técnicos especializados con formación continua en las últimas tecnologías.",
+      titulo: "Alta CualificaciÃ³n",
+      descripcion: "TÃ©cnicos especializados con formaciÃ³n continua en las Ãºltimas tecnologÃ­as.",
       icono: "Briefcase"
     },
     {
       titulo: "Materiales de Calidad",
-      descripcion: "Utilizamos únicamente componentes homologados de primeras marcas.",
+      descripcion: "Utilizamos Ãºnicamente componentes homologados de primeras marcas.",
       icono: "Shield"
     },
     {
@@ -79,27 +79,27 @@ const municipioData = {
       icono: "Eye"
     },
     {
-      titulo: "Garantía Incluida",
-      descripcion: "Garantía profesional por escrito en todas las instalaciones y reparaciones.",
+      titulo: "GarantÃ­a Incluida",
+      descripcion: "GarantÃ­a profesional por escrito en todas las instalaciones y reparaciones.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¿Atienden instalaciones en La Legua con rapidez?",
-      answer: "Sí. La Legua está dentro de nuestra zona habitual de trabajo en Toledo. El tiempo de respuesta para urgencias es generalmente inferior a 2 horas, y para trabajos programados podemos ofrecer cita en 24-48 horas."
+      question: "Â¿Atienden instalaciones en La Legua con rapidez?",
+      answer: "SÃ­. La Legua estÃ¡ dentro de nuestra zona habitual de trabajo en Toledo. El tiempo de respuesta para urgencias es generalmente inferior a 2 horas, y para trabajos programados podemos ofrecer cita en 24-48 horas."
     },
     {
-      question: "¿Qué canales TDT se reciben en La Legua, Toledo?",
-      answer: "En La Legua se reciben todos los canales TDT nacionales y los autonómicos de Castilla-La Mancha. Con una buena instalación se puede recibir también la TDT local de Toledo."
+      question: "Â¿QuÃ© canales TDT se reciben en La Legua, Toledo?",
+      answer: "En La Legua se reciben todos los canales TDT nacionales y los autonÃ³micos de Castilla-La Mancha. Con una buena instalaciÃ³n se puede recibir tambiÃ©n la TDT local de Toledo."
     },
     {
-      question: "¿Puedo instalar parabólica para ver canales latinoamericanos en La Legua?",
-      answer: "Sí. Instalamos parabólicas orientadas al satélite Hispasat, que ofrece una amplia oferta de canales latinoamericanos con señal de muy buena calidad desde España."
+      question: "Â¿Puedo instalar parabÃ³lica para ver canales latinoamericanos en La Legua?",
+      answer: "SÃ­. Instalamos parabÃ³licas orientadas al satÃ©lite Hispasat, que ofrece una amplia oferta de canales latinoamericanos con seÃ±al de muy buena calidad desde EspaÃ±a."
     },
     {
-      question: "¿Ofrecen descuento para segunda instalación en la misma comunidad?",
-      answer: "Para comunidades de propietarios y proyectos de varios puntos aplicamos condiciones especiales. Consulte sin compromiso para obtener una propuesta adaptada a sus necesidades específicas."
+      question: "Â¿Ofrecen descuento para segunda instalaciÃ³n en la misma comunidad?",
+      answer: "Para comunidades de propietarios y proyectos de varios puntos aplicamos condiciones especiales. Consulte sin compromiso para obtener una propuesta adaptada a sus necesidades especÃ­ficas."
     }
   ]
 };
@@ -171,8 +171,8 @@ const structuredData = {
 
 export const metadata: Metadata = {
   title: `Antenista en La Legua Toledo | ?? 668 67 95 00`,
-  description: `Antenista en La Legua, Toledo. TDT, parabólicas, videoporteros y cámaras para viviendas y comunidades. Presupuesto gratuito.`,
-  keywords: `antenista La Legua Toledo, antenas TDT La Legua Toledo, instalación antenas Toledo, reparación antenas La Legua, antenista Toledo`,
+  description: `Antenista en La Legua, Toledo. TDT, parabÃ³licas, videoporteros y cÃ¡maras para viviendas y comunidades. Presupuesto gratuito.`,
+  keywords: `antenista La Legua Toledo, antenas TDT La Legua Toledo, instalaciÃ³n antenas Toledo, reparaciÃ³n antenas La Legua, antenista Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-la-legua'
   },
@@ -217,13 +217,13 @@ export default function LaLeguaPage() {
                       Antenista profesional en La Legua, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos servicio de antenista en la zona de La Legua en Toledo. Atendemos viviendas, comunidades de vecinos y negocios con instalaciones de antenas TDT, parabólicas, videoporteros y sistemas de videovigilancia. Con más de 25 años de experiencia en la provincia de Toledo, somos su empresa de telecomunicaciones de confianza.
+                      Ofrecemos servicio de antenista en la zona de La Legua en Toledo. Atendemos viviendas, comunidades de vecinos y negocios con instalaciones de antenas TDT, parabÃ³licas, videoporteros y sistemas de videovigilancia. Con mÃ¡s de 25 aÃ±os de experiencia en la provincia de Toledo, somos su empresa de telecomunicaciones de confianza.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervención
+                      Contactar para una intervenciÃ³n
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -243,7 +243,7 @@ export default function LaLeguaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en La Legua y alrededores</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la zona de La Legua con servicio ágil y técnicos especializados.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la zona de La Legua con servicio Ã¡gil y tÃ©cnicos especializados.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -253,7 +253,7 @@ export default function LaLeguaPage() {
                     </div>
                     <div>
                       <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en La Legua</h3>
-                      <p className="text-brand-black-light">Antenista profesional en toda el área</p>
+                      <p className="text-brand-black-light">Antenista profesional en toda el Ã¡rea</p>
                     </div>
                   </div>
                   <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -278,7 +278,7 @@ export default function LaLeguaPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catÃ¡logo de servicios especializados</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones completas de telecomunicaciones para La Legua y Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -292,7 +292,7 @@ export default function LaLeguaPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© confiar en nuestro servicio tÃ©cnico?</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Calidad y profesionalidad en cada trabajo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -313,7 +313,7 @@ export default function LaLeguaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en La Legua</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Vecinos y propietarios que confían en nuestro servicio.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Vecinos y propietarios que confÃ­an en nuestro servicio.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -356,7 +356,7 @@ export default function LaLeguaPage() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
                   <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en La Legua</h2>
-                  <p className="text-xl mb-8 text-white/90">Pida presupuesto gratuito o reserve su visita técnica en La Legua, Toledo.</p>
+                  <p className="text-xl mb-8 text-white/90">Pida presupuesto gratuito o reserve su visita tÃ©cnica en La Legua, Toledo.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20La%20Legua%20Toledo" className="flex items-center gap-2">

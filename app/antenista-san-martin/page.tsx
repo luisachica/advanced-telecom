@@ -14,58 +14,58 @@ import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 
 const municipioData = {
-  nombre: "San Martín",
+  nombre: "San MartÃ­n",
   slug: "san-martin",
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45002",
-  descripcion: "Antenista profesional en el barrio de San Martín, Toledo. Instalación y reparación de antenas TDT, parabólicas y sistemas de seguridad para pisos, comunidades y establecimientos del centro histórico.",
+  descripcion: "Antenista profesional en el barrio de San MartÃ­n, Toledo. InstalaciÃ³n y reparaciÃ³n de antenas TDT, parabÃ³licas y sistemas de seguridad para pisos, comunidades y establecimientos del centro histÃ³rico.",
   servicios: [
-    "Instalación y reparación de antenas TDT",
-    "Instalación y orientación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias 5G",
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT",
+    "InstalaciÃ³n y orientaciÃ³n de antenas parabÃ³licas",
+    "Sistemas de videoportero y portero automÃ¡tico",
+    "InstalaciÃ³n de videovigilancia (CCTV)",
+    "SoluciÃ³n a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Experiencia en casco histórico",
+    "Experiencia en casco histÃ³rico",
     "Materiales homologados",
-    "Garantía profesional"
+    "GarantÃ­a profesional"
   ],
   zonasCubiertas: [
-    "Barrio de San Martín",
-    "Entorno del Puente de San Martín",
-    "Calles históricas próximas al Tajo",
-    "Comercios y alojamientos turísticos del área"
+    "Barrio de San MartÃ­n",
+    "Entorno del Puente de San MartÃ­n",
+    "Calles histÃ³ricas prÃ³ximas al Tajo",
+    "Comercios y alojamientos turÃ­sticos del Ã¡rea"
   ],
   cobertura: [
-    { zona: "Barrio de San Martín", disponible: true },
-    { zona: "Entorno del Puente de San Martín", disponible: true },
-    { zona: "Calles históricas próximas al Tajo", disponible: true },
-    { zona: "Comercios y alojamientos turísticos del área", disponible: true }
+    { zona: "Barrio de San MartÃ­n", disponible: true },
+    { zona: "Entorno del Puente de San MartÃ­n", disponible: true },
+    { zona: "Calles histÃ³ricas prÃ³ximas al Tajo", disponible: true },
+    { zona: "Comercios y alojamientos turÃ­sticos del Ã¡rea", disponible: true }
   ],
   testimonios: [
     {
-      nombre: "Propietaria de piso en San Martín",
-      comentario: "Repararon la antena colectiva de mi edificio histórico con mucho cuidado. No causaron ningún daño en la fachada y la señal mejoró notablemente. Trabajo muy serio.",
+      nombre: "Propietaria de piso en San MartÃ­n",
+      comentario: "Repararon la antena colectiva de mi edificio histÃ³rico con mucho cuidado. No causaron ningÃºn daÃ±o en la fachada y la seÃ±al mejorÃ³ notablemente. Trabajo muy serio.",
       puntuacion: 5
     },
     {
-      nombre: "Dueño de casa rural en San Martín",
-      comentario: "Instalaron cámaras de seguridad para mi casa rural en el barrio. El sistema es discreto, la calidad de imagen excelente y el acceso remoto funciona perfectamente.",
+      nombre: "DueÃ±o de casa rural en San MartÃ­n",
+      comentario: "Instalaron cÃ¡maras de seguridad para mi casa rural en el barrio. El sistema es discreto, la calidad de imagen excelente y el acceso remoto funciona perfectamente.",
       puntuacion: 5
     },
     {
       nombre: "Vecino del barrio",
-      comentario: "Desde que instalaron el filtro 5G dejé de tener pixelación en los canales. Vinieron rápido, fueron eficientes y el precio fue muy razonable. Muy recomendables.",
+      comentario: "Desde que instalaron el filtro 5G dejÃ© de tener pixelaciÃ³n en los canales. Vinieron rÃ¡pido, fueron eficientes y el precio fue muy razonable. Muy recomendables.",
       puntuacion: 5
     }
   ],
   caracteristicas: [
     {
       titulo: "Respeto al Patrimonio",
-      descripcion: "Instalamos respetando las normativas del casco histórico y la estética de los edificios.",
+      descripcion: "Instalamos respetando las normativas del casco histÃ³rico y la estÃ©tica de los edificios.",
       icono: "Briefcase"
     },
     {
@@ -75,30 +75,30 @@ const municipioData = {
     },
     {
       titulo: "Presupuesto Transparente",
-      descripcion: "Presupuesto cerrado y sin sorpresas antes de iniciar cualquier intervención.",
+      descripcion: "Presupuesto cerrado y sin sorpresas antes de iniciar cualquier intervenciÃ³n.",
       icono: "Eye"
     },
     {
-      titulo: "Garantía por Escrito",
-      descripcion: "Garantía completa en todas las instalaciones y reparaciones realizadas.",
+      titulo: "GarantÃ­a por Escrito",
+      descripcion: "GarantÃ­a completa en todas las instalaciones y reparaciones realizadas.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¿Pueden instalar antenas en edificios del casco histórico de Toledo?",
-      answer: "Sí. Tenemos amplia experiencia en instalaciones en el casco histórico, respetando las restricciones estéticas y patrimoniales. Conocemos los procedimientos para trabajar correctamente en este tipo de edificios."
+      question: "Â¿Pueden instalar antenas en edificios del casco histÃ³rico de Toledo?",
+      answer: "SÃ­. Tenemos amplia experiencia en instalaciones en el casco histÃ³rico, respetando las restricciones estÃ©ticas y patrimoniales. Conocemos los procedimientos para trabajar correctamente en este tipo de edificios."
     },
     {
-      question: "¿Qué tipo de cámaras recomiendan para una casa rural en San Martín?",
-      answer: "Para una casa rural en el centro histórico recomendamos cámaras de diseño discreto, con resolución mínima Full HD, visión nocturna y acceso remoto, integradas lo mejor posible en la estética del edificio."
+      question: "Â¿QuÃ© tipo de cÃ¡maras recomiendan para una casa rural en San MartÃ­n?",
+      answer: "Para una casa rural en el centro histÃ³rico recomendamos cÃ¡maras de diseÃ±o discreto, con resoluciÃ³n mÃ­nima Full HD, visiÃ³n nocturna y acceso remoto, integradas lo mejor posible en la estÃ©tica del edificio."
     },
     {
-      question: "¿Solucionan problemas de señal TDT en el interior del casco histórico?",
-      answer: "Sí. El interior del casco histórico puede tener problemas de señal por los propios edificios. Disponemos de soluciones técnicas específicas, incluyendo amplificadores de señal y distribución interior optimizada."
+      question: "Â¿Solucionan problemas de seÃ±al TDT en el interior del casco histÃ³rico?",
+      answer: "SÃ­. El interior del casco histÃ³rico puede tener problemas de seÃ±al por los propios edificios. Disponemos de soluciones tÃ©cnicas especÃ­ficas, incluyendo amplificadores de seÃ±al y distribuciÃ³n interior optimizada."
     },
     {
-      question: "¿Cuánto tiempo tardan en responder a una avería en San Martín?",
+      question: "Â¿CuÃ¡nto tiempo tardan en responder a una averÃ­a en San MartÃ­n?",
       answer: "Para el centro de Toledo, nuestro objetivo es atender urgencias en menos de 2 horas. Para intervenciones programadas, normalmente podemos ofrecer cita en las 24-48 horas siguientes."
     }
   ]
@@ -170,9 +170,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en San Martín Toledo | ?? 668 67 95 00`,
-  description: `Antenista en el barrio de San Martín, Toledo. TDT, parabólicas, videoporteros y cámaras en el casco histórico. Presupuesto sin compromiso.`,
-  keywords: `antenista San Martín Toledo, antenas TDT casco histórico Toledo, instalación antenas barrio San Martín, videoportero Toledo histórico, antenista centro Toledo`,
+  title: `Antenista en San MartÃ­n Toledo | ?? 668 67 95 00`,
+  description: `Antenista en el barrio de San MartÃ­n, Toledo. TDT, parabÃ³licas, videoporteros y cÃ¡maras en el casco histÃ³rico. Presupuesto sin compromiso.`,
+  keywords: `antenista San MartÃ­n Toledo, antenas TDT casco histÃ³rico Toledo, instalaciÃ³n antenas barrio San MartÃ­n, videoportero Toledo histÃ³rico, antenista centro Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-san-martin'
   },
@@ -210,20 +210,20 @@ export default function SanMartinPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">San Martín</span>
+                    <span className="text-brand-green font-medium">San MartÃ­n</span>
                   </nav>
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      Antenista profesional en el barrio de San Martín, Toledo
+                      Antenista profesional en el barrio de San MartÃ­n, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Prestamos servicio de antenista en el barrio de San Martín, en el entorno del emblemático puente medieval sobre el Tajo. Atendemos pisos, casas rurales, negocios y establecimientos turísticos del área, con especial experiencia en instalaciones para edificios históricos. Presupuesto sin compromiso y servicio de urgencias disponible.
+                      Prestamos servicio de antenista en el barrio de San MartÃ­n, en el entorno del emblemÃ¡tico puente medieval sobre el Tajo. Atendemos pisos, casas rurales, negocios y establecimientos turÃ­sticos del Ã¡rea, con especial experiencia en instalaciones para edificios histÃ³ricos. Presupuesto sin compromiso y servicio de urgencias disponible.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervención
+                      Contactar para una intervenciÃ³n
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -232,7 +232,7 @@ export default function SanMartinPage() {
                 </div>
                 <div className="relative">
                   <div className="mt-20 flex justify-center relative overflow-hidden rounded-xl">
-                    <Image src="/images/telecom/antenistas-en-toledo-.jpg" alt="Antenista profesional en San Martín Toledo" width={400} height={200} priority />
+                    <Image src="/images/telecom/antenistas-en-toledo-.jpg" alt="Antenista profesional en San MartÃ­n Toledo" width={400} height={200} priority />
                   </div>
                 </div>
               </div>
@@ -242,8 +242,8 @@ export default function SanMartinPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en San Martín y entorno del Tajo</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Atendemos toda el área del barrio con técnicos que conocen las particularidades del casco histórico.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en San MartÃ­n y entorno del Tajo</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Atendemos toda el Ã¡rea del barrio con tÃ©cnicos que conocen las particularidades del casco histÃ³rico.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -252,7 +252,7 @@ export default function SanMartinPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en San Martín</h3>
+                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en San MartÃ­n</h3>
                       <p className="text-brand-black-light">Antenista profesional en el barrio y alrededores</p>
                     </div>
                   </div>
@@ -267,7 +267,7 @@ export default function SanMartinPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Servicio de urgencia con asistencia en menos de 2 horas en San Martín y centro de Toledo.</span>
+                      <span>Servicio de urgencia con asistencia en menos de 2 horas en San MartÃ­n y centro de Toledo.</span>
                     </div>
                   </div>
                 </div>
@@ -278,8 +278,8 @@ export default function SanMartinPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Todo lo que necesita para sus telecomunicaciones en San Martín, Toledo.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catÃ¡logo de servicios especializados</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Todo lo que necesita para sus telecomunicaciones en San MartÃ­n, Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -292,8 +292,8 @@ export default function SanMartinPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Profesionalidad contrastada en el corazón de Toledo.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© confiar en nuestro servicio tÃ©cnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Profesionalidad contrastada en el corazÃ³n de Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -312,8 +312,8 @@ export default function SanMartinPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en San Martín</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Vecinos y negocios del barrio que confían en nosotros.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en San MartÃ­n</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Vecinos y negocios del barrio que confÃ­an en nosotros.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -337,8 +337,8 @@ export default function SanMartinPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios en San Martín</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más frecuentes de nuestros clientes del barrio.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios en San MartÃ­n</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas mÃ¡s frecuentes de nuestros clientes del barrio.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -355,8 +355,8 @@ export default function SanMartinPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en San Martín</h2>
-                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto o llámenos para una intervención urgente en el barrio de San Martín, Toledo.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en San MartÃ­n</h2>
+                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto o llÃ¡menos para una intervenciÃ³n urgente en el barrio de San MartÃ­n, Toledo.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20San%20Mart%C3%ADn%20Toledo" className="flex items-center gap-2">

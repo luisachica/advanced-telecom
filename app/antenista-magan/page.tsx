@@ -13,35 +13,35 @@ import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 
-// Datos especÌficos del municipio
+// Datos espec√≠ficos del municipio
 const municipioData = {
-  nombre: "Mag·n",
+  nombre: "Mag√°n",
   slug: "magan",
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45230",
   poblacion: "1.850",
   superficie: "48,2",
-  descripcion: "Mag·n es un municipio de la provincia de Toledo, en la comunidad autÛnoma de Castilla-La Mancha. Con una poblaciÛn de aproximadamente 1.850 habitantes, se caracteriza por su tranquilidad y su crecimiento residencial con nuevas urbanizaciones.",
+  descripcion: "Mag√°n es un municipio de la provincia de Toledo, en la comunidad aut√≥noma de Castilla-La Mancha. Con una poblaci√≥n de aproximadamente 1.850 habitantes, se caracteriza por su tranquilidad y su crecimiento residencial con nuevas urbanizaciones.",
   servicios: [
-    "InstalaciÛn de antenas TDT en Mag·n",
-    "ReparaciÛn de antenas comunitarias en Mag·n",
-    "InstalaciÛn de antenas parabÛlicas en Mag·n",
-    "Sistemas de videoporteros en Mag·n",
-    "InstalaciÛn de c·maras de seguridad en Mag·n",
-    "Mantenimiento de sistemas de telecomunicaciones en Mag·n",
-    "Filtros 5G contra interferencias en Mag·n",
-    "Servicio de reparaciones urgentes en Mag·n"
+    "Instalaci√≥n de antenas TDT en Mag√°n",
+    "Reparaci√≥n de antenas comunitarias en Mag√°n",
+    "Instalaci√≥n de antenas parab√≥licas en Mag√°n",
+    "Sistemas de videoporteros en Mag√°n",
+    "Instalaci√≥n de c√°maras de seguridad en Mag√°n",
+    "Mantenimiento de sistemas de telecomunicaciones en Mag√°n",
+    "Filtros 5G contra interferencias en Mag√°n",
+    "Servicio de reparaciones urgentes en Mag√°n"
   ],
   serviciosDestacados: [
-    "Especialistas en TDT para hogares en Mag·n",
-    "InstalaciÛn de parabÛlicas en chalets y urbanizaciones",
+    "Especialistas en TDT para hogares en Mag√°n",
+    "Instalaci√≥n de parab√≥licas en chalets y urbanizaciones",
     "Videoporteros modernos para mayor seguridad",
-    "Sistemas de c·maras de vigilancia en Mag·n"
+    "Sistemas de c√°maras de vigilancia en Mag√°n"
   ],
 
   zonasCubiertas: [
-    "El casco urbano de Mag·n",
+    "El casco urbano de Mag√°n",
     "Las nuevas urbanizaciones y zonas de chalets",
     "Comunidades de vecinos y pisos",
     "Fincas y naves en los alrededores",
@@ -49,8 +49,8 @@ const municipioData = {
   ],
 
   cobertura: [
-    "Todo el tÈrmino municipal de Mag·n",
-    "Desde el centro del pueblo hasta las urbanizaciones m·s nuevas",
+    "Todo el t√©rmino municipal de Mag√°n",
+    "Desde el centro del pueblo hasta las urbanizaciones m√°s nuevas",
     "Chalets y viviendas unifamiliares",
     "Comunidades de vecinos",
     "Fincas y propiedades en los alrededores"
@@ -59,30 +59,30 @@ const municipioData = {
   testimonios: [
     {
       nombre: "Javier G.",
-      comentario: "Les llamÈ por la maÒana y por la tarde ya tenÌa la antena arreglada. Un servicio rapidÌsimo y muy eficaz aquÌ en Mag·n. Totalmente recomendables.",
+      comentario: "Les llam√© por la ma√±ana y por la tarde ya ten√≠a la antena arreglada. Un servicio rapid√≠simo y muy eficaz aqu√≠ en Mag√°n. Totalmente recomendables.",
       puntuacion: 5,
-      servicio: "ReparaciÛn antena",
-      ubicacion: "Cliente en Mag·n"
+      servicio: "Reparaci√≥n antena",
+      ubicacion: "Cliente en Mag√°n"
     },
     {
       nombre: "Isabel M.",
       comentario: "Muy profesionales y amables. Me explicaron todo muy bien y el precio fue exactamente el que me dijeron en el presupuesto. Da gusto encontrar gente tan honesta.",
       puntuacion: 5,
-      servicio: "InstalaciÛn TDT",
-      ubicacion: "Cliente en Mag·n"
+      servicio: "Instalaci√≥n TDT",
+      ubicacion: "Cliente en Mag√°n"
     },
     {
       nombre: "Francisco R.",
-      comentario: "Les pedÌ presupuesto para un videoportero en el chalet y todo perfecto. Fueron muy limpios y cuidadosos durante la instalaciÛn. Un trabajo de diez.",
+      comentario: "Les ped√≠ presupuesto para un videoportero en el chalet y todo perfecto. Fueron muy limpios y cuidadosos durante la instalaci√≥n. Un trabajo de diez.",
       puntuacion: 5,
       servicio: "Videoportero",
-      ubicacion: "Cliente en Mag·n"
+      ubicacion: "Cliente en Mag√°n"
     }
   ],
 
    caracteristicas: [
     {
-      titulo: "Somos de aquÌ, como t˙",
+      titulo: "Somos de aqu√≠, como t√∫",
       descripcion: "Te atendemos directamente, sin intermediarios. Conocemos el pueblo, sus calles y sus necesidades, y te ofrecemos un trato cercano y familiar.",
       icono: "Home"
     },
@@ -97,28 +97,28 @@ const municipioData = {
       icono: "Users"
     },
     {
-      titulo: "Tu satisfacciÛn es nuestra meta",
-      descripcion: "No nos vamos de tu casa hasta que todo funcione a la perfecciÛn y t˙ estÈs completamente satisfecho con el trabajo realizado.",
+      titulo: "Tu satisfacci√≥n es nuestra meta",
+      descripcion: "No nos vamos de tu casa hasta que todo funcione a la perfecci√≥n y t√∫ est√©s completamente satisfecho con el trabajo realizado.",
       icono: "Shield"
     }
   ],
 
   faqs: [
     {
-      question: "øMerece la pena arreglar la antena comunitaria o es mejor que ponga una individual?",
-      answer: "Depende de cada caso. Siempre te daremos nuestra opiniÛn m·s honesta. Si la averÌa comunitaria es sencilla, suele ser m·s econÛmico repararla. Si la instalaciÛn es muy vieja, a veces una antena individual puede darte mejor resultado. Lo valoramos contigo."
+      question: "¬øMerece la pena arreglar la antena comunitaria o es mejor que ponga una individual?",
+      answer: "Depende de cada caso. Siempre te daremos nuestra opini√≥n m√°s honesta. Si la aver√≠a comunitaria es sencilla, suele ser m√°s econ√≥mico repararla. Si la instalaci√≥n es muy vieja, a veces una antena individual puede darte mejor resultado. Lo valoramos contigo."
     },
     {
-      question: "øCu·nto tiempo tard·is en hacer una instalaciÛn nueva?",
-      answer: "Una instalaciÛn est·ndar, como poner una antena de TDT o un videoportero en una vivienda unifamiliar, solemos dejarla lista en una sola maÒana o tarde, para que no te causemos molestias."
+      question: "¬øCu√°nto tiempo tard√°is en hacer una instalaci√≥n nueva?",
+      answer: "Una instalaci√≥n est√°ndar, como poner una antena de TDT o un videoportero en una vivienda unifamiliar, solemos dejarla lista en una sola ma√±ana o tarde, para que no te causemos molestias."
     },
     {
-      question: "øEl presupuesto que me dais es gratuito?",
-      answer: "SÌ, por supuesto. Nos acercamos a tu casa en Mag·n, vemos lo que necesitas y te damos un presupuesto detallado sin ning˙n tipo de coste ni compromiso por tu parte."
+      question: "¬øEl presupuesto que me dais es gratuito?",
+      answer: "S√≠, por supuesto. Nos acercamos a tu casa en Mag√°n, vemos lo que necesitas y te damos un presupuesto detallado sin ning√∫n tipo de coste ni compromiso por tu parte."
     },
     {
-      question: "øQuÈ garantÌa tienen los trabajos que hacÈis?",
-      answer: "Todos nuestros trabajos est·n cubiertos por la garantÌa legal. Te la entregamos por escrito en la factura para que tengas total tranquilidad y confianza en nuestro servicio."
+      question: "¬øQu√© garant√≠a tienen los trabajos que hac√©is?",
+      answer: "Todos nuestros trabajos est√°n cubiertos por la garant√≠a legal. Te la entregamos por escrito en la factura para que tengas total tranquilidad y confianza en nuestro servicio."
     }
   ]
 }
@@ -189,9 +189,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Mag·n | ?? 668 67 95 00`,
-  description: `Tu antenista de confianza en Mag·n. Solucionamos problemas de seÒal TDT, instalamos parabÛlicas y videoporteros en tu casa. Presupuesto r·pido y gratis.`,
-  keywords: `antenista Mag·n, antenas TDT Mag·n, instalaciÛn antenas Toledo, reparaciÛn antenas Mag·n, telecomunicaciones Mag·n, videoporteros Mag·n`,
+  title: `Antenista en Mag√°n | ?? 668 67 95 00`,
+  description: `Tu antenista de confianza en Mag√°n. Solucionamos problemas de se√±al TDT, instalamos parab√≥licas y videoporteros en tu casa. Presupuesto r√°pido y gratis.`,
+  keywords: `antenista Mag√°n, antenas TDT Mag√°n, instalaci√≥n antenas Toledo, reparaci√≥n antenas Mag√°n, telecomunicaciones Mag√°n, videoporteros Mag√°n`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-magan'
   },
@@ -200,8 +200,8 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: 'Antenista en Mag·n | ?? 668 67 95 00',
-    description: '? Tu antenista de confianza en Mag·n. Solucionamos problemas de seÒal TDT, instalamos parabÛlicas y videoporteros en tu casa. Presupuesto r·pido y gratis.',
+    title: 'Antenista en Mag√°n | ?? 668 67 95 00',
+    description: '? Tu antenista de confianza en Mag√°n. Solucionamos problemas de se√±al TDT, instalamos parab√≥licas y videoporteros en tu casa. Presupuesto r√°pido y gratis.',
     url: 'https://antenastoledo.com/antenista-magan',
     siteName: 'Antenas Toledo',
     locale: 'es_ES',
@@ -209,8 +209,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary',
-    title: 'Antenista en Mag·n | ?? 668 67 95 00',
-    description: '? Tu antenista de confianza en Mag·n. Solucionamos problemas de seÒal TDT, instalamos parabÛlicas y videoporteros en tu casa. Presupuesto r·pido y gratis.',
+    title: 'Antenista en Mag√°n | ?? 668 67 95 00',
+    description: '? Tu antenista de confianza en Mag√°n. Solucionamos problemas de se√±al TDT, instalamos parab√≥licas y videoporteros en tu casa. Presupuesto r√°pido y gratis.',
   }
 };
 
@@ -251,7 +251,7 @@ export default function AldeaDelFresnoPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section especÌfico de Torrecastillo */}
+          {/* Hero Section espec√≠fico de Torrecastillo */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -262,22 +262,22 @@ export default function AldeaDelFresnoPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Mag·n</span>
+                    <span className="text-brand-green font-medium">Mag√°n</span>
                   </nav>
 
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      Tu antenista de confianza en <span className="text-brand-green">Mag·n</span>
+                      Tu antenista de confianza en <span className="text-brand-green">Mag√°n</span>
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Si eres de Mag·n y necesitas un tÈcnico de antenas r·pido, honesto y que conozca el pueblo, no busques m·s. Te ofrecemos un servicio profesional para solucionar cualquier averÌa con tu televisiÛn o portero autom·tico, con la cercanÌa que solo un servicio local te puede dar y la garantÌa de m·s de 25 aÒos de experiencia.
+                      Si eres de Mag√°n y necesitas un t√©cnico de antenas r√°pido, honesto y que conozca el pueblo, no busques m√°s. Te ofrecemos un servicio profesional para solucionar cualquier aver√≠a con tu televisi√≥n o portero autom√°tico, con la cercan√≠a que solo un servicio local te puede dar y la garant√≠a de m√°s de 25 a√±os de experiencia.
                     </p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Ll·manos
+                      Ll√°manos
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Pide tu presupuesto
@@ -290,7 +290,7 @@ export default function AldeaDelFresnoPage() {
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
                       src="/images/telecom/antenistas-en-toledo-.jpg"
-                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histÛrico de La Sagra"
+                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio hist√≥rico de La Sagra"
                       width={400}
                       height={200}
                       priority
@@ -301,12 +301,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-           {/* Cobertura especÌfica de Mag·n */}
+           {/* Cobertura espec√≠fica de Mag√°n */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Damos servicio en todo el tÈrmino municipal de Mag·n</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Desde el centro del pueblo hasta las urbanizaciones m·s nuevas, nuestro equipo se desplaza para darte una soluciÛn eficaz y sin largas esperas.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Damos servicio en todo el t√©rmino municipal de Mag√°n</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Desde el centro del pueblo hasta las urbanizaciones m√°s nuevas, nuestro equipo se desplaza para darte una soluci√≥n eficaz y sin largas esperas.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -315,7 +315,7 @@ export default function AldeaDelFresnoPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra ·rea de servicio en Mag·n incluye:</h3>
+                      <h3 className="text-2xl font-semibold text-brand-black">Nuestra √°rea de servicio en Mag√°n incluye:</h3>
                       <p className="text-brand-black-light">Cobertura completa en todo el municipio</p>
                     </div>
                   </div>
@@ -340,12 +340,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Servicios especializados para hogares en Mag·n */}
+          {/* Servicios especializados para hogares en Mag√°n */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Soluciones para tu hogar en Mag·n</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Te ofrecemos un servicio claro y directo para cada una de tus necesidades, con la m·xima calidad.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Soluciones para tu hogar en Mag√°n</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Te ofrecemos un servicio claro y directo para cada una de tus necesidades, con la m√°xima calidad.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -362,12 +362,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Por quÈ elegir nuestros servicios en Mag·n */}
+          {/* Por qu√© elegir nuestros servicios en Mag√°n */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">øPor quÈ tus vecinos de Mag·n confÌan en nosotros?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra mejor carta de presentaciÛn es el trabajo bien hecho y la confianza de la gente del pueblo.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¬øPor qu√© tus vecinos de Mag√°n conf√≠an en nosotros?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Nuestra mejor carta de presentaci√≥n es el trabajo bien hecho y la confianza de la gente del pueblo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -383,12 +383,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-         {/* Testimonios de clientes en Mag·n */}
+         {/* Testimonios de clientes en Mag√°n */}
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Lo que dicen de nosotros en el pueblo</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La opiniÛn de tus vecinos es la mejor prueba de nuestro compromiso.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La opini√≥n de tus vecinos es la mejor prueba de nuestro compromiso.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -409,12 +409,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* FAQs especÌficas de Mag·n */}
+          {/* FAQs espec√≠ficas de Mag√°n */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Tus dudas de siempre, respondidas de forma clara</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">AquÌ resolvemos algunas de las preguntas que m·s nos hacen tus vecinos.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Aqu√≠ resolvemos algunas de las preguntas que m√°s nos hacen tus vecinos.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -427,16 +427,16 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* CTA Section especÌfica para Mag·n */}
+          {/* CTA Section espec√≠fica para Mag√°n */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">øProblemas con la antena en Mag·n?</h2>
-                  <p className="text-xl mb-8 text-white/90">Ll·manos y te damos presupuesto sin compromiso. Nos acercamos a tu casa en Mag·n cuando mejor te venga.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¬øProblemas con la antena en Mag√°n?</h2>
+                  <p className="text-xl mb-8 text-white/90">Ll√°manos y te damos presupuesto sin compromiso. Nos acercamos a tu casa en Mag√°n cuando mejor te venga.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Mag·n" className="flex items-center gap-2">
+                      <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Mag√°n" className="flex items-center gap-2">
                         <MessageCircle className="h-5 w-5" />
                         Contactar por WhatsApp
                       </a>

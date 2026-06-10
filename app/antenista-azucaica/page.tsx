@@ -19,36 +19,36 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45005",
-  descripcion: "Servicio de antenista profesional en Azucaica, Toledo. Instalación y reparación de antenas TDT, parabólicas, videoporteros y sistemas de seguridad. Presupuesto sin compromiso.",
+  descripcion: "Servicio de antenista profesional en Azucaica, Toledo. InstalaciÃ³n y reparaciÃ³n de antenas TDT, parabÃ³licas, videoporteros y sistemas de seguridad. Presupuesto sin compromiso.",
   servicios: [
-    "Instalación y reparación de antenas TDT",
-    "Instalación y orientación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias 5G",
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT",
+    "InstalaciÃ³n y orientaciÃ³n de antenas parabÃ³licas",
+    "Sistemas de videoportero y portero automÃ¡tico",
+    "InstalaciÃ³n de videovigilancia (CCTV)",
+    "SoluciÃ³n a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Alta cualificación técnica",
+    "Alta cualificaciÃ³n tÃ©cnica",
     "Materiales homologados",
-    "Garantía profesional"
+    "GarantÃ­a profesional"
   ],
   zonasCubiertas: [
     "Barrio de Azucaica",
     "Urbanizaciones del entorno este de Toledo",
-    "Polígono industrial próximo",
+    "PolÃ­gono industrial prÃ³ximo",
     "Viviendas unifamiliares y chalets"
   ],
   cobertura: [
     { zona: "Barrio de Azucaica", disponible: true },
     { zona: "Urbanizaciones del entorno este de Toledo", disponible: true },
-    { zona: "Polígono industrial próximo", disponible: true },
+    { zona: "PolÃ­gono industrial prÃ³ximo", disponible: true },
     { zona: "Viviendas unifamiliares y chalets", disponible: true }
   ],
   testimonios: [
     {
       nombre: "Vecino de Azucaica",
-      comentario: "Llamé por un problema con la antena parabólica que no captaba bien los canales de pago. El técnico llegó puntual, reorientó la antena y comprobó toda la instalación. Excelente trabajo.",
+      comentario: "LlamÃ© por un problema con la antena parabÃ³lica que no captaba bien los canales de pago. El tÃ©cnico llegÃ³ puntual, reorientÃ³ la antena y comprobÃ³ toda la instalaciÃ³n. Excelente trabajo.",
       puntuacion: 5
     },
     {
@@ -58,19 +58,19 @@ const municipioData = {
     },
     {
       nombre: "Responsable de comunidad",
-      comentario: "Contratamos el mantenimiento anual de nuestra antena colectiva y desde entonces no hemos tenido ningún problema. Muy recomendables para comunidades de vecinos.",
+      comentario: "Contratamos el mantenimiento anual de nuestra antena colectiva y desde entonces no hemos tenido ningÃºn problema. Muy recomendables para comunidades de vecinos.",
       puntuacion: 5
     }
   ],
   caracteristicas: [
     {
-      titulo: "Alta Cualificación Técnica",
-      descripcion: "Técnicos especializados y en continua formación en las últimas tecnologías.",
+      titulo: "Alta CualificaciÃ³n TÃ©cnica",
+      descripcion: "TÃ©cnicos especializados y en continua formaciÃ³n en las Ãºltimas tecnologÃ­as.",
       icono: "Briefcase"
     },
     {
       titulo: "Materiales de Primera",
-      descripcion: "Trabajamos únicamente con materiales homologados y de marcas de reconocida calidad.",
+      descripcion: "Trabajamos Ãºnicamente con materiales homologados y de marcas de reconocida calidad.",
       icono: "Shield"
     },
     {
@@ -79,27 +79,27 @@ const municipioData = {
       icono: "Eye"
     },
     {
-      titulo: "Garantía Escrita",
-      descripcion: "Todas nuestras instalaciones y reparaciones incluyen garantía profesional por escrito.",
+      titulo: "GarantÃ­a Escrita",
+      descripcion: "Todas nuestras instalaciones y reparaciones incluyen garantÃ­a profesional por escrito.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¿Cuánto tiempo tarda la instalación de una antena TDT en Azucaica?",
-      answer: "Una instalación estándar de antena TDT con distribución a una toma principal suele completarse en 2-3 horas. Si incluye cableado interior o varias tomas adicionales, puede extenderse a una jornada completa."
+      question: "Â¿CuÃ¡nto tiempo tarda la instalaciÃ³n de una antena TDT en Azucaica?",
+      answer: "Una instalaciÃ³n estÃ¡ndar de antena TDT con distribuciÃ³n a una toma principal suele completarse en 2-3 horas. Si incluye cableado interior o varias tomas adicionales, puede extenderse a una jornada completa."
     },
     {
-      question: "¿Pueden solucionar los problemas de pixelación en la TDT?",
-      answer: "Sí. La pixelación suele deberse a señal débil, cableado defectuoso o interferencias. Diagnosticamos la causa con equipos de medición y aplicamos la solución más eficiente."
+      question: "Â¿Pueden solucionar los problemas de pixelaciÃ³n en la TDT?",
+      answer: "SÃ­. La pixelaciÃ³n suele deberse a seÃ±al dÃ©bil, cableado defectuoso o interferencias. Diagnosticamos la causa con equipos de mediciÃ³n y aplicamos la soluciÃ³n mÃ¡s eficiente."
     },
     {
-      question: "¿Realizan instalaciones de parabólica para canales extranjeros?",
-      answer: "Por supuesto. Instalamos y orientamos parabólicas para la recepción de múltiples satélites, incluyendo Astra, Hispasat y Hot Bird, permitiendo acceder a canales de numerosos países."
+      question: "Â¿Realizan instalaciones de parabÃ³lica para canales extranjeros?",
+      answer: "Por supuesto. Instalamos y orientamos parabÃ³licas para la recepciÃ³n de mÃºltiples satÃ©lites, incluyendo Astra, Hispasat y Hot Bird, permitiendo acceder a canales de numerosos paÃ­ses."
     },
     {
-      question: "¿Atienden emergencias los fines de semana en Azucaica?",
-      answer: "Sí. Disponemos de servicio de urgencias disponible también en fin de semana para atender fallos críticos de señal o averías en sistemas de seguridad y acceso."
+      question: "Â¿Atienden emergencias los fines de semana en Azucaica?",
+      answer: "SÃ­. Disponemos de servicio de urgencias disponible tambiÃ©n en fin de semana para atender fallos crÃ­ticos de seÃ±al o averÃ­as en sistemas de seguridad y acceso."
     }
   ]
 };
@@ -171,8 +171,8 @@ const structuredData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Azucaica Toledo | ?? 668 67 95 00`,
-  description: `Antenista en Azucaica, Toledo. Instalación y reparación de antenas TDT, parabólicas, videoporteros y cámaras de seguridad. Servicio urgente disponible.`,
-  keywords: `antenista Azucaica Toledo, antenas TDT Azucaica, instalación antenas Toledo este, reparación antenas Azucaica, telecomunicaciones Azucaica Toledo`,
+  description: `Antenista en Azucaica, Toledo. InstalaciÃ³n y reparaciÃ³n de antenas TDT, parabÃ³licas, videoporteros y cÃ¡maras de seguridad. Servicio urgente disponible.`,
+  keywords: `antenista Azucaica Toledo, antenas TDT Azucaica, instalaciÃ³n antenas Toledo este, reparaciÃ³n antenas Azucaica, telecomunicaciones Azucaica Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-azucaica'
   },
@@ -217,13 +217,13 @@ export default function AzucaicaPage() {
                       Antenista profesional en Azucaica, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos servicio técnico de antenistas para hogares, comunidades de vecinos y empresas en el barrio de Azucaica. Con más de 25 años de experiencia en Toledo, somos la referencia en instalaciones de televisión digital, antenas parabólicas, videoporteros y sistemas de videovigilancia en la zona este de la ciudad.
+                      Ofrecemos servicio tÃ©cnico de antenistas para hogares, comunidades de vecinos y empresas en el barrio de Azucaica. Con mÃ¡s de 25 aÃ±os de experiencia en Toledo, somos la referencia en instalaciones de televisiÃ³n digital, antenas parabÃ³licas, videoporteros y sistemas de videovigilancia en la zona este de la ciudad.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervención
+                      Contactar para una intervenciÃ³n
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -243,7 +243,7 @@ export default function AzucaicaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Azucaica y alrededores</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el barrio de Azucaica y las urbanizaciones del entorno con atención rápida y técnicos especializados.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el barrio de Azucaica y las urbanizaciones del entorno con atenciÃ³n rÃ¡pida y tÃ©cnicos especializados.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -253,7 +253,7 @@ export default function AzucaicaPage() {
                     </div>
                     <div>
                       <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en Azucaica</h3>
-                      <p className="text-brand-black-light">Antenista profesional en todo el área</p>
+                      <p className="text-brand-black-light">Antenista profesional en todo el Ã¡rea</p>
                     </div>
                   </div>
                   <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -278,8 +278,8 @@ export default function AzucaicaPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones técnicas completas para cualquier necesidad de telecomunicaciones en Azucaica.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catÃ¡logo de servicios especializados</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones tÃ©cnicas completas para cualquier necesidad de telecomunicaciones en Azucaica.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -292,8 +292,8 @@ export default function AzucaicaPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Años de experiencia y cientos de clientes satisfechos en Toledo avalan nuestra calidad.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© confiar en nuestro servicio tÃ©cnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">AÃ±os de experiencia y cientos de clientes satisfechos en Toledo avalan nuestra calidad.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -338,7 +338,7 @@ export default function AzucaicaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más habituales de nuestros clientes en Azucaica.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas mÃ¡s habituales de nuestros clientes en Azucaica.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -356,7 +356,7 @@ export default function AzucaicaPage() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
                   <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Azucaica</h2>
-                  <p className="text-xl mb-8 text-white/90">Pida presupuesto sin compromiso o concierte una visita técnica. Respondemos con rapidez.</p>
+                  <p className="text-xl mb-8 text-white/90">Pida presupuesto sin compromiso o concierte una visita tÃ©cnica. Respondemos con rapidez.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Azucaica%20Toledo" className="flex items-center gap-2">

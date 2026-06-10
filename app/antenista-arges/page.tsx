@@ -14,58 +14,58 @@ import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 
 const municipioData = {
-  nombre: "Argés",
+  nombre: "ArgÃ©s",
   slug: "arges",
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45122",
-  descripcion: "Antenista profesional en Argés (Toledo). Instalación y reparación de antenas TDT, parabólicas, videoporteros y cámaras de seguridad para hogares, comunidades y negocios.",
+  descripcion: "Antenista profesional en ArgÃ©s (Toledo). InstalaciÃ³n y reparaciÃ³n de antenas TDT, parabÃ³licas, videoporteros y cÃ¡maras de seguridad para hogares, comunidades y negocios.",
   servicios: [
-    "Instalación y reparación de antenas TDT",
-    "Instalación y orientación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias 5G",
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT",
+    "InstalaciÃ³n y orientaciÃ³n de antenas parabÃ³licas",
+    "Sistemas de videoportero y portero automÃ¡tico",
+    "InstalaciÃ³n de videovigilancia (CCTV)",
+    "SoluciÃ³n a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Alta cualificación técnica",
+    "Alta cualificaciÃ³n tÃ©cnica",
     "Materiales homologados",
-    "Garantía profesional"
+    "GarantÃ­a profesional"
   ],
   zonasCubiertas: [
-    "Casco urbano de Argés",
+    "Casco urbano de ArgÃ©s",
     "Urbanizaciones residenciales del municipio",
     "Chalets y viviendas unifamiliares",
-    "Fincas y propiedades en el término municipal"
+    "Fincas y propiedades en el tÃ©rmino municipal"
   ],
   cobertura: [
-    { zona: "Casco urbano de Argés", disponible: true },
+    { zona: "Casco urbano de ArgÃ©s", disponible: true },
     { zona: "Urbanizaciones residenciales del municipio", disponible: true },
     { zona: "Chalets y viviendas unifamiliares", disponible: true },
-    { zona: "Fincas y propiedades en el término municipal", disponible: true }
+    { zona: "Fincas y propiedades en el tÃ©rmino municipal", disponible: true }
   ],
   testimonios: [
     {
-      nombre: "Vecino de Argés",
-      comentario: "Llevaba tiempo con problemas de señal TDT y decidí llamarles. El técnico localizó rápidamente el fallo en el amplificador y lo cambió en menos de una hora. Muy satisfecho con la rapidez y el precio.",
+      nombre: "Vecino de ArgÃ©s",
+      comentario: "Llevaba tiempo con problemas de seÃ±al TDT y decidÃ­ llamarles. El tÃ©cnico localizÃ³ rÃ¡pidamente el fallo en el amplificador y lo cambiÃ³ en menos de una hora. Muy satisfecho con la rapidez y el precio.",
       puntuacion: 5
     },
     {
-      nombre: "Propietaria de chalet en Argés",
-      comentario: "Instalaron videoportero con cámara en nuestro chalet. La instalación fue muy limpia, sin destrozar nada, y el sistema funciona a la perfección desde el primer día.",
+      nombre: "Propietaria de chalet en ArgÃ©s",
+      comentario: "Instalaron videoportero con cÃ¡mara en nuestro chalet. La instalaciÃ³n fue muy limpia, sin destrozar nada, y el sistema funciona a la perfecciÃ³n desde el primer dÃ­a.",
       puntuacion: 5
     },
     {
-      nombre: "Presidente de comunidad de Argés",
-      comentario: "Contratamos la instalación de antena colectiva nueva para nuestra comunidad de 12 viviendas. El trabajo se realizó en un solo día y todos los vecinos quedaron muy contentos con la calidad de la señal.",
+      nombre: "Presidente de comunidad de ArgÃ©s",
+      comentario: "Contratamos la instalaciÃ³n de antena colectiva nueva para nuestra comunidad de 12 viviendas. El trabajo se realizÃ³ en un solo dÃ­a y todos los vecinos quedaron muy contentos con la calidad de la seÃ±al.",
       puntuacion: 5
     }
   ],
   caracteristicas: [
     {
-      titulo: "Alta Cualificación Técnica",
-      descripcion: "Técnicos con certificaciones y años de experiencia en instalaciones de telecomunicaciones.",
+      titulo: "Alta CualificaciÃ³n TÃ©cnica",
+      descripcion: "TÃ©cnicos con certificaciones y aÃ±os de experiencia en instalaciones de telecomunicaciones.",
       icono: "Briefcase"
     },
     {
@@ -75,31 +75,31 @@ const municipioData = {
     },
     {
       titulo: "Presupuesto Transparente",
-      descripcion: "Recibirá un presupuesto detallado y cerrado antes de comenzar, sin costes ocultos.",
+      descripcion: "RecibirÃ¡ un presupuesto detallado y cerrado antes de comenzar, sin costes ocultos.",
       icono: "Eye"
     },
     {
-      titulo: "Garantía Profesional",
-      descripcion: "Cada trabajo incluye garantía escrita para su total tranquilidad.",
+      titulo: "GarantÃ­a Profesional",
+      descripcion: "Cada trabajo incluye garantÃ­a escrita para su total tranquilidad.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¿Cuánto cuesta instalar una antena TDT en Argés?",
-      answer: "El precio depende del tipo de instalación (individual o colectiva), el material requerido y la accesibilidad del tejado o fachada. Tras una visita de diagnóstico sin coste, le facilitamos un presupuesto cerrado por escrito."
+      question: "Â¿CuÃ¡nto cuesta instalar una antena TDT en ArgÃ©s?",
+      answer: "El precio depende del tipo de instalaciÃ³n (individual o colectiva), el material requerido y la accesibilidad del tejado o fachada. Tras una visita de diagnÃ³stico sin coste, le facilitamos un presupuesto cerrado por escrito."
     },
     {
-      question: "¿Atienden averías de antena el mismo día en Argés?",
-      answer: "En la medida de lo posible sí. Disponemos de servicio de urgencias para fallos de señal que dejan sin televisión. Nuestro objetivo es atender el mismo día o al día siguiente en Argés y municipios del entorno."
+      question: "Â¿Atienden averÃ­as de antena el mismo dÃ­a en ArgÃ©s?",
+      answer: "En la medida de lo posible sÃ­. Disponemos de servicio de urgencias para fallos de seÃ±al que dejan sin televisiÃ³n. Nuestro objetivo es atender el mismo dÃ­a o al dÃ­a siguiente en ArgÃ©s y municipios del entorno."
     },
     {
-      question: "¿Pueden instalar antena parabólica para ver Canal  desde Argés?",
-      answer: "Canal  se emite en TDT y se puede recibir perfectamente en Argés. Si lo que busca son canales que no están en TDT, podemos instalar una parabólica orientada al satélite adecuado."
+      question: "Â¿Pueden instalar antena parabÃ³lica para ver Canal  desde ArgÃ©s?",
+      answer: "Canal  se emite en TDT y se puede recibir perfectamente en ArgÃ©s. Si lo que busca son canales que no estÃ¡n en TDT, podemos instalar una parabÃ³lica orientada al satÃ©lite adecuado."
     },
     {
-      question: "¿Realizan el cambio completo de instalación de antena en edificios antiguos?",
-      answer: "Sí. Renovamos instalaciones antiguas de antena colectiva, incluyendo el cambio de cable coaxial, amplificadores, repartidores y tomas de usuario, adaptando todo a los estándares actuales de la TDT."
+      question: "Â¿Realizan el cambio completo de instalaciÃ³n de antena en edificios antiguos?",
+      answer: "SÃ­. Renovamos instalaciones antiguas de antena colectiva, incluyendo el cambio de cable coaxial, amplificadores, repartidores y tomas de usuario, adaptando todo a los estÃ¡ndares actuales de la TDT."
     }
   ]
 };
@@ -170,9 +170,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Argés Toledo | ?? 668 67 95 00`,
-  description: `Antenista en Argés, Toledo. Instalación de antenas TDT, parabólicas, videoporteros y sistemas de seguridad. Presupuesto sin compromiso y servicio urgente.`,
-  keywords: `antenista Argés Toledo, antenas TDT Argés, instalación antenas Argés Toledo, reparación antenas Argés, videoportero Argés Toledo`,
+  title: `Antenista en ArgÃ©s Toledo | ?? 668 67 95 00`,
+  description: `Antenista en ArgÃ©s, Toledo. InstalaciÃ³n de antenas TDT, parabÃ³licas, videoporteros y sistemas de seguridad. Presupuesto sin compromiso y servicio urgente.`,
+  keywords: `antenista ArgÃ©s Toledo, antenas TDT ArgÃ©s, instalaciÃ³n antenas ArgÃ©s Toledo, reparaciÃ³n antenas ArgÃ©s, videoportero ArgÃ©s Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-arges'
   },
@@ -210,20 +210,20 @@ export default function ArgesPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Argés</span>
+                    <span className="text-brand-green font-medium">ArgÃ©s</span>
                   </nav>
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      Antenista profesional en Argés, Toledo
+                      Antenista profesional en ArgÃ©s, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos servicio de antenista en Argés, municipio situado al  de Toledo a escasos kilómetros de la capital. Atendemos hogares, comunidades de vecinos, negocios y chalets con instalaciones de antenas TDT, parabólicas, videoporteros y sistemas de videovigilancia, siempre con materiales de calidad y garantía profesional.
+                      Ofrecemos servicio de antenista en ArgÃ©s, municipio situado al  de Toledo a escasos kilÃ³metros de la capital. Atendemos hogares, comunidades de vecinos, negocios y chalets con instalaciones de antenas TDT, parabÃ³licas, videoporteros y sistemas de videovigilancia, siempre con materiales de calidad y garantÃ­a profesional.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervención
+                      Contactar para una intervenciÃ³n
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -232,7 +232,7 @@ export default function ArgesPage() {
                 </div>
                 <div className="relative">
                   <div className="mt-20 flex justify-center relative overflow-hidden rounded-xl">
-                    <Image src="/images/telecom/antenistas-en-toledo-.jpg" alt="Antenista profesional en Argés Toledo" width={400} height={200} priority />
+                    <Image src="/images/telecom/antenistas-en-toledo-.jpg" alt="Antenista profesional en ArgÃ©s Toledo" width={400} height={200} priority />
                   </div>
                 </div>
               </div>
@@ -242,8 +242,8 @@ export default function ArgesPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Argés y su término municipal</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el municipio de Argés con desplazamiento rápido y técnicos con amplia experiencia local.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en ArgÃ©s y su tÃ©rmino municipal</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el municipio de ArgÃ©s con desplazamiento rÃ¡pido y tÃ©cnicos con amplia experiencia local.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -252,7 +252,7 @@ export default function ArgesPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en Argés</h3>
+                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en ArgÃ©s</h3>
                       <p className="text-brand-black-light">Antenista profesional en todo el municipio</p>
                     </div>
                   </div>
@@ -267,7 +267,7 @@ export default function ArgesPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Servicio de urgencia disponible. Atención en el día para Argés y municipios próximos.</span>
+                      <span>Servicio de urgencia disponible. AtenciÃ³n en el dÃ­a para ArgÃ©s y municipios prÃ³ximos.</span>
                     </div>
                   </div>
                 </div>
@@ -278,8 +278,8 @@ export default function ArgesPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Todo lo que necesita para sus instalaciones de telecomunicaciones en Argés.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catÃ¡logo de servicios especializados</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Todo lo que necesita para sus instalaciones de telecomunicaciones en ArgÃ©s.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -292,8 +292,8 @@ export default function ArgesPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Más de 25 años de experiencia en la provincia de Toledo nos avalan.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© confiar en nuestro servicio tÃ©cnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">MÃ¡s de 25 aÃ±os de experiencia en la provincia de Toledo nos avalan.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -312,8 +312,8 @@ export default function ArgesPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en Argés</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacción de vecinos y comunidades de Argés habla por sí sola.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en ArgÃ©s</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacciÃ³n de vecinos y comunidades de ArgÃ©s habla por sÃ­ sola.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -337,8 +337,8 @@ export default function ArgesPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios en Argés</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más frecuentes de nuestros clientes en Argés.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios en ArgÃ©s</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas mÃ¡s frecuentes de nuestros clientes en ArgÃ©s.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -355,8 +355,8 @@ export default function ArgesPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Argés</h2>
-                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto sin compromiso o llámenos para concertar una visita técnica en Argés.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en ArgÃ©s</h2>
+                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto sin compromiso o llÃ¡menos para concertar una visita tÃ©cnica en ArgÃ©s.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Arg%C3%A9s%20Toledo" className="flex items-center gap-2">

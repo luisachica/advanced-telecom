@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 
-// Datos específicos del municipio
+// Datos especÃ­ficos del municipio
 const municipioData = {
   nombre: "Cobisa",
   slug: "cobisa",
@@ -22,19 +22,19 @@ const municipioData = {
   codigoPostal: "45111",
   poblacion: "3.200",
   superficie: "32,4",
-  descripcion: "Tu antenista especialista en Cobisa para solucionar problemas de señal. Expertos en TDT, parabólicas y CCTV con más de 25 años de experiencia.",
+  descripcion: "Tu antenista especialista en Cobisa para solucionar problemas de seÃ±al. Expertos en TDT, parabÃ³licas y CCTV con mÃ¡s de 25 aÃ±os de experiencia.",
   servicios: [
-    "Instalación de antenas TDT en Cobisa",
-    "Antenas parabólicas para todas las zonas",
-    "Porteros automáticos y videoporteros modernos",
+    "InstalaciÃ³n de antenas TDT en Cobisa",
+    "Antenas parabÃ³licas para todas las zonas",
+    "Porteros automÃ¡ticos y videoporteros modernos",
     "Sistemas de videovigilancia CCTV",
-    "Solución a interferencias 5G",
+    "SoluciÃ³n a interferencias 5G",
     "Reparaciones urgentes de antenas"
   ],
    serviciosDestacados: [
     "Antenista TDT especializado",
     "Videoporteros modernos",
-    "Servicio técnico local en Cobisa"
+    "Servicio tÃ©cnico local en Cobisa"
   ],
 
   zonasCubiertas: [
@@ -55,17 +55,17 @@ const municipioData = {
   testimonios: [
     {
       nombre: "Elena S.",
-      comentario: "Vino el técnico a mi chalet en una de las urbanizaciones nuevas de Cobisa para instalar toda la TDT desde cero. Un trabajo impecable, rápido y muy profesional. Totalmente recomendable.",
+      comentario: "Vino el tÃ©cnico a mi chalet en una de las urbanizaciones nuevas de Cobisa para instalar toda la TDT desde cero. Un trabajo impecable, rÃ¡pido y muy profesional. Totalmente recomendable.",
       puntuacion: 5
     },
     {
       nombre: "David G.",
-      comentario: "Tenía un problema con el portero automático de la comunidad y nos lo solucionaron el mismo día. Un servicio muy eficaz y un trato excelente. Ya son nuestros antenistas de referencia.",
+      comentario: "TenÃ­a un problema con el portero automÃ¡tico de la comunidad y nos lo solucionaron el mismo dÃ­a. Un servicio muy eficaz y un trato excelente. Ya son nuestros antenistas de referencia.",
       puntuacion: 5
     },
     {
       nombre: "Carlos M.",
-      comentario: "Se nota la experiencia. Les llamé porque la parabólica se había movido con el viento y en un momento la dejaron perfectamente orientada. Muy buen servicio.",
+      comentario: "Se nota la experiencia. Les llamÃ© porque la parabÃ³lica se habÃ­a movido con el viento y en un momento la dejaron perfectamente orientada. Muy buen servicio.",
       puntuacion: 5
     }
   ],
@@ -73,7 +73,7 @@ const municipioData = {
    caracteristicas: [
     {
       titulo: "Conocemos Cobisa como la palma de nuestra mano",
-      descripcion: "Sabemos dónde están los repetidores y cuáles son los desafíos de la señal en cada urbanización. Eso nos permite ser más rápidos y eficientes.",
+      descripcion: "Sabemos dÃ³nde estÃ¡n los repetidores y cuÃ¡les son los desafÃ­os de la seÃ±al en cada urbanizaciÃ³n. Eso nos permite ser mÃ¡s rÃ¡pidos y eficientes.",
       icono: "Home"
     },
     {
@@ -83,11 +83,11 @@ const municipioData = {
     },
     {
       titulo: "Presupuestos a tu medida",
-      descripcion: "Escuchamos lo que necesitas y te ofrecemos la mejor solución adaptada a tu presupuesto. Somos flexibles y honestos en nuestros precios.",
+      descripcion: "Escuchamos lo que necesitas y te ofrecemos la mejor soluciÃ³n adaptada a tu presupuesto. Somos flexibles y honestos en nuestros precios.",
       icono: "Users"
     },
     {
-      titulo: "Garantía de un trabajo bien hecho",
+      titulo: "GarantÃ­a de un trabajo bien hecho",
       descripcion: "Te garantizamos por escrito todas nuestras instalaciones y reparaciones. Nuestro objetivo es que quedes totalmente satisfecho y no vuelvas a preocuparte.",
       icono: "Shield"
     }
@@ -95,20 +95,20 @@ const municipioData = {
 
   faqs: [
     {
-      question: "¿Tenéis experiencia en las nuevas urbanizaciones de Cobisa?",
-      answer: "Sí, por supuesto. Gran parte de nuestro trabajo se desarrolla en las zonas residenciales y nuevas urbanizaciones de Cobisa. Conocemos perfectamente sus características y cómo obtener la mejor señal."
+      question: "Â¿TenÃ©is experiencia en las nuevas urbanizaciones de Cobisa?",
+      answer: "SÃ­, por supuesto. Gran parte de nuestro trabajo se desarrolla en las zonas residenciales y nuevas urbanizaciones de Cobisa. Conocemos perfectamente sus caracterÃ­sticas y cÃ³mo obtener la mejor seÃ±al."
     },
     {
-      question: "¿Cuánto tiempo se tarda en instalar un videoportero?",
-      answer: "En una vivienda unifamiliar, la instalación suele completarse en una mañana. En una comunidad, el tiempo dependerá del número de vecinos, pero siempre te damos un plazo cerrado antes de empezar."
+      question: "Â¿CuÃ¡nto tiempo se tarda en instalar un videoportero?",
+      answer: "En una vivienda unifamiliar, la instalaciÃ³n suele completarse en una maÃ±ana. En una comunidad, el tiempo dependerÃ¡ del nÃºmero de vecinos, pero siempre te damos un plazo cerrado antes de empezar."
     },
     {
-      question: "¿Qué incluye el presupuesto que me dais?",
-      answer: "Nuestro presupuesto es cerrado y lo incluye todo: el desplazamiento, la mano de obra y los materiales necesarios. No te llevarás ninguna sorpresa en la factura final."
+      question: "Â¿QuÃ© incluye el presupuesto que me dais?",
+      answer: "Nuestro presupuesto es cerrado y lo incluye todo: el desplazamiento, la mano de obra y los materiales necesarios. No te llevarÃ¡s ninguna sorpresa en la factura final."
     },
     {
-      question: "Si tengo una avería, ¿venís rápido?",
-      answer: "La rapidez es una de nuestras prioridades. Para averías normales, solemos dar cita en 24 horas. Si es una urgencia que no puede esperar, nos comprometemos a estar en tu casa en Cobisa en menos de dos horas."
+      question: "Si tengo una averÃ­a, Â¿venÃ­s rÃ¡pido?",
+      answer: "La rapidez es una de nuestras prioridades. Para averÃ­as normales, solemos dar cita en 24 horas. Si es una urgencia que no puede esperar, nos comprometemos a estar en tu casa en Cobisa en menos de dos horas."
     }
   ]
 }
@@ -180,8 +180,8 @@ const structuredData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Cobisa | ?? 668 67 95 00`,
-  description: `? Tu antenista en Cobisa para solucionar problemas de señal. Expertos en TDT, parabólicas y CCTV. Más de 25 años. Pide tu presupuesto gratis.`,
-  keywords: `antenista Cobisa, antenas TDT Cobisa, instalación antenas Toledo, reparación antenas Cobisa, telecomunicaciones Cobisa, videoporteros Cobisa`,
+  description: `? Tu antenista en Cobisa para solucionar problemas de seÃ±al. Expertos en TDT, parabÃ³licas y CCTV. MÃ¡s de 25 aÃ±os. Pide tu presupuesto gratis.`,
+  keywords: `antenista Cobisa, antenas TDT Cobisa, instalaciÃ³n antenas Toledo, reparaciÃ³n antenas Cobisa, telecomunicaciones Cobisa, videoporteros Cobisa`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-cobisa'
   },
@@ -228,7 +228,7 @@ export default function AldeaDelFresnoPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section específico de Cobisa */}
+          {/* Hero Section especÃ­fico de Cobisa */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -247,7 +247,7 @@ export default function AldeaDelFresnoPage() {
                       Tu antenista especialista en <span className="text-brand-green">{municipioData.nombre}</span>
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Si vives en {municipioData.nombre} y buscas un servicio técnico de confianza, rápido y profesional, has llegado al sitio correcto. Nuestra misión es asegurarnos de que la tecnología de tu hogar funcione a la perfección. Desde ajustar tu antena de TDT para que no te pierdas ni un detalle, hasta instalar un videoportero moderno para tu chalet, estamos aquí para ayudarte.
+                      Si vives en {municipioData.nombre} y buscas un servicio tÃ©cnico de confianza, rÃ¡pido y profesional, has llegado al sitio correcto. Nuestra misiÃ³n es asegurarnos de que la tecnologÃ­a de tu hogar funcione a la perfecciÃ³n. Desde ajustar tu antena de TDT para que no te pierdas ni un detalle, hasta instalar un videoportero moderno para tu chalet, estamos aquÃ­ para ayudarte.
                     </p>
                   </div>
 
@@ -267,7 +267,7 @@ export default function AldeaDelFresnoPage() {
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
                       src="/images/telecom/antenistas-en-toledo-.jpg"
-                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histórico de La Sagra"
+                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histÃ³rico de La Sagra"
                       width={400}
                       height={200}
                       priority
@@ -278,12 +278,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-           {/* Cobertura específica de Cobisa */}
+           {/* Cobertura especÃ­fica de Cobisa */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Damos servicio en todo {municipioData.nombre}, sin excepciones</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Conocemos perfectamente el municipio y nos desplazamos a cualquier punto para darte la solución que necesitas.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Conocemos perfectamente el municipio y nos desplazamos a cualquier punto para darte la soluciÃ³n que necesitas.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -293,7 +293,7 @@ export default function AldeaDelFresnoPage() {
                     </div>
                     <div>
                       <h3 className="text-2xl font-semibold text-brand-black">Cubrimos todas las zonas de {municipioData.nombre}:</h3>
-                      <p className="text-brand-black-light">Servicio técnico especializado en todas las áreas</p>
+                      <p className="text-brand-black-light">Servicio tÃ©cnico especializado en todas las Ã¡reas</p>
                     </div>
                   </div>
                  
@@ -322,7 +322,7 @@ export default function AldeaDelFresnoPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Descubre todo lo que podemos hacer por ti en {municipioData.nombre}</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Tenemos una solución específica para cada una de tus necesidades de telecomunicaciones y seguridad.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Tenemos una soluciÃ³n especÃ­fica para cada una de tus necesidades de telecomunicaciones y seguridad.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -339,7 +339,7 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* Por qué elegir nuestros servicios en Cobisa */}
+          {/* Por quÃ© elegir nuestros servicios en Cobisa */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
@@ -386,12 +386,12 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* FAQs específicas de Cobisa */}
+          {/* FAQs especÃ­ficas de Cobisa */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Resolvemos las dudas más habituales sobre antenistas en {municipioData.nombre}</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Aquí tienes las respuestas a lo que seguro te estás preguntando.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Resolvemos las dudas mÃ¡s habituales sobre antenistas en {municipioData.nombre}</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">AquÃ­ tienes las respuestas a lo que seguro te estÃ¡s preguntando.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -404,13 +404,13 @@ export default function AldeaDelFresnoPage() {
             </div>
           </section>
 
-          {/* CTA Section específica para Cobisa */}
+          {/* CTA Section especÃ­fica para Cobisa */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Listo para mejorar tu señal? Contacta con tu antenista en {municipioData.nombre}</h2>
-                  <p className="text-xl mb-8 text-white/90">No dejes pasar más tiempo con esa avería o ese proyecto que tienes en mente. Llámanos o escríbenos, cuéntanos qué necesitas y te daremos una solución rápida y sin compromiso.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Â¿Listo para mejorar tu seÃ±al? Contacta con tu antenista en {municipioData.nombre}</h2>
+                  <p className="text-xl mb-8 text-white/90">No dejes pasar mÃ¡s tiempo con esa averÃ­a o ese proyecto que tienes en mente. LlÃ¡manos o escrÃ­benos, cuÃ©ntanos quÃ© necesitas y te daremos una soluciÃ³n rÃ¡pida y sin compromiso.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Cobisa" className="flex items-center gap-2">

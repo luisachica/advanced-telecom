@@ -19,19 +19,19 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45006",
-  descripcion: "Antenista profesional en Las Tres Culturas, Toledo. Instalación y reparación de antenas TDT, parabólicas, videoporteros y sistemas de seguridad para el moderno barrio residencial toledano.",
+  descripcion: "Antenista profesional en Las Tres Culturas, Toledo. InstalaciÃ³n y reparaciÃ³n de antenas TDT, parabÃ³licas, videoporteros y sistemas de seguridad para el moderno barrio residencial toledano.",
   servicios: [
-    "Instalación y reparación de antenas TDT",
-    "Instalación y orientación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias 5G",
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT",
+    "InstalaciÃ³n y orientaciÃ³n de antenas parabÃ³licas",
+    "Sistemas de videoportero y portero automÃ¡tico",
+    "InstalaciÃ³n de videovigilancia (CCTV)",
+    "SoluciÃ³n a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Alta cualificación técnica",
+    "Alta cualificaciÃ³n tÃ©cnica",
     "Materiales homologados",
-    "Garantía profesional"
+    "GarantÃ­a profesional"
   ],
   zonasCubiertas: [
     "Barrio Las Tres Culturas",
@@ -48,24 +48,24 @@ const municipioData = {
   testimonios: [
     {
       nombre: "Residente de Las Tres Culturas",
-      comentario: "Llamé por problemas de interferencias 5G en la TDT. El técnico vino al día siguiente, instaló el filtro correspondiente y desde entonces tenemos imagen perfecta. Muy rápidos y eficientes.",
+      comentario: "LlamÃ© por problemas de interferencias 5G en la TDT. El tÃ©cnico vino al dÃ­a siguiente, instalÃ³ el filtro correspondiente y desde entonces tenemos imagen perfecta. Muy rÃ¡pidos y eficientes.",
       puntuacion: 5
     },
     {
       nombre: "Propietaria de piso",
-      comentario: "Instalaron videoportero con cámara en mi piso del barrio. La instalación fue muy limpia y el sistema funciona perfectamente. El precio fue muy competitivo. Totalmente recomendables.",
+      comentario: "Instalaron videoportero con cÃ¡mara en mi piso del barrio. La instalaciÃ³n fue muy limpia y el sistema funciona perfectamente. El precio fue muy competitivo. Totalmente recomendables.",
       puntuacion: 5
     },
     {
       nombre: "Presidente de la comunidad",
-      comentario: "Renovamos toda la instalación de antena colectiva del bloque. El trabajo se completó en un día y todos los vecinos notaron una mejora notable en la recepción. Muy satisfechos.",
+      comentario: "Renovamos toda la instalaciÃ³n de antena colectiva del bloque. El trabajo se completÃ³ en un dÃ­a y todos los vecinos notaron una mejora notable en la recepciÃ³n. Muy satisfechos.",
       puntuacion: 5
     }
   ],
   caracteristicas: [
     {
-      titulo: "Alta Cualificación",
-      descripcion: "Técnicos especializados con años de experiencia en Toledo y su comarca.",
+      titulo: "Alta CualificaciÃ³n",
+      descripcion: "TÃ©cnicos especializados con aÃ±os de experiencia en Toledo y su comarca.",
       icono: "Briefcase"
     },
     {
@@ -79,27 +79,27 @@ const municipioData = {
       icono: "Eye"
     },
     {
-      titulo: "Garantía Escrita",
-      descripcion: "Garantía completa en todas nuestras instalaciones y reparaciones.",
+      titulo: "GarantÃ­a Escrita",
+      descripcion: "GarantÃ­a completa en todas nuestras instalaciones y reparaciones.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¿Qué problemas de señal son más comunes en el barrio Las Tres Culturas?",
-      answer: "En barrios nuevos como Las Tres Culturas los problemas más comunes son las interferencias 5G en la TDT y conectores mal instalados en instalaciones recientes. Diagnosticamos con equipos profesionales y aplicamos la solución idónea."
+      question: "Â¿QuÃ© problemas de seÃ±al son mÃ¡s comunes en el barrio Las Tres Culturas?",
+      answer: "En barrios nuevos como Las Tres Culturas los problemas mÃ¡s comunes son las interferencias 5G en la TDT y conectores mal instalados en instalaciones recientes. Diagnosticamos con equipos profesionales y aplicamos la soluciÃ³n idÃ³nea."
     },
     {
-      question: "¿Pueden instalar parabólica orientada a varios satélites para recibir más canales?",
-      answer: "Sí. Podemos instalar sistemas con dos LNBs o un LNB Multiswitch que permiten recibir simultáneamente canales de diferentes satélites como Astra 19.2° y Hispasat 30°."
+      question: "Â¿Pueden instalar parabÃ³lica orientada a varios satÃ©lites para recibir mÃ¡s canales?",
+      answer: "SÃ­. Podemos instalar sistemas con dos LNBs o un LNB Multiswitch que permiten recibir simultÃ¡neamente canales de diferentes satÃ©lites como Astra 19.2Â° y Hispasat 30Â°."
     },
     {
-      question: "¿Qué es y cómo funciona el filtro 5G para la TDT?",
-      answer: "El filtro 5G es un dispositivo que se instala en la cabecera de la instalación de antena y bloquea las frecuencias de la telefonía 5G (700 MHz) que pueden causar interferencias en los canales de TDT. Es una solución económica y muy efectiva."
+      question: "Â¿QuÃ© es y cÃ³mo funciona el filtro 5G para la TDT?",
+      answer: "El filtro 5G es un dispositivo que se instala en la cabecera de la instalaciÃ³n de antena y bloquea las frecuencias de la telefonÃ­a 5G (700 MHz) que pueden causar interferencias en los canales de TDT. Es una soluciÃ³n econÃ³mica y muy efectiva."
     },
     {
-      question: "¿Atienden averías urgentes en fin de semana en Las Tres Culturas?",
-      answer: "Sí. Atendemos urgencias de lunes a sábado inclusive. Para problemas que dejan sin señal de televisión o fallos en el sistema de seguridad, intentamos dar respuesta el mismo día."
+      question: "Â¿Atienden averÃ­as urgentes en fin de semana en Las Tres Culturas?",
+      answer: "SÃ­. Atendemos urgencias de lunes a sÃ¡bado inclusive. Para problemas que dejan sin seÃ±al de televisiÃ³n o fallos en el sistema de seguridad, intentamos dar respuesta el mismo dÃ­a."
     }
   ]
 };
@@ -171,8 +171,8 @@ const structuredData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Las Tres Culturas Toledo | ?? 668 67 95 00`,
-  description: `Antenista en Las Tres Culturas, Toledo. TDT, parabólicas, videoporteros y cámaras para pisos y comunidades. Servicio urgente disponible.`,
-  keywords: `antenista Las Tres Culturas Toledo, antenas TDT Toledo barrio, instalación antenas Toledo, reparación antenas Las Tres Culturas, videoportero Toledo`,
+  description: `Antenista en Las Tres Culturas, Toledo. TDT, parabÃ³licas, videoporteros y cÃ¡maras para pisos y comunidades. Servicio urgente disponible.`,
+  keywords: `antenista Las Tres Culturas Toledo, antenas TDT Toledo barrio, instalaciÃ³n antenas Toledo, reparaciÃ³n antenas Las Tres Culturas, videoportero Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-las-tres-culturas'
   },
@@ -217,13 +217,13 @@ export default function LasTresCulturasPage() {
                       Antenista profesional en Las Tres Culturas, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Prestamos servicio de antenista en el barrio de Las Tres Culturas, zona residencial moderna de Toledo que toma su nombre del legado histórico de convivencia entre las culturas cristiana, musulmana y judía de la ciudad. Atendemos pisos, comunidades, locales y negocios con instalaciones de TDT, parabólicas, videoporteros y sistemas de videovigilancia.
+                      Prestamos servicio de antenista en el barrio de Las Tres Culturas, zona residencial moderna de Toledo que toma su nombre del legado histÃ³rico de convivencia entre las culturas cristiana, musulmana y judÃ­a de la ciudad. Atendemos pisos, comunidades, locales y negocios con instalaciones de TDT, parabÃ³licas, videoporteros y sistemas de videovigilancia.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervención
+                      Contactar para una intervenciÃ³n
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -243,7 +243,7 @@ export default function LasTresCulturasPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Las Tres Culturas</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el barrio con técnicos especializados y servicio urgente disponible.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el barrio con tÃ©cnicos especializados y servicio urgente disponible.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -278,7 +278,7 @@ export default function LasTresCulturasPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catÃ¡logo de servicios especializados</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones completas para su hogar o negocio en Las Tres Culturas.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -292,8 +292,8 @@ export default function LasTresCulturasPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Profesionalidad, calidad y confianza en cada instalación en Toledo.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© confiar en nuestro servicio tÃ©cnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Profesionalidad, calidad y confianza en cada instalaciÃ³n en Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -338,7 +338,7 @@ export default function LasTresCulturasPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios en Las Tres Culturas</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las preguntas más habituales de los vecinos del barrio.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las preguntas mÃ¡s habituales de los vecinos del barrio.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -356,7 +356,7 @@ export default function LasTresCulturasPage() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
                   <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Las Tres Culturas</h2>
-                  <p className="text-xl mb-8 text-white/90">Pida presupuesto gratuito o llame para una intervención urgente en Las Tres Culturas, Toledo.</p>
+                  <p className="text-xl mb-8 text-white/90">Pida presupuesto gratuito o llame para una intervenciÃ³n urgente en Las Tres Culturas, Toledo.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Las%20Tres%20Culturas%20Toledo" className="flex items-center gap-2">

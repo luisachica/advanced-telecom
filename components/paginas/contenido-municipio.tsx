@@ -95,7 +95,7 @@ export function ContenidoMunicipio({ data }: ContenidoMunicipioProps) {
                     Servicios de <span className="text-brand-green">Telecomunicaciones</span> en {data.nombre}
                   </h1>
                   <p className="text-xl text-brand-black-light leading-relaxed">
-                    Expertos en soluciones integrales de telecomunicaciones con más de 25 años de experiencia. Ofrecemos servicios profesionales de instalación, reparación y mantenimiento en {data.nombre} con garantía total y atención 24/7.
+                    Expertos en soluciones integrales de telecomunicaciones con mÃ¡s de 25 aÃ±os de experiencia. Ofrecemos servicios profesionales de instalaciÃ³n, reparaciÃ³n y mantenimiento en {data.nombre} con garantÃ­a total y atenciÃ³n 24/7.
                   </p>
                 </div>
 
@@ -132,7 +132,7 @@ export function ContenidoMunicipio({ data }: ContenidoMunicipioProps) {
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura en {data.nombre}</h2>
-              <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio técnico especializado disponible en todas las zonas</p>
+              <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio tÃ©cnico especializado disponible en todas las zonas</p>
             </div>
             <div className="max-w-4xl mx-auto">
               <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -142,7 +142,7 @@ export function ContenidoMunicipio({ data }: ContenidoMunicipioProps) {
                   </div>
                   <div>
                     <h3 className="text-2xl font-semibold text-brand-black">Zonas de Cobertura</h3>
-                    <p className="text-brand-black-light">Servicio técnico especializado</p>
+                    <p className="text-brand-black-light">Servicio tÃ©cnico especializado</p>
                   </div>
                 </div>
                 
@@ -171,33 +171,33 @@ export function ContenidoMunicipio({ data }: ContenidoMunicipioProps) {
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestros servicios especializados</h2>
-              <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones completas de telecomunicaciones con la mejor tecnología y atención personalizada</p>
+              <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones completas de telecomunicaciones con la mejor tecnologÃ­a y atenciÃ³n personalizada</p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {(data.servicios || data.serviciosDestacados)?.map((servicio, index) => {
-                const servicioSlug = servicio.toLowerCase().replace(/\s+/g, '-').replace(/ñ/g, 'n');
+                const servicioSlug = servicio.toLowerCase().replace(/\s+/g, '-').replace(/Ã±/g, 'n');
                 
                 // Mapeo de servicios a iconos
                 const getIconName = (servicio: string) => {
                   const servicioLower = servicio.toLowerCase();
-                  if (servicioLower.includes('parabólica') || servicioLower.includes('parabolica')) return 'Satellite';
+                  if (servicioLower.includes('parabÃ³lica') || servicioLower.includes('parabolica')) return 'Satellite';
                   if (servicioLower.includes('tdt') || servicioLower.includes('antena')) return 'Tv';
-                  if (servicioLower.includes('cámara') || servicioLower.includes('camara') || servicioLower.includes('seguridad')) return 'Camera';
-                  if (servicioLower.includes('portero') || servicioLower.includes('automático') || servicioLower.includes('automatico')) return 'DoorOpen';
+                  if (servicioLower.includes('cÃ¡mara') || servicioLower.includes('camara') || servicioLower.includes('seguridad')) return 'Camera';
+                  if (servicioLower.includes('portero') || servicioLower.includes('automÃ¡tico') || servicioLower.includes('automatico')) return 'DoorOpen';
                   if (servicioLower.includes('interferencia') || servicioLower.includes('5g') || servicioLower.includes('wifi')) return 'Wifi';
-                  if (servicioLower.includes('reparación') || servicioLower.includes('reparacion') || servicioLower.includes('urgente')) return 'Wrench';
+                  if (servicioLower.includes('reparaciÃ³n') || servicioLower.includes('reparacion') || servicioLower.includes('urgente')) return 'Wrench';
                   return 'Briefcase';
                 };
 
-                // Mapeo de servicios a imágenes específicas
+                // Mapeo de servicios a imÃ¡genes especÃ­ficas
                 const getServiceImage = (servicio: string) => {
                   const servicioLower = servicio.toLowerCase();
-                  if (servicioLower.includes('parabólica') || servicioLower.includes('parabolica')) return '/images/telecom/antena-parabolica.jpg';
+                  if (servicioLower.includes('parabÃ³lica') || servicioLower.includes('parabolica')) return '/images/telecom/antena-parabolica.jpg';
                   if (servicioLower.includes('tdt') || servicioLower.includes('antena')) return '/images/telecom/antena-tdt-instalacion-01.jpg';
-                  if (servicioLower.includes('cámara') || servicioLower.includes('camara') || servicioLower.includes('seguridad')) return '/images/telecom/camaras-seguridad.jpg';
-                  if (servicioLower.includes('portero') || servicioLower.includes('automático') || servicioLower.includes('automatico')) return '/images/telecom/portero automatico.jpg';
+                  if (servicioLower.includes('cÃ¡mara') || servicioLower.includes('camara') || servicioLower.includes('seguridad')) return '/images/telecom/camaras-seguridad.jpg';
+                  if (servicioLower.includes('portero') || servicioLower.includes('automÃ¡tico') || servicioLower.includes('automatico')) return '/images/telecom/portero automatico.jpg';
                   if (servicioLower.includes('interferencia') || servicioLower.includes('5g') || servicioLower.includes('wifi')) return '/images/telecom/antena-profesional.jpg';
-                  if (servicioLower.includes('reparación') || servicioLower.includes('reparacion') || servicioLower.includes('urgente')) return '/images/telecom/reparaciones-urgentes.jpg';
+                  if (servicioLower.includes('reparaciÃ³n') || servicioLower.includes('reparacion') || servicioLower.includes('urgente')) return '/images/telecom/reparaciones-urgentes.jpg';
                   return '/images/telecom/antenistas-en-toledo-.jpg';
                 };
                 
@@ -205,7 +205,7 @@ export function ContenidoMunicipio({ data }: ContenidoMunicipioProps) {
                   <ServiceCard
                     key={index}
                     title={servicio}
-                    description={`Servicio profesional de ${servicio.toLowerCase()} en ${data.nombre} con garantía y soporte técnico especializado.`}
+                    description={`Servicio profesional de ${servicio.toLowerCase()} en ${data.nombre} con garantÃ­a y soporte tÃ©cnico especializado.`}
                     image={getServiceImage(servicio)}
                     slug={servicioSlug}
                     icon={getIconName(servicio)}
@@ -216,11 +216,11 @@ export function ContenidoMunicipio({ data }: ContenidoMunicipioProps) {
           </div>
         </section>
 
-        {/* Características */}
+        {/* CaracterÃ­sticas */}
         <section className="py-16 md:py-24 bg-gray-50">
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué elegir nuestros servicios?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© elegir nuestros servicios?</h2>
               <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia, calidad y compromiso en cada proyecto de telecomunicaciones</p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -267,7 +267,7 @@ export function ContenidoMunicipio({ data }: ContenidoMunicipioProps) {
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes</h2>
-              <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más comunes sobre nuestros servicios</p>
+              <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas mÃ¡s comunes sobre nuestros servicios</p>
             </div>
             <div className="max-w-3xl mx-auto space-y-6">
               {data.faqs?.map((faq, index) => (
@@ -285,11 +285,11 @@ export function ContenidoMunicipio({ data }: ContenidoMunicipioProps) {
           <div className="container mx-auto px-4 md:px-6">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="text-center lg:text-left">
-                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¿Necesitas nuestros servicios?</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Â¿Necesitas nuestros servicios?</h2>
                 <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso</p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
-                    <a href="https://wa.me/34668679500?text=Hola%2C%20quiero%20más%20información%20sobre%20servicios%20de%20telecomunicaciones" className="flex items-center gap-2">
+                    <a href="https://wa.me/34668679500?text=Hola%2C%20quiero%20mÃ¡s%20informaciÃ³n%20sobre%20servicios%20de%20telecomunicaciones" className="flex items-center gap-2">
                       <MessageCircle className="h-5 w-5" />
                       Contactar por WhatsApp
                     </a>

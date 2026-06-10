@@ -4,55 +4,55 @@ import StructuredData from '@/components/StructuredData';
 import { withPhone } from '@/lib/seo';
 
 // ==================================================================
-// DATOS Y SEO PARA LA P¡GINA DE CONTACTO
+// DATOS Y SEO PARA LA P√ÅGINA DE CONTACTO
 // ==================================================================
 
-// Centralizamos los datos de contacto y FAQs para mantener el cÛdigo limpio.
+// Centralizamos los datos de contacto y FAQs para mantener el c√≥digo limpio.
 const contactData = {
   infoCards: [
     {
       iconName: "Phone",
-      title: "Ll·manos",
-      description: "Nuestro equipo est· disponible para atenderte",
+      title: "Ll√°manos",
+      description: "Nuestro equipo est√° disponible para atenderte",
       contact: "668 67 95 00",
       link: "tel:+34668679500",
     },
     {
       iconName: "Mail",
-      title: "EscrÌbenos",
+      title: "Escr√≠benos",
       description: "Te responderemos a la mayor brevedad",
       contact: "antenastoledo@yahoo.com",
       link: "mailto:antenastoledo@yahoo.com",
     },
     {
       iconName: "MapPin",
-      title: "UbicaciÛn",
+      title: "Ubicaci√≥n",
       description: "Nuestra sede",
-      contact: "PolÌgono Santa MarÌa de Benquerencia (Toledo), EspaÒa",
+      contact: "Pol√≠gono Santa Mar√≠a de Benquerencia (Toledo), Espa√±a",
       link: "",
     },
   ],
   faqs: [
     {
-      question: "øCÛmo puedo solicitar un presupuesto?",
-      answer: "Puedes solicitar un presupuesto sin compromiso a travÈs de nuestro formulario de contacto, llamando al 668 67 95 00 o enviando un email a antenastoledo@yahoo.com. Te responderemos en menos de 24 horas con un presupuesto personalizado para tu instalaciÛn."
+      question: "¬øC√≥mo puedo solicitar un presupuesto?",
+      answer: "Puedes solicitar un presupuesto sin compromiso a trav√©s de nuestro formulario de contacto, llamando al 668 67 95 00 o enviando un email a antenastoledo@yahoo.com. Te responderemos en menos de 24 horas con un presupuesto personalizado para tu instalaci√≥n."
     },
     {
-      question: "øCu·l es el ·rea geogr·fica que cubren vuestros servicios?",
+      question: "¬øCu√°l es el √°rea geogr√°fica que cubren vuestros servicios?",
       answer: "Ofrecemos nuestros servicios de telecomunicaciones en Toledo y  , incluyendo todos los municipios de estas zonas. Realizamos instalaciones tanto en viviendas particulares como en comunidades y empresas."
     },
     {
-      question: "øQuÈ equipos y materiales utiliz·is en las instalaciones?",
-      answer: "Utilizamos exclusivamente equipos certificados de marcas lÌderes como Televes, Johansson y Fermax. Todos nuestros materiales cumplen con las normativas europeas y ofrecemos garantÌa en todas las instalaciones. Nuestros tÈcnicos est·n certificados y utilizan herramientas profesionales de ˙ltima generaciÛn."
+      question: "¬øQu√© equipos y materiales utiliz√°is en las instalaciones?",
+      answer: "Utilizamos exclusivamente equipos certificados de marcas l√≠deres como Televes, Johansson y Fermax. Todos nuestros materiales cumplen con las normativas europeas y ofrecemos garant√≠a en todas las instalaciones. Nuestros t√©cnicos est√°n certificados y utilizan herramientas profesionales de √∫ltima generaci√≥n."
     }
   ]
 };
 
-// Metadatos para el <head> de la p·gina
+// Metadatos para el <head> de la p√°gina
 export const metadata: Metadata = {
   title: "Contacto | Solicita Presupuesto | ?? 668 67 95 00 ",
-  description: withPhone("Contacta con nuestro equipo de telecomunicaciones en . Presupuesto sin compromiso para antenas, porteros autom·ticos y c·maras de seguridad."),
-  keywords: "contacto telecomunicaciones , presupuesto antenas, telÈfono empresa telecomunicaciones, email telecomunicaciones, direcciÛn empresa telecomunicaciones",
+  description: withPhone("Contacta con nuestro equipo de telecomunicaciones en . Presupuesto sin compromiso para antenas, porteros autom√°ticos y c√°maras de seguridad."),
+  keywords: "contacto telecomunicaciones , presupuesto antenas, tel√©fono empresa telecomunicaciones, email telecomunicaciones, direcci√≥n empresa telecomunicaciones",
   alternates: {
     canonical: "https://antenastoledo.com/contacto",
   },
@@ -80,7 +80,7 @@ const localBusinessSchema = {
   "email": "antenastoledo@yahoo.com",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Avenida de la TecnologÌa 25",
+    "streetAddress": "Avenida de la Tecnolog√≠a 25",
     "addressLocality": "",
     "postalCode": "28021",
     "addressCountry": "ES"
@@ -102,7 +102,7 @@ const faqSchema = {
 };
 
 // ==================================================================
-// COMPONENTE DE P¡GINA
+// COMPONENTE DE P√ÅGINA
 // ==================================================================
 export default function ContactoPage() {
   return (

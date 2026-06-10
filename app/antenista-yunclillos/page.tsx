@@ -14,7 +14,7 @@ import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 import { withPhone } from "@/lib/seo";
 
-// Datos especÌficos del municipio
+// Datos espec√≠ficos del municipio
 const municipioData = {
   nombre: "Yunclillos",
   slug: "yunclillos",
@@ -25,24 +25,24 @@ const municipioData = {
   superficie: "54,2",
   descripcion: "Servicios profesionales de antenista en Yunclillos, municipio toledano con crecimiento residencial. Especialistas en telecomunicaciones para viviendas y empresas.",
   servicios: [
-    "InstalaciÛn de antenas TDT en Yunclillos",
-    "Antenas parabÛlicas para nuevas construcciones",
-    "Porteros autom·ticos digitales",
+    "Instalaci√≥n de antenas TDT en Yunclillos",
+    "Antenas parab√≥licas para nuevas construcciones",
+    "Porteros autom√°ticos digitales",
     "Sistemas de videovigilancia empresarial",
-    "Amplificadores de seÒal para zonas rurales",
-    "Mantenimiento tÈcnico preventivo"
+    "Amplificadores de se√±al para zonas rurales",
+    "Mantenimiento t√©cnico preventivo"
   ],
    serviciosDestacados: [
     "Especialistas en nuevas construcciones",
     "Cobertura completa en Yunclillos",
-    "Servicio tÈcnico de proximidad"
+    "Servicio t√©cnico de proximidad"
   ],
 
   zonasCubiertas: [
     "Centro de Yunclillos",
     "Nuevas urbanizaciones",
     "Zona industrial",
-    "¡rea residencial consolidada",
+    "√Årea residencial consolidada",
     "Viviendas rurales"
   ],
 
@@ -50,23 +50,23 @@ const municipioData = {
     { zona: "Centro de Yunclillos", disponible: true },
     { zona: "Nuevas urbanizaciones", disponible: true },
     { zona: "Zona industrial", disponible: true },
-    { zona: "¡rea residencial consolidada", disponible: true },
+    { zona: "√Årea residencial consolidada", disponible: true },
     { zona: "Viviendas rurales", disponible: true }
   ],
 
   testimonios: [
     {
-      nombre: "Antonio JimÈnez",
-      comentario: "Excelente antenista en Yunclillos. InstalaciÛn perfecta en nuestra nueva vivienda.",
+      nombre: "Antonio Jim√©nez",
+      comentario: "Excelente antenista en Yunclillos. Instalaci√≥n perfecta en nuestra nueva vivienda.",
       puntuacion: 5
     },
     {
-      nombre: "Rosa MarÌa Fern·ndez",
-      comentario: "Servicio tÈcnico de calidad. Solucionaron problemas de seÒal en toda la urbanizaciÛn.",
+      nombre: "Rosa Mar√≠a Fern√°ndez",
+      comentario: "Servicio t√©cnico de calidad. Solucionaron problemas de se√±al en toda la urbanizaci√≥n.",
       puntuacion: 5
     },
     {
-      nombre: "Carlos RodrÌguez",
+      nombre: "Carlos Rodr√≠guez",
       comentario: "Antenistas muy profesionales en Yunclillos. Trabajo garantizado y precios justos.",
       puntuacion: 5
     }
@@ -75,42 +75,42 @@ const municipioData = {
    caracteristicas: [
     {
       titulo: "Especialistas en Yunclillos",
-      descripcion: "Conocimiento profundo del municipio y sus caracterÌsticas de recepciÛn",
+      descripcion: "Conocimiento profundo del municipio y sus caracter√≠sticas de recepci√≥n",
       icono: "Users"
     },
     {
-      titulo: "TecnologÌa avanzada",
-      descripcion: "Equipos de ˙ltima generaciÛn para nuevas construcciones y zonas rurales",
+      titulo: "Tecnolog√≠a avanzada",
+      descripcion: "Equipos de √∫ltima generaci√≥n para nuevas construcciones y zonas rurales",
       icono: "Zap"
     },
     {
       titulo: "Servicio de proximidad",
-      descripcion: "AtenciÛn r·pida y personalizada para todos los vecinos de Yunclillos",
+      descripcion: "Atenci√≥n r√°pida y personalizada para todos los vecinos de Yunclillos",
       icono: "Clock"
     },
     {
-      titulo: "GarantÌa total",
-      descripcion: "GarantÌa completa en instalaciones y mantenimiento preventivo",
+      titulo: "Garant√≠a total",
+      descripcion: "Garant√≠a completa en instalaciones y mantenimiento preventivo",
       icono: "Shield"
     }
   ],
 
   faqs: [
     {
-      question: "øQuÈ servicios de antenista ofrecen en Yunclillos?",
-      answer: "En Yunclillos ofrecemos instalaciÛn y reparaciÛn de antenas TDT, parabÛlicas, porteros autom·ticos digitales y sistemas de videovigilancia. Especialistas en nuevas construcciones y zonas rurales."
+      question: "¬øQu√© servicios de antenista ofrecen en Yunclillos?",
+      answer: "En Yunclillos ofrecemos instalaci√≥n y reparaci√≥n de antenas TDT, parab√≥licas, porteros autom√°ticos digitales y sistemas de videovigilancia. Especialistas en nuevas construcciones y zonas rurales."
     },
     {
-      question: "øCu·l es el mejor antenista en Yunclillos?",
-      answer: "Somos especialistas en telecomunicaciones con amplia experiencia en Yunclillos y La Sagra. Ofrecemos servicio tÈcnico de proximidad, tecnologÌa avanzada y garantÌa total."
+      question: "¬øCu√°l es el mejor antenista en Yunclillos?",
+      answer: "Somos especialistas en telecomunicaciones con amplia experiencia en Yunclillos y La Sagra. Ofrecemos servicio t√©cnico de proximidad, tecnolog√≠a avanzada y garant√≠a total."
     },
     {
-      question: "øRealizan instalaciones en las nuevas construcciones de Yunclillos?",
-      answer: "SÌ, somos especialistas en instalaciones para las nuevas construcciones de Yunclillos. Utilizamos equipos de ˙ltima generaciÛn adaptados al crecimiento del municipio."
+      question: "¬øRealizan instalaciones en las nuevas construcciones de Yunclillos?",
+      answer: "S√≠, somos especialistas en instalaciones para las nuevas construcciones de Yunclillos. Utilizamos equipos de √∫ltima generaci√≥n adaptados al crecimiento del municipio."
     },
     {
-      question: "øCu·nto cuesta un antenista en Yunclillos?",
-      answer: "Los precios varÌan seg˙n el tipo de instalaciÛn. Ofrecemos presupuestos gratuitos y precios competitivos para todos los vecinos de Yunclillos, sin comprometer la calidad del servicio."
+      question: "¬øCu√°nto cuesta un antenista en Yunclillos?",
+      answer: "Los precios var√≠an seg√∫n el tipo de instalaci√≥n. Ofrecemos presupuestos gratuitos y precios competitivos para todos los vecinos de Yunclillos, sin comprometer la calidad del servicio."
     }
   ]
 }
@@ -182,8 +182,8 @@ const structuredData = {
 
 export const metadata: Metadata = {
   title: `Antenistas Yunclillos | ?? 668 67 95 00`,
-  description: withPhone(`Antenistas en Yunclillos especializados en nuevas construcciones. Servicio tÈcnico en TDT, satÈlite, porteros autom·ticos y c·maras de seguridad. °SoluciÛn profesional!`),
-  keywords: `antenista Yunclillos, antenas TDT Yunclillos, instalaciÛn antenas Toledo, reparaciÛn antenas Yunclillos, telecomunicaciones Yunclillos, nuevas construcciones`,
+  description: withPhone(`Antenistas en Yunclillos especializados en nuevas construcciones. Servicio t√©cnico en TDT, sat√©lite, porteros autom√°ticos y c√°maras de seguridad. ¬°Soluci√≥n profesional!`),
+  keywords: `antenista Yunclillos, antenas TDT Yunclillos, instalaci√≥n antenas Toledo, reparaci√≥n antenas Yunclillos, telecomunicaciones Yunclillos, nuevas construcciones`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-yunclillos'
   },
@@ -230,7 +230,7 @@ export default function YunclillosPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section especÌfico de Torrecastillo */}
+          {/* Hero Section espec√≠fico de Torrecastillo */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -249,7 +249,7 @@ export default function YunclillosPage() {
                       <span className="text-brand-green">Antenista</span> en Yunclillos
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Antenista profesional en Yunclillos con m·s de 25 aÒos de experiencia. Especialistas en instalaciÛn y reparaciÛn de antenas TDT, parabÛlicas, porteros autom·ticos y sistemas de videovigilancia. Servicio tÈcnico garantizado en todo el municipio toledano.
+                      Antenista profesional en Yunclillos con m√°s de 25 a√±os de experiencia. Especialistas en instalaci√≥n y reparaci√≥n de antenas TDT, parab√≥licas, porteros autom√°ticos y sistemas de videovigilancia. Servicio t√©cnico garantizado en todo el municipio toledano.
                     </p>
                   </div>
 
@@ -269,7 +269,7 @@ export default function YunclillosPage() {
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
                       src="/images/telecom/antenistas-en-toledo-.jpg"
-                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histÛrico de La Sagra"
+                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio hist√≥rico de La Sagra"
                       width={400}
                       height={200}
                       priority
@@ -280,12 +280,12 @@ export default function YunclillosPage() {
             </div>
           </section>
 
-           {/* Cobertura especÌfica de Yunclillos */}
+           {/* Cobertura espec√≠fica de Yunclillos */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Yunclillos</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio tÈcnico profesional disponible en todo el municipio toledano</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio t√©cnico profesional disponible en todo el municipio toledano</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -341,12 +341,12 @@ export default function YunclillosPage() {
             </div>
           </section>
 
-          {/* Por quÈ elegir nuestros servicios en Yunclillos */}
+          {/* Por qu√© elegir nuestros servicios en Yunclillos */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">øPor quÈ elegir nuestro antenista en Yunclillos?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalaciÛn</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¬øPor qu√© elegir nuestro antenista en Yunclillos?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalaci√≥n</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -367,7 +367,7 @@ export default function YunclillosPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en Yunclillos</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Yunclillos que confÌan en nuestros servicios</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Yunclillos que conf√≠an en nuestros servicios</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -388,12 +388,12 @@ export default function YunclillosPage() {
             </div>
           </section>
 
-          {/* FAQs especÌficas de Yunclillos */}
+          {/* FAQs espec√≠ficas de Yunclillos */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre antenista en Yunclillos</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas m·s comunes sobre nuestros servicios de antenista en el municipio</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas m√°s comunes sobre nuestros servicios de antenista en el municipio</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -406,12 +406,12 @@ export default function YunclillosPage() {
             </div>
           </section>
 
-          {/* CTA Section especÌfica para Yunclillos */}
+          {/* CTA Section espec√≠fica para Yunclillos */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">øNecesitas un antenista en Yunclillos?</h2>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¬øNecesitas un antenista en Yunclillos?</h2>
                   <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Yunclillos.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">

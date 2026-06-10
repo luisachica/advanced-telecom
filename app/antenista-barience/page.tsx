@@ -19,46 +19,46 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45593",
-  descripcion: "Antenista profesional en Barience, pedanía de Bargas (Toledo). Instalación y reparación de antenas TDT, parabólicas y videoporteros para viviendas rurales, chalets y fincas.",
+  descripcion: "Antenista profesional en Barience, pedanÃ­a de Bargas (Toledo). InstalaciÃ³n y reparaciÃ³n de antenas TDT, parabÃ³licas y videoporteros para viviendas rurales, chalets y fincas.",
   servicios: [
-    "Instalación y reparación de antenas TDT",
-    "Instalación y orientación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias 5G",
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT",
+    "InstalaciÃ³n y orientaciÃ³n de antenas parabÃ³licas",
+    "Sistemas de videoportero y portero automÃ¡tico",
+    "InstalaciÃ³n de videovigilancia (CCTV)",
+    "SoluciÃ³n a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
     "Experiencia en entornos rurales",
     "Materiales homologados",
-    "Garantía profesional"
+    "GarantÃ­a profesional"
   ],
   zonasCubiertas: [
-    "Núcleo urbano de Barience",
-    "Fincas y viviendas rurales del término",
-    "Chalets y urbanizaciones próximas a Bargas",
+    "NÃºcleo urbano de Barience",
+    "Fincas y viviendas rurales del tÃ©rmino",
+    "Chalets y urbanizaciones prÃ³ximas a Bargas",
     "Explotaciones agropecuarias con instalaciones de seguridad"
   ],
   cobertura: [
-    { zona: "Núcleo urbano de Barience", disponible: true },
-    { zona: "Fincas y viviendas rurales del término", disponible: true },
-    { zona: "Chalets y urbanizaciones próximas a Bargas", disponible: true },
+    { zona: "NÃºcleo urbano de Barience", disponible: true },
+    { zona: "Fincas y viviendas rurales del tÃ©rmino", disponible: true },
+    { zona: "Chalets y urbanizaciones prÃ³ximas a Bargas", disponible: true },
     { zona: "Explotaciones agropecuarias con instalaciones de seguridad", disponible: true }
   ],
   testimonios: [
     {
       nombre: "Propietario de finca en Barience",
-      comentario: "Instalaron una antena parabólica en mi finca para recibir canales extranjeros. El técnico tenía mucha experiencia con instalaciones en zonas rurales y el resultado fue perfecto. Muy recomendables.",
+      comentario: "Instalaron una antena parabÃ³lica en mi finca para recibir canales extranjeros. El tÃ©cnico tenÃ­a mucha experiencia con instalaciones en zonas rurales y el resultado fue perfecto. Muy recomendables.",
       puntuacion: 5
     },
     {
       nombre: "Vecina de Barience",
-      comentario: "Tenía interferencias 5G desde hace meses y la imagen de la televisión era horrible. Llamé y vinieron al día siguiente. Pusieron el filtro adecuado y desde entonces perfecto.",
+      comentario: "TenÃ­a interferencias 5G desde hace meses y la imagen de la televisiÃ³n era horrible. LlamÃ© y vinieron al dÃ­a siguiente. Pusieron el filtro adecuado y desde entonces perfecto.",
       puntuacion: 5
     },
     {
       nombre: "Propietario de chalet",
-      comentario: "Instalaron cámaras de seguridad en nuestro chalet de Barience con acceso remoto desde el móvil. Trabajo impecable y explicaron muy bien el funcionamiento del sistema.",
+      comentario: "Instalaron cÃ¡maras de seguridad en nuestro chalet de Barience con acceso remoto desde el mÃ³vil. Trabajo impecable y explicaron muy bien el funcionamiento del sistema.",
       puntuacion: 5
     }
   ],
@@ -79,27 +79,27 @@ const municipioData = {
       icono: "Eye"
     },
     {
-      titulo: "Garantía Incluida",
-      descripcion: "Todas las instalaciones llevan garantía profesional por escrito sin coste adicional.",
+      titulo: "GarantÃ­a Incluida",
+      descripcion: "Todas las instalaciones llevan garantÃ­a profesional por escrito sin coste adicional.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¿Atienden instalaciones en zonas rurales como Barience?",
-      answer: "Sí, atendemos toda la zona rural del municipio de Bargas, incluyendo la pedanía de Barience. Contamos con experiencia específica en instalaciones para viviendas aisladas, fincas y explotaciones rurales."
+      question: "Â¿Atienden instalaciones en zonas rurales como Barience?",
+      answer: "SÃ­, atendemos toda la zona rural del municipio de Bargas, incluyendo la pedanÃ­a de Barience. Contamos con experiencia especÃ­fica en instalaciones para viviendas aisladas, fincas y explotaciones rurales."
     },
     {
-      question: "¿Pueden instalar internet por satélite en Barience?",
-      answer: "Podemos realizar la instalación de antenas parabólicas para internet por satélite. Aunque la provisión del servicio depende del operador de telecomunicaciones, nosotros nos encargamos de toda la instalación física."
+      question: "Â¿Pueden instalar internet por satÃ©lite en Barience?",
+      answer: "Podemos realizar la instalaciÃ³n de antenas parabÃ³licas para internet por satÃ©lite. Aunque la provisiÃ³n del servicio depende del operador de telecomunicaciones, nosotros nos encargamos de toda la instalaciÃ³n fÃ­sica."
     },
     {
-      question: "¿Qué señal TDT se recibe en Barience?",
-      answer: "La zona de Barience recibe señal TDT desde los repetidores de Toledo. En algunos puntos puede ser necesario instalar amplificadores para garantizar una buena recepción en todas las habitaciones."
+      question: "Â¿QuÃ© seÃ±al TDT se recibe en Barience?",
+      answer: "La zona de Barience recibe seÃ±al TDT desde los repetidores de Toledo. En algunos puntos puede ser necesario instalar amplificadores para garantizar una buena recepciÃ³n en todas las habitaciones."
     },
     {
-      question: "¿Instalan cámaras para vigilar fincas y corrales?",
-      answer: "Sí. Diseñamos sistemas de videovigilancia exterior para fincas, cortijos y explotaciones agrícolas, con opciones de visión nocturna, resistencia a la intemperie y acceso remoto desde smartphone."
+      question: "Â¿Instalan cÃ¡maras para vigilar fincas y corrales?",
+      answer: "SÃ­. DiseÃ±amos sistemas de videovigilancia exterior para fincas, cortijos y explotaciones agrÃ­colas, con opciones de visiÃ³n nocturna, resistencia a la intemperie y acceso remoto desde smartphone."
     }
   ]
 };
@@ -171,8 +171,8 @@ const structuredData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Barience, Bargas Toledo | ?? 668 67 95 00`,
-  description: `Antenista en Barience (Bargas), Toledo. TDT, parabólicas, videoporteros y cámaras para viviendas rurales y fincas. Presupuesto gratuito.`,
-  keywords: `antenista Barience Toledo, antenista Bargas pedanías, antenas TDT Barience, instalación antenas rurales Toledo, cámaras seguridad fincas Toledo`,
+  description: `Antenista en Barience (Bargas), Toledo. TDT, parabÃ³licas, videoporteros y cÃ¡maras para viviendas rurales y fincas. Presupuesto gratuito.`,
+  keywords: `antenista Barience Toledo, antenista Bargas pedanÃ­as, antenas TDT Barience, instalaciÃ³n antenas rurales Toledo, cÃ¡maras seguridad fincas Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-barience'
   },
@@ -217,13 +217,13 @@ export default function BariencePage() {
                       Antenista profesional en Barience (Bargas), Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Prestamos servicio de antenista en Barience, pedanía del municipio de Bargas, en la provincia de Toledo. Contamos con amplia experiencia en instalaciones para viviendas rurales, chalets y fincas, ofreciendo soluciones de televisión digital, parabólicas y sistemas de seguridad adaptadas a las características del entorno.
+                      Prestamos servicio de antenista en Barience, pedanÃ­a del municipio de Bargas, en la provincia de Toledo. Contamos con amplia experiencia en instalaciones para viviendas rurales, chalets y fincas, ofreciendo soluciones de televisiÃ³n digital, parabÃ³licas y sistemas de seguridad adaptadas a las caracterÃ­sticas del entorno.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervención
+                      Contactar para una intervenciÃ³n
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -243,7 +243,7 @@ export default function BariencePage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Barience y alrededores</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la pedanía y el entorno rural con técnicos especializados en instalaciones en zonas de campo.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la pedanÃ­a y el entorno rural con tÃ©cnicos especializados en instalaciones en zonas de campo.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -267,7 +267,7 @@ export default function BariencePage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Atención urgente disponible. Nos desplazamos a toda la zona de Bargas y sus pedanías.</span>
+                      <span>AtenciÃ³n urgente disponible. Nos desplazamos a toda la zona de Bargas y sus pedanÃ­as.</span>
                     </div>
                   </div>
                 </div>
@@ -278,7 +278,7 @@ export default function BariencePage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catÃ¡logo de servicios especializados</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones completas de telecomunicaciones para viviendas rurales y urbanas en Barience.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -292,8 +292,8 @@ export default function BariencePage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia, calidad y confianza en cada intervención.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© confiar en nuestro servicio tÃ©cnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia, calidad y confianza en cada intervenciÃ³n.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -313,7 +313,7 @@ export default function BariencePage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en Barience</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacción de nuestros clientes en la zona rural de Toledo es nuestra mejor carta de presentación.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">La satisfacciÃ³n de nuestros clientes en la zona rural de Toledo es nuestra mejor carta de presentaciÃ³n.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -338,7 +338,7 @@ export default function BariencePage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más habituales de nuestros clientes en Barience.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas mÃ¡s habituales de nuestros clientes en Barience.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (

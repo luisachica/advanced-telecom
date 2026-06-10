@@ -14,58 +14,58 @@ import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 
 const municipioData = {
-  nombre: "Santa Bárbara",
+  nombre: "Santa BÃ¡rbara",
   slug: "santa-barbara",
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45003",
-  descripcion: "Antenista profesional en el barrio de Santa Bárbara, Toledo. Instalación y reparación de antenas TDT, parabólicas, videoporteros y cámaras de seguridad para pisos, comunidades y negocios.",
+  descripcion: "Antenista profesional en el barrio de Santa BÃ¡rbara, Toledo. InstalaciÃ³n y reparaciÃ³n de antenas TDT, parabÃ³licas, videoporteros y cÃ¡maras de seguridad para pisos, comunidades y negocios.",
   servicios: [
-    "Instalación y reparación de antenas TDT",
-    "Instalación y orientación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias 5G",
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT",
+    "InstalaciÃ³n y orientaciÃ³n de antenas parabÃ³licas",
+    "Sistemas de videoportero y portero automÃ¡tico",
+    "InstalaciÃ³n de videovigilancia (CCTV)",
+    "SoluciÃ³n a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Alta cualificación técnica",
+    "Alta cualificaciÃ³n tÃ©cnica",
     "Materiales homologados",
-    "Garantía profesional"
+    "GarantÃ­a profesional"
   ],
   zonasCubiertas: [
-    "Barrio de Santa Bárbara",
+    "Barrio de Santa BÃ¡rbara",
     "Calles residenciales del entorno",
     "Comunidades de vecinos del barrio",
     "Comercios y locales de la zona"
   ],
   cobertura: [
-    { zona: "Barrio de Santa Bárbara", disponible: true },
+    { zona: "Barrio de Santa BÃ¡rbara", disponible: true },
     { zona: "Calles residenciales del entorno", disponible: true },
     { zona: "Comunidades de vecinos del barrio", disponible: true },
     { zona: "Comercios y locales de la zona", disponible: true }
   ],
   testimonios: [
     {
-      nombre: "Vecina de Santa Bárbara",
-      comentario: "Instalaron el videoportero en nuestra comunidad con total profesionalidad. El trabajo fue rápido y limpio, y el sistema funciona perfectamente desde el primer día.",
+      nombre: "Vecina de Santa BÃ¡rbara",
+      comentario: "Instalaron el videoportero en nuestra comunidad con total profesionalidad. El trabajo fue rÃ¡pido y limpio, y el sistema funciona perfectamente desde el primer dÃ­a.",
       puntuacion: 5
     },
     {
-      nombre: "Propietario de local en Santa Bárbara",
-      comentario: "Necesitaba cámaras de seguridad para mi negocio y me asesoraron muy bien sobre la mejor solución. La instalación fue excelente y el precio muy competitivo.",
+      nombre: "Propietario de local en Santa BÃ¡rbara",
+      comentario: "Necesitaba cÃ¡maras de seguridad para mi negocio y me asesoraron muy bien sobre la mejor soluciÃ³n. La instalaciÃ³n fue excelente y el precio muy competitivo.",
       puntuacion: 5
     },
     {
       nombre: "Residente del barrio",
-      comentario: "Tenía la TDT con muchos pixelados desde hacía tiempo. En una sola visita identificaron el problema en el cable coaxial y lo solucionaron. Ahora perfecto. Muy recomendables.",
+      comentario: "TenÃ­a la TDT con muchos pixelados desde hacÃ­a tiempo. En una sola visita identificaron el problema en el cable coaxial y lo solucionaron. Ahora perfecto. Muy recomendables.",
       puntuacion: 5
     }
   ],
   caracteristicas: [
     {
-      titulo: "Diagnóstico Preciso",
-      descripcion: "Usamos equipos de medición profesionales para diagnosticar con exactitud cualquier fallo.",
+      titulo: "DiagnÃ³stico Preciso",
+      descripcion: "Usamos equipos de mediciÃ³n profesionales para diagnosticar con exactitud cualquier fallo.",
       icono: "Briefcase"
     },
     {
@@ -74,32 +74,32 @@ const municipioData = {
       icono: "Shield"
     },
     {
-      titulo: "Presupuesto Sin Letra Pequeña",
+      titulo: "Presupuesto Sin Letra PequeÃ±a",
       descripcion: "Presupuesto cerrado, transparente y por escrito antes de iniciar el trabajo.",
       icono: "Eye"
     },
     {
-      titulo: "Garantía Escrita",
-      descripcion: "Garantía completa en todas las instalaciones y reparaciones efectuadas.",
+      titulo: "GarantÃ­a Escrita",
+      descripcion: "GarantÃ­a completa en todas las instalaciones y reparaciones efectuadas.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¿Cuánto cuesta una reparación de antena en Santa Bárbara?",
-      answer: "El precio depende del tipo de avería. Una reparación sencilla como cambio de conector o pequeño tramo de cable puede costar desde 40€. Problemas más complejos o sustitución de equipos se presupuestan tras el diagnóstico."
+      question: "Â¿CuÃ¡nto cuesta una reparaciÃ³n de antena en Santa BÃ¡rbara?",
+      answer: "El precio depende del tipo de averÃ­a. Una reparaciÃ³n sencilla como cambio de conector o pequeÃ±o tramo de cable puede costar desde 40â‚¬. Problemas mÃ¡s complejos o sustituciÃ³n de equipos se presupuestan tras el diagnÃ³stico."
     },
     {
-      question: "¿Instalan antenas parabólicas en pisos sin acceso al tejado?",
-      answer: "Sí. En pisos sin acceso directo al tejado podemos instalar la parabólica en fachada, balcón o terraza orientada correctamente al satélite, respetando la normativa de la comunidad."
+      question: "Â¿Instalan antenas parabÃ³licas en pisos sin acceso al tejado?",
+      answer: "SÃ­. En pisos sin acceso directo al tejado podemos instalar la parabÃ³lica en fachada, balcÃ³n o terraza orientada correctamente al satÃ©lite, respetando la normativa de la comunidad."
     },
     {
-      question: "¿Pueden instalar tomas adicionales de TDT en mi piso de Santa Bárbara?",
-      answer: "Sí. Realizamos ampliaciones de red interior añadiendo tomas en cualquier habitación, conectadas a la antena existente mediante derivadores y amplificadores si fueran necesarios."
+      question: "Â¿Pueden instalar tomas adicionales de TDT en mi piso de Santa BÃ¡rbara?",
+      answer: "SÃ­. Realizamos ampliaciones de red interior aÃ±adiendo tomas en cualquier habitaciÃ³n, conectadas a la antena existente mediante derivadores y amplificadores si fueran necesarios."
     },
     {
-      question: "¿Qué garantía tienen los trabajos de reparación?",
-      answer: "Todas las reparaciones incluyen garantía mínima de 6 meses sobre la mano de obra y los materiales sustituidos. Las instalaciones completas tienen garantía de al menos 2 años."
+      question: "Â¿QuÃ© garantÃ­a tienen los trabajos de reparaciÃ³n?",
+      answer: "Todas las reparaciones incluyen garantÃ­a mÃ­nima de 6 meses sobre la mano de obra y los materiales sustituidos. Las instalaciones completas tienen garantÃ­a de al menos 2 aÃ±os."
     }
   ]
 };
@@ -170,9 +170,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Santa Bárbara Toledo | ?? 668 67 95 00`,
-  description: `Antenista en el barrio de Santa Bárbara, Toledo. TDT, parabólicas, videoporteros y cámaras de seguridad. Presupuesto sin compromiso.`,
-  keywords: `antenista Santa Bárbara Toledo, antenas TDT barrio Santa Bárbara Toledo, instalación antenas Toledo, reparación antenas Santa Bárbara, videoportero Toledo`,
+  title: `Antenista en Santa BÃ¡rbara Toledo | ?? 668 67 95 00`,
+  description: `Antenista en el barrio de Santa BÃ¡rbara, Toledo. TDT, parabÃ³licas, videoporteros y cÃ¡maras de seguridad. Presupuesto sin compromiso.`,
+  keywords: `antenista Santa BÃ¡rbara Toledo, antenas TDT barrio Santa BÃ¡rbara Toledo, instalaciÃ³n antenas Toledo, reparaciÃ³n antenas Santa BÃ¡rbara, videoportero Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-santa-barbara'
   },
@@ -210,20 +210,20 @@ export default function SantaBarbaraPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Santa Bárbara</span>
+                    <span className="text-brand-green font-medium">Santa BÃ¡rbara</span>
                   </nav>
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      Antenista profesional en el barrio de Santa Bárbara, Toledo
+                      Antenista profesional en el barrio de Santa BÃ¡rbara, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos servicio de antenista en el barrio de Santa Bárbara de Toledo. Atendemos pisos, comunidades de vecinos, locales y negocios con instalaciones de antenas TDT, parabólicas, videoporteros y sistemas de videovigilancia. Servicio de urgencias disponible con respuesta rápida en todo el barrio.
+                      Ofrecemos servicio de antenista en el barrio de Santa BÃ¡rbara de Toledo. Atendemos pisos, comunidades de vecinos, locales y negocios con instalaciones de antenas TDT, parabÃ³licas, videoporteros y sistemas de videovigilancia. Servicio de urgencias disponible con respuesta rÃ¡pida en todo el barrio.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervención
+                      Contactar para una intervenciÃ³n
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -232,7 +232,7 @@ export default function SantaBarbaraPage() {
                 </div>
                 <div className="relative">
                   <div className="mt-20 flex justify-center relative overflow-hidden rounded-xl">
-                    <Image src="/images/telecom/antenistas-en-toledo-.jpg" alt="Antenista profesional en Santa Bárbara Toledo" width={400} height={200} priority />
+                    <Image src="/images/telecom/antenistas-en-toledo-.jpg" alt="Antenista profesional en Santa BÃ¡rbara Toledo" width={400} height={200} priority />
                   </div>
                 </div>
               </div>
@@ -242,8 +242,8 @@ export default function SantaBarbaraPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Santa Bárbara y alrededores</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el barrio de Santa Bárbara con técnicos con gran experiencia local.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Santa BÃ¡rbara y alrededores</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el barrio de Santa BÃ¡rbara con tÃ©cnicos con gran experiencia local.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -252,7 +252,7 @@ export default function SantaBarbaraPage() {
                       <MapPin className="h-8 w-8 text-brand-green" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en Santa Bárbara</h3>
+                      <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en Santa BÃ¡rbara</h3>
                       <p className="text-brand-black-light">Antenista profesional en todo el barrio</p>
                     </div>
                   </div>
@@ -278,8 +278,8 @@ export default function SantaBarbaraPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Todo lo que necesita para sus telecomunicaciones en Santa Bárbara.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catÃ¡logo de servicios especializados</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Todo lo que necesita para sus telecomunicaciones en Santa BÃ¡rbara.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -292,8 +292,8 @@ export default function SantaBarbaraPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Calidad y confianza en cada intervención en Toledo.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© confiar en nuestro servicio tÃ©cnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Calidad y confianza en cada intervenciÃ³n en Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -312,8 +312,8 @@ export default function SantaBarbaraPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en Santa Bárbara</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Opiniones de vecinos y negocios del barrio de Santa Bárbara.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en Santa BÃ¡rbara</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Opiniones de vecinos y negocios del barrio de Santa BÃ¡rbara.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -337,7 +337,7 @@ export default function SantaBarbaraPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios en Santa Bárbara</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios en Santa BÃ¡rbara</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos sus dudas sobre instalaciones de telecomunicaciones en el barrio.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
@@ -355,8 +355,8 @@ export default function SantaBarbaraPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Santa Bárbara</h2>
-                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto gratuito o reserve su visita técnica en el barrio de Santa Bárbara.</p>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Santa BÃ¡rbara</h2>
+                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto gratuito o reserve su visita tÃ©cnica en el barrio de Santa BÃ¡rbara.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Santa%20B%C3%A1rbara%20Toledo" className="flex items-center gap-2">

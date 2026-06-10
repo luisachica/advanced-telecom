@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 
-// Datos especÌficos del municipio
+// Datos espec√≠ficos del municipio
 const municipioData = {
   nombre: "Arcicollar",
   slug: "arcicollar",
@@ -22,25 +22,25 @@ const municipioData = {
   codigoPostal: "45516",
   poblacion: "1.245",
   superficie: "32,4",
-  descripcion: "Antenista profesional en Arcicollar especializado en instalaciones de telecomunicaciones. Servicios tÈcnicos de calidad para este municipio toledano.",
+  descripcion: "Antenista profesional en Arcicollar especializado en instalaciones de telecomunicaciones. Servicios t√©cnicos de calidad para este municipio toledano.",
   servicios: [
-    "InstalaciÛn de antenas TDT en Arcicollar",
-    "Antenas parabÛlicas para viviendas rurales",
-    "Porteros autom·ticos y videoporteros",
+    "Instalaci√≥n de antenas TDT en Arcicollar",
+    "Antenas parab√≥licas para viviendas rurales",
+    "Porteros autom√°ticos y videoporteros",
     "Sistemas de videovigilancia CCTV",
-    "Amplificadores de seÒal digital",
-    "Mantenimiento tÈcnico especializado"
+    "Amplificadores de se√±al digital",
+    "Mantenimiento t√©cnico especializado"
   ],
    serviciosDestacados: [
     "Antenista TDT especializado",
     "Instalaciones rurales",
-    "Servicio tÈcnico local"
+    "Servicio t√©cnico local"
   ],
 
   zonasCubiertas: [
     "Casco urbano",
     "Zona residencial",
-    "¡rea industrial",
+    "√Årea industrial",
     "Urbanizaciones",
     "Viviendas aisladas"
   ],
@@ -48,24 +48,24 @@ const municipioData = {
   cobertura: [
     { zona: "Casco urbano", disponible: true },
     { zona: "Zona residencial", disponible: true },
-    { zona: "¡rea industrial", disponible: true },
+    { zona: "√Årea industrial", disponible: true },
     { zona: "Urbanizaciones", disponible: true },
     { zona: "Viviendas aisladas", disponible: true }
   ],
 
   testimonios: [
     {
-      nombre: "Francisco JimÈnez",
-      comentario: "Excelente antenista en Arcicollar. InstalaciÛn r·pida y muy profesional.",
+      nombre: "Francisco Jim√©nez",
+      comentario: "Excelente antenista en Arcicollar. Instalaci√≥n r√°pida y muy profesional.",
       puntuacion: 5
     },
     {
-      nombre: "Ana MarÌa Castillo",
-      comentario: "Servicio tÈcnico de primera calidad. Solucionaron nuestros problemas de recepciÛn.",
+      nombre: "Ana Mar√≠a Castillo",
+      comentario: "Servicio t√©cnico de primera calidad. Solucionaron nuestros problemas de recepci√≥n.",
       puntuacion: 5
     },
     {
-      nombre: "JosÈ Luis Moreno",
+      nombre: "Jos√© Luis Moreno",
       comentario: "Antenista muy recomendable en Arcicollar. Trabajo profesional y garantizado.",
       puntuacion: 5
     }
@@ -74,42 +74,42 @@ const municipioData = {
    caracteristicas: [
     {
       titulo: "Especialista en Arcicollar",
-      descripcion: "Conocimiento especÌfico de Arcicollar y sus particularidades tÈcnicas",
+      descripcion: "Conocimiento espec√≠fico de Arcicollar y sus particularidades t√©cnicas",
       icono: "Home"
     },
     {
-      titulo: "TecnologÌa avanzada",
-      descripcion: "Equipos de ˙ltima generaciÛn y tÈcnicas innovadoras para m·xima calidad",
+      titulo: "Tecnolog√≠a avanzada",
+      descripcion: "Equipos de √∫ltima generaci√≥n y t√©cnicas innovadoras para m√°xima calidad",
       icono: "Signal"
     },
     {
       titulo: "Servicio personalizado",
-      descripcion: "AtenciÛn directa y soluciones especÌficas para cada vivienda en Arcicollar",
+      descripcion: "Atenci√≥n directa y soluciones espec√≠ficas para cada vivienda en Arcicollar",
       icono: "Users"
     },
     {
-      titulo: "GarantÌa total",
-      descripcion: "GarantÌa integral en todas nuestras instalaciones y servicios tÈcnicos",
+      titulo: "Garant√≠a total",
+      descripcion: "Garant√≠a integral en todas nuestras instalaciones y servicios t√©cnicos",
       icono: "Shield"
     }
   ],
 
   faqs: [
     {
-      question: "øQuÈ servicios de antenista ofrecen en Arcicollar?",
-      answer: "Como antenista especializado en Arcicollar, ofrecemos instalaciÛn y reparaciÛn de antenas TDT, parabÛlicas, porteros autom·ticos y sistemas de videovigilancia con garantÌa completa."
+      question: "¬øQu√© servicios de antenista ofrecen en Arcicollar?",
+      answer: "Como antenista especializado en Arcicollar, ofrecemos instalaci√≥n y reparaci√≥n de antenas TDT, parab√≥licas, porteros autom√°ticos y sistemas de videovigilancia con garant√≠a completa."
     },
     {
-      question: "øCu·l es el mejor antenista en Arcicollar?",
-      answer: "Somos antenistas profesionales con m·s de 25 aÒos de experiencia en Arcicollar. Ofrecemos servicio tÈcnico especializado, garantÌa y atenciÛn personalizada."
+      question: "¬øCu√°l es el mejor antenista en Arcicollar?",
+      answer: "Somos antenistas profesionales con m√°s de 25 a√±os de experiencia en Arcicollar. Ofrecemos servicio t√©cnico especializado, garant√≠a y atenci√≥n personalizada."
     },
     {
-      question: "øRealizan instalaciones de antenas TDT en Arcicollar?",
-      answer: "SÌ, somos especialistas en instalaciones de antenas TDT en Arcicollar. Utilizamos equipos de alta calidad y ofrecemos garantÌa en todas nuestras instalaciones."
+      question: "¬øRealizan instalaciones de antenas TDT en Arcicollar?",
+      answer: "S√≠, somos especialistas en instalaciones de antenas TDT en Arcicollar. Utilizamos equipos de alta calidad y ofrecemos garant√≠a en todas nuestras instalaciones."
     },
     {
-      question: "øCu·nto cuesta un antenista en Arcicollar?",
-      answer: "Los precios varÌan seg˙n el tipo de instalaciÛn. Como antenista local en Arcicollar, ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
+      question: "¬øCu√°nto cuesta un antenista en Arcicollar?",
+      answer: "Los precios var√≠an seg√∫n el tipo de instalaci√≥n. Como antenista local en Arcicollar, ofrecemos presupuestos gratuitos y precios competitivos sin comprometer la calidad."
     }
   ]
 }
@@ -181,8 +181,8 @@ const structuredData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Arcicollar | ?? 668 67 95 00`,
-  description: `Antenistas en Arcicollar. Servicio tÈcnico en TDT, satÈlite, porteros autom·ticos, videoporteros y c·maras de seguridad. °SoluciÛn profesional!`,
-  keywords: `antenista Arcicollar, antenas TDT Arcicollar, instalaciÛn antenas Toledo, reparaciÛn antenas Arcicollar, telecomunicaciones Arcicollar`,
+  description: `Antenistas en Arcicollar. Servicio t√©cnico en TDT, sat√©lite, porteros autom√°ticos, videoporteros y c√°maras de seguridad. ¬°Soluci√≥n profesional!`,
+  keywords: `antenista Arcicollar, antenas TDT Arcicollar, instalaci√≥n antenas Toledo, reparaci√≥n antenas Arcicollar, telecomunicaciones Arcicollar`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-en-arcicollar'
   },
@@ -229,7 +229,7 @@ export default function ArcicollarPage() {
         <MainNavigation services={[]} />
 
         <main className="flex-1">
-          {/* Hero Section especÌfico de Torrecastillo */}
+          {/* Hero Section espec√≠fico de Torrecastillo */}
           <section className="w-full bg-gradient-to-br from-brand-green/5 to-white relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6 py-16 md:py-20 relative z-10">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -248,7 +248,7 @@ export default function ArcicollarPage() {
                       <span className="text-brand-green">Antenista</span> en Arcicollar
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Antenista profesional en Arcicollar con m·s de 25 aÒos de experiencia. Especialistas en instalaciÛn y reparaciÛn de antenas TDT, parabÛlicas, porteros autom·ticos y sistemas de videovigilancia. Servicio tÈcnico garantizado en todo el municipio toledano.
+                      Antenista profesional en Arcicollar con m√°s de 25 a√±os de experiencia. Especialistas en instalaci√≥n y reparaci√≥n de antenas TDT, parab√≥licas, porteros autom√°ticos y sistemas de videovigilancia. Servicio t√©cnico garantizado en todo el municipio toledano.
                     </p>
                   </div>
 
@@ -268,7 +268,7 @@ export default function ArcicollarPage() {
                   <div className=" mt-20 flex justify-center relative overflow-hidden rounded-xl ">
                     <Image
                       src="/images/telecom/antenistas-en-toledo-.jpg"
-                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio histÛrico de La Sagra"
+                      alt="Servicios de telecomunicaciones en Alameda de la Sagra - Municipio hist√≥rico de La Sagra"
                       width={400}
                       height={200}
                       priority
@@ -279,12 +279,12 @@ export default function ArcicollarPage() {
             </div>
           </section>
 
-           {/* Cobertura especÌfica de Arcicollar */}
+           {/* Cobertura espec√≠fica de Arcicollar */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Antenista con cobertura completa en Arcicollar</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio tÈcnico profesional disponible en todo el municipio toledano</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Servicio t√©cnico profesional disponible en todo el municipio toledano</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -340,12 +340,12 @@ export default function ArcicollarPage() {
             </div>
           </section>
 
-          {/* Por quÈ elegir nuestros servicios en Arcicollar */}
+          {/* Por qu√© elegir nuestros servicios en Arcicollar */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">øPor quÈ elegir nuestro antenista en Arcicollar?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalaciÛn</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¬øPor qu√© elegir nuestro antenista en Arcicollar?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia local, calidad profesional y compromiso con cada instalaci√≥n</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -366,7 +366,7 @@ export default function ArcicollarPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Clientes satisfechos con nuestro antenista en Arcicollar</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Arcicollar que confÌan en nuestros servicios</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Testimonios reales de vecinos de Arcicollar que conf√≠an en nuestros servicios</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -387,12 +387,12 @@ export default function ArcicollarPage() {
             </div>
           </section>
 
-          {/* FAQs especÌficas de Arcicollar */}
+          {/* FAQs espec√≠ficas de Arcicollar */}
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas Frecuentes sobre antenista en Arcicollar</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas m·s comunes sobre nuestros servicios de antenista en el municipio</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas m√°s comunes sobre nuestros servicios de antenista en el municipio</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -405,12 +405,12 @@ export default function ArcicollarPage() {
             </div>
           </section>
 
-          {/* CTA Section especÌfica para Arcicollar */}
+          {/* CTA Section espec√≠fica para Arcicollar */}
           <section className="py-16 md:py-24 bg-gradient-to-br from-brand-green to-green-700">
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">øNecesitas un antenista en Arcicollar?</h2>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">¬øNecesitas un antenista en Arcicollar?</h2>
                   <p className="text-xl mb-8 text-white/90">Contacta con nosotros para obtener un presupuesto gratuito y sin compromiso. Nos desplazamos a tu domicilio en Arcicollar.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">

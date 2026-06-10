@@ -19,19 +19,19 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45001",
-  descripcion: "Antenista profesional en el barrio de San Bernardo, Toledo. Especialistas en antenas TDT, parabólicas, videoporteros y cámaras de seguridad para pisos, comunidades y negocios.",
+  descripcion: "Antenista profesional en el barrio de San Bernardo, Toledo. Especialistas en antenas TDT, parabÃ³licas, videoporteros y cÃ¡maras de seguridad para pisos, comunidades y negocios.",
   servicios: [
-    "Instalación y reparación de antenas TDT",
-    "Instalación y orientación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias 5G",
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT",
+    "InstalaciÃ³n y orientaciÃ³n de antenas parabÃ³licas",
+    "Sistemas de videoportero y portero automÃ¡tico",
+    "InstalaciÃ³n de videovigilancia (CCTV)",
+    "SoluciÃ³n a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Alta cualificación técnica",
+    "Alta cualificaciÃ³n tÃ©cnica",
     "Materiales homologados",
-    "Garantía profesional"
+    "GarantÃ­a profesional"
   ],
   zonasCubiertas: [
     "Barrio de San Bernardo",
@@ -48,7 +48,7 @@ const municipioData = {
   testimonios: [
     {
       nombre: "Propietario de piso en San Bernardo",
-      comentario: "Instalaron una antena nueva en mi piso de San Bernardo. El técnico fue puntual, trabajó con mucho cuidado y la señal es ahora excelente. Muy satisfecho con el servicio.",
+      comentario: "Instalaron una antena nueva en mi piso de San Bernardo. El tÃ©cnico fue puntual, trabajÃ³ con mucho cuidado y la seÃ±al es ahora excelente. Muy satisfecho con el servicio.",
       puntuacion: 5
     },
     {
@@ -58,19 +58,19 @@ const municipioData = {
     },
     {
       nombre: "Hostelero de San Bernardo",
-      comentario: "Instalaron el sistema de cámaras en mi bar. El trabajo fue impecable y ahora tengo acceso en tiempo real desde el móvil. El servicio postventa también es muy bueno.",
+      comentario: "Instalaron el sistema de cÃ¡maras en mi bar. El trabajo fue impecable y ahora tengo acceso en tiempo real desde el mÃ³vil. El servicio postventa tambiÃ©n es muy bueno.",
       puntuacion: 5
     }
   ],
   caracteristicas: [
     {
       titulo: "Conocimiento Local",
-      descripcion: "Conocemos perfectamente los edificios y características técnicas del barrio de San Bernardo.",
+      descripcion: "Conocemos perfectamente los edificios y caracterÃ­sticas tÃ©cnicas del barrio de San Bernardo.",
       icono: "Briefcase"
     },
     {
       titulo: "Materiales Certificados",
-      descripcion: "Utilizamos únicamente materiales homologados de primeras marcas europeas.",
+      descripcion: "Utilizamos Ãºnicamente materiales homologados de primeras marcas europeas.",
       icono: "Shield"
     },
     {
@@ -79,27 +79,27 @@ const municipioData = {
       icono: "Eye"
     },
     {
-      titulo: "Garantía Total",
-      descripcion: "Garantía completa por escrito en instalaciones y reparaciones.",
+      titulo: "GarantÃ­a Total",
+      descripcion: "GarantÃ­a completa por escrito en instalaciones y reparaciones.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¿Trabajan en pisos con acceso difícil en San Bernardo?",
-      answer: "Sí. Contamos con equipamiento y técnicas para instalaciones en edificios de difícil acceso, tejados inclinados y fachadas históricas del barrio, respetando siempre la normativa municipal."
+      question: "Â¿Trabajan en pisos con acceso difÃ­cil en San Bernardo?",
+      answer: "SÃ­. Contamos con equipamiento y tÃ©cnicas para instalaciones en edificios de difÃ­cil acceso, tejados inclinados y fachadas histÃ³ricas del barrio, respetando siempre la normativa municipal."
     },
     {
-      question: "¿Pueden renovar la antena colectiva de un edificio antiguo?",
+      question: "Â¿Pueden renovar la antena colectiva de un edificio antiguo?",
       answer: "Por supuesto. Realizamos sustituciones completas de instalaciones de antena colectiva, incluyendo cabecera, amplificador, derivadores, cable y tomas de usuario en todos los pisos."
     },
     {
-      question: "¿Solucionan problemas de señal TDT en zonas bajas junto al río?",
-      answer: "Sí. La zona baja de Toledo puede tener problemas de señal por la orografía. Disponemos de soluciones específicas como amplificadores de alta ganancia y orientaciones alternativas de antena."
+      question: "Â¿Solucionan problemas de seÃ±al TDT en zonas bajas junto al rÃ­o?",
+      answer: "SÃ­. La zona baja de Toledo puede tener problemas de seÃ±al por la orografÃ­a. Disponemos de soluciones especÃ­ficas como amplificadores de alta ganancia y orientaciones alternativas de antena."
     },
     {
-      question: "¿Qué tiempo tardan en atender una avería en San Bernardo?",
-      answer: "Para averías urgentes, nuestro objetivo es atender el mismo día o en menos de 24 horas en San Bernardo y el centro de Toledo. Tenemos técnicos disponibles de lunes a sábado."
+      question: "Â¿QuÃ© tiempo tardan en atender una averÃ­a en San Bernardo?",
+      answer: "Para averÃ­as urgentes, nuestro objetivo es atender el mismo dÃ­a o en menos de 24 horas en San Bernardo y el centro de Toledo. Tenemos tÃ©cnicos disponibles de lunes a sÃ¡bado."
     }
   ]
 };
@@ -171,8 +171,8 @@ const structuredData = {
 
 export const metadata: Metadata = {
   title: `Antenista en San Bernardo Toledo | ?? 668 67 95 00`,
-  description: `Antenista en el barrio de San Bernardo, Toledo. TDT, parabólicas, videoporteros y cámaras para pisos, comunidades y negocios. Presupuesto gratuito.`,
-  keywords: `antenista San Bernardo Toledo, antenas TDT San Bernardo Toledo, instalación antenas Toledo centro, reparación antenas San Bernardo, videoportero barrio San Bernardo`,
+  description: `Antenista en el barrio de San Bernardo, Toledo. TDT, parabÃ³licas, videoporteros y cÃ¡maras para pisos, comunidades y negocios. Presupuesto gratuito.`,
+  keywords: `antenista San Bernardo Toledo, antenas TDT San Bernardo Toledo, instalaciÃ³n antenas Toledo centro, reparaciÃ³n antenas San Bernardo, videoportero barrio San Bernardo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-san-bernardo'
   },
@@ -217,13 +217,13 @@ export default function SanBernardoPage() {
                       Antenista profesional en el barrio de San Bernardo, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Prestamos servicio de antenista en el barrio de San Bernardo, en la orilla del Tajo en Toledo. Atendemos pisos, comunidades de vecinos, locales y negocios del barrio con instalaciones de TDT, antenas parabólicas, videoporteros y sistemas de videovigilancia. Más de 25 años de experiencia en Toledo nos avalan.
+                      Prestamos servicio de antenista en el barrio de San Bernardo, en la orilla del Tajo en Toledo. Atendemos pisos, comunidades de vecinos, locales y negocios del barrio con instalaciones de TDT, antenas parabÃ³licas, videoporteros y sistemas de videovigilancia. MÃ¡s de 25 aÃ±os de experiencia en Toledo nos avalan.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervención
+                      Contactar para una intervenciÃ³n
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -243,7 +243,7 @@ export default function SanBernardoPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en San Bernardo y alrededores</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el barrio y las zonas próximas del centro histórico de Toledo.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el barrio y las zonas prÃ³ximas del centro histÃ³rico de Toledo.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -278,7 +278,7 @@ export default function SanBernardoPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catÃ¡logo de servicios especializados</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones completas de telecomunicaciones para San Bernardo y Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -292,7 +292,7 @@ export default function SanBernardoPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© confiar en nuestro servicio tÃ©cnico?</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Profesionalidad y resultados demostrados en toda Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -338,7 +338,7 @@ export default function SanBernardoPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios en San Bernardo</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Respondemos las dudas más habituales de nuestros clientes del barrio.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Respondemos las dudas mÃ¡s habituales de nuestros clientes del barrio.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (
@@ -356,7 +356,7 @@ export default function SanBernardoPage() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
                   <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en San Bernardo</h2>
-                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto gratuito o reserve su visita técnica en San Bernardo, Toledo.</p>
+                  <p className="text-xl mb-8 text-white/90">Solicite presupuesto gratuito o reserve su visita tÃ©cnica en San Bernardo, Toledo.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20San%20Bernardo%20Toledo" className="flex items-center gap-2">

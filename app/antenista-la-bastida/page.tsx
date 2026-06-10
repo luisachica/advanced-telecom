@@ -19,41 +19,41 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45007",
-  descripcion: "Antenista profesional en La Bastida, Toledo. Instalación y reparación de antenas TDT, parabólicas, videoporteros y sistemas de seguridad para viviendas, comunidades y negocios.",
+  descripcion: "Antenista profesional en La Bastida, Toledo. InstalaciÃ³n y reparaciÃ³n de antenas TDT, parabÃ³licas, videoporteros y sistemas de seguridad para viviendas, comunidades y negocios.",
   servicios: [
-    "Instalación y reparación de antenas TDT",
-    "Instalación y orientación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias 5G",
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT",
+    "InstalaciÃ³n y orientaciÃ³n de antenas parabÃ³licas",
+    "Sistemas de videoportero y portero automÃ¡tico",
+    "InstalaciÃ³n de videovigilancia (CCTV)",
+    "SoluciÃ³n a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Alta cualificación técnica",
+    "Alta cualificaciÃ³n tÃ©cnica",
     "Materiales homologados",
-    "Garantía profesional"
+    "GarantÃ­a profesional"
   ],
   zonasCubiertas: [
-    "Urbanización La Bastida",
+    "UrbanizaciÃ³n La Bastida",
     "Comunidades residenciales del entorno",
     "Viviendas unifamiliares y adosados",
-    "Zonas comerciales próximas"
+    "Zonas comerciales prÃ³ximas"
   ],
   cobertura: [
-    { zona: "Urbanización La Bastida", disponible: true },
+    { zona: "UrbanizaciÃ³n La Bastida", disponible: true },
     { zona: "Comunidades residenciales del entorno", disponible: true },
     { zona: "Viviendas unifamiliares y adosados", disponible: true },
-    { zona: "Zonas comerciales próximas", disponible: true }
+    { zona: "Zonas comerciales prÃ³ximas", disponible: true }
   ],
   testimonios: [
     {
       nombre: "Propietario en La Bastida",
-      comentario: "Instalaron la antena TDT y la parabólica en nuestra vivienda de La Bastida. El trabajo fue muy cuidado y en pocas horas teníamos todo funcionando a la perfección.",
+      comentario: "Instalaron la antena TDT y la parabÃ³lica en nuestra vivienda de La Bastida. El trabajo fue muy cuidado y en pocas horas tenÃ­amos todo funcionando a la perfecciÃ³n.",
       puntuacion: 5
     },
     {
-      nombre: "Vecina de la urbanización",
-      comentario: "Llevaba tiempo con problemas de señal y me los solucionaron en una sola visita. El técnico fue muy profesional y explicó todo con claridad. Muy recomendables.",
+      nombre: "Vecina de la urbanizaciÃ³n",
+      comentario: "Llevaba tiempo con problemas de seÃ±al y me los solucionaron en una sola visita. El tÃ©cnico fue muy profesional y explicÃ³ todo con claridad. Muy recomendables.",
       puntuacion: 5
     },
     {
@@ -64,8 +64,8 @@ const municipioData = {
   ],
   caracteristicas: [
     {
-      titulo: "Alta Cualificación",
-      descripcion: "Técnicos especializados con amplia experiencia en instalaciones de telecomunicaciones.",
+      titulo: "Alta CualificaciÃ³n",
+      descripcion: "TÃ©cnicos especializados con amplia experiencia en instalaciones de telecomunicaciones.",
       icono: "Briefcase"
     },
     {
@@ -79,27 +79,27 @@ const municipioData = {
       icono: "Eye"
     },
     {
-      titulo: "Garantía Escrita",
-      descripcion: "Garantía profesional completa en instalaciones y reparaciones.",
+      titulo: "GarantÃ­a Escrita",
+      descripcion: "GarantÃ­a profesional completa en instalaciones y reparaciones.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¿Atienden con rapidez en La Bastida y alrededores?",
-      answer: "Sí. La Bastida está dentro de nuestra zona habitual de cobertura en Toledo. Para urgencias el tiempo habitual de respuesta es menos de 2 horas, y para trabajos programados ofrecemos cita en 24-48 horas."
+      question: "Â¿Atienden con rapidez en La Bastida y alrededores?",
+      answer: "SÃ­. La Bastida estÃ¡ dentro de nuestra zona habitual de cobertura en Toledo. Para urgencias el tiempo habitual de respuesta es menos de 2 horas, y para trabajos programados ofrecemos cita en 24-48 horas."
     },
     {
-      question: "¿Pueden mejorar la distribución de señal TDT en toda la vivienda?",
-      answer: "Sí. Si la señal no llega bien a todas las tomas, podemos revisar la instalación, cambiar los derivadores y amplificar la señal para que todos los televisores de la vivienda reciban perfectamente."
+      question: "Â¿Pueden mejorar la distribuciÃ³n de seÃ±al TDT en toda la vivienda?",
+      answer: "SÃ­. Si la seÃ±al no llega bien a todas las tomas, podemos revisar la instalaciÃ³n, cambiar los derivadores y amplificar la seÃ±al para que todos los televisores de la vivienda reciban perfectamente."
     },
     {
-      question: "¿Instalan sistema de apertura de portón de garaje por control remoto?",
-      answer: "Nuestra especialidad son los videoporteros y sistemas de acceso. Para la automatización del garaje, podemos integrar el videoportero con el control de acceso del garaje en la misma instalación."
+      question: "Â¿Instalan sistema de apertura de portÃ³n de garaje por control remoto?",
+      answer: "Nuestra especialidad son los videoporteros y sistemas de acceso. Para la automatizaciÃ³n del garaje, podemos integrar el videoportero con el control de acceso del garaje en la misma instalaciÃ³n."
     },
     {
-      question: "¿Qué ocurre si la reparación no soluciona el problema?",
-      answer: "Ofrecemos garantía en todas nuestras intervenciones. Si el problema persiste o reaparece en el plazo de garantía, volvemos sin coste adicional hasta solucionarlo definitivamente."
+      question: "Â¿QuÃ© ocurre si la reparaciÃ³n no soluciona el problema?",
+      answer: "Ofrecemos garantÃ­a en todas nuestras intervenciones. Si el problema persiste o reaparece en el plazo de garantÃ­a, volvemos sin coste adicional hasta solucionarlo definitivamente."
     }
   ]
 };
@@ -171,8 +171,8 @@ const structuredData = {
 
 export const metadata: Metadata = {
   title: `Antenista en La Bastida Toledo | ?? 668 67 95 00`,
-  description: `Antenista en La Bastida, Toledo. TDT, parabólicas, videoporteros y cámaras para viviendas y comunidades. Presupuesto gratuito.`,
-  keywords: `antenista La Bastida Toledo, antenas TDT La Bastida Toledo, instalación antenas Toledo, reparación antenas La Bastida, videoportero Toledo urbanización`,
+  description: `Antenista en La Bastida, Toledo. TDT, parabÃ³licas, videoporteros y cÃ¡maras para viviendas y comunidades. Presupuesto gratuito.`,
+  keywords: `antenista La Bastida Toledo, antenas TDT La Bastida Toledo, instalaciÃ³n antenas Toledo, reparaciÃ³n antenas La Bastida, videoportero Toledo urbanizaciÃ³n`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-la-bastida'
   },
@@ -217,13 +217,13 @@ export default function LaBastidaPage() {
                       Antenista profesional en La Bastida, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Prestamos servicio de antenista en la urbanización La Bastida de Toledo. Atendemos viviendas unifamiliares, adosados, comunidades de vecinos y negocios con instalaciones de antenas TDT, parabólicas, videoporteros y sistemas completos de videovigilancia. Presupuesto sin compromiso y servicio urgente disponible.
+                      Prestamos servicio de antenista en la urbanizaciÃ³n La Bastida de Toledo. Atendemos viviendas unifamiliares, adosados, comunidades de vecinos y negocios con instalaciones de antenas TDT, parabÃ³licas, videoporteros y sistemas completos de videovigilancia. Presupuesto sin compromiso y servicio urgente disponible.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervención
+                      Contactar para una intervenciÃ³n
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -243,7 +243,7 @@ export default function LaBastidaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en La Bastida y alrededores</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la urbanización con técnicos especializados y servicio urgente disponible.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la urbanizaciÃ³n con tÃ©cnicos especializados y servicio urgente disponible.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -278,7 +278,7 @@ export default function LaBastidaPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catÃ¡logo de servicios especializados</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Todo lo que necesita para sus telecomunicaciones en La Bastida, Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -292,7 +292,7 @@ export default function LaBastidaPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© confiar en nuestro servicio tÃ©cnico?</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Calidad y confianza demostrada en cientos de instalaciones en Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -313,7 +313,7 @@ export default function LaBastidaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en La Bastida</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Propietarios y comunidades que confían en nuestro servicio.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Propietarios y comunidades que confÃ­an en nuestro servicio.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (

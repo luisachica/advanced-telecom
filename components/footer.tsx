@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { useCookies } from "@/hooks/use-cookies"
 
-// Función para validar rutas de imágenes
+// FunciÃ³n para validar rutas de imÃ¡genes
 const validateImageSrc = (src: string | undefined | null): string => {
   return src && src.trim() !== "" ? src : "/placeholder.svg"
 }
@@ -19,7 +19,7 @@ export function Footer() {
       <div className="container flex flex-col gap-6 py-12 px-4 md:px-6">
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-4">
           <div className="space-y-6">
-            {/* Aumentar el tamaño del logo */}
+            {/* Aumentar el tamaÃ±o del logo */}
             <div className="inline-block">
               <Image
                 src={validateImageSrc("/logo-antenas-toledo.png") || "/placeholder.svg"}
@@ -59,22 +59,22 @@ export function Footer() {
               </li>
               <li>
                 <a href="/servicios/antenas-parabolicas" className="text-gray-300 hover:text-white transition-colors">
-                  Antenas parabólicas
+                  Antenas parabÃ³licas
                 </a>
               </li>
               <li>
                 <a href="/servicios/porteros-automaticos" className="text-gray-300 hover:text-white transition-colors">
-                  Porteros automáticos
+                  Porteros automÃ¡ticos
                 </a>
               </li>
               <li>
                 <a href="/servicios/camaras-seguridad" className="text-gray-300 hover:text-white transition-colors">
-                  Cámaras de seguridad
+                  CÃ¡maras de seguridad
                 </a>
               </li>
               <li>
                 <a href="/servicios/solucion-interferencias-5g" className="text-gray-300 hover:text-white transition-colors">
-                  Solución interferencias 5G
+                  SoluciÃ³n interferencias 5G
                 </a>
               </li>
               <li>
@@ -85,7 +85,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-bold mb-4">Enlaces rápidos</h3>
+            <h3 className="text-lg font-bold mb-4">Enlaces rÃ¡pidos</h3>
             <ul className="space-y-3">
               <li>
                 <a href="/" className="text-gray-300 hover:text-white transition-colors">
@@ -124,7 +124,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Avenida de la Tecnología 25 – 28021 , España</span>
+                <span className="text-gray-300">Avenida de la TecnologÃ­a 25 â€“ 28021 , EspaÃ±a</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-brand-green flex-shrink-0" />
@@ -152,13 +152,13 @@ export function Footer() {
           </div>
         </div>
         
-        {/* Sección del Ministerio */}
+        {/* SecciÃ³n del Ministerio */}
         <div className="pt-6 mt-6">
           <div className="flex flex-col lg:flex-row items-center gap-6">
             <div className="flex-shrink-0">
               <Image
-                src="/images/telecom/Antenista-Madrid-Logo-Ministerio-de-Energía-Turismo-y-Agenda-Digital.png"
-                alt="Logo Ministerio de Energía, Turismo y Agenda Digital"
+                src="/images/telecom/Antenista-Madrid-Logo-Ministerio-de-EnergÃ­a-Turismo-y-Agenda-Digital.png"
+                alt="Logo Ministerio de EnergÃ­a, Turismo y Agenda Digital"
                 width={380}
                 height={100}
                 className="h-auto w-auto max-w-full"
@@ -168,12 +168,12 @@ export function Footer() {
               <p className="text-gray-300 text-sm leading-relaxed">
                 Estamos Registrados en Telecomunicaciones y cumplimos con los requisitos del 
                 Reglamento aprobado por el Real Decreto 24/2010 de 5 de marzo (BOE de 
-                24/03/2010). Exija siempre el Número de Inscripción en el Registro de 
-                Telecomunicaciones para evitarse problemas y disponer de la garantía 
+                24/03/2010). Exija siempre el NÃºmero de InscripciÃ³n en el Registro de 
+                Telecomunicaciones para evitarse problemas y disponer de la garantÃ­a 
                 correspondiente.
               </p>
               <p className="text-gray-400 text-xs mt-2">
-                Antenistas homologados en Toledo y  . Reparaciones en el día.
+                Antenistas homologados en Toledo y  . Reparaciones en el dÃ­a.
               </p>
             </div>
           </div>
@@ -182,17 +182,17 @@ export function Footer() {
         <div className="border-t border-white/10 pt-6 mt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Hecho con ?? por Snapik. Todos los derechos reservados.
+              Â© {new Date().getFullYear()} Hecho con ?? por Snapik. Todos los derechos reservados.
             </p>
             <div className="flex gap-6">
               <Link href="/politica-privacidad" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Política de privacidad
+                PolÃ­tica de privacidad
               </Link>
               <Link href="/terminos-condiciones" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Términos y condiciones
+                TÃ©rminos y condiciones
               </Link>
               <Link href="/politica-cookies" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Política de cookies
+                PolÃ­tica de cookies
               </Link>
               <button 
                 onClick={openPreferences}

@@ -14,51 +14,51 @@ import StructuredData from "@/components/StructuredData";
 import { SERVICIOS } from "@/data/servicios";
 
 const municipioData = {
-  nombre: "Sta. Mª Benquerencia",
+  nombre: "Sta. MÂª Benquerencia",
   slug: "sta-m-benquerencia",
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45007",
-  descripcion: "Antenista profesional en Santa María de Benquerencia, Toledo. Especialistas en antenas TDT, parabólicas, videoporteros y cámaras de seguridad para el mayor barrio residencial del  de Toledo.",
+  descripcion: "Antenista profesional en Santa MarÃ­a de Benquerencia, Toledo. Especialistas en antenas TDT, parabÃ³licas, videoporteros y cÃ¡maras de seguridad para el mayor barrio residencial del  de Toledo.",
   servicios: [
-    "Instalación y reparación de antenas TDT",
-    "Instalación y orientación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias 5G",
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT",
+    "InstalaciÃ³n y orientaciÃ³n de antenas parabÃ³licas",
+    "Sistemas de videoportero y portero automÃ¡tico",
+    "InstalaciÃ³n de videovigilancia (CCTV)",
+    "SoluciÃ³n a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
     "Especialistas en grandes comunidades",
     "Materiales homologados",
-    "Garantía profesional"
+    "GarantÃ­a profesional"
   ],
   zonasCubiertas: [
-    "Urbanización Santa María de Benquerencia",
+    "UrbanizaciÃ³n Santa MarÃ­a de Benquerencia",
     "Bloques de pisos y comunidades de propietarios",
     "Zona comercial del barrio",
-    "Colegios, centros de salud e instalaciones públicas"
+    "Colegios, centros de salud e instalaciones pÃºblicas"
   ],
   cobertura: [
-    { zona: "Urbanización Santa María de Benquerencia", disponible: true },
+    { zona: "UrbanizaciÃ³n Santa MarÃ­a de Benquerencia", disponible: true },
     { zona: "Bloques de pisos y comunidades de propietarios", disponible: true },
     { zona: "Zona comercial del barrio", disponible: true },
-    { zona: "Colegios, centros de salud e instalaciones públicas", disponible: true }
+    { zona: "Colegios, centros de salud e instalaciones pÃºblicas", disponible: true }
   ],
   testimonios: [
     {
       nombre: "Administradora de comunidad en Benquerencia",
-      comentario: "Llevamos años confiando en ellos para el mantenimiento de las antenas colectivas de los bloques que administro en Benquerencia. Siempre puntuales, eficientes y con precios justos.",
+      comentario: "Llevamos aÃ±os confiando en ellos para el mantenimiento de las antenas colectivas de los bloques que administro en Benquerencia. Siempre puntuales, eficientes y con precios justos.",
       puntuacion: 5
     },
     {
       nombre: "Propietario de piso en Benquerencia",
-      comentario: "Llamé por un problema de interferencias en la TDT. Vinieron el mismo día, colocaron un filtro 5G y comprobaron toda la instalación. La señal es ahora perfecta. Muy rápidos y profesionales.",
+      comentario: "LlamÃ© por un problema de interferencias en la TDT. Vinieron el mismo dÃ­a, colocaron un filtro 5G y comprobaron toda la instalaciÃ³n. La seÃ±al es ahora perfecta. Muy rÃ¡pidos y profesionales.",
       puntuacion: 5
     },
     {
       nombre: "Presidente de comunidad",
-      comentario: "Renovamos la instalación de antena colectiva de nuestro bloque de 24 pisos. El trabajo se realizó en dos días y todos los vecinos están encantados con la mejora de la imagen.",
+      comentario: "Renovamos la instalaciÃ³n de antena colectiva de nuestro bloque de 24 pisos. El trabajo se realizÃ³ en dos dÃ­as y todos los vecinos estÃ¡n encantados con la mejora de la imagen.",
       puntuacion: 5
     }
   ],
@@ -75,31 +75,31 @@ const municipioData = {
     },
     {
       titulo: "Presupuesto Claro",
-      descripcion: "Presupuesto cerrado y detallado antes de iniciar ningún trabajo.",
+      descripcion: "Presupuesto cerrado y detallado antes de iniciar ningÃºn trabajo.",
       icono: "Eye"
     },
     {
-      titulo: "Garantía Incluida",
-      descripcion: "Garantía completa por escrito en todas las instalaciones y reparaciones.",
+      titulo: "GarantÃ­a Incluida",
+      descripcion: "GarantÃ­a completa por escrito en todas las instalaciones y reparaciones.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¿Cuánto cuesta cambiar la antena colectiva en un bloque de Benquerencia?",
-      answer: "El precio depende del número de viviendas, la altura del edificio y el equipamiento necesario. Para bloques de más de 10 viviendas realizamos visita técnica gratuita y presentamos presupuesto desglosado a la comunidad."
+      question: "Â¿CuÃ¡nto cuesta cambiar la antena colectiva en un bloque de Benquerencia?",
+      answer: "El precio depende del nÃºmero de viviendas, la altura del edificio y el equipamiento necesario. Para bloques de mÃ¡s de 10 viviendas realizamos visita tÃ©cnica gratuita y presentamos presupuesto desglosado a la comunidad."
     },
     {
-      question: "¿Pueden instalar parabólica en un piso de Benquerencia para ver canales árabes o sudamericanos?",
-      answer: "Sí. Instalamos antenas parabólicas individuales o colectivas para recibir los satélites Arabsat, Hot Bird o Hispasat, permitiendo el acceso a canales de distintos países y regiones."
+      question: "Â¿Pueden instalar parabÃ³lica en un piso de Benquerencia para ver canales Ã¡rabes o sudamericanos?",
+      answer: "SÃ­. Instalamos antenas parabÃ³licas individuales o colectivas para recibir los satÃ©lites Arabsat, Hot Bird o Hispasat, permitiendo el acceso a canales de distintos paÃ­ses y regiones."
     },
     {
-      question: "¿Trabajan con las grandes constructoras y promotoras de la zona?",
-      answer: "Sí. Colaboramos con promotoras, constructoras y administradores de fincas para instalaciones en edificios nuevos y rehabilitaciones. Ofrecemos condiciones especiales para grandes proyectos."
+      question: "Â¿Trabajan con las grandes constructoras y promotoras de la zona?",
+      answer: "SÃ­. Colaboramos con promotoras, constructoras y administradores de fincas para instalaciones en edificios nuevos y rehabilitaciones. Ofrecemos condiciones especiales para grandes proyectos."
     },
     {
-      question: "¿Qué hago si mi vecino tiene interferencias pero yo no, o viceversa?",
-      answer: "Las interferencias pueden ser localizadas o afectar a todo el edificio dependiendo del tramo de instalación afectado. Hacemos un diagnóstico por pisos para localizar el origen exacto y aplicar la solución más eficiente."
+      question: "Â¿QuÃ© hago si mi vecino tiene interferencias pero yo no, o viceversa?",
+      answer: "Las interferencias pueden ser localizadas o afectar a todo el edificio dependiendo del tramo de instalaciÃ³n afectado. Hacemos un diagnÃ³stico por pisos para localizar el origen exacto y aplicar la soluciÃ³n mÃ¡s eficiente."
     }
   ]
 };
@@ -170,9 +170,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: `Antenista en Santa María Benquerencia Toledo | ?? 668 67 95 00`,
-  description: `Antenista en Sta. Mª Benquerencia, Toledo. TDT, parabólicas, videoporteros y cámaras para comunidades del mayor barrio residencial del  de Toledo.`,
-  keywords: `antenista Benquerencia Toledo, antenas TDT Santa María Benquerencia, instalación antenas Toledo , reparación antenas Benquerencia, videoportero bloques Toledo`,
+  title: `Antenista en Santa MarÃ­a Benquerencia Toledo | ?? 668 67 95 00`,
+  description: `Antenista en Sta. MÂª Benquerencia, Toledo. TDT, parabÃ³licas, videoporteros y cÃ¡maras para comunidades del mayor barrio residencial del  de Toledo.`,
+  keywords: `antenista Benquerencia Toledo, antenas TDT Santa MarÃ­a Benquerencia, instalaciÃ³n antenas Toledo , reparaciÃ³n antenas Benquerencia, videoportero bloques Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-sta-m-benquerencia'
   },
@@ -210,20 +210,20 @@ export default function StaMBenquerenciaPage() {
                     <span>/</span>
                     <Link href="/servicios" className="hover:text-brand-green transition-colors">Servicios</Link>
                     <span>/</span>
-                    <span className="text-brand-green font-medium">Sta. Mª Benquerencia</span>
+                    <span className="text-brand-green font-medium">Sta. MÂª Benquerencia</span>
                   </nav>
                   <div className="space-y-6">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight">
-                      Antenista profesional en Santa María de Benquerencia, Toledo
+                      Antenista profesional en Santa MarÃ­a de Benquerencia, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Prestamos servicio de antenista en Santa María de Benquerencia, la gran urbanización residencial al  de Toledo. Con más de 25 años de experiencia, somos especialistas en instalaciones para grandes comunidades de vecinos, bloques residenciales y equipamientos del barrio. Atendemos desde urgencias individuales hasta proyectos de renovación completa de instalaciones colectivas.
+                      Prestamos servicio de antenista en Santa MarÃ­a de Benquerencia, la gran urbanizaciÃ³n residencial al  de Toledo. Con mÃ¡s de 25 aÃ±os de experiencia, somos especialistas en instalaciones para grandes comunidades de vecinos, bloques residenciales y equipamientos del barrio. Atendemos desde urgencias individuales hasta proyectos de renovaciÃ³n completa de instalaciones colectivas.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervención
+                      Contactar para una intervenciÃ³n
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -232,7 +232,7 @@ export default function StaMBenquerenciaPage() {
                 </div>
                 <div className="relative">
                   <div className="mt-20 flex justify-center relative overflow-hidden rounded-xl">
-                    <Image src="/images/telecom/antenistas-en-toledo-.jpg" alt="Antenista profesional en Santa María de Benquerencia Toledo" width={400} height={200} priority />
+                    <Image src="/images/telecom/antenistas-en-toledo-.jpg" alt="Antenista profesional en Santa MarÃ­a de Benquerencia Toledo" width={400} height={200} priority />
                   </div>
                 </div>
               </div>
@@ -242,8 +242,8 @@ export default function StaMBenquerenciaPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Benquerencia y urbanización</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la urbanización de Santa María de Benquerencia con técnicos especializados en grandes comunidades.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Benquerencia y urbanizaciÃ³n</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la urbanizaciÃ³n de Santa MarÃ­a de Benquerencia con tÃ©cnicos especializados en grandes comunidades.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -253,7 +253,7 @@ export default function StaMBenquerenciaPage() {
                     </div>
                     <div>
                       <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en Benquerencia</h3>
-                      <p className="text-brand-black-light">Antenista profesional en toda la urbanización</p>
+                      <p className="text-brand-black-light">Antenista profesional en toda la urbanizaciÃ³n</p>
                     </div>
                   </div>
                   <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -278,8 +278,8 @@ export default function StaMBenquerenciaPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones técnicas completas para Benquerencia  de Toledo.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catÃ¡logo de servicios especializados</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones tÃ©cnicas completas para Benquerencia  de Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -292,8 +292,8 @@ export default function StaMBenquerenciaPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Años de experiencia en grandes urbanizaciones como Benquerencia.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© confiar en nuestro servicio tÃ©cnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">AÃ±os de experiencia en grandes urbanizaciones como Benquerencia.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -313,7 +313,7 @@ export default function StaMBenquerenciaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en Benquerencia</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Comunidades y vecinos de Benquerencia que confían en nuestro servicio.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Comunidades y vecinos de Benquerencia que confÃ­an en nuestro servicio.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -338,7 +338,7 @@ export default function StaMBenquerenciaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios en Benquerencia</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Respondemos las preguntas más habituales de los vecinos del barrio.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Respondemos las preguntas mÃ¡s habituales de los vecinos del barrio.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (

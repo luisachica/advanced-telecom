@@ -19,46 +19,46 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45001",
-  descripcion: "Antenista profesional en Los Cigarrales, Toledo. Especialistas en instalación de antenas TDT, parabólicas y sistemas de seguridad para chalets, fincas y villas con vistas a la ciudad histórica.",
+  descripcion: "Antenista profesional en Los Cigarrales, Toledo. Especialistas en instalaciÃ³n de antenas TDT, parabÃ³licas y sistemas de seguridad para chalets, fincas y villas con vistas a la ciudad histÃ³rica.",
   servicios: [
-    "Instalación y reparación de antenas TDT",
-    "Instalación y orientación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias 5G",
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT",
+    "InstalaciÃ³n y orientaciÃ³n de antenas parabÃ³licas",
+    "Sistemas de videoportero y portero automÃ¡tico",
+    "InstalaciÃ³n de videovigilancia (CCTV)",
+    "SoluciÃ³n a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
     "Especialistas en chalets y villas",
     "Materiales de primera calidad",
-    "Garantía profesional"
+    "GarantÃ­a profesional"
   ],
   zonasCubiertas: [
     "Los Cigarrales (zona de chalets y fincas)",
     "Villas y residencias con vistas a Toledo",
-    "Hoteles y establecimientos turísticos de la zona",
+    "Hoteles y establecimientos turÃ­sticos de la zona",
     "Propiedades privadas en las laderas del Tajo"
   ],
   cobertura: [
     { zona: "Los Cigarrales (zona de chalets y fincas)", disponible: true },
     { zona: "Villas y residencias con vistas a Toledo", disponible: true },
-    { zona: "Hoteles y establecimientos turísticos de la zona", disponible: true },
+    { zona: "Hoteles y establecimientos turÃ­sticos de la zona", disponible: true },
     { zona: "Propiedades privadas en las laderas del Tajo", disponible: true }
   ],
   testimonios: [
     {
       nombre: "Propietario de villa en Los Cigarrales",
-      comentario: "Instalaron una parabólica de gran diámetro orientada a Astra para recibir canales alemanes. El resultado fue perfecto desde el primer día y el trabajo muy cuidado en nuestra propiedad.",
+      comentario: "Instalaron una parabÃ³lica de gran diÃ¡metro orientada a Astra para recibir canales alemanes. El resultado fue perfecto desde el primer dÃ­a y el trabajo muy cuidado en nuestra propiedad.",
       puntuacion: 5
     },
     {
       nombre: "Gerente de hotel en Los Cigarrales",
-      comentario: "Renovaron todo el sistema de antenas colectivas del hotel y ampliaron las cámaras de seguridad. Trabajo muy profesional, discreto y sin interferir en la actividad del establecimiento.",
+      comentario: "Renovaron todo el sistema de antenas colectivas del hotel y ampliaron las cÃ¡maras de seguridad. Trabajo muy profesional, discreto y sin interferir en la actividad del establecimiento.",
       puntuacion: 5
     },
     {
       nombre: "Propietaria de chalet",
-      comentario: "Instalaron videoportero con cámara HD y sistema de cámaras perimetrales en nuestro chalet. Muy satisfecha con la calidad y con la explicación detallada del funcionamiento.",
+      comentario: "Instalaron videoportero con cÃ¡mara HD y sistema de cÃ¡maras perimetrales en nuestro chalet. Muy satisfecha con la calidad y con la explicaciÃ³n detallada del funcionamiento.",
       puntuacion: 5
     }
   ],
@@ -70,7 +70,7 @@ const municipioData = {
     },
     {
       titulo: "Materiales Premium",
-      descripcion: "Equipos y componentes de gama alta, homologados y estéticamente integrados en la propiedad.",
+      descripcion: "Equipos y componentes de gama alta, homologados y estÃ©ticamente integrados en la propiedad.",
       icono: "Shield"
     },
     {
@@ -79,27 +79,27 @@ const municipioData = {
       icono: "Eye"
     },
     {
-      titulo: "Garantía Completa",
-      descripcion: "Garantía profesional por escrito en todas las instalaciones realizadas.",
+      titulo: "GarantÃ­a Completa",
+      descripcion: "GarantÃ­a profesional por escrito en todas las instalaciones realizadas.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¿Cómo es la cobertura TDT en Los Cigarrales?",
-      answer: "Los Cigarrales, al estar en las colinas frente a Toledo, suele tener buena línea de visión hacia los repetidores. No obstante, algunas propiedades en posiciones más bajas o rodeadas de vegetación pueden necesitar amplificadores o antenas de mayor ganancia."
+      question: "Â¿CÃ³mo es la cobertura TDT en Los Cigarrales?",
+      answer: "Los Cigarrales, al estar en las colinas frente a Toledo, suele tener buena lÃ­nea de visiÃ³n hacia los repetidores. No obstante, algunas propiedades en posiciones mÃ¡s bajas o rodeadas de vegetaciÃ³n pueden necesitar amplificadores o antenas de mayor ganancia."
     },
     {
-      question: "¿Instalan sistemas de sonido e imagen para hoteles en Los Cigarrales?",
-      answer: "Nos especializamos en telecomunicaciones (TDT, parabólica, videoportero y videovigilancia). Para distribución de señal de televisión en habitaciones de hotel realizamos instalaciones de antena colectiva con distribución a múltiples tomas."
+      question: "Â¿Instalan sistemas de sonido e imagen para hoteles en Los Cigarrales?",
+      answer: "Nos especializamos en telecomunicaciones (TDT, parabÃ³lica, videoportero y videovigilancia). Para distribuciÃ³n de seÃ±al de televisiÃ³n en habitaciones de hotel realizamos instalaciones de antena colectiva con distribuciÃ³n a mÃºltiples tomas."
     },
     {
-      question: "¿Pueden integrar las cámaras con el sistema de alarma existente?",
-      answer: "Nuestros sistemas de videovigilancia son compatibles con la mayoría de centrales de alarma del mercado. Consultamos la instalación existente antes de proponer la solución más adecuada."
+      question: "Â¿Pueden integrar las cÃ¡maras con el sistema de alarma existente?",
+      answer: "Nuestros sistemas de videovigilancia son compatibles con la mayorÃ­a de centrales de alarma del mercado. Consultamos la instalaciÃ³n existente antes de proponer la soluciÃ³n mÃ¡s adecuada."
     },
     {
-      question: "¿Realizan mantenimiento periódico de instalaciones en Los Cigarrales?",
-      answer: "Sí. Ofrecemos contratos de mantenimiento preventivo anuales para sistemas de antenas y videovigilancia, especialmente indicados para propiedades de uso vacacional o establecimientos turísticos."
+      question: "Â¿Realizan mantenimiento periÃ³dico de instalaciones en Los Cigarrales?",
+      answer: "SÃ­. Ofrecemos contratos de mantenimiento preventivo anuales para sistemas de antenas y videovigilancia, especialmente indicados para propiedades de uso vacacional o establecimientos turÃ­sticos."
     }
   ]
 };
@@ -171,8 +171,8 @@ const structuredData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Los Cigarrales Toledo | ?? 668 67 95 00`,
-  description: `Antenista en Los Cigarrales, Toledo. TDT, parabólicas, videoporteros y cámaras para chalets, villas y hoteles. Presupuesto sin compromiso.`,
-  keywords: `antenista Los Cigarrales Toledo, antenas parabólicas chalets Toledo, instalación TDT Los Cigarrales, cámaras seguridad chalets Toledo, antenista villas Toledo`,
+  description: `Antenista en Los Cigarrales, Toledo. TDT, parabÃ³licas, videoporteros y cÃ¡maras para chalets, villas y hoteles. Presupuesto sin compromiso.`,
+  keywords: `antenista Los Cigarrales Toledo, antenas parabÃ³licas chalets Toledo, instalaciÃ³n TDT Los Cigarrales, cÃ¡maras seguridad chalets Toledo, antenista villas Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-los-cigarrales'
   },
@@ -217,13 +217,13 @@ export default function LosCigarralesPage() {
                       Antenista profesional en Los Cigarrales, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos servicio de antenista especializado en Los Cigarrales, la icónica zona de chalets y fincas con vistas a la Toledo histórica, en las colinas al otro lado del río Tajo. Atendemos instalaciones para propiedades privadas, hoteles y establecimientos turísticos, con especial experiencia en parabólicas de gran formato, sistemas de videovigilancia avanzados y videoporteros de altas prestaciones.
+                      Ofrecemos servicio de antenista especializado en Los Cigarrales, la icÃ³nica zona de chalets y fincas con vistas a la Toledo histÃ³rica, en las colinas al otro lado del rÃ­o Tajo. Atendemos instalaciones para propiedades privadas, hoteles y establecimientos turÃ­sticos, con especial experiencia en parabÃ³licas de gran formato, sistemas de videovigilancia avanzados y videoporteros de altas prestaciones.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervención
+                      Contactar para una intervenciÃ³n
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -243,7 +243,7 @@ export default function LosCigarralesPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Los Cigarrales y sus fincas</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la zona de Los Cigarrales, incluyendo las propiedades más alejadas del núcleo urbano.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la zona de Los Cigarrales, incluyendo las propiedades mÃ¡s alejadas del nÃºcleo urbano.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -267,7 +267,7 @@ export default function LosCigarralesPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Servicio de urgencia disponible con respuesta en el mismo día.</span>
+                      <span>Servicio de urgencia disponible con respuesta en el mismo dÃ­a.</span>
                     </div>
                   </div>
                 </div>
@@ -278,7 +278,7 @@ export default function LosCigarralesPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catÃ¡logo de servicios especializados</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones de alto nivel para propiedades exclusivas en Los Cigarrales.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -292,8 +292,8 @@ export default function LosCigarralesPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia y discreción en cada instalación en propiedades de Los Cigarrales.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© confiar en nuestro servicio tÃ©cnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia y discreciÃ³n en cada instalaciÃ³n en propiedades de Los Cigarrales.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -338,7 +338,7 @@ export default function LosCigarralesPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios en Los Cigarrales</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Información útil para propietarios e inquilinos de Los Cigarrales.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">InformaciÃ³n Ãºtil para propietarios e inquilinos de Los Cigarrales.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (

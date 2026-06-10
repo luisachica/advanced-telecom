@@ -19,46 +19,46 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45005",
-  descripcion: "Antenista profesional en Olivar de los Pozos, Toledo. Instalación y reparación de antenas TDT, parabólicas, videoporteros y sistemas de seguridad para chalets y comunidades residenciales.",
+  descripcion: "Antenista profesional en Olivar de los Pozos, Toledo. InstalaciÃ³n y reparaciÃ³n de antenas TDT, parabÃ³licas, videoporteros y sistemas de seguridad para chalets y comunidades residenciales.",
   servicios: [
-    "Instalación y reparación de antenas TDT",
-    "Instalación y orientación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias 5G",
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT",
+    "InstalaciÃ³n y orientaciÃ³n de antenas parabÃ³licas",
+    "Sistemas de videoportero y portero automÃ¡tico",
+    "InstalaciÃ³n de videovigilancia (CCTV)",
+    "SoluciÃ³n a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
     "Especialistas en urbanizaciones",
     "Materiales homologados",
-    "Garantía profesional"
+    "GarantÃ­a profesional"
   ],
   zonasCubiertas: [
-    "Urbanización Olivar de los Pozos",
-    "Chalets y adosados de la urbanización",
+    "UrbanizaciÃ³n Olivar de los Pozos",
+    "Chalets y adosados de la urbanizaciÃ³n",
     "Comunidades de propietarios",
-    "Zonas residenciales próximas"
+    "Zonas residenciales prÃ³ximas"
   ],
   cobertura: [
-    { zona: "Urbanización Olivar de los Pozos", disponible: true },
-    { zona: "Chalets y adosados de la urbanización", disponible: true },
+    { zona: "UrbanizaciÃ³n Olivar de los Pozos", disponible: true },
+    { zona: "Chalets y adosados de la urbanizaciÃ³n", disponible: true },
     { zona: "Comunidades de propietarios", disponible: true },
-    { zona: "Zonas residenciales próximas", disponible: true }
+    { zona: "Zonas residenciales prÃ³ximas", disponible: true }
   ],
   testimonios: [
     {
       nombre: "Propietario en Olivar de los Pozos",
-      comentario: "Instalaron el sistema completo de antenas en nuestro adosado. Perfecta recepción de TDT en todas las habitaciones y la parabólica orientada a la perfección. Trabajo impecable.",
+      comentario: "Instalaron el sistema completo de antenas en nuestro adosado. Perfecta recepciÃ³n de TDT en todas las habitaciones y la parabÃ³lica orientada a la perfecciÃ³n. Trabajo impecable.",
       puntuacion: 5
     },
     {
-      nombre: "Vecina de la urbanización",
-      comentario: "Llevaba meses con problemas de señal. El técnico llegó puntual, diagnosticó el problema en el amplificador y lo solucionó en una visita. Muy profesionales y amables.",
+      nombre: "Vecina de la urbanizaciÃ³n",
+      comentario: "Llevaba meses con problemas de seÃ±al. El tÃ©cnico llegÃ³ puntual, diagnosticÃ³ el problema en el amplificador y lo solucionÃ³ en una visita. Muy profesionales y amables.",
       puntuacion: 5
     },
     {
       nombre: "Administrador de la comunidad",
-      comentario: "Nos renovaron el videoportero y la instalación de antena colectiva. El presupuesto fue muy ajustado y el trabajo de calidad. Los recomiendo sin dudarlo.",
+      comentario: "Nos renovaron el videoportero y la instalaciÃ³n de antena colectiva. El presupuesto fue muy ajustado y el trabajo de calidad. Los recomiendo sin dudarlo.",
       puntuacion: 5
     }
   ],
@@ -79,27 +79,27 @@ const municipioData = {
       icono: "Eye"
     },
     {
-      titulo: "Garantía Completa",
-      descripcion: "Garantía por escrito en todas nuestras instalaciones y reparaciones.",
+      titulo: "GarantÃ­a Completa",
+      descripcion: "GarantÃ­a por escrito en todas nuestras instalaciones y reparaciones.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¿Pueden instalar antena en un adosado sin tejado propio en Olivar de los Pozos?",
-      answer: "Sí. En adosados solemos instalar la antena en la cubierta propia o en fachada, según las posibilidades. Si la comunidad tiene instalación colectiva, también podemos conectar su vivienda a ella."
+      question: "Â¿Pueden instalar antena en un adosado sin tejado propio en Olivar de los Pozos?",
+      answer: "SÃ­. En adosados solemos instalar la antena en la cubierta propia o en fachada, segÃºn las posibilidades. Si la comunidad tiene instalaciÃ³n colectiva, tambiÃ©n podemos conectar su vivienda a ella."
     },
     {
-      question: "¿Cuánto tarda la instalación de un sistema de videovigilancia completo?",
-      answer: "Un sistema de 4-6 cámaras con grabador, monitor y acceso remoto suele instalarse en una jornada de trabajo. Para sistemas más complejos o propiedades más grandes, puede ser necesario un segundo día."
+      question: "Â¿CuÃ¡nto tarda la instalaciÃ³n de un sistema de videovigilancia completo?",
+      answer: "Un sistema de 4-6 cÃ¡maras con grabador, monitor y acceso remoto suele instalarse en una jornada de trabajo. Para sistemas mÃ¡s complejos o propiedades mÃ¡s grandes, puede ser necesario un segundo dÃ­a."
     },
     {
-      question: "¿Pueden instalar antena en una segunda residencia que uso solo en verano?",
-      answer: "Por supuesto. Muchos de nuestros clientes tienen segunda residencia en Toledo. Nos adaptamos a su disponibilidad y realizamos la instalación en el momento que le convenga."
+      question: "Â¿Pueden instalar antena en una segunda residencia que uso solo en verano?",
+      answer: "Por supuesto. Muchos de nuestros clientes tienen segunda residencia en Toledo. Nos adaptamos a su disponibilidad y realizamos la instalaciÃ³n en el momento que le convenga."
     },
     {
-      question: "¿Qué diferencia hay entre un amplificador monocanal y uno multicanal para TDT?",
-      answer: "El amplificador monocanal amplifica frecuencias específicas con mayor ganancia y es ideal para casos de señal débil en un canal concreto. El multicanal amplifica toda la banda y es más común en instalaciones estándar."
+      question: "Â¿QuÃ© diferencia hay entre un amplificador monocanal y uno multicanal para TDT?",
+      answer: "El amplificador monocanal amplifica frecuencias especÃ­ficas con mayor ganancia y es ideal para casos de seÃ±al dÃ©bil en un canal concreto. El multicanal amplifica toda la banda y es mÃ¡s comÃºn en instalaciones estÃ¡ndar."
     }
   ]
 };
@@ -171,8 +171,8 @@ const structuredData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Olivar de los Pozos Toledo | ?? 668 67 95 00`,
-  description: `Antenista en Olivar de los Pozos, Toledo. TDT, parabólicas, videoporteros y cámaras para chalets, adosados y comunidades. Presupuesto gratuito.`,
-  keywords: `antenista Olivar de los Pozos Toledo, antenas TDT Toledo, instalación antenas chalets Toledo, cámaras seguridad urbanización Toledo, antenista adosados Toledo`,
+  description: `Antenista en Olivar de los Pozos, Toledo. TDT, parabÃ³licas, videoporteros y cÃ¡maras para chalets, adosados y comunidades. Presupuesto gratuito.`,
+  keywords: `antenista Olivar de los Pozos Toledo, antenas TDT Toledo, instalaciÃ³n antenas chalets Toledo, cÃ¡maras seguridad urbanizaciÃ³n Toledo, antenista adosados Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-olivar-de-los-pozos'
   },
@@ -217,13 +217,13 @@ export default function OlivarDeLosPozosPage() {
                       Antenista profesional en Olivar de los Pozos, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos servicio de antenista en la urbanización Olivar de los Pozos de Toledo. Especializados en instalaciones para chalets, adosados y comunidades residenciales, cubrimos todas las necesidades: antenas TDT, parabólicas, videoporteros y sistemas de videovigilancia. Presupuesto sin compromiso.
+                      Ofrecemos servicio de antenista en la urbanizaciÃ³n Olivar de los Pozos de Toledo. Especializados en instalaciones para chalets, adosados y comunidades residenciales, cubrimos todas las necesidades: antenas TDT, parabÃ³licas, videoporteros y sistemas de videovigilancia. Presupuesto sin compromiso.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervención
+                      Contactar para una intervenciÃ³n
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -243,7 +243,7 @@ export default function OlivarDeLosPozosPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Olivar de los Pozos</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la urbanización con servicio rápido y técnicos especializados.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos toda la urbanizaciÃ³n con servicio rÃ¡pido y tÃ©cnicos especializados.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -278,7 +278,7 @@ export default function OlivarDeLosPozosPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catÃ¡logo de servicios especializados</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones completas para su hogar en Olivar de los Pozos.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -292,8 +292,8 @@ export default function OlivarDeLosPozosPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Profesionalidad y resultados en cada instalación.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© confiar en nuestro servicio tÃ©cnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Profesionalidad y resultados en cada instalaciÃ³n.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -313,7 +313,7 @@ export default function OlivarDeLosPozosPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en Olivar de los Pozos</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Vecinos y propietarios satisfechos con nuestro trabajo en la urbanización.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Vecinos y propietarios satisfechos con nuestro trabajo en la urbanizaciÃ³n.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (

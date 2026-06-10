@@ -4,40 +4,40 @@ import StructuredData from '@/components/StructuredData';
 import { withPhone } from '@/lib/seo';
 
 // ==================================================================
-// DATOS Y SEO PARA "ANTENAS PARABÓLICAS"
+// DATOS Y SEO PARA "ANTENAS PARABÃ“LICAS"
 // ==================================================================
 
 const serviceData = {
-  title: "Antenas parabólicas",
+  title: "Antenas parabÃ³licas",
   slug: "servicios/antenas-parabolicas",
-  description: "Instalación y reparación de antenas parabólicas en . Servicio técnico especializado con reorientaciones a satélites.",
+  description: "InstalaciÃ³n y reparaciÃ³n de antenas parabÃ³licas en . Servicio tÃ©cnico especializado con reorientaciones a satÃ©lites.",
   heroImage: "/images/antenas-parabolicas-.webp",
-  shortDescription: "Instalación y reparación de antenas parabólicas con reorientaciones a diferentes satélites.",
-  longDescription: "Nuestro servicio de instalación y reparación de antenas parabólicas está diseñado para ofrecerle acceso a canales internacionales y contenido exclusivo vía satélite. Contamos con técnicos especializados que realizan instalaciones precisas y reorientaciones a diferentes satélites como Astra, Hispasat, Hotbird y más. Trabajamos con los mejores equipos para garantizar una recepción óptima de la señal satelital en cualquier condición.",
+  shortDescription: "InstalaciÃ³n y reparaciÃ³n de antenas parabÃ³licas con reorientaciones a diferentes satÃ©lites.",
+  longDescription: "Nuestro servicio de instalaciÃ³n y reparaciÃ³n de antenas parabÃ³licas estÃ¡ diseÃ±ado para ofrecerle acceso a canales internacionales y contenido exclusivo vÃ­a satÃ©lite. Contamos con tÃ©cnicos especializados que realizan instalaciones precisas y reorientaciones a diferentes satÃ©lites como Astra, Hispasat, Hotbird y mÃ¡s. Trabajamos con los mejores equipos para garantizar una recepciÃ³n Ã³ptima de la seÃ±al satelital en cualquier condiciÃ³n.",
   features: [
-    { title: "Instalación profesional", description: "Montaje preciso de antenas parabólicas orientadas a los satélites que necesite.", iconName: "Sparkles" },
-    { title: "Técnicos especializados", description: "Profesionales con amplia experiencia en sistemas de recepción satelital.", iconName: "Users" },
+    { title: "InstalaciÃ³n profesional", description: "Montaje preciso de antenas parabÃ³licas orientadas a los satÃ©lites que necesite.", iconName: "Sparkles" },
+    { title: "TÃ©cnicos especializados", description: "Profesionales con amplia experiencia en sistemas de recepciÃ³n satelital.", iconName: "Users" },
     { title: "Equipos de calidad", description: "Utilizamos componentes y materiales de primeras marcas para garantizar durabilidad y rendimiento.", iconName: "Wrench" },
-    { title: "Servicio de reorientación", description: "Ajustamos su antena existente para captar nuevos satélites según sus necesidades.", iconName: "Shield" },
+    { title: "Servicio de reorientaciÃ³n", description: "Ajustamos su antena existente para captar nuevos satÃ©lites segÃºn sus necesidades.", iconName: "Shield" },
   ],
   process: [
-    { title: "Evaluación inicial", description: "Analizamos sus necesidades y las condiciones de su ubicación para determinar la mejor solución." },
+    { title: "EvaluaciÃ³n inicial", description: "Analizamos sus necesidades y las condiciones de su ubicaciÃ³n para determinar la mejor soluciÃ³n." },
     { title: "Presupuesto detallado", description: "Le ofrecemos un presupuesto claro y sin sorpresas antes de iniciar cualquier trabajo." },
-    { title: "Instalación profesional", description: "Nuestros técnicos realizan la instalación con precisión, siguiendo todas las normativas de seguridad." },
-    { title: "Configuración y sintonización", description: "Configuramos su receptor y sintonizamos todos los canales disponibles en los satélites seleccionados." },
-    { title: "Servicio post-instalación", description: "Ofrecemos soporte técnico después de la instalación para resolver cualquier duda o incidencia." },
+    { title: "InstalaciÃ³n profesional", description: "Nuestros tÃ©cnicos realizan la instalaciÃ³n con precisiÃ³n, siguiendo todas las normativas de seguridad." },
+    { title: "ConfiguraciÃ³n y sintonizaciÃ³n", description: "Configuramos su receptor y sintonizamos todos los canales disponibles en los satÃ©lites seleccionados." },
+    { title: "Servicio post-instalaciÃ³n", description: "Ofrecemos soporte tÃ©cnico despuÃ©s de la instalaciÃ³n para resolver cualquier duda o incidencia." },
   ],
   faqs: [
-    { question: "¿Qué satélites puedo captar con una antena parabólica?", answer: "Dependiendo de la ubicación y el tipo de instalación, se pueden captar satélites como Astra (canales alemanes, ingleses), Hispasat (canales españoles y portugueses), Hotbird (canales italianos, franceses), entre otros." },
-    { question: "¿Es necesario tener una antena parabólica si ya tengo TDT?", answer: "La TDT ofrece canales nacionales y regionales, mientras que la antena parabólica permite acceder a canales internacionales y contenidos exclusivos no disponibles en la TDT." },
-    { question: "¿Cuánto espacio necesito para instalar una antena parabólica?", answer: "El espacio necesario depende del tamaño de la antena, pero generalmente se requiere un área despejada con buena visibilidad hacia el  para la mayoría de los satélites." },
-    { question: "¿Puedo instalar una antena parabólica en un piso alquilado?", answer: "Generalmente sí, pero es recomendable consultar con el propietario o la comunidad de vecinos, ya que pueden existir normativas específicas al respecto." },
-    { question: "¿Cuánto cuesta instalar una antena parabólica?", answer: "El precio varía según factores como el tipo de antena, la complejidad de la instalación y los materiales necesarios. Ofrecemos presupuestos personalizados sin compromiso." },
+    { question: "Â¿QuÃ© satÃ©lites puedo captar con una antena parabÃ³lica?", answer: "Dependiendo de la ubicaciÃ³n y el tipo de instalaciÃ³n, se pueden captar satÃ©lites como Astra (canales alemanes, ingleses), Hispasat (canales espaÃ±oles y portugueses), Hotbird (canales italianos, franceses), entre otros." },
+    { question: "Â¿Es necesario tener una antena parabÃ³lica si ya tengo TDT?", answer: "La TDT ofrece canales nacionales y regionales, mientras que la antena parabÃ³lica permite acceder a canales internacionales y contenidos exclusivos no disponibles en la TDT." },
+    { question: "Â¿CuÃ¡nto espacio necesito para instalar una antena parabÃ³lica?", answer: "El espacio necesario depende del tamaÃ±o de la antena, pero generalmente se requiere un Ã¡rea despejada con buena visibilidad hacia el  para la mayorÃ­a de los satÃ©lites." },
+    { question: "Â¿Puedo instalar una antena parabÃ³lica en un piso alquilado?", answer: "Generalmente sÃ­, pero es recomendable consultar con el propietario o la comunidad de vecinos, ya que pueden existir normativas especÃ­ficas al respecto." },
+    { question: "Â¿CuÃ¡nto cuesta instalar una antena parabÃ³lica?", answer: "El precio varÃ­a segÃºn factores como el tipo de antena, la complejidad de la instalaciÃ³n y los materiales necesarios. Ofrecemos presupuestos personalizados sin compromiso." },
   ],
   relatedServices: [
     { title: "Antenas TDT", image: "/images/telecom/antena-tdt-instalacion-01.jpg", link: "/servicios/antenas-tdt" },
-    { title: "Cámaras de seguridad", image: "/images/telecom/camaras-seguridad.jpg", link: "/servicios/camaras-seguridad" },
-    { title: "Porteros automáticos", image: "/images/telecom/portero-automatico-instalacion-01.jpg", link: "/servicios/porteros-automaticos" },
+    { title: "CÃ¡maras de seguridad", image: "/images/telecom/camaras-seguridad.jpg", link: "/servicios/camaras-seguridad" },
+    { title: "Porteros automÃ¡ticos", image: "/images/telecom/portero-automatico-instalacion-01.jpg", link: "/servicios/porteros-automaticos" },
   ],
 };
 

@@ -19,53 +19,53 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45001",
-  descripcion: "Antenista profesional en el barrio de Covachuelas, Toledo. Especialistas en antenas TDT, parabólicas, videoporteros y cámaras de seguridad en el barrio histórico bajo el Alcázar.",
+  descripcion: "Antenista profesional en el barrio de Covachuelas, Toledo. Especialistas en antenas TDT, parabÃ³licas, videoporteros y cÃ¡maras de seguridad en el barrio histÃ³rico bajo el AlcÃ¡zar.",
   servicios: [
-    "Instalación y reparación de antenas TDT",
-    "Instalación y orientación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias 5G",
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT",
+    "InstalaciÃ³n y orientaciÃ³n de antenas parabÃ³licas",
+    "Sistemas de videoportero y portero automÃ¡tico",
+    "InstalaciÃ³n de videovigilancia (CCTV)",
+    "SoluciÃ³n a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Experiencia en el casco histórico",
+    "Experiencia en el casco histÃ³rico",
     "Materiales homologados",
-    "Garantía profesional"
+    "GarantÃ­a profesional"
   ],
   zonasCubiertas: [
     "Barrio de Covachuelas",
-    "Zona baja del casco histórico de Toledo",
-    "Calles del entorno del Alcázar",
-    "Edificios históricos y viviendas rehabilitadas"
+    "Zona baja del casco histÃ³rico de Toledo",
+    "Calles del entorno del AlcÃ¡zar",
+    "Edificios histÃ³ricos y viviendas rehabilitadas"
   ],
   cobertura: [
     { zona: "Barrio de Covachuelas", disponible: true },
-    { zona: "Zona baja del casco histórico de Toledo", disponible: true },
-    { zona: "Calles del entorno del Alcázar", disponible: true },
-    { zona: "Edificios históricos y viviendas rehabilitadas", disponible: true }
+    { zona: "Zona baja del casco histÃ³rico de Toledo", disponible: true },
+    { zona: "Calles del entorno del AlcÃ¡zar", disponible: true },
+    { zona: "Edificios histÃ³ricos y viviendas rehabilitadas", disponible: true }
   ],
   testimonios: [
     {
       nombre: "Vecino de Covachuelas",
-      comentario: "Instalaron la antena en mi vivienda rehabilitada respetando la estética del edificio histórico. Trabajo muy cuidado y la señal perfecta. Los recomiendo totalmente.",
+      comentario: "Instalaron la antena en mi vivienda rehabilitada respetando la estÃ©tica del edificio histÃ³rico. Trabajo muy cuidado y la seÃ±al perfecta. Los recomiendo totalmente.",
       puntuacion: 5
     },
     {
-      nombre: "Propietaria de casa en el casco histórico",
-      comentario: "Necesitaba solucionar el problema de pixelación sin alterar la fachada protegida. El técnico buscó la solución idónea y la ejecutó a la perfección. Muy profesionales.",
+      nombre: "Propietaria de casa en el casco histÃ³rico",
+      comentario: "Necesitaba solucionar el problema de pixelaciÃ³n sin alterar la fachada protegida. El tÃ©cnico buscÃ³ la soluciÃ³n idÃ³nea y la ejecutÃ³ a la perfecciÃ³n. Muy profesionales.",
       puntuacion: 5
     },
     {
       nombre: "Hostelero del barrio",
-      comentario: "Instalaron las cámaras de seguridad en mi establecimiento con total discreción. El sistema funciona fenomenal y el precio fue muy competitivo. Sin duda volveré a contar con ellos.",
+      comentario: "Instalaron las cÃ¡maras de seguridad en mi establecimiento con total discreciÃ³n. El sistema funciona fenomenal y el precio fue muy competitivo. Sin duda volverÃ© a contar con ellos.",
       puntuacion: 5
     }
   ],
   caracteristicas: [
     {
       titulo: "Respeto al Patrimonio",
-      descripcion: "Instalamos respetando la normativa y estética de los edificios históricos protegidos.",
+      descripcion: "Instalamos respetando la normativa y estÃ©tica de los edificios histÃ³ricos protegidos.",
       icono: "Briefcase"
     },
     {
@@ -75,31 +75,31 @@ const municipioData = {
     },
     {
       titulo: "Presupuesto Detallado",
-      descripcion: "Visita técnica previa y presupuesto cerrado por escrito sin compromiso.",
+      descripcion: "Visita tÃ©cnica previa y presupuesto cerrado por escrito sin compromiso.",
       icono: "Eye"
     },
     {
-      titulo: "Garantía Profesional",
-      descripcion: "Garantía completa en todas las instalaciones y reparaciones realizadas.",
+      titulo: "GarantÃ­a Profesional",
+      descripcion: "GarantÃ­a completa en todas las instalaciones y reparaciones realizadas.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¿Pueden instalar antenas en viviendas históricas de Covachuelas?",
-      answer: "Sí. Tenemos amplia experiencia trabajando en el casco histórico de Toledo. Respetamos las restricciones estéticas y patrimoniales, y conocemos los procedimientos para intervenir correctamente en edificios protegidos."
+      question: "Â¿Pueden instalar antenas en viviendas histÃ³ricas de Covachuelas?",
+      answer: "SÃ­. Tenemos amplia experiencia trabajando en el casco histÃ³rico de Toledo. Respetamos las restricciones estÃ©ticas y patrimoniales, y conocemos los procedimientos para intervenir correctamente en edificios protegidos."
     },
     {
-      question: "¿Hay alguna restricción para instalar parabólica en el casco histórico?",
-      answer: "El casco histórico de Toledo tiene normativas específicas sobre instalaciones visibles en fachada. Asesoramos sobre las opciones disponibles que cumplan la normativa: instalaciones en tejado, patios interiores o fachadas traseras."
+      question: "Â¿Hay alguna restricciÃ³n para instalar parabÃ³lica en el casco histÃ³rico?",
+      answer: "El casco histÃ³rico de Toledo tiene normativas especÃ­ficas sobre instalaciones visibles en fachada. Asesoramos sobre las opciones disponibles que cumplan la normativa: instalaciones en tejado, patios interiores o fachadas traseras."
     },
     {
-      question: "¿La señal TDT es buena en Covachuelas, tan cerca del Alcázar?",
-      answer: "La zona del Alcázar y sus alrededores generalmente tiene buena cobertura TDT. El Alcázar actúa como punto elevado favorable. En los puntos más bajos del barrio puede ser necesario un amplificador de señal."
+      question: "Â¿La seÃ±al TDT es buena en Covachuelas, tan cerca del AlcÃ¡zar?",
+      answer: "La zona del AlcÃ¡zar y sus alrededores generalmente tiene buena cobertura TDT. El AlcÃ¡zar actÃºa como punto elevado favorable. En los puntos mÃ¡s bajos del barrio puede ser necesario un amplificador de seÃ±al."
     },
     {
-      question: "¿Instalan sistemas de seguridad para alojamientos turísticos en el casco histórico?",
-      answer: "Sí. Instalamos sistemas de videovigilancia y control de acceso para apartamentos turísticos y casas rurales del casco histórico, con soluciones modernas que no alteran la estética del inmueble."
+      question: "Â¿Instalan sistemas de seguridad para alojamientos turÃ­sticos en el casco histÃ³rico?",
+      answer: "SÃ­. Instalamos sistemas de videovigilancia y control de acceso para apartamentos turÃ­sticos y casas rurales del casco histÃ³rico, con soluciones modernas que no alteran la estÃ©tica del inmueble."
     }
   ]
 };
@@ -171,8 +171,8 @@ const structuredData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Covachuelas Toledo | ?? 668 67 95 00`,
-  description: `Antenista en Covachuelas, casco histórico de Toledo. TDT, parabólicas, videoporteros y cámaras para el barrio histórico. Presupuesto sin compromiso.`,
-  keywords: `antenista Covachuelas Toledo, antenas TDT casco histórico Toledo, instalación antenas barrio Covachuelas, antenista Toledo histórico, videoportero Covachuelas Toledo`,
+  description: `Antenista en Covachuelas, casco histÃ³rico de Toledo. TDT, parabÃ³licas, videoporteros y cÃ¡maras para el barrio histÃ³rico. Presupuesto sin compromiso.`,
+  keywords: `antenista Covachuelas Toledo, antenas TDT casco histÃ³rico Toledo, instalaciÃ³n antenas barrio Covachuelas, antenista Toledo histÃ³rico, videoportero Covachuelas Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-covachuelas'
   },
@@ -217,13 +217,13 @@ export default function CovachuelasPage() {
                       Antenista profesional en Covachuelas, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Prestamos servicio de antenista en el histórico barrio de Covachuelas, situado en la ladera bajo el Alcázar de Toledo. Nuestros técnicos tienen amplia experiencia en instalaciones dentro del casco histórico, respetando tanto las normativas patrimoniales como la estética de los edificios. Atendemos viviendas, alojamientos turísticos y establecimientos hosteleros.
+                      Prestamos servicio de antenista en el histÃ³rico barrio de Covachuelas, situado en la ladera bajo el AlcÃ¡zar de Toledo. Nuestros tÃ©cnicos tienen amplia experiencia en instalaciones dentro del casco histÃ³rico, respetando tanto las normativas patrimoniales como la estÃ©tica de los edificios. Atendemos viviendas, alojamientos turÃ­sticos y establecimientos hosteleros.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervención
+                      Contactar para una intervenciÃ³n
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -242,8 +242,8 @@ export default function CovachuelasPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Covachuelas y el casco histórico</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos el barrio de Covachuelas y las zonas del centro histórico de Toledo adyacentes.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Covachuelas y el casco histÃ³rico</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos el barrio de Covachuelas y las zonas del centro histÃ³rico de Toledo adyacentes.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -267,7 +267,7 @@ export default function CovachuelasPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Servicio urgente con respuesta en menos de 2 horas en el casco histórico.</span>
+                      <span>Servicio urgente con respuesta en menos de 2 horas en el casco histÃ³rico.</span>
                     </div>
                   </div>
                 </div>
@@ -278,8 +278,8 @@ export default function CovachuelasPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones de telecomunicaciones para el barrio histórico de Covachuelas.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catÃ¡logo de servicios especializados</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones de telecomunicaciones para el barrio histÃ³rico de Covachuelas.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -292,8 +292,8 @@ export default function CovachuelasPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia y respeto por el patrimonio en cada intervención en el casco histórico.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© confiar en nuestro servicio tÃ©cnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia y respeto por el patrimonio en cada intervenciÃ³n en el casco histÃ³rico.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -313,7 +313,7 @@ export default function CovachuelasPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en Covachuelas</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Vecinos y negocios del histórico barrio que confían en nuestro trabajo.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Vecinos y negocios del histÃ³rico barrio que confÃ­an en nuestro trabajo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -338,7 +338,7 @@ export default function CovachuelasPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios en Covachuelas</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más habituales en el casco histórico de Toledo.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas mÃ¡s habituales en el casco histÃ³rico de Toledo.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (

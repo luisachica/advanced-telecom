@@ -19,36 +19,36 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45004",
-  descripcion: "Antenista profesional en Vega Baja, Toledo. Instalación y reparación de antenas TDT, parabólicas, videoporteros y sistemas de seguridad para comunidades, pisos y negocios junto al Tajo.",
+  descripcion: "Antenista profesional en Vega Baja, Toledo. InstalaciÃ³n y reparaciÃ³n de antenas TDT, parabÃ³licas, videoporteros y sistemas de seguridad para comunidades, pisos y negocios junto al Tajo.",
   servicios: [
-    "Instalación y reparación de antenas TDT",
-    "Instalación y orientación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias 5G",
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT",
+    "InstalaciÃ³n y orientaciÃ³n de antenas parabÃ³licas",
+    "Sistemas de videoportero y portero automÃ¡tico",
+    "InstalaciÃ³n de videovigilancia (CCTV)",
+    "SoluciÃ³n a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Alta cualificación técnica",
+    "Alta cualificaciÃ³n tÃ©cnica",
     "Materiales homologados",
-    "Garantía profesional"
+    "GarantÃ­a profesional"
   ],
   zonasCubiertas: [
     "Barrio Vega Baja",
-    "Zona del Paseo de la Rosa y aledaños",
-    "Comunidades residenciales junto al río Tajo",
-    "Instalaciones deportivas y equipamientos próximos"
+    "Zona del Paseo de la Rosa y aledaÃ±os",
+    "Comunidades residenciales junto al rÃ­o Tajo",
+    "Instalaciones deportivas y equipamientos prÃ³ximos"
   ],
   cobertura: [
     { zona: "Barrio Vega Baja", disponible: true },
-    { zona: "Zona del Paseo de la Rosa y aledaños", disponible: true },
-    { zona: "Comunidades residenciales junto al río Tajo", disponible: true },
-    { zona: "Instalaciones deportivas y equipamientos próximos", disponible: true }
+    { zona: "Zona del Paseo de la Rosa y aledaÃ±os", disponible: true },
+    { zona: "Comunidades residenciales junto al rÃ­o Tajo", disponible: true },
+    { zona: "Instalaciones deportivas y equipamientos prÃ³ximos", disponible: true }
   ],
   testimonios: [
     {
       nombre: "Vecino de Vega Baja",
-      comentario: "Repararon nuestra antena colectiva que llevaba meses dando problemas. El diagnóstico fue rápido, la solución definitiva y el precio muy razonable. No dudaremos en llamarles de nuevo.",
+      comentario: "Repararon nuestra antena colectiva que llevaba meses dando problemas. El diagnÃ³stico fue rÃ¡pido, la soluciÃ³n definitiva y el precio muy razonable. No dudaremos en llamarles de nuevo.",
       puntuacion: 5
     },
     {
@@ -58,14 +58,14 @@ const municipioData = {
     },
     {
       nombre: "Inquilino en Vega Baja",
-      comentario: "Vine desde fuera y la TDT no captaba bien en mi nuevo piso. Llamé y el técnico llegó en menos de dos horas. Orientó la antena correctamente y dejó señal perfecta en todas las habitaciones.",
+      comentario: "Vine desde fuera y la TDT no captaba bien en mi nuevo piso. LlamÃ© y el tÃ©cnico llegÃ³ en menos de dos horas. OrientÃ³ la antena correctamente y dejÃ³ seÃ±al perfecta en todas las habitaciones.",
       puntuacion: 5
     }
   ],
   caracteristicas: [
     {
-      titulo: "Alta Cualificación Técnica",
-      descripcion: "Técnicos con amplia formación y experiencia en instalaciones de telecomunicaciones.",
+      titulo: "Alta CualificaciÃ³n TÃ©cnica",
+      descripcion: "TÃ©cnicos con amplia formaciÃ³n y experiencia en instalaciones de telecomunicaciones.",
       icono: "Briefcase"
     },
     {
@@ -75,31 +75,31 @@ const municipioData = {
     },
     {
       titulo: "Presupuesto Detallado",
-      descripcion: "Entregamos presupuesto cerrado y por escrito antes de cualquier intervención.",
+      descripcion: "Entregamos presupuesto cerrado y por escrito antes de cualquier intervenciÃ³n.",
       icono: "Eye"
     },
     {
-      titulo: "Garantía por Escrito",
-      descripcion: "Garantía completa en todas las instalaciones y reparaciones que realizamos.",
+      titulo: "GarantÃ­a por Escrito",
+      descripcion: "GarantÃ­a completa en todas las instalaciones y reparaciones que realizamos.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¿Tienen problemas de señal TDT los edificios junto al Tajo en Vega Baja?",
-      answer: "Las zonas bajas junto al río pueden tener algo menos de señal que las partes elevadas de Toledo. En la mayoría de casos se soluciona con amplificadores de señal calibrados correctamente o reorientando la antena."
+      question: "Â¿Tienen problemas de seÃ±al TDT los edificios junto al Tajo en Vega Baja?",
+      answer: "Las zonas bajas junto al rÃ­o pueden tener algo menos de seÃ±al que las partes elevadas de Toledo. En la mayorÃ­a de casos se soluciona con amplificadores de seÃ±al calibrados correctamente o reorientando la antena."
     },
     {
-      question: "¿Instalan porteros automáticos en edificios existentes?",
-      answer: "Sí. Instalamos porteros automáticos y videoporteros tanto en obra nueva como en edificios existentes. Analizamos el cableado actual y proponemos la solución más eficiente y económica."
+      question: "Â¿Instalan porteros automÃ¡ticos en edificios existentes?",
+      answer: "SÃ­. Instalamos porteros automÃ¡ticos y videoporteros tanto en obra nueva como en edificios existentes. Analizamos el cableado actual y proponemos la soluciÃ³n mÃ¡s eficiente y econÃ³mica."
     },
     {
-      question: "¿Pueden ampliar el número de canales de la TDT que recibo?",
-      answer: "La TDT tiene un número fijo de canales según el multiplex disponible en su zona. Si no recibe todos, lo más probable es que sea un problema de señal que podemos solucionar con la instalación adecuada."
+      question: "Â¿Pueden ampliar el nÃºmero de canales de la TDT que recibo?",
+      answer: "La TDT tiene un nÃºmero fijo de canales segÃºn el multiplex disponible en su zona. Si no recibe todos, lo mÃ¡s probable es que sea un problema de seÃ±al que podemos solucionar con la instalaciÃ³n adecuada."
     },
     {
-      question: "¿Cuánto tarda una instalación completa de antena en un piso de Vega Baja?",
-      answer: "Una instalación individual en un piso, incluyendo antena exterior y distribución interior a 2-3 tomas, suele completarse en 3-4 horas. Para comunidades, el tiempo varía según el número de viviendas."
+      question: "Â¿CuÃ¡nto tarda una instalaciÃ³n completa de antena en un piso de Vega Baja?",
+      answer: "Una instalaciÃ³n individual en un piso, incluyendo antena exterior y distribuciÃ³n interior a 2-3 tomas, suele completarse en 3-4 horas. Para comunidades, el tiempo varÃ­a segÃºn el nÃºmero de viviendas."
     }
   ]
 };
@@ -171,8 +171,8 @@ const structuredData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Vega Baja Toledo | ?? 668 67 95 00`,
-  description: `Antenista en Vega Baja, Toledo. TDT, parabólicas, videoporteros y cámaras para comunidades y pisos junto al Tajo. Presupuesto gratuito.`,
-  keywords: `antenista Vega Baja Toledo, antenas TDT Vega Baja, instalación antenas Toledo, reparación antenas Vega Baja Toledo, videoportero comunidades Toledo`,
+  description: `Antenista en Vega Baja, Toledo. TDT, parabÃ³licas, videoporteros y cÃ¡maras para comunidades y pisos junto al Tajo. Presupuesto gratuito.`,
+  keywords: `antenista Vega Baja Toledo, antenas TDT Vega Baja, instalaciÃ³n antenas Toledo, reparaciÃ³n antenas Vega Baja Toledo, videoportero comunidades Toledo`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-vega-baja'
   },
@@ -217,13 +217,13 @@ export default function VegaBajaPage() {
                       Antenista profesional en Vega Baja, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Ofrecemos servicio de antenista en el barrio de Vega Baja, en la zona baja de Toledo junto al río Tajo. Atendemos comunidades de vecinos, pisos particulares y negocios con instalaciones de TDT, antenas parabólicas, videoporteros y sistemas de videovigilancia. Servicio urgente disponible con respuesta en menos de 2 horas.
+                      Ofrecemos servicio de antenista en el barrio de Vega Baja, en la zona baja de Toledo junto al rÃ­o Tajo. Atendemos comunidades de vecinos, pisos particulares y negocios con instalaciones de TDT, antenas parabÃ³licas, videoporteros y sistemas de videovigilancia. Servicio urgente disponible con respuesta en menos de 2 horas.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervención
+                      Contactar para una intervenciÃ³n
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -243,7 +243,7 @@ export default function VegaBajaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en Vega Baja y zona del Tajo</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el barrio de Vega Baja y sus alrededores con atención rápida y profesional.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos todo el barrio de Vega Baja y sus alrededores con atenciÃ³n rÃ¡pida y profesional.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -278,7 +278,7 @@ export default function VegaBajaPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catÃ¡logo de servicios especializados</h2>
                 <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones completas de telecomunicaciones para Vega Baja y Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -292,8 +292,8 @@ export default function VegaBajaPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Calidad y profesionalidad en cada intervención en Toledo.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© confiar en nuestro servicio tÃ©cnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Calidad y profesionalidad en cada intervenciÃ³n en Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -356,7 +356,7 @@ export default function VegaBajaPage() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
                   <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contacte con su antenista en Vega Baja</h2>
-                  <p className="text-xl mb-8 text-white/90">Pida presupuesto gratuito o llame para una intervención urgente en Vega Baja, Toledo.</p>
+                  <p className="text-xl mb-8 text-white/90">Pida presupuesto gratuito o llame para una intervenciÃ³n urgente en Vega Baja, Toledo.</p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-white text-brand-green hover:bg-gray-100 rounded-full px-8 py-6">
                       <a href="https://wa.me/34668679500?text=Hola%2C%20necesito%20un%20antenista%20en%20Vega%20Baja%20Toledo" className="flex items-center gap-2">

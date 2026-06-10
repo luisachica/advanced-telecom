@@ -35,7 +35,7 @@ export default function ContenidoQuienesSomos({ data: pageData }: { data: any })
               <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-3 py-1 rounded-full mb-6">
                 <Link href="/" className="text-gray-600 hover:text-green-600">Inicio</Link>
                 <span className="text-gray-600">/</span>
-                <span className="text-green-600 font-medium">QuiÈnes somos</span>
+                <span className="text-green-600 font-medium">Qui√©nes somos</span>
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">{pageData.hero.title}</h1>
               <p className="text-gray-700 text-lg max-w-2xl mx-auto mb-8">{pageData.hero.subtitle}</p>
@@ -43,14 +43,14 @@ export default function ContenidoQuienesSomos({ data: pageData }: { data: any })
           </div>
         </section>
 
-        {/* SecciÛn Principal */}
+        {/* Secci√≥n Principal */}
         <section className="w-full py-16 md:py-24 bg-white">
           <div className="container mx-auto px-4 md:px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="space-y-6">
                 <div className="text-green-600 font-medium">Servicios de telecomunicaciones en Toledo y  </div>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">{pageData.mainContent.title}</h2>
-                <div className="border-l-4 border-green-600 pl-4 italic text-gray-700">ì{pageData.mainContent.quote}î</div>
+                <div className="border-l-4 border-green-600 pl-4 italic text-gray-700">‚Äú{pageData.mainContent.quote}‚Äù</div>
                 {pageData.mainContent.paragraphs.map((p: string, i: number) => <p key={i} className={`text-gray-700 ${i === 3 ? 'font-medium' : ''}`}>{p}</p>)}
                 <div className="flex flex-wrap items-center gap-6 pt-4">
                   <Link href="/contacto" className="inline-flex items-center justify-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold rounded-full px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-sm normal-case">
@@ -75,7 +75,7 @@ export default function ContenidoQuienesSomos({ data: pageData }: { data: any })
           </div>
         </section>
 
-        {/* SecciÛn de Diferenciadores */}
+        {/* Secci√≥n de Diferenciadores */}
         <section className="w-full py-16 md:py-24 bg-gray-50 relative overflow-hidden">
           <div className="container mx-auto px-4 md:px-6 relative z-10">
             <div className="text-center max-w-3xl mx-auto mb-16">
@@ -95,7 +95,7 @@ export default function ContenidoQuienesSomos({ data: pageData }: { data: any })
           </div>
         </section>
 
-        {/* GalerÌa de Im·genes */}
+        {/* Galer√≠a de Im√°genes */}
         <section className="w-full py-16 md:py-24">
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16">
@@ -115,13 +115,13 @@ export default function ContenidoQuienesSomos({ data: pageData }: { data: any })
           </div>
         </section>
 
-        {/* SecciÛn CTA */}
+        {/* Secci√≥n CTA */}
         <section className="w-full py-16 md:py-24 bg-gray-900 relative overflow-hidden">
           <div className="absolute inset-0 bg-black/10"></div>
           <div className="container mx-auto px-4 md:px-6 relative z-10">
             <div className="text-center max-w-3xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">øNecesita servicios tÈcnicos de telecomunicaciones en Toledo y  ?</h2>
-              <p className="text-white/90 text-lg mb-8">Cont·ctanos hoy mismo y descubre por quÈ somos la empresa de telecomunicaciones preferida en Toledo y  . Solicita un presupuesto sin compromiso.</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">¬øNecesita servicios t√©cnicos de telecomunicaciones en Toledo y  ?</h2>
+              <p className="text-white/90 text-lg mb-8">Cont√°ctanos hoy mismo y descubre por qu√© somos la empresa de telecomunicaciones preferida en Toledo y  . Solicita un presupuesto sin compromiso.</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contacto" className="inline-flex items-center justify-center bg-white text-gray-900 hover:bg-gray-100 rounded-full px-8 py-3 font-medium transition-colors duration-200 text-lg">
                   Solicitar presupuesto

@@ -19,53 +19,53 @@ const municipioData = {
   provincia: "Toledo",
   comunidad: "Castilla-La Mancha",
   codigoPostal: "45002",
-  descripcion: "Antenista profesional en el barrio histórico de Antequeruela, Toledo. Especialistas en instalaciones de antenas TDT, parabólicas, videoporteros y cámaras en el entorno monumental bajo el Alcázar.",
+  descripcion: "Antenista profesional en el barrio histÃ³rico de Antequeruela, Toledo. Especialistas en instalaciones de antenas TDT, parabÃ³licas, videoporteros y cÃ¡maras en el entorno monumental bajo el AlcÃ¡zar.",
   servicios: [
-    "Instalación y reparación de antenas TDT",
-    "Instalación y orientación de antenas parabólicas",
-    "Sistemas de videoportero y portero automático",
-    "Instalación de videovigilancia (CCTV)",
-    "Solución a interferencias 5G",
+    "InstalaciÃ³n y reparaciÃ³n de antenas TDT",
+    "InstalaciÃ³n y orientaciÃ³n de antenas parabÃ³licas",
+    "Sistemas de videoportero y portero automÃ¡tico",
+    "InstalaciÃ³n de videovigilancia (CCTV)",
+    "SoluciÃ³n a interferencias 5G",
     "Servicio de reparaciones urgentes"
   ],
   serviciosDestacados: [
-    "Experiencia en el casco histórico",
+    "Experiencia en el casco histÃ³rico",
     "Materiales homologados",
-    "Garantía profesional"
+    "GarantÃ­a profesional"
   ],
   zonasCubiertas: [
-    "Barrio histórico de Antequeruela",
-    "Entorno del Alcázar de Toledo",
+    "Barrio histÃ³rico de Antequeruela",
+    "Entorno del AlcÃ¡zar de Toledo",
     "Callejuelas y casas del barrio",
-    "Viviendas rehabilitadas y edificios históricos"
+    "Viviendas rehabilitadas y edificios histÃ³ricos"
   ],
   cobertura: [
-    { zona: "Barrio histórico de Antequeruela", disponible: true },
-    { zona: "Entorno del Alcázar de Toledo", disponible: true },
+    { zona: "Barrio histÃ³rico de Antequeruela", disponible: true },
+    { zona: "Entorno del AlcÃ¡zar de Toledo", disponible: true },
     { zona: "Callejuelas y casas del barrio", disponible: true },
-    { zona: "Viviendas rehabilitadas y edificios históricos", disponible: true }
+    { zona: "Viviendas rehabilitadas y edificios histÃ³ricos", disponible: true }
   ],
   testimonios: [
     {
       nombre: "Residente de Antequeruela",
-      comentario: "Instalaron la antena respetando totalmente la estética de la fachada protegida. La señal es perfecta y el trabajo fue impecable. Conocen a la perfección las restricciones del casco histórico.",
+      comentario: "Instalaron la antena respetando totalmente la estÃ©tica de la fachada protegida. La seÃ±al es perfecta y el trabajo fue impecable. Conocen a la perfecciÃ³n las restricciones del casco histÃ³rico.",
       puntuacion: 5
     },
     {
       nombre: "Propietario de casa restaurada",
-      comentario: "Tenía una casa restaurada en Antequeruela con problemas de señal. Buscaron la solución más adecuada y eficaz, con total respeto al inmueble. Profesionales como pocos en Toledo.",
+      comentario: "TenÃ­a una casa restaurada en Antequeruela con problemas de seÃ±al. Buscaron la soluciÃ³n mÃ¡s adecuada y eficaz, con total respeto al inmueble. Profesionales como pocos en Toledo.",
       puntuacion: 5
     },
     {
-      nombre: "Gestor de apartamentos turísticos",
-      comentario: "Instalaron un sistema completo de videoportero y seguridad en mis apartamentos turísticos del barrio. Sistema moderno y discreto que encaja perfectamente con los edificios históricos.",
+      nombre: "Gestor de apartamentos turÃ­sticos",
+      comentario: "Instalaron un sistema completo de videoportero y seguridad en mis apartamentos turÃ­sticos del barrio. Sistema moderno y discreto que encaja perfectamente con los edificios histÃ³ricos.",
       puntuacion: 5
     }
   ],
   caracteristicas: [
     {
       titulo: "Respeto al Patrimonio",
-      descripcion: "Trabajamos con pleno respeto a la normativa y estética de los edificios del casco histórico.",
+      descripcion: "Trabajamos con pleno respeto a la normativa y estÃ©tica de los edificios del casco histÃ³rico.",
       icono: "Briefcase"
     },
     {
@@ -75,31 +75,31 @@ const municipioData = {
     },
     {
       titulo: "Asesoramiento Experto",
-      descripcion: "Orientamos sobre las mejores soluciones para inmuebles históricos protegidos.",
+      descripcion: "Orientamos sobre las mejores soluciones para inmuebles histÃ³ricos protegidos.",
       icono: "Eye"
     },
     {
-      titulo: "Garantía Completa",
-      descripcion: "Garantía escrita en todas nuestras instalaciones y reparaciones.",
+      titulo: "GarantÃ­a Completa",
+      descripcion: "GarantÃ­a escrita en todas nuestras instalaciones y reparaciones.",
       icono: "CheckCircle"
     }
   ],
   faqs: [
     {
-      question: "¿Pueden instalar antenas en casas históricas del barrio de Antequeruela?",
-      answer: "Sí. Tenemos amplia experiencia en el casco histórico de Toledo y conocemos las exigencias estéticas y patrimoniales. Buscamos siempre la solución más discreta que no altere la imagen del edificio, usando tejados, patios interiores o fachadas no visibles desde la calle."
+      question: "Â¿Pueden instalar antenas en casas histÃ³ricas del barrio de Antequeruela?",
+      answer: "SÃ­. Tenemos amplia experiencia en el casco histÃ³rico de Toledo y conocemos las exigencias estÃ©ticas y patrimoniales. Buscamos siempre la soluciÃ³n mÃ¡s discreta que no altere la imagen del edificio, usando tejados, patios interiores o fachadas no visibles desde la calle."
     },
     {
-      question: "¿Qué normativa hay que cumplir para instalar una antena en el casco histórico?",
-      answer: "El casco histórico de Toledo es Patrimonio de la Humanidad y tiene normativa urbanística específica que restringe las instalaciones visibles en fachadas. Asesoramos sobre qué instalaciones son posibles y cómo tramitar las autorizaciones cuando sean necesarias."
+      question: "Â¿QuÃ© normativa hay que cumplir para instalar una antena en el casco histÃ³rico?",
+      answer: "El casco histÃ³rico de Toledo es Patrimonio de la Humanidad y tiene normativa urbanÃ­stica especÃ­fica que restringe las instalaciones visibles en fachadas. Asesoramos sobre quÃ© instalaciones son posibles y cÃ³mo tramitar las autorizaciones cuando sean necesarias."
     },
     {
-      question: "¿Cómo es la recepción TDT en Antequeruela, tan cerca del Alcázar?",
-      answer: "El barrio de Antequeruela, situado justo bajo el Alcázar, tiene generalmente buena recepción TDT dada la altura de la zona. En callejuelas más resguardadas puede ser necesario un amplificador de señal."
+      question: "Â¿CÃ³mo es la recepciÃ³n TDT en Antequeruela, tan cerca del AlcÃ¡zar?",
+      answer: "El barrio de Antequeruela, situado justo bajo el AlcÃ¡zar, tiene generalmente buena recepciÃ³n TDT dada la altura de la zona. En callejuelas mÃ¡s resguardadas puede ser necesario un amplificador de seÃ±al."
     },
     {
-      question: "¿Instalan sistemas de seguridad discretos para el turismo rural del barrio?",
-      answer: "Sí. Tenemos soluciones de videovigilancia modernas y estéticamente discretas, especialmente diseñadas para no impactar visualmente en inmuebles históricos. Muy adecuadas para apartamentos turísticos y alojamientos del casco histórico."
+      question: "Â¿Instalan sistemas de seguridad discretos para el turismo rural del barrio?",
+      answer: "SÃ­. Tenemos soluciones de videovigilancia modernas y estÃ©ticamente discretas, especialmente diseÃ±adas para no impactar visualmente en inmuebles histÃ³ricos. Muy adecuadas para apartamentos turÃ­sticos y alojamientos del casco histÃ³rico."
     }
   ]
 };
@@ -171,8 +171,8 @@ const structuredData = {
 
 export const metadata: Metadata = {
   title: `Antenista en Antequeruela Toledo | ?? 668 67 95 00`,
-  description: `Antenista en Antequeruela, barrio histórico de Toledo. TDT, parabólicas, videoporteros y seguridad respetando el patrimonio. Presupuesto sin compromiso.`,
-  keywords: `antenista Antequeruela Toledo, antenas TDT casco histórico Toledo, instalación antenas barrio Antequeruela, antenista Toledo histórico, videoportero Toledo patrimonio`,
+  description: `Antenista en Antequeruela, barrio histÃ³rico de Toledo. TDT, parabÃ³licas, videoporteros y seguridad respetando el patrimonio. Presupuesto sin compromiso.`,
+  keywords: `antenista Antequeruela Toledo, antenas TDT casco histÃ³rico Toledo, instalaciÃ³n antenas barrio Antequeruela, antenista Toledo histÃ³rico, videoportero Toledo patrimonio`,
   alternates: {
     canonical: 'https://antenastoledo.com/antenista-antequeruela'
   },
@@ -217,13 +217,13 @@ export default function AntequeruelaPage() {
                       Antenista profesional en Antequeruela, Toledo
                     </h1>
                     <p className="text-xl text-brand-black-light leading-relaxed">
-                      Prestamos servicio de antenista en el histórico barrio de Antequeruela, situado en la ladera  del Alcázar de Toledo. Un barrio de calles empedradas y casas con siglos de historia que requieren una instalación de telecomunicaciones especializada y respetuosa con el patrimonio. Atendemos viviendas, casas restauradas y alojamientos turísticos con la mayor profesionalidad.
+                      Prestamos servicio de antenista en el histÃ³rico barrio de Antequeruela, situado en la ladera  del AlcÃ¡zar de Toledo. Un barrio de calles empedradas y casas con siglos de historia que requieren una instalaciÃ³n de telecomunicaciones especializada y respetuosa con el patrimonio. Atendemos viviendas, casas restauradas y alojamientos turÃ­sticos con la mayor profesionalidad.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="tel:+34668679500" className="inline-flex items-center justify-center px-8 py-4 bg-brand-green text-white font-semibold rounded-full hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
                       <Phone className="h-5 w-5 mr-2" />
-                      Contactar para una intervención
+                      Contactar para una intervenciÃ³n
                     </Link>
                     <Link href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green font-semibold rounded-full border-2 border-brand-green hover:bg-brand-green hover:text-white transition-colors">
                       Solicitar presupuesto
@@ -243,7 +243,7 @@ export default function AntequeruelaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Cobertura completa en el barrio de Antequeruela</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos el barrio histórico de Antequeruela y las zonas colindantes del centro histórico.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Cubrimos el barrio histÃ³rico de Antequeruela y las zonas colindantes del centro histÃ³rico.</p>
               </div>
               <div className="max-w-4xl mx-auto">
                 <div className="bg-gradient-to-br from-brand-green/5 to-white rounded-xl p-8 shadow-lg border border-brand-green/20">
@@ -253,7 +253,7 @@ export default function AntequeruelaPage() {
                     </div>
                     <div>
                       <h3 className="text-2xl font-semibold text-brand-black">Zonas de cobertura en Antequeruela</h3>
-                      <p className="text-brand-black-light">Antenista profesional en el barrio histórico</p>
+                      <p className="text-brand-black-light">Antenista profesional en el barrio histÃ³rico</p>
                     </div>
                   </div>
                   <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -267,7 +267,7 @@ export default function AntequeruelaPage() {
                   <div className="p-4 bg-brand-green/10 rounded-lg">
                     <div className="flex items-center text-brand-green font-medium">
                       <Clock className="h-5 w-5 mr-3" />
-                      <span>Servicio urgente en el casco histórico con respuesta en menos de 2 horas.</span>
+                      <span>Servicio urgente en el casco histÃ³rico con respuesta en menos de 2 horas.</span>
                     </div>
                   </div>
                 </div>
@@ -278,8 +278,8 @@ export default function AntequeruelaPage() {
           <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catálogo de servicios especializados</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones de telecomunicaciones adaptadas al entorno histórico de Antequeruela.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Nuestro catÃ¡logo de servicios especializados</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Soluciones de telecomunicaciones adaptadas al entorno histÃ³rico de Antequeruela.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {SERVICIOS.map((servicio, index) => (
@@ -292,8 +292,8 @@ export default function AntequeruelaPage() {
           <section className="py-16 md:py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">¿Por qué confiar en nuestro servicio técnico?</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia y respeto por el patrimonio histórico de Toledo.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Â¿Por quÃ© confiar en nuestro servicio tÃ©cnico?</h2>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Experiencia y respeto por el patrimonio histÃ³rico de Toledo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {municipioData.caracteristicas?.map((caracteristica, index) => (
@@ -313,7 +313,7 @@ export default function AntequeruelaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">La confianza de nuestros clientes en Antequeruela</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Vecinos y negocios del barrio histórico que confían en nuestro trabajo.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Vecinos y negocios del barrio histÃ³rico que confÃ­an en nuestro trabajo.</p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {municipioData.testimonios?.map((testimonio, index) => (
@@ -338,7 +338,7 @@ export default function AntequeruelaPage() {
             <div className="container mx-auto px-4 md:px-6">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-black mb-4">Preguntas frecuentes sobre nuestros servicios en Antequeruela</h2>
-                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas más habituales en el barrio histórico de Toledo.</p>
+                <p className="text-xl text-brand-black-light max-w-3xl mx-auto">Resolvemos las dudas mÃ¡s habituales en el barrio histÃ³rico de Toledo.</p>
               </div>
               <div className="max-w-3xl mx-auto space-y-6">
                 {municipioData.faqs?.map((faq, index) => (

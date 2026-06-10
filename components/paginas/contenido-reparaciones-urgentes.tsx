@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Check, Star, Phone, ArrowRight, Clock, Shield, Sparkles, Users, Wrench, ChevronDown } from "lucide-react";
 import WhatsappFloating from "../WhatsappFloating";
-// --- ImportaciÛn de Componentes ---
+// --- Importaci√≥n de Componentes ---
 import { Button } from "@/components/ui/button";
 import { PhoneBanner } from "@/components/phone-banner";
 import { MainNavigation } from "@/components/main-navigation";
@@ -14,14 +14,14 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { ServiciosRelacionados } from "@/components/ServiciosRelacionados";
 import { MunicipiosServicio } from "@/components/MunicipiosServicio";
 
-// --- Mapeador de Õconos ---
+// --- Mapeador de √çconos ---
 const iconMap = { Sparkles, Users, Clock, Shield, Wrench, Check, Star, Phone, ArrowRight, ChevronDown };
 const Icon = ({ name, ...props }: { name: keyof typeof iconMap; [key: string]: any }) => {
   const LucideIcon = iconMap[name];
   return LucideIcon ? <LucideIcon {...props} /> : null;
 };
 
-// --- Componentes Internos de la P·gina ---
+// --- Componentes Internos de la P√°gina ---
 function FAQ({ question, answer }: { question: string; answer: string }) {
   return (
     <div className="border-b border-gray-200 py-4">
@@ -109,7 +109,7 @@ export default function ContenidoReparacionegentes({ data: serviceData }: { data
                 <div className="relative z-10 rounded-xl overflow-hidden shadow-xl">
                     <Image
                       src="/images/telecom/reparacion-urgente-01.jpg"
-                      alt="Servicio tÈcnico de reparaciones urgentes 24/7 en "
+                      alt="Servicio t√©cnico de reparaciones urgentes 24/7 en "
                       width={600}
                       height={400}
                     className="w-full h-auto object-cover"
@@ -123,17 +123,17 @@ export default function ContenidoReparacionegentes({ data: serviceData }: { data
           </div>
         </section>
 
-        {/* DescripciÛn del servicio */}
+        {/* Descripci√≥n del servicio */}
         <section className="w-full py-16 md:py-24 bg-white">
           <div className="container mx-auto px-4 md:px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="space-y-6">
                 <div className="text-green-600 font-medium">Nuestro servicio</div>
                 <h2 className="text-3xl md:text-4xl font-bold text-slate-800 leading-tight">Servicio profesional de {serviceData.title.toLowerCase()}</h2>
-                <div className="border-l-4 border-green-600 pl-4 italic text-slate-600">"Solucionamos sus problemas de telecomunicaciones con rapidez y eficacia. Nuestro equipo de tÈcnicos cualificados est· disponible para atender emergencias cuando m·s lo necesita."</div>
+                <div className="border-l-4 border-green-600 pl-4 italic text-slate-600">"Solucionamos sus problemas de telecomunicaciones con rapidez y eficacia. Nuestro equipo de t√©cnicos cualificados est√° disponible para atender emergencias cuando m√°s lo necesita."</div>
                 <p className="text-slate-600">{serviceData.longDescription}</p>
                 <ul className="space-y-3">
-                  {["Servicio disponible 24/7 para emergencias", "ReparaciÛn de antenas TDT y parabÛlicas", "SoluciÛn de averÌas en porteros autom·ticos", "ReparaciÛn de sistemas de videovigilancia", "EliminaciÛn de interferencias en seÒal TV", "Presupuesto sin compromiso"].map((item, index) => (
+                  {["Servicio disponible 24/7 para emergencias", "Reparaci√≥n de antenas TDT y parab√≥licas", "Soluci√≥n de aver√≠as en porteros autom√°ticos", "Reparaci√≥n de sistemas de videovigilancia", "Eliminaci√≥n de interferencias en se√±al TV", "Presupuesto sin compromiso"].map((item, index) => (
                     <li key={index} className="flex items-center gap-3 text-slate-600">
                     <div className="bg-green-50 rounded-full p-1">
                       <Check className="h-4 w-4 text-green-600" />
@@ -165,10 +165,10 @@ export default function ContenidoReparacionegentes({ data: serviceData }: { data
                 <span className="text-green-600 font-medium px-3 py-1">Nuestro proceso</span>
               </div>
               <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-slate-800 leading-tight mt-4">
-                CÛmo trabajamos en <span className="text-green-600">Antenas Toledo</span>
+                C√≥mo trabajamos en <span className="text-green-600">Antenas Toledo</span>
               </h2>
               <p className="text-slate-600 text-lg max-w-2xl mx-auto mt-4">
-                Nuestro mÈtodo de trabajo est· diseÒado para ofrecerle un servicio eficiente, transparente y de m·xima calidad.
+                Nuestro m√©todo de trabajo est√° dise√±ado para ofrecerle un servicio eficiente, transparente y de m√°xima calidad.
               </p>
             </div>
 
@@ -191,7 +191,7 @@ export default function ContenidoReparacionegentes({ data: serviceData }: { data
                 Resolvemos tus dudas sobre {serviceData.title.toLowerCase()}
               </h2>
               <p className="text-slate-600 text-lg max-w-2xl mx-auto mt-4">
-                AquÌ encontrar·s respuestas a las preguntas m·s comunes sobre nuestro servicio de {serviceData.title.toLowerCase()}.
+                Aqu√≠ encontrar√°s respuestas a las preguntas m√°s comunes sobre nuestro servicio de {serviceData.title.toLowerCase()}.
               </p>
             </div>
 
@@ -209,7 +209,7 @@ export default function ContenidoReparacionegentes({ data: serviceData }: { data
             <div className="text-center max-w-3xl mx-auto mb-16">
               <div className="inline-flex items-center justify-center p-2 bg-green-50 rounded-full mb-2"><span className="text-green-600 font-medium px-3 py-1">Otros servicios</span></div>
               <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-slate-800 leading-tight mt-4">Servicios relacionados</h2>
-              <p className="text-slate-600 text-lg max-w-2xl mx-auto mt-4">Descubre otros servicios de telecomunicaciones que podrÌan interesarte.</p>
+              <p className="text-slate-600 text-lg max-w-2xl mx-auto mt-4">Descubre otros servicios de telecomunicaciones que podr√≠an interesarte.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {serviceData.relatedServices.map((service: any, index: number) => (
@@ -241,9 +241,9 @@ export default function ContenidoReparacionegentes({ data: serviceData }: { data
           <div className="container mx-auto px-4 md:px-6 relative z-10">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
-                <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">øTiene una emergencia en sus telecomunicaciones?</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">¬øTiene una emergencia en sus telecomunicaciones?</h2>
                 <p className="text-white/90 text-lg">
-                  No espere m·s. Cont·ctenos ahora mismo para una asistencia r·pida y profesional. Estamos disponibles 24/7 para solucionar sus problemas urgentes.
+                  No espere m√°s. Cont√°ctenos ahora mismo para una asistencia r√°pida y profesional. Estamos disponibles 24/7 para solucionar sus problemas urgentes.
                 </p>
                 <div className="flex flex-wrap gap-4 pt-4">
                   <Button asChild className="bg-white hover:bg-gray-100 text-slate-800 rounded-full px-8 py-6">
@@ -276,7 +276,7 @@ export default function ContenidoReparacionegentes({ data: serviceData }: { data
 
         {/* Municipios donde ofrecemos servicio */}
         <MunicipiosServicio 
-          titulo="Servicio tÈcnico de reparaciones urgentes en los siguientes municipios y urbanizaciones"
+          titulo="Servicio t√©cnico de reparaciones urgentes en los siguientes municipios y urbanizaciones"
           descripcion="Ofrecemos reparaciones urgentes de telecomunicaciones en toda la Comunidad de  y Toledo."
         />
       </main>
