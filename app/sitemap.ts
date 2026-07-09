@@ -1,191 +1,81 @@
-﻿import type { MetadataRoute } from "next"
+// app/sitemap.ts
+// Sitemap generado desde los registros de datos (servicios, localidades, combos, proyectos,
+// blog). Nunca listas manuales: así el sitemap coincide siempre 1:1 con las rutas reales.
+// Prioridades según Estrategia SEO §5.2.
+import type { MetadataRoute } from "next"
+import { SERVICIOS_HUB } from "@/data/servicios-hub"
+import { LOCALIDADES_T1, LOCALIDADES_T2 } from "@/data/localidades"
+import { COMBOS_ACTIVOS } from "@/data/combos"
+import { PROYECTOS } from "@/data/proyectos"
+import { POSTS } from "@/data/blog"
+import { NEGOCIO } from "@/lib/negocio"
 
 export const dynamic = "force-static"
 
+const BASE = NEGOCIO.url
+const lastModified = new Date()
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://antenastoledo.com"
+  const entradas: MetadataRoute.Sitemap = [
+    // Home
+    { url: `${BASE}/`, lastModified, changeFrequency: "weekly", priority: 1.0 },
 
-  // Todos los municipios con antenistas
-  const municipios = [
-    'alameda-de-la-sagra',
-    'anover-del-tajo',
-    'arcicollar',
-    'bargas',
-    'batres',
-    'borox',
-    'burguillos-de-toledo',
-    'cabanas-de-la-sagra',
-    'calypo-fado',
-    'camarena',
-    'carranque',
-    'casarrubios-del-monte',
-    'casarrubuelos',
-    'cedillo-del-condado',
-    'chozas-de-canales',
-    'ciempozuelos',
-    'cigarales',
-    'cobeja',
-    'cobisa',
-    'coto-del-zagal',
-    'cubas-de-la-sagra',
-    'el-alamo',
-    'el-quinon',
-    'el-viso-de-san-juan',
-    'fuensalida',
-    'getafe',
-    'grinon',
-    'illescas',
-    'las-ventas-de-retamosa',
-    'la-torre-de-esteban-hambran',
-    'layos',
-    'lominchar',
-    'los-cisneros',
-    'los-palominos',
-    'los-pozuelos',
-    'los-pradillos',
-    'magan',
-    'mentrida',
-    'mocejon',
-    'montesion',
-    'moraleja-de-enmedio',
-    'mostoles',
-    'nambroca',
-    'nuevo-borox',
-    'numancia-de-la-sagra',
-    'olias-del-rey',
-    'pinar-de-villeriche',
-    'recas',
-    'renta-de-la-casa',
-    'santa-cruz-del-retamar',
-    'senorio-de-illescas',
-    'serranillos-del-valle',
-    'sesena',
-    'sesena-viejo',
-    'talavera-de-la-reina',
-    'toledo',
-    'torrecastillo',
-    'torrejon-de-la-calzada',
-    'torrejon-de-velasco',
-    'valdemoro',
-    'valmojado',
-    'valparaiso',
-    'villaluenga-de-la-sagra',
-    'villamanta',
-    'villamiel-de-toledo',
-    'villanueva-de-la-sagra',
-    'yeles',
-    'yuncler',
-    'yunclillos',
-    'yuncos'
-  ]
-
-  // Servicios específicos
-  const servicios = [
-    'antenas-tdt',
-    'antenas-parabolicas',
-    'camaras-seguridad',
-    'porteros-automaticos',
-    'reparaciones-urgentes',
-    'solucion-interferencias-5g'
-  ]
-
-  // Páginas especiales con prefijo "en-"
-  const municipiosEspeciales = [
-    'aldea-del-fresno',
-    'arroyomolinos',
-    'calalberche',
-    'esquivias',
-    'navalcarnero',
-    'villa-del-prado'
-  ]
-
-  // Páginas con prefijo "tecnico-antenista-"
-  const municipiosTecnico = [
-    'palomeque',
-    'pantoja',
-    'ugena'
-  ]
-
-  const municipioUrls = municipios.map(municipio => ({
-    url: `${baseUrl}/antenista-${municipio}/`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }))
-
-  const municipioEspecialUrls = municipiosEspeciales.map(municipio => ({
-    url: `${baseUrl}/antenista-en-${municipio}/`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }))
-
-  const municipioTecnicoUrls = municipiosTecnico.map(municipio => ({
-    url: `${baseUrl}/tecnico-antenista-${municipio}/`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }))
-
-  const servicioUrls = servicios.map(servicio => ({
-    url: `${baseUrl}/servicios/${servicio}/`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.8,
-  }))
-
-  return [
-    {
-      url: `${baseUrl}/`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 1,
-    },
-    {
-      url: `${baseUrl}/servicios/`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
+    // Hubs de Servicio (prioridad 0.9, semanal)
+    { url: `${BASE}/servicios/`, lastModified, changeFrequency: "weekly", priority: 0.9 },
+    ...SERVICIOS_HUB.map((s) => ({
+      url: `${BASE}/servicios/${s.slug}/`,
+      lastModified,
+      changeFrequency: "weekly" as const,
       priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/quienes-somos/`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
+    })),
+
+    // Servicio+Localidad activas (prioridad 0.9)
+    ...COMBOS_ACTIVOS.map((c) => ({
+      url: `${BASE}/${c.slug}/`,
+      lastModified,
+      changeFrequency: "weekly" as const,
+      priority: 0.9,
+    })),
+
+    // Localidades (T1: 0.8 / T2: 0.7, mensual)
+    { url: `${BASE}/localidades/`, lastModified, changeFrequency: "monthly", priority: 0.8 },
+    ...LOCALIDADES_T1.map((l) => ({
+      url: `${BASE}/localidades/${l.slug}/`,
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    ...LOCALIDADES_T2.map((l) => ({
+      url: `${BASE}/localidades/${l.slug}/`,
+      lastModified,
+      changeFrequency: "monthly" as const,
       priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/contacto/`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/politica-de-cookies/`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/politica-de-privacidad/`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/terminos-condiciones/`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/antenista-de-confianza-en-toledo-y--sur/`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    ...servicioUrls,
-    ...municipioUrls,
-    ...municipioEspecialUrls,
-    ...municipioTecnicoUrls,
+    })),
+    { url: `${BASE}/cobertura/`, lastModified, changeFrequency: "monthly", priority: 0.8 },
+
+    // Contenido (blog, proyectos): 0.6-0.7
+    { url: `${BASE}/blog/`, lastModified, changeFrequency: "weekly", priority: 0.7 },
+    ...POSTS.map((p) => ({
+      url: `${BASE}/blog/${p.slug}/`,
+      lastModified: new Date(p.fecha),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+    { url: `${BASE}/proyectos/`, lastModified, changeFrequency: "monthly", priority: 0.7 },
+    ...PROYECTOS.map((p) => ({
+      url: `${BASE}/proyectos/${p.slug}/`,
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+
+    // Páginas de soporte
+    { url: `${BASE}/contacto/`, lastModified, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/quienes-somos/`, lastModified, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${BASE}/politica-privacidad/`, lastModified, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${BASE}/politica-de-cookies/`, lastModified, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${BASE}/terminos-condiciones/`, lastModified, changeFrequency: "yearly", priority: 0.2 },
   ]
+
+  return entradas
 }

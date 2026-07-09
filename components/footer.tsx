@@ -32,7 +32,8 @@ export function Footer() {
               />
             </div>
             <p className="text-gray-300">
-              Servicios profesionales de telecomunicaciones para hogares y empresas en toda la Comunidad de .
+              Servicios profesionales de telecomunicaciones y seguridad para hogares, comunidades y empresas en
+              Toledo, La Sagra y el sur de la Comunidad de Madrid.
             </p>
             <div className="flex gap-4">
               <a href="https://www.facebook.com/antenistatoledo" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors">
@@ -53,33 +54,51 @@ export function Footer() {
             <h3 className="text-lg font-bold mb-4">Servicios</h3>
             <ul className="space-y-3">
               <li>
-                <a href="/servicios/antenas-tdt" className="text-gray-300 hover:text-white transition-colors">
-                  Antenas TDT
-                </a>
-              </li>
-              <li>
-                <a href="/servicios/antenas-parabolicas" className="text-gray-300 hover:text-white transition-colors">
-                  Antenas parabólicas
-                </a>
-              </li>
-              <li>
-                <a href="/servicios/porteros-automaticos" className="text-gray-300 hover:text-white transition-colors">
-                  Porteros automáticos
-                </a>
-              </li>
-              <li>
-                <a href="/servicios/camaras-seguridad" className="text-gray-300 hover:text-white transition-colors">
-                  Cámaras de seguridad
-                </a>
-              </li>
-              <li>
-                <a href="/servicios/solucion-interferencias-5g" className="text-gray-300 hover:text-white transition-colors">
+                <a href="/servicios/solucion-interferencias-5g/" className="text-gray-300 hover:text-white transition-colors">
                   Solución interferencias 5G
                 </a>
               </li>
               <li>
-                <a href="/servicios/reparaciones-urgentes" className="text-gray-300 hover:text-white transition-colors">
-                  Reparaciones urgentes
+                <a href="/servicios/antenas-parabolicas/" className="text-gray-300 hover:text-white transition-colors">
+                  Antenas y parabólicas
+                </a>
+              </li>
+              <li>
+                <a href="/servicios/camaras-seguridad/" className="text-gray-300 hover:text-white transition-colors">
+                  Cámaras de seguridad
+                </a>
+              </li>
+              <li>
+                <a href="/servicios/alarmas/" className="text-gray-300 hover:text-white transition-colors">
+                  Instalación de alarmas
+                </a>
+              </li>
+              <li>
+                <a href="/servicios/porteros-videoporteros/" className="text-gray-300 hover:text-white transition-colors">
+                  Porteros y videoporteros
+                </a>
+              </li>
+            </ul>
+            <h3 className="text-lg font-bold mb-4 mt-8">Zonas principales</h3>
+            <ul className="space-y-3">
+              <li>
+                <a href="/localidades/toledo/" className="text-gray-300 hover:text-white transition-colors">
+                  Instalador en Toledo
+                </a>
+              </li>
+              <li>
+                <a href="/localidades/getafe/" className="text-gray-300 hover:text-white transition-colors">
+                  Instalador en Getafe
+                </a>
+              </li>
+              <li>
+                <a href="/localidades/valdemoro/" className="text-gray-300 hover:text-white transition-colors">
+                  Instalador en Valdemoro
+                </a>
+              </li>
+              <li>
+                <a href="/cobertura/" className="text-gray-300 hover:text-white transition-colors">
+                  Todas las zonas de cobertura
                 </a>
               </li>
             </ul>
@@ -93,28 +112,33 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/quienes-somos" className="text-gray-300 hover:text-white transition-colors">
+                <a href="/quienes-somos/" className="text-gray-300 hover:text-white transition-colors">
                   Sobre nosotros
                 </a>
               </li>
               <li>
-                <a href="/servicios" className="text-gray-300 hover:text-white transition-colors">
+                <a href="/servicios/" className="text-gray-300 hover:text-white transition-colors">
                   Servicios
                 </a>
               </li>
               <li>
-                <a href="/faq" className="text-gray-300 hover:text-white transition-colors">
-                  Preguntas frecuentes
+                <a href="/localidades/" className="text-gray-300 hover:text-white transition-colors">
+                  Localidades
                 </a>
               </li>
               <li>
-                <a href="/contacto" className="text-gray-300 hover:text-white transition-colors">
-                  Contacto
+                <a href="/proyectos/" className="text-gray-300 hover:text-white transition-colors">
+                  Proyectos
                 </a>
               </li>
               <li>
-                <a href="/blog" className="text-gray-300 hover:text-white transition-colors">
+                <a href="/blog/" className="text-gray-300 hover:text-white transition-colors">
                   Blog
+                </a>
+              </li>
+              <li>
+                <a href="/contacto/" className="text-gray-300 hover:text-white transition-colors">
+                  Contacto
                 </a>
               </li>
             </ul>
@@ -124,7 +148,8 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Avenida de la Tecnología 25 – 28021 , España</span>
+                {/* TODO(verificar): dirección física exacta del negocio */}
+                <span className="text-gray-300">Toledo, Castilla-La Mancha, España</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-brand-green flex-shrink-0" />
@@ -173,7 +198,7 @@ export function Footer() {
                 correspondiente.
               </p>
               <p className="text-gray-400 text-xs mt-2">
-                Antenistas homologados en Toledo y  . Reparaciones en el día.
+                Antenistas homologados en Toledo y sur de Madrid. Reparaciones en el día.
               </p>
             </div>
           </div>
@@ -182,7 +207,7 @@ export function Footer() {
         <div className="border-t border-white/10 pt-6 mt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Hecho con ?? por Snapik. Todos los derechos reservados.
+              © {new Date().getFullYear()} Antenas Toledo. Hecho por Snapik. Todos los derechos reservados.
             </p>
             <div className="flex gap-6">
               <Link href="/politica-privacidad" className="text-gray-400 hover:text-white text-sm transition-colors">
@@ -191,7 +216,7 @@ export function Footer() {
               <Link href="/terminos-condiciones" className="text-gray-400 hover:text-white text-sm transition-colors">
                 Términos y condiciones
               </Link>
-              <Link href="/politica-cookies" className="text-gray-400 hover:text-white text-sm transition-colors">
+              <Link href="/politica-de-cookies" className="text-gray-400 hover:text-white text-sm transition-colors">
                 Política de cookies
               </Link>
               <button 

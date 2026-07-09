@@ -1,28 +1,12 @@
-﻿import type React from "react"
-import type { Metadata } from "next"
-import { withPhone } from "@/lib/seo"
+import type React from "react"
+import { metadataPagina } from "@/lib/paginas"
 
-export const metadata: Metadata = {
-  title: "Servicios de Telecomunicaciones | ☎️ 668 67 95 00 ",
-  description: withPhone(
-    "Servicios profesionales de telecomunicaciones: antenas TDT, porteros automáticos, cámaras de seguridad y más en . Presupuesto sin compromiso."
-  ),
-  keywords:
-    "servicios telecomunicaciones , antenas TDT, porteros automaticos, camaras seguridad, reparaciones urgentes, instalaciones telecomunicaciones",
-  robots: {
-    index: false,
-    follow: false,
-    nocache: false,
-    googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
-    },
-  },
-  alternates: {
-    canonical: "https://antenastoledo.com/servicios",
-  },
-}
+export const metadata = metadataPagina({
+  title: "Servicios de Telecomunicaciones y Seguridad | Antenas Toledo",
+  description:
+    "Interferencias 5G, antenas y parabólicas, cámaras de seguridad, alarmas y videoporteros en Toledo y zona. Presupuesto sin compromiso.",
+  ruta: "/servicios/",
+})
 
 export default function ServicesLayout({
   children,

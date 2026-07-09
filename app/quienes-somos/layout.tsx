@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   keywords:
     "empresa telecomunicaciones , quienes somos, servicios telecomunicaciones, experiencia telecomunicaciones, antenas , porteros automaticos ",
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     nocache: false,
     googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
+      index: true,
+      follow: true,
+      noimageindex: false,
     },
   },
 }

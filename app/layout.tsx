@@ -21,17 +21,20 @@ export const metadata: Metadata = {
     "telecomunicaciones toledo, antenas TDT, antenas parabólicas, porteros automáticos, cámaras seguridad, interferencias 4G",
   authors: [{ name: "Antenas Toledo" }],
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     nocache: false,
     googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
+      index: true,
+      follow: true,
+      noimageindex: false,
     },
   },
   alternates: {
-    canonical: "https://antenastoledo.com",
+    canonical: "https://antenastoledo.com/",
+    languages: {
+      "es-ES": "https://antenastoledo.com/",
+    },
   },
   openGraph: {
     type: "website",

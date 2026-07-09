@@ -9,7 +9,7 @@ import { MainNavigation } from "@/components/main-navigation"
 import { Footer } from "@/components/footer"
 import { SchemaMarkup } from "@/components/schema-markup"
 import { ServiceCard } from "@/components/ServiceCard"
-import { MunicipiosServicio } from "@/components/MunicipiosServicio"
+import { ZonasCobertura } from "@/components/ZonasCobertura"
 import { SERVICIOS } from "@/data/servicios"
 
 // Función para validar rutas de imágenes
@@ -41,11 +41,12 @@ export default function ServicesPage() {
                 <span className="text-brand-green font-medium">Servicios</span>
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-brand-black leading-tight mb-6">
-                Servicios de Telecomunicaciones 
+                Servicios de Telecomunicaciones y Seguridad
               </h1>
               <p className="text-brand-black-light text-lg max-w-2xl mx-auto mb-8">
-                Especialistas en instalación y reparación de antenas, sistemas de seguridad y telecomunicaciones
-                en toda la Comunidad de . Servicio técnico profesional con más de 25 años de experiencia.
+                Especialistas en interferencias 5G, antenas y parabólicas, cámaras de seguridad, alarmas y
+                videoporteros en Toledo, La Sagra y el sur de Madrid. Servicio técnico profesional con más de 25
+                años de experiencia.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Link href="/contacto" className="bg-brand-green hover:bg-brand-green-dark text-white rounded-full px-6 py-3 border-2 border-brand-green hover:border-brand-green-dark font-medium transition-all duration-200 no-underline inline-flex items-center gap-2">
@@ -112,8 +113,11 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        {/* Municipios donde ofrecemos servicio */}
-        <MunicipiosServicio />
+        {/* Zonas donde ofrecemos servicio */}
+        <ZonasCobertura
+          titulo="Zonas donde ofrecemos nuestros servicios"
+          descripcion="Cubrimos Toledo, Getafe, Valdemoro… y más de 100 localidades de la provincia de Toledo, La Sagra y el sur de Madrid."
+        />
       </main>
 
       <Footer />

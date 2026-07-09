@@ -10,7 +10,7 @@ import { Footer } from "@/components/footer";
 import { ContactInfo } from "@/components/contact/contact-info";
 import { ContactFaq } from "@/components/contact/contact-faq";
 import { ContactForm } from "@/components/contact/contact-form";
-import { MunicipiosServicio } from "@/components/MunicipiosServicio";
+import { ZonasCobertura } from "@/components/ZonasCobertura";
 import { Toaster } from "@/components/ui/toaster";
 
 // --- Mapeador de Íconos ---
@@ -98,7 +98,7 @@ export default function ContenidoContacto({ data }: { data: any }) {
         </section>
 
         {/* Municipios Servicio Section */}
-        <MunicipiosServicio />
+        <ZonasCobertura titulo="Zonas donde trabajamos" />
 
         {/* FAQ Section */}
         <section className="w-full py-16 md:py-24 bg-gray-50">

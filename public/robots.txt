@@ -1,2 +1,17 @@
+# robots.txt — antenastoledo.com
+# Permite el crawleo completo del sitio a buscadores clásicos y bots de citación IA.
+
 User-agent: *
+Allow: /
+
+# Bloquear bots de entrenamiento masivo
+User-agent: GPTBot
 Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+Sitemap: https://antenastoledo.com/sitemap.xml

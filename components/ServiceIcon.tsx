@@ -10,7 +10,9 @@ import {
   DoorOpen,
   Shield,
   Zap,
-  Router
+  Router,
+  Bell,
+  Phone
 } from "lucide-react"
 
 const iconMap = {
@@ -25,6 +27,8 @@ const iconMap = {
   Zap: Zap,               // Alternativo para Interferencias
   Wrench: Wrench,         // Para Reparaciones Urgentes
   Satellite: Satellite,   // Alternativo para Antenas
+  Bell: Bell,             // Para Alarmas
+  Phone: Phone,           // Para Porteros y Videoporteros
   Briefcase: Briefcase    // Icono por defecto
 }
 

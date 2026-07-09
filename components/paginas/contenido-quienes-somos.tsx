@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import { PhoneBanner } from "@/components/phone-banner";
 import { MainNavigation } from "@/components/main-navigation";
 import { Footer } from "@/components/footer";
-import { MunicipiosServicio } from "@/components/MunicipiosServicio";
+import { ZonasCobertura } from "@/components/ZonasCobertura";
 
 const iconMap = { Clock, Shield, Users, Sparkles };
 const Icon = ({ name, ...props }: { name: keyof typeof iconMap; [key: string]: any }) => {
@@ -136,7 +136,7 @@ export default function ContenidoQuienesSomos({ data: pageData }: { data: any })
       </main>
       
       {/* Municipios Servicio Section */}
-      <MunicipiosServicio />
+      <ZonasCobertura titulo="Zonas donde trabajamos" />
       
       <Footer />
     </div>

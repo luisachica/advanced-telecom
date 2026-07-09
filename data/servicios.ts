@@ -1,49 +1,52 @@
-﻿
 // data/servicios.ts
+// Los 5 Hubs de Servicio de la arquitectura SEO (Estrategia §2.2).
+// Orden según blueprint de la Home (P1 §1.2): Interferencias 5G, Antenas, Cámaras, Alarmas, Videoporteros.
 import type { Servicio } from "@/types/servicio"
 
 export const SERVICIOS: Servicio[] = [
-  
   {
-    title: "Antenas TDT",
-    slug: "antenas-tdt",
-    description: "Instalación, reparación y mantenimiento de antenas de televisión digital terrestre (TDT) para recepción de canales HD y 4K. Servicio técnico especializado con reparaciones el mismo día.",
-    image: "/images/telecom/antena-tdt-instalacion-01.jpg",
-    iconName: "Radio"
+    title: "Solución interferencias 5G",
+    slug: "solucion-interferencias-5g",
+    description:
+      "Diagnóstico y solución definitiva de interferencias 5G en su televisión: medición con espectrómetro, filtros LTE/5G y reorientación de antena. Tramitamos la subvención estatal cuando aplica.",
+    image: "/images/telecom/antena-profesional.jpg",
+    iconName: "Wifi",
   },
   {
-    title: "Antenas parabólicas",
+    title: "Antenas y parabólicas",
     slug: "antenas-parabolicas",
-    description: "Instalación y configuración de antenas parabólicas para televisión satelital. Reorientación a diferentes satélites (Astra, Hispasat) y ajuste de señal para máxima calidad de recepción.",
+    description:
+      "Instalación y reparación de antenas TDT individuales y colectivas, parabólicas para Astra y Hotbird, amplificadores y cableado. Medición de señal profesional y garantía por escrito.",
     image: "/images/telecom/antena-parabolica.jpg",
-    iconName: "Satellite"
-  },
-  {
-    title: "Porteros automáticos",
-    slug: "porteros-automaticos",
-    description: "Instalación y reparación de sistemas de porteros automáticos, citófonos, telefonillos y videoporteros. Modernización de sistemas antiguos con tecnología digital.",
-    image: "/images/telecom/portero-automatico-instalacion-01.jpg",
-    iconName: "Phone"
+    iconName: "Satellite",
   },
   {
     title: "Cámaras de seguridad",
     slug: "camaras-seguridad",
-    description: "Instalación de sistemas de videovigilancia profesional para hogares y empresas. Cámaras IP de alta definición con acceso remoto y grabación en la nube.",
+    description:
+      "Sistemas de videovigilancia CCTV para viviendas, comunidades y negocios. Cámaras IP de alta definición con visión nocturna y acceso desde el móvil. Cumplimiento de la normativa de videovigilancia.",
     image: "/images/telecom/camaras-seguridad.jpg",
-    iconName: "Camera"
+    iconName: "Camera",
   },
   {
-    title: "Solución interferencias 5G",
-    slug: "solucion-interferencias-5g",
-    description: "Diagnóstico y solución de interferencias causadas por señales 5G en la recepción de televisión. Instalación de filtros especializados y reajuste de equipos.",
-    image: "/images/telecom/antena-profesional.jpg",
-    iconName: "Wifi"
+    title: "Instalación de alarmas",
+    slug: "alarmas",
+    description:
+      "Alarmas antirrobo para viviendas, locales y comunidades: sistemas sin cuotas o con conexión a Central Receptora de Alarmas (CRA). Sensores pet-friendly y control desde el móvil.",
+    // TODO(verificar): sustituir por una foto real de instalación de alarma
+    image: "/images/telecom/trabajo-instalacion-2024-04-19.jpg",
+    iconName: "Shield",
   },
   {
-    title: "Reparaciones urgentes",
-    slug: "reparaciones-urgentes",
-    description: "Servicio de reparaciones urgentes 24/7 para antenas caídas, amplificadores averiados, pérdida de señal y otros problemas técnicos. Respuesta rápida en toda .",
-    image: "/images/telecom/reparaciones-urgentes.jpg",
-    iconName: "Zap"
+    title: "Porteros y videoporteros",
+    slug: "porteros-videoporteros",
+    description:
+      "Instalación y sustitución de porteros automáticos y videoporteros en comunidades y chalets: sistemas analógicos, digitales, IP y GSM con apertura desde el móvil.",
+    image: "/images/telecom/portero-automatico-instalacion-01.jpg",
+    iconName: "Phone",
   },
 ]
+
+export function getServicio(slug: string): Servicio | undefined {
+  return SERVICIOS.find((s) => s.slug === slug)
+}

@@ -5,8 +5,9 @@ import type React from "react"
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { Home, Briefcase, FileText, MessageCircle, ChevronDown, X, Phone, Info, BadgeCheck } from "lucide-react"
+import { Home, Briefcase, MessageCircle, ChevronDown, X, Phone, Info, MapPin } from "lucide-react"
 import { ServiceIcon } from "@/components/ServiceIcon"
+import { NAV_ZONAS } from "@/data/nav"
 
 // Función para validar rutas de imágenes
 const validateImageSrc = (src: string | undefined | null): string => {
@@ -27,6 +28,7 @@ interface MobileMenuProps {
 
 export function MobileMenu({ services = [], isOpen, onClose }: MobileMenuProps) {
   const [servicesOpen, setServicesOpen] = useState(false)
+  const [zonasOpen, setZonasOpen] = useState(false)
 
   if (!isOpen) return null
 
@@ -42,7 +44,7 @@ export function MobileMenu({ services = [], isOpen, onClose }: MobileMenuProps) 
         <div className="p-4 flex justify-between items-center border-b">
           <div className="flex items-center">
             <Image
-              src={validateImageSrc("/logo-advanced-telecom-horizontal.png") || "/placeholder.svg"}
+              src={validateImageSrc("/logo-antenas-toledo.png") || "/placeholder.svg"}
               alt="Antenas Toledo Logo"
               width={200}
               height={53}
@@ -72,15 +74,6 @@ export function MobileMenu({ services = [], isOpen, onClose }: MobileMenuProps) 
           >
             <Info className="h-5 w-5" />
             <span className="font-medium">Quiénes Somos</span>
-          </Link>
-
-          <Link
-            href="/antenista-de-confianza-en-toledo-y--"
-            className="flex items-center gap-3 p-3 rounded-lg hover:bg-brand-green/10 text-brand-black hover:text-brand-green"
-            onClick={onClose}
-          >
-            <BadgeCheck className="h-5 w-5" />
-            <span className="font-medium">Antenista homologado</span>
           </Link>
 
           <div className="border-b border-gray-100 my-2"></div>
@@ -131,6 +124,38 @@ export function MobileMenu({ services = [], isOpen, onClose }: MobileMenuProps) 
               <Briefcase className="h-5 w-5" />
               <span className="font-medium">Servicios</span>
             </Link>
+          )}
+
+          <button
+            className="flex items-center gap-3 p-3 rounded-lg text-brand-black hover:bg-brand-green/10 hover:text-brand-green"
+            onClick={() => setZonasOpen(!zonasOpen)}
+          >
+            <MapPin className="h-5 w-5" />
+            <span className="font-medium">Zonas</span>
+            <ChevronDown className={`ml-auto h-5 w-5 transition-transform duration-200 ${zonasOpen ? "rotate-180" : ""}`} />
+          </button>
+
+          {zonasOpen && (
+            <div className="space-y-1 py-1">
+              {NAV_ZONAS.map((zona) => (
+                <Link
+                  key={zona.slug}
+                  href={`/localidades/${zona.slug}`}
+                  className="flex items-center gap-3 p-2.5 rounded-lg hover:bg-brand-green/10 text-brand-black hover:text-brand-green transition-all duration-200"
+                  onClick={onClose}
+                >
+                  <MapPin className="h-4 w-4 text-brand-green" />
+                  <span className="font-medium">{zona.nombre}</span>
+                </Link>
+              ))}
+              <Link
+                href="/cobertura"
+                className="flex items-center gap-3 p-2.5 rounded-lg hover:bg-brand-green/10 text-brand-green font-medium"
+                onClick={onClose}
+              >
+                Ver toda la cobertura
+              </Link>
+            </div>
           )}
 
           <div className="border-b border-gray-100 my-2"></div>

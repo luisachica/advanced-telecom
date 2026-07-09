@@ -1,6 +1,60 @@
-# Cloudflare Pages redirects
+# Cloudflare Pages redirects — antenastoledo.com
+# Las reglas se evalúan en orden: primero las específicas, después los comodines.
 
+# ——— Redirecciones históricas (se conservan) ———
 /politica-de-cookies-2/          /politica-de-cookies/                301
-/solicitar-servicio/             /servicios                           301
-/antenas-y-parabolicas/          /servicios/antenas-parabolicas       301
-/porteros-automaticos-y-video-porteros/ /servicios/porteros-automaticos 301
+/solicitar-servicio/             /servicios/                          301
+/antenas-y-parabolicas/          /servicios/antenas-parabolicas/      301
+/porteros-automaticos-y-video-porteros/ /servicios/porteros-videoporteros/ 301
+
+# ——— Consolidación de servicios (arquitectura SEO v1.0: 5 hubs) ———
+/servicios/antenas-tdt*          /servicios/antenas-parabolicas/      301
+/servicios/reparaciones-urgentes* /                                   301
+/servicios/porteros-automaticos* /servicios/porteros-videoporteros/   301
+
+# ——— Antiguas páginas antenista-* que corresponden a localidades Tier 2 ———
+/antenista-arges*                /localidades/arges/                  301
+/antenista-bargas*               /localidades/bargas/                 301
+/antenista-camarena*             /localidades/camarena/               301
+/antenista-cobisa*               /localidades/cobisa/                 301
+/antenista-magan*                /localidades/magan/                  301
+/antenista-mocejon*              /localidades/mocejon/                301
+/antenista-nambroca*             /localidades/nambroca/               301
+/antenista-olias-del-rey*        /localidades/olias-del-rey/          301
+
+# ——— Barrios y urbanizaciones de Toledo (Tier 3 → hub de Toledo) ———
+/antenista-antequeruela*         /localidades/toledo/                 301
+/antenista-avenida-de-europa*    /localidades/toledo/                 301
+/antenista-avenida-reconquista*  /localidades/toledo/                 301
+/antenista-azucaica*             /localidades/toledo/                 301
+/antenista-barrio-del-poligono*  /localidades/toledo/                 301
+/antenista-buenavista*           /localidades/toledo/                 301
+/antenista-covachuelas*          /localidades/toledo/                 301
+/antenista-la-bastida*           /localidades/toledo/                 301
+/antenista-la-legua*             /localidades/toledo/                 301
+/antenista-las-tres-culturas*    /localidades/toledo/                 301
+/antenista-los-cigarrales*       /localidades/toledo/                 301
+/antenista-montesion*            /localidades/toledo/                 301
+/antenista-olivar-de-los-pozos*  /localidades/toledo/                 301
+/antenista-palomarejos*          /localidades/toledo/                 301
+/antenista-san-bernardo*         /localidades/toledo/                 301
+/antenista-san-martin*           /localidades/toledo/                 301
+/antenista-santa-barbara*        /localidades/toledo/                 301
+/antenista-santa-teresa*         /localidades/toledo/                 301
+/antenista-sta-m-benquerencia*   /localidades/toledo/                 301
+/antenista-valparaiso*           /localidades/toledo/                 301
+/antenista-vega-baja*            /localidades/toledo/                 301
+/antenista-vista-hermosa*        /localidades/toledo/                 301
+
+# ——— Núcleos rurales Tier 3 → cabecera de su clúster ———
+/antenista-arcicollar*           /localidades/fuensalida/             301
+/antenista-barience*             /localidades/fuensalida/             301
+/antenista-rielves*              /localidades/fuensalida/             301
+/antenista-layos*                /localidades/arges/                  301
+/antenista-yunclillos*           /localidades/yuncos/                 301
+
+# ——— Comodines finales: cualquier otra URL antigua antenista-* (incl. las que solo
+#     existían en el sitemap) → índice de cobertura ———
+/antenista-en-*                  /cobertura/                          301
+/tecnico-antenista-*             /cobertura/                          301
+/antenista-*                     /cobertura/                          301
